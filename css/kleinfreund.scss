@@ -279,7 +279,7 @@ pre {
 .page-head {
     @extend %cf;
     background-color: $base-color;
-    border-bottom: 7px solid $base-color;
+    border-bottom: 7px solid $base-color-dark;
 
     &,
     a {
@@ -327,6 +327,7 @@ pre {
 .section-header {
     padding: $base-spacing-unit / 2;
     @extend %text-shadow;
+    background-color: $base-color-dark;
 
     &,
     a {
@@ -431,7 +432,7 @@ pre {
     line-height: 1.875;
     padding: $base-spacing-unit / 2 $base-spacing-unit;
     background-color: $base-color;
-    border-top: 7px solid $base-color;
+    border-top: 7px solid $base-color-dark;
 
     p {
         margin-bottom: 0;
