@@ -25,6 +25,7 @@ We do have some restrictions including a kinda predefined directory structure an
 * create logo/favicon
 * create `robots.txt`
 * create `sitemap.xml`
+* add to Google Webmaster Tools
 * write documentation
 * test (IE8, old browsers in school)
 * write articles:
