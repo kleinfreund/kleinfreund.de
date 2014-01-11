@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang=de>
+<head>
+    <meta charset=utf-8>
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
+
+    <title>kleinfreund</title>
+
+    <link rel=stylesheet href="css/style.css">
+    <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
+</head>
+<body class=section-hallo>
+    <header class=page-head>
+        <h1 class=site-title>klein<span class=site-title__freund>freund</span></h1>
+        <nav class=site-nav role=navigation>
+            <a href="index.html" class="site-nav__item site-nav__item--hallo site-nav--current" rel=home>Hallo</a><!--
+         --><a href="html/profil.html" class="site-nav__item site-nav__item--profil">Profil</a><!--
+         --><a href="html/kontakt.html" class="site-nav__item site-nav__item--kontakt">Kontakt</a><!--
+         --><a href="html/impressum.html" class="site-nav__item site-nav__item--impressum">Impressum</a>
+        </nav>
+    </header>
+    <main class=site-content role=main>
+        <header class=section-header>
+            <h2 class=section-title>Hallo, wie geht's dir?</h2>
+        </header>
+
+        <article class="wrapper entry">
+            <header class=entry__header>
+                <h3>HTML5: Holzschwert und -schild</h3>
+            </header>
+            <p>HTML5 umfasst mehr als nur ein paar neue Elemente. Es ist nicht einfach der Nachfolger von HTML 4. Aber das ist für uns heute egal. Wir kümmern uns jetzt nur um das, womit man ein klassisches Abenteuer in <em>The Legend Of Zelda</em> beginnt: Holzschwert- und Schild.</p>
+            <p>Der erste Schritt ist denkbar simpel. Sämtliche alten Doctypes über Bord werfen und folgendes ganz am Anfang jedes HTML-Dokuments:</p>
+            <pre><code>&lt;!DOCTYPE html&gt;</code></pre>
+            <p>Wie schon erwähnt, gibt es ein paar neue Elemente, die sich zum Großteil ganz genau so verhalten wie ein <code>&lt;div&gt;</code>.</p>
+            <ul>
+                <li><code>article</code></li>
+                <li><code>aside</code></li>
+                <li><code>figcaption</code></li>
+                <li><code>figure</code></li>
+                <li><code>footer</code></li>
+                <li><code>header</code></li>
+                <li><code>main</code></li>
+                <li><code>nav</code></li>
+                <li><code>section</code></li>
+                <li>und viele mehr&hellip;</li>
+            </ul>
+            <p>Aufgrund der relativen Neuartigkeit dieser Elemente, ist es ratsam folgende CSS-Regel zu setzen, da sonst in einigen älteren Browsern böse Überraschungen warten.</p>
+<pre><code>article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+}</code></pre>
+            <h4>Die einzelnen Elemente kurz erklärt</h4>
+            <p><strong>article:</strong> Kennzeichnet Artikel, Blogeinträge, Newsblöcke etc. Wie der Name es vermuten lässt.</p>
+            <p><strong>figure und figcaption:</strong> Bild mit Bildunterschrift.</p>
+            <p><strong>footer:</strong> Jetzt wird's interessanter. Ein <code>footer</code> enthält begleitende Informationen zum Hauptinhalt. Also zum Beispiel Metadaten zur Hauptseite (Ersteller, &hellip;) oder zu einem Artikel (Veröffentlichungsdatum und -zeit, Autor, &hellip;). Er ist allerdings nicht zwingend am Ende der dazugehörigen Hauptinformation zu finden. Er ist nur semantisch gesehen seines Namens entsprechend, kann also auch über einem Artikel und dessen Titel stehen.</p>
+            <p><strong>header:</strong> Das selbe gilt für <code>header</code>. Er enthält hauptsächlich Überschriften/Titel, kann aber auch eine Navigation beinhalten.</p>
+            <p><strong>main:</strong> Dient als Container für den Hauptinhalt der Seite. Könnte als solches also alle Artikel auf einer Seite enthalten.</p>
+            <p><strong>nav:</strong> Kann jegliche Form der Navigation enthalten.</p>
+            <p><strong>section:</strong> Grenzt mehrere, zusammengehörige Inhaltsblöcke voneinander ab. Einzelne Sektionen langer Wikipedia-Artikel zum Beispiel.</p>
+        </article>
+
+        <article class="wrapper entry">
+            <header class=entry__header>
+                <h3>Studioportr&auml;t: Martin &amp; Philipp</h3>
+            </header>
+            <p>Im Rahmen unserer ersten Gehversuche in der Studiofotografie entstanden diese wundervollen Momentaufnahme von Martin und mir. Wir wollten es eigentlich geheim halten, doch jetzt muss es raus.</p>
+            <p><img src="images/martin-phil-1.jpg" alt="Studioport&auml;t: Martin und Philipp 1"></p>
+            <p><img src="images/martin-phil-2.jpg" alt="Studioport&auml;t: Martin und Philipp 2"></p>
+            <p><img src="images/martin-phil-3.jpg" alt="Studioport&auml;t: Martin und Philipp 3"></p>
+            <p><img src="images/martin-phil-4.jpg" alt="Studioport&auml;t: Martin und Philipp 4"></p>
+        </article>
+    </main>
+    <footer class=page-foot>
+        <p>Eine Seite von <a href="http://twitter.com/kleinfreund">Philipp Rudloff</a>.
+    </footer>
+</body>
+</html>
