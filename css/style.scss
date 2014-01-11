@@ -1,0 +1,600 @@
+@charset "UTF-8";
+@import url("normalize.css");
+@import url("ubuntu.css");
+
+$base-spacing-unit: 30px;
+
+$background-color: #dedede;
+$foreground-color: #444;
+$bright-ui-color: #fff;
+
+$base-color: #444;
+$base-color-dark: darken($base-color, 7%);
+
+$green-color: #5a9b00;
+$green-color-light: lighten($green-color, 7%);
+
+$blue-color: #507bd3;
+$blue-color-light: lighten($blue-color, 7%);
+
+$orange-color: #eb9800;
+$orange-color-light: lighten($orange-color, 7%);
+
+$red-color: #db2427;
+$red-color-light: lighten($red-color, 7%);
+
+
+
+
+
+
+/*------------------------------------*\
+    BASE
+\*------------------------------------*/
+
+/**
+ * Nice box model for everything
+ */
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+/**
+ * Reset initial margins/paddings
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+dl, dd, ol, ul,
+form, fieldset, legend,
+table, th, td, caption,
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+/**
+ * Give form elements some cursor interactions...
+ */
+label,
+input,
+textarea,
+button,
+select,
+option {
+    cursor: pointer;
+}
+
+input:active,
+input:focus,
+textarea:active,
+textarea:focus {
+    cursor: text;
+    outline: none;
+}
+
+button:active,
+button:focus {
+    outline: none;
+}
+
+/**
+ * Micro clearfix, as per: css-101.org/articles/clearfix/latest-new-clearfix-so-far.php
+ */
+.cf:after,
+%cf:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/**
+ * Vertical rhythm for text content
+ */
+h1, h2, h3, h4, h5, h6,
+ul, ol, dl,
+blockquote, p, address,
+table,
+fieldset, figure,
+pre,
+%vertical-rhythm {
+    margin-bottom: $base-spacing-unit;
+    margin-bottom: 1.5rem;
+}
+
+ul, ol, dd {
+    margin-left: $base-spacing-unit;
+    margin-left: 1.5rem;
+}
+
+/**
+ * Base styles
+ */
+html {
+    font: 1.25em/1.5 Ubuntu, sans-serif;
+    color: $foreground-color;
+    background-color: $background-color;
+    font-weight: 300;
+}
+
+dt, strong {
+    font-weight: 500;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+/**
+ * Headings
+ */
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 36px;
+    font-size: 1.8rem;
+    line-height: 1.66667;
+}
+
+h2 {
+    font-size: $base-spacing-unit;
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+h3 {
+    font-size: 24px;
+    font-size: 1.2rem;
+    line-height: 1.25;
+}
+
+h4 {
+    font-size: 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+h5 {
+    font-size: 16px;
+    font-size: 0.8rem;
+    line-height: 1.875;
+}
+
+h6 {
+    font-size: 14px;
+    font-size: 0.7rem;
+    line-height: 2.14286;
+}
+
+/**
+ * Responsive images.
+ */
+img {
+    max-width: 100%;
+}
+
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: 14px;
+    font-size: 0.7rem;
+    line-height: 2.14286;
+}
+
+/**
+ * Image placement variations.
+ */
+.img--right {
+    float: right;
+    margin-bottom: $base-spacing-unit;
+    margin-left: $base-spacing-unit;
+}
+
+.img--left {
+    float: left;
+    margin-right: $base-spacing-unit;
+    margin-bottom: $base-spacing-unit;
+}
+
+.img--center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: $base-spacing-unit;
+}
+
+/**
+ * Nested lists
+ */
+li > ul,
+li > ol {
+    margin-bottom: 0;
+}
+
+/**
+ * Anchors
+ */
+a {
+    color: $foreground-color;
+}
+
+/**
+ * Code
+ */
+pre, code,
+kbd, samp {
+    font-family: Inconsolata, Monaco, Consolas, "Courier New", Courier, monospace;
+    font-size: 16px;
+    font-size: 0.8rem;
+    line-height: 1.875;
+}
+
+pre {
+    overflow: auto;
+    white-space: pre;
+    word-wrap: normal;
+    color: $bright-ui-color;
+    background-color: $base-color;
+    padding: $base-spacing-unit / 4 $base-spacing-unit / 2;
+    border-radius: 2px;
+}
+
+
+
+
+
+/*------------------------------------*\
+    LAYOUT
+\*------------------------------------*/
+
+.wrapper {
+    max-width: 680px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $base-spacing-unit;
+    padding-left: $base-spacing-unit;
+
+    @media only screen and (max-width: 640px) {
+        padding-right: $base-spacing-unit / 2;
+        padding-left: $base-spacing-unit / 2;
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+        PAGE-HEAD
+\*------------------------------------*/
+.page-head {
+    @extend %cf;
+    background-color: $base-color;
+    border-bottom: 7px solid $base-color;
+
+    &,
+    a {
+        color: $bright-ui-color;
+    }
+
+    .section-hallo & {
+        border-color: $green-color;
+    }
+
+    .section-profil & {
+        border-color: $blue-color;
+    }
+
+    .section-kontakt & {
+        border-color: $orange-color;
+    }
+
+    .section-impressum & {
+        border-color: $red-color;
+    }
+
+    @media only screen and (max-width: 640px) {
+        text-align: center;
+    }
+}
+
+    .site-title {
+        margin-bottom: 0;
+        display: inline-block;
+        margin: $base-spacing-unit / 2 $base-spacing-unit 0;
+    }
+
+        .site-title__freund {
+            font-weight: 500;
+        }
+
+
+
+
+
+/*------------------------------------*\
+        PAGE
+\*------------------------------------*/
+.section-header {
+    padding: $base-spacing-unit / 2;
+    @extend %text-shadow;
+
+    &,
+    a {
+        color: $bright-ui-color;
+    }
+
+    .section-hallo & {
+        background-color: $green-color-light;
+    }
+
+    .section-profil & {
+        background-color: $blue-color-light;
+    }
+
+    .section-kontakt & {
+        background-color: $orange-color-light;
+    }
+
+    .section-impressum & {
+        background-color: $red-color-light;
+    }
+
+    @media only screen and (min-width: 641px) {
+        padding: $base-spacing-unit / 2 $base-spacing-unit * 2;
+    }
+}
+
+.section-header,
+.entry {
+    margin-bottom: $base-spacing-unit * 2;
+    margin-bottom: 3rem;
+
+    @media only screen and (min-width: 641px) {
+        margin-bottom: $base-spacing-unit * 4;
+        margin-bottom: 6rem;
+    }
+}
+
+    .section-title {
+        margin-bottom: 0;
+    }
+
+    .entry {
+        a {
+            color: $base-color;
+            font-weight: 500;
+            text-decoration: none;
+
+            &:hover {
+                border-bottom: 0.125em solid;
+            }
+
+            .section-hallo & {
+                color: $green-color;
+            }
+
+            .section-profil & {
+                color: $blue-color;
+            }
+
+            .section-kontakt & {
+                color: $orange-color;
+            }
+
+            .section-impressum & {
+                color: $red-color;
+            }
+        }
+    }
+
+        .entry__header {
+            .section-hallo & {
+                color: $green-color;
+            }
+
+            .section-profil & {
+                color: $blue-color;
+            }
+
+            .section-kontakt & {
+                color: $orange-color;
+            }
+
+            .section-impressum & {
+                color: $red-color;
+            }
+        }
+
+
+
+
+
+
+
+/*------------------------------------*\
+        PAGE-FOOT
+\*------------------------------------*/
+.page-foot {
+    @extend %cf;
+    font-size: 16px;
+    font-size: 0.8rem;
+    line-height: 1.875;
+    padding: $base-spacing-unit / 2 $base-spacing-unit;
+    background-color: $base-color;
+    border-top: 7px solid $base-color;
+
+    p {
+        margin-bottom: 0;
+    }
+
+    &,
+    a {
+        color: $bright-ui-color;
+    }
+
+    .section-hallo & {
+        border-color: $green-color;
+    }
+
+    .section-profil & {
+        border-color: $blue-color;
+    }
+
+    .section-kontakt & {
+        border-color: $orange-color;
+    }
+
+    .section-impressum & {
+        border-color: $red-color;
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+        NAVIGATION
+\*------------------------------------*/
+.site-nav {
+    line-height: 1;
+    display: table;
+    width: 100%;
+
+    @media only screen and (min-width: 641px) {
+        text-align: right;
+        margin-left: -$base-spacing-unit / 2;
+        padding-right: 10%;
+    }
+}
+
+    .site-nav__item {
+        display: table-cell;
+        padding: $base-spacing-unit / 4;
+        @extend %text-shadow;
+        text-decoration: none;
+
+        @media only screen and (min-width: 641px) {
+            display: inline-block;
+            margin-left: $base-spacing-unit / 2;
+            padding: $base-spacing-unit / 2;
+            font-weight: 500;
+            position: relative;
+            z-index: 13;
+
+            &:after {
+                content: "";
+                width: 0;
+                height: 0;
+                position: absolute;
+                    top: 0;
+                    right: -50px;
+                z-index: 12;
+                border-style: solid;
+                border-width: 50px 0 0 50px;
+                border-color: transparent transparent transparent $base-color-dark;
+            }
+        }
+
+        @media only screen and (min-width: 1025px) {
+            padding: $base-spacing-unit / 2 $base-spacing-unit;
+        }
+    }
+
+    .site-nav__item--hallo {
+        background-color: $green-color;
+
+        &:not(.site-nav--current):hover {
+            background-color: $green-color-light;
+        }
+    }
+
+    .site-nav__item--profil {
+        background-color: $blue-color;
+
+        &:not(.site-nav--current):hover {
+            background-color: $blue-color-light;
+        }
+    }
+
+    .site-nav__item--kontakt {
+        background-color: $orange-color;
+
+        &:not(.site-nav--current):hover {
+            background-color: $orange-color-light;
+        }
+    }
+
+    .site-nav__item--impressum {
+        background-color: $red-color;
+
+        &:not(.site-nav--current):hover {
+            background-color: $red-color-light;
+        }
+    }
+
+
+
+
+
+/*------------------------------------*\
+        FORM
+\*------------------------------------*/
+
+.form__item {
+    @extend %vertical-rhythm;
+    padding: $base-spacing-unit / 2;
+    border: 0;
+    border-radius: 0;
+}
+
+.form__item--input,
+.form__item--textarea {
+    width: 100%;
+    border-left: 7px solid $orange-color;
+
+    &:focus {
+        border-left-color: $base-color;
+    }
+}
+
+.form__item--textarea {
+    resize: vertical;
+}
+
+.form__item--button {
+    @extend %text-shadow;
+    padding-right: $base-spacing-unit * 2;
+    padding-left: $base-spacing-unit * 2;
+    color: $bright-ui-color;
+    background-color: $orange-color;
+    font-weight: 500;
+
+    &:active,
+    &:hover,
+    &:focus {
+        background-color: $orange-color-light;
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+        MISC
+\*------------------------------------*/
+
+%text-shadow {
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}

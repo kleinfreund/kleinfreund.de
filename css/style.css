@@ -1,0 +1,504 @@
+@import url("normalize.css");
+@import url("ubuntu.css");
+/*------------------------------------*\
+    BASE
+\*------------------------------------*/
+/**
+ * Nice box model for everything
+ */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/**
+ * Reset initial margins/paddings
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+dl, dd, ol, ul,
+form, fieldset, legend,
+table, th, td, caption,
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Give form elements some cursor interactions...
+ */
+label,
+input,
+textarea,
+button,
+select,
+option {
+  cursor: pointer;
+}
+
+input:active,
+input:focus,
+textarea:active,
+textarea:focus {
+  cursor: text;
+  outline: none;
+}
+
+button:active,
+button:focus {
+  outline: none;
+}
+
+/**
+ * Micro clearfix, as per: css-101.org/articles/clearfix/latest-new-clearfix-so-far.php
+ */
+.cf:after,
+.page-head:after,
+.page-foot:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/**
+ * Vertical rhythm for text content
+ */
+h1, h2, h3, h4, h5, h6,
+ul, ol, dl,
+blockquote, p, address,
+table,
+fieldset, figure,
+pre,
+.form__item {
+  margin-bottom: 30px;
+  margin-bottom: 1.5rem;
+}
+
+ul, ol, dd {
+  margin-left: 30px;
+  margin-left: 1.5rem;
+}
+
+/**
+ * Base styles
+ */
+html {
+  font: 1.25em/1.5 Ubuntu, sans-serif;
+  color: #444444;
+  background-color: #dedede;
+  font-weight: 300;
+}
+
+dt, strong {
+  font-weight: 500;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 36px;
+  font-size: 1.8rem;
+  line-height: 1.66667;
+}
+
+h2 {
+  font-size: 30px;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+h3 {
+  font-size: 24px;
+  font-size: 1.2rem;
+  line-height: 1.25;
+}
+
+h4 {
+  font-size: 20px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+h5 {
+  font-size: 16px;
+  font-size: 0.8rem;
+  line-height: 1.875;
+}
+
+h6 {
+  font-size: 14px;
+  font-size: 0.7rem;
+  line-height: 2.14286;
+}
+
+/**
+ * Responsive images.
+ */
+img {
+  max-width: 100%;
+}
+
+/**
+ * Figures
+ */
+figure > img {
+  display: block;
+}
+
+figcaption {
+  font-size: 14px;
+  font-size: 0.7rem;
+  line-height: 2.14286;
+}
+
+/**
+ * Image placement variations.
+ */
+.img--right {
+  float: right;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+.img--left {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.img--center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+}
+
+/**
+ * Nested lists
+ */
+li > ul,
+li > ol {
+  margin-bottom: 0;
+}
+
+/**
+ * Anchors
+ */
+a {
+  color: #444444;
+}
+
+/**
+ * Code
+ */
+pre, code,
+kbd, samp {
+  font-family: Inconsolata, Monaco, Consolas, "Courier New", Courier, monospace;
+  font-size: 16px;
+  font-size: 0.8rem;
+  line-height: 1.875;
+}
+
+pre {
+  overflow: auto;
+  white-space: pre;
+  word-wrap: normal;
+  color: white;
+  background-color: #444444;
+  padding: 7.5px 15px;
+  border-radius: 2px;
+}
+
+/*------------------------------------*\
+    LAYOUT
+\*------------------------------------*/
+.wrapper {
+  max-width: 680px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+@media only screen and (max-width: 640px) {
+  .wrapper {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+/*------------------------------------*\
+        PAGE-HEAD
+\*------------------------------------*/
+.page-head {
+  background-color: #444444;
+  border-bottom: 7px solid #444444;
+}
+.page-head,
+.page-head a {
+  color: white;
+}
+.section-hallo .page-head {
+  border-color: #5a9b00;
+}
+.section-profil .page-head {
+  border-color: #507bd3;
+}
+.section-kontakt .page-head {
+  border-color: #eb9800;
+}
+.section-impressum .page-head {
+  border-color: #db2427;
+}
+@media only screen and (max-width: 640px) {
+  .page-head {
+    text-align: center;
+  }
+}
+
+.site-title {
+  margin-bottom: 0;
+  display: inline-block;
+  margin: 15px 30px 0;
+}
+
+.site-title__freund {
+  font-weight: 500;
+}
+
+/*------------------------------------*\
+        PAGE
+\*------------------------------------*/
+.section-header {
+  padding: 15px;
+}
+.section-header,
+.section-header a {
+  color: white;
+}
+.section-hallo .section-header {
+  background-color: #6fbf00;
+}
+.section-profil .section-header {
+  background-color: #6d91da;
+}
+.section-kontakt .section-header {
+  background-color: #ffaa10;
+}
+.section-impressum .section-header {
+  background-color: #e04345;
+}
+@media only screen and (min-width: 641px) {
+  .section-header {
+    padding: 15px 60px;
+  }
+}
+
+.section-header,
+.entry {
+  margin-bottom: 60px;
+  margin-bottom: 3rem;
+}
+@media only screen and (min-width: 641px) {
+  .section-header,
+  .entry {
+    margin-bottom: 120px;
+    margin-bottom: 6rem;
+  }
+}
+
+.section-title {
+  margin-bottom: 0;
+}
+
+.entry a {
+  color: #444444;
+  font-weight: 500;
+  text-decoration: none;
+}
+.entry a:hover {
+  border-bottom: 0.125em solid;
+}
+.section-hallo .entry a {
+  color: #5a9b00;
+}
+.section-profil .entry a {
+  color: #507bd3;
+}
+.section-kontakt .entry a {
+  color: #eb9800;
+}
+.section-impressum .entry a {
+  color: #db2427;
+}
+
+.section-hallo .entry__header {
+  color: #5a9b00;
+}
+.section-profil .entry__header {
+  color: #507bd3;
+}
+.section-kontakt .entry__header {
+  color: #eb9800;
+}
+.section-impressum .entry__header {
+  color: #db2427;
+}
+
+/*------------------------------------*\
+        PAGE-FOOT
+\*------------------------------------*/
+.page-foot {
+  font-size: 16px;
+  font-size: 0.8rem;
+  line-height: 1.875;
+  padding: 15px 30px;
+  background-color: #444444;
+  border-top: 7px solid #444444;
+}
+.page-foot p {
+  margin-bottom: 0;
+}
+.page-foot,
+.page-foot a {
+  color: white;
+}
+.section-hallo .page-foot {
+  border-color: #5a9b00;
+}
+.section-profil .page-foot {
+  border-color: #507bd3;
+}
+.section-kontakt .page-foot {
+  border-color: #eb9800;
+}
+.section-impressum .page-foot {
+  border-color: #db2427;
+}
+
+/*------------------------------------*\
+        NAVIGATION
+\*------------------------------------*/
+.site-nav {
+  line-height: 1;
+  display: table;
+  width: 100%;
+}
+@media only screen and (min-width: 641px) {
+  .site-nav {
+    text-align: right;
+    margin-left: -15px;
+    padding-right: 10%;
+  }
+}
+
+.site-nav__item {
+  display: table-cell;
+  padding: 7.5px;
+  text-decoration: none;
+}
+@media only screen and (min-width: 641px) {
+  .site-nav__item {
+    display: inline-block;
+    margin-left: 15px;
+    padding: 15px;
+    font-weight: 500;
+    position: relative;
+    z-index: 13;
+  }
+  .site-nav__item:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    right: -50px;
+    z-index: 12;
+    border-style: solid;
+    border-width: 50px 0 0 50px;
+    border-color: transparent transparent transparent #323232;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .site-nav__item {
+    padding: 15px 30px;
+  }
+}
+
+.site-nav__item--hallo {
+  background-color: #5a9b00;
+}
+.site-nav__item--hallo:not(.site-nav--current):hover {
+  background-color: #6fbf00;
+}
+
+.site-nav__item--profil {
+  background-color: #507bd3;
+}
+.site-nav__item--profil:not(.site-nav--current):hover {
+  background-color: #6d91da;
+}
+
+.site-nav__item--kontakt {
+  background-color: #eb9800;
+}
+.site-nav__item--kontakt:not(.site-nav--current):hover {
+  background-color: #ffaa10;
+}
+
+.site-nav__item--impressum {
+  background-color: #db2427;
+}
+.site-nav__item--impressum:not(.site-nav--current):hover {
+  background-color: #e04345;
+}
+
+/*------------------------------------*\
+        FORM
+\*------------------------------------*/
+.form__item {
+  padding: 15px;
+  border: 0;
+  border-radius: 0;
+}
+
+.form__item--input,
+.form__item--textarea {
+  width: 100%;
+  border-left: 7px solid #eb9800;
+}
+.form__item--input:focus,
+.form__item--textarea:focus {
+  border-left-color: #444444;
+}
+
+.form__item--textarea {
+  resize: vertical;
+}
+
+.form__item--button {
+  padding-right: 60px;
+  padding-left: 60px;
+  color: white;
+  background-color: #eb9800;
+  font-weight: 500;
+}
+.form__item--button:active, .form__item--button:hover, .form__item--button:focus {
+  background-color: #ffaa10;
+}
+
+/*------------------------------------*\
+        MISC
+\*------------------------------------*/
+.section-header, .site-nav__item, .form__item--button {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
