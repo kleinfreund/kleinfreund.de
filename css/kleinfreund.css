@@ -690,6 +690,12 @@ pre {
 
 .site-logo > img {
   float: left;
+  width: 64px;
+  height: 64px;
+  background-image: url(../img/kleinfreund.png);
+  /* Fallback for <IE9 */
+  background-image: url(../img/kleinfreund.svg);
+  background-size: 64px 64px;
 }
 
 .site-title {
