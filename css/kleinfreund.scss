@@ -317,9 +317,10 @@ pre {
             float: left;
             width: 64px;
             height: 64px;
-            background-image: url(../img/kleinfreund.png); /* Fallback for <IE9 */ 
+            background: url(../img/kleinfreund.png) no-repeat; /* Fallback for <IE9 */ 
             background-image: url(../img/kleinfreund.svg);
-            background-size: 64px 64px;
+            -webkit-background-size: 64px 64px;
+                    background-size: 64px 64px;
         }
 
         .site-title {
