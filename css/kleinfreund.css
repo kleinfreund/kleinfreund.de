@@ -682,6 +682,11 @@ pre {
   display: block;
   padding: 15px;
 }
+@media only screen and (min-width: 641px) {
+  .site-logo {
+    padding: 15px 60px;
+  }
+}
 
 .site-logo > img {
   float: left;

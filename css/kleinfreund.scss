@@ -307,6 +307,10 @@ pre {
     .site-logo {
         display: block;
         padding: $base-spacing-unit / 2;
+
+        @media only screen and (min-width: 641px) {
+            padding: $base-spacing-unit / 2 $base-spacing-unit * 2;
+        }
     }
 
         .site-logo > img {
