@@ -118,7 +118,7 @@ html {
     font-weight: 300;
 }
 
-dt, strong {
+dt, strong, .bold {
     font-weight: 500;
 }
 
@@ -175,6 +175,7 @@ h6, .h6 {
  */
 img {
     max-width: 100%;
+    vertical-align: middle;
 }
 
 /**
@@ -314,7 +315,7 @@ pre {
     }
 
         .site-logo > img {
-            float: left;
+            display: inline-block;
             width: 64px;
             height: 64px;
             background: url(../img/kleinfreund.png) no-repeat; /* Fallback for <IE9 */ 
@@ -325,14 +326,11 @@ pre {
 
         .site-title {
             display: inline-block;
+            vertical-align: middle;
             line-height: 64px;
             margin-bottom: 0;
             margin-left: $base-spacing-unit / 2;
         }
-
-            .site-title__freund {
-                font-weight: 500;
-            }
 
 
 
@@ -500,7 +498,6 @@ pre {
         display: table-cell;
         padding: $base-spacing-unit / 4 $base-spacing-unit / 6;
         @extend %text-shadow;
-        text-decoration: none;
 
         @media only screen and (min-width: 641px) {
             display: inline-block;
