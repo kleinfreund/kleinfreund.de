@@ -498,7 +498,7 @@ pre {
 
     .site-nav__item {
         display: table-cell;
-        padding: $base-spacing-unit / 4;
+        padding: $base-spacing-unit / 4 $base-spacing-unit / 6;
         @extend %text-shadow;
         text-decoration: none;
 

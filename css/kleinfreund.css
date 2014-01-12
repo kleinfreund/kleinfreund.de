@@ -839,7 +839,7 @@ pre {
 
 .site-nav__item {
   display: table-cell;
-  padding: 7.5px;
+  padding: 7.5px 5px;
   text-decoration: none;
 }
 @media only screen and (min-width: 641px) {
