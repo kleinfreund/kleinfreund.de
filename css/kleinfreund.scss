@@ -134,37 +134,37 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
 }
 
-h1 {
+h1, .h1 {
     font-size: 36px;
     font-size: 1.8rem;
     line-height: 1.66667;
 }
 
-h2 {
+h2, .h2 {
     font-size: $base-spacing-unit;
     font-size: 1.5rem;
     line-height: 1;
 }
 
-h3 {
+h3, .h3 {
     font-size: 24px;
     font-size: 1.2rem;
     line-height: 1.25;
 }
 
-h4 {
+h4, .h4 {
     font-size: 20px;
     font-size: 1rem;
     line-height: 1.5;
 }
 
-h5 {
+h5, .h5 {
     font-size: 16px;
     font-size: 0.8rem;
     line-height: 1.875;
 }
 
-h6 {
+h6, .h6 {
     font-size: 14px;
     font-size: 0.7rem;
     line-height: 2.14286;
@@ -284,6 +284,7 @@ pre {
     &,
     a {
         color: $bright-ui-color;
+        text-decoration: none;
     }
 
     .section-hallo & {
@@ -301,21 +302,27 @@ pre {
     .section-impressum & {
         border-color: $red-color;
     }
-
-    @media only screen and (max-width: 640px) {
-        text-align: center;
-    }
 }
 
-    .site-title {
-        margin-bottom: 0;
-        display: inline-block;
-        margin: $base-spacing-unit / 2 $base-spacing-unit 0;
+    .site-logo {
+        display: block;
+        padding: $base-spacing-unit / 2;
     }
 
-        .site-title__freund {
-            font-weight: 500;
+        .site-logo > img {
+            float: left;
         }
+
+        .site-title {
+            margin-bottom: 0;
+            display: inline-block;
+            line-height: 64px;
+            margin-left: $base-spacing-unit / 2;
+        }
+
+            .site-title__freund {
+                font-weight: 500;
+            }
 
 
 
