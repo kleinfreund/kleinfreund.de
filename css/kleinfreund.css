@@ -5,7 +5,6 @@
 /**
  * Correct `block` display not defined in IE 8/9.
  */
-/* line 11, _normalize.scss */
 article,
 aside,
 details,
@@ -24,7 +23,6 @@ summary {
 /**
  * Correct `inline-block` display not defined in IE 8/9.
  */
-/* line 30, _normalize.scss */
 audio,
 canvas,
 video {
@@ -35,7 +33,6 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 41, _normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -45,7 +42,6 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9.
  * Hide the `template` element in IE, Safari, and Firefox < 22.
  */
-/* line 51, _normalize.scss */
 [hidden],
 template {
   display: none;
@@ -59,7 +55,6 @@ template {
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 66, _normalize.scss */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -72,7 +67,6 @@ html {
 /**
  * Remove default margin.
  */
-/* line 76, _normalize.scss */
 body {
   margin: 0;
 }
@@ -83,7 +77,6 @@ body {
 /**
  * Remove the gray background color from active links in IE 10.
  */
-/* line 88, _normalize.scss */
 a {
   background: transparent;
 }
@@ -91,7 +84,6 @@ a {
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
  */
-/* line 96, _normalize.scss */
 a:focus {
   outline: thin dotted;
 }
@@ -99,7 +91,6 @@ a:focus {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 104, _normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -112,7 +103,6 @@ a:hover {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 118, _normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -121,7 +111,6 @@ h1 {
 /**
  * Address styling not present in IE 8/9, Safari 5, and Chrome.
  */
-/* line 127, _normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -129,7 +118,6 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 135, _normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -138,7 +126,6 @@ strong {
 /**
  * Address styling not present in Safari 5 and Chrome.
  */
-/* line 144, _normalize.scss */
 dfn {
   font-style: italic;
 }
@@ -146,7 +133,6 @@ dfn {
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 152, _normalize.scss */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -156,7 +142,6 @@ hr {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 162, _normalize.scss */
 mark {
   background: #ff0;
   color: #000;
@@ -165,7 +150,6 @@ mark {
 /**
  * Correct font family set oddly in Safari 5 and Chrome.
  */
-/* line 171, _normalize.scss */
 code,
 kbd,
 pre,
@@ -177,7 +161,6 @@ samp {
 /**
  * Improve readability of pre-formatted text in all browsers.
  */
-/* line 183, _normalize.scss */
 pre {
   white-space: pre-wrap;
 }
@@ -185,7 +168,6 @@ pre {
 /**
  * Set consistent quote types.
  */
-/* line 191, _normalize.scss */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
@@ -193,7 +175,6 @@ q {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 199, _normalize.scss */
 small {
   font-size: 80%;
 }
@@ -201,7 +182,6 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 207, _normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -210,12 +190,10 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 215, _normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 219, _normalize.scss */
 sub {
   bottom: -0.25em;
 }
@@ -226,7 +204,6 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9.
  */
-/* line 231, _normalize.scss */
 img {
   border: 0;
 }
@@ -234,7 +211,6 @@ img {
 /**
  * Correct overflow displayed oddly in IE 9.
  */
-/* line 239, _normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -245,7 +221,6 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari 5.
  */
-/* line 251, _normalize.scss */
 figure {
   margin: 0;
 }
@@ -256,7 +231,6 @@ figure {
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 263, _normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -267,7 +241,6 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 274, _normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -280,7 +253,6 @@ legend {
  * 2. Correct font size not being inherited in all browsers.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 285, _normalize.scss */
 button,
 input,
 select,
@@ -297,7 +269,6 @@ textarea {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 299, _normalize.scss */
 button,
 input {
   line-height: normal;
@@ -309,7 +280,6 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-/* line 311, _normalize.scss */
 button,
 select {
   text-transform: none;
@@ -322,7 +292,6 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 324, _normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -336,7 +305,6 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 336, _normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -346,7 +314,6 @@ html input[disabled] {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-/* line 346, _normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -360,7 +327,6 @@ input[type="radio"] {
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 358, _normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -374,7 +340,6 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 370, _normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -383,7 +348,6 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 379, _normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -394,7 +358,6 @@ input::-moz-focus-inner {
  * 1. Remove default vertical scrollbar in IE 8/9.
  * 2. Improve readability and alignment in all browsers.
  */
-/* line 390, _normalize.scss */
 textarea {
   overflow: auto;
   /* 1 */
@@ -408,7 +371,6 @@ textarea {
 /**
  * Remove most spacing between table cells.
  */
-/* line 403, _normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -461,7 +423,6 @@ table {
 /**
  * Nice box model for everything
  */
-/* line 38, kleinfreund.scss */
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -471,7 +432,6 @@ table {
 /**
  * Reset initial margins/paddings
  */
-/* line 47, kleinfreund.scss */
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 dl, dd, ol, ul,
@@ -485,7 +445,6 @@ hr {
 /**
  * Give form elements some cursor interactions...
  */
-/* line 60, kleinfreund.scss */
 label,
 input,
 textarea,
@@ -495,7 +454,6 @@ option {
   cursor: pointer;
 }
 
-/* line 69, kleinfreund.scss */
 input:active,
 input:focus,
 textarea:active,
@@ -504,7 +462,6 @@ textarea:focus {
   outline: none;
 }
 
-/* line 77, kleinfreund.scss */
 button:active,
 button:focus {
   outline: none;
@@ -513,7 +470,6 @@ button:focus {
 /**
  * Micro clearfix, as per: css-101.org/articles/clearfix/latest-new-clearfix-so-far.php
  */
-/* line 85, kleinfreund.scss */
 .cf:after {
   content: "";
   display: table;
@@ -523,7 +479,6 @@ button:focus {
 /**
  * Vertical rhythm for text content
  */
-/* line 95, kleinfreund.scss */
 h1, h2, h3, h4, h5, h6,
 ul, ol, dl,
 blockquote, p, address,
@@ -535,7 +490,6 @@ pre,
   margin-bottom: 1.5rem;
 }
 
-/* line 106, kleinfreund.scss */
 ul, ol, dd {
   margin-left: 30px;
   margin-left: 1.5rem;
@@ -544,7 +498,6 @@ ul, ol, dd {
 /**
  * Base styles
  */
-/* line 114, kleinfreund.scss */
 html {
   font: 1.25em/1.5 Ubuntu, sans-serif;
   color: #444444;
@@ -552,12 +505,10 @@ html {
   font-weight: 300;
 }
 
-/* line 121, kleinfreund.scss */
 dt, strong, .bold {
   font-weight: 500;
 }
 
-/* line 125, kleinfreund.scss */
 .nowrap {
   white-space: nowrap;
 }
@@ -565,47 +516,40 @@ dt, strong, .bold {
 /**
  * Headings
  */
-/* line 133, kleinfreund.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
 }
 
-/* line 137, kleinfreund.scss */
 h1, .h1 {
   font-size: 36px;
   font-size: 1.8rem;
   line-height: 1.66667;
 }
 
-/* line 143, kleinfreund.scss */
 h2, .h2 {
   font-size: 30px;
   font-size: 1.5rem;
   line-height: 1;
 }
 
-/* line 149, kleinfreund.scss */
 h3, .h3 {
   font-size: 24px;
   font-size: 1.2rem;
   line-height: 1.25;
 }
 
-/* line 155, kleinfreund.scss */
 h4, .h4 {
   font-size: 20px;
   font-size: 1rem;
   line-height: 1.5;
 }
 
-/* line 161, kleinfreund.scss */
 h5, .h5 {
   font-size: 16px;
   font-size: 0.8rem;
   line-height: 1.875;
 }
 
-/* line 167, kleinfreund.scss */
 h6, .h6 {
   font-size: 14px;
   font-size: 0.7rem;
@@ -615,7 +559,6 @@ h6, .h6 {
 /**
  * Responsive images.
  */
-/* line 176, kleinfreund.scss */
 img {
   max-width: 100%;
   vertical-align: middle;
@@ -624,12 +567,10 @@ img {
 /**
  * Figures
  */
-/* line 184, kleinfreund.scss */
 figure > img {
   display: block;
 }
 
-/* line 188, kleinfreund.scss */
 figcaption {
   font-size: 14px;
   font-size: 0.7rem;
@@ -639,21 +580,18 @@ figcaption {
 /**
  * Image placement variations.
  */
-/* line 197, kleinfreund.scss */
 .img--right {
   float: right;
   margin-bottom: 30px;
   margin-left: 30px;
 }
 
-/* line 203, kleinfreund.scss */
 .img--left {
   float: left;
   margin-right: 30px;
   margin-bottom: 30px;
 }
 
-/* line 209, kleinfreund.scss */
 .img--center {
   display: block;
   margin-right: auto;
@@ -664,7 +602,6 @@ figcaption {
 /**
  * Nested lists
  */
-/* line 219, kleinfreund.scss */
 li > ul,
 li > ol {
   margin-bottom: 0;
@@ -673,7 +610,6 @@ li > ol {
 /**
  * Anchors
  */
-/* line 227, kleinfreund.scss */
 a {
   color: #444444;
   text-decoration: none;
@@ -682,7 +618,6 @@ a {
 /**
  * Code
  */
-/* line 235, kleinfreund.scss */
 pre, code,
 kbd, samp {
   font-family: Inconsolata, Monaco, Consolas, "Courier New", Courier, monospace;
@@ -691,7 +626,6 @@ kbd, samp {
   line-height: 1.875;
 }
 
-/* line 243, kleinfreund.scss */
 pre {
   overflow: auto;
   white-space: pre;
@@ -705,19 +639,16 @@ pre {
 /*------------------------------------*\
         SITE-LOGO / SITE-TITLE
 \*------------------------------------*/
-/* line 260, kleinfreund.scss */
 .site-logo {
-  display: block;
+  display: inline-block;
   padding: 15px;
 }
 @media only screen and (min-width: 641px) {
-  /* line 260, kleinfreund.scss */
   .site-logo {
     padding: 15px 60px;
   }
 }
 
-/* line 269, kleinfreund.scss */
 .site-logo > img {
   display: inline-block;
   width: 64px;
@@ -730,7 +661,6 @@ pre {
   background-size: 64px 64px;
 }
 
-/* line 280, kleinfreund.scss */
 .site-title {
   display: inline-block;
   vertical-align: middle;
@@ -742,7 +672,6 @@ pre {
 /*------------------------------------*\
         SITE-NAV
 \*------------------------------------*/
-/* line 295, kleinfreund.scss */
 .site-nav {
   line-height: 1;
   display: -webkit-box;
@@ -757,7 +686,6 @@ pre {
   /* NEW, Spec - Opera 12.1, Firefox 20+ */
 }
 @media only screen and (min-width: 641px) {
-  /* line 295, kleinfreund.scss */
   .site-nav {
     display: block;
     /* Override `display: flex;` */
@@ -767,7 +695,6 @@ pre {
   }
 }
 
-/* line 312, kleinfreund.scss */
 .site-nav__item {
   padding: 7.5px 5px;
   display: inline-block;
@@ -783,7 +710,6 @@ pre {
   /* NEW, Spec - Opera 12.1, Firefox 20+ */
 }
 @media only screen and (min-width: 641px) {
-  /* line 312, kleinfreund.scss */
   .site-nav__item {
     margin-left: 15px;
     padding: 15px;
@@ -791,44 +717,35 @@ pre {
   }
 }
 @media only screen and (min-width: 1025px) {
-  /* line 312, kleinfreund.scss */
   .site-nav__item {
     padding: 15px 30px;
   }
 }
 
-/* line 334, kleinfreund.scss */
 .site-nav__item--hallo {
   background-color: #5a9b00;
 }
-/* line 337, kleinfreund.scss */
 .site-nav__item--hallo:not(.site-nav--current):hover {
   background-color: #6fbf00;
 }
 
-/* line 342, kleinfreund.scss */
 .site-nav__item--profil {
   background-color: #507bd3;
 }
-/* line 345, kleinfreund.scss */
 .site-nav__item--profil:not(.site-nav--current):hover {
   background-color: #6d91da;
 }
 
-/* line 350, kleinfreund.scss */
 .site-nav__item--kontakt {
   background-color: #eb9800;
 }
-/* line 353, kleinfreund.scss */
 .site-nav__item--kontakt:not(.site-nav--current):hover {
   background-color: #ffaa10;
 }
 
-/* line 358, kleinfreund.scss */
 .site-nav__item--impressum {
   background-color: #db2427;
 }
-/* line 361, kleinfreund.scss */
 .site-nav__item--impressum:not(.site-nav--current):hover {
   background-color: #e04345;
 }
@@ -836,12 +753,10 @@ pre {
 /*------------------------------------*\
         PAGE__FRAME--FOOT
 \*------------------------------------*/
-/* line 375, kleinfreund.scss */
 .page__frame--head {
   border-bottom: 7px solid #323232;
 }
 
-/* line 379, kleinfreund.scss */
 .page__frame--foot {
   font-size: 16px;
   font-size: 0.8rem;
@@ -849,37 +764,29 @@ pre {
   padding: 15px 30px;
   border-top: 7px solid #323232;
 }
-/* line 386, kleinfreund.scss */
 .page__frame--foot a {
   text-decoration: underline;
 }
-/* line 390, kleinfreund.scss */
-.page__frame--foot p:last-of-type {
+.page__frame--foot p:last-child {
   margin-bottom: 0;
 }
 
-/* line 395, kleinfreund.scss */
 .page__frame {
   background-color: #444444;
 }
-/* line 398, kleinfreund.scss */
 .page__frame,
 .page__frame a {
   color: white;
 }
-/* line 403, kleinfreund.scss */
 .section-hallo .page__frame {
   border-color: #5a9b00;
 }
-/* line 407, kleinfreund.scss */
 .section-profil .page__frame {
   border-color: #507bd3;
 }
-/* line 411, kleinfreund.scss */
 .section-kontakt .page__frame {
   border-color: #eb9800;
 }
-/* line 415, kleinfreund.scss */
 .section-impressum .page__frame {
   border-color: #db2427;
 }
@@ -887,47 +794,38 @@ pre {
 /*------------------------------------*\
         PAGE
 \*------------------------------------*/
-/* line 427, kleinfreund.scss */
 .section-header {
   color: white;
   background-color: #323232;
   padding: 15px;
 }
 @media only screen and (min-width: 641px) {
-  /* line 427, kleinfreund.scss */
   .section-header {
     padding: 15px 10%;
   }
 }
-/* line 437, kleinfreund.scss */
-.section-header h2 {
+.section-header :last-child {
   margin-bottom: 0;
 }
-/* line 441, kleinfreund.scss */
 .section-hallo .section-header {
   background-color: #6fbf00;
 }
-/* line 445, kleinfreund.scss */
 .section-profil .section-header {
   background-color: #6d91da;
 }
-/* line 449, kleinfreund.scss */
 .section-kontakt .section-header {
   background-color: #ffaa10;
 }
-/* line 453, kleinfreund.scss */
 .section-impressum .section-header {
   background-color: #e04345;
 }
 
-/* line 458, kleinfreund.scss */
 .section-header,
 .entry {
   margin-bottom: 60px;
   margin-bottom: 3rem;
 }
 @media only screen and (min-width: 641px) {
-  /* line 458, kleinfreund.scss */
   .section-header,
   .entry {
     margin-bottom: 120px;
@@ -935,44 +833,34 @@ pre {
   }
 }
 
-/* line 469, kleinfreund.scss */
 .entry a {
   font-weight: 500;
 }
-/* line 472, kleinfreund.scss */
 .entry a:hover {
   border-bottom: 0.125em solid;
 }
-/* line 476, kleinfreund.scss */
 .section-hallo .entry a {
   color: #5a9b00;
 }
-/* line 480, kleinfreund.scss */
 .section-profil .entry a {
   color: #507bd3;
 }
-/* line 484, kleinfreund.scss */
 .section-kontakt .entry a {
   color: #eb9800;
 }
-/* line 488, kleinfreund.scss */
 .section-impressum .entry a {
   color: #db2427;
 }
 
-/* line 494, kleinfreund.scss */
 .section-hallo .entry__header {
   color: #5a9b00;
 }
-/* line 498, kleinfreund.scss */
 .section-profil .entry__header {
   color: #507bd3;
 }
-/* line 502, kleinfreund.scss */
 .section-kontakt .entry__header {
   color: #eb9800;
 }
-/* line 506, kleinfreund.scss */
 .section-impressum .entry__header {
   color: #db2427;
 }
@@ -980,31 +868,26 @@ pre {
 /*------------------------------------*\
         FORM
 \*------------------------------------*/
-/* line 519, kleinfreund.scss */
 .form__item {
   padding: 15px;
   border: 0;
   border-radius: 0;
 }
 
-/* line 526, kleinfreund.scss */
 .form__item--input,
 .form__item--textarea {
   width: 100%;
   border-left: 7px solid #eb9800;
 }
-/* line 531, kleinfreund.scss */
 .form__item--input:focus,
 .form__item--textarea:focus {
   border-left-color: #444444;
 }
 
-/* line 536, kleinfreund.scss */
 .form__item--textarea {
   resize: vertical;
 }
 
-/* line 540, kleinfreund.scss */
 .form__item--button {
   color: white;
   background-color: #eb9800;
@@ -1012,7 +895,6 @@ pre {
   padding-right: 60px;
   padding-left: 60px;
 }
-/* line 548, kleinfreund.scss */
 .form__item--button:active, .form__item--button:hover, .form__item--button:focus {
   background-color: #ffaa10;
 }
@@ -1020,23 +902,20 @@ pre {
 /*------------------------------------*\
         MISC
 \*------------------------------------*/
-/* line 562, kleinfreund.scss */
 .wrapper {
   max-width: 680px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
-@media only screen and (max-width: 640px) {
-  /* line 562, kleinfreund.scss */
+@media only screen and (min-width: 641px) {
   .wrapper {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }
 
-/* line 575, kleinfreund.scss */
 .site-nav__item, .section-header, .form__item--button {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 }

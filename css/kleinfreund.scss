@@ -258,7 +258,7 @@ pre {
         SITE-LOGO / SITE-TITLE
 \*------------------------------------*/
 .site-logo {
-    display: block;
+    display: inline-block;
     padding: $base-spacing-unit / 2;
 
     @media only screen and (min-width: 641px) {
@@ -387,7 +387,7 @@ pre {
         text-decoration: underline;
     }
 
-    p:last-of-type {
+    p:last-child {
         margin-bottom: 0;
     }
 }
@@ -434,7 +434,7 @@ pre {
         padding: $base-spacing-unit / 2 10%;
     }
 
-    h2 {
+    :last-child {
         margin-bottom: 0;
     }
 
@@ -563,12 +563,12 @@ pre {
     max-width: 680px;
     margin-right: auto;
     margin-left: auto;
-    padding-right: $base-spacing-unit;
-    padding-left: $base-spacing-unit;
+    padding-right: $base-spacing-unit / 2;
+    padding-left: $base-spacing-unit / 2;
 
-    @media only screen and (max-width: 640px) {
-        padding-right: $base-spacing-unit / 2;
-        padding-left: $base-spacing-unit / 2;
+    @media only screen and (min-width: 641px) {
+        padding-right: $base-spacing-unit;
+        padding-left: $base-spacing-unit;
     }
 }
 
