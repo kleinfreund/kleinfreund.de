@@ -32,7 +32,7 @@ Weiterhin war Vorgabe alles in passender Verzeichnisstruktur abzulegen. Bei mir 
 ├── js
 |   └── html5shiv.js
 ├── icon.png
-└── sitemap.xml
+├── sitemap.xml
 ├── 404.html
 └── index.html
 ```
