@@ -275,16 +275,157 @@ pre {
 
 
 /*------------------------------------*\
-        PAGE-HEAD
+        SITE-LOGO / SITE-TITLE
 \*------------------------------------*/
-.page-head {
-    background-color: $base-color;
+.site-logo {
+    display: block;
+    padding: $base-spacing-unit / 2;
+
+    @media only screen and (min-width: 641px) {
+        padding: $base-spacing-unit / 2 $base-spacing-unit * 2;
+    }
+}
+
+    .site-logo > img {
+        display: inline-block;
+        width: 64px;
+        height: 64px;
+        background: url(../img/kleinfreund.png) no-repeat; /* Fallback for <IE9 */ 
+        background-image: url(../img/kleinfreund.svg);
+        -webkit-background-size: 64px 64px;
+                background-size: 64px 64px;
+    }
+
+    .site-title {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 64px;
+        margin-bottom: 0;
+        margin-left: $base-spacing-unit / 2;
+    }
+
+
+
+
+
+/*------------------------------------*\
+        SITE-NAV
+\*------------------------------------*/
+.site-nav {
+    line-height: 1;
+
+    display:  -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+    display:     -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+    display:  -ms-flexbox; /* MID - IE 10 */
+    display: -webkit-flex; /* NEW -  Chrome */
+    display:         flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */
+
+    @media only screen and (min-width: 641px) {
+        display: block; /* Override `display: flex;` */
+        text-align: right;
+        margin-left: -$base-spacing-unit / 2;
+        padding-right: 10%;
+    }
+}
+
+    .site-nav__item {
+        padding: $base-spacing-unit / 4 $base-spacing-unit / 6;
+        @extend %text-shadow;
+
+        display: inline-block;
+        -webkit-box-flex: 1; /* OLD - iOS 6-, Safari 3.1-6 */
+           -moz-box-flex: 1; /* OLD - Firefox 19- */
+            -webkit-flex: 1; /* Chrome */
+                -ms-flex: 1; /* IE 10 */
+                    flex: 1; /* NEW, Spec - Opera 12.1, Firefox 20+ */
+
+        @media only screen and (min-width: 641px) {
+            margin-left: $base-spacing-unit / 2;
+            padding: $base-spacing-unit / 2;
+            font-weight: 500;
+        }
+
+        @media only screen and (min-width: 1025px) {
+            padding: $base-spacing-unit / 2 $base-spacing-unit;
+        }
+    }
+
+    .site-nav__item--hallo {
+        background-color: $green-color;
+
+        &:not(.site-nav--current):hover {
+            background-color: $green-color-light;
+        }
+    }
+
+    .site-nav__item--profil {
+        background-color: $blue-color;
+
+        &:not(.site-nav--current):hover {
+            background-color: $blue-color-light;
+        }
+    }
+
+    .site-nav__item--kontakt {
+        background-color: $orange-color;
+
+        &:not(.site-nav--current):hover {
+            background-color: $orange-color-light;
+        }
+    }
+
+    .site-nav__item--impressum {
+        background-color: $red-color;
+
+        &:not(.site-nav--current):hover {
+            background-color: $red-color-light;
+        }
+    }
+
+    /* Experimental progressive enhancement with flexbox */
+    @media only screen and (max-width: 640px) {
+        .site-nav {
+        }
+
+            .site-nav__item {
+            }
+    }
+
+
+
+
+
+
+
+/*------------------------------------*\
+        PAGE__FRAME--FOOT
+\*------------------------------------*/
+.page__frame--head {
     border-bottom: 7px solid $base-color-dark;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.page__frame--foot {
+    font-size: 16px;
+    font-size: 0.8rem;
+    line-height: 1.875;
+    padding: $base-spacing-unit / 2 $base-spacing-unit;
+    border-top: 7px solid $base-color-dark;
+
+    p:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+.page__frame {
+    background-color: $base-color;
 
     &,
     a {
         color: $bright-ui-color;
-        text-decoration: none;
     }
 
     .section-hallo & {
@@ -304,33 +445,6 @@ pre {
     }
 }
 
-    .site-logo {
-        display: block;
-        padding: $base-spacing-unit / 2;
-
-        @media only screen and (min-width: 641px) {
-            padding: $base-spacing-unit / 2 $base-spacing-unit * 2;
-        }
-    }
-
-        .site-logo > img {
-            display: inline-block;
-            width: 64px;
-            height: 64px;
-            background: url(../img/kleinfreund.png) no-repeat; /* Fallback for <IE9 */ 
-            background-image: url(../img/kleinfreund.svg);
-            -webkit-background-size: 64px 64px;
-                    background-size: 64px 64px;
-        }
-
-        .site-title {
-            display: inline-block;
-            vertical-align: middle;
-            line-height: 64px;
-            margin-bottom: 0;
-            margin-left: $base-spacing-unit / 2;
-        }
-
 
 
 
@@ -339,13 +453,17 @@ pre {
         PAGE
 \*------------------------------------*/
 .section-header {
-    padding: $base-spacing-unit / 2;
-    @extend %text-shadow;
+    color: $bright-ui-color;
     background-color: $base-color-dark;
+    @extend %text-shadow;
+    padding: $base-spacing-unit / 2;
 
-    &,
-    a {
-        color: $bright-ui-color;
+    @media only screen and (min-width: 641px) {
+        padding: $base-spacing-unit / 2 10%;
+    }
+
+    h2 {
+        margin-bottom: 0;
     }
 
     .section-hallo & {
@@ -363,10 +481,6 @@ pre {
     .section-impressum & {
         background-color: $red-color-light;
     }
-
-    @media only screen and (min-width: 641px) {
-        padding: $base-spacing-unit / 2 $base-spacing-unit * 2;
-    }
 }
 
 .section-header,
@@ -379,10 +493,6 @@ pre {
         margin-bottom: 6rem;
     }
 }
-
-    .section-title {
-        margin-bottom: 0;
-    }
 
     .entry {
         a {
@@ -429,133 +539,6 @@ pre {
                 color: $red-color;
             }
         }
-
-
-
-
-
-
-
-/*------------------------------------*\
-        PAGE-FOOT
-\*------------------------------------*/
-.page-foot {
-    @extend %cf;
-    font-size: 16px;
-    font-size: 0.8rem;
-    line-height: 1.875;
-    padding: $base-spacing-unit / 2 $base-spacing-unit;
-    background-color: $base-color;
-    border-top: 7px solid $base-color-dark;
-
-    p {
-        margin-bottom: 0;
-    }
-
-    &,
-    a {
-        color: $bright-ui-color;
-    }
-
-    .section-hallo & {
-        border-color: $green-color;
-    }
-
-    .section-profil & {
-        border-color: $blue-color;
-    }
-
-    .section-kontakt & {
-        border-color: $orange-color;
-    }
-
-    .section-impressum & {
-        border-color: $red-color;
-    }
-}
-
-
-
-
-
-/*------------------------------------*\
-        NAVIGATION
-\*------------------------------------*/
-.site-nav {
-    line-height: 1;
-    display: table;
-    width: 100%;
-
-    @media only screen and (min-width: 641px) {
-        text-align: right;
-        margin-left: -$base-spacing-unit / 2;
-        padding-right: 10%;
-    }
-}
-
-    .site-nav__item {
-        display: table-cell;
-        padding: $base-spacing-unit / 4 $base-spacing-unit / 6;
-        @extend %text-shadow;
-
-        @media only screen and (min-width: 641px) {
-            display: inline-block;
-            margin-left: $base-spacing-unit / 2;
-            padding: $base-spacing-unit / 2;
-            font-weight: 500;
-            /*position: relative;
-            z-index: 13;
-
-            &:after {
-                content: "";
-                width: 0;
-                height: 0;
-                position: absolute;
-                    top: 0;
-                    right: -50px;
-                z-index: 12;
-                border-style: solid;
-                border-width: 50px 0 0 50px;
-                border-color: transparent transparent transparent $base-color-dark;
-            }*/
-        }
-
-        @media only screen and (min-width: 1025px) {
-            padding: $base-spacing-unit / 2 $base-spacing-unit;
-        }
-    }
-
-    .site-nav__item--hallo {
-        background-color: $green-color;
-
-        &:not(.site-nav--current):hover {
-            background-color: $green-color-light;
-        }
-    }
-
-    .site-nav__item--profil {
-        background-color: $blue-color;
-
-        &:not(.site-nav--current):hover {
-            background-color: $blue-color-light;
-        }
-    }
-
-    .site-nav__item--kontakt {
-        background-color: $orange-color;
-
-        &:not(.site-nav--current):hover {
-            background-color: $orange-color-light;
-        }
-    }
-
-    .site-nav__item--impressum {
-        background-color: $red-color;
-
-        &:not(.site-nav--current):hover {
-            background-color: $red-color-light;
-        }
-    }
 
 
 

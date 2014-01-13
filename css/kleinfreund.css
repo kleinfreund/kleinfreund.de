@@ -470,8 +470,7 @@ button:focus {
 /**
  * Micro clearfix, as per: css-101.org/articles/clearfix/latest-new-clearfix-so-far.php
  */
-.cf:after,
-.page-foot:after {
+.cf:after {
   content: "";
   display: table;
   clear: both;
@@ -654,30 +653,8 @@ pre {
 }
 
 /*------------------------------------*\
-        PAGE-HEAD
+        SITE-LOGO / SITE-TITLE
 \*------------------------------------*/
-.page-head {
-  background-color: #444444;
-  border-bottom: 7px solid #323232;
-}
-.page-head,
-.page-head a {
-  color: white;
-  text-decoration: none;
-}
-.section-hallo .page-head {
-  border-color: #5a9b00;
-}
-.section-profil .page-head {
-  border-color: #507bd3;
-}
-.section-kontakt .page-head {
-  border-color: #eb9800;
-}
-.section-impressum .page-head {
-  border-color: #db2427;
-}
-
 .site-logo {
   display: block;
   padding: 15px;
@@ -708,126 +685,25 @@ pre {
 }
 
 /*------------------------------------*\
-        PAGE
-\*------------------------------------*/
-.section-header {
-  padding: 15px;
-  background-color: #323232;
-}
-.section-header,
-.section-header a {
-  color: white;
-}
-.section-hallo .section-header {
-  background-color: #6fbf00;
-}
-.section-profil .section-header {
-  background-color: #6d91da;
-}
-.section-kontakt .section-header {
-  background-color: #ffaa10;
-}
-.section-impressum .section-header {
-  background-color: #e04345;
-}
-@media only screen and (min-width: 641px) {
-  .section-header {
-    padding: 15px 60px;
-  }
-}
-
-.section-header,
-.entry {
-  margin-bottom: 60px;
-  margin-bottom: 3rem;
-}
-@media only screen and (min-width: 641px) {
-  .section-header,
-  .entry {
-    margin-bottom: 120px;
-    margin-bottom: 6rem;
-  }
-}
-
-.section-title {
-  margin-bottom: 0;
-}
-
-.entry a {
-  color: #444444;
-  font-weight: 500;
-  text-decoration: none;
-}
-.entry a:hover {
-  border-bottom: 0.125em solid;
-}
-.section-hallo .entry a {
-  color: #5a9b00;
-}
-.section-profil .entry a {
-  color: #507bd3;
-}
-.section-kontakt .entry a {
-  color: #eb9800;
-}
-.section-impressum .entry a {
-  color: #db2427;
-}
-
-.section-hallo .entry__header {
-  color: #5a9b00;
-}
-.section-profil .entry__header {
-  color: #507bd3;
-}
-.section-kontakt .entry__header {
-  color: #eb9800;
-}
-.section-impressum .entry__header {
-  color: #db2427;
-}
-
-/*------------------------------------*\
-        PAGE-FOOT
-\*------------------------------------*/
-.page-foot {
-  font-size: 16px;
-  font-size: 0.8rem;
-  line-height: 1.875;
-  padding: 15px 30px;
-  background-color: #444444;
-  border-top: 7px solid #323232;
-}
-.page-foot p {
-  margin-bottom: 0;
-}
-.page-foot,
-.page-foot a {
-  color: white;
-}
-.section-hallo .page-foot {
-  border-color: #5a9b00;
-}
-.section-profil .page-foot {
-  border-color: #507bd3;
-}
-.section-kontakt .page-foot {
-  border-color: #eb9800;
-}
-.section-impressum .page-foot {
-  border-color: #db2427;
-}
-
-/*------------------------------------*\
-        NAVIGATION
+        SITE-NAV
 \*------------------------------------*/
 .site-nav {
   line-height: 1;
-  display: table;
-  width: 100%;
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* MID - IE 10 */
+  display: -webkit-flex;
+  /* NEW -  Chrome */
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
 }
 @media only screen and (min-width: 641px) {
   .site-nav {
+    display: block;
+    /* Override `display: flex;` */
     text-align: right;
     margin-left: -15px;
     padding-right: 10%;
@@ -835,30 +711,24 @@ pre {
 }
 
 .site-nav__item {
-  display: table-cell;
   padding: 7.5px 5px;
+  display: inline-block;
+  -webkit-box-flex: 1;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  -moz-box-flex: 1;
+  /* OLD - Firefox 19- */
+  -webkit-flex: 1;
+  /* Chrome */
+  -ms-flex: 1;
+  /* IE 10 */
+  flex: 1;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
 }
 @media only screen and (min-width: 641px) {
   .site-nav__item {
-    display: inline-block;
     margin-left: 15px;
     padding: 15px;
     font-weight: 500;
-            /*position: relative;
-            z-index: 13;
-
-            &:after {
-                content: "";
-                width: 0;
-                height: 0;
-                position: absolute;
-                    top: 0;
-                    right: -50px;
-                z-index: 12;
-                border-style: solid;
-                border-width: 50px 0 0 50px;
-                border-color: transparent transparent transparent $base-color-dark;
-            }*/
   }
 }
 @media only screen and (min-width: 1025px) {
@@ -893,6 +763,124 @@ pre {
 }
 .site-nav__item--impressum:not(.site-nav--current):hover {
   background-color: #e04345;
+}
+
+/* Experimental progressive enhancement with flexbox */
+/*------------------------------------*\
+        PAGE__FRAME--FOOT
+\*------------------------------------*/
+.page__frame--head {
+  border-bottom: 7px solid #323232;
+}
+.page__frame--head a {
+  text-decoration: none;
+}
+
+.page__frame--foot {
+  font-size: 16px;
+  font-size: 0.8rem;
+  line-height: 1.875;
+  padding: 15px 30px;
+  border-top: 7px solid #323232;
+}
+.page__frame--foot p:last-of-type {
+  margin-bottom: 0;
+}
+
+.page__frame {
+  background-color: #444444;
+}
+.page__frame,
+.page__frame a {
+  color: white;
+}
+.section-hallo .page__frame {
+  border-color: #5a9b00;
+}
+.section-profil .page__frame {
+  border-color: #507bd3;
+}
+.section-kontakt .page__frame {
+  border-color: #eb9800;
+}
+.section-impressum .page__frame {
+  border-color: #db2427;
+}
+
+/*------------------------------------*\
+        PAGE
+\*------------------------------------*/
+.section-header {
+  color: white;
+  background-color: #323232;
+  padding: 15px;
+}
+@media only screen and (min-width: 641px) {
+  .section-header {
+    padding: 15px 10%;
+  }
+}
+.section-header h2 {
+  margin-bottom: 0;
+}
+.section-hallo .section-header {
+  background-color: #6fbf00;
+}
+.section-profil .section-header {
+  background-color: #6d91da;
+}
+.section-kontakt .section-header {
+  background-color: #ffaa10;
+}
+.section-impressum .section-header {
+  background-color: #e04345;
+}
+
+.section-header,
+.entry {
+  margin-bottom: 60px;
+  margin-bottom: 3rem;
+}
+@media only screen and (min-width: 641px) {
+  .section-header,
+  .entry {
+    margin-bottom: 120px;
+    margin-bottom: 6rem;
+  }
+}
+
+.entry a {
+  color: #444444;
+  font-weight: 500;
+  text-decoration: none;
+}
+.entry a:hover {
+  border-bottom: 0.125em solid;
+}
+.section-hallo .entry a {
+  color: #5a9b00;
+}
+.section-profil .entry a {
+  color: #507bd3;
+}
+.section-kontakt .entry a {
+  color: #eb9800;
+}
+.section-impressum .entry a {
+  color: #db2427;
+}
+
+.section-hallo .entry__header {
+  color: #5a9b00;
+}
+.section-profil .entry__header {
+  color: #507bd3;
+}
+.section-kontakt .entry__header {
+  color: #eb9800;
+}
+.section-impressum .entry__header {
+  color: #db2427;
 }
 
 /*------------------------------------*\
@@ -932,6 +920,6 @@ pre {
 /*------------------------------------*\
         MISC
 \*------------------------------------*/
-.section-header, .site-nav__item, .form__item--button {
+.site-nav__item, .section-header, .form__item--button {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 }
