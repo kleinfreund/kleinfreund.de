@@ -270,8 +270,9 @@ pre {
         display: inline-block;
         width: 64px;
         height: 64px;
-        background: url(../img/kleinfreund.png) no-repeat; /* Fallback for <IE9 */ 
-        background-image: url(../img/kleinfreund.svg);
+        background-repeat: no-repeat;
+        background-image: url(../img/kleinfreund.png); /* Fallback for <IE9 */ 
+        background-image: url(../img/kleinfreund.svg), none;
         -webkit-background-size: 64px 64px;
                 background-size: 64px 64px;
     }
