@@ -712,7 +712,6 @@ pre {
 
 .site-nav__item {
   padding: 7.5px 5px;
-  display: inline-block;
   -webkit-box-flex: 1;
   /* OLD - iOS 6-, Safari 3.1-6 */
   -moz-box-flex: 1;
@@ -726,6 +725,7 @@ pre {
 }
 @media only screen and (min-width: 641px) {
   .site-nav__item {
+    display: inline-block;
     margin-left: 15px;
     padding: 15px;
     font-weight: 500;
@@ -765,7 +765,6 @@ pre {
   background-color: #e04345;
 }
 
-/* Experimental progressive enhancement with flexbox */
 /*------------------------------------*\
         PAGE__FRAME--FOOT
 \*------------------------------------*/
