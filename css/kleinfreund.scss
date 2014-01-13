@@ -226,6 +226,7 @@ li > ol {
  */
 a {
     color: $foreground-color;
+    text-decoration: none;
 }
 
 /**
@@ -247,27 +248,6 @@ pre {
     background-color: $base-color;
     padding: $base-spacing-unit / 4 $base-spacing-unit / 2;
     border-radius: 2px;
-}
-
-
-
-
-
-/*------------------------------------*\
-    LAYOUT
-\*------------------------------------*/
-
-.wrapper {
-    max-width: 680px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $base-spacing-unit;
-    padding-left: $base-spacing-unit;
-
-    @media only screen and (max-width: 640px) {
-        padding-right: $base-spacing-unit / 2;
-        padding-left: $base-spacing-unit / 2;
-    }
 }
 
 
@@ -332,6 +312,7 @@ pre {
         padding: $base-spacing-unit / 4 $base-spacing-unit / 6;
         @extend %text-shadow;
 
+        display: inline-block;
         -webkit-box-flex: 1; /* OLD - iOS 6-, Safari 3.1-6 */
            -moz-box-flex: 1; /* OLD - Firefox 19- */
             -webkit-flex: 1; /* Chrome */
@@ -339,7 +320,6 @@ pre {
                     flex: 1; /* NEW, Spec - Opera 12.1, Firefox 20+ */
 
         @media only screen and (min-width: 641px) {
-            display: inline-block;
             margin-left: $base-spacing-unit / 2;
             padding: $base-spacing-unit / 2;
             font-weight: 500;
@@ -393,10 +373,6 @@ pre {
 \*------------------------------------*/
 .page__frame--head {
     border-bottom: 7px solid $base-color-dark;
-
-    a {
-        text-decoration: none;
-    }
 }
 
 .page__frame--foot {
@@ -405,6 +381,10 @@ pre {
     line-height: 1.875;
     padding: $base-spacing-unit / 2 $base-spacing-unit;
     border-top: 7px solid $base-color-dark;
+
+    a {
+        text-decoration: underline;
+    }
 
     p:last-of-type {
         margin-bottom: 0;
@@ -485,31 +465,27 @@ pre {
     }
 }
 
-    .entry {
-        a {
-            color: $base-color;
-            font-weight: 500;
-            text-decoration: none;
+    .entry a {
+        font-weight: 500;
 
-            &:hover {
-                border-bottom: 0.125em solid;
-            }
+        &:hover {
+            border-bottom: 0.125em solid;
+        }
 
-            .section-hallo & {
-                color: $green-color;
-            }
+        .section-hallo & {
+            color: $green-color;
+        }
 
-            .section-profil & {
-                color: $blue-color;
-            }
+        .section-profil & {
+            color: $blue-color;
+        }
 
-            .section-kontakt & {
-                color: $orange-color;
-            }
+        .section-kontakt & {
+            color: $orange-color;
+        }
 
-            .section-impressum & {
-                color: $red-color;
-            }
+        .section-impressum & {
+            color: $red-color;
         }
     }
 
@@ -582,6 +558,18 @@ pre {
 /*------------------------------------*\
         MISC
 \*------------------------------------*/
+.wrapper {
+    max-width: 680px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $base-spacing-unit;
+    padding-left: $base-spacing-unit;
+
+    @media only screen and (max-width: 640px) {
+        padding-right: $base-spacing-unit / 2;
+        padding-left: $base-spacing-unit / 2;
+    }
+}
 
 %text-shadow {
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
