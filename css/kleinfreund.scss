@@ -278,7 +278,6 @@ pre {
         PAGE-HEAD
 \*------------------------------------*/
 .page-head {
-    @extend %cf;
     background-color: $base-color;
     border-bottom: 7px solid $base-color-dark;
 
