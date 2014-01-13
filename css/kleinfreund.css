@@ -907,11 +907,11 @@ pre {
 }
 
 .form__item--button {
-  padding-right: 60px;
-  padding-left: 60px;
   color: white;
   background-color: #eb9800;
   font-weight: 500;
+  padding-right: 60px;
+  padding-left: 60px;
 }
 .form__item--button:active, .form__item--button:hover, .form__item--button:focus {
   background-color: #ffaa10;
