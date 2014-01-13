@@ -5,8 +5,7 @@ config.rb
 
 # sublime projects #
 ####################
-*.sublime-project
-*.sublime-workspace
+*.sublime*
 
 # OS generated files #
 ######################
@@ -17,3 +16,4 @@ config.rb
 .Trashes
 ehthumbs.db
 Thumbs.db
+Desktop.ini
