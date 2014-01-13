@@ -1,3 +1,8 @@
+# prepros #
+###########
+.sass-cache/
+config.rb
+
 # sublime projects #
 ####################
 *.sublime-project
