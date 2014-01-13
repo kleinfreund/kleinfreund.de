@@ -3,12 +3,12 @@
 .sass-cache/
 config.rb
 
-# sublime projects #
-####################
+# sublime text #
+################
 *.sublime*
 
-# OS generated files #
-######################
+# OS junk #
+###########
 .DS_Store
 .DS_Store?
 ._*
