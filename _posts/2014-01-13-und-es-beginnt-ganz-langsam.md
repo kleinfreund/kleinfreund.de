@@ -22,17 +22,20 @@ Weiterhin war Vorgabe alles in passender Verzeichnisstruktur abzulegen. Bei mir 
 |   ├── ubuntu-light.[eot|svg|ttf|woff]
 |   ├── ubuntu-lightitalic.[eot|svg|ttf|woff]
 |   └── ubuntu-medium.[eot|svg|ttf|woff]
-├── html
-|   ├── impressum.html
-|   ├── kontakt.html
-|   └── profil.html
 ├── img
+|   ├── content
+|   |   └── all-article-images.jpg
+|   ├── ich.jpg
 |   ├── kleinfreund.png
 |   └── kleinfreund.svg
 ├── js
 |   └── html5shiv.js
-├── icon.png
-├── sitemap.xml
+├── index.html
+├── portfolio.html
+├── profil.html
+├── impressum.html
 ├── 404.html
-└── index.html
+├── robots.txt
+├── sitemap.xml
+└── icon.png
 ```
