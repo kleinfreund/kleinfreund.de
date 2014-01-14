@@ -14,7 +14,6 @@ This is the source code of my personal website. It's the final project for our w
 
 We do have some restrictions including a kinda predefined directory structure and not embedding online sources. The website needs to be functional offline.
 
-* moving html files to root
 * using inuitcss
 
 ## To do
