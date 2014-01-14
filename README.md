@@ -18,6 +18,7 @@ We do have some restrictions including a kinda predefined directory structure an
 
 ## To do
 
+* Reconsider image handling in articles
 * write meta description
 * write documentation
 * write articles:
