@@ -15,10 +15,7 @@ This is the source code of my personal website. It's the final project for our w
 We do have some restrictions including a kinda predefined directory structure and not embedding online sources. The website needs to be functional offline.
 
 * moving html files to root
-* moving `icon.png` to root
-* using normalize.css
 * using inuitcss
-* no php-powered contact form
 
 ## To do
 
@@ -27,7 +24,6 @@ We do have some restrictions including a kinda predefined directory structure an
 * create `sitemap.xml`
 * add to Google Webmaster Tools
 * write documentation
-* test (IE8, old browsers in school)
 * write articles:
   * How the site was build
   * CSS style guide
@@ -35,3 +31,4 @@ We do have some restrictions including a kinda predefined directory structure an
   * add photo
   * add further information
 * try jekyll to generate the site
+* test (IE8, old browsers in school)
