@@ -112,6 +112,7 @@ ul, ol, dd {
  * Base styles
  */
 html {
+    overflow-y: scroll;
     font: 1.25em/1.5 Ubuntu, sans-serif;
     color: $foreground-color;
     background-color: $background-color;
