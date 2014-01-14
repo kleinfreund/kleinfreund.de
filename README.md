@@ -21,6 +21,7 @@ We do have some restrictions including a kinda predefined directory structure an
 
 * create `robots.txt`
 * create `sitemap.xml`
+* write meta description
 * write documentation
 * write articles:
   * How the site was build
