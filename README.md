@@ -19,6 +19,11 @@ We do have some restrictions including a kinda predefined directory structure an
 
 ## To do
 
+* Rename `page__frame--foot` to `page__foot` and select `[class*="page__"]` (?) ...probably not.
+* Remove `kontakt.html` (backup!)
+* Add Portfolio/Arbeiten instead
+* Rename class `entry__header` to `entry__heading`
+
 * create logo/favicon
 * create `robots.txt`
 * create `sitemap.xml`
