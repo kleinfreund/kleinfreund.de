@@ -370,13 +370,13 @@ pre {
 
 
 /*------------------------------------*\
-        PAGE__FRAME--FOOT
+        PAGE__HEAD / PAGE__FOOT
 \*------------------------------------*/
-.page__frame--head {
+.page__head {
     border-bottom: 7px solid $base-color-dark;
 }
 
-.page__frame--foot {
+.page__foot {
     font-size: 16px;
     font-size: 0.8rem;
     line-height: 1.875;
@@ -392,7 +392,8 @@ pre {
     }
 }
 
-.page__frame {
+.page__head,
+.page__foot {
     background-color: $base-color;
 
     &,
@@ -408,7 +409,7 @@ pre {
         border-color: $blue-color;
     }
 
-    .section-kontakt & {
+    .section-portfolio & {
         border-color: $orange-color;
     }
 
@@ -446,7 +447,7 @@ pre {
         background-color: $blue-color-light;
     }
 
-    .section-kontakt & {
+    .section-portfolio & {
         background-color: $orange-color-light;
     }
 
@@ -481,7 +482,7 @@ pre {
             color: $blue-color;
         }
 
-        .section-kontakt & {
+        .section-portfolio & {
             color: $orange-color;
         }
 
@@ -490,7 +491,7 @@ pre {
         }
     }
 
-        .entry__header {
+        .entry__heading {
             .section-hallo & {
                 color: $green-color;
             }
@@ -499,7 +500,7 @@ pre {
                 color: $blue-color;
             }
 
-            .section-kontakt & {
+            .section-portfolio & {
                 color: $orange-color;
             }
 
@@ -507,50 +508,6 @@ pre {
                 color: $red-color;
             }
         }
-
-
-
-
-
-/*------------------------------------*\
-        FORM
-\*------------------------------------*/
-
-.form__item {
-    @extend %vertical-rhythm;
-    padding: $base-spacing-unit / 2;
-    border: 0;
-    border-radius: 0;
-}
-
-.form__item--input,
-.form__item--textarea {
-    width: 100%;
-    border-left: 7px solid $orange-color;
-
-    &:focus {
-        border-left-color: $base-color;
-    }
-}
-
-.form__item--textarea {
-    resize: vertical;
-}
-
-.form__item--button {
-    @extend %text-shadow;
-    color: $bright-ui-color;
-    background-color: $orange-color;
-    font-weight: 500;
-    padding-right: $base-spacing-unit * 2;
-    padding-left: $base-spacing-unit * 2;
-
-    &:active,
-    &:hover,
-    &:focus {
-        background-color: $orange-color-light;
-    }
-}
 
 
 

@@ -484,8 +484,7 @@ ul, ol, dl,
 blockquote, p, address,
 table,
 fieldset, figure,
-pre,
-.form__item {
+pre {
   margin-bottom: 30px;
   margin-bottom: 1.5rem;
 }
@@ -751,43 +750,50 @@ pre {
 }
 
 /*------------------------------------*\
-        PAGE__FRAME--FOOT
+        PAGE__HEAD / PAGE__FOOT
 \*------------------------------------*/
-.page__frame--head {
+.page__head {
   border-bottom: 7px solid #323232;
 }
 
-.page__frame--foot {
+.page__foot {
   font-size: 16px;
   font-size: 0.8rem;
   line-height: 1.875;
   padding: 15px 30px;
   border-top: 7px solid #323232;
 }
-.page__frame--foot a {
+.page__foot a {
   text-decoration: underline;
 }
-.page__frame--foot p:last-child {
+.page__foot p:last-child {
   margin-bottom: 0;
 }
 
-.page__frame {
+.page__head,
+.page__foot {
   background-color: #444444;
 }
-.page__frame,
-.page__frame a {
+.page__head,
+.page__head a,
+.page__foot,
+.page__foot a {
   color: white;
 }
-.section-hallo .page__frame {
+.section-hallo .page__head, .section-hallo
+.page__foot {
   border-color: #5a9b00;
 }
-.section-profil .page__frame {
+.section-profil .page__head, .section-profil
+.page__foot {
   border-color: #507bd3;
 }
-.section-kontakt .page__frame {
+.section-portfolio .page__head, .section-portfolio
+.page__foot {
   border-color: #eb9800;
 }
-.section-impressum .page__frame {
+.section-impressum .page__head, .section-impressum
+.page__foot {
   border-color: #db2427;
 }
 
@@ -813,7 +819,7 @@ pre {
 .section-profil .section-header {
   background-color: #6d91da;
 }
-.section-kontakt .section-header {
+.section-portfolio .section-header {
   background-color: #ffaa10;
 }
 .section-impressum .section-header {
@@ -845,58 +851,24 @@ pre {
 .section-profil .entry a {
   color: #507bd3;
 }
-.section-kontakt .entry a {
+.section-portfolio .entry a {
   color: #eb9800;
 }
 .section-impressum .entry a {
   color: #db2427;
 }
 
-.section-hallo .entry__header {
+.section-hallo .entry__heading {
   color: #5a9b00;
 }
-.section-profil .entry__header {
+.section-profil .entry__heading {
   color: #507bd3;
 }
-.section-kontakt .entry__header {
+.section-portfolio .entry__heading {
   color: #eb9800;
 }
-.section-impressum .entry__header {
+.section-impressum .entry__heading {
   color: #db2427;
-}
-
-/*------------------------------------*\
-        FORM
-\*------------------------------------*/
-.form__item {
-  padding: 15px;
-  border: 0;
-  border-radius: 0;
-}
-
-.form__item--input,
-.form__item--textarea {
-  width: 100%;
-  border-left: 7px solid #eb9800;
-}
-.form__item--input:focus,
-.form__item--textarea:focus {
-  border-left-color: #444444;
-}
-
-.form__item--textarea {
-  resize: vertical;
-}
-
-.form__item--button {
-  color: white;
-  background-color: #eb9800;
-  font-weight: 500;
-  padding-right: 60px;
-  padding-left: 60px;
-}
-.form__item--button:active, .form__item--button:hover, .form__item--button:focus {
-  background-color: #ffaa10;
 }
 
 /*------------------------------------*\
@@ -916,6 +888,6 @@ pre {
   }
 }
 
-.site-nav__item, .section-header, .form__item--button {
+.site-nav__item, .section-header {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 }
