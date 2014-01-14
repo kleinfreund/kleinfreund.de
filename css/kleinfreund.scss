@@ -186,12 +186,6 @@ figure > img {
     display: block;
 }
 
-figcaption {
-    font-size: 14px;
-    font-size: 0.7rem;
-    line-height: 2.14286;
-}
-
 /**
  * Image placement variations.
  */
@@ -569,4 +563,10 @@ pre {
         @media only screen and (min-width: 845px) {
             width: 33.333%;
         }
+    }
+
+    .grid__caption {
+        padding: $base-spacing-unit / 2;
+        background-color: $orange-color-light;
+        border-radius: 0 0 3px 3px;
     }

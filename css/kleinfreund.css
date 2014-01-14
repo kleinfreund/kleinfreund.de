@@ -572,12 +572,6 @@ figure > img {
   display: block;
 }
 
-figcaption {
-  font-size: 14px;
-  font-size: 0.7rem;
-  line-height: 2.14286;
-}
-
 /**
  * Image placement variations.
  */
@@ -930,4 +924,10 @@ pre {
   .grid__item {
     width: 33.333%;
   }
+}
+
+.grid__caption {
+  padding: 15px;
+  background-color: #ffaa10;
+  border-radius: 0 0 3px 3px;
 }
