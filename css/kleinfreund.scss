@@ -532,3 +532,12 @@ pre {
 %text-shadow {
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 }
+
+.photoset {
+    margin-left: -$base-spacing-unit;
+}
+
+    .photoset__item {
+        margin-left: $base-spacing-unit;
+        @extend %vertical-rhythm;
+    }

@@ -484,7 +484,8 @@ ul, ol, dl,
 blockquote, p, address,
 table,
 fieldset, figure,
-pre {
+pre,
+.photoset__item {
   margin-bottom: 30px;
   margin-bottom: 1.5rem;
 }
@@ -890,4 +891,12 @@ pre {
 
 .site-nav__item, .section-header {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.photoset {
+  margin-left: -30px;
+}
+
+.photoset__item {
+  margin-left: 30px;
 }
