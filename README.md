@@ -19,8 +19,6 @@ We do have some restrictions including a kinda predefined directory structure an
 
 ## To do
 
-* create `robots.txt`
-* create `sitemap.xml`
 * write meta description
 * write documentation
 * write articles:
@@ -34,6 +32,8 @@ We do have some restrictions including a kinda predefined directory structure an
 
 ## Done
 
+* create `robots.txt`
+* create `sitemap.xml`
 * create logo/favicon
 * add to Google Webmaster Tools
 * Rename `page__frame--foot` to `page__foot` and select `.page__foot, .page__head` (?) ...probably not.
