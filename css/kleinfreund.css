@@ -901,3 +901,33 @@ pre {
 .photoset__item {
   margin-left: 30px;
 }
+
+.grid-wrapper {
+  max-width: 1260px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.grid {
+  margin-left: -15px;
+}
+
+.grid__item {
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  vertical-align: top;
+}
+@media only screen and (min-width: 430px) {
+  .grid__item {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 845px) {
+  .grid__item {
+    width: 33.333%;
+  }
+}

@@ -542,3 +542,31 @@ pre {
         margin-left: $base-spacing-unit;
         @extend %vertical-rhythm;
     }
+
+.grid-wrapper {
+    max-width: 1260px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $base-spacing-unit / 2;
+    padding-left: $base-spacing-unit / 2;
+}
+
+.grid {
+    margin-left: -$base-spacing-unit / 2;
+}
+
+    .grid__item {
+        display: inline-block;
+        width: 100%;
+        padding-bottom: $base-spacing-unit / 2;
+        padding-left: $base-spacing-unit / 2;
+        vertical-align: top;
+
+        @media only screen and (min-width: 430px) {
+            width: 50%;
+        }
+
+        @media only screen and (min-width: 845px) {
+            width: 33.333%;
+        }
+    }
