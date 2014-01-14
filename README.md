@@ -19,9 +19,9 @@ We do have some restrictions including a kinda predefined directory structure an
 
 ## To do
 
-* Rename `page__frame--foot` to `page__foot` and select `[class*="page__"]` (?) ...probably not.
+* Rename `page__frame--foot` to `page__foot` and select `.page__foot, .page__head` (?) ...probably not.
 * Remove `kontakt.html` (backup!)
-* Add Portfolio/Arbeiten instead
+* Add `portfolio.html` instead
 * Rename class `entry__header` to `entry__heading`
 
 * create logo/favicon
