@@ -935,8 +935,7 @@ pre {
     width: 33.333%;
   }
 }
-
-.grid__link {
+.grid__item a {
   color: #323232;
   font-weight: 300;
 }

@@ -573,11 +573,11 @@ pre {
         @media only screen and (min-width: 845px) {
             width: 33.333%;
         }
-    }
 
-    .grid__link {
-        color: $base-color-dark;
-        font-weight: 300;
+        a {
+            color: $base-color-dark;
+            font-weight: 300;
+        }
     }
 
     .grid__caption {
