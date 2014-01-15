@@ -723,7 +723,7 @@ pre {
   background-color: #5a9b00;
 }
 @media only screen and (min-width: 641px) {
-  .site-nav__item--green:not(.site-nav--current):hover {
+  :not(.page--hallo) .site-nav__item--green:hover {
     background-color: #6fbf00;
   }
 }
