@@ -18,28 +18,28 @@ This is my personal CSS Styleguide.
 * End each property declaration with a `;`
 * One space before `{` in rule declarations and after `:` in property declarations
 
-  ```css
-  [selector] {
-      [property]: [value];
-  }
-  ```
+```css
+[selector] {
+    [property]: [value];
+}
+```
 
 * Align vendor-prefixed properties and values properly
 
-  ```css
-  *, *:before, *:after {
-      -webkit-box-sizing: border-box;
-         -moz-box-sizing: border-box;
-              box-sizing: border-box;
-  }
-  ```
+```css
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+```
 
 * Use hex-based color values instead of `rgb()`
 * Use short hex values like `#f60` instead of `#ff6600`
 * Group similar type selectors together
 
-  ```css
-  h1, h2, h3, h4, h5, h6 {
-      color: khaki;
-  }
-  ```
+```css
+h1, h2, h3, h4, h5, h6 {
+    color: khaki;
+}
+```
