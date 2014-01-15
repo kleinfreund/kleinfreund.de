@@ -527,7 +527,7 @@ h1 {
   line-height: 1.66667;
 }
 
-h2, .page-head {
+h2, .page-title {
   font-size: 30px;
   font-size: 1.5rem;
   line-height: 1;
@@ -806,27 +806,27 @@ pre {
 /*------------------------------------*\
         page-head
 \*------------------------------------*/
-.page-head {
+.page-title {
   color: white;
   background-color: #323232;
   margin-bottom: 0;
   padding: 15px;
 }
 @media only screen and (min-width: 641px) {
-  .page-head {
+  .page-title {
     padding: 15px 10%;
   }
 }
-.page--hallo .page-head {
+.page--hallo .page-title {
   background-color: #6fbf00;
 }
-.page--profil .page-head {
+.page--profil .page-title {
   background-color: #6d91da;
 }
-.page--portfolio .page-head {
+.page--portfolio .page-title {
   background-color: #ffaa10;
 }
-.page--impressum .page-head {
+.page--impressum .page-title {
   background-color: #e04345;
 }
 
@@ -879,16 +879,16 @@ pre {
   }
 }
 
-.site-nav__item, .page-head {
+.site-nav__item, .page-title {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 }
 
-.page-head, .entry, .grid-wrapper {
+.page-title, .entry, .grid-wrapper {
   margin-bottom: 60px;
   margin-bottom: 3rem;
 }
 @media only screen and (min-width: 641px) {
-  .page-head, .entry, .grid-wrapper {
+  .page-title, .entry, .grid-wrapper {
     margin-bottom: 120px;
     margin-bottom: 6rem;
   }

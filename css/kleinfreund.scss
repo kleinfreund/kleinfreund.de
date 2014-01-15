@@ -430,7 +430,7 @@ pre {
 /*------------------------------------*\
         page-head
 \*------------------------------------*/
-.page-head {
+.page-title {
     color: $bright-ui-color;
     background-color: $base-color-dark;
     margin-bottom: 0;
@@ -459,9 +459,6 @@ pre {
         background-color: $red-color-light;
     }
 }
-
-    .page-title {
-    }
 
 .entry {
     @extend %gap;
