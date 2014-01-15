@@ -621,6 +621,17 @@ kbd, samp {
   line-height: 1.875;
 }
 
+code {
+  white-space: nowrap;
+  padding: 0 5px;
+  margin: 0 2px;
+  border: 1px solid #aaaaaa;
+  border-radius: 2px;
+}
+.page--hallo code {
+  color: #5a9b00;
+}
+
 pre {
   overflow: auto;
   white-space: pre;
@@ -850,7 +861,7 @@ pre {
 }
 
 .entry__meta {
-  color: #7a7a7a;
+  color: #aaaaaa;
   margin-bottom: 0;
 }
 

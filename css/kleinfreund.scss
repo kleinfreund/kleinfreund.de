@@ -9,7 +9,7 @@ $foreground-color: #444;
 $bright-ui-color: #fff;
 
 $base-color: #444;
-$base-color-light: lighten($base-color, 21%);
+$base-color-light: #aaa;
 $base-color-dark: darken($base-color, 7%);
 
 $green-color: #5a9b00;
@@ -234,6 +234,18 @@ kbd, samp {
     font-size: 16px;
     font-size: 0.8rem;
     line-height: 1.875;
+}
+
+code {
+    white-space: nowrap;
+    padding: 0 5px;
+    margin: 0 2px;
+    border: 1px solid $base-color-light;
+    border-radius: 2px;
+
+    .page--hallo & {
+        color: $green-color;
+    }
 }
 
 pre {
