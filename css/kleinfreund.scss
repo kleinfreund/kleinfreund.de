@@ -9,6 +9,7 @@ $foreground-color: #444;
 $bright-ui-color: #fff;
 
 $base-color: #444;
+$base-color-light: lighten($base-color, 7%);
 $base-color-dark: darken($base-color, 7%);
 
 $green-color: #5a9b00;
@@ -488,23 +489,27 @@ pre {
     }
 }
 
-        .entry__heading {
-            .page--hallo & {
-                color: $green-color;
-            }
+    .entry__meta {
+        color: $base-color-light;
+    }
 
-            .page--profil & {
-                color: $blue-color;
-            }
-
-            .page--portfolio & {
-                color: $orange-color;
-            }
-
-            .page--impressum & {
-                color: $red-color;
-            }
+    .entry__heading {
+        .page--hallo & {
+            color: $green-color;
         }
+
+        .page--profil & {
+            color: $blue-color;
+        }
+
+        .page--portfolio & {
+            color: $orange-color;
+        }
+
+        .page--impressum & {
+            color: $red-color;
+        }
+    }
 
 
 

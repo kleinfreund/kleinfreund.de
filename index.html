@@ -32,6 +32,45 @@
             <h2 class=entry__heading>Wir können hier nicht anhalten&hellip;</h2>
             <p>Zuerst baue ich den Rest fertig, dann kümmere ich um das hier. Bis dahin ist das hier <strong>Fledermausland</strong>.</p>
         </article>
+
+        <article class="wrapper entry">
+            <p class=entry__meta>15. Januar 2014</p>
+            <h2 class=entry__heading>CSS Styleguide</h2>
+            <p>Das ist mein persönliches CSS Styleguide.</p>
+            <h3 class=entry__heading>Benennung</h3>
+            <ul>
+                <li>Alles ist klein geschrieben</li>
+                <li>ID und Klassennamen werden durch Bindestriche getrennt (außer bei BEM-Syntax)</li>
+                <li>BEM wird nur verwendet, wenn es echten Mehrwert bringt</li>
+                <li>Benennung erfolgt so kurz wie möglich, aber so lang wie nötig<br>
+                    z.B. <code>site-nav</code> statt <code>site-navigation</code></li>
+            </ul>
+            <h3 class=entry__heading>Code</h3>
+            <ul>
+                <li>Eine Deklaration pro Zeile</li>
+                <li>Um 4 Leerzeichen einrücken</li>
+                <li>Keine abschließenden Leerzeichen</li>
+                <li>Jede Eigenschafts-Deklaration wird mit mit einem <code>;</code> beendet</li>
+                <li>Ein Leerzeichen zwischen Selektor und <code>{</code></li>
+                <li>Ein Leerzeichen nach dem <code>:</code> in Eigenschafts-Deklarationen<br>
+<pre><code>[selector] {
+    [property]: [value];
+}</code></pre></li>
+                <li>Eigenschaften und Werte mit Vendor-Prefix werden passend angeordnet
+<pre><code>*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}</code></pre></li>
+                <li>Hex-basierte Farbwerte statt <code>rgb()</code></li>
+                <li>Kurze Farbwerte wie <code>#f60</code> statt <code>#ff6600</code></li>
+                <li>Ähnliche Tag-Selektoren werden gruppiert
+<pre><code>h1, h2, h3, h4, h5, h6 {
+    color: khaki;
+}</code></pre></li>
+            </ul>
+            <p><strong>Randnotiz:</strong> Weil man sich beim Schreiben eines solchen Artikels auf Deutsch ziemlich lächerlich vorkommt, gibt's hier noch die <a href="http://github.com/kleinfreund/kleinfreund.github.io/blob/master/posts/2014-01-12-css-styleguide.md">englischsprachige Variante</a> auf GitHub.</p>
+        </article>
     </main>
 
     <footer class=site-foot role=contentinfo>
