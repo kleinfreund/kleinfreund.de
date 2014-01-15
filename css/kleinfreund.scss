@@ -406,19 +406,19 @@ pre {
         color: $bright-ui-color;
     }
 
-    .section-green & {
+    .page--hallo & {
         border-color: $green-color;
     }
 
-    .section-blue & {
+    .page--profil & {
         border-color: $blue-color;
     }
 
-    .section-portfolio & {
+    .page--portfolio & {
         border-color: $orange-color;
     }
 
-    .section-red & {
+    .page--impressum & {
         border-color: $red-color;
     }
 }
@@ -444,19 +444,19 @@ pre {
         margin-bottom: 0;
     }
 
-    .section-green & {
+    .page--hallo & {
         background-color: $green-color-light;
     }
 
-    .section-blue & {
+    .page--profil & {
         background-color: $blue-color-light;
     }
 
-    .section-portfolio & {
+    .page--portfolio & {
         background-color: $orange-color-light;
     }
 
-    .section-red & {
+    .page--impressum & {
         background-color: $red-color-light;
     }
 }
@@ -479,37 +479,37 @@ pre {
             border-bottom: 0.125em solid;
         }
 
-        .section-green & {
+        .page--hallo & {
             color: $green-color;
         }
 
-        .section-blue & {
+        .page--profil & {
             color: $blue-color;
         }
 
-        .section-portfolio & {
+        .page--portfolio & {
             color: $orange-color;
         }
 
-        .section-red & {
+        .page--impressum & {
             color: $red-color;
         }
     }
 
         .entry__heading {
-            .section-green & {
+            .page--hallo & {
                 color: $green-color;
             }
 
-            .section-blue & {
+            .page--profil & {
                 color: $blue-color;
             }
 
-            .section-portfolio & {
+            .page--portfolio & {
                 color: $orange-color;
             }
 
-            .section-red & {
+            .page--impressum & {
                 color: $red-color;
             }
         }

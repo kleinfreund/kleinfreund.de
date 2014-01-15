@@ -786,19 +786,19 @@ pre {
 .page__foot a {
   color: white;
 }
-.section-green .page__head, .section-green
+.page--hallo .page__head, .page--hallo
 .page__foot {
   border-color: #5a9b00;
 }
-.section-blue .page__head, .section-blue
+.page--profil .page__head, .page--profil
 .page__foot {
   border-color: #507bd3;
 }
-.section-portfolio .page__head, .section-portfolio
+.page--portfolio .page__head, .page--portfolio
 .page__foot {
   border-color: #eb9800;
 }
-.section-red .page__head, .section-red
+.page--impressum .page__head, .page--impressum
 .page__foot {
   border-color: #db2427;
 }
@@ -819,16 +819,16 @@ pre {
 .section-header :last-child {
   margin-bottom: 0;
 }
-.section-green .section-header {
+.page--hallo .section-header {
   background-color: #6fbf00;
 }
-.section-blue .section-header {
+.page--profil .section-header {
   background-color: #6d91da;
 }
-.section-portfolio .section-header {
+.page--portfolio .section-header {
   background-color: #ffaa10;
 }
-.section-red .section-header {
+.page--impressum .section-header {
   background-color: #e04345;
 }
 
@@ -851,29 +851,29 @@ pre {
 .entry a:hover {
   border-bottom: 0.125em solid;
 }
-.section-green .entry a {
+.page--hallo .entry a {
   color: #5a9b00;
 }
-.section-blue .entry a {
+.page--profil .entry a {
   color: #507bd3;
 }
-.section-portfolio .entry a {
+.page--portfolio .entry a {
   color: #eb9800;
 }
-.section-red .entry a {
+.page--impressum .entry a {
   color: #db2427;
 }
 
-.section-green .entry__heading {
+.page--hallo .entry__heading {
   color: #5a9b00;
 }
-.section-blue .entry__heading {
+.page--profil .entry__heading {
   color: #507bd3;
 }
-.section-portfolio .entry__heading {
+.page--portfolio .entry__heading {
   color: #eb9800;
 }
-.section-red .entry__heading {
+.page--impressum .entry__heading {
   color: #db2427;
 }
 
