@@ -18,11 +18,8 @@ We do have some restrictions including a kinda predefined directory structure an
 
 ## To do
 
-* fix logo being img AND background-image. What have I done there? ._.
-* fix relative paths in 404.html!
-* Add `display: block;` to nav items and set to inline-block on wide views to get flexbox to work
-* Reconsider image handling in articles
-* write meta description
+* Reconsider images in articles
+* write meta description (for real this time)
 * write documentation
 * write articles:
   * How the site was build
@@ -30,16 +27,22 @@ We do have some restrictions including a kinda predefined directory structure an
 * finish `profil.html`:
   * add photo
   * add further information
-* try jekyll to generate the site
 * test (IE8, old browsers in school)
 
 ## Done
 
+* fix logo having both `src`-attribute AND `background-image`
+* fis relative paths not beginning with `/`
+* fix flexing `site-nav__item`s not having `display: block;` on mobile
 * create `robots.txt`
 * create `sitemap.xml`
 * create logo/favicon
-* add to Google Webmaster Tools
-* Rename `page__frame--foot` to `page__foot` and select `.page__foot, .page__head` (?) ...probably not.
-* Remove `kontakt.html` (backup!)
-* Add `portfolio.html` instead
-* Rename class `entry__header` to `entry__heading`
+* add site to Google Webmaster Tools
+* rename `page__frame--[head|foot]` to `page__[head|foot]`
+* remove `kontakt.html`
+* add `portfolio.html`
+* Rename `entry__header` to `entry__heading`
+
+## Future plans
+
+* try jekyll to generate the site
