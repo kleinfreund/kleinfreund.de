@@ -726,7 +726,7 @@ pre {
   .site-nav__item--green:not(.site-nav--current):hover {
     background-color: #6fbf00;
   }
-  :not(.page--hallo) .site-nav__item--green:hover {
+  body:not(.page--hallo) .site-nav__item--green:hover {
     background-color: #6fbf00;
   }
 }
