@@ -521,37 +521,37 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
 }
 
-h1, .h1 {
+h1 {
   font-size: 36px;
   font-size: 1.8rem;
   line-height: 1.66667;
 }
 
-h2, .h2 {
+h2, .page-head {
   font-size: 30px;
   font-size: 1.5rem;
   line-height: 1;
 }
 
-h3, .h3 {
+h3 {
   font-size: 24px;
   font-size: 1.2rem;
   line-height: 1.25;
 }
 
-h4, .h4 {
+h4 {
   font-size: 20px;
   font-size: 1rem;
   line-height: 1.5;
 }
 
-h5, .h5 {
+h5 {
   font-size: 16px;
   font-size: 0.8rem;
   line-height: 1.875;
 }
 
-h6, .h6 {
+h6 {
   font-size: 14px;
   font-size: 0.7rem;
   line-height: 2.14286;
@@ -632,7 +632,7 @@ pre {
 }
 
 /*------------------------------------*\
-        SITE-LOGO / SITE-TITLE
+        site-logo / site-title
 \*------------------------------------*/
 .site-logo {
   display: inline-block;
@@ -665,7 +665,7 @@ pre {
 }
 
 /*------------------------------------*\
-        SITE-NAV
+        site-nav
 \*------------------------------------*/
 .site-nav {
   line-height: 1;
@@ -756,79 +756,77 @@ pre {
 }
 
 /*------------------------------------*\
-        PAGE__HEAD / PAGE__FOOT
+        site-head / site-foot
 \*------------------------------------*/
-.page__head {
+.site-head {
   border-bottom: 7px solid #323232;
 }
 
-.page__foot {
+.site-foot {
   font-size: 16px;
   font-size: 0.8rem;
   line-height: 1.875;
   padding: 15px 30px;
   border-top: 7px solid #323232;
 }
-.page__foot a {
+.site-foot a {
   text-decoration: underline;
 }
-.page__foot p:last-child {
+.site-foot p:last-child {
   margin-bottom: 0;
 }
 
-.page__head,
-.page__foot {
+.site-head,
+.site-foot {
   background-color: #444444;
 }
-.page__head,
-.page__head a,
-.page__foot,
-.page__foot a {
+.site-head,
+.site-head a,
+.site-foot,
+.site-foot a {
   color: white;
 }
-.page--hallo .page__head, .page--hallo
-.page__foot {
+.page--hallo .site-head, .page--hallo
+.site-foot {
   border-color: #5a9b00;
 }
-.page--profil .page__head, .page--profil
-.page__foot {
+.page--profil .site-head, .page--profil
+.site-foot {
   border-color: #507bd3;
 }
-.page--portfolio .page__head, .page--portfolio
-.page__foot {
+.page--portfolio .site-head, .page--portfolio
+.site-foot {
   border-color: #eb9800;
 }
-.page--impressum .page__head, .page--impressum
-.page__foot {
+.page--impressum .site-head, .page--impressum
+.site-foot {
   border-color: #db2427;
 }
 
 /*------------------------------------*\
-        PAGE
+        page-head
 \*------------------------------------*/
-.section-header {
+.page-head {
   color: white;
   background-color: #323232;
+  margin-bottom: 0;
   padding: 15px;
 }
 @media only screen and (min-width: 641px) {
-  .section-header {
+  .page-head {
     padding: 15px 10%;
   }
 }
-.section-header :last-child {
-  margin-bottom: 0;
-}
-.page--hallo .section-header {
+.page--hallo .page-head {
   background-color: #6fbf00;
 }
-.page--profil .section-header {
+.page--profil .page-head {
   background-color: #6d91da;
 }
-.page--portfolio .section-header {
+.page--portfolio .page-head {
   background-color: #ffaa10;
 }
-.page--impressum .section-header {
+.page--impressum .page-head {
   background-color: #e04345;
 }
 
@@ -865,7 +863,7 @@ pre {
 }
 
 /*------------------------------------*\
-        MISC
+        misc
 \*------------------------------------*/
 .wrapper {
   max-width: 680px;
@@ -881,16 +879,16 @@ pre {
   }
 }
 
-.site-nav__item, .section-header {
+.site-nav__item, .page-head {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 }
 
-.section-header, .entry, .grid-wrapper {
+.page-head, .entry, .grid-wrapper {
   margin-bottom: 60px;
   margin-bottom: 3rem;
 }
 @media only screen and (min-width: 641px) {
-  .section-header, .entry, .grid-wrapper {
+  .page-head, .entry, .grid-wrapper {
     margin-bottom: 120px;
     margin-bottom: 6rem;
   }

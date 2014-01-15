@@ -135,37 +135,37 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
 }
 
-h1, .h1 {
+h1, %h1 {
     font-size: 36px;
     font-size: 1.8rem;
     line-height: 1.66667;
 }
 
-h2, .h2 {
+h2, %h2 {
     font-size: $base-spacing-unit;
     font-size: 1.5rem;
     line-height: 1;
 }
 
-h3, .h3 {
+h3, %h3 {
     font-size: 24px;
     font-size: 1.2rem;
     line-height: 1.25;
 }
 
-h4, .h4 {
+h4, %h4 {
     font-size: 20px;
     font-size: 1rem;
     line-height: 1.5;
 }
 
-h5, .h5 {
+h5, %h5 {
     font-size: 16px;
     font-size: 0.8rem;
     line-height: 1.875;
 }
 
-h6, .h6 {
+h6, %h6 {
     font-size: 14px;
     font-size: 0.7rem;
     line-height: 2.14286;
@@ -250,7 +250,7 @@ pre {
 
 
 /*------------------------------------*\
-        SITE-LOGO / SITE-TITLE
+        site-logo / site-title
 \*------------------------------------*/
 .site-logo {
     display: inline-block;
@@ -285,7 +285,7 @@ pre {
 
 
 /*------------------------------------*\
-        SITE-NAV
+        site-nav
 \*------------------------------------*/
 .site-nav {
     line-height: 1;
@@ -375,13 +375,13 @@ pre {
 
 
 /*------------------------------------*\
-        PAGE__HEAD / PAGE__FOOT
+        site-head / site-foot
 \*------------------------------------*/
-.page__head {
+.site-head {
     border-bottom: 7px solid $base-color-dark;
 }
 
-.page__foot {
+.site-foot {
     font-size: 16px;
     font-size: 0.8rem;
     line-height: 1.875;
@@ -397,8 +397,8 @@ pre {
     }
 }
 
-.page__head,
-.page__foot {
+.site-head,
+.site-foot {
     background-color: $base-color;
 
     &,
@@ -428,21 +428,19 @@ pre {
 
 
 /*------------------------------------*\
-        PAGE
+        page-head
 \*------------------------------------*/
-.section-header {
+.page-head {
     color: $bright-ui-color;
     background-color: $base-color-dark;
+    margin-bottom: 0;
     padding: $base-spacing-unit / 2;
+    @extend %h2;
     @extend %text-shadow;
     @extend %gap;
 
     @media only screen and (min-width: 641px) {
         padding: $base-spacing-unit / 2 10%;
-    }
-
-    :last-child {
-        margin-bottom: 0;
     }
 
     .page--hallo & {
@@ -461,6 +459,9 @@ pre {
         background-color: $red-color-light;
     }
 }
+
+    .page-title {
+    }
 
 .entry {
     @extend %gap;
@@ -513,7 +514,7 @@ pre {
 
 
 /*------------------------------------*\
-        MISC
+        misc
 \*------------------------------------*/
 .wrapper {
     max-width: 680px;
