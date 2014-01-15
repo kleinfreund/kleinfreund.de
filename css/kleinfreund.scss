@@ -335,6 +335,9 @@ pre {
             &:not(.site-nav--current):hover {
                 background-color: $green-color-light;
             }
+            :not(.page--hallo) &:hover {
+                background-color: $green-color-light;
+            }
         }
     }
 
