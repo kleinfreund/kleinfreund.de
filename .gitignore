@@ -3,10 +3,6 @@
 .sass-cache/
 config.rb
 
-# sublime text #
-################
-*.sublime*
-
 # OS junk #
 ###########
 .DS_Store

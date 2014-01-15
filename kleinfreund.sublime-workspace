@@ -1,0 +1,414 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"lig",
+				"orange-color-light"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"v",
+				"vertical-rhythm"
+			],
+			[
+				"site",
+				"site-nav__item"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"base",
+				"base-spacing-unit"
+			],
+			[
+				"form",
+				"form__item--textarea"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"ba",
+				"base-ui-color"
+			],
+			[
+				"bas",
+				"base-ui-color"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"blo",
+				"block-list__title"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"block",
+				"block-list__link"
+			],
+			[
+				"f",
+				"font-style"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Philipp/_dev/github/kleinfreund.sublime-workspace",
+		"/C/Users/Philipp/_dev/github/kleinfreund.github.io/css/kleinfreund.css",
+		"/C/Users/Philipp/_dev/github/kleinfreund.github.io/css/kleinfreund.scss",
+		"/C/Users/Philipp/_dev/github/kleinfreund.github.io/impressum.html",
+		"/C/Users/Philipp/_dev/github/kleinfreund.github.io/profil.html",
+		"/C/Users/Philipp/_dev/github/kleinfreund.github.io/portfolio.html",
+		"/C/Users/Philipp/_dev/github/kleinfreund.github.io/index.html",
+		"/C/Users/Philipp/_dev/github/kleinfreund.github.io/404.html",
+		"/C/Users/Philipp/_dev/portfolio-backup.txt",
+		"/C/Users/Philipp/_dev/github/kleinfreund.github.io/portfolio_.html",
+		"/C/Users/Philipp/_dev/sites/bbk-vogtland-de/01-workspace/css/bbkv.min.css",
+		"/C/Users/Philipp/_dev/sites/infinite-amplitudes-tumblr-com/css/ia.min.css",
+		"/C/Users/Philipp/_design/kf-temp/kontakt.html",
+		"/C/Users/Philipp/_dev/github/kleinfreund.github.io/sitemap.xml",
+		"/C/Users/Philipp/_dev/github/kleinfreund.github.io/kontakt.html",
+		"/C/Users/Philipp/_dev/github/kleinfreund.github.io/html/impressum.html",
+		"/C/Users/Philipp/_dev/github/kleinfreund.github.io/html/kontakt.html",
+		"/C/Users/Philipp/_dev/github/kleinfreund.github.io/html/profil.html",
+		"/C/Users/Philipp/Downloads/nameserver-2014-01-14.csv",
+		"/C/Users/Philipp/_dev/github/kleinfreund.github.io/config.rb",
+		"/C/Users/Philipp/_dev/github/kleinfreund.github.io/css/kleinfreund.min.css",
+		"/C/Users/Philipp/_dev/sites/kleinfreund-de/CNAME",
+		"/C/Users/Philipp/_dev/github/kleinfreund.github.io/_posts/2014-01-13-und-es-beginnt-ganz-langsam.md",
+		"/C/Users/Philipp/Desktop/html5.html",
+		"/C/Users/Philipp/Documents/GitHub/kleinfreund.github.io/html/profil.html",
+		"/C/Users/Philipp/Documents/GitHub/kleinfreund.github.io/html/kontakt.html",
+		"/C/Users/Philipp/Documents/GitHub/kleinfreund.github.io/html/impressum.html",
+		"/C/Users/Philipp/Documents/GitHub/kleinfreund.github.io/index.html",
+		"/C/Users/Philipp/Documents/GitHub/kleinfreund.github.io/css/kleinfreund.css",
+		"/C/Users/Philipp/Dev/Sites/kleinfreund-de/kleinfreund.sublime-workspace",
+		"/C/Users/Philipp/Documents/GitHub/kleinfreund.github.io/css/style.css",
+		"/C/Users/Philipp/Documents/GitHub/kleinfreund.github.io/css/style.scss",
+		"/C/Users/Philipp/Design/01-sites/04-kleinfreund/umsetzung/css/style.css",
+		"/C/Users/Philipp/Design/01-sites/04-kleinfreund/umsetzung/html/impressum.html",
+		"/C/Users/Philipp/Design/01-sites/04-kleinfreund/umsetzung/html/kontakt.html",
+		"/C/Users/Philipp/Design/01-sites/04-kleinfreund/umsetzung/html/profil.html",
+		"/C/Users/Philipp/Design/01-sites/04-kleinfreund/umsetzung/index.html",
+		"/C/Users/Philipp/Design/01-sites/04-kleinfreund/umsetzung/css/style.scss",
+		"/C/Users/Philipp/Design/01-sites/04-kleinfreund/umsetzung/css/normalize.css",
+		"/C/Users/Philipp/Design/01-sites/04-kleinfreund/umsetzung/html/submit.php",
+		"/C/Users/Philipp/Design/01-sites/04-kleinfreund/umsetzung/css/ubuntu.css",
+		"/C/Users/Philipp/Design/00-ressources/kf-inuit-css/css/ui/_page.scss",
+		"/C/Users/Philipp/Design/01-sites/04-kleinfreund/umsetzung/css/style.min.css",
+		"/C/Users/Philipp/Design/01-sites/04-kleinfreund/umsetzung/css/kf/kleinfreund.css",
+		"/C/Users/Philipp/Design/01-sites/04-kleinfreund/umsetzung/css/kf/kleinfreund.scss",
+		"/C/Users/Philipp/Design/01-sites/04-kleinfreund/umsetzung/css/inuit-css/css/ui/_page-head.scss",
+		"/C/Users/Philipp/Design/01-sites/04-kleinfreund/umsetzung/css/inuit-css/css/ui/_page-foot.scss",
+		"/C/Users/Philipp/Design/01-sites/04-kleinfreund/umsetzung/css/inuit-css/css/ui/_page.scss",
+		"/C/Users/Philipp/Design/01-sites/04-kleinfreund/umsetzung/css/inuit-css/css/ui/_navigation.scss",
+		"/C/Users/Philipp/Design/01-sites/04-kleinfreund/umsetzung/css/inuit-css/css/ui/_misc.scss",
+		"/C/Users/Philipp/Design/01-sites/04-kleinfreund/umsetzung/css/inuit-css/css/ui/_layout.scss",
+		"/C/Users/Philipp/Design/01-sites/04-kleinfreund/umsetzung/css/inuit-css/css/ui/_base.scss",
+		"/C/Users/Philipp/Design/01-sites/04-kleinfreund/umsetzung/css/inuit-css/css/_vars.scss",
+		"/C/Users/Philipp/Design/01-sites/04-kleinfreund/umsetzung/css/inuit-css/css/style.scss",
+		"/C/Users/Philipp/Design/01-sites/04-kleinfreund/umsetzung/css/kleinfreund.min.css",
+		"/C/Users/Philipp/Design/01-sites/04-kleinfreund/umsetzung/css/kf/kf.css",
+		"/C/Users/Philipp/Design/01-sites/04-kleinfreund/umsetzung/fonts/ubuntu/ubuntu.css",
+		"/C/Users/Philipp/Design/01-sites/04-kleinfreund/umsetzung/css/kleinfreund.scss",
+		"/C/Users/Philipp/Design/01-sites/04-kleinfreund/umsetzung/css/kleinfreund.css",
+		"/C/Users/Philipp/Downloads/ubuntu/stylesheet.css",
+		"/C/Users/Philipp/Design/01-sites/04-kleinfreund/umsetzung/impressum.html",
+		"/C/Users/Philipp/Design/01-sites/04-kleinfreund/umsetzung/kontakt.html",
+		"/C/Users/Philipp/Design/01-sites/04-kleinfreund/umsetzung/profil.html",
+		"/C/Users/Philipp/Desktop/letter.md",
+		"/C/Users/Philipp/Design/01-sites/03-bbk-vogtland-de/01-workspace/css/bbkv-inuit-css/css/ui/_layout.scss",
+		"/C/Users/Philipp/Design/01-sites/03-bbk-vogtland-de/01-workspace/css/bbkv-inuit-css/css/ui/_flexbox.scss",
+		"/C/Users/Philipp/Downloads/stylesheet.css",
+		"/C/Users/Philipp/Design/00-ressources/kleinfreund/index.html",
+		"/C/Users/Philipp/Design/00-ressources/nav-test.html",
+		"/C/Users/Philipp/Design/00-ressources/kleinfreund/style.css",
+		"/C/Users/Philipp/Design/00-ressources/simple-nav/style.css",
+		"/C/Users/Philipp/Design/00-ressources/simple-nav/simple-nav-test.html",
+		"/C/Users/Philipp/Desktop/index.html",
+		"/C/Users/Philipp/Design/01-sites/03-bbk-vogtland-de/dummy-2/mitglieder.html",
+		"/C/Users/Philipp/Design/01-sites/03-bbk-vogtland-de/dummy-2/impressum.html",
+		"/C/Users/Philipp/Design/00-ressources/hide-show-div/show-hide-div.html",
+		"/C/Users/Philipp/Design/01-sites/03-bbk-vogtland-de/dummy-2/mitglied/anke-rudloff.html",
+		"/C/Users/Philipp/Design/01-sites/03-bbk-vogtland-de/dummy-2/mitglied/andreas-rudloff.html",
+		"/C/Users/Philipp/Design/01-sites/03-bbk-vogtland-de/dummy-2/mitglied/andreas-leonhardt.html",
+		"/C/Users/Philipp/Design/01-sites/03-bbk-vogtland-de/dummy-2/index.html",
+		"/C/Users/Philipp/Design/01-sites/03-bbk-vogtland-de/dummy-2/mitglied/christhard-richter.html",
+		"/C/Users/Philipp/Design/01-sites/03-bbk-vogtland-de/dummy-2/mitglied/bianca-hallebach.html",
+		"/C/Users/Philipp/Design/01-sites/03-bbk-vogtland-de/dummy-2/mitglieder-grid.html",
+		"/C/Users/Philipp/Design/01-sites/03-bbk-vogtland-de/dummy-2/index-v.html",
+		"/C/Users/Philipp/Design/01-sites/03-bbk-vogtland-de/dummy-2/bbkv-inuit-css/css/inuit.css/objects/_nav.scss",
+		"/C/Users/Philipp/Design/01-sites/03-bbk-vogtland-de/dummy-2/bbkv-inuit-css/css/_vars.scss",
+		"/C/Users/Philipp/Design/01-sites/03-bbk-vogtland-de/dummy-2/bbkv-inuit-css/css/ui/_layout.scss",
+		"/C/Users/Philipp/Design/01-sites/01-artrudloff.de/01-artrudloff-theme/css/artrudloff.min.css",
+		"/C/Users/Philipp/Design/01-sites/01-artrudloff.de/01-artrudloff-theme/artrudloff-inuit-css/css/ui/_navigation.scss",
+		"/C/Users/Philipp/Design/01-sites/01-artrudloff.de/01-artrudloff-theme/artrudloff-inuit-css/css/inuit.css/objects/_nav.scss",
+		"/C/Users/Philipp/Design/01-sites/01-artrudloff.de/01-artrudloff-theme/artrudloff-inuit-css/css/ui/_base.scss",
+		"/C/Users/Philipp/Design/01-sites/01-artrudloff.de/01-artrudloff-theme/artrudloff-inuit-css/css/ui/_layout.scss",
+		"/C/Users/Philipp/Desktop/eckkunst_template.css",
+		"/C/Users/Philipp/Desktop/eckkunst_template.html",
+		"/C/Users/Philipp/Design/01-sites/01-artrudloff.de/01-artrudloff-theme/artrudloff-theme-v2/category-druckgrafik.php",
+		"/C/Users/Philipp/Design/01-sites/01-artrudloff.de/01-artrudloff-theme/artrudloff-theme-v2/category-wandbilder.php",
+		"/C/Users/Philipp/Design/01-sites/01-artrudloff.de/01-artrudloff-theme/artrudloff-theme-v2/category-zeichnungen.php",
+		"/C/Users/Philipp/Design/01-sites/01-artrudloff.de/01-artrudloff-theme/artrudloff-theme-v2/category-holzreliefs.php",
+		"/C/Users/Philipp/Design/01-sites/01-artrudloff.de/01-artrudloff-theme/artrudloff-theme-v2/category-holzobjekte.php",
+		"/C/Users/Philipp/Design/01-sites/01-artrudloff.de/01-artrudloff-theme/artrudloff-theme-v2/category-glocken.php",
+		"/C/Users/Philipp/Design/01-sites/01-artrudloff.de/01-artrudloff-theme/artrudloff-theme-v2/style.css",
+		"/C/Users/Philipp/Design/01-sites/01-artrudloff.de/01-artrudloff-theme/artrudloff-wysiwyg-style-css/style.scss",
+		"/C/Users/Philipp/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"section-red",
+			"section-portfolio",
+			"section-blue",
+			"section-green",
+			"section",
+			":not",
+			"not",
+			"profil",
+			"kontakt",
+			"impressum",
+			"hallo",
+			"section-kontakt",
+			"page__",
+			"max-width",
+			"text-deco",
+			"vertical-rhythm",
+			"head",
+			"text-al",
+			"darken($base-color, 7%)",
+			"$base-ui-color",
+			"lighten",
+			"lighten($orange-color, 7%)",
+			"$green-ui-color",
+			"$orange-ui-color",
+			"$blue-ui-color",
+			"$red-ui-color",
+			"<h1 class=site-title>kleinfreund</h1>",
+			"site-nav",
+			":not",
+			"nav",
+			"ä",
+			"$half-spacing-unit",
+			"half-",
+			"page-foot",
+			"bright",
+			"base-ui",
+			"$foreground-color",
+			"$fore",
+			"$dark",
+			"$base-ui",
+			"#222",
+			"$base-ui",
+			"rem",
+			"email",
+			"write",
+			":focus",
+			"url('",
+			"#",
+			"#444444",
+			"#444",
+			"bright",
+			"white",
+			"#5a9b00",
+			"#eb9800",
+			"#507bd3",
+			"#db2427",
+			"#fff",
+			"#dedede",
+			"#222222",
+			"px",
+			"15px",
+			"60px",
+			"30px",
+			"-webfont",
+			"../fonts/",
+			"ubuntu",
+			"url(\"../fonts",
+			"url('",
+			"=\"entry spacer\"",
+			"=block-list__content",
+			"</h2>",
+			"<h2 class=block-list__title>",
+			"flexbox",
+			"extend",
+			"  ",
+			"{",
+			"anke",
+			" class=block-list__item",
+			"newContent",
+			"mem",
+			"memb",
+			"img",
+			" class=img--right",
+			"member-vita",
+			"<h2",
+			"  ",
+			"“",
+			"„",
+			"vita-content",
+			":",
+			"800px",
+			"300x150",
+			"350x150",
+			"script",
+			"\n$use-grids:         false;"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
