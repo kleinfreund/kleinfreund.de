@@ -32,7 +32,7 @@ We do have some restrictions including a kinda predefined directory structure an
 ## Done
 
 * fix logo having both `src`-attribute AND `background-image`
-* fis relative paths not beginning with `/`
+* fix relative paths not beginning with `/`
 * fix flexing `site-nav__item`s not having `display: block;` on mobile
 * create `robots.txt`
 * create `sitemap.xml`
