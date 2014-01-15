@@ -332,7 +332,7 @@ pre {
         background-color: $green-color;
 
         @media only screen and (min-width: 641px) {
-            :not(.page--hallo) &:hover {
+            &:not(.site-nav--current):hover {
                 background-color: $green-color-light;
             }
         }
