@@ -936,6 +936,11 @@ pre {
   }
 }
 
+.grid__link {
+  color: #323232;
+  font-weight: 300;
+}
+
 .grid__caption {
   padding: 15px;
   background-color: #ffaa10;

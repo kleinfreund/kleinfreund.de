@@ -575,6 +575,11 @@ pre {
         }
     }
 
+    .grid__link {
+        color: $base-color-dark;
+        font-weight: 300;
+    }
+
     .grid__caption {
         padding: $base-spacing-unit / 2;
         background-color: $orange-color-light;
