@@ -1,0 +1,37 @@
+<h1 id="css-styleguide">CSS Styleguide</h1>
+<p>This is my personal CSS Styleguide.</p>
+<h2 id="naming">Naming</h2>
+<ul>
+<li>Everything is lowercase</li>
+<li>ID and class names are dash-delimited (exception: BEM syntax)</li>
+<li>Don&#39;t use BEM if it doesn&#39;t provide any benefits (No need for <code>site__nav</code>, <code>page__foot</code> in the most cases)</li>
+<li>Name things as short as possible but as long as necessary:<br>
+E.g. <code>.site-nav {</code> instead of <code>.site-navigation {</code></li>
+</ul>
+<h2 id="coding">Coding</h2>
+<ul>
+<li>Write one declaration per line</li>
+<li>Intend by 4 spaces (no tabs)</li>
+<li>Don&#39;t leave trailing whitespaces</li>
+<li>End each property declaration with a <code>;</code></li>
+<li>One space before <code>{</code> in rule declarations and after <code>:</code> in property declarations</li>
+</ul>
+<pre><code class="lang-css">[selector] {
+    [property]: [value];
+}</code></pre>
+<ul>
+<li>Align vendor-prefixed properties and values properly</li>
+</ul>
+<pre><code class="lang-css">*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}</code></pre>
+<ul>
+<li>Use hex-based color values instead of <code>rgb()</code></li>
+<li>Use short hex values like <code>#f60</code> instead of <code>#ff6600</code></li>
+<li>Group similar type selectors together</li>
+</ul>
+<pre><code class="lang-css">h1, h2, h3, h4, h5, h6 {
+    color: khaki;
+}</code></pre>

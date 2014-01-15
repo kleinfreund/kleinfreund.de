@@ -849,6 +849,10 @@ pre {
   color: #db2427;
 }
 
+.entry__meta {
+  color: #565656;
+}
+
 .page--hallo .entry__heading {
   color: #5a9b00;
 }
