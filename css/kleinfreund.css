@@ -723,11 +723,6 @@ pre {
   background-color: #5a9b00;
 }
 @media only screen and (min-width: 641px) {
-  .site-nav__item--green {
-    /*&:not(.site-nav--current):hover {
-        background-color: $green-color-light;
-    }*/
-  }
   body:not(.page--hallo) .site-nav__item--green:hover {
     background-color: #6fbf00;
   }
@@ -737,11 +732,6 @@ pre {
   background-color: #507bd3;
 }
 @media only screen and (min-width: 641px) {
-  .site-nav__item--blue {
-    /*&:not(.site-nav--current):hover {
-        background-color: $blue-color-light;
-    }*/
-  }
   body:not(.page--profil) .site-nav__item--blue:hover {
     background-color: #6d91da;
   }
@@ -751,11 +741,6 @@ pre {
   background-color: #eb9800;
 }
 @media only screen and (min-width: 641px) {
-  .site-nav__item--orange {
-    /*&:not(.site-nav--current):hover {
-        background-color: $orange-color-light;
-    }*/
-  }
   body:not(.page--portfolio) .site-nav__item--orange:hover {
     background-color: #ffaa10;
   }
@@ -765,11 +750,6 @@ pre {
   background-color: #db2427;
 }
 @media only screen and (min-width: 641px) {
-  .site-nav__item--red {
-    /*&:not(.site-nav--current):hover {
-        background-color: $red-color-light;
-    }*/
-  }
   body:not(.page--impressum) .site-nav__item--red:hover {
     background-color: #e04345;
   }

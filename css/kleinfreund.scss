@@ -332,9 +332,6 @@ pre {
         background-color: $green-color;
 
         @media only screen and (min-width: 641px) {
-            /*&:not(.site-nav--current):hover {
-                background-color: $green-color-light;
-            }*/
             body:not(.page--hallo) &:hover {
                 background-color: $green-color-light;
             }
@@ -345,9 +342,6 @@ pre {
         background-color: $blue-color;
 
         @media only screen and (min-width: 641px) {
-            /*&:not(.site-nav--current):hover {
-                background-color: $blue-color-light;
-            }*/
             body:not(.page--profil) &:hover {
                 background-color: $blue-color-light;
             }
@@ -358,9 +352,6 @@ pre {
         background-color: $orange-color;
 
         @media only screen and (min-width: 641px) {
-            /*&:not(.site-nav--current):hover {
-                background-color: $orange-color-light;
-            }*/
             body:not(.page--portfolio) &:hover {
                 background-color: $orange-color-light;
             }
@@ -371,9 +362,6 @@ pre {
         background-color: $red-color;
 
         @media only screen and (min-width: 641px) {
-            /*&:not(.site-nav--current):hover {
-                background-color: $red-color-light;
-            }*/
             body:not(.page--impressum) &:hover {
                 background-color: $red-color-light;
             }
