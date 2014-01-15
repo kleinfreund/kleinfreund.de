@@ -49,7 +49,7 @@
             <h3 class=entry__heading>Code</h3>
             <ul>
                 <li>Eine Deklaration pro Zeile</li>
-                <li>Um 4 Leerzeichen einrücken</li>
+                <li>Einrückung um 4 Leerzeichen (keine Tabs)</li>
                 <li>Keine abschließenden Leerzeichen</li>
                 <li>Jede Eigenschafts-Deklaration wird mit mit einem <code>;</code> beendet</li>
                 <li>Ein Leerzeichen zwischen Selektor und <code>{</code></li>
@@ -58,16 +58,15 @@
 <pre>[selector] {
     [property]: [value];
 }</pre>
-            <p>Eigenschaften und Werte mit Vendor-Prefix werden passend angeordnet.</p>
+            <p>Eigenschaften und Werte mit Vendor-Prefix werden passend angeordnet. Das ist einfach eine Frage der Übersichtlichkeit. Man erkennt auf einen Blick, wo man sich bei einem Wert vertippt hat.</p>
 <pre>*, *:before, *:after {
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }</pre>
-            <p>Benutze hex-basierte Farbwerte statt <code>rgb()</code>. Außerdem kurze Farbwerte wie <code>#f60</code> statt <code>#ff6600</code>.</p>
-            <p>Ähnliche Tag-Selektoren werden gruppiert</p>
+            <p>Benutze hex-basierte Farbwerte statt <code>rgb()</code>. Außerdem kurze Farbwerte wie <code>#f60</code> statt <code>#ff6600</code>. Ähnliche Tag-Selektoren werden gruppiert.</p>
 <pre>h1, h2, h3, h4, h5, h6 {
-    color: khaki;
+    color: #f60;
 }</pre>
             <p><strong>Randnotiz:</strong> Weil man sich beim Schreiben eines solchen Artikels auf Deutsch ziemlich lächerlich vorkommt, gibt's hier noch die <a href="http://github.com/kleinfreund/kleinfreund.github.io/blob/master/posts/2014-01-12-css-styleguide.md">englischsprachige Variante</a> auf GitHub.</p>
         </article>
