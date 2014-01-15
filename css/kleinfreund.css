@@ -691,8 +691,9 @@ pre {
 }
 
 .site-nav__item {
-  padding: 7.5px 5px;
   display: block;
+  padding: 7.5px 0;
+  text-align: center;
   -webkit-box-flex: 1;
   /* OLD - iOS 6-, Safari 3.1-6 */
   -moz-box-flex: 1;
