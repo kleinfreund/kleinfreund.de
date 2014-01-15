@@ -328,7 +328,7 @@ pre {
         }
     }
 
-    .site-nav__item--hallo {
+    .site-nav__item--green {
         background-color: $green-color;
 
         @media only screen and (min-width: 641px) {
@@ -338,7 +338,7 @@ pre {
         }
     }
 
-    .site-nav__item--profil {
+    .site-nav__item--blue {
         background-color: $blue-color;
 
         @media only screen and (min-width: 641px) {
@@ -348,7 +348,7 @@ pre {
         }
     }
 
-    .site-nav__item--kontakt {
+    .site-nav__item--orange {
         background-color: $orange-color;
 
         @media only screen and (min-width: 641px) {
@@ -358,7 +358,7 @@ pre {
         }
     }
 
-    .site-nav__item--impressum {
+    .site-nav__item--red {
         background-color: $red-color;
 
         @media only screen and (min-width: 641px) {
@@ -406,11 +406,11 @@ pre {
         color: $bright-ui-color;
     }
 
-    .section-hallo & {
+    .section-green & {
         border-color: $green-color;
     }
 
-    .section-profil & {
+    .section-blue & {
         border-color: $blue-color;
     }
 
@@ -418,7 +418,7 @@ pre {
         border-color: $orange-color;
     }
 
-    .section-impressum & {
+    .section-red & {
         border-color: $red-color;
     }
 }
@@ -444,11 +444,11 @@ pre {
         margin-bottom: 0;
     }
 
-    .section-hallo & {
+    .section-green & {
         background-color: $green-color-light;
     }
 
-    .section-profil & {
+    .section-blue & {
         background-color: $blue-color-light;
     }
 
@@ -456,7 +456,7 @@ pre {
         background-color: $orange-color-light;
     }
 
-    .section-impressum & {
+    .section-red & {
         background-color: $red-color-light;
     }
 }
@@ -479,11 +479,11 @@ pre {
             border-bottom: 0.125em solid;
         }
 
-        .section-hallo & {
+        .section-green & {
             color: $green-color;
         }
 
-        .section-profil & {
+        .section-blue & {
             color: $blue-color;
         }
 
@@ -491,17 +491,17 @@ pre {
             color: $orange-color;
         }
 
-        .section-impressum & {
+        .section-red & {
             color: $red-color;
         }
     }
 
         .entry__heading {
-            .section-hallo & {
+            .section-green & {
                 color: $green-color;
             }
 
-            .section-profil & {
+            .section-blue & {
                 color: $blue-color;
             }
 
@@ -509,7 +509,7 @@ pre {
                 color: $orange-color;
             }
 
-            .section-impressum & {
+            .section-red & {
                 color: $red-color;
             }
         }

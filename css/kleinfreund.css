@@ -719,38 +719,38 @@ pre {
   }
 }
 
-.site-nav__item--hallo {
+.site-nav__item--green {
   background-color: #5a9b00;
 }
 @media only screen and (min-width: 641px) {
-  .site-nav__item--hallo:not(.site-nav--current):hover {
+  .site-nav__item--green:not(.site-nav--current):hover {
     background-color: #6fbf00;
   }
 }
 
-.site-nav__item--profil {
+.site-nav__item--blue {
   background-color: #507bd3;
 }
 @media only screen and (min-width: 641px) {
-  .site-nav__item--profil:not(.site-nav--current):hover {
+  .site-nav__item--blue:not(.site-nav--current):hover {
     background-color: #6d91da;
   }
 }
 
-.site-nav__item--kontakt {
+.site-nav__item--orange {
   background-color: #eb9800;
 }
 @media only screen and (min-width: 641px) {
-  .site-nav__item--kontakt:not(.site-nav--current):hover {
+  .site-nav__item--orange:not(.site-nav--current):hover {
     background-color: #ffaa10;
   }
 }
 
-.site-nav__item--impressum {
+.site-nav__item--red {
   background-color: #db2427;
 }
 @media only screen and (min-width: 641px) {
-  .site-nav__item--impressum:not(.site-nav--current):hover {
+  .site-nav__item--red:not(.site-nav--current):hover {
     background-color: #e04345;
   }
 }
@@ -786,11 +786,11 @@ pre {
 .page__foot a {
   color: white;
 }
-.section-hallo .page__head, .section-hallo
+.section-green .page__head, .section-green
 .page__foot {
   border-color: #5a9b00;
 }
-.section-profil .page__head, .section-profil
+.section-blue .page__head, .section-blue
 .page__foot {
   border-color: #507bd3;
 }
@@ -798,7 +798,7 @@ pre {
 .page__foot {
   border-color: #eb9800;
 }
-.section-impressum .page__head, .section-impressum
+.section-red .page__head, .section-red
 .page__foot {
   border-color: #db2427;
 }
@@ -819,16 +819,16 @@ pre {
 .section-header :last-child {
   margin-bottom: 0;
 }
-.section-hallo .section-header {
+.section-green .section-header {
   background-color: #6fbf00;
 }
-.section-profil .section-header {
+.section-blue .section-header {
   background-color: #6d91da;
 }
 .section-portfolio .section-header {
   background-color: #ffaa10;
 }
-.section-impressum .section-header {
+.section-red .section-header {
   background-color: #e04345;
 }
 
@@ -851,29 +851,29 @@ pre {
 .entry a:hover {
   border-bottom: 0.125em solid;
 }
-.section-hallo .entry a {
+.section-green .entry a {
   color: #5a9b00;
 }
-.section-profil .entry a {
+.section-blue .entry a {
   color: #507bd3;
 }
 .section-portfolio .entry a {
   color: #eb9800;
 }
-.section-impressum .entry a {
+.section-red .entry a {
   color: #db2427;
 }
 
-.section-hallo .entry__heading {
+.section-green .entry__heading {
   color: #5a9b00;
 }
-.section-profil .entry__heading {
+.section-blue .entry__heading {
   color: #507bd3;
 }
 .section-portfolio .entry__heading {
   color: #eb9800;
 }
-.section-impressum .entry__heading {
+.section-red .entry__heading {
   color: #db2427;
 }
 
