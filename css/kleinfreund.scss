@@ -331,32 +331,40 @@ pre {
     .site-nav__item--hallo {
         background-color: $green-color;
 
-        &:not(.site-nav--current):hover {
-            background-color: $green-color-light;
+        @media only screen and (min-width: 641px) {
+            &:not(.site-nav--current):hover {
+                background-color: $green-color-light;
+            }
         }
     }
 
     .site-nav__item--profil {
         background-color: $blue-color;
 
-        &:not(.site-nav--current):hover {
-            background-color: $blue-color-light;
+        @media only screen and (min-width: 641px) {
+            &:not(.site-nav--current):hover {
+                background-color: $blue-color-light;
+            }
         }
     }
 
     .site-nav__item--kontakt {
         background-color: $orange-color;
 
-        &:not(.site-nav--current):hover {
-            background-color: $orange-color-light;
+        @media only screen and (min-width: 641px) {
+            &:not(.site-nav--current):hover {
+                background-color: $orange-color-light;
+            }
         }
     }
 
     .site-nav__item--impressum {
         background-color: $red-color;
 
-        &:not(.site-nav--current):hover {
-            background-color: $red-color-light;
+        @media only screen and (min-width: 641px) {
+            &:not(.site-nav--current):hover {
+                background-color: $red-color-light;
+            }
         }
     }
 

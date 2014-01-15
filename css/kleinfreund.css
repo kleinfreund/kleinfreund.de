@@ -722,29 +722,37 @@ pre {
 .site-nav__item--hallo {
   background-color: #5a9b00;
 }
-.site-nav__item--hallo:not(.site-nav--current):hover {
-  background-color: #6fbf00;
+@media only screen and (min-width: 641px) {
+  .site-nav__item--hallo:not(.site-nav--current):hover {
+    background-color: #6fbf00;
+  }
 }
 
 .site-nav__item--profil {
   background-color: #507bd3;
 }
-.site-nav__item--profil:not(.site-nav--current):hover {
-  background-color: #6d91da;
+@media only screen and (min-width: 641px) {
+  .site-nav__item--profil:not(.site-nav--current):hover {
+    background-color: #6d91da;
+  }
 }
 
 .site-nav__item--kontakt {
   background-color: #eb9800;
 }
-.site-nav__item--kontakt:not(.site-nav--current):hover {
-  background-color: #ffaa10;
+@media only screen and (min-width: 641px) {
+  .site-nav__item--kontakt:not(.site-nav--current):hover {
+    background-color: #ffaa10;
+  }
 }
 
 .site-nav__item--impressum {
   background-color: #db2427;
 }
-.site-nav__item--impressum:not(.site-nav--current):hover {
-  background-color: #e04345;
+@media only screen and (min-width: 641px) {
+  .site-nav__item--impressum:not(.site-nav--current):hover {
+    background-color: #e04345;
+  }
 }
 
 /*------------------------------------*\
