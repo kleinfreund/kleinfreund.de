@@ -18,6 +18,8 @@ We do have some restrictions including a kinda predefined directory structure an
 
 ## To do
 
+* fix logo being img AND background-image. What have I done there? ._.
+* fix relative paths in 404.html!
 * Add `display: block;` to nav items and set to inline-block on wide views to get flexbox to work
 * Reconsider image handling in articles
 * write meta description
