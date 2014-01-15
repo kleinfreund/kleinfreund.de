@@ -433,8 +433,9 @@ pre {
 .section-header {
     color: $bright-ui-color;
     background-color: $base-color-dark;
-    @extend %text-shadow;
     padding: $base-spacing-unit / 2;
+    @extend %text-shadow;
+    @extend %gap;
 
     @media only screen and (min-width: 641px) {
         padding: $base-spacing-unit / 2 10%;
@@ -461,18 +462,10 @@ pre {
     }
 }
 
-.section-header,
 .entry {
-    margin-bottom: $base-spacing-unit * 2;
-    margin-bottom: 3rem;
+    @extend %gap;
 
-    @media only screen and (min-width: 641px) {
-        margin-bottom: $base-spacing-unit * 4;
-        margin-bottom: 6rem;
-    }
-}
-
-    .entry a {
+    a {
         font-weight: 500;
 
         &:hover {
@@ -495,6 +488,7 @@ pre {
             color: $red-color;
         }
     }
+}
 
         .entry__heading {
             .page--hallo & {
@@ -538,6 +532,16 @@ pre {
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 }
 
+%gap {
+    margin-bottom: $base-spacing-unit * 2;
+    margin-bottom: 3rem;
+
+    @media only screen and (min-width: 641px) {
+        margin-bottom: $base-spacing-unit * 4;
+        margin-bottom: 6rem;
+    }
+}
+
 .photoset {
     margin-left: -$base-spacing-unit;
 }
@@ -553,6 +557,7 @@ pre {
     margin-left: auto;
     padding-right: $base-spacing-unit / 2;
     padding-left: $base-spacing-unit / 2;
+    @extend %gap;
 }
 
 .grid {
@@ -573,11 +578,11 @@ pre {
         @media only screen and (min-width: 845px) {
             width: 33.333%;
         }
+    }
 
-        a {
-            color: $base-color-dark;
-            font-weight: 300;
-        }
+    .grid__link {
+        color: $base-color-dark;
+        font-weight: 300;
     }
 
     .grid__caption {

@@ -832,19 +832,6 @@ pre {
   background-color: #e04345;
 }
 
-.section-header,
-.entry {
-  margin-bottom: 60px;
-  margin-bottom: 3rem;
-}
-@media only screen and (min-width: 641px) {
-  .section-header,
-  .entry {
-    margin-bottom: 120px;
-    margin-bottom: 6rem;
-  }
-}
-
 .entry a {
   font-weight: 500;
 }
@@ -898,6 +885,17 @@ pre {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 }
 
+.section-header, .entry, .grid-wrapper {
+  margin-bottom: 60px;
+  margin-bottom: 3rem;
+}
+@media only screen and (min-width: 641px) {
+  .section-header, .entry, .grid-wrapper {
+    margin-bottom: 120px;
+    margin-bottom: 6rem;
+  }
+}
+
 .photoset {
   margin-left: -30px;
 }
@@ -935,7 +933,8 @@ pre {
     width: 33.333%;
   }
 }
-.grid__item a {
+
+.grid__link {
   color: #323232;
   font-weight: 300;
 }
