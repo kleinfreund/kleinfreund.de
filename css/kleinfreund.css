@@ -850,7 +850,8 @@ pre {
 }
 
 .entry__meta {
-  color: #565656;
+  color: #7a7a7a;
+  margin-bottom: 0;
 }
 
 .page--hallo .entry__heading {

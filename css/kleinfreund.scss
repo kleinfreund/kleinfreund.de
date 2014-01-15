@@ -9,7 +9,7 @@ $foreground-color: #444;
 $bright-ui-color: #fff;
 
 $base-color: #444;
-$base-color-light: lighten($base-color, 7%);
+$base-color-light: lighten($base-color, 21%);
 $base-color-dark: darken($base-color, 7%);
 
 $green-color: #5a9b00;
@@ -491,6 +491,7 @@ pre {
 
     .entry__meta {
         color: $base-color-light;
+        margin-bottom: 0;
     }
 
     .entry__heading {
