@@ -18,31 +18,29 @@ We do have some restrictions including a kinda predefined directory structure an
 
 ## To do
 
-* Reconsider images in articles
-* write meta description (for real this time)
-* write documentation
-* write articles:
-  * How the site was build
-  * CSS style guide
-* finish `profil.html`:
-  * add photo
-  * add further information
-* test (IE8, old browsers in school)
+- Reconsider images in articles
+- write meta description (for real this time)
+- write documentation
+- article: How the site was build
+- article: CSS Styleguide
+- profil: add photo
+- profil: add further information
+- test (IE8, old browsers in school)
 
 ## Done
 
-* fix logo having both `src`-attribute AND `background-image`
-* fix relative paths not beginning with `/`
-* fix flexing `site-nav__item`s not having `display: block;` on mobile
-* create `robots.txt`
-* create `sitemap.xml`
-* create logo/favicon
-* add site to Google Webmaster Tools
-* rename `page__frame--[head|foot]` to `page__[head|foot]`
-* remove `kontakt.html`
-* add `portfolio.html`
-* Rename `entry__header` to `entry__heading`
+- fix logo having both `src`-attribute AND `background-image`
+- fix relative paths not beginning with `/`
+- fix flexing `site-nav__item`s not having `display: block;` on mobile
+- create `robots.txt`
+- create `sitemap.xml`
+- create logo/favicon
+- add site to Google Webmaster Tools
+- rename `page__frame--[head|foot]` to `page__[head|foot]`
+- remove `kontakt.html`
+- add `portfolio.html`
+- Rename `entry__header` to `entry__heading`
 
 ## Future plans
 
-* try jekyll to generate the site
+- try jekyll to generate the site
