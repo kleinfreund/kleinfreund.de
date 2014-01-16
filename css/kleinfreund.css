@@ -691,7 +691,6 @@ pre {
     display: block;
     /* Override `display: flex;` */
     margin-right: 10%;
-    margin-left: -15px;
     text-align: right;
   }
 }
@@ -714,9 +713,11 @@ pre {
 @media only screen and (min-width: 641px) {
   .site-nav__item {
     display: inline-block;
-    margin-left: 15px;
     padding: 15px;
     font-weight: 500;
+  }
+  .site-nav__item:not(:first-child) {
+    margin-left: 15px;
   }
 }
 @media only screen and (min-width: 1025px) {

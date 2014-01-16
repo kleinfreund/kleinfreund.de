@@ -307,7 +307,6 @@ pre {
     @media only screen and (min-width: 641px) {
         display: block; /* Override `display: flex;` */
         margin-right: 10%;
-        margin-left: -$base-spacing-unit / 2;
         text-align: right;
     }
 }
@@ -326,9 +325,12 @@ pre {
 
         @media only screen and (min-width: 641px) {
             display: inline-block;
-            margin-left: $base-spacing-unit / 2;
             padding: $base-spacing-unit / 2;
             font-weight: 500;
+
+            &:not(:first-child) {
+                margin-left: $base-spacing-unit / 2;
+            }
         }
 
         @media only screen and (min-width: 1025px) {
