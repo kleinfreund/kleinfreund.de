@@ -695,6 +695,7 @@ pre {
   display: block;
   padding: 7.5px 0;
   text-align: center;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
   -webkit-flex: 1;
   /* Chrome */
   -ms-flex: 1;
@@ -766,7 +767,7 @@ pre {
 .site-foot a {
   text-decoration: underline;
 }
-.site-foot p:last-child {
+.site-foot p:last-of-type {
   margin-bottom: 0;
 }
 
@@ -805,6 +806,7 @@ pre {
   background-color: #323232;
   margin-bottom: 0;
   padding: 15px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 }
 @media only screen and (min-width: 641px) {
   .page-title {
@@ -876,10 +878,6 @@ pre {
     padding-right: 30px;
     padding-left: 30px;
   }
-}
-
-.site-nav__item, .page-title {
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 }
 
 .page-title, .entry, .grid-wrapper {

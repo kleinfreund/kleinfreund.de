@@ -313,7 +313,7 @@ pre {
         display: block;
         padding: $base-spacing-unit / 4 0;
         text-align: center;
-        @extend %text-shadow;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 
             -webkit-flex: 1; /* Chrome */
                 -ms-flex: 1; /* IE 10 */
@@ -394,7 +394,7 @@ pre {
         text-decoration: underline;
     }
 
-    p:last-child {
+    p:last-of-type {
         margin-bottom: 0;
     }
 }
@@ -437,8 +437,8 @@ pre {
     background-color: $base-color-dark;
     margin-bottom: 0;
     padding: $base-spacing-unit / 2;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
     @extend %h2;
-    @extend %text-shadow;
     @extend %gap;
 
     @media only screen and (min-width: 641px) {
@@ -531,10 +531,6 @@ pre {
         padding-right: $base-spacing-unit;
         padding-left: $base-spacing-unit;
     }
-}
-
-%text-shadow {
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 }
 
 %gap {
