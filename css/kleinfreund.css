@@ -659,14 +659,15 @@ pre {
 
 .site-logo > img {
   display: inline-block;
-  width: 64px;
+  width: 264px;
   height: 64px;
   background-repeat: no-repeat;
   background-image: url(../img/kleinfreund.png);
   /* Fallback for <IE9 */
   background-image: url(../img/kleinfreund.svg), none;
-  -webkit-background-size: 64px 64px;
-  background-size: 64px 64px;
+  -webkit-background-size: 264px 64px;
+  -moz-background-size: 264px 64px;
+  background-size: 264px 64px;
 }
 
 .site-title {
