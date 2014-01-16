@@ -630,7 +630,7 @@ code, kbd {
   font-size: 15px;
   font-size: 0.75rem;
 }
-.page--hallo code, .page--hallo kbd {
+.page--home code, .page--home kbd {
   color: #5a9b00;
 }
 
@@ -645,7 +645,7 @@ pre {
 }
 
 /*------------------------------------*\
-        site-logo / site-title
+    $LOGO
 \*------------------------------------*/
 .site-logo {
   display: inline-block;
@@ -653,33 +653,25 @@ pre {
 }
 @media only screen and (min-width: 641px) {
   .site-logo {
-    padding: 15px 60px;
+    margin-left: 60px;
   }
 }
 
 .site-logo > img {
-  display: inline-block;
   width: 264px;
   height: 64px;
-  background-repeat: no-repeat;
   background-image: url(../img/kleinfreund.png);
   /* Fallback for <IE9 */
   background-image: url(../img/kleinfreund.svg), none;
   -webkit-background-size: 264px 64px;
   -moz-background-size: 264px 64px;
+  -ms-background-size: 264px 64px;
+  -o-background-size: 264px 64px;
   background-size: 264px 64px;
 }
 
-.site-title {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: 64px;
-  margin-bottom: 0;
-  margin-left: 15px;
-}
-
 /*------------------------------------*\
-        site-nav
+    $NAV
 \*------------------------------------*/
 .site-nav {
   line-height: 1;
@@ -698,9 +690,9 @@ pre {
   .site-nav {
     display: block;
     /* Override `display: flex;` */
-    text-align: right;
+    margin-right: 10%;
     margin-left: -15px;
-    padding-right: 10%;
+    text-align: right;
   }
 }
 
@@ -737,7 +729,7 @@ pre {
   background-color: #5a9b00;
 }
 @media only screen and (min-width: 641px) {
-  body:not(.page--hallo) .site-nav__item--green:hover {
+  html:not(.page--home) .site-nav__item--green:hover {
     background-color: #6fbf00;
   }
 }
@@ -746,7 +738,7 @@ pre {
   background-color: #507bd3;
 }
 @media only screen and (min-width: 641px) {
-  body:not(.page--profil) .site-nav__item--blue:hover {
+  html:not(.page--about) .site-nav__item--blue:hover {
     background-color: #6d91da;
   }
 }
@@ -755,7 +747,7 @@ pre {
   background-color: #eb9800;
 }
 @media only screen and (min-width: 641px) {
-  body:not(.page--portfolio) .site-nav__item--orange:hover {
+  html:not(.page--portfolio) .site-nav__item--orange:hover {
     background-color: #ffaa10;
   }
 }
@@ -764,7 +756,7 @@ pre {
   background-color: #db2427;
 }
 @media only screen and (min-width: 641px) {
-  body:not(.page--impressum) .site-nav__item--red:hover {
+  html:not(.page--impressum) .site-nav__item--red:hover {
     background-color: #e04345;
   }
 }
@@ -800,11 +792,11 @@ pre {
 .site-foot a {
   color: white;
 }
-.page--hallo .site-head, .page--hallo
+.page--home .site-head, .page--home
 .site-foot {
   border-color: #5a9b00;
 }
-.page--profil .site-head, .page--profil
+.page--about .site-head, .page--about
 .site-foot {
   border-color: #507bd3;
 }
@@ -831,10 +823,10 @@ pre {
     padding: 15px 10%;
   }
 }
-.page--hallo .page-title {
+.page--home .page-title {
   background-color: #6fbf00;
 }
-.page--profil .page-title {
+.page--about .page-title {
   background-color: #6d91da;
 }
 .page--portfolio .page-title {
@@ -850,10 +842,10 @@ pre {
 .entry a:hover {
   border-bottom: 0.125em solid;
 }
-.page--hallo .entry a {
+.page--home .entry a {
   color: #5a9b00;
 }
-.page--profil .entry a {
+.page--about .entry a {
   color: #507bd3;
 }
 .page--portfolio .entry a {
@@ -868,10 +860,10 @@ pre {
   margin-bottom: 0;
 }
 
-.page--hallo .entry__heading {
+.page--home .entry__heading {
   color: #5a9b00;
 }
-.page--profil .entry__heading {
+.page--about .entry__heading {
   color: #507bd3;
 }
 .page--portfolio .entry__heading {

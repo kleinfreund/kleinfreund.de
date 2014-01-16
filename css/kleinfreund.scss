@@ -245,7 +245,7 @@ code, kbd {
     font-size: 15px;
     font-size: 0.75rem;
 
-    .page--hallo & {
+    .page--home & {
         color: $green-color;
     }
 }
@@ -265,35 +265,27 @@ pre {
 
 
 /*------------------------------------*\
-        site-logo / site-title
+    $LOGO
 \*------------------------------------*/
 .site-logo {
     display: inline-block;
     padding: $base-spacing-unit / 2;
 
     @media only screen and (min-width: 641px) {
-        padding: $base-spacing-unit / 2 $base-spacing-unit * 2;
+        margin-left: $base-spacing-unit * 2;
     }
 }
 
     .site-logo > img {
-        display: inline-block;
         width: 264px;
         height: 64px;
-        background-repeat: no-repeat;
         background-image: url(../img/kleinfreund.png); /* Fallback for <IE9 */ 
         background-image: url(../img/kleinfreund.svg), none;
         -webkit-background-size: 264px 64px;
            -moz-background-size: 264px 64px;
+            -ms-background-size: 264px 64px;
+             -o-background-size: 264px 64px;
                 background-size: 264px 64px;
-    }
-
-    .site-title {
-        display: inline-block;
-        vertical-align: middle;
-        line-height: 64px;
-        margin-bottom: 0;
-        margin-left: $base-spacing-unit / 2;
     }
 
 
@@ -301,7 +293,7 @@ pre {
 
 
 /*------------------------------------*\
-        site-nav
+    $NAV
 \*------------------------------------*/
 .site-nav {
     line-height: 1;
@@ -314,9 +306,9 @@ pre {
 
     @media only screen and (min-width: 641px) {
         display: block; /* Override `display: flex;` */
-        text-align: right;
+        margin-right: 10%;
         margin-left: -$base-spacing-unit / 2;
-        padding-right: 10%;
+        text-align: right;
     }
 }
 
@@ -348,7 +340,7 @@ pre {
         background-color: $green-color;
 
         @media only screen and (min-width: 641px) {
-            body:not(.page--hallo) &:hover {
+            html:not(.page--home) &:hover {
                 background-color: $green-color-light;
             }
         }
@@ -358,7 +350,7 @@ pre {
         background-color: $blue-color;
 
         @media only screen and (min-width: 641px) {
-            body:not(.page--profil) &:hover {
+            html:not(.page--about) &:hover {
                 background-color: $blue-color-light;
             }
         }
@@ -368,7 +360,7 @@ pre {
         background-color: $orange-color;
 
         @media only screen and (min-width: 641px) {
-            body:not(.page--portfolio) &:hover {
+            html:not(.page--portfolio) &:hover {
                 background-color: $orange-color-light;
             }
         }
@@ -378,7 +370,7 @@ pre {
         background-color: $red-color;
 
         @media only screen and (min-width: 641px) {
-            body:not(.page--impressum) &:hover {
+            html:not(.page--impressum) &:hover {
                 background-color: $red-color-light;
             }
         }
@@ -422,11 +414,11 @@ pre {
         color: $bright-ui-color;
     }
 
-    .page--hallo & {
+    .page--home & {
         border-color: $green-color;
     }
 
-    .page--profil & {
+    .page--about & {
         border-color: $blue-color;
     }
 
@@ -459,11 +451,11 @@ pre {
         padding: $base-spacing-unit / 2 10%;
     }
 
-    .page--hallo & {
+    .page--home & {
         background-color: $green-color-light;
     }
 
-    .page--profil & {
+    .page--about & {
         background-color: $blue-color-light;
     }
 
@@ -486,11 +478,11 @@ pre {
             border-bottom: 0.125em solid;
         }
 
-        .page--hallo & {
+        .page--home & {
             color: $green-color;
         }
 
-        .page--profil & {
+        .page--about & {
             color: $blue-color;
         }
 
@@ -510,11 +502,11 @@ pre {
     }
 
     .entry__heading {
-        .page--hallo & {
+        .page--home & {
             color: $green-color;
         }
 
-        .page--profil & {
+        .page--about & {
             color: $blue-color;
         }
 
