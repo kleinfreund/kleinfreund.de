@@ -732,7 +732,7 @@ pre {
 .site-nav__item--blue {
   background-color: #507bd3;
 }
-.page--profil .site-nav__item--blue {
+.page--about .site-nav__item--blue {
   cursor: default;
 }
 @media only screen and (min-width: 641px) {
