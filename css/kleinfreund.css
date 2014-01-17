@@ -651,6 +651,9 @@ pre {
   display: inline-block;
   padding: 15px;
 }
+.page--home .site-logo {
+  cursor: default;
+}
 @media only screen and (min-width: 641px) {
   .site-logo {
     margin-left: 60px;
@@ -717,6 +720,9 @@ pre {
 .site-nav__item--green {
   background-color: #5a9b00;
 }
+.page--home .site-nav__item--green {
+  cursor: default;
+}
 @media only screen and (min-width: 641px) {
   html:not(.page--home) .site-nav__item--green:hover {
     background-color: #6fbf00;
@@ -725,6 +731,9 @@ pre {
 
 .site-nav__item--blue {
   background-color: #507bd3;
+}
+.page--profil .site-nav__item--blue {
+  cursor: default;
 }
 @media only screen and (min-width: 641px) {
   html:not(.page--about) .site-nav__item--blue:hover {
@@ -735,6 +744,9 @@ pre {
 .site-nav__item--orange {
   background-color: #eb9800;
 }
+.page--portfolio .site-nav__item--orange {
+  cursor: default;
+}
 @media only screen and (min-width: 641px) {
   html:not(.page--portfolio) .site-nav__item--orange:hover {
     background-color: #ffaa10;
@@ -744,17 +756,13 @@ pre {
 .site-nav__item--red {
   background-color: #db2427;
 }
+.page--impressum .site-nav__item--red {
+  cursor: default;
+}
 @media only screen and (min-width: 641px) {
   html:not(.page--impressum) .site-nav__item--red:hover {
     background-color: #e04345;
   }
-}
-
-.page--home [href="/"],
-.page--portfolio [href="/portfolio"],
-.page--profil [href="/profil"],
-.page--impressum [href="/impressum"] {
-  cursor: default;
 }
 
 /*------------------------------------*\

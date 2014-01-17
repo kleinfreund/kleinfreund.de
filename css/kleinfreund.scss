@@ -271,6 +271,10 @@ pre {
     display: inline-block;
     padding: $base-spacing-unit / 2;
 
+    .page--home & {
+        cursor: default;
+    }
+
     @media only screen and (min-width: 641px) {
         margin-left: $base-spacing-unit * 2;
     }
@@ -333,6 +337,10 @@ pre {
     .site-nav__item--green {
         background-color: $green-color;
 
+        .page--home & {
+            cursor: default;
+        }
+
         @media only screen and (min-width: 641px) {
             html:not(.page--home) &:hover {
                 background-color: $green-color-light;
@@ -342,6 +350,10 @@ pre {
 
     .site-nav__item--blue {
         background-color: $blue-color;
+
+        .page--profil & {
+            cursor: default;
+        }
 
         @media only screen and (min-width: 641px) {
             html:not(.page--about) &:hover {
@@ -353,6 +365,10 @@ pre {
     .site-nav__item--orange {
         background-color: $orange-color;
 
+        .page--portfolio & {
+            cursor: default;
+        }
+
         @media only screen and (min-width: 641px) {
             html:not(.page--portfolio) &:hover {
                 background-color: $orange-color-light;
@@ -363,18 +379,15 @@ pre {
     .site-nav__item--red {
         background-color: $red-color;
 
+        .page--impressum & {
+            cursor: default;
+        }
+
         @media only screen and (min-width: 641px) {
             html:not(.page--impressum) &:hover {
                 background-color: $red-color-light;
             }
         }
-    }
-
-    .page--home [href="/"],
-    .page--portfolio [href="/portfolio"],
-    .page--profil [href="/profil"],
-    .page--impressum [href="/impressum"] {
-        cursor: default;
     }
 
 
