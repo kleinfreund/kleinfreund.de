@@ -78,10 +78,10 @@ $use-grids:         true;
  */
 $background-color:   #dedede;
 $foreground-color:   #444444;
-$bright-ui-color:    #ffffff;
+$white-color:    #ffffff;
 
-$base-color-light:   #aaaaaa;
-$base-color-dark:    darken($base-ui-color, 7%);
+$light-ui-color:     #aaaaaa;
+$dark-ui-color:      darken($base-ui-color, 7%);
 
 $green-color:        #5a9b00;
 $green-color-light:  lighten($green-color, 7%);

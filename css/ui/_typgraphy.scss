@@ -63,7 +63,7 @@ pre, code, kbd, samp {
 pre {
     white-space: pre;
     word-wrap: normal;
-    color: $bright-ui-color;
+    color: $white-color;
     background-color: $base-ui-color;
     padding: $base-spacing-unit / 4 $base-spacing-unit / 2;
     border-radius: 3px;
@@ -73,6 +73,6 @@ code, kbd, samp {
     color: $green-color;
 
     pre & {
-        color: $bright-ui-color;
+        color: $white-color;
     }
 }

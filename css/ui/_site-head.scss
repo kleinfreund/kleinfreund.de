@@ -1,10 +1,10 @@
 .site-head {
     background-color: $base-ui-color;
-    border-bottom: 7px solid $base-color-dark;
+    border-bottom: 7px solid $dark-ui-color;
 
     &,
     a {
-        color: $bright-ui-color;
+        color: $white-color;
     }
 }
 

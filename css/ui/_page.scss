@@ -34,8 +34,8 @@ html {
  * page-head
  */
 .page-title {
-    color: $bright-ui-color;
-    background-color: $base-color-dark;
+    color: $white-color;
+    background-color: $dark-ui-color;
     margin-bottom: 0;
     padding: $base-spacing-unit / 2;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
@@ -97,7 +97,7 @@ html {
 }
 
     .entry__meta {
-        color: $base-color-light;
+        color: $light-ui-color;
         margin-bottom: 0;
     }
 
