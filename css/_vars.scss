@@ -58,12 +58,13 @@ $use-greybox:       false;
 /**
  * Place any variables that should override inuit.css’ defaults here.
  */
-$base-font-size:     20px;
-$base-line-height:   30px;
-$base-font-family:   Ubuntu;
-$responsive:         true;
+$base-font-size:    20px;
+$base-line-height:  30px;
+$base-font-family:  Ubuntu;
+$responsive:        true;
+$base-ui-color:     #444444;
 
-$base-ui-color:      #444444;
+$use-grids:         true;
 
 
 

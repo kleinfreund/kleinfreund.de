@@ -26,11 +26,8 @@
 }
 
     .grid__item {
-        display: inline-block;
-        width: 100%;
         padding-bottom: $base-spacing-unit / 2;
         padding-left: $base-spacing-unit / 2;
-        vertical-align: top;
 
         @media only screen and (min-width: 430px) {
             width: 50%;
@@ -42,8 +39,7 @@
     }
 
     .grid__link {
-        color: $base-color-dark;
-        font-weight: 300;
+        color: $base-color-light;
     }
 
     .grid__caption {

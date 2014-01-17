@@ -1701,6 +1701,65 @@ label,
 /**
  * Objects and abstractions
  */
+/*------------------------------------*\
+    $GRIDS
+\*------------------------------------*/
+/**
+ * Fluid and nestable grid system, e.g.:
+ *
+   <div class="grid">
+
+       <div class="grid__item  one-third">
+           <p>One third grid</p>
+       </div><!--
+
+    --><div class="grid__item  two-thirds">
+           <p>Two thirds grid</p>
+       </div><!--
+
+    --><div class="grid__item  one-half">
+           <p>One half grid</p>
+       </div><!--
+
+    --><div class="grid__item  one-quarter">
+           <p>One quarter grid</p>
+       </div><!--
+
+    --><div class="grid__item  one-quarter">
+           <p>One quarter grid</p>
+       </div>
+
+   </div>
+ *
+ * Demo: jsfiddle.net/inuitcss/CLYUC
+ *
+ */
+/**
+ * Grid wrapper
+ */
+.grid {
+  margin-left: -30px;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+/**
+ * Very infrequently occuring grid wrappers as children of grid wrappers.
+ */
+.grid > .grid {
+  margin-left: 0;
+}
+
+/**
+ * Grid
+ */
+.grid__item {
+  display: inline-block;
+  width: 100%;
+  padding-left: 30px;
+  vertical-align: top;
+}
+
 /**
  * Style trumps; helper and brand classes
  */
@@ -3297,11 +3356,8 @@ html {
 }
 
 .grid__item {
-  display: inline-block;
-  width: 100%;
   padding-bottom: 15px;
   padding-left: 15px;
-  vertical-align: top;
 }
 @media only screen and (min-width: 430px) {
   .grid__item {
@@ -3315,8 +3371,7 @@ html {
 }
 
 .grid__link {
-  color: #323232;
-  font-weight: 300;
+  color: #aaaaaa;
 }
 
 .grid__caption {
