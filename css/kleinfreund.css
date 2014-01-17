@@ -750,6 +750,13 @@ pre {
   }
 }
 
+.page--home [href="/"],
+.page--portfolio [href="/portfolio"],
+.page--profil [href="/profil"],
+.page--impressum [href="/impressum"] {
+  cursor: default;
+}
+
 /*------------------------------------*\
         site-head / site-foot
 \*------------------------------------*/
