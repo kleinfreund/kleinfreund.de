@@ -1,0 +1,21 @@
+.site-foot {
+    background-color: $base-ui-color;
+    font-size: 16px;
+    font-size: 0.8rem;
+    line-height: 1.875;
+    padding: $base-spacing-unit / 2 $base-spacing-unit;
+
+    &,
+    a {
+        color: $bright-ui-color;
+    }
+
+    a {
+        font-weight: 300;
+        text-decoration: underline;
+    }
+
+    p:last-of-type {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,89 @@
+.site-nav {
+    line-height: 1;
+
+    display:  -ms-flexbox; /* MID - IE 10 */
+    display: -webkit-flex; /* NEW -  Chrome */
+    display:         flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */
+
+    @include media-query(lap-and-up) {
+        display: block; /* Override `display: flex;` */
+        margin-right: 10%;
+        text-align: right;
+    }
+}
+
+    .site-nav__item {
+        display: block;
+        padding: $base-spacing-unit / 4 0;
+        text-align: center;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+
+            -webkit-flex: 1; /* Chrome */
+                -ms-flex: 1; /* IE 10 */
+                    flex: 1; /* NEW, Spec - Opera 12.1, Firefox 20+ */
+
+        @include media-query(lap-and-up) {
+            display: inline-block;
+            padding: $base-spacing-unit / 2 3%;
+
+            &:not(:first-child) {
+                margin-left: $base-spacing-unit / 2;
+            }
+        }
+    }
+
+    .site-nav__item--green {
+        background-color: $green-color;
+
+        .page--home & {
+            cursor: default;
+        }
+
+        @include media-query(lap-and-up) {
+            html:not(.page--home) &:hover {
+                background-color: $green-color-light;
+            }
+        }
+    }
+
+    .site-nav__item--blue {
+        background-color: $blue-color;
+
+        .page--about & {
+            cursor: default;
+        }
+
+        @include media-query(lap-and-up) {
+            html:not(.page--about) &:hover {
+                background-color: $blue-color-light;
+            }
+        }
+    }
+
+    .site-nav__item--orange {
+        background-color: $orange-color;
+
+        .page--portfolio & {
+            cursor: default;
+        }
+
+        @include media-query(lap-and-up) {
+            html:not(.page--portfolio) &:hover {
+                background-color: $orange-color-light;
+            }
+        }
+    }
+
+    .site-nav__item--red {
+        background-color: $red-color;
+
+        .page--impressum & {
+            cursor: default;
+        }
+
+        @include media-query(lap-and-up) {
+            html:not(.page--impressum) &:hover {
+                background-color: $red-color-light;
+            }
+        }
+    }

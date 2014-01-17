@@ -1,0 +1,20 @@
+.site-logo {
+    display: inline-block;
+    padding: $base-spacing-unit / 2;
+
+    .page--home & {
+        cursor: default;
+    }
+
+    @include media-query(lap-and-up) {
+        margin-left: $base-spacing-unit * 2;
+    }
+}
+
+    .site-logo > img {
+        width: 264px;
+        height: 64px;
+        background-image: url(../img/kleinfreund.png); /* Fallback for <IE9 */ 
+        background-image: url(../img/kleinfreund.svg), none;
+        @include vendor(background-size, 264px 64px);
+    }

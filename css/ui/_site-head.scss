@@ -1,0 +1,27 @@
+.site-head {
+    background-color: $base-ui-color;
+    border-bottom: 7px solid $base-color-dark;
+
+    &,
+    a {
+        color: $bright-ui-color;
+    }
+}
+
+.site-head {
+    .page--home & {
+        border-color: $green-color;
+    }
+
+    .page--about & {
+        border-color: $blue-color;
+    }
+
+    .page--portfolio & {
+        border-color: $orange-color;
+    }
+
+    .page--impressum & {
+        border-color: $red-color;
+    }
+}

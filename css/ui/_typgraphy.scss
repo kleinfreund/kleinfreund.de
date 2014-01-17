@@ -1,0 +1,85 @@
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
+dt {
+    font-weight: 500;
+}
+
+
+
+/**
+ * Base styles
+ */
+img {
+    vertical-align: middle;
+}
+
+
+
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+}
+
+
+
+/**
+ * Inline elements
+ */
+b, strong, a {
+    font-weight: 500;
+}
+
+q {
+    font-style:italic;
+}
+
+
+
+/**
+ * Links
+ */
+a {
+    color: $foreground-color;
+    text-decoration: none;
+}
+
+
+
+/**
+ * Code
+ */
+pre, code, kbd, samp {
+    font-family: Inconsolata, Monaco, Consolas, "Courier New", Courier, monospace;
+    @include font-size(16px);
+}
+
+pre {
+    white-space: pre;
+    word-wrap: normal;
+    color: $bright-ui-color;
+    background-color: $base-ui-color;
+    padding: $base-spacing-unit / 4 $base-spacing-unit / 2;
+    border-radius: 3px;
+}
+
+code, kbd, samp {
+    white-space: nowrap;
+    padding: 2px 5px;
+    margin: 0 2px;
+    color: $green-color;
+    border: 1px solid $base-color-light;
+    border-radius: 3px;
+    font-size: 15px;
+    font-size: 0.75rem;
+
+    pre & {
+        color: $bright-ui-color;
+    }
+}

@@ -1,0 +1,120 @@
+html {
+    font-family: Ubuntu, sans-serif;
+    font-weight: 300;
+    color: $foreground-color;
+    background-color: $background-color;
+}
+
+.wrapper {
+    max-width: 680px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $base-spacing-unit / 2;
+    padding-left: $base-spacing-unit / 2;
+
+    @include media-query(lap-and-up) {
+        padding-right: $base-spacing-unit;
+        padding-left: $base-spacing-unit;
+    }
+}
+
+.wrapper--wide {
+    @extend .wrapper;
+    @extend %vertical-gap;
+    max-width: 1260px;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+
+
+/**
+ * page-head
+ */
+.page-title {
+    color: $bright-ui-color;
+    background-color: $base-color-dark;
+    margin-bottom: 0;
+    padding: $base-spacing-unit / 2;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+    @extend %vertical-gap;
+    @include font-size(30px);
+
+    @include media-query(lap-and-up) {
+        padding: $base-spacing-unit / 2 10%;
+    }
+
+    .page--home & {
+        background-color: $green-color-light;
+    }
+
+    .page--about & {
+        background-color: $blue-color-light;
+    }
+
+    .page--portfolio & {
+        background-color: $orange-color-light;
+    }
+
+    .page--impressum & {
+        background-color: $red-color-light;
+    }
+}
+
+
+
+/**
+ * entry
+ */
+.entry {
+    @extend %vertical-gap;
+
+    a {
+        font-weight: 500;
+
+        &:hover {
+            border-bottom: 0.125em solid;
+        }
+
+        .page--home & {
+            color: $green-color;
+        }
+
+        .page--about & {
+            color: $blue-color;
+        }
+
+        .page--portfolio & {
+            color: $orange-color;
+        }
+
+        .page--impressum & {
+            color: $red-color;
+        }
+    }
+}
+
+    .entry__meta {
+        color: $base-color-light;
+        margin-bottom: 0;
+    }
+
+    .entry__heading {
+        .page--home & {
+            color: $green-color;
+        }
+
+        .page--about & {
+            color: $blue-color;
+        }
+
+        .page--portfolio & {
+            color: $orange-color;
+        }
+
+        .page--impressum & {
+            color: $red-color;
+        }
+    }

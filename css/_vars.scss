@@ -1,0 +1,98 @@
+/*------------------------------------*\
+    VARS.SCSS
+\*------------------------------------*/
+/**
+ * Any variables you find set in inuit.css’ `_vars.scss` that you do not wish to
+ * keep, simply redefine here. This means that if inuit.css, for example, sets
+ * your `$base-font-size` at 16px and you wish it to be 14px, simply redeclare
+ * that variable in this file. inuit.css ignores its own variables in favour of
+ * using your own, so you can completely modify how inuit.css works without ever
+ * having to alter the framework itself.
+ */
+
+
+
+
+
+/*------------------------------------*\
+    $OBJECTS-AND-ABSTRACTIONS
+\*------------------------------------*/
+/**
+ * All of inuit.css’ objects and abstractions are initially turned off by
+ * default. This means that you start any project with as little as possible,
+ * and introducing objects and abstractions is as simple as switching the
+ * following variables to `true`.
+ */
+$use-grids:         false;
+$use-flexbox:       false;
+$use-columns:       false;
+$use-nav:           false;
+$use-options:       false;
+$use-pagination:    false;
+$use-breadcrumb:    false;
+$use-media:         false;
+$use-marginalia:    false;
+$use-island:        false;
+$use-block-list:    false;
+$use-matrix:        false;
+$use-split:         false;
+$use-this-or-this:  false;
+$use-link-complex:  false;
+$use-flyout:        false;
+$use-arrows:        false;
+$use-sprite:        false;
+$use-icon-text:     false;
+$use-beautons:      false;
+$use-lozenges:      false;
+$use-rules:         false;
+$use-stats:         false;
+$use-greybox:       false;
+
+
+
+
+
+/*------------------------------------*\
+    $OVERRIDES
+\*------------------------------------*/
+/**
+ * Place any variables that should override inuit.css’ defaults here.
+ */
+$base-font-size:     20px;
+$base-line-height:   30px;
+$base-font-family:   Ubuntu;
+$responsive:         true;
+
+$base-ui-color:      #444444;
+
+
+
+
+
+/*------------------------------------*\
+    $CUSTOM
+\*------------------------------------*/
+/**
+ * Place any of your own variables that sit on top of inuit.css here.
+ */
+$background-color:   #dedede;
+$foreground-color:   #444444;
+$bright-ui-color:    #ffffff;
+
+$base-color-light:   #aaaaaa;
+$base-color-dark:    darken($base-ui-color, 7%);
+
+$green-color:        #5a9b00;
+$green-color-light:  lighten($green-color, 7%);
+
+$blue-color:         #507bd3;
+$blue-color-light:   lighten($blue-color, 7%);
+
+$orange-color:       #eb9800;
+$orange-color-light: lighten($orange-color, 7%);
+
+$red-color:          #db2427;
+$red-color-light:    lighten($red-color, 7%);
+
+$lap-start:          681px;
+$desk-start:         1025px;
