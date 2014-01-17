@@ -3012,14 +3012,7 @@ pre {
 }
 
 code, kbd, samp {
-  white-space: nowrap;
-  padding: 2px 5px;
-  margin: 0 2px;
   color: #5a9b00;
-  border: 1px solid #aaaaaa;
-  border-radius: 3px;
-  font-size: 15px;
-  font-size: 0.75rem;
 }
 pre code, pre kbd, pre samp {
   color: white;
