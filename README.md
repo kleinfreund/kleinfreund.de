@@ -11,11 +11,9 @@ This is the source code of my personal website. It's the final project for our w
 - __Bridge/Photoshop__ (image processing)
 - __iTunes__ (music :)
 
-## Things to talk about
+## Future plans
 
-We do have some restrictions including a kinda predefined directory structure and not embedding online sources. The website needs to be functional offline.
-
-* using inuitcss
+- use jekyll to generate the site
 
 ## To do
 
@@ -43,7 +41,3 @@ We do have some restrictions including a kinda predefined directory structure an
 - remove `kontakt.html`
 - add `portfolio.html`
 - Rename `entry__header` to `entry__heading`
-
-## Future plans
-
-- use jekyll to generate the site
