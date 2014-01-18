@@ -5,7 +5,7 @@ page-class: page--home
 <div class=page-title>Hallo, wie geht's dir?</div>
 
 <article class="wrapper entry">
-    <p class=entry__meta>{{ post.date | date: "%-d. %B %Y" }}</p>
+    <p class=entry__meta>{{ post.date | date: "%-d. %B %Y" | replace:"January","Januar" | replace:"Februar","February" | replace:"March","März" | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"December","Dezember" }}</p>
     <h2 class=entry__heading>{{ page.title }}</h2>
 
     {{ content }}

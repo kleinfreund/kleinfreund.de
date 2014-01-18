@@ -5,11 +5,13 @@ page-class: page--home
 ---
 <div class=page-title>Hallo, wie geht's dir?</div>
 
-<ul class="block-list wrapper">
+<ul class="post-list wrapper">
     {% for post in paginator.posts %}
     <li>
-        <span class=post__time>{{ post.date | date: "%-d. %B %Y" }}</span>
-        <h2 class=post__title><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <a href="{{ post.url }}" class=post__link>
+            <span class=post__time>{{ post.date | date: "%-d. %B %Y" | replace:"January","Januar" | replace:"Februar","February" | replace:"March","März" | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"December","Dezember" }}</span>
+            <h2 class=post__title>{{ post.title }}</h2>
+        </a>
     </li>
     {% endfor %}
 </ul>
@@ -18,19 +20,19 @@ page-class: page--home
     <li class=pagination__prev>
         {% if paginator.previous_page %}
         {% if paginator.previous_page == 1 %}
-            <a href="/">Previous</a>
+            <a href="/" rel=prev>Neuere</a>
         {% else %}
-            <a href="/page{{paginator.previous_page}}">Previous</a>
+            <a href="/page{{paginator.previous_page}}" rel=prev>Neuere</a>
         {% endif %}
         {% else %}
-            Previous
+            Neuere
         {% endif %}
     </li><!--
  --><li class=pagination__next>
         {% if paginator.next_page %}
-            <a href="/page{{paginator.next_page}}">Next</a>
+            <a href="/page{{paginator.next_page}}" rel=next>Ältere</a>
         {% else %}
-            Next
+            Ältere
         {% endif %}
     </li>
 </ol>

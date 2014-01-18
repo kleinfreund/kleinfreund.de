@@ -5,7 +5,7 @@ title: CSS Styleguide
 ---
 Das ist mein persönliches CSS Styleguide.
 
-<h3 class=entry__heading>Benennung</h3>
+### Benennung
 
 * Alles ist klein geschrieben
 * ID und Klassennamen werden durch Bindestriche getrennt (außer bei BEM-Syntax)
@@ -13,7 +13,7 @@ Das ist mein persönliches CSS Styleguide.
 * Benennung erfolgt so kurz wie möglich, aber so lang wie nötig<br>
 z.B. `site-nav` statt `site-navigation`
 
-<h3 class=entry__heading>Code</h3>
+### Code
 
 * Eine Deklaration pro Zeile
 * Einrückung um 4 Leerzeichen (keine Tabs)
