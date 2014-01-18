@@ -17,7 +17,6 @@ This is the source code of my personal website. It's the final project for our w
 
 ## To do
 
-- global: add meta description (for real this time)
 - global: test
 - profil: add photo
 - profil: add further information
@@ -29,7 +28,8 @@ This is the source code of my personal website. It's the final project for our w
 
 ## Done
 
-- global: add inuitcss message to `site-foot`
+- add meta description (for real this time)
+- add inuitcss message to `site-foot`
 - fix logo having both `src`-attribute AND `background-image`
 - fix relative paths not beginning with `/`
 - fix flexing `site-nav__item`s not having `display: block;` on mobile
