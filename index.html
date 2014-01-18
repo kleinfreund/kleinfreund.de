@@ -1,82 +1,36 @@
-<!DOCTYPE html>
-<html lang=de class="page page--home">
-<head>
-    <meta charset=utf-8>
-    <meta name=viewport content="width=device-width, initial-scale=1.0">
+---
+layout: default
+title: kleinfreund.de
+page-class: page--home
+---
+<div class=page-title>Hallo, wie geht's dir?</div>
 
-    <title>kleinfreund.de &ndash; Website von Philipp Rudloff</title>
+<ul class="block-list wrapper">
+    {% for post in paginator.posts %}
+    <li>
+        <span class=post__time>{{ post.date | date: "%-d. %B %Y" }}</span>
+        <h2 class=post__title><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    </li>
+    {% endfor %}
+</ul>
 
-    <link rel=stylesheet href="/css/kleinfreund.min.css">
-    <link rel="shortcut icon" href="/icon.png">
-
-    <meta name=description content="Mondbasis von Philipp Rudloff. Mache Webentwicklung und -design. Dinge und Sachen auch.">
-
-    <!--[if lt IE 9]>
-        <script src="/js/html5shiv.js"></script>
-    <![endif]-->
-</head>
-<body>
-    <header class=site-head role=banner>
-        <a href="/" class=site-logo>
-            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="kleinfreund">
-        </a>
-        <nav class=site-nav role=navigation>
-            <a href="/" class="site-nav__item site-nav__item--green" rel=home>Blog</a><!--
-         --><a href="/portfolio" class="site-nav__item site-nav__item--orange">Portfolio</a><!--
-         --><a href="/profil" class="site-nav__item site-nav__item--blue">Profil</a><!--
-         --><a href="/impressum" class="site-nav__item site-nav__item--red">Impressum</a>
-        </nav>
-    </header>
-
-    <main role=main>
-        <div class=page-title>Hallo, wie geht's dir?</div>
-
-        <article class="wrapper entry">
-            <p class=entry__meta>15. Januar 2014</p>
-            <h2 class=entry__heading>Wir können hier nicht anhalten&hellip;</h2>
-            <p>Zuerst baue ich den Rest fertig, dann kümmere ich um das hier. Bis dahin ist das hier <strong>Fledermausland</strong>.</p>
-        </article>
-
-        <article class="wrapper entry">
-            <p class=entry__meta>15. Januar 2014</p>
-            <h2 class=entry__heading>CSS Styleguide</h2>
-            <p>Das ist mein persönliches CSS Styleguide.</p>
-            <h3 class=entry__heading>Benennung</h3>
-            <ul>
-                <li>Alles ist klein geschrieben</li>
-                <li>ID und Klassennamen werden durch Bindestriche getrennt (außer bei BEM-Syntax)</li>
-                <li>BEM wird nur verwendet, wenn es echten Mehrwert bietet</li>
-                <li>Benennung erfolgt so kurz wie möglich, aber so lang wie nötig<br>
-                    z.B. <code>site-nav</code> statt <code>site-navigation</code></li>
-            </ul>
-            <h3 class=entry__heading>Code</h3>
-            <ul>
-                <li>Eine Deklaration pro Zeile</li>
-                <li>Einrückung um 4 Leerzeichen (keine Tabs)</li>
-                <li>Keine abschließenden Leerzeichen</li>
-                <li>Jede Eigenschafts-Deklaration wird mit mit einem <code>;</code> beendet</li>
-                <li>Ein Leerzeichen zwischen Selektor und <code>{</code></li>
-                <li>Ein Leerzeichen nach dem <code>:</code> in Eigenschafts-Deklarationen</li>
-            </ul>
-<pre><code>[selector] {
-    [property]: [value];
-}</code></pre>
-            <p>Eigenschaften und Werte mit Vendor-Prefix werden passend angeordnet. Das ist einfach eine Frage der Übersichtlichkeit. Man erkennt auf einen Blick, wo man sich bei einem Wert vertippt hat.</p>
-<pre><code>*, *:before, *:after {
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-}</code></pre>
-            <p>Benutze hex-basierte Farbwerte statt <code>rgb()</code>. Außerdem kurze Farbwerte wie <code>#f60</code> statt <code>#ff6600</code>. Ähnliche Tag-Selektoren werden gruppiert auf eine Zeile geschrieben, wenn es sich anbietet.</p>
-<pre><code>h1, h2, h3, h4, h5, h6 {
-    color: #f60;
-}</code></pre>
-            <p><strong>Randnotiz:</strong> Weil man sich beim Schreiben eines solchen Artikels auf Deutsch ziemlich lächerlich vorkommt, gibt's hier noch die <a href="http://github.com/kleinfreund/kleinfreund.github.io/blob/master/posts/2014-01-12-css-styleguide.md">englischsprachige Variante</a> auf GitHub.</p>
-        </article>
-    </main>
-
-    <footer class=site-foot role=contentinfo>
-        <p>Eine Seite von <a href="http://twitter.com/kleinfreund">Philipp Rudloff</a>. Gehostet auf <a href="http://github.com/kleinfreund/kleinfreund.github.io">GitHub</a>. Erstellt mit <a href="http://inuitcss.com">inuitcss</a>.</p>
-    </footer>
-</body>
-</html>
+<ol class="nav pagination wrapper">
+    <li class=pagination__prev>
+        {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+            <a href="/">Previous</a>
+        {% else %}
+            <a href="/page{{paginator.previous_page}}">Previous</a>
+        {% endif %}
+        {% else %}
+            Previous
+        {% endif %}
+    </li><!--
+ --><li class=pagination__next>
+        {% if paginator.next_page %}
+            <a href="/page{{paginator.next_page}}">Next</a>
+        {% else %}
+            Next
+        {% endif %}
+    </li>
+</ol>

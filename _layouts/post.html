@@ -1,0 +1,12 @@
+---
+layout: default
+page-class: page--home
+---
+<div class=page-title>Hallo, wie geht's dir?</div>
+
+<article class="wrapper entry">
+    <p class=entry__meta>{{ post.date | date: "%-d. %B %Y" }}</p>
+    <h2 class=entry__heading>{{ page.title }}</h2>
+
+    {{ content }}
+</article>
