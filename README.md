@@ -18,14 +18,15 @@ We do have some restrictions including a kinda predefined directory structure an
 
 ## To do
 
-- Reconsider images in articles
-- write meta description (for real this time)
-- write documentation
-- article: How the site was build
-- article: CSS Styleguide
+- global: add meta description (for real this time)
+- global: add inuitcss message to `site-foot`
+- global: test
 - profil: add photo
 - profil: add further information
-- test (IE8, old browsers in school)
+- blog: How the site was build
+- blog: CSS Styleguide
+- 404: add onion gif
+- meta: write documentation
 
 ## Done
 
@@ -43,4 +44,4 @@ We do have some restrictions including a kinda predefined directory structure an
 
 ## Future plans
 
-- try jekyll to generate the site
+- use jekyll to generate the site
