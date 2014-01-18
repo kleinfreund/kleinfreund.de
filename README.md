@@ -4,11 +4,12 @@ This is the source code of my personal website. It's the final project for our w
 
 ## Tools
 
-* __Sublime Text 2__ (coding)
-* __Prepros__ (compile SCSS)
-* __GitHub__ (hosting)
-* __Bridge/Photoshop__ (image processing)
-* __iTunes__ (music :)
+- __[Sublime Text 2](http://www.sublimetext.com/)__ (coding)
+- __[Prepros](http://alphapixels.com/prepros/)__ (compile SCSS)
+- __GitHub__ (hosting)
+- __[inuitcss](http://inuitcss.com/)__ (CSS framework)
+- __Bridge/Photoshop__ (image processing)
+- __iTunes__ (music :)
 
 ## Things to talk about
 
