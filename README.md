@@ -19,17 +19,18 @@ We do have some restrictions including a kinda predefined directory structure an
 ## To do
 
 - global: add meta description (for real this time)
-- global: add inuitcss message to `site-foot`
 - global: test
 - profil: add photo
 - profil: add further information
 - blog: How the site was build
 - blog: CSS Styleguide
 - 404: add onion gif
+- add sitemap.html
 - meta: write documentation
 
 ## Done
 
+- global: add inuitcss message to `site-foot`
 - fix logo having both `src`-attribute AND `background-image`
 - fix relative paths not beginning with `/`
 - fix flexing `site-nav__item`s not having `display: block;` on mobile
