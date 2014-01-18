@@ -44,6 +44,7 @@
 /**
  * Place any of your own variables that sit on top of inuit.css here.
  */
+/* dedede */
 /*------------------------------------*\
     INUIT.CSS
 \*------------------------------------*/
@@ -3236,7 +3237,7 @@ html {
   font-family: Ubuntu, sans-serif;
   font-weight: 300;
   color: #444444;
-  background-color: #dedede;
+  background-color: #efefef;
 }
 
 .wrapper, .wrapper--wide {
