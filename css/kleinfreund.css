@@ -3562,9 +3562,6 @@ html {
 .post-list > li {
   border: 0;
 }
-.post-list > li {
-  padding: 30px 15px;
-}
 
 .post-list__link {
   font-weight: 300;
