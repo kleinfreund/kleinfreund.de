@@ -7,6 +7,7 @@ This is the source code of my personal website. It's the final project for our w
 - __[Sublime Text 2](http://www.sublimetext.com/)__ (coding)
 - __[Prepros](http://alphapixels.com/prepros/)__ (compile SCSS)
 - __[GitHub Pages](http://pages.github.com/)__ (hosting)
+- __[Jekyll](http://jekyllrb.com/)__ (generating the site)
 - __[inuitcss](http://inuitcss.com/)__ (CSS framework)
 - __Bridge/Photoshop__ (image processing)
 - __iTunes__ (music :)
