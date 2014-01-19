@@ -14,14 +14,15 @@ This is the source code of my personal website. It's the final project for our w
 
 ## To do
 
-- global: test
-- global: On post level, don't use `cursor: default;`
+- Fix portfolio/blog posts still invoke `cursor: default;` on the nav-item
+- 404: add onion gif
 - profil: add photo
 - profil: add further information
 - blog: How the site was build
-- 404: add onion gif
 - add sitemap.html
+- add feed.xml
 - meta: write documentation
+- test the site
 
 ## Done
 
