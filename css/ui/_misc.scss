@@ -11,39 +11,3 @@
         margin-bottom: 6rem;
     }
 }
-
-.photoset {
-    margin-left: -$base-spacing-unit;
-}
-
-    .photoset__item {
-        margin-left: $base-spacing-unit;
-        @extend %vertical-rhythm;
-    }
-
-.grid {
-    margin-left: -$base-spacing-unit / 2;
-}
-
-    .grid__item {
-        padding-bottom: $base-spacing-unit / 2;
-        padding-left: $base-spacing-unit / 2;
-
-        @media only screen and (min-width: 430px) {
-            width: 50%;
-        }
-
-        @media only screen and (min-width: 845px) {
-            width: 33.333%;
-        }
-    }
-
-    .grid__link {
-        color: $white-color;
-    }
-
-    .grid__caption {
-        padding: $base-spacing-unit / 2;
-        background-color: $orange-color-light;
-        border-radius: 0 0 3px 3px;
-    }

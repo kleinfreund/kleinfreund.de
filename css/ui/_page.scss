@@ -20,8 +20,6 @@ html {
 }
 
 .wrapper--wide {
-    @extend %vertical-gap;
-    @extend %wrapper;
     max-width: 1260px;
 }
 
@@ -71,7 +69,16 @@ html {
  */
 .entry {
     @extend %vertical-gap;
-    @extend %wrapper;
+
+    &:first-child {
+        margin-top: $base-spacing-unit * 2;
+        margin-top: 3rem;
+
+        @include media-query(lap-and-up) {
+            margin-top: $base-spacing-unit * 4;
+            margin-top: 6rem;
+        }
+    }
 
     a {
         font-weight: 500;
@@ -96,12 +103,6 @@ html {
             color: $red-color;
         }
     }
-}
-
-    .entry__meta {
-        color: $light-ui-color;
-        margin-bottom: 0;
-    }
 
     h1, h2, h3, h4, h5, h6 {
         .page--home & {
@@ -119,4 +120,10 @@ html {
         .page--impressum & {
             color: $red-color;
         }
+    }
+}
+
+    .entry__meta {
+        color: $light-ui-color;
+        margin-bottom: 0;
     }

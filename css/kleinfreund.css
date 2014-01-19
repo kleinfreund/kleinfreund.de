@@ -864,7 +864,6 @@ table,
 fieldset, figure,
 pre,
 .form-fields > li,
-.photoset__item,
 .media,
 .island,
 .islet {
@@ -877,7 +876,6 @@ blockquote, .islet p, .islet address, .islet
 table, .islet
 fieldset, .islet figure, .islet
 pre, .islet .form-fields > li, .islet
-.photoset__item, .islet
 .media, .islet
 .island, .islet
 .islet {
@@ -3458,9 +3456,7 @@ html {
   background-color: #efefef;
 }
 
-.wrapper,
-.wrapper--wide,
-.entry {
+.wrapper {
   max-width: 680px;
   margin-right: auto;
   margin-left: auto;
@@ -3468,9 +3464,7 @@ html {
   padding-left: 15px;
 }
 @media only screen and (min-width: 681px) {
-  .wrapper,
-  .wrapper--wide,
-  .entry {
+  .wrapper {
     padding-right: 30px;
     padding-left: 30px;
   }
@@ -3518,6 +3512,16 @@ html {
 /**
  * entry
  */
+.entry:first-child {
+  margin-top: 60px;
+  margin-top: 3rem;
+}
+@media only screen and (min-width: 681px) {
+  .entry:first-child {
+    margin-top: 120px;
+    margin-top: 6rem;
+  }
+}
 .entry a {
   font-weight: 500;
 }
@@ -3536,87 +3540,62 @@ html {
 .page--impressum .entry a {
   color: #db2427;
 }
+.page--home .entry h1, .page--home .entry h2, .page--home .entry h3, .page--home .entry h4, .page--home .entry h5, .page--home .entry h6 {
+  color: #5a9b00;
+}
+.page--about .entry h1, .page--about .entry h2, .page--about .entry h3, .page--about .entry h4, .page--about .entry h5, .page--about .entry h6 {
+  color: #507bd3;
+}
+.page--portfolio .entry h1, .page--portfolio .entry h2, .page--portfolio .entry h3, .page--portfolio .entry h4, .page--portfolio .entry h5, .page--portfolio .entry h6 {
+  color: #eb9800;
+}
+.page--impressum .entry h1, .page--impressum .entry h2, .page--impressum .entry h3, .page--impressum .entry h4, .page--impressum .entry h5, .page--impressum .entry h6 {
+  color: #db2427;
+}
 
 .entry__meta {
   color: #aaaaaa;
   margin-bottom: 0;
 }
 
-.page--home h1, .page--home h2, .page--home h3, .page--home h4, .page--home h5, .page--home h6 {
-  color: #5a9b00;
-}
-.page--about h1, .page--about h2, .page--about h3, .page--about h4, .page--about h5, .page--about h6 {
-  color: #507bd3;
-}
-.page--portfolio h1, .page--portfolio h2, .page--portfolio h3, .page--portfolio h4, .page--portfolio h5, .page--portfolio h6 {
-  color: #eb9800;
-}
-.page--impressum h1, .page--impressum h2, .page--impressum h3, .page--impressum h4, .page--impressum h5, .page--impressum h6 {
-  color: #db2427;
-}
-
 .post-list,
 .post-list > li {
   border: 0;
 }
+.post-list > li {
+  padding: 30px 15px;
+}
 
-.post__link {
+.post-list__link {
   font-weight: 300;
 }
 
-.post__time {
+.post-list__time {
   display: block;
   color: #aaaaaa;
 }
 
-.post__title {
+.post-list__title {
   margin-bottom: 0;
 }
 
-.wrapper--wide, .page-title, .entry, .pagination {
-  margin-bottom: 60px;
-  margin-bottom: 3rem;
-}
-@media only screen and (min-width: 681px) {
-  .wrapper--wide, .page-title, .entry, .pagination {
-    margin-bottom: 120px;
-    margin-bottom: 6rem;
-  }
-}
-
-.photoset {
-  margin-left: -30px;
-}
-
-.photoset__item {
-  margin-left: 30px;
-}
-
-.grid {
-  margin-left: -15px;
-}
-
-.grid__item {
-  padding-bottom: 15px;
-  padding-left: 15px;
-}
-@media only screen and (min-width: 430px) {
-  .grid__item {
-    width: 50%;
-  }
-}
-@media only screen and (min-width: 845px) {
-  .grid__item {
-    width: 33.333%;
-  }
-}
-
 .grid__link {
-  color: white;
+  color: white !important;
 }
 
 .grid__caption {
   padding: 15px;
   background-color: #ffaa10;
   border-radius: 0 0 3px 3px;
+}
+
+.page-title, .entry, .pagination {
+  margin-bottom: 60px;
+  margin-bottom: 3rem;
+}
+@media only screen and (min-width: 681px) {
+  .page-title, .entry, .pagination {
+    margin-bottom: 120px;
+    margin-bottom: 6rem;
+  }
 }
