@@ -19,13 +19,13 @@ This is the source code of my personal website. It's the final project for our w
 - profil: add photo
 - profil: add further information
 - blog: How the site was build
-- blog: CSS Styleguide
 - 404: add onion gif
 - add sitemap.html
 - meta: write documentation
 
 ## Done
 
+- article: CSS Styleguide
 - use jekyll to generate the site
 - add meta description (for real this time)
 - add inuitcss message to `site-foot`
