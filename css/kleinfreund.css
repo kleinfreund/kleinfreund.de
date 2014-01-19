@@ -3250,6 +3250,18 @@ figure > img {
 }
 
 /**
+ * Rules
+ */
+hr {
+  color: #aaaaaa;
+  border: none;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  margin-bottom: 29px;
+  margin-bottom: 1.45rem;
+}
+
+/**
  * Inline elements
  */
 b, strong, a {
@@ -3572,7 +3584,7 @@ html {
   color: #aaaaaa;
 }
 
-.post-list__title {
+.page--home .post-list__title {
   color: #5a9b00;
 }
 
