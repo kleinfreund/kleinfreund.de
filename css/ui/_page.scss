@@ -5,7 +5,8 @@ html {
     background-color: $background-color;
 }
 
-.wrapper {
+.wrapper,
+%wrapper {
     max-width: 680px;
     margin-right: auto;
     margin-left: auto;
@@ -19,8 +20,8 @@ html {
 }
 
 .wrapper--wide {
-    @extend .wrapper;
     @extend %vertical-gap;
+    @extend %wrapper;
     max-width: 1260px;
 }
 
@@ -70,6 +71,7 @@ html {
  */
 .entry {
     @extend %vertical-gap;
+    @extend %wrapper;
 
     a {
         font-weight: 500;

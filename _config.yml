@@ -1,5 +1,5 @@
 markdown: rdiscount
 pygments: true
 permalink: /:year/:month/:title
-paginate: 10
+paginate: 5
 relative_permalinks: false

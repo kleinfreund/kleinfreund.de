@@ -3458,7 +3458,9 @@ html {
   background-color: #efefef;
 }
 
-.wrapper, .wrapper--wide {
+.wrapper,
+.wrapper--wide,
+.entry {
   max-width: 680px;
   margin-right: auto;
   margin-left: auto;
@@ -3466,7 +3468,9 @@ html {
   padding-left: 15px;
 }
 @media only screen and (min-width: 681px) {
-  .wrapper, .wrapper--wide {
+  .wrapper,
+  .wrapper--wide,
+  .entry {
     padding-right: 30px;
     padding-left: 30px;
   }
@@ -3562,18 +3566,19 @@ html {
 
 .post__time {
   display: block;
+  color: #aaaaaa;
 }
 
 .post__title {
   margin-bottom: 0;
 }
 
-.wrapper--wide, .page-title, .entry {
+.wrapper--wide, .page-title, .entry, .pagination {
   margin-bottom: 60px;
   margin-bottom: 3rem;
 }
 @media only screen and (min-width: 681px) {
-  .wrapper--wide, .page-title, .entry {
+  .wrapper--wide, .page-title, .entry, .pagination {
     margin-bottom: 120px;
     margin-bottom: 6rem;
   }

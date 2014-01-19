@@ -13,8 +13,13 @@
 
     .post__time {
         display: block;
+        color: $light-ui-color;
     }
 
     .post__title {
         margin-bottom: 0;
     }
+
+.pagination {
+    @extend %vertical-gap;
+}

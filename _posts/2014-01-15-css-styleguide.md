@@ -1,5 +1,4 @@
 ---
-date: 2014-01-15 12:57:05
 layout: post
 title: CSS Styleguide
 ---
