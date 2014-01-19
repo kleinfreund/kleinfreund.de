@@ -11,13 +11,10 @@ This is the source code of my personal website. It's the final project for our w
 - __Bridge/Photoshop__ (image processing)
 - __iTunes__ (music :)
 
-## Future plans
-
-- use jekyll to generate the site
-
 ## To do
 
 - global: test
+- global: On post level, don't use `cursor: default;`
 - profil: add photo
 - profil: add further information
 - blog: How the site was build
@@ -28,6 +25,7 @@ This is the source code of my personal website. It's the final project for our w
 
 ## Done
 
+- use jekyll to generate the site
 - add meta description (for real this time)
 - add inuitcss message to `site-foot`
 - fix logo having both `src`-attribute AND `background-image`
