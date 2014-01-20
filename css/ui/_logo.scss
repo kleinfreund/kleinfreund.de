@@ -12,9 +12,9 @@
 }
 
     .site-logo > img {
-        width: 264px;
+        width: 256px;
         height: 64px;
         background-image: url(../img/kleinfreund.png); /* Fallback for <IE9 */ 
         background-image: url(../img/kleinfreund.svg), none;
-        @include vendor(background-size, 264px 64px);
+        @include vendor(background-size, 256px 64px);
     }

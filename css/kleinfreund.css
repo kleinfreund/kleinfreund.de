@@ -3279,16 +3279,16 @@ pre code, pre kbd, pre samp {
 }
 
 .site-logo > img {
-  width: 264px;
+  width: 256px;
   height: 64px;
   background-image: url(../img/kleinfreund.png);
   /* Fallback for <IE9 */
   background-image: url(../img/kleinfreund.svg), none;
-  -webkit-background-size: 264px 64px;
-  -moz-background-size: 264px 64px;
-  -ms-background-size: 264px 64px;
-  -o-background-size: 264px 64px;
-  background-size: 264px 64px;
+  -webkit-background-size: 256px 64px;
+  -moz-background-size: 256px 64px;
+  -ms-background-size: 256px 64px;
+  -o-background-size: 256px 64px;
+  background-size: 256px 64px;
 }
 
 .site-nav {
