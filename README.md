@@ -14,10 +14,8 @@ This is the source code of my personal website. It's the final project for our w
 
 ## To do
 
-- Google Webfonts: Which domains to prefetch
 - Fix portfolio/blog posts still invoke `cursor: default;` on the nav-item
 - 404: add onion gif
-- profil: add photo
 - profil: add further information
 - blog: How the site was build
 - add sitemap.html
@@ -27,6 +25,8 @@ This is the source code of my personal website. It's the final project for our w
 
 ## Done
 
+- Google Webfonts: Which domains to prefetch
+- profil: add photo
 - article: CSS Styleguide
 - use jekyll to generate the site
 - add meta description (for real this time)
