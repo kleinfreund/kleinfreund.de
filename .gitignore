@@ -5,6 +5,7 @@ _site/
 # prepros #
 ###########
 .sass-cache/
+prepros.json
 config.rb
 
 # OS junk #
