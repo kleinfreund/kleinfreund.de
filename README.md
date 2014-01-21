@@ -15,9 +15,8 @@ This is the source code of my personal website. It's the final project for our w
 ## To do
 
 - blog: How the site was build
-- add sitemap.html
 - add feed.xml
-- meta: write documentation
+- meta: write documentation (concept etc)
 - test the site
 
 ## Done
