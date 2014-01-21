@@ -14,12 +14,7 @@ This is the source code of my personal website. It's the final project for our w
 
 ## To do
 
-- Prepros: How to have config.rb + prepros.json
-- Use markdown for static pages
-- Fix 404.html not having wrapper class
 - Fix portfolio/blog posts still invoke `cursor: default;` on the nav-item
-- 404: add onion gif
-- profil: add further information
 - blog: How the site was build
 - add sitemap.html
 - add feed.xml
@@ -28,6 +23,10 @@ This is the source code of my personal website. It's the final project for our w
 
 ## Done
 
+- 404: add onion gif
+- Prepros: How to have config.rb + prepros.json
+- Use markdown for static pages
+- Fix 404.html not having wrapper class
 - Google Webfonts: Which domains to prefetch
 - profil: add photo
 - article: CSS Styleguide
