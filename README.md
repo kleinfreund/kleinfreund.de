@@ -14,6 +14,7 @@ This is the source code of my personal website. It's the final project for our w
 
 ## To do
 
+- Use markdown for static pages
 - Fix 404.html not having wrapper class
 - Fix portfolio/blog posts still invoke `cursor: default;` on the nav-item
 - 404: add onion gif
