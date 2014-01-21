@@ -14,6 +14,7 @@ This is the source code of my personal website. It's the final project for our w
 
 ## To do
 
+- progressive enhancement: is there use for `@support` ([caniuse](http://caniuse.com/css-featurequeries))? 
 - blog: How the site was build
 - add feed.xml
 - meta: write documentation (concept etc)
