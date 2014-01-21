@@ -3183,6 +3183,38 @@ label,
 /**
  * She’s all yours, cap’n... Begin importing your stuff here.
  */
+.wrapper {
+  max-width: 680px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media only screen and (min-width: 681px) {
+  .wrapper {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+.page-title, .post-list {
+  margin-bottom: 60px;
+  margin-bottom: 3rem;
+}
+@media only screen and (min-width: 681px) {
+  .page-title, .post-list {
+    margin-bottom: 120px;
+    margin-bottom: 6rem;
+  }
+}
+
+html {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 300;
+  color: #444444;
+  background-color: #efefef;
+}
+
 /**
  * Headings
  */
@@ -3213,7 +3245,7 @@ figure > img {
  */
 hr {
   color: #aaaaaa;
-  border: none;
+  border: 0;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   margin-bottom: 29px;
@@ -3223,7 +3255,7 @@ hr {
 /**
  * Inline elements
  */
-b, strong, a {
+strong, a {
   font-weight: 500;
 }
 
@@ -3416,47 +3448,17 @@ pre code, pre kbd, pre samp {
   margin-bottom: 0;
 }
 
-html {
-  font-family: Ubuntu, sans-serif;
-  font-weight: 300;
-  color: #444444;
-  background-color: #efefef;
-}
-
-.wrapper {
-  max-width: 680px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-@media only screen and (min-width: 681px) {
-  .wrapper {
-    padding-right: 30px;
-    padding-left: 30px;
-  }
-}
-
-.wrapper--wide {
-  max-width: 1260px;
-}
-
-.nowrap {
-  white-space: nowrap;
-}
-
 /**
- * page-head
+ * page-title
  */
 .page-title {
-  color: white;
-  background-color: #323232;
-  margin-bottom: 0;
   padding: 15px;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
   font-size: 30px;
   font-size: 1.5rem;
   line-height: 1;
+  color: white;
+  background-color: #323232;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 }
 @media only screen and (min-width: 681px) {
   .page-title {
@@ -3477,11 +3479,13 @@ html {
 }
 
 /**
- * entry
+ * page-content
  */
 .page-content {
   margin-top: 60px;
   margin-top: 3rem;
+  margin-bottom: 60px;
+  margin-bottom: 3rem;
 }
 @media only screen and (min-width: 681px) {
   .page-content {
@@ -3489,8 +3493,11 @@ html {
     margin-top: 6rem;
   }
 }
-.page-content a {
-  font-weight: 500;
+@media only screen and (min-width: 681px) {
+  .page-content {
+    margin-bottom: 120px;
+    margin-bottom: 6rem;
+  }
 }
 .page-content a:hover {
   border-bottom: 0.125em solid;
@@ -3512,9 +3519,19 @@ html {
   color: #db2427;
 }
 
+.entry {
+  margin-bottom: 60px;
+  margin-bottom: 3rem;
+}
+@media only screen and (min-width: 681px) {
+  .entry {
+    margin-bottom: 120px;
+    margin-bottom: 6rem;
+  }
+}
+
 .entry__meta {
   color: #aaaaaa;
-  margin-bottom: 0;
 }
 
 .post-list,
@@ -3522,6 +3539,7 @@ html {
   border: 0;
 }
 .post-list li {
+  margin-bottom: 60px;
   padding: 0;
 }
 
@@ -3558,17 +3576,6 @@ html {
   padding: 7.5px;
   color: #444444;
   font-weight: 300;
-}
-
-.page-title, .page-content, .entry, .post-list {
-  margin-bottom: 60px;
-  margin-bottom: 3rem;
-}
-@media only screen and (min-width: 681px) {
-  .page-title, .page-content, .entry, .post-list {
-    margin-bottom: 120px;
-    margin-bottom: 6rem;
-  }
 }
 
 /*

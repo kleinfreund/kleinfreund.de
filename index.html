@@ -8,7 +8,7 @@ page-class: page--home
     {% for post in paginator.posts %}
     <li>
         <a href="{{ post.url }}" class=post-list__link>
-            <span class=post-list__time>{{ post.date | date: "%-d. %B %Y" | replace:"January","Januar" | replace:"Februar","February" | replace:"March","März" | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"December","Dezember" }}</span>
+            <span class=post-list__time>{{ post.date | date: "%-d. %B %Y" | replace:"January","Januar" | replace:"February","Februar" | replace:"March","März" | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"December","Dezember" }}</span>
             <h2 class=post-list__title>{{ post.site-title }}</h2>
         </a>
         {{ post.excerpt }}
@@ -16,6 +16,7 @@ page-class: page--home
     {% endfor %}
 </ul>
 
+{% if paginator.total_pages > 1 %}
 <ol class="nav pagination">
     <li class=pagination__prev>
         {% if paginator.previous_page %}
@@ -36,3 +37,4 @@ page-class: page--home
         {% endif %}
     </li>
 </ol>
+{% endif %}

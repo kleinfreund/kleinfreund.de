@@ -3,7 +3,7 @@ layout: default
 page-class: page--post page--home
 ---
 <article class=entry>
-    <p class=entry__meta>{{ page.date | date: "%-d. %B %Y" | replace:"January","Januar" | replace:"Februar","February" | replace:"March","März" | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"December","Dezember" }}</p>
+    <span class=entry__meta>{{ page.date | date: "%-d. %B %Y" | replace:"January","Januar" | replace:"February","Februar" | replace:"March","März" | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"December","Dezember" }}</span>
     <h1>{{ page.site-title }}</h1>
 
     {{ content }}

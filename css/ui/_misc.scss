@@ -1,3 +1,17 @@
+.wrapper,
+%wrapper {
+    max-width: 680px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $base-spacing-unit / 2;
+    padding-left: $base-spacing-unit / 2;
+
+    @include media-query(lap-and-up) {
+        padding-right: $base-spacing-unit;
+        padding-left: $base-spacing-unit;
+    }
+}
+
 %vertical-rhythm {
     @extend %sass-margin-bottom;
 }
@@ -9,5 +23,26 @@
     @include media-query(lap-and-up) {
         margin-bottom: $base-spacing-unit * 4;
         margin-bottom: 6rem;
+    }
+}
+
+@mixin vertical-gap($direction: bottom) {
+    @if($direction == bottom) {
+        margin-bottom: $base-spacing-unit * 2;
+        margin-bottom: 3rem;
+
+        @include media-query(lap-and-up) {
+            margin-bottom: $base-spacing-unit * 4;
+            margin-bottom: 6rem;
+        }
+    }
+    @if($direction == top) {
+        margin-top: $base-spacing-unit * 2;
+        margin-top: 3rem;
+
+        @include media-query(lap-and-up) {
+            margin-top: $base-spacing-unit * 4;
+            margin-top: 6rem;
+        }
     }
 }

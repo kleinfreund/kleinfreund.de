@@ -1,3 +1,12 @@
+html {
+    font-family: Ubuntu, sans-serif;
+    font-weight: 300;
+    color: $foreground-color;
+    background-color: $background-color;
+}
+
+
+
 /**
  * Headings
  */
@@ -34,7 +43,7 @@ figure > img {
  */
  hr {
     color: $light-ui-color;
-    border: none;
+    border: 0;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     margin-bottom: $base-spacing-unit - 1px;
@@ -46,7 +55,7 @@ figure > img {
 /**
  * Inline elements
  */
-b, strong, a {
+strong, a {
     font-weight: 500;
 }
 

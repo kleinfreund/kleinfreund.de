@@ -1,45 +1,13 @@
-html {
-    font-family: Ubuntu, sans-serif;
-    font-weight: 300;
-    color: $foreground-color;
-    background-color: $background-color;
-}
-
-.wrapper,
-%wrapper {
-    max-width: 680px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $base-spacing-unit / 2;
-    padding-left: $base-spacing-unit / 2;
-
-    @include media-query(lap-and-up) {
-        padding-right: $base-spacing-unit;
-        padding-left: $base-spacing-unit;
-    }
-}
-
-.wrapper--wide {
-    max-width: 1260px;
-}
-
-.nowrap {
-    white-space: nowrap;
-}
-
-
-
 /**
- * page-head
+ * page-title
  */
 .page-title {
+    @extend %vertical-gap;
+    padding: $base-spacing-unit / 2;
+    @include font-size(30px);
     color: $white-color;
     background-color: $dark-ui-color;
-    margin-bottom: 0;
-    padding: $base-spacing-unit / 2;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
-    @extend %vertical-gap;
-    @include font-size(30px);
 
     @include media-query(lap-and-up) {
         padding: $base-spacing-unit / 2 10%;
@@ -65,24 +33,14 @@ html {
 
 
 /**
- * entry
+ * page-content
  */
 .page-content {
-    @extend %vertical-gap;
-    margin-top: $base-spacing-unit * 2;
-    margin-top: 3rem;
+    @include vertical-gap(top);
+    @include vertical-gap(bottom);
 
-    @include media-query(lap-and-up) {
-        margin-top: $base-spacing-unit * 4;
-        margin-top: 6rem;
-    }
-
-    a {
-        font-weight: 500;
-
-        &:hover {
-            border-bottom: 0.125em solid;
-        }
+    a:hover {
+        border-bottom: 0.125em solid;
     }
 
     a,
@@ -106,10 +64,9 @@ html {
 }
 
 .entry {
-    @extend %vertical-gap;
+    @include vertical-gap(bottom);
 }
 
     .entry__meta {
         color: $light-ui-color;
-        margin-bottom: 0;
     }
