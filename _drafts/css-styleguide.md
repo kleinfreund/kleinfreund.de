@@ -1,5 +1,7 @@
-# CSS Styleguide
-
+---
+layout: post
+site-title: CSS Styleguide (englisch)
+---
 This is my personal CSS Styleguide.
 
 ## Naming

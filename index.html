@@ -1,23 +1,22 @@
 ---
 layout: default
-title: kleinfreund.de
+site-title: kleinfreund.de
+page-title: Freundliche Artikel
 page-class: page--home
 ---
-<h1 class=page-title>Freundliche Artikel</h1>
-
-<ul class="post-list wrapper">
+<ul class=post-list>
     {% for post in paginator.posts %}
     <li>
         <a href="{{ post.url }}" class=post-list__link>
             <span class=post-list__time>{{ post.date | date: "%-d. %B %Y" | replace:"January","Januar" | replace:"Februar","February" | replace:"March","März" | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"December","Dezember" }}</span>
-            <h2 class=post-list__title>{{ post.title }}</h2>
-            {{ post.excerpt }}
+            <h2 class=post-list__title>{{ post.site-title }}</h2>
         </a>
+        {{ post.excerpt }}
     </li>
     {% endfor %}
 </ul>
 
-<ol class="nav pagination wrapper">
+<ol class="nav pagination">
     <li class=pagination__prev>
         {% if paginator.previous_page %}
         {% if paginator.previous_page == 1 %}

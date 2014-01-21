@@ -1,6 +1,6 @@
 ---
 layout: post--portfolio
-title: Website&#58; artrudloff.de
+site-title: "Website: artrudloff.de"
 permalink: /portfolio/artrudloff/
 ---
 Die Website [artrudloff.de](http://artrudloff.de) habe ich im Sommer 2012 für meine Eltern erstellt. Zu finden gibt es eine Auswahl der Arbeiten von Anke und Andreas Rudloff.

@@ -1,10 +1,10 @@
-# Und es beginnt ganz langsam
+---
+layout: post
+site-title: Und es beginnt ganz langsam
+---
+Diese Seite entstand im Rahmen des Abschlussprojekts im Fach Webdesign. Die Aufgabenstellung war genau die gleiche, die ich schon seit langem auf die lange Bank geschoben hatte. Eine eigene Website. Also los.
 
-Diese Seite entstand im Rahmen des Abschlussprojekts unserer Webdesign-Klasse. Die Aufgabenstellung war genau die gleiche, die ich schon erfolgreich seit einiger Zeit vor mir hin schon. Eine eigene Website. Kommt man also auf seine alten Tage doch noch dazu.
 
-Die Blätter mit der Aufgabe waren recht umfangreich und haben beim größeren Teil meiner Mitschüler sicher große Vorfreude hervorgebracht. Darin enthalten ein paar Einschränkungen, auf was wir zu achten hatten. Die Seite sollte statisch werden und offline funktionieren. Webfonts und etwaige Lightbox-Scripte waren erlaubt, sollten aber aber heruntergeladen und selbst eingebunden werden.
-
-Weiterhin war Vorgabe alles in passender Verzeichnisstruktur abzulegen. Bei mir ergab sich dabei folgendes Bild:
 
 ```
 .
@@ -30,10 +30,13 @@ Weiterhin war Vorgabe alles in passender Verzeichnisstruktur abzulegen. Bei mir 
 |   └── kleinfreund.svg
 ├── js
 |   └── html5shiv.js
+├── portfolio
+|   └── index.html
+├── profil
+|   └── index.html
+├── impressum
+|   └── index.html
 ├── index.html
-├── portfolio.html
-├── profil.html
-├── impressum.html
 ├── 404.html
 ├── robots.txt
 ├── sitemap.xml

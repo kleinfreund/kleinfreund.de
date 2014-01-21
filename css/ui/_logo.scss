@@ -2,7 +2,7 @@
     display: inline-block;
     padding: $base-spacing-unit / 2;
 
-    .page--home & {
+    .page--home:not(.page--post) & {
         cursor: default;
     }
 

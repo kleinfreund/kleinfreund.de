@@ -67,17 +67,14 @@ html {
 /**
  * entry
  */
-.entry {
+.page-content {
     @extend %vertical-gap;
+    margin-top: $base-spacing-unit * 2;
+    margin-top: 3rem;
 
-    &:first-child {
-        margin-top: $base-spacing-unit * 2;
-        margin-top: 3rem;
-
-        @include media-query(lap-and-up) {
-            margin-top: $base-spacing-unit * 4;
-            margin-top: 6rem;
-        }
+    @include media-query(lap-and-up) {
+        margin-top: $base-spacing-unit * 4;
+        margin-top: 6rem;
     }
 
     a {
@@ -86,24 +83,9 @@ html {
         &:hover {
             border-bottom: 0.125em solid;
         }
-
-        .page--home & {
-            color: $green-color;
-        }
-
-        .page--about & {
-            color: $blue-color;
-        }
-
-        .page--portfolio & {
-            color: $orange-color;
-        }
-
-        .page--impressum & {
-            color: $red-color;
-        }
     }
 
+    a,
     h1, h2, h3, h4, h5, h6 {
         .page--home & {
             color: $green-color;
@@ -121,6 +103,10 @@ html {
             color: $red-color;
         }
     }
+}
+
+.entry {
+    @extend %vertical-gap;
 }
 
     .entry__meta {

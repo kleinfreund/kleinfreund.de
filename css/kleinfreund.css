@@ -3269,7 +3269,7 @@ pre code, pre kbd, pre samp {
   display: inline-block;
   padding: 15px;
 }
-.page--home .site-logo {
+.page--home:not(.page--post) .site-logo {
   cursor: default;
 }
 @media only screen and (min-width: 681px) {
@@ -3292,13 +3292,11 @@ pre code, pre kbd, pre samp {
 }
 
 .site-nav {
-  line-height: 1;
-  display: -ms-flexbox;
-  /* MID - IE 10 */
+  display: table;
+  /* Fallback for Flexbox */
   display: -webkit-flex;
-  /* NEW -  Chrome */
   display: flex;
-  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  line-height: 1;
 }
 @media only screen and (min-width: 681px) {
   .site-nav {
@@ -3310,16 +3308,14 @@ pre code, pre kbd, pre samp {
 }
 
 .site-nav__item {
-  display: block;
+  /*display: block;*/
+  display: table-cell;
+  /* Fallback for Flexbox */
+  -webkit-flex: 1;
+  flex: 1;
   padding: 7.5px 0;
   text-align: center;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
-  -webkit-flex: 1;
-  /* Chrome */
-  -ms-flex: 1;
-  /* IE 10 */
-  flex: 1;
-  /* NEW, Spec - Opera 12.1, Firefox 20+ */
 }
 @media only screen and (min-width: 681px) {
   .site-nav__item {
@@ -3334,12 +3330,24 @@ pre code, pre kbd, pre samp {
 .site-nav__item--green {
   background-color: #5a9b00;
 }
-.page--home .site-nav__item--green {
+.page--home:not(.page--post) .site-nav__item--green {
   cursor: default;
 }
 @media only screen and (min-width: 681px) {
   html:not(.page--home) .site-nav__item--green:hover {
     background-color: #6fbf00;
+  }
+}
+
+.site-nav__item--orange {
+  background-color: #eb9800;
+}
+.page--portfolio:not(.page--post) .site-nav__item--orange {
+  cursor: default;
+}
+@media only screen and (min-width: 681px) {
+  html:not(.page--portfolio) .site-nav__item--orange:hover {
+    background-color: #ffaa10;
   }
 }
 
@@ -3352,18 +3360,6 @@ pre code, pre kbd, pre samp {
 @media only screen and (min-width: 681px) {
   html:not(.page--about) .site-nav__item--blue:hover {
     background-color: #6d91da;
-  }
-}
-
-.site-nav__item--orange {
-  background-color: #eb9800;
-}
-.page--portfolio .site-nav__item--orange {
-  cursor: default;
-}
-@media only screen and (min-width: 681px) {
-  html:not(.page--portfolio) .site-nav__item--orange:hover {
-    background-color: #ffaa10;
   }
 }
 
@@ -3483,44 +3479,36 @@ html {
 /**
  * entry
  */
-.entry:first-child {
+.page-content {
   margin-top: 60px;
   margin-top: 3rem;
 }
 @media only screen and (min-width: 681px) {
-  .entry:first-child {
+  .page-content {
     margin-top: 120px;
     margin-top: 6rem;
   }
 }
-.entry a {
+.page-content a {
   font-weight: 500;
 }
-.entry a:hover {
+.page-content a:hover {
   border-bottom: 0.125em solid;
 }
-.page--home .entry a {
+.page--home .page-content a, .page--home
+.page-content h1, .page--home .page-content h2, .page--home .page-content h3, .page--home .page-content h4, .page--home .page-content h5, .page--home .page-content h6 {
   color: #5a9b00;
 }
-.page--about .entry a {
+.page--about .page-content a, .page--about
+.page-content h1, .page--about .page-content h2, .page--about .page-content h3, .page--about .page-content h4, .page--about .page-content h5, .page--about .page-content h6 {
   color: #507bd3;
 }
-.page--portfolio .entry a {
+.page--portfolio .page-content a, .page--portfolio
+.page-content h1, .page--portfolio .page-content h2, .page--portfolio .page-content h3, .page--portfolio .page-content h4, .page--portfolio .page-content h5, .page--portfolio .page-content h6 {
   color: #eb9800;
 }
-.page--impressum .entry a {
-  color: #db2427;
-}
-.page--home .entry h1, .page--home .entry h2, .page--home .entry h3, .page--home .entry h4, .page--home .entry h5, .page--home .entry h6 {
-  color: #5a9b00;
-}
-.page--about .entry h1, .page--about .entry h2, .page--about .entry h3, .page--about .entry h4, .page--about .entry h5, .page--about .entry h6 {
-  color: #507bd3;
-}
-.page--portfolio .entry h1, .page--portfolio .entry h2, .page--portfolio .entry h3, .page--portfolio .entry h4, .page--portfolio .entry h5, .page--portfolio .entry h6 {
-  color: #eb9800;
-}
-.page--impressum .entry h1, .page--impressum .entry h2, .page--impressum .entry h3, .page--impressum .entry h4, .page--impressum .entry h5, .page--impressum .entry h6 {
+.page--impressum .page-content a, .page--impressum
+.page-content h1, .page--impressum .page-content h2, .page--impressum .page-content h3, .page--impressum .page-content h4, .page--impressum .page-content h5, .page--impressum .page-content h6 {
   color: #db2427;
 }
 
@@ -3533,8 +3521,12 @@ html {
 .post-list > li {
   border: 0;
 }
+.post-list li {
+  padding: 0;
+}
 
-.post-list__link {
+.post-list__time,
+.post-list__title {
   font-weight: 300;
 }
 
@@ -3543,8 +3535,16 @@ html {
   color: #aaaaaa;
 }
 
-.page--home .post-list__title {
-  color: #5a9b00;
+.grid {
+  margin-left: -15px;
+}
+.grid figure {
+  margin-bottom: 0;
+}
+
+.grid__item {
+  padding-bottom: 15px;
+  padding-left: 15px;
 }
 
 .grid__link {
@@ -3552,18 +3552,63 @@ html {
 }
 
 .grid__caption {
-  padding: 15px;
-  background-color: #ffaa10;
-  border-radius: 0 0 3px 3px;
+  font-size: 16px;
+  font-size: 0.8rem;
+  line-height: 1.875;
+  padding: 7.5px;
+  color: #444444;
+  font-weight: 300;
 }
 
-.page-title, .entry, .pagination {
+.page-title, .page-content, .entry, .post-list {
   margin-bottom: 60px;
   margin-bottom: 3rem;
 }
 @media only screen and (min-width: 681px) {
-  .page-title, .entry, .pagination {
+  .page-title, .page-content, .entry, .post-list {
     margin-bottom: 120px;
     margin-bottom: 6rem;
+  }
+}
+
+/*
+ * Applied dev-metal.com Google Chrome font rendering fix (Update, November 2013: Solution #1):
+ * http://www.dev-metal.com/fix-ugly-font-rendering-google-chrome/
+ */
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../fonts/ubuntu-light.eot");
+  src: url("../fonts/ubuntu-light.eot?#iefix") format("embedded-opentype"), url("../fonts/ubuntu-light.woff") format("woff"), url("../fonts/ubuntu-light.ttf") format("truetype"), url("../fonts/ubuntu-light.svg#ubuntulight") format("svg");
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: 'Ubuntu';
+    src: url("../fonts/ubuntu-light.svg#ubuntulight") format("svg");
+  }
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../fonts/ubuntu-lightitalic.eot");
+  src: url("../fonts/ubuntu-lightitalic.eot?#iefix") format("embedded-opentype"), url("../fonts/ubuntu-lightitalic.woff") format("woff"), url("../fonts/ubuntu-lightitalic.ttf") format("truetype"), url("../fonts/ubuntu-lightitalic.svg#ubuntulight_italic") format("svg");
+  font-style: italic;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: 'Ubuntu';
+    src: url("../fonts/ubuntu-lightitalic.svg#ubuntulight_italic") format("svg");
+    font-style: italic;
+  }
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../fonts/ubuntu-medium.eot");
+  src: url("../fonts/ubuntu-medium.eot?#iefix") format("embedded-opentype"), url("../fonts/ubuntu-medium.woff") format("woff"), url("../fonts/ubuntu-medium.ttf") format("truetype"), url("../fonts/ubuntu-medium.svg#ubuntumedium") format("svg");
+  font-weight: 500;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: 'Ubuntu';
+    src: url("../fonts/ubuntu-medium.svg#ubuntumedium") format("svg");
+    font-weight: 500;
   }
 }

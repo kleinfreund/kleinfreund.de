@@ -1,6 +1,6 @@
 ---
 layout: post--portfolio
-title: Piktogramme
+site-title: Piktogramme
 permalink: /portfolio/piktogramme/
 ---
 Hier sollten wir uns auf zwei einfache geometrische Formen beschränken und ein paar Tiere in Piktogramme verpacken.

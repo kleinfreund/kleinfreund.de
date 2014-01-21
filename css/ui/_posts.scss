@@ -1,13 +1,19 @@
 .post-list {
     @extend .block-list;
+    @extend %vertical-gap;
 
     &,
     > li {
         border: 0;
     }
+
+    li {
+        padding: 0;
+    }
 }
 
-    .post-list__link {
+    .post-list__time,
+    .post-list__title {
         font-weight: 300;
     }
 
@@ -15,11 +21,3 @@
         display: block;
         color: $light-ui-color;
     }
-
-    .page--home .post-list__title {
-        color: $green-color;
-    }
-
-.pagination {
-    @extend %vertical-gap;
-}

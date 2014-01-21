@@ -8,7 +8,7 @@
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="dns-prefetch" href="//themes.googleusercontent.com">
 
-    <title>{{ page.title }} &ndash; Website von Philipp Rudloff</title>
+    <title>{{ page.site-title }} &ndash; Website von Philipp Rudloff</title>
 
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic">
     <link rel="stylesheet" href="/css/kleinfreund.min.css">
@@ -34,7 +34,13 @@
     </header>
 
     <main role=main>
-        {{ content }}
+        {% if page.page-title %}
+        <h1 class=page-title>{{ page.page-title }}</h1>
+        {% endif %}
+
+        <div class="page-content wrapper">
+            {{ content }}
+        </div>
     </main>
 
     <footer class=site-foot role=contentinfo>

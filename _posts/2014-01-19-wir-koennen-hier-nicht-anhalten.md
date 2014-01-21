@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Wir k&ouml;nnen hier nicht anhalten&hellip;
+site-title: Wir k&ouml;nnen hier nicht anhalten&hellip;
 ---
 Diese Welt befindet sich noch im frühen Entwicklungsstadium und bietet keine optimalen Lebensvoraussetzungen.
 

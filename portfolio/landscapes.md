@@ -1,6 +1,6 @@
 ---
 layout: post--portfolio
-title: Fotografie&#58; Landscapes
+site-title: "Fotografie: Landscapes"
 permalink: /portfolio/landscapes/
 ---
 Ein paar Momentaufnahmen aus dem letzten Jahr. Ich sollte mir wirklich eine anständige Kamera anschaffen. Dann muss ich nur noch dran denken, die auch immer einzupacken und auch zu benutzen. Klingt nach 'nem Plan? Finde ich auch. Hat jemand Vorschläge dazu?

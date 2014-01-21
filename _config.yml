@@ -3,3 +3,4 @@ pygments: true
 permalink: /:year/:month/:title
 paginate: 5
 relative_permalinks: false
+exclude: [prepros.json, config.rb]

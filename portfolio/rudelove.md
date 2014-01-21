@@ -1,6 +1,6 @@
 ---
 layout: post--portfolio
-title: Gesch&auml;ftspapier&#58; RUDELOVE
+site-title: "Gesch&auml;ftspapier: RUDELOVE"
 permalink: /portfolio/rudelove/
 ---
 ![RUDELOVE Logo](/img/rudelove/logo.png)

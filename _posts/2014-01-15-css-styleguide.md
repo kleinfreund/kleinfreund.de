@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CSS Styleguide
+site-title: CSS Styleguide
 ---
 Das ist mein persönlicher CSS Styleguide. Alle Angaben ohne Gewähr. Ihr könnt das meinetwegen ganz anders handhaben. Vielleicht hilft euch ja doch das eine oder andere Detail.
 

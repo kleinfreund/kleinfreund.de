@@ -1,3 +1,8 @@
+# fonts #
+#########
+fonts/
+css/ui/_ubuntu.scss
+
 # Jekyll #
 ##########
 _site/

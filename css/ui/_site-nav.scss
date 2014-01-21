@@ -1,9 +1,8 @@
 .site-nav {
+    display: table; /* Fallback for Flexbox */
+    display: -webkit-flex;
+    display:         flex;
     line-height: 1;
-
-    display:  -ms-flexbox; /* MID - IE 10 */
-    display: -webkit-flex; /* NEW -  Chrome */
-    display:         flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */
 
     @include media-query(lap-and-up) {
         display: block; /* Override `display: flex;` */
@@ -13,14 +12,14 @@
 }
 
     .site-nav__item {
-        display: block;
+        /*display: block;*/
+        display: table-cell; /* Fallback for Flexbox */
+        -webkit-flex: 1;
+                flex: 1;
+
         padding: $base-spacing-unit / 4 0;
         text-align: center;
         text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
-
-            -webkit-flex: 1; /* Chrome */
-                -ms-flex: 1; /* IE 10 */
-                    flex: 1; /* NEW, Spec - Opera 12.1, Firefox 20+ */
 
         @include media-query(lap-and-up) {
             display: inline-block;
@@ -35,13 +34,27 @@
     .site-nav__item--green {
         background-color: $green-color;
 
-        .page--home & {
+        .page--home:not(.page--post) & {
             cursor: default;
         }
 
         @include media-query(lap-and-up) {
             html:not(.page--home) &:hover {
                 background-color: $green-color-light;
+            }
+        }
+    }
+
+    .site-nav__item--orange {
+        background-color: $orange-color;
+
+        .page--portfolio:not(.page--post) & {
+            cursor: default;
+        }
+
+        @include media-query(lap-and-up) {
+            html:not(.page--portfolio) &:hover {
+                background-color: $orange-color-light;
             }
         }
     }
@@ -56,20 +69,6 @@
         @include media-query(lap-and-up) {
             html:not(.page--about) &:hover {
                 background-color: $blue-color-light;
-            }
-        }
-    }
-
-    .site-nav__item--orange {
-        background-color: $orange-color;
-
-        .page--portfolio & {
-            cursor: default;
-        }
-
-        @include media-query(lap-and-up) {
-            html:not(.page--portfolio) &:hover {
-                background-color: $orange-color-light;
             }
         }
     }
