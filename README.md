@@ -14,7 +14,6 @@ This is the source code of my personal website. It's the final project for our w
 
 ## To do
 
-- Fix portfolio/blog posts still invoke `cursor: default;` on the nav-item
 - blog: How the site was build
 - add sitemap.html
 - add feed.xml
@@ -23,6 +22,7 @@ This is the source code of my personal website. It's the final project for our w
 
 ## Done
 
+- Fix portfolio/blog posts still invoke `cursor: default;` on the nav-item
 - 404: add onion gif
 - Prepros: How to have config.rb + prepros.json
 - Use markdown for static pages
