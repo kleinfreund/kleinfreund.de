@@ -3295,7 +3295,7 @@ pre code, pre kbd, pre samp {
 }
 @media only screen and (min-width: 681px) {
   .site-logo {
-    margin-left: 60px;
+    padding: 15px 60px;
   }
 }
 .site-logo > img {
@@ -3305,15 +3305,11 @@ pre code, pre kbd, pre samp {
   /* Fallback for <IE9 */
   background-image: url(/img/kleinfreund.svg), none;
   /* Using multiple backgrounds to make <IE9 ignore this declaration */
-  -webkit-background-size: 256px 64px;
-  -moz-background-size: 256px 64px;
-  -ms-background-size: 256px 64px;
-  -o-background-size: 256px 64px;
-  background-size: 256px 64px;
+  /*@include vendor(background-size, 256px 64px);*/
 }
 
 .site-nav {
-  padding-right: 10%;
+  padding-right: 90px;
   text-align: right;
   line-height: 1;
   border-bottom: 7px solid #323232;
@@ -3346,6 +3342,11 @@ pre code, pre kbd, pre samp {
 }
 .site-nav > a:first-child {
   margin-left: 0;
+}
+@media only screen and (max-width: 1024px) {
+  .site-nav > a {
+    padding: 15px;
+  }
 }
 @media only screen and (max-width: 680px) {
   .site-nav > a {
@@ -3402,7 +3403,7 @@ html:not(.page--impressum) .nav__item--red:hover {
 
 .page-title {
   margin-bottom: 0;
-  padding: 15px 10%;
+  padding: 15px;
   font-size: 30px;
   font-size: 1.5rem;
   line-height: 1;
@@ -3421,6 +3422,11 @@ html:not(.page--impressum) .nav__item--red:hover {
 }
 .page--impressum .page-title {
   background-color: #e04345;
+}
+@media only screen and (min-width: 681px) {
+  .page-title {
+    padding: 15px 120px;
+  }
 }
 
 .site-foot {

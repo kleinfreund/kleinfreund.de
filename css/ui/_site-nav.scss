@@ -1,5 +1,5 @@
 .site-nav {
-    padding-right: 10%;
+    padding-right: $base-spacing-unit * 3;
     text-align: right;
     line-height: 1;
     border-bottom: 7px solid $dark-ui-color;
@@ -35,6 +35,10 @@
 
         &:first-child {
             margin-left: 0;
+        }
+
+        @include media-query(portable) {
+            padding: $half-spacing-unit;
         }
 
         @include media-query(palm) {
