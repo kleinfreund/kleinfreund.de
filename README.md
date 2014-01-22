@@ -14,7 +14,6 @@ This is the source code of my personal website. It's the final project for our w
 
 ## To do
 
-- test flexbox fallback to table/table-cell
 - progressive enhancement: is there use for `@support` ([caniuse](http://caniuse.com/css-featurequeries))? 
 - blog: How the site was build
 - add feed.xml
