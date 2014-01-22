@@ -16,16 +16,6 @@
     @extend %sass-margin-bottom;
 }
 
-%vertical-gap {
-    margin-bottom: $base-spacing-unit * 2;
-    margin-bottom: 3rem;
-
-    @include media-query(lap-and-up) {
-        margin-bottom: $base-spacing-unit * 4;
-        margin-bottom: 6rem;
-    }
-}
-
 @mixin vertical-gap($direction: bottom) {
     @if($direction == bottom) {
         margin-bottom: $base-spacing-unit * 2;

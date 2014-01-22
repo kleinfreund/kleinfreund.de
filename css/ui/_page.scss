@@ -2,7 +2,6 @@
  * page-title
  */
 .page-title {
-    @extend %vertical-gap;
     padding: $base-spacing-unit / 2;
     @include font-size(30px);
     color: $white-color;

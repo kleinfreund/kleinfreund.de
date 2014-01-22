@@ -9,12 +9,12 @@
     @include media-query(lap-and-up) {
         margin-left: $base-spacing-unit * 2;
     }
-}
 
-    .site-logo > img {
+    > img {
         width: 256px;
         height: 64px;
-        background-image: url(../img/kleinfreund.png); /* Fallback for <IE9 */ 
-        background-image: url(../img/kleinfreund.svg), none;
+        background-image: url(/img/kleinfreund.png); /* Fallback for <IE9 */ 
+        background-image: url(/img/kleinfreund.svg), none; /* Using multiple backgrounds to make <IE9 ignore this declaration */
         @include vendor(background-size, 256px 64px);
     }
+}

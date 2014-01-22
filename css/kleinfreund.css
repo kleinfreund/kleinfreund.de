@@ -3197,17 +3197,6 @@ label,
   }
 }
 
-.page-title, .post-list {
-  margin-bottom: 60px;
-  margin-bottom: 3rem;
-}
-@media only screen and (min-width: 681px) {
-  .page-title, .post-list {
-    margin-bottom: 120px;
-    margin-bottom: 6rem;
-  }
-}
-
 html {
   font-family: Ubuntu, sans-serif;
   font-weight: 300;
@@ -3309,13 +3298,13 @@ pre code, pre kbd, pre samp {
     margin-left: 60px;
   }
 }
-
 .site-logo > img {
   width: 256px;
   height: 64px;
-  background-image: url(../img/kleinfreund.png);
+  background-image: url(/img/kleinfreund.png);
   /* Fallback for <IE9 */
-  background-image: url(../img/kleinfreund.svg), none;
+  background-image: url(/img/kleinfreund.svg), none;
+  /* Using multiple backgrounds to make <IE9 ignore this declaration */
   -webkit-background-size: 256px 64px;
   -moz-background-size: 256px 64px;
   -ms-background-size: 256px 64px;
@@ -3534,6 +3523,16 @@ pre code, pre kbd, pre samp {
   color: #aaaaaa;
 }
 
+.post-list {
+  margin-bottom: 60px;
+  margin-bottom: 3rem;
+}
+@media only screen and (min-width: 681px) {
+  .post-list {
+    margin-bottom: 120px;
+    margin-bottom: 6rem;
+  }
+}
 .post-list,
 .post-list > li {
   border: 0;

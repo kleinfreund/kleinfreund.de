@@ -1,6 +1,6 @@
 .post-list {
     @extend .block-list;
-    @extend %vertical-gap;
+    @include vertical-gap(bottom);
 
     &,
     > li {
