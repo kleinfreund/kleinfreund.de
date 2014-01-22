@@ -3313,109 +3313,114 @@ pre code, pre kbd, pre samp {
 }
 
 .site-nav {
-  display: table;
-  /* Fallback for Flexbox */
-  display: -webkit-flex;
-  display: flex;
+  padding-right: 10%;
+  text-align: right;
   line-height: 1;
+  border-bottom: 7px solid #323232;
 }
-@media only screen and (min-width: 681px) {
+.page--home .site-nav {
+  border-color: #5a9b00;
+}
+.page--about .site-nav {
+  border-color: #507bd3;
+}
+.page--portfolio .site-nav {
+  border-color: #eb9800;
+}
+.page--impressum .site-nav {
+  border-color: #db2427;
+}
+@media only screen and (max-width: 680px) {
   .site-nav {
-    display: block;
-    /* Override `display: flex;` */
-    margin-right: 10%;
-    text-align: right;
+    padding-right: 0;
+    display: -webkit-flex;
+    display: flex;
   }
 }
-
-.site-nav__item {
-  /*display: block;*/
-  display: table-cell;
-  /* Fallback for Flexbox */
-  -webkit-flex: 1;
-  flex: 1;
-  padding: 7.5px 0;
-  text-align: center;
+.site-nav > a {
+  display: inline-block;
+  margin-left: 15px;
+  padding: 15px 30px;
+  color: white;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 }
-@media only screen and (min-width: 681px) {
-  .site-nav__item {
-    display: inline-block;
-    padding: 15px 3%;
-  }
-  .site-nav__item:not(:first-child) {
-    margin-left: 15px;
+.site-nav > a:first-child {
+  margin-left: 0;
+}
+@media only screen and (max-width: 680px) {
+  .site-nav > a {
+    margin-left: 0;
+    text-align: center;
+    -webkit-flex: 1;
+    flex: 1;
   }
 }
 
-.site-nav__item--green {
+.nav__item--green {
   background-color: #5a9b00;
 }
-.page--home:not(.page--post) .site-nav__item--green {
+.page--home:not(.page--post) .nav__item--green {
   cursor: default;
 }
-@media only screen and (min-width: 681px) {
-  html:not(.page--home) .site-nav__item--green:hover {
-    background-color: #6fbf00;
-  }
+html:not(.page--home) .nav__item--green:hover {
+  background-color: #6fbf00;
 }
 
-.site-nav__item--orange {
+.nav__item--orange {
   background-color: #eb9800;
 }
-.page--portfolio:not(.page--post) .site-nav__item--orange {
+.page--portfolio:not(.page--post) .nav__item--orange {
   cursor: default;
 }
-@media only screen and (min-width: 681px) {
-  html:not(.page--portfolio) .site-nav__item--orange:hover {
-    background-color: #ffaa10;
-  }
+html:not(.page--portfolio) .nav__item--orange:hover {
+  background-color: #ffaa10;
 }
 
-.site-nav__item--blue {
+.nav__item--blue {
   background-color: #507bd3;
 }
-.page--about .site-nav__item--blue {
+.page--about .nav__item--blue {
   cursor: default;
 }
-@media only screen and (min-width: 681px) {
-  html:not(.page--about) .site-nav__item--blue:hover {
-    background-color: #6d91da;
-  }
+html:not(.page--about) .nav__item--blue:hover {
+  background-color: #6d91da;
 }
 
-.site-nav__item--red {
+.nav__item--red {
   background-color: #db2427;
 }
-.page--impressum .site-nav__item--red {
+.page--impressum .nav__item--red {
   cursor: default;
 }
-@media only screen and (min-width: 681px) {
-  html:not(.page--impressum) .site-nav__item--red:hover {
-    background-color: #e04345;
-  }
+html:not(.page--impressum) .nav__item--red:hover {
+  background-color: #e04345;
 }
 
 .site-head {
   background-color: #444444;
-  border-bottom: 7px solid #323232;
-}
-.site-head,
-.site-head a {
-  color: white;
 }
 
-.page--home .site-head {
-  border-color: #5a9b00;
+.page-title {
+  margin-bottom: 0;
+  padding: 15px 10%;
+  font-size: 30px;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: white;
+  background-color: #323232;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 }
-.page--about .site-head {
-  border-color: #507bd3;
+.page--home .page-title {
+  background-color: #6fbf00;
 }
-.page--portfolio .site-head {
-  border-color: #eb9800;
+.page--about .page-title {
+  background-color: #6d91da;
 }
-.page--impressum .site-head {
-  border-color: #db2427;
+.page--portfolio .page-title {
+  background-color: #ffaa10;
+}
+.page--impressum .page-title {
+  background-color: #e04345;
 }
 
 .site-foot {
@@ -3435,36 +3440,6 @@ pre code, pre kbd, pre samp {
 }
 .site-foot p:last-of-type {
   margin-bottom: 0;
-}
-
-/**
- * page-title
- */
-.page-title {
-  padding: 15px;
-  font-size: 30px;
-  font-size: 1.5rem;
-  line-height: 1;
-  color: white;
-  background-color: #323232;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
-}
-@media only screen and (min-width: 681px) {
-  .page-title {
-    padding: 15px 10%;
-  }
-}
-.page--home .page-title {
-  background-color: #6fbf00;
-}
-.page--about .page-title {
-  background-color: #6d91da;
-}
-.page--portfolio .page-title {
-  background-color: #ffaa10;
-}
-.page--impressum .page-title {
-  background-color: #e04345;
 }
 
 /**

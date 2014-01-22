@@ -1,88 +1,95 @@
 .site-nav {
-    display: table; /* Fallback for Flexbox */
-    display: -webkit-flex;
-    display:         flex;
+    padding-right: 10%;
+    text-align: right;
     line-height: 1;
+    border-bottom: 7px solid $dark-ui-color;
 
-    @include media-query(lap-and-up) {
-        display: block; /* Override `display: flex;` */
-        margin-right: 10%;
-        text-align: right;
+    .page--home & {
+        border-color: $green-color;
+    }
+
+    .page--about & {
+        border-color: $blue-color;
+    }
+
+    .page--portfolio & {
+        border-color: $orange-color;
+    }
+
+    .page--impressum & {
+        border-color: $red-color;
+    }
+
+    @include media-query(palm) {
+        padding-right: 0;
+        display: -webkit-flex;
+        display:         flex;
+    }
+
+    > a {
+        display: inline-block;
+        margin-left: $base-spacing-unit / 2;
+        padding: $base-spacing-unit / 2 $base-spacing-unit;
+        color: $white-color;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+
+        &:first-child {
+            margin-left: 0;
+        }
+
+        @include media-query(palm) {
+            margin-left: 0;
+            text-align: center;
+            -webkit-flex: 1;
+                    flex: 1;
+        }
     }
 }
 
-    .site-nav__item {
-        /*display: block;*/
-        display: table-cell; /* Fallback for Flexbox */
-        -webkit-flex: 1;
-                flex: 1;
-
-        padding: $base-spacing-unit / 4 0;
-        text-align: center;
-        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
-
-        @include media-query(lap-and-up) {
-            display: inline-block;
-            padding: $base-spacing-unit / 2 3%;
-
-            &:not(:first-child) {
-                margin-left: $base-spacing-unit / 2;
-            }
-        }
-    }
-
-    .site-nav__item--green {
+    .nav__item--green {
         background-color: $green-color;
 
         .page--home:not(.page--post) & {
             cursor: default;
         }
 
-        @include media-query(lap-and-up) {
-            html:not(.page--home) &:hover {
-                background-color: $green-color-light;
-            }
+        html:not(.page--home) &:hover {
+            background-color: $green-color-light;
         }
     }
 
-    .site-nav__item--orange {
+    .nav__item--orange {
         background-color: $orange-color;
 
         .page--portfolio:not(.page--post) & {
             cursor: default;
         }
 
-        @include media-query(lap-and-up) {
-            html:not(.page--portfolio) &:hover {
-                background-color: $orange-color-light;
-            }
+        html:not(.page--portfolio) &:hover {
+            background-color: $orange-color-light;
         }
     }
 
-    .site-nav__item--blue {
+    .nav__item--blue {
         background-color: $blue-color;
 
         .page--about & {
             cursor: default;
         }
 
-        @include media-query(lap-and-up) {
-            html:not(.page--about) &:hover {
-                background-color: $blue-color-light;
-            }
+        html:not(.page--about) &:hover {
+            background-color: $blue-color-light;
         }
     }
 
-    .site-nav__item--red {
+    .nav__item--red {
         background-color: $red-color;
 
         .page--impressum & {
             cursor: default;
         }
 
-        @include media-query(lap-and-up) {
-            html:not(.page--impressum) &:hover {
-                background-color: $red-color-light;
-            }
+        html:not(.page--impressum) &:hover {
+            background-color: $red-color-light;
         }
     }

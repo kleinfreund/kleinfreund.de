@@ -1,27 +1,28 @@
 .site-head {
     background-color: $base-ui-color;
-    border-bottom: 7px solid $dark-ui-color;
+}
 
-    &,
-    a {
+    .page-title {
+        margin-bottom: 0;
+        padding: $base-spacing-unit / 2 10%;
+        @include font-size(30px);
         color: $white-color;
-    }
-}
+        background-color: $dark-ui-color;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 
-.site-head {
-    .page--home & {
-        border-color: $green-color;
-    }
+        .page--home & {
+            background-color: $green-color-light;
+        }
 
-    .page--about & {
-        border-color: $blue-color;
-    }
+        .page--about & {
+            background-color: $blue-color-light;
+        }
 
-    .page--portfolio & {
-        border-color: $orange-color;
-    }
+        .page--portfolio & {
+            background-color: $orange-color-light;
+        }
 
-    .page--impressum & {
-        border-color: $red-color;
+        .page--impressum & {
+            background-color: $red-color-light;
+        }
     }
-}

@@ -1,37 +1,4 @@
 /**
- * page-title
- */
-.page-title {
-    padding: $base-spacing-unit / 2;
-    @include font-size(30px);
-    color: $white-color;
-    background-color: $dark-ui-color;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
-
-    @include media-query(lap-and-up) {
-        padding: $base-spacing-unit / 2 10%;
-    }
-
-    .page--home & {
-        background-color: $green-color-light;
-    }
-
-    .page--about & {
-        background-color: $blue-color-light;
-    }
-
-    .page--portfolio & {
-        background-color: $orange-color-light;
-    }
-
-    .page--impressum & {
-        background-color: $red-color-light;
-    }
-}
-
-
-
-/**
  * page-content
  */
 .page-content {
