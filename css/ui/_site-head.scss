@@ -4,7 +4,7 @@
 
     .page-title {
         margin-bottom: 0;
-        padding: $base-spacing-unit / 2 10%;
+        padding: $half-spacing-unit 10%;
         @include font-size(30px);
         color: $white-color;
         background-color: $dark-ui-color;

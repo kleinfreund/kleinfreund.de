@@ -1,6 +1,6 @@
 .site-logo {
     display: inline-block;
-    padding: $base-spacing-unit / 2;
+    padding: $half-spacing-unit;
 
     .page--home:not(.page--post) & {
         cursor: default;

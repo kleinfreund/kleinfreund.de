@@ -28,8 +28,8 @@
 
     > a {
         display: inline-block;
-        margin-left: $base-spacing-unit / 2;
-        padding: $base-spacing-unit / 2 $base-spacing-unit;
+        margin-left: $half-spacing-unit;
+        padding: $half-spacing-unit $base-spacing-unit;
         color: $white-color;
         text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 
