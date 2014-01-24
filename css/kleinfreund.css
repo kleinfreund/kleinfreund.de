@@ -3570,7 +3570,3 @@ html:not(.page--impressum) .nav__item--red:hover {
   -webkit-flex: 1;
   flex: 1;
 }
-
-article {
-  display: none;
-}
