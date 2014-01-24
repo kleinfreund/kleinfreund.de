@@ -3557,3 +3557,20 @@ html:not(.page--impressum) .nav__item--red:hover {
   color: #444444;
   font-weight: 300;
 }
+
+.page {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page-content {
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+article {
+  display: none;
+}
