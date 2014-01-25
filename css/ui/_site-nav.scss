@@ -4,22 +4,6 @@
     line-height: 1;
     border-bottom: 7px solid $dark-ui-color;
 
-    .page--home & {
-        border-color: $green-color;
-    }
-
-    .page--about & {
-        border-color: $blue-color;
-    }
-
-    .page--portfolio & {
-        border-color: $orange-color;
-    }
-
-    .page--impressum & {
-        border-color: $red-color;
-    }
-
     @include media-query(palm) {
         padding-right: 0;
         display: -webkit-flex;
@@ -44,11 +28,14 @@
         @include media-query(palm) {
             margin-left: 0;
             text-align: center;
+            display: block; /* fix/small fallback for flexbox? */
             -webkit-flex: 1;
                     flex: 1;
         }
     }
 }
+
+@include themify(site-nav, border-color);
 
     .nav__item--green {
         background-color: $green-color;

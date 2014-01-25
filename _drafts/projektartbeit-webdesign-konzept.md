@@ -1,10 +1,14 @@
 ---
 layout: post
-site-title: Und es beginnt ganz langsam
+site-title: "Projektarbeit Webdesign: Konzept"
 ---
 Diese Seite entstand im Rahmen des Abschlussprojekts im Fach Webdesign. Die Aufgabenstellung war genau die gleiche, die ich schon seit langem auf die lange Bank geschoben hatte. Eine eigene Website. Also los.
 
+Das sollte nun die Gelegenheit werden, mich intensiver mit Technologien zu beschäftigen, die in den letzten Jahr so aufgetaucht sind. Ich bin wahrscheinlich der allerletzte, der auf den [SASS](http://sass-lang.com)-Zug aufspringt. In Verbindung damit habe ich mir Harry Roberts' großartiges [inuitcss](http://inuitcss.com) angeschaut.
 
+Ich habe dann auch direkt angefangen. Nicht mit dem Konzept, mit Prototypen. Kurz danach habe ich mich entschlossen, meine Seite mit GitHub Pages zu hosten. Dann noch eine Domain registrieren und das Thema Hosting und Verfügbarkeit war geklärt. Cool.
+
+Kurz darauf habe ich dann noch alles auf Jekyll umgestellt. Das hat auch mehr oder weniger an einem Tag am Wochenende geklappt. So macht das alles schon recht viel Freude. Nicht mehr den einen Satz im Fußbereich in allen HTML-Seiten anpassen. Juhuu!
 
 ```
 .
@@ -40,5 +44,6 @@ Diese Seite entstand im Rahmen des Abschlussprojekts im Fach Webdesign. Die Aufg
 ├── 404.html
 ├── robots.txt
 ├── sitemap.xml
+├── feed.xml
 └── icon.png
 ```

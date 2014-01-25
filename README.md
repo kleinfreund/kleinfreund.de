@@ -4,24 +4,27 @@ This is the source code of my personal website. It's the final project for our w
 
 ## Tools
 
-- __[Sublime Text 2](http://www.sublimetext.com/)__ (coding)
-- __[Prepros](http://alphapixels.com/prepros/)__ (compile SCSS)
+- __[Sublime Text 2](http://www.sublimetext.com/)__ (coding, writing)
+- __[Prepros](http://alphapixels.com/prepros/)__ (compiling SASS, image optimization)
 - __[GitHub Pages](http://pages.github.com/)__ (hosting)
-- __[Jekyll](http://jekyllrb.com/)__ (generating the site)
+- __[Jekyll](http://jekyllrb.com/)__ (site generating)
 - __[inuitcss](http://inuitcss.com/)__ (CSS framework)
 - __Bridge/Photoshop__ (image processing)
 - __iTunes__ (music :)
 
 ## To do
 
-- progressive enhancement: is there use for `@support` ([caniuse](http://caniuse.com/css-featurequeries))? 
+- `gem install compass`
+
+- fix mobile navigation for non-flex browsers
 - blog: How the site was build
-- add feed.xml
 - meta: write documentation (concept etc)
 - test the site
 
 ## Done
 
+- add feed.xml
+- progressive enhancement: is there use for `@support` ([caniuse](http://caniuse.com/css-featurequeries))? 
 - Fix portfolio/blog posts still invoke `cursor: default;` on the nav-item
 - 404: add onion gif
 - Prepros: How to have config.rb + prepros.json

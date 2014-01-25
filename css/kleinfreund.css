@@ -3314,18 +3314,6 @@ pre code, pre kbd, pre samp {
   line-height: 1;
   border-bottom: 7px solid #323232;
 }
-.page--home .site-nav {
-  border-color: #5a9b00;
-}
-.page--about .site-nav {
-  border-color: #507bd3;
-}
-.page--portfolio .site-nav {
-  border-color: #eb9800;
-}
-.page--impressum .site-nav {
-  border-color: #db2427;
-}
 @media only screen and (max-width: 680px) {
   .site-nav {
     padding-right: 0;
@@ -3352,9 +3340,27 @@ pre code, pre kbd, pre samp {
   .site-nav > a {
     margin-left: 0;
     text-align: center;
+    display: block;
+    /* fix/small fallback for flexbox? */
     -webkit-flex: 1;
     flex: 1;
   }
+}
+
+.page--home .site-nav {
+  border-color: #5a9b00;
+}
+
+.page--about .site-nav {
+  border-color: #507bd3;
+}
+
+.page--portfolio .site-nav {
+  border-color: #eb9800;
+}
+
+.page--impressum .site-nav {
+  border-color: #db2427;
 }
 
 .nav__item--green {
@@ -3410,23 +3416,42 @@ html:not(.page--impressum) .nav__item--red:hover {
   color: white;
   background-color: #323232;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
-}
-.page--home .page-title {
-  background-color: #6fbf00;
-}
-.page--about .page-title {
-  background-color: #6d91da;
-}
-.page--portfolio .page-title {
-  background-color: #ffaa10;
-}
-.page--impressum .page-title {
-  background-color: #e04345;
+        /*.page--home & {
+            background-color: $green-color-light;
+        }
+
+        .page--about & {
+            background-color: $blue-color-light;
+        }
+
+        .page--portfolio & {
+            background-color: $orange-color-light;
+        }
+
+        .page--impressum & {
+            background-color: $red-color-light;
+        }*/
 }
 @media only screen and (min-width: 681px) {
   .page-title {
-    padding: 15px 120px;
+    padding: 15px 90px;
   }
+}
+
+.page--home .page-title {
+  background-color: #6fbf00;
+}
+
+.page--about .page-title {
+  background-color: #6d91da;
+}
+
+.page--portfolio .page-title {
+  background-color: #ffaa10;
+}
+
+.page--impressum .page-title {
+  background-color: #e04345;
 }
 
 .site-foot {
@@ -3446,6 +3471,22 @@ html:not(.page--impressum) .nav__item--red:hover {
 }
 .site-foot p:last-of-type {
   margin-bottom: 0;
+}
+
+/**
+ * sticky footer
+ */
+.page {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page-content {
+  -webkit-flex: 1;
+  flex: 1;
 }
 
 /**
@@ -3558,15 +3599,44 @@ html:not(.page--impressum) .nav__item--red:hover {
   font-weight: 300;
 }
 
-.page {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: column;
-  flex-direction: column;
-  min-height: 100vh;
+/*
+ * Applied dev-metal.com Google Chrome font rendering fix (Update, November 2013: Solution #1):
+ * http://www.dev-metal.com/fix-ugly-font-rendering-google-chrome/
+ */
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../fonts/ubuntu-light.eot");
+  src: url("../fonts/ubuntu-light.eot?#iefix") format("embedded-opentype"), url("../fonts/ubuntu-light.woff") format("woff"), url("../fonts/ubuntu-light.ttf") format("truetype"), url("../fonts/ubuntu-light.svg#ubuntulight") format("svg");
 }
-
-.page-content {
-  -webkit-flex: 1;
-  flex: 1;
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: 'Ubuntu';
+    src: url("../fonts/ubuntu-light.svg#ubuntulight") format("svg");
+  }
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../fonts/ubuntu-lightitalic.eot");
+  src: url("../fonts/ubuntu-lightitalic.eot?#iefix") format("embedded-opentype"), url("../fonts/ubuntu-lightitalic.woff") format("woff"), url("../fonts/ubuntu-lightitalic.ttf") format("truetype"), url("../fonts/ubuntu-lightitalic.svg#ubuntulight_italic") format("svg");
+  font-style: italic;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: 'Ubuntu';
+    src: url("../fonts/ubuntu-lightitalic.svg#ubuntulight_italic") format("svg");
+    font-style: italic;
+  }
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../fonts/ubuntu-medium.eot");
+  src: url("../fonts/ubuntu-medium.eot?#iefix") format("embedded-opentype"), url("../fonts/ubuntu-medium.woff") format("woff"), url("../fonts/ubuntu-medium.ttf") format("truetype"), url("../fonts/ubuntu-medium.svg#ubuntumedium") format("svg");
+  font-weight: 500;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: 'Ubuntu';
+    src: url("../fonts/ubuntu-medium.svg#ubuntumedium") format("svg");
+    font-weight: 500;
+  }
 }

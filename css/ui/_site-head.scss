@@ -10,7 +10,7 @@
         background-color: $dark-ui-color;
         text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 
-        .page--home & {
+        /*.page--home & {
             background-color: $green-color-light;
         }
 
@@ -24,9 +24,11 @@
 
         .page--impressum & {
             background-color: $red-color-light;
-        }
+        }*/
 
         @include media-query(lap-and-up) {
-            padding: $half-spacing-unit $base-spacing-unit * 4;
+            padding: $half-spacing-unit $base-spacing-unit * 3;
         }
     }
+
+    @include themify(page-title, background-color, true);
