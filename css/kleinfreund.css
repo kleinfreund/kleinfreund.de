@@ -863,6 +863,7 @@ table,
 fieldset, figure,
 pre,
 .form-fields > li,
+.vertical-rhythm,
 .media,
 .island,
 .islet {
@@ -875,6 +876,7 @@ blockquote, .islet p, .islet address, .islet
 table, .islet
 fieldset, .islet figure, .islet
 pre, .islet .form-fields > li, .islet
+.vertical-rhythm, .islet
 .media, .islet
 .island, .islet
 .islet {
@@ -2073,7 +2075,7 @@ label,
     width: 91.666%;
   }
 }
-@media only screen and (min-width: 681px) and (max-width: 1024px) {
+@media only screen and (min-width: 681px) and (max-width: 1023px) {
   /**
   * Whole
   */
@@ -2321,7 +2323,7 @@ label,
     width: 91.666%;
   }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
   /**
   * Whole
   */
@@ -2445,7 +2447,7 @@ label,
     width: 91.666%;
   }
 }
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1024px) {
   /**
   * Whole
   */
@@ -2935,7 +2937,7 @@ label,
     width: 1px !important;
   }
 }
-@media only screen and (min-width: 681px) and (max-width: 1024px) {
+@media only screen and (min-width: 681px) and (max-width: 1023px) {
   .accessibility--lap,
   .visuallyhidden--lap {
     border: 0 !important;
@@ -2961,7 +2963,7 @@ label,
     width: 1px !important;
   }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
   .accessibility--portable,
   .visuallyhidden--portable {
     border: 0 !important;
@@ -2974,7 +2976,7 @@ label,
     width: 1px !important;
   }
 }
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1024px) {
   .accessibility--desk,
   .visuallyhidden--desk {
     border: 0 !important;
@@ -3015,6 +3017,36 @@ label,
   .wrapper {
     padding-right: 30px;
     padding-left: 30px;
+  }
+}
+
+.vertical-gap-top,
+.page-content {
+  margin-top: 60px;
+  margin-top: 3rem;
+}
+@media only screen and (min-width: 681px) {
+  .vertical-gap-top,
+  .page-content {
+    margin-top: 120px;
+    margin-top: 6rem;
+  }
+}
+
+.vertical-gap-bottom,
+.page-content,
+.entry,
+.post-list {
+  margin-bottom: 60px;
+  margin-bottom: 3rem;
+}
+@media only screen and (min-width: 681px) {
+  .vertical-gap-bottom,
+  .page-content,
+  .entry,
+  .post-list {
+    margin-bottom: 120px;
+    margin-bottom: 6rem;
   }
 }
 
@@ -3126,37 +3158,8 @@ pre code, pre kbd, pre samp {
 /**
  * page-content
  */
-.page-content {
-  margin-top: 60px;
-  margin-top: 3rem;
-  margin-bottom: 60px;
-  margin-bottom: 3rem;
-}
-@media only screen and (min-width: 681px) {
-  .page-content {
-    margin-top: 120px;
-    margin-top: 6rem;
-  }
-}
-@media only screen and (min-width: 681px) {
-  .page-content {
-    margin-bottom: 120px;
-    margin-bottom: 6rem;
-  }
-}
 .page-content a:hover {
   border-bottom: 0.125em solid;
-}
-
-.entry {
-  margin-bottom: 60px;
-  margin-bottom: 3rem;
-}
-@media only screen and (min-width: 681px) {
-  .entry {
-    margin-bottom: 120px;
-    margin-bottom: 6rem;
-  }
 }
 
 .entry__meta {
@@ -3190,16 +3193,6 @@ h1, .page--impressum h2, .page--impressum h3, .page--impressum h4, .page--impres
   display: inline-block;
 }
 
-.post-list {
-  margin-bottom: 60px;
-  margin-bottom: 3rem;
-}
-@media only screen and (min-width: 681px) {
-  .post-list {
-    margin-bottom: 120px;
-    margin-bottom: 6rem;
-  }
-}
 .post-list,
 .post-list > li {
   border: 0;
@@ -3285,7 +3278,7 @@ h1, .page--impressum h2, .page--impressum h3, .page--impressum h4, .page--impres
 .site-nav > a:first-child {
   margin-left: 0;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
   .site-nav > a {
     padding: 15px;
   }

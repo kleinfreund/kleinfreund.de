@@ -61,7 +61,6 @@ $use-greybox:       false;
 $base-font-size:    20px;
 $base-line-height:  30px;
 $base-font-family:  Ubuntu;
-$responsive:        true;
 $base-ui-color:     #444;
 
 $use-grids:         true;
@@ -97,4 +96,3 @@ $impressum-color:       #db2427;
 $impressum-color-light: lighten($impressum-color, 7%);
 
 $lap-start:             681px;
-$desk-start:            1025px;

@@ -9,9 +9,7 @@ permalink: /portfolio/
 
 So nannten sie unsere Ausbildung und schufen sie im letzten Jahr dann ab. Sinn hatte das keinen gemacht. Es ging wohl um's Geld. Wir sind der letzte GTA-Jahrgang. Eine Träne im Knopfloch.
 
-## Arbeiten
-
-Hier habe ich ein paar Arbeiten aus dieser Zeit zusammengestellt. Mehr ein Sammelsorium als ernstzunehmendes Portfolio. Die Arbeiten stammen hauptsächlich aus den Fächern Typografie, Fotografie und Webdesign, in dessen Rahmen auch diese Website als Abschlussprojekt enstand.
+Hier sind hauptsächlich Arbeiten aus den Fächern Typografie, Fotografie und Webdesign zu finden.
 
 <div class=grid>
     <div class="grid__item one-half palm-one-whole">

@@ -12,6 +12,29 @@
     }
 }
 
+.vertical-rhythm,
 %vertical-rhythm {
     @extend %sass-margin-bottom;
+}
+
+.vertical-gap-top,
+%vertical-gap-top {
+    margin-top: $base-spacing-unit * 2;
+    margin-top: 3rem;
+
+    @include media-query(lap-and-up) {
+        margin-top: $base-spacing-unit * 4;
+        margin-top: 6rem;
+    }
+}
+
+.vertical-gap-bottom,
+%vertical-gap-bottom {
+    margin-bottom: $base-spacing-unit * 2;
+    margin-bottom: 3rem;
+
+    @include media-query(lap-and-up) {
+        margin-bottom: $base-spacing-unit * 4;
+        margin-bottom: 6rem;
+    }
 }

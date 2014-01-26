@@ -20,8 +20,8 @@
  * page-content
  */
 .page-content {
-    @include vertical-gap(top);
-    @include vertical-gap(bottom);
+    @extend %vertical-gap-top;
+    @extend %vertical-gap-bottom;
 
     a:hover {
         border-bottom: 0.125em solid;
@@ -29,7 +29,7 @@
 }
 
 .entry {
-    @include vertical-gap(bottom);
+    @extend %vertical-gap-bottom;
 }
 
     .entry__meta {

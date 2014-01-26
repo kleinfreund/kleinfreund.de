@@ -1,24 +1,3 @@
-@mixin vertical-gap($direction: bottom) {
-    @if($direction == bottom) {
-        margin-bottom: $base-spacing-unit * 2;
-        margin-bottom: 3rem;
-
-        @include media-query(lap-and-up) {
-            margin-bottom: $base-spacing-unit * 4;
-            margin-bottom: 6rem;
-        }
-    }
-    @if($direction == top) {
-        margin-top: $base-spacing-unit * 2;
-        margin-top: 3rem;
-
-        @include media-query(lap-and-up) {
-            margin-top: $base-spacing-unit * 4;
-            margin-top: 6rem;
-        }
-    }
-}
-
 @mixin themify($element, $property, $light-colors: false) {
     $pages: null;
     @if $light-colors == true {
