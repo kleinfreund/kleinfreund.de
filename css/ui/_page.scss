@@ -1,9 +1,6 @@
 /**
  * sticky footer
  */
-
-
-
 .page {
     display: -webkit-flex;
     display:         flex;
@@ -29,25 +26,6 @@
     a:hover {
         border-bottom: 0.125em solid;
     }
-
-    a,
-    h1, h2, h3, h4, h5, h6 {
-        .page--home & {
-            color: $green-color;
-        }
-
-        .page--about & {
-            color: $blue-color;
-        }
-
-        .page--portfolio & {
-            color: $orange-color;
-        }
-
-        .page--impressum & {
-            color: $red-color;
-        }
-    }
 }
 
 .entry {
@@ -56,4 +34,23 @@
 
     .entry__meta {
         color: $light-ui-color;
+    }
+
+    a,
+    h1, h2, h3, h4, h5, h6 {
+        .page--blog & {
+            color: $blog-color;
+        }
+
+        .page--profil & {
+            color: $profil-color;
+        }
+
+        .page--portfolio & {
+            color: $portfolio-color;
+        }
+
+        .page--impressum & {
+            color: $impressum-color;
+        }
     }

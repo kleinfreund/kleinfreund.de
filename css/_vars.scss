@@ -62,11 +62,9 @@ $base-font-size:    20px;
 $base-line-height:  30px;
 $base-font-family:  Ubuntu;
 $responsive:        true;
-$base-ui-color:     #444444;
+$base-ui-color:     #444;
 
 $use-grids:         true;
-$use-nav:           true;
-$use-pagination:    true;
 $use-block-list:    true;
 
 
@@ -79,24 +77,24 @@ $use-block-list:    true;
 /**
  * Place any of your own variables that sit on top of inuit.css here.
  */
-$background-color:   #efefef; /* dedede */
-$foreground-color:   #444444;
-$white-color:        #ffffff;
+$background-color:      #efefef;
+$foreground-color:      #444;
+$white-color:           #fff;
 
-$light-ui-color:     #aaaaaa;
-$dark-ui-color:      darken($base-ui-color, 7%);
+$light-ui-color:        #aaa;
+$dark-ui-color:         darken($base-ui-color, 7%);
 
-$green-color:        #5a9b00;
-$green-color-light:  lighten($green-color, 7%);
+$blog-color:            #5a9b00;
+$blog-color-light:      lighten($blog-color, 7%);
 
-$blue-color:         #507bd3;
-$blue-color-light:   lighten($blue-color, 7%);
+$profil-color:          #507bd3;
+$profil-color-light:    lighten($profil-color, 7%);
 
-$orange-color:       #eb9800;
-$orange-color-light: lighten($orange-color, 7%);
+$portfolio-color:       #eb9800;
+$portfolio-color-light: lighten($portfolio-color, 7%);
 
-$red-color:          #db2427;
-$red-color-light:    lighten($red-color, 7%);
+$impressum-color:       #db2427;
+$impressum-color-light: lighten($impressum-color, 7%);
 
-$lap-start:          681px;
-$desk-start:         1025px;
+$lap-start:             681px;
+$desk-start:            1025px;

@@ -2,7 +2,7 @@
 layout: default
 site-title: kleinfreund.de
 page-title: Freundliche Artikel
-page-class: page--home
+page-class: page--blog
 ---
 <ul class=post-list>
     {% for post in paginator.posts %}
@@ -17,6 +17,7 @@ page-class: page--home
 </ul>
 
 {% if paginator.total_pages > 1 %}
+{% endif %}
 <ol class="nav pagination">
     <li class=pagination__prev>
         {% if paginator.previous_page %}
@@ -37,4 +38,3 @@ page-class: page--home
         {% endif %}
     </li>
 </ol>
-{% endif %}

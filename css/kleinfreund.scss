@@ -26,15 +26,17 @@
  */
 //@import "ui/example";
 @import
+        "ui/mixins",
         "ui/misc",
         "ui/typography",
+        "ui/page",
+        "ui/pagination",
+        "ui/posts",
+        "ui/grids",
         "ui/site-logo",
         "ui/site-nav",
         "ui/site-head",
-        "ui/site-foot",
-        "ui/page",
-        "ui/posts",
-        "ui/grids",
+        "ui/site-foot"/*,
 
-        "ui/ubuntu"
+        "ui/ubuntu"*/
 ;

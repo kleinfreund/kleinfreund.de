@@ -35,52 +35,43 @@
     }
 }
 
-@include themify(site-nav, border-color);
+@include themify(".site-nav", border-color);
 
-    .nav__item--green {
-        background-color: $green-color;
+    .nav__item--blog {
+        background-color: $blog-color;
 
-        .page--home:not(.page--post) & {
-            cursor: default;
-        }
-
-        html:not(.page--home) &:hover {
-            background-color: $green-color-light;
+        .page:not(.page--blog) &:hover {
+            background-color: $blog-color-light;
         }
     }
 
-    .nav__item--orange {
-        background-color: $orange-color;
+    .nav__item--portfolio {
+        background-color: $portfolio-color;
 
-        .page--portfolio:not(.page--post) & {
-            cursor: default;
-        }
-
-        html:not(.page--portfolio) &:hover {
-            background-color: $orange-color-light;
+        .page:not(.page--portfolio) &:hover {
+            background-color: $portfolio-color-light;
         }
     }
 
-    .nav__item--blue {
-        background-color: $blue-color;
+    .nav__item--profil {
+        background-color: $profil-color;
 
-        .page--about & {
-            cursor: default;
-        }
-
-        html:not(.page--about) &:hover {
-            background-color: $blue-color-light;
+        .page:not(.page--profil) &:hover {
+            background-color: $profil-color-light;
         }
     }
 
-    .nav__item--red {
-        background-color: $red-color;
+    .nav__item--impressum {
+        background-color: $impressum-color;
 
-        .page--impressum & {
-            cursor: default;
+        .page:not(.page--impressum) &:hover {
+            background-color: $impressum-color-light;
         }
+    }
 
-        html:not(.page--impressum) &:hover {
-            background-color: $red-color-light;
-        }
+    .page--blog      .nav__item--blog,
+    .page--portfolio .nav__item--portfolio,
+    .page--profil    .nav__item--profil,
+    .page--impressum .nav__item--impressum {
+        cursor: default;
     }

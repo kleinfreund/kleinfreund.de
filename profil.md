@@ -2,7 +2,7 @@
 layout: default
 site-title: Profil
 page-title: Etwas Pers&ouml;nlichkeit
-page-class: page--about
+page-class: page--profil
 permalink: /profil/
 ---
 ## Hey, ich bin Philipp.

@@ -2,10 +2,6 @@
     display: inline-block;
     padding: $half-spacing-unit;
 
-    .page--home:not(.page--post) & {
-        cursor: default;
-    }
-
     @include media-query(lap-and-up) {
         padding: $half-spacing-unit $base-spacing-unit * 2;
     }
@@ -15,6 +11,5 @@
         height: 64px;
         background-image: url(/img/kleinfreund.png); /* Fallback for <IE9 */ 
         background-image: url(/img/kleinfreund.svg), none; /* Using multiple backgrounds to make <IE9 ignore this declaration */
-        /*@include vendor(background-size, 256px 64px);*/
     }
 }
