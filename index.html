@@ -17,7 +17,6 @@ page-class: page--blog
 </ul>
 
 {% if paginator.total_pages > 1 %}
-{% endif %}
 <ol class="nav pagination">
     <li class=pagination__prev>
         {% if paginator.previous_page %}
@@ -38,3 +37,4 @@ page-class: page--blog
         {% endif %}
     </li>
 </ol>
+{% endif %}
