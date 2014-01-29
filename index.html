@@ -4,34 +4,36 @@ site-title: kleinfreund.de
 page-title: Freundliche Artikel
 page-class: page--blog
 ---
-<ul class=post-list>
+<ul class="post-list wrapper">
     {% for post in paginator.posts %}
     <li>
-        <a href="{{ post.url }}" class=post-list__link>
-            <span class=post-list__time>{{ post.date | date: "%-d. %B %Y" | replace:"January","Januar" | replace:"February","Februar" | replace:"March","März" | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"December","Dezember" }}</span>
-            <h2 class=post-list__title>{{ post.site-title }}</h2>
-        </a>
-        {{ post.excerpt }}
+        <article class="post">
+            <a href="{{ post.url }}" class="post-list__link">
+                <time datetime="{{ post.date | date: "%Y-%m-%d" }}" class="post-list__time">{{ post.date | date: "%-d. %B %Y" | replace:"January","Januar" | replace:"February","Februar" | replace:"March","März" | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"December","Dezember" }}</time>
+                <h2 class="post-list__title">{{ post.site-title }}</h2>
+            </a>
+            {{ post.excerpt }}
+        </article>
     </li>
     {% endfor %}
 </ul>
 
 {% if paginator.total_pages > 1 %}
-<ol class="nav pagination">
-    <li class=pagination__prev>
+<ol class="nav pagination wrapper">
+    <li class="pagination__prev">
         {% if paginator.previous_page %}
         {% if paginator.previous_page == 1 %}
-            <a href="/" rel=prev>Neuere</a>
+            <a href="/" rel="prev">Neuere</a>
         {% else %}
-            <a href="/page{{paginator.previous_page}}" rel=prev>Neuere</a>
+            <a href="/page{{paginator.previous_page}}" rel="prev">Neuere</a>
         {% endif %}
         {% else %}
             Neuere
         {% endif %}
     </li><!--
- --><li class=pagination__next>
+ --><li class="pagination__next">
         {% if paginator.next_page %}
-            <a href="/page{{paginator.next_page}}" rel=next>Ältere</a>
+            <a href="/page{{paginator.next_page}}" rel="next">Ältere</a>
         {% else %}
             Ältere
         {% endif %}

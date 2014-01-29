@@ -2,8 +2,8 @@
 layout: default
 page-class: page--post page--blog
 ---
-<article class=entry>
-    <span class=entry__meta>{{ page.date | date: "%-d. %B %Y" | replace:"January","Januar" | replace:"February","Februar" | replace:"March","März" | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"December","Dezember" }}</span>
+<article class="post">
+    <span class="entry__meta">{{ page.date | date: "%-d. %B %Y" | replace:"January","Januar" | replace:"February","Februar" | replace:"March","März" | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"December","Dezember" }}</span>
     <h1>{{ page.site-title }}</h1>
 
     {{ content }}

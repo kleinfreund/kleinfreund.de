@@ -839,7 +839,7 @@ textarea:focus {
  * Extend the clearfix class with Sass to avoid the `.cf` class appearing over
  * and over in your markup.
  */
-.cf:after {
+.cf:after, .nav:after {
   content: "";
   display: table;
   clear: both;
@@ -1758,6 +1758,184 @@ label,
   width: 100%;
   padding-left: 30px;
   vertical-align: top;
+}
+
+/*------------------------------------*\
+    $NAV
+\*------------------------------------*/
+/**
+ * Nav abstraction as per: csswizardry.com/2011/09/the-nav-abstraction
+ * When used on an `ol` or `ul`, this class throws the list into horizontal mode
+ * e.g.:
+ *
+   <ul class=nav>
+       <li><a href=#>Home</a></li>
+       <li><a href=#>About</a></li>
+       <li><a href=#>Portfolio</a></li>
+       <li><a href=#>Contact</a></li>
+   </ul>
+ *
+ * Demo: jsfiddle.net/inuitcss/Vnph4
+ *
+ */
+.nav {
+  list-style: none;
+  margin-left: 0;
+}
+.nav > li,
+.nav > li > a {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+
+/**
+ * `.nav--stacked` extends `.nav` and throws the list into vertical mode, e.g.:
+ *
+   <ul class="nav  nav--stacked">
+       <li><a href=#>Home</a></li>
+       <li><a href=#>About</a></li>
+       <li><a href=#>Portfolio</a></li>
+       <li><a href=#>Contact</a></li>
+   </ul>
+ *
+ */
+.nav--stacked > li {
+  display: list-item;
+}
+.nav--stacked > li > a {
+  display: block;
+}
+
+/**
+ * `.nav--banner` extends `.nav` and centres the list, e.g.:
+ *
+   <ul class="nav  nav--banner">
+       <li><a href=#>Home</a></li>
+       <li><a href=#>About</a></li>
+       <li><a href=#>Portfolio</a></li>
+       <li><a href=#>Contact</a></li>
+   </ul>
+ *
+ */
+.nav--banner {
+  text-align: center;
+}
+
+/**
+ * Give nav links a big, blocky hit area. Extends `.nav`, e.g.:
+ *
+   <ul class="nav  nav--block">
+       <li><a href=#>Home</a></li>
+       <li><a href=#>About</a></li>
+       <li><a href=#>Portfolio</a></li>
+       <li><a href=#>Contact</a></li>
+   </ul>
+ *
+ */
+.nav--block {
+  line-height: 1;
+  /**
+   * Remove whitespace caused by `inline-block`.
+   */
+  letter-spacing: -0.31em;
+  word-spacing: -0.43em;
+  white-space: nowrap;
+}
+.nav--block > li {
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+.nav--block > li > a {
+  padding: 15px;
+}
+
+/**
+ * Force a nav to occupy 100% of the available width of its parent. Extends
+ * `.nav`, e.g.:
+ *
+   <ul class="nav  nav--fit">
+       <li><a href=#>Home</a></li>
+       <li><a href=#>About</a></li>
+       <li><a href=#>Portfolio</a></li>
+       <li><a href=#>Contact</a></li>
+   </ul>
+ *
+ * Thanks to @pimpl for this idea!
+ */
+.nav--fit {
+  display: table;
+  width: 100%;
+}
+.nav--fit > li {
+  display: table-cell;
+}
+.nav--fit > li > a {
+  display: block;
+}
+
+/**
+ * Make a list of keywords. Extends `.nav`, e.g.:
+ *
+   `<ul class="nav  nav--keywords>`
+ *
+ */
+.nav--keywords > li:after {
+  content: "\002C" "\00A0";
+}
+.nav--keywords > li:last-child:after {
+  display: none;
+}
+
+/*------------------------------------*\
+    $PAGINATION
+\*------------------------------------*/
+/**
+ * Basic pagination object, extends `.nav`.
+ * Requires some funky commenting to collapse any white-space caused by the
+ * `display:inline-block;` rules.
+ *
+   <ol class="nav  pagination">
+       <li class=pagination__first>First</li>
+       <li class=pagination__prev>Previous</li>
+       <li><a href=/page/1>1</a></li>
+       <li><a href=/page/2>2</a></li>
+       <li class=current><a href=/page/3>3</a></li>
+       <li><a href=/page/4>4</a></li>
+       <li><a href=/page/5>5</a></li>
+       <li class=pagination__next><a href=/page/next>Next</a></li>
+       <li class=pagination__last><a href=/page/last>Last</a></li>
+   </ol>
+ *
+ * Demo: jsfiddle.net/inuitcss/9Y6PU
+ *
+ */
+.pagination {
+  text-align: center;
+  /**
+   * Remove whitespace caused by `inline-block`.
+   */
+  letter-spacing: -0.31em;
+  word-spacing: -0.43em;
+}
+
+.pagination > li {
+  padding: 15px;
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+
+.pagination > li > a {
+  padding: 15px;
+  margin: -15px;
+}
+
+.pagination__first a:before {
+  content: "\00AB" "\00A0";
+}
+
+.pagination__last a:after {
+  content: "\00A0" "\00BB";
 }
 
 /*------------------------------------*\
@@ -3020,14 +3198,12 @@ label,
   }
 }
 
-.vertical-gap-top,
-.page-content {
+.vertical-gap-top {
   margin-top: 60px;
   margin-top: 3rem;
 }
 @media only screen and (min-width: 681px) {
-  .vertical-gap-top,
-  .page-content {
+  .vertical-gap-top {
     margin-top: 120px;
     margin-top: 6rem;
   }
@@ -3035,16 +3211,20 @@ label,
 
 .vertical-gap-bottom,
 .page-content,
-.entry,
-.post-list {
+.page-content .page-title,
+.post,
+.post-list,
+.page--post .site-head {
   margin-bottom: 60px;
   margin-bottom: 3rem;
 }
 @media only screen and (min-width: 681px) {
   .vertical-gap-bottom,
   .page-content,
-  .entry,
-  .post-list {
+  .page-content .page-title,
+  .post,
+  .post-list,
+  .page--post .site-head {
     margin-bottom: 120px;
     margin-bottom: 6rem;
   }
@@ -3161,8 +3341,22 @@ pre code, pre kbd, pre samp {
 .page-content a:hover {
   border-bottom: 0.125em solid;
 }
+.page-content .page-title {
+  padding: 15px;
+  font-size: 30px;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: white;
+  background-color: #323232;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+@media only screen and (min-width: 681px) {
+  .page-content .page-title {
+    padding: 15px 90px;
+  }
+}
 
-.entry__meta {
+.post__meta {
   color: #aaaaaa;
 }
 
@@ -3181,16 +3375,6 @@ h1, .page--portfolio h2, .page--portfolio h3, .page--portfolio h4, .page--portfo
 .page--impressum a, .page--impressum
 h1, .page--impressum h2, .page--impressum h3, .page--impressum h4, .page--impressum h5, .page--impressum h6 {
   color: #db2427;
-}
-
-.pagination {
-  margin-left: 0;
-  list-style: none;
-  text-align: center;
-}
-.pagination > li {
-  padding: 15px;
-  display: inline-block;
 }
 
 .post-list,
@@ -3256,10 +3440,10 @@ h1, .page--impressum h2, .page--impressum h3, .page--impressum h4, .page--impres
 }
 
 .site-nav {
+  margin-bottom: 0;
   padding-right: 90px;
-  text-align: right;
-  line-height: 1;
   border-bottom: 7px solid #323232;
+  text-align: right;
 }
 @media only screen and (max-width: 680px) {
   .site-nav {
@@ -3268,29 +3452,25 @@ h1, .page--impressum h2, .page--impressum h3, .page--impressum h4, .page--impres
     display: flex;
   }
 }
-.site-nav > a {
-  display: inline-block;
+.site-nav > li {
   margin-left: 15px;
+}
+@media only screen and (max-width: 680px) {
+  .site-nav > li {
+    margin-left: 0;
+    text-align: center;
+    -webkit-flex: 1;
+    flex: 1;
+  }
+}
+.site-nav > li > a {
   padding: 15px 30px;
   color: white;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 }
-.site-nav > a:first-child {
-  margin-left: 0;
-}
-@media only screen and (max-width: 1023px) {
-  .site-nav > a {
-    padding: 15px;
-  }
-}
 @media only screen and (max-width: 680px) {
-  .site-nav > a {
-    margin-left: 0;
-    text-align: center;
+  .site-nav > li > a {
     display: block;
-    /* fix/small fallback for flexbox? */
-    -webkit-flex: 1;
-    flex: 1;
   }
 }
 
@@ -3347,21 +3527,6 @@ h1, .page--impressum h2, .page--impressum h3, .page--impressum h4, .page--impres
 
 .site-head {
   background-color: #444444;
-}
-.site-head .page-title {
-  margin-bottom: 0;
-  padding: 15px;
-  font-size: 30px;
-  font-size: 1.5rem;
-  line-height: 1;
-  color: white;
-  background-color: #323232;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
-}
-@media only screen and (min-width: 681px) {
-  .site-head .page-title {
-    padding: 15px 90px;
-  }
 }
 
 .page--blog .page-title {

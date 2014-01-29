@@ -1,8 +1,8 @@
 .site-nav {
+    margin-bottom: 0;
     padding-right: $base-spacing-unit * 3;
-    text-align: right;
-    line-height: 1;
     border-bottom: 7px solid $dark-ui-color;
+    text-align: right;
 
     @include media-query(palm) {
         padding-right: 0;
@@ -10,27 +10,24 @@
         display:         flex;
     }
 
-    > a {
-        display: inline-block;
+    > li {
         margin-left: $half-spacing-unit;
-        padding: $half-spacing-unit $base-spacing-unit;
-        color: $white-color;
-        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
-
-        &:first-child {
-            margin-left: 0;
-        }
-
-        @include media-query(portable) {
-            padding: $half-spacing-unit;
-        }
 
         @include media-query(palm) {
             margin-left: 0;
             text-align: center;
-            display: block; /* fix/small fallback for flexbox? */
             -webkit-flex: 1;
                     flex: 1;
+        }
+
+        > a {
+            padding: $half-spacing-unit $base-spacing-unit;
+            color: $white-color;
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+
+            @include media-query(palm) {
+                display: block;
+            }
         }
     }
 }

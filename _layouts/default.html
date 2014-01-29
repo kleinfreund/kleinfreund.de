@@ -30,27 +30,37 @@
     <![endif]-->
 </head>
 <body>
-    <header class=site-head role=banner>
-        <a href="/" class=site-logo>
+    <header class="site-head" role="banner">
+        <a href="/" class="site-logo">
             <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="kleinfreund">
         </a>
 
-        <nav class=site-nav role=navigation>
-            <a href="/" class=nav__item--blog rel=home>Blog</a><!--
-         --><a href="/portfolio" class=nav__item--portfolio>Portfolio</a><!--
-         --><a href="/profil" class=nav__item--profil>Profil</a><!--
-         --><a href="/impressum" class=nav__item--impressum>Impressum</a>
-        </nav>
-        {% if page.page-title %}
-        <h1 class=page-title>{{ page.page-title }}</h1>
-        {% endif %}
+        <ul class="site-nav nav nav--block" role="navigation">
+            <li>
+                <a href="/" class="nav__item--blog" rel="home">Blog</a>
+            </li><!--
+         --><li>
+                <a href="/portfolio/" class="nav__item--portfolio">Portfolio</a>
+            </li><!--
+         --><li>
+                <a href="/profil/" class="nav__item--profil">Profil</a>
+            </li><!--
+         --><li>
+                <a href="/impressum/" class="nav__item--impressum">Impressum</a>
+            </li>
+        </ul>
     </header>
 
-    <main class="page-content wrapper" role=main>
-        {{ content }}
+    <main class="page-content" role="main">
+        {% if page.page-title %}
+        <h1 class="page-title">{{ page.page-title }}</h1>
+        {% endif %}
+        <div class="wrapper">
+            {{ content }}
+        </div>
     </main>
 
-    <footer class=site-foot role=contentinfo>
+    <footer class="site-foot" role="contentinfo">
         <p>Eine Seite von <a href="http://twitter.com/kleinfreund">Philipp Rudloff</a>. Gehostet auf <a href="http://github.com/kleinfreund/kleinfreund.github.io">GitHub</a>. Erstellt mit <a href="http://jekyllrb.com">Jekyll</a> und <a href="http://inuitcss.com">inuitcss</a>.</p>
     </footer>
 </body>

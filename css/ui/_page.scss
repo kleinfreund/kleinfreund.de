@@ -20,19 +20,31 @@
  * page-content
  */
 .page-content {
-    @extend %vertical-gap-top;
     @extend %vertical-gap-bottom;
 
     a:hover {
         border-bottom: 0.125em solid;
     }
+
+    .page-title {
+        @extend %vertical-gap-bottom;
+        padding: $half-spacing-unit;
+        @include font-size(30px);
+        color: $white-color;
+        background-color: $dark-ui-color;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+
+        @include media-query(lap-and-up) {
+            padding: $half-spacing-unit $base-spacing-unit * 3;
+        }
+    }
 }
 
-.entry {
+.post {
     @extend %vertical-gap-bottom;
 }
 
-    .entry__meta {
+    .post__meta {
         color: $light-ui-color;
     }
 
