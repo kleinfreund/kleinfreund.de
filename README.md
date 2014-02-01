@@ -14,6 +14,7 @@ This is the source code of my personal website. It's the final project for our w
 
 ## To do
 
+- sticky footer still doesn't work
 - portfolio: rework cards
 - blog: How the site was build
 - meta: write documentation (concept etc)

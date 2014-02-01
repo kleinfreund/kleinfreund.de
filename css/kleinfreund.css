@@ -3218,6 +3218,19 @@ label,
   }
 }
 
+body {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  -webkit-flex: 1;
+  flex: 1;
+}
+
 html {
   font-family: Ubuntu, sans-serif;
   font-weight: 300;
@@ -3341,25 +3354,6 @@ pre code, pre kbd, pre samp {
   background-color: #e04345;
 }
 
-/**
- * sticky footer
- */
-.page {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: column;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.page-content {
-  -webkit-flex: 1;
-  flex: 1;
-}
-
-/**
- * page-content
- */
 .page-content a:hover {
   border-bottom: 0.125em solid;
 }
