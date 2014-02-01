@@ -34,7 +34,7 @@
 
 @include themify(".site-nav", border-color);
 
-    .nav__item--blog {
+    .site-nav__item--blog {
         background-color: $blog-color;
 
         .page:not(.page--blog) &:hover {
@@ -42,7 +42,7 @@
         }
     }
 
-    .nav__item--portfolio {
+    .site-nav__item--portfolio {
         background-color: $portfolio-color;
 
         .page:not(.page--portfolio) &:hover {
@@ -50,7 +50,7 @@
         }
     }
 
-    .nav__item--profil {
+    .site-nav__item--profil {
         background-color: $profil-color;
 
         .page:not(.page--profil) &:hover {
@@ -58,7 +58,7 @@
         }
     }
 
-    .nav__item--impressum {
+    .site-nav__item--impressum {
         background-color: $impressum-color;
 
         .page:not(.page--impressum) &:hover {
@@ -66,9 +66,13 @@
         }
     }
 
-    .page--blog      .nav__item--blog,
-    .page--portfolio .nav__item--portfolio,
-    .page--profil    .nav__item--profil,
-    .page--impressum .nav__item--impressum {
+    .page--404 .site-nav__item {
+        background-color: $dark-ui-color;
+    }
+
+    .page--blog      .site-nav__item--blog,
+    .page--portfolio .site-nav__item--portfolio,
+    .page--profil    .site-nav__item--profil,
+    .page--impressum .site-nav__item--impressum {
         cursor: default;
     }

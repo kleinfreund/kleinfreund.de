@@ -12,12 +12,10 @@
     }
 }
 
-.vertical-rhythm,
 %vertical-rhythm {
     @extend %sass-margin-bottom;
 }
 
-.vertical-gap-top,
 %vertical-gap-top {
     margin-top: $base-spacing-unit * 2;
     margin-top: 3rem;
@@ -28,7 +26,6 @@
     }
 }
 
-.vertical-gap-bottom,
 %vertical-gap-bottom {
     margin-bottom: $base-spacing-unit * 2;
     margin-bottom: 3rem;

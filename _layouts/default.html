@@ -38,26 +38,28 @@
         <nav role="navigation">
             <ul class="site-nav nav nav--block">
                 <li>
-                    <a href="/" class="nav__item--blog" rel="home">Blog</a>
+                    <a href="/" class="site-nav__item site-nav__item--blog" rel="home">Blog</a>
                 </li><!--
              --><li>
-                    <a href="/portfolio/" class="nav__item--portfolio">Portfolio</a>
+                    <a href="/portfolio/" class="site-nav__item site-nav__item--portfolio">Portfolio</a>
                 </li><!--
              --><li>
-                    <a href="/profil/" class="nav__item--profil">Profil</a>
+                    <a href="/profil/" class="site-nav__item site-nav__item--profil">Profil</a>
                 </li><!--
              --><li>
-                    <a href="/impressum/" class="nav__item--impressum">Impressum</a>
+                    <a href="/impressum/" class="site-nav__item site-nav__item--impressum">Impressum</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <main class="page-content" role="main">
+    <main role="main">
         {% if page.page-title %}
-        <h1 class="page-title">{{ page.page-title }}</h1>
+        <div class="page-head">
+            <h1 class="page-title">{{ page.page-title }}</h1>
+        </div>
         {% endif %}
-        <div class="wrapper">
+        <div class="page-content wrapper">
             {{ content }}
         </div>
     </main>

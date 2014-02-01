@@ -2,7 +2,7 @@
 layout: post
 site-title: Webdesign Projektarbeit GTA12M
 ---
-__Konzeption, Layout und Umsetzung einer eigenen Website__
+Konzeption, Layout und Umsetzung einer eigenen Website
 
 ## Einleitung
 

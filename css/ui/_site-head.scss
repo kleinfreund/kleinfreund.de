@@ -1,9 +1,3 @@
 .site-head {
     background-color: $base-ui-color;
-
-    .page--post & {
-        @extend %vertical-gap-bottom;
-    }
 }
-
-    @include themify(".page-title", background-color, true);

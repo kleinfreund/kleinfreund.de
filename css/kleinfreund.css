@@ -863,7 +863,6 @@ table,
 fieldset, figure,
 pre,
 .form-fields > li,
-.vertical-rhythm,
 .media,
 .island,
 .islet {
@@ -876,7 +875,6 @@ blockquote, .islet p, .islet address, .islet
 table, .islet
 fieldset, .islet figure, .islet
 pre, .islet .form-fields > li, .islet
-.vertical-rhythm, .islet
 .media, .islet
 .island, .islet
 .islet {
@@ -3198,33 +3196,23 @@ label,
   }
 }
 
-.vertical-gap-top {
+.page-content {
   margin-top: 60px;
   margin-top: 3rem;
 }
 @media only screen and (min-width: 681px) {
-  .vertical-gap-top {
+  .page-content {
     margin-top: 120px;
     margin-top: 6rem;
   }
 }
 
-.vertical-gap-bottom,
-.page-content,
-.page-content .page-title,
-.post,
-.post-list,
-.page--post .site-head {
+.page-content, .post, .post-list {
   margin-bottom: 60px;
   margin-bottom: 3rem;
 }
 @media only screen and (min-width: 681px) {
-  .vertical-gap-bottom,
-  .page-content,
-  .page-content .page-title,
-  .post,
-  .post-list,
-  .page--post .site-head {
+  .page-content, .post, .post-list {
     margin-bottom: 120px;
     margin-bottom: 6rem;
   }
@@ -3319,6 +3307,40 @@ pre code, pre kbd, pre samp {
   color: white;
 }
 
+.page-head {
+  padding-left: 15px;
+  background-color: #323232;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+@media only screen and (min-width: 681px) {
+  .page-head {
+    padding-left: 90px;
+  }
+}
+.page-head .page-title {
+  margin-bottom: 0;
+  font-size: 32px;
+  font-size: 1.6rem;
+  line-height: 1.875;
+  color: white;
+}
+
+.page--blog .page-head {
+  background-color: #6fbf00;
+}
+
+.page--portfolio .page-head {
+  background-color: #ffaa10;
+}
+
+.page--profil .page-head {
+  background-color: #6d91da;
+}
+
+.page--impressum .page-head {
+  background-color: #e04345;
+}
+
 /**
  * sticky footer
  */
@@ -3340,20 +3362,6 @@ pre code, pre kbd, pre samp {
  */
 .page-content a:hover {
   border-bottom: 0.125em solid;
-}
-.page-content .page-title {
-  padding-left: 15px;
-  font-size: 32px;
-  font-size: 1.6rem;
-  line-height: 1.875;
-  color: white;
-  background-color: #323232;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
-}
-@media only screen and (min-width: 681px) {
-  .page-content .page-title {
-    padding-left: 90px;
-  }
 }
 
 .post__meta {
@@ -3490,59 +3498,47 @@ h1, .page--impressum h2, .page--impressum h3, .page--impressum h4, .page--impres
   border-color: #db2427;
 }
 
-.nav__item--blog {
+.site-nav__item--blog {
   background-color: #5a9b00;
 }
-.page:not(.page--blog) .nav__item--blog:hover {
+.page:not(.page--blog) .site-nav__item--blog:hover {
   background-color: #6fbf00;
 }
 
-.nav__item--portfolio {
+.site-nav__item--portfolio {
   background-color: #eb9800;
 }
-.page:not(.page--portfolio) .nav__item--portfolio:hover {
+.page:not(.page--portfolio) .site-nav__item--portfolio:hover {
   background-color: #ffaa10;
 }
 
-.nav__item--profil {
+.site-nav__item--profil {
   background-color: #507bd3;
 }
-.page:not(.page--profil) .nav__item--profil:hover {
+.page:not(.page--profil) .site-nav__item--profil:hover {
   background-color: #6d91da;
 }
 
-.nav__item--impressum {
+.site-nav__item--impressum {
   background-color: #db2427;
 }
-.page:not(.page--impressum) .nav__item--impressum:hover {
+.page:not(.page--impressum) .site-nav__item--impressum:hover {
   background-color: #e04345;
 }
 
-.page--blog .nav__item--blog,
-.page--portfolio .nav__item--portfolio,
-.page--profil .nav__item--profil,
-.page--impressum .nav__item--impressum {
+.page--404 .site-nav__item {
+  background-color: #323232;
+}
+
+.page--blog .site-nav__item--blog,
+.page--portfolio .site-nav__item--portfolio,
+.page--profil .site-nav__item--profil,
+.page--impressum .site-nav__item--impressum {
   cursor: default;
 }
 
 .site-head {
   background-color: #444444;
-}
-
-.page--blog .page-title {
-  background-color: #6fbf00;
-}
-
-.page--portfolio .page-title {
-  background-color: #ffaa10;
-}
-
-.page--profil .page-title {
-  background-color: #6d91da;
-}
-
-.page--impressum .page-title {
-  background-color: #e04345;
 }
 
 .site-foot {
