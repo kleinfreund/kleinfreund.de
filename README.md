@@ -14,11 +14,11 @@ This is the source code of my personal website. It's the final project for our w
 
 ## To do
 
-- `gem install compass`
-
-- fix mobile navigation for non-flex browsers
+- portfolio: rework cards
 - blog: How the site was build
 - meta: write documentation (concept etc)
+  - concept
+  - PS scribbles
 - test the site
 
 ## Done

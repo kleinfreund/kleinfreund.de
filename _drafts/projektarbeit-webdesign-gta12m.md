@@ -8,7 +8,7 @@ __Konzeption, Layout und Umsetzung einer eigenen Website__
 
 Konzipieren, gestalten und erstellen Sie eine lauffähige statische Website, auf der Sie Ihr eigenes Portfolio im Web präsentieren.
 
-Präsentieren Sie auf dieser Website Arbeiten, weöche von Ihnen in den letzten beiden Ausbildungsjahren am BSZ e.o.plauen erstellt wurden.
+Präsentieren Sie auf dieser Website Arbeiten, welche von Ihnen in den letzten beiden Ausbildungsjahren am BSZ e.o.plauen erstellt wurden.
 
 Erstellen Sie dazu mindestens eine Bildergalerie, in welcher Sie eigene Grafiken, Entwürfe und Fotografien präsentieren. Ihre Website sollte Informationen über Sie und Ihren Lebenslauf enthalten und dem Nutzer die Möglichkeit geben, über ein Kontaktformular mit Ihnen in Kontakt zu treten. Des weiteren muss Ihre Website eine Startseite und ein Impressum enthalten.
 
@@ -96,7 +96,7 @@ Setzen Sie die Website gemäß Ihrem erstellen Layout um. Legen Sie hierfür die
 
 Optimieren Sie alle für die Website zu verwendenden Grafiken für das Web.
 
-Die Formatierung der einzelnen HTML-Elemente (Schriftfarbe, -art, Hintergrundfarbe, -muster, Rahmmen etc.) sollte bis auf begründete Ausnahmen in einer ausgelagerten CSS-Datei erfolgen. Nutzen Sie hier die Formatierung der jeweiligen HTML-Elemente und vergeben Sie im Ausnahmefall Klassen.
+Die Formatierung der einzelnen HTML-Elemente (Schriftfarbe, -art, Hintergrundfarbe, -muster, Rahmen etc.) sollte bis auf begründete Ausnahmen in einer ausgelagerten CSS-Datei erfolgen. Nutzen Sie hier die Formatierung der jeweiligen HTML-Elemente und vergeben Sie im Ausnahmefall Klassen.
 
 Kommentieren Sie gegebenenfalls den Quelltext, um spätere Änderungen Ihrer Website zu erleichtern.
 
