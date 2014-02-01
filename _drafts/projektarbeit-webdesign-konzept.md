@@ -6,7 +6,7 @@ Diese Seite entstand im Rahmen des Abschlussprojekts im Fach Webdesign. Die Aufg
 
 Das war die Gelegenheit, mich intensiver mit ein paar Dingen zu beschäftigen. Ich bin vermutlich der letzte, der auf den [SASS](http://sass-lang.com)-Zug aufspringt. Bei der Gelegenheit habe ich mit Harry Roberts' [inuitcss](http://inuitcss.com) gearbeitet.
 
-Kurz danach war der Entschluss getroffen, die Seite auf [GitHub Pages](http://pages.github.com/) zu hosten. Eine Domain habe ich auch gleich noch registriert. Wo ich schon mal dabei war, alles auf den Kopf zu stellen, wurde kurzerhand noch Jekyll integriert.
+Kurz danach war der Entschluss getroffen, die Seite auf [GitHub Pages](http://pages.github.com/) zu hosten. Eine Domain habe ich auch gleich noch registriert. Wo ich schon mal dabei war, alles auf den Kopf zu stellen, wurde kurzerhand noch [Jekyll](http://jekyllrb.com/) integriert.
 
 ## Struktur
 
