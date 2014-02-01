@@ -1,17 +1,43 @@
+/**
+ * Sticky footer
+ */
+body {
+    display: -webkit-flex;
+    display:         flex;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    -webkit-flex: 1;
+            flex: 1;
+}
+
+
+
+/**
+ * Wrapper
+ */
 .wrapper,
 %wrapper {
     max-width: 680px;
     margin-right: auto;
-    margin-left: auto;
+    margin-left:  auto;
     padding-right: $half-spacing-unit;
-    padding-left: $half-spacing-unit;
+    padding-left:  $half-spacing-unit;
 
     @include media-query(lap-and-up) {
         padding-right: $base-spacing-unit;
-        padding-left: $base-spacing-unit;
+        padding-left:  $base-spacing-unit;
     }
 }
 
+
+
+/**
+ * Vertical Rhythm/Gaps
+ */
 %vertical-rhythm {
     @extend %sass-margin-bottom;
 }

@@ -21,6 +21,18 @@ dt {
 
 
 /**
+ * Lists
+ */
+ @include media-query(palm) {
+    ul, ol, dd {
+        margin-left: $base-spacing-unit;
+        margin-left: ($base-spacing-unit / $base-font-size)*1rem;
+    }
+}
+
+
+
+/**
  * Base styles
  */
 img {

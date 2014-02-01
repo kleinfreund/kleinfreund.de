@@ -3182,6 +3182,25 @@ label,
 /**
  * She’s all yours, cap’n... Begin importing your stuff here.
  */
+/**
+ * Sticky footer
+ */
+body {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+/**
+ * Wrapper
+ */
 .wrapper {
   max-width: 680px;
   margin-right: auto;
@@ -3196,6 +3215,9 @@ label,
   }
 }
 
+/**
+ * Vertical Rhythm/Gaps
+ */
 .page-content {
   margin-top: 60px;
   margin-top: 3rem;
@@ -3218,19 +3240,6 @@ label,
   }
 }
 
-body {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: column;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-main {
-  -webkit-flex: 1;
-  flex: 1;
-}
-
 html {
   font-family: Ubuntu, sans-serif;
   font-weight: 300;
@@ -3249,6 +3258,15 @@ dt {
   font-weight: 500;
 }
 
+/**
+ * Lists
+ */
+@media only screen and (max-width: 680px) {
+  ul, ol, dd {
+    margin-left: 30px;
+    margin-left: 1.5rem;
+  }
+}
 /**
  * Base styles
  */
