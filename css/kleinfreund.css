@@ -3342,7 +3342,7 @@ pre code, pre kbd, pre samp {
   border-bottom: 0.125em solid;
 }
 .page-content .page-title {
-  padding: 15px;
+  padding-left: 15px;
   font-size: 32px;
   font-size: 1.6rem;
   line-height: 1.875;
@@ -3352,7 +3352,7 @@ pre code, pre kbd, pre samp {
 }
 @media only screen and (min-width: 681px) {
   .page-content .page-title {
-    padding: 15px 90px;
+    padding-left: 90px;
   }
 }
 
