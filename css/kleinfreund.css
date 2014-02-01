@@ -933,27 +933,27 @@ html {
  * heading hierarchy.
  */
 h1, .alpha {
-  font-size: 45px;
-  font-size: 2.25rem;
-  line-height: 1.33333;
+  font-size: 36px;
+  font-size: 1.8rem;
+  line-height: 1.66667;
 }
 
 h2, .beta {
-  font-size: 38px;
-  font-size: 1.9rem;
-  line-height: 1.57895;
+  font-size: 32px;
+  font-size: 1.6rem;
+  line-height: 1.875;
 }
 
 h3, .gamma {
-  font-size: 30px;
-  font-size: 1.5rem;
-  line-height: 1;
+  font-size: 28px;
+  font-size: 1.4rem;
+  line-height: 1.07143;
 }
 
 h4, .delta {
-  font-size: 25px;
-  font-size: 1.25rem;
-  line-height: 1.2;
+  font-size: 24px;
+  font-size: 1.2rem;
+  line-height: 1.25;
 }
 
 h5, .epsilon {
@@ -963,9 +963,9 @@ h5, .epsilon {
 }
 
 h6, .zeta {
-  font-size: 17px;
-  font-size: 0.85rem;
-  line-height: 1.76471;
+  font-size: 16px;
+  font-size: 0.8rem;
+  line-height: 1.875;
 }
 
 /**
@@ -1026,9 +1026,9 @@ hgroup .hN {
  */
 .smallprint,
 .milli {
-  font-size: 15px;
-  font-size: 0.75rem;
-  line-height: 2;
+  font-size: 14px;
+  font-size: 0.7rem;
+  line-height: 2.14286;
 }
 
 .micro {
@@ -3343,9 +3343,9 @@ pre code, pre kbd, pre samp {
 }
 .page-content .page-title {
   padding: 15px;
-  font-size: 38px;
-  font-size: 1.9rem;
-  line-height: 1.57895;
+  font-size: 32px;
+  font-size: 1.6rem;
+  line-height: 1.875;
   color: white;
   background-color: #323232;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
