@@ -3343,9 +3343,9 @@ pre code, pre kbd, pre samp {
 }
 .page-content .page-title {
   padding: 15px;
-  font-size: 30px;
-  font-size: 1.5rem;
-  line-height: 1;
+  font-size: 38px;
+  font-size: 1.9rem;
+  line-height: 1.57895;
   color: white;
   background-color: #323232;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);

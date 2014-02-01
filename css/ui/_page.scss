@@ -29,7 +29,7 @@
     .page-title {
         @extend %vertical-gap-bottom;
         padding: $half-spacing-unit;
-        @include font-size(30px);
+        @include font-size($h2-size);
         color: $white-color;
         background-color: $dark-ui-color;
         text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
