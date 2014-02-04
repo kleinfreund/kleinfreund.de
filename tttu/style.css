@@ -6,7 +6,6 @@
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
 }
 
 
@@ -16,10 +15,10 @@ body {
  *  Board size is calculated as follows:
  *
  *  .game = .area * 3
- *  450px = 150px * 3
+ *  459px = 153px * 3
  *
- *  .area = padding-left + .tile * 3 + padding-right
- *  150px = 3px          + 48px  * 3 + 3px
+ *  .area = padding-left + .tile * 3 + padding-right + border
+ *  153px = 3px          + 48px  * 3 + 3px           + 3px
  *
  *  .tile = padding-left + .width    + padding-right
  *   48px = 3px          + 42px      + 3px
@@ -31,6 +30,7 @@ body {
     margin-left: auto;
 }
 
+/* Clearfixing .game */
 .game:after {
     content: "";
     display: table;
@@ -59,7 +59,6 @@ body {
     border-left: 3px solid #444;
 }
 
-
 .area:nth-child(4),
 .area:nth-child(5),
 .area:nth-child(6),
@@ -69,6 +68,7 @@ body {
     border-top: 3px solid #444;
 }
 
+/* Clearfixing .area */
 .area:after {
     content: "";
     display: table;
