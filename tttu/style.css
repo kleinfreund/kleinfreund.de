@@ -25,7 +25,7 @@ body {
  *   48px = 3px          + 42px      + 3px
  */
 .game {
-    width: 450px;
+    width: 456px;
     margin-top: 50px;
     margin-right: auto;
     margin-left: auto;
@@ -50,8 +50,23 @@ body {
  */
 .area {
     float: left;
-    width: 150px;
+    width: 152px;
     padding: 3px;
+}
+
+.area:nth-child(3n-1),
+.area:nth-child(3n-0) {
+    border-left: 2px solid #444;
+}
+
+
+.area:nth-child(4),
+.area:nth-child(5),
+.area:nth-child(6),
+.area:nth-child(7),
+.area:nth-child(8),
+.area:nth-child(9) {
+    border-top: 2px solid #444;
 }
 
 .area:after {
