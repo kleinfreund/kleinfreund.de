@@ -1,20 +1,34 @@
-@mixin themify($element, $property, $light-colors: false) {
-    $pages: null;
-    @if $light-colors == true {
-        $pages: blog      $blog-color-light,
-                portfolio $portfolio-color-light,
-                profil    $profil-color-light,
-                impressum $impressum-color-light;
-    } @else {
-        $pages: blog      $blog-color,
-                portfolio $portfolio-color,
-                profil    $profil-color,
-                impressum $impressum-color;
-    }
+$colors: null; // private
 
-    @each $page in $pages {
-        .page--#{nth($page, 1)} #{$element} {
-            #{$property}: nth($page, 2);
+$themes: (
+    blog: (
+        default: $blog-color,
+        light: $blog-color-light
+    ),
+    portfolio: (
+        default: $portfolio-color,
+        light: $portfolio-color-light
+    ),
+    profil: (
+        default: $profil-color,
+        light: $profil-color-light
+    ),
+    impressum: (
+        default: $impressum-color,
+        light: $impressum-color-light
+    )
+);
+
+@mixin themify {
+    @each $theme, $color in $themes {
+        .page--#{$theme} {
+            $colors: $color !global;
+
+            @content;
         }
     }
+}
+
+@function theme($variation) {
+    @return map-get($colors, $variation);
 }

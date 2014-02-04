@@ -32,7 +32,11 @@
     }
 }
 
-@include themify(".site-nav", border-color);
+@include themify {
+    .site-nav {
+        border-color: theme(default);
+    }
+}
 
     .site-nav__item--blog {
         background-color: $blog-color;

@@ -14,4 +14,8 @@
     }
 }
 
-@include themify(".page-head", background-color, true);
+    @include themify {
+        .page-head {
+            background-color: theme(light);
+        }
+    }

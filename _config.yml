@@ -3,7 +3,7 @@ pygments: true
 permalink: /:year/:month/:title
 paginate: 5
 relative_permalinks: false
-exclude: [prepros.json, config.rb]
+exclude: [prepros.json, config.rb, typo/]
 name: kleinfreund
 description: Mondbasis von Philipp Rudloff. Mache Webentwicklung und -design. Dinge und Sachen auch.
 url: http://kleinfreund.de

@@ -3380,20 +3380,23 @@ pre code, pre kbd, pre samp {
   color: #aaaaaa;
 }
 
-.page--blog a, .page--blog
-h1, .page--blog h2, .page--blog h3, .page--blog h4, .page--blog h5, .page--blog h6 {
+.page--blog a,
+.page--blog h1, .page--blog h2, .page--blog h3, .page--blog h4, .page--blog h5, .page--blog h6 {
   color: #5a9b00;
 }
-.page--profil a, .page--profil
-h1, .page--profil h2, .page--profil h3, .page--profil h4, .page--profil h5, .page--profil h6 {
-  color: #507bd3;
-}
-.page--portfolio a, .page--portfolio
-h1, .page--portfolio h2, .page--portfolio h3, .page--portfolio h4, .page--portfolio h5, .page--portfolio h6 {
+
+.page--portfolio a,
+.page--portfolio h1, .page--portfolio h2, .page--portfolio h3, .page--portfolio h4, .page--portfolio h5, .page--portfolio h6 {
   color: #eb9800;
 }
-.page--impressum a, .page--impressum
-h1, .page--impressum h2, .page--impressum h3, .page--impressum h4, .page--impressum h5, .page--impressum h6 {
+
+.page--profil a,
+.page--profil h1, .page--profil h2, .page--profil h3, .page--profil h4, .page--profil h5, .page--profil h6 {
+  color: #507bd3;
+}
+
+.page--impressum a,
+.page--impressum h1, .page--impressum h2, .page--impressum h3, .page--impressum h4, .page--impressum h5, .page--impressum h6 {
   color: #db2427;
 }
 
