@@ -12,20 +12,6 @@ body {
 
 
 /*
- *  Fighting the whitespace from `display: inline-block;`
- *  on `.area` and `.tile`
- *
-.game, .area {
-    font-size: 0;
-}
-
-.tile {
-    font-size: 16px;
-}*/
-
-
-
-/*
  *  GAME
  *  Board size is calculated as follows:
  *
@@ -45,6 +31,12 @@ body {
     margin-left: auto;
 }
 
+.game:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 @media screen and (max-width: 500px) {
     .game {
         width: 306px;
@@ -57,9 +49,15 @@ body {
  *  AREA
  */
 .area {
-    display: inline-block;
+    float: left;
     width: 150px;
     padding: 3px;
+}
+
+.area:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 @media screen and (max-width: 500px) {
@@ -74,7 +72,7 @@ body {
  *  TILE
  */
 .tile {
-    display: inline-block;
+    float: left;
     padding: 3px;
 }
 
