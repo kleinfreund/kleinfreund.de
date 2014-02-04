@@ -14,14 +14,14 @@ body {
 /*
  *  Fighting the whitespace from `display: inline-block;`
  *  on `.area` and `.tile`
- */
+ *
 .game, .area {
     font-size: 0;
 }
 
 .tile {
     font-size: 16px;
-}
+}*/
 
 
 
