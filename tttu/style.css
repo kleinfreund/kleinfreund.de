@@ -25,7 +25,7 @@ body {
  *   48px = 3px          + 42px      + 3px
  */
 .game {
-    width: 456px;
+    width: 459px;
     margin-top: 50px;
     margin-right: auto;
     margin-left: auto;
@@ -39,7 +39,7 @@ body {
 
 @media screen and (max-width: 500px) {
     .game {
-        width: 306px;
+        width: 315px;
     }
 }
 
@@ -50,13 +50,13 @@ body {
  */
 .area {
     float: left;
-    width: 152px;
+    width: 153px;
     padding: 3px;
 }
 
 .area:nth-child(3n-1),
 .area:nth-child(3n-0) {
-    border-left: 2px solid #444;
+    border-left: 3px solid #444;
 }
 
 
@@ -66,7 +66,7 @@ body {
 .area:nth-child(7),
 .area:nth-child(8),
 .area:nth-child(9) {
-    border-top: 2px solid #444;
+    border-top: 3px solid #444;
 }
 
 .area:after {
@@ -77,7 +77,7 @@ body {
 
 @media screen and (max-width: 500px) {
     .area {
-        width: 102px;
+        width: 105px;
     }
 }
 
