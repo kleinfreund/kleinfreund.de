@@ -34,7 +34,7 @@
 
 @include themify {
     .site-nav {
-        border-color: theme(default);
+        border-color: theme();
     }
 }
 

@@ -29,6 +29,6 @@ $themes: (
     }
 }
 
-@function theme($variation) {
+@function theme($variation: default) {
     @return map-get($colors, $variation);
 }

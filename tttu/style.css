@@ -1,0 +1,90 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+/*
+ *  Fighting the whitespace from `display: inline-block;`
+ *  on `.area` and `.tile`
+ */
+.game, .area {
+    font-size: 0;
+}
+
+.tile {
+    font-size: 1rem;
+}
+
+
+
+/*
+ *  GAME
+ *  Board size is calculated as follows:
+ *
+ *  .game = .area * 3
+ *  450px = 150px * 3
+ *
+ *  .area = padding-left + .tile * 3 + padding-right
+ *  150px = 3px          + 48px  * 3 + 3px
+ *
+ *  .tile = padding-left + .width    + padding-right
+ *   48px = 3px          + 42px      + 3px
+ */
+.game {
+    width: 450px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left:  auto;
+}
+
+
+
+/*
+ *  AREA
+ */
+.area {
+    display: inline-block;
+    width: 150px;
+    padding: 3px;
+}
+
+
+
+/*
+ *  TILE
+ */
+.tile {
+    display: inline-block;
+    padding: 3px;
+}
+
+
+
+/*
+ *  BUTTONS
+ */
+.tile-button {
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    cursor: pointer;
+    vertical-align: middle;
+
+    border: 1px solid gray;
+    border-radius: 3px;
+    background-color: greenYellow;
+}
+
+.tile-button:hover,
+.tile-button:focus {
+    border-color: #444;
+    background-color: yellowGreen;
+}
