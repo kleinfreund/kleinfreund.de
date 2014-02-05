@@ -1,0 +1,857 @@
+{
+  "id": "3d35895f",
+  "cfgVersion": 1,
+  "name": "kleinfreund.github.io",
+  "files": {
+    "ac40651f": {
+      "id": "ac40651f",
+      "pid": "3d35895f",
+      "name": "kleinfreund.scss",
+      "input": "css\\kleinfreund.scss",
+      "customOutput": "css\\kleinfreund.min.css",
+      "type": "Scss",
+      "config": {
+        "autoCompile": true,
+        "lineNumbers": false,
+        "unixNewlines": false,
+        "sourcemaps": false,
+        "debug": false,
+        "compass": true,
+        "fullCompass": true,
+        "outputStyle": "compressed",
+        "autoprefixer": false
+      }
+    }
+  },
+  "imports": {
+    "34869201": {
+      "id": "34869201",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\objects\\_this-or-this.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "97497916": {
+      "id": "97497916",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\base\\_code.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "9d692dbd": {
+      "id": "9d692dbd",
+      "pid": "3d35895f",
+      "path": "css\\_vars.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "f2f7a7f4": {
+      "id": "f2f7a7f4",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\_inuit.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "c6dbeabd": {
+      "id": "c6dbeabd",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\_defaults.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "7891892d": {
+      "id": "7891892d",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\generic\\_mixins.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "1714047e": {
+      "id": "1714047e",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\generic\\_normalize.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "5f236e49": {
+      "id": "5f236e49",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\generic\\_reset.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "5849d291": {
+      "id": "5849d291",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\generic\\_clearfix.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "857255e6": {
+      "id": "857255e6",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\generic\\_shared.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "5e101a9f": {
+      "id": "5e101a9f",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\base\\_main.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "d8661993": {
+      "id": "d8661993",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\base\\_headings.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "b62708eb": {
+      "id": "b62708eb",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\base\\_paragraphs.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "eb66eb43": {
+      "id": "eb66eb43",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\base\\_smallprint.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "33be705b": {
+      "id": "33be705b",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\base\\_quotes.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "18fd49c8": {
+      "id": "18fd49c8",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\base\\_images.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "916d0fdf": {
+      "id": "916d0fdf",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\base\\_lists.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "1a708fea": {
+      "id": "1a708fea",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\base\\_tables.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "5355dc98": {
+      "id": "5355dc98",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\base\\_forms.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "92432b1e": {
+      "id": "92432b1e",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\objects\\_grids.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "d6c82701": {
+      "id": "d6c82701",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\objects\\_flexbox.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "940c4ce4": {
+      "id": "940c4ce4",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\objects\\_columns.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "9bf7ef1a": {
+      "id": "9bf7ef1a",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\objects\\_nav.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "ffac7d64": {
+      "id": "ffac7d64",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\objects\\_options.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "21fd212d": {
+      "id": "21fd212d",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\objects\\_pagination.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "41caed5f": {
+      "id": "41caed5f",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\objects\\_breadcrumb.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "38cf471a": {
+      "id": "38cf471a",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\objects\\_media.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "de6281c0": {
+      "id": "de6281c0",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\objects\\_marginalia.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "e056dc1d": {
+      "id": "e056dc1d",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\objects\\_island.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "35df5469": {
+      "id": "35df5469",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\objects\\_block-list.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "58f60ae2": {
+      "id": "58f60ae2",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\objects\\_matrix.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "d331a5c2": {
+      "id": "d331a5c2",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\objects\\_split.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "244cb676": {
+      "id": "244cb676",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\objects\\_link-complex.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "2a660aad": {
+      "id": "2a660aad",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\objects\\_flyout.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "b7bc662b": {
+      "id": "b7bc662b",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\objects\\_arrows.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "acaaad33": {
+      "id": "acaaad33",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\objects\\_sprite.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "7db9dd41": {
+      "id": "7db9dd41",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\objects\\_icon-text.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "9be07211": {
+      "id": "9be07211",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\objects\\_beautons.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "0be9b16a": {
+      "id": "0be9b16a",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\objects\\_lozenges.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "883bcf92": {
+      "id": "883bcf92",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\objects\\_rules.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "8ba3accf": {
+      "id": "8ba3accf",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\objects\\_stats.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "7128aec2": {
+      "id": "7128aec2",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\objects\\_greybox.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "bb9a9daa": {
+      "id": "bb9a9daa",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\generic\\_widths.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "20ea5365": {
+      "id": "20ea5365",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\generic\\_push.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "9a0b2cda": {
+      "id": "9a0b2cda",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\generic\\_pull.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "83c6d278": {
+      "id": "83c6d278",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\generic\\_brand.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "c2b00cf2": {
+      "id": "c2b00cf2",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\generic\\_helper.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "69b96b24": {
+      "id": "69b96b24",
+      "pid": "3d35895f",
+      "path": "css\\inuit.css\\generic\\_debug.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "02d8a82f": {
+      "id": "02d8a82f",
+      "pid": "3d35895f",
+      "path": "css\\ui\\_page.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "d90a52ea": {
+      "id": "d90a52ea",
+      "pid": "3d35895f",
+      "path": "css\\ui\\_posts.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "6eecef6b": {
+      "id": "6eecef6b",
+      "pid": "3d35895f",
+      "path": "css\\ui\\_misc.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "8636bb93": {
+      "id": "8636bb93",
+      "pid": "3d35895f",
+      "path": "css\\ui\\_typography.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "34b0dae3": {
+      "id": "34b0dae3",
+      "pid": "3d35895f",
+      "path": "css\\ui\\_grids.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "69c7b67a": {
+      "id": "69c7b67a",
+      "pid": "3d35895f",
+      "path": "css\\ui\\_mixins.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "25f95ef3": {
+      "id": "25f95ef3",
+      "pid": "3d35895f",
+      "path": "css\\ui\\_site-logo.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "4b1f1563": {
+      "id": "4b1f1563",
+      "pid": "3d35895f",
+      "path": "css\\ui\\_site-nav.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "8e9bbca7": {
+      "id": "8e9bbca7",
+      "pid": "3d35895f",
+      "path": "css\\ui\\_site-head.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "b17793f0": {
+      "id": "b17793f0",
+      "pid": "3d35895f",
+      "path": "css\\ui\\_page-head.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    }
+  },
+  "images": {
+    "43999068": {
+      "id": "43999068",
+      "pid": "3d35895f",
+      "path": "img\\rudelove\\briefpapier.png",
+      "size": 45067,
+      "name": "briefpapier.png",
+      "type": "Png",
+      "initialSize": 46403,
+      "status": "OPTIMIZED"
+    },
+    "e796c869": {
+      "id": "e796c869",
+      "pid": "3d35895f",
+      "path": "icon.png",
+      "size": 243,
+      "name": "icon.png",
+      "type": "Png",
+      "initialSize": 396,
+      "status": "OPTIMIZED"
+    },
+    "a94b17fb": {
+      "id": "a94b17fb",
+      "pid": "3d35895f",
+      "path": "img\\artrudloff\\artrudloff-1.jpg",
+      "size": 32920,
+      "name": "artrudloff-1.jpg",
+      "type": "Jpg",
+      "initialSize": 33753,
+      "status": "OPTIMIZED"
+    },
+    "6b436a34": {
+      "id": "6b436a34",
+      "pid": "3d35895f",
+      "path": "img\\artrudloff\\artrudloff-2.jpg",
+      "size": 94637,
+      "name": "artrudloff-2.jpg",
+      "type": "Jpg",
+      "initialSize": 95544,
+      "status": "OPTIMIZED"
+    },
+    "980c7da2": {
+      "id": "980c7da2",
+      "pid": "3d35895f",
+      "path": "img\\artrudloff\\artrudloff-3.jpg",
+      "size": 81447,
+      "name": "artrudloff-3.jpg",
+      "type": "Jpg",
+      "initialSize": 82328,
+      "status": "OPTIMIZED"
+    },
+    "0daf0b64": {
+      "id": "0daf0b64",
+      "pid": "3d35895f",
+      "path": "img\\artrudloff\\thumbnail.jpg",
+      "size": 32614,
+      "name": "thumbnail.jpg",
+      "type": "Jpg",
+      "initialSize": 18456,
+      "status": "OPTIMIZED"
+    },
+    "951cbe57": {
+      "id": "951cbe57",
+      "pid": "3d35895f",
+      "path": "img\\ich.jpg",
+      "size": 284190,
+      "name": "ich.jpg",
+      "type": "Jpg",
+      "initialSize": 285322,
+      "status": "OPTIMIZED"
+    },
+    "5acc45b1": {
+      "id": "5acc45b1",
+      "pid": "3d35895f",
+      "path": "img\\kleinfreund.png",
+      "size": 2387,
+      "name": "kleinfreund.png",
+      "type": "Png",
+      "initialSize": 2481,
+      "status": "OPTIMIZED"
+    },
+    "2bd96f77": {
+      "id": "2bd96f77",
+      "pid": "3d35895f",
+      "path": "img\\landscapes\\landscapes-1.jpg",
+      "size": 108948,
+      "name": "landscapes-1.jpg",
+      "type": "Jpg",
+      "initialSize": 109977,
+      "status": "OPTIMIZED"
+    },
+    "70bf2f95": {
+      "id": "70bf2f95",
+      "pid": "3d35895f",
+      "path": "img\\landscapes\\landscapes-2.jpg",
+      "size": 119986,
+      "name": "landscapes-2.jpg",
+      "type": "Jpg",
+      "initialSize": 120960,
+      "status": "OPTIMIZED"
+    },
+    "879a25c6": {
+      "id": "879a25c6",
+      "pid": "3d35895f",
+      "path": "img\\landscapes\\landscapes-3.jpg",
+      "size": 119236,
+      "name": "landscapes-3.jpg",
+      "type": "Jpg",
+      "initialSize": 120325,
+      "status": "OPTIMIZED"
+    },
+    "ed9d4ebb": {
+      "id": "ed9d4ebb",
+      "pid": "3d35895f",
+      "path": "img\\landscapes\\landscapes-4.jpg",
+      "size": 120807,
+      "name": "landscapes-4.jpg",
+      "type": "Jpg",
+      "initialSize": 121819,
+      "status": "OPTIMIZED"
+    },
+    "a3a01d4a": {
+      "id": "a3a01d4a",
+      "pid": "3d35895f",
+      "path": "img\\landscapes\\thumbnail.jpg",
+      "size": 123690,
+      "name": "thumbnail.jpg",
+      "type": "Jpg",
+      "initialSize": 64100,
+      "status": "OPTIMIZED"
+    },
+    "efea31f5": {
+      "id": "efea31f5",
+      "pid": "3d35895f",
+      "path": "img\\martin-und-phil\\portraet-1.jpg",
+      "size": 215016,
+      "name": "portraet-1.jpg",
+      "type": "Jpg",
+      "initialSize": 215926,
+      "status": "OPTIMIZED"
+    },
+    "93dde2d4": {
+      "id": "93dde2d4",
+      "pid": "3d35895f",
+      "path": "img\\martin-und-phil\\portraet-2.jpg",
+      "size": 204372,
+      "name": "portraet-2.jpg",
+      "type": "Jpg",
+      "initialSize": 206302,
+      "status": "OPTIMIZED"
+    },
+    "1c017807": {
+      "id": "1c017807",
+      "pid": "3d35895f",
+      "path": "img\\martin-und-phil\\portraet-3.jpg",
+      "size": 253650,
+      "name": "portraet-3.jpg",
+      "type": "Jpg",
+      "initialSize": 255700,
+      "status": "OPTIMIZED"
+    },
+    "57eba153": {
+      "id": "57eba153",
+      "pid": "3d35895f",
+      "path": "img\\martin-und-phil\\portraet-4.jpg",
+      "size": 204332,
+      "name": "portraet-4.jpg",
+      "type": "Jpg",
+      "initialSize": 206325,
+      "status": "OPTIMIZED"
+    },
+    "19a718e6": {
+      "id": "19a718e6",
+      "pid": "3d35895f",
+      "path": "img\\martin-und-phil\\thumbnail.jpg",
+      "size": 182550,
+      "name": "thumbnail.jpg",
+      "type": "Jpg",
+      "initialSize": 93287,
+      "status": "OPTIMIZED"
+    },
+    "a5f59d4c": {
+      "id": "a5f59d4c",
+      "pid": "3d35895f",
+      "path": "img\\neujahrs-typografie\\2014-1.png",
+      "size": 10022,
+      "name": "2014-1.png",
+      "type": "Png",
+      "initialSize": 12583,
+      "status": "OPTIMIZED"
+    },
+    "a1f4faf0": {
+      "id": "a1f4faf0",
+      "pid": "3d35895f",
+      "path": "img\\neujahrs-typografie\\2014-2.png",
+      "size": 17707,
+      "name": "2014-2.png",
+      "type": "Png",
+      "initialSize": 18794,
+      "status": "OPTIMIZED"
+    },
+    "b0f9f02d": {
+      "id": "b0f9f02d",
+      "pid": "3d35895f",
+      "path": "img\\neujahrs-typografie\\2014-3.png",
+      "size": 10747,
+      "name": "2014-3.png",
+      "type": "Png",
+      "initialSize": 11397,
+      "status": "OPTIMIZED"
+    },
+    "885e17d1": {
+      "id": "885e17d1",
+      "pid": "3d35895f",
+      "path": "img\\neujahrs-typografie\\2014-4.png",
+      "size": 5272,
+      "name": "2014-4.png",
+      "type": "Png",
+      "initialSize": 5721,
+      "status": "OPTIMIZED"
+    },
+    "4d57953a": {
+      "id": "4d57953a",
+      "pid": "3d35895f",
+      "path": "img\\neujahrs-typografie\\2014-5.png",
+      "size": 6512,
+      "name": "2014-5.png",
+      "type": "Png",
+      "initialSize": 7271,
+      "status": "OPTIMIZED"
+    },
+    "9e0af7ba": {
+      "id": "9e0af7ba",
+      "pid": "3d35895f",
+      "path": "img\\neujahrs-typografie\\2014-6.png",
+      "size": 7916,
+      "name": "2014-6.png",
+      "type": "Png",
+      "initialSize": 8738,
+      "status": "OPTIMIZED"
+    },
+    "7c0ea50c": {
+      "id": "7c0ea50c",
+      "pid": "3d35895f",
+      "path": "img\\neujahrs-typografie\\thumbnail.png",
+      "size": 21001,
+      "name": "thumbnail.png",
+      "type": "Png",
+      "initialSize": 11937,
+      "status": "OPTIMIZED"
+    },
+    "475ea645": {
+      "id": "475ea645",
+      "pid": "3d35895f",
+      "path": "img\\piktogramme\\raupe.png",
+      "size": 4721,
+      "name": "raupe.png",
+      "type": "Png",
+      "initialSize": 4781,
+      "status": "OPTIMIZED"
+    },
+    "c4d55444": {
+      "id": "c4d55444",
+      "pid": "3d35895f",
+      "path": "img\\piktogramme\\schildkroete.png",
+      "size": 5442,
+      "name": "schildkroete.png",
+      "type": "Png",
+      "initialSize": 5495,
+      "status": "OPTIMIZED"
+    },
+    "2dbcb709": {
+      "id": "2dbcb709",
+      "pid": "3d35895f",
+      "path": "img\\piktogramme\\schlange.png",
+      "size": 11061,
+      "name": "schlange.png",
+      "type": "Png",
+      "initialSize": 11117,
+      "status": "OPTIMIZED"
+    },
+    "320747ce": {
+      "id": "320747ce",
+      "pid": "3d35895f",
+      "path": "img\\piktogramme\\thumbnail.png",
+      "size": 12274,
+      "name": "thumbnail.png",
+      "type": "Png",
+      "initialSize": 3505,
+      "status": "OPTIMIZED"
+    },
+    "3a3d20ce": {
+      "id": "3a3d20ce",
+      "pid": "3d35895f",
+      "path": "img\\rudelove\\briefbogen.png",
+      "size": 14201,
+      "name": "briefbogen.png",
+      "type": "Png",
+      "initialSize": 14201,
+      "status": "OPTIMIZED"
+    },
+    "ca5561f4": {
+      "id": "ca5561f4",
+      "pid": "3d35895f",
+      "path": "img\\rudelove\\logo.png",
+      "size": 5413,
+      "name": "logo.png",
+      "type": "Png",
+      "initialSize": 7659,
+      "status": "OPTIMIZED"
+    },
+    "87ecd571": {
+      "id": "87ecd571",
+      "pid": "3d35895f",
+      "path": "img\\rudelove\\thumbnail.png",
+      "size": 6375,
+      "name": "thumbnail.png",
+      "type": "Png",
+      "initialSize": 14116,
+      "status": "OPTIMIZED"
+    },
+    "c0db9456": {
+      "id": "c0db9456",
+      "pid": "3d35895f",
+      "path": "img\\rudelove\\visitenkarten.png",
+      "size": 40503,
+      "name": "visitenkarten.png",
+      "type": "Png",
+      "initialSize": 40503,
+      "status": "OPTIMIZED"
+    }
+  },
+  "config": {
+    "watch": true,
+    "liveRefresh": true,
+    "liveRefreshDelay": 0,
+    "filterPatterns": ".md,\n.js,\n_site",
+    "useCustomServer": false,
+    "customServerUrl": "",
+    "cssPath": "css/",
+    "jsPath": "js/",
+    "htmlPath": "html/",
+    "minJsPath": "min/",
+    "htmlExtension": ".html",
+    "cssPathType": "REPLACE_TYPE",
+    "htmlPathType": "REPLACE_TYPE",
+    "jsPathType": "REPLACE_TYPE",
+    "minJsPathType": "RELATIVE_FILEDIR",
+    "htmlTypes": "jade, haml, slim, markdown, md",
+    "cssTypes": "less, sass, stylus, scss, styl",
+    "jsTypes": "coffee, coffeescript, coffeescripts, ls, livescript, livescripts",
+    "cssPreprocessorPath": "",
+    "htmlPreprocessorPath": "",
+    "jsPreprocessorPath": "",
+    "minJsPreprocessorPath": "",
+    "autoprefixerBrowsers": "",
+    "ftpHost": "",
+    "ftpPort": "21",
+    "ftpRemotePath": "",
+    "ftpIgnorePreprocessorFiles": true,
+    "ftpType": "FTP",
+    "ftpExcludePatterns": "",
+    "ftpPassword": "",
+    "ftpUsername": ""
+  }
+}
