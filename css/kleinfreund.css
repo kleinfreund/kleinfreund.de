@@ -3317,9 +3317,6 @@ a {
  */
 pre, code, kbd, samp {
   font-family: Inconsolata, Monaco, Consolas, "Courier New", Courier, monospace;
-  font-size: 16px;
-  font-size: 0.8rem;
-  line-height: 1.875;
 }
 
 pre {
@@ -3331,11 +3328,11 @@ pre {
   border-radius: 3px;
 }
 
-code, kbd, samp {
-  color: #5a9b00;
-}
 pre code, pre kbd, pre samp {
   color: white;
+  font-size: 16px;
+  font-size: 0.8rem;
+  line-height: 1.875;
 }
 
 .page-head {

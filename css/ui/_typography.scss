@@ -92,7 +92,6 @@ a {
  */
 pre, code, kbd, samp {
     font-family: Inconsolata, Monaco, Consolas, "Courier New", Courier, monospace;
-    @include font-size(16px);
 }
 
 pre {
@@ -104,10 +103,9 @@ pre {
     border-radius: 3px;
 }
 
-code, kbd, samp {
-    color: $blog-color;
-
-    pre & {
+pre {
+    code, kbd, samp {
         color: $white-color;
+        @include font-size(16px);
     }
 }
