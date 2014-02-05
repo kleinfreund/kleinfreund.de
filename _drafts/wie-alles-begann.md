@@ -6,4 +6,4 @@ Mit [Jekyll](http://jekyllrb.com/) wird aus einem haufen verrückter Dateien ein
 
 Das ist großartig, denn mehr brauche ich nicht. Das Blog hat eine Paginierung. Beiträge kann ich bequem in [Markdown](http://daringfireball.net/projects/markdown/) schreiben. Anpassungen an der Seite muss ich nicht in einem Dutzend HTML-Dokumenten vornehmen, sondern lediglich in einem.
 
-Mit einem `jekyll serve -w` in der Kommandozeile lässt sich das auch über einen lokalen Server testen. Ändert sich mein CSS oder eine Layoutdatei, dann seh ich das direkt im Browser. SASS wird beim Speichern von [Prepros](http://alphapixels.com/prepros/) mit [config.rb](http://github.com/kleinfreund/kleinfreund.github.io/blob/master/config.rb) als normale und als komprimierte ausgegeben.
+Mit einem `jekyll serve -w` in der Kommandozeile lässt sich das auch über einen lokalen Server testen. Ändert sich mein CSS oder eine Layoutdatei, dann seh ich das direkt im Browser. SASS wird beim Speichern von [Prepros](http://alphapixels.com/prepros/) mit [config.rb](http://github.com/kleinfreund/kleinfreund.github.io/blob/master/config.rb) als normale und als komprimierte CSS-Datei ausgegeben.
