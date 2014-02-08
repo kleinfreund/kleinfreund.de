@@ -98,7 +98,7 @@ module Jekyll
     # Config defaults
     MY_URL = "http://kleinfreund.de"
     SITEMAP_FILE_NAME = "/sitemap.xml"
-    EXCLUDE = ["/atom.xml", "/feed.xml", "/feed/index.xml", "/fonts/licence.txt"]
+    EXCLUDE = ["/atom.xml", "/feed.xml", "/feed/index.xml", "/fonts/license.txt"]
     INCLUDE_POSTS = ["/index.html"] 
     CHANGE_FREQUENCY_NAME = "change_frequency"
     PRIORITY_NAME = "priority"
