@@ -1,6 +1,6 @@
 ---
 layout: post--portfolio
-site-title: Neujahrs-Typografie
+site-title: "Neujahrs-Typografie"
 permalink: /portfolio/neujahrs-typografie/
 ---
 Das neue Jahr begann in Typografie mit ein paar leichten Aufgaben zum Jahreswechsel. Stoff war eigentlich das Thema Hierarchie und durch welche Auszeichnungen man eine solche erzeugen kann. Viel zu leicht verliert man sich dann in grafischem Austoben. Wenigstens beim Motto bin ich geblieben.

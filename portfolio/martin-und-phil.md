@@ -1,6 +1,6 @@
 ---
 layout: post--portfolio
-site-title: Martin &amp; Phil
+site-title: "Martin &amp; Phil"
 permalink: /portfolio/martin-und-phil/
 ---
 Im Rahmen unserer ersten Gehversuche in der Studiofotografie entstanden diese wundervollen Momentaufnahme von Martin und mir. Wir wollten es eigentlich geheim halten, doch jetzt muss es raus.
