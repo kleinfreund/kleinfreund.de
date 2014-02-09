@@ -23,7 +23,7 @@ dt {
 /**
  * Lists
  */
- @include media-query(palm) {
+@include media-query(palm) {
     ul, ol, dd {
         margin-left: $base-spacing-unit;
         margin-left: ($base-spacing-unit / $base-font-size)*1rem;
@@ -53,14 +53,14 @@ figure > img {
 /**
  * Rules
  */
- hr {
+hr {
     color: $light-ui-color;
     border: 0;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     margin-bottom: $base-spacing-unit - 1px;
     margin-bottom: (($base-spacing-unit - 1px) / $base-font-size)*1rem;
- }
+}
 
 
 
