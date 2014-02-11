@@ -51,15 +51,33 @@ figure > img {
 
 
 /**
- * Rules
+ * Rulers
  */
-hr {
+.ruler {
     color: $light-ui-color;
     border: 0;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     margin-bottom: $base-spacing-unit - 1px;
     margin-bottom: (($base-spacing-unit - 1px) / $base-font-size)*1rem;
+}
+
+.ruler--extended {
+    color: #e6e6e6;
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-top: $base-spacing-unit;
+    padding-bottom: $base-spacing-unit * 2;
+
+    &:after {
+        content: "";
+        border-bottom-width: 7px;
+        border-bottom-style: solid;
+
+        position: absolute;
+        right: $base-spacing-unit * 4;
+        left: $base-spacing-unit * 4;
+    }
 }
 
 

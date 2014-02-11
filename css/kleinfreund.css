@@ -3282,15 +3282,31 @@ figure > img {
 }
 
 /**
- * Rules
+ * Rulers
  */
-hr {
+.ruler {
   color: #aaaaaa;
   border: 0;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   margin-bottom: 29px;
   margin-bottom: 1.45rem;
+}
+
+.ruler--extended {
+  color: #e6e6e6;
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+.ruler--extended:after {
+  content: "";
+  border-bottom-width: 7px;
+  border-bottom-style: solid;
+  position: absolute;
+  right: 120px;
+  left: 120px;
 }
 
 /**

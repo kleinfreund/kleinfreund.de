@@ -11,7 +11,7 @@ Ihr könnt mir jederzeit eine [nette Mail](mailto:phrudloff@gmail.com) schreiben
 
 Für's Protokoll: Ich bin der __Philipp Rudloff__. Liebesbriefe gehen nach __08626 Adorf__ am __Markt 32__.
 
----
+<hr class="ruler">
 
 ## Rechtliches
 
