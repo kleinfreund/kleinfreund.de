@@ -1,24 +1,20 @@
 ---
 layout: default
-site-title: Impressum
-page-title: "Muss man haben, sagt <em>man</em>&hellip;"
-page-class: page--impressum
-permalink: /impressum/
+site-title: Legal Disclosure
+page-class: page--disclaimer
+permalink: /disclaimer/
 ---
-## Kontakt
+## Contact
 
-Ihr könnt mir jederzeit eine [nette Mail](mailto:phrudloff@gmail.com) schreiben. Ich schreibe dann auch nett zurück.
+Write me a friendly mail and I answer just as friendly.
 
-Für's Protokoll: Ich bin der __Philipp Rudloff__. Liebesbriefe gehen nach __08626 Adorf__ am __Markt 32__.
+This site hurts no one. If it bit you, send me a signal. Love letters are welcome as well.
 
-<hr class="ruler">
+Philipp Rudloff<br>
+Markt 32<br>
+08626 Adorf<br>
+[ph.rudloff@gmail.com](mailto:phrudloff@gmail.com)
 
-## Rechtliches
+## Disclaimer
 
-Die Seite tut keinem weh. Falls sie doch bissig wird, dann bitte ein Signal setzen. Bitte besucht mich nicht gleich zu Hause.
-
-### Haftungsausschluss
-
-Für die Richtigkeit sämtlicher Inhalte übernehme ich keine Garantie. Den Informationen liegen Quellen zugrunde, die ich für vertrauenswürdig halte. Eine Haftung oder Garantie für die Aktualität, Richtigkeit und Vollständigkeit der zur Verfügung gestellten Informationen kann aber nicht übernommen werden.
-
-Trotz sorgfältiger inhaltlicher Kontrolle übernehme ich keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich. Ich habe keinerlei Einfluss auf die Gestaltung und die Inhalte der gelinkten Seiten. Deshalb distanziere ich mich hiermit ausdrücklich von allen Inhalten aller gelinkten Seiten. Diese Erklärung gilt für alle auf dieser Website veröffentlichten Links.
+You expect dissociation from links?

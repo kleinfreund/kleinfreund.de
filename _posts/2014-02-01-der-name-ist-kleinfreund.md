@@ -1,26 +1,22 @@
 ---
 layout: post
-site-title: Der Name ist kleinfreund
+site-title: The name is kleinfreund
 ---
-Ja, Hallo! In den letzten Wochen ist hier etwas enstanden. Quasi meine erste richtig eigene und selbst erstelle Website. Hier geht's los.
+Yes, Hello! Something happened in the last weeks. My first real personal and self-built website. Here it starts.
 
-Angefangen hat alles mit dem Abschlussprojekt für das Fach Webdesign während meiner Ausbildung zum Gestaltungstechnischen Assistenten für Medien und Kommunikation. Ein toller Name, nicht wahr? Aufgabe war das Erstellen einer eigenen Website, samt Portfolio bestehend aus Arbeiten der zwei Ausbildungsjahre.
+It all began with the final project in our web design class during my apprenticeship as a _Gestaltungstechnischer Assistent_ (loosely translated to design assistant). We were to build our own website, including a portfolio containing works from the past two years.
 
-Nun, das hatte ich ja ohnehin schon lange vor mir her geschoben. Grob in Gedanken skizziert stellte ich mir eine vollkommen statische und minimalistische Seite vor. Auf dem Weg dahin habe ich aber etwas weiter ausgeholt.
+That's something I kept on cold storage for a long time now. Roughly outlined in my mind, I imagined a purely static and minimalistic site. On my way I took a rather big swing.
 
-## Wenn man schon einmal dabei ist&hellip;
+## While we're at it&hellip;
 
-Dann kann man sich ja auch gleich noch die ganzen Sachen anschauen, die der Rest dieser coolen jungen (und alten) Leute heute so benutzt. Die Seite ist zwar immer noch recht minimalistisch und statisch , aber nicht so, wie ich das anfangs noch erdacht hatte.
+Why not have a look on the things the cool young kids use these days. Instead of using vanilla HTML and CSS, I ended up with a more powerful set of tools on my belt:
 
-Statt ganz klassisch alles mit Vanille-HTML und Vanille-CSS zu machen, sind folgende Helferlein zum Einsatz gekommen:
-
-* [SASS](http://sass-lang.com) &ndash; Sagt man wirklich _Präprozessor_?
-* [inuitcss](http://inuitcss.com) &ndash; handliches CSS Framework vom Harry Roberts
-* [GitHub Pages](http://pages.github.com/) &ndash; Speicher für statische Seiten; Großartig!
-* [Jekyll](http://jekyllrb.com/) &ndash; Statische Seiten samt Blog
-
-In der nächsten Zeit schreibe ich, warum ich diese Werkzeuge nutze und inwiefern sie mir helfen.
+* [SASS](http://sass-lang.com)
+* [inuitcss](http://inuitcss.com) &ndash; CSS Framework by Harry Roberts
+* [GitHub Pages](http://pages.github.com/) &ndash; Hosting the source code
+* [Jekyll](http://jekyllrb.com/) &ndash; Generating a static blog page
 
 ---
 
-Dann wollen wir doch mal sehen, wo das hier hin führt. __Leinen los, den Countdown starten, auf zu unendlichen Weiten.__
+Now let's see where this leads to. __Cast off, the countdown has started, towards final frontiers.__

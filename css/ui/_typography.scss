@@ -53,33 +53,51 @@ figure > img {
 /**
  * Rulers
  */
-.ruler {
-    color: $light-ui-color;
+hr {
+    position: relative;
     border: 0;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    margin-bottom: $base-spacing-unit - 1px;
-    margin-bottom: (($base-spacing-unit - 1px) / $base-font-size)*1rem;
-}
-
-.ruler--extended {
-    color: #e6e6e6;
-    border-bottom: 0;
     margin-bottom: 0;
     padding-top: $base-spacing-unit;
     padding-bottom: $base-spacing-unit * 2;
+}
 
-    &:after {
-        content: "";
-        border-bottom-width: 7px;
-        border-bottom-style: solid;
+hr:after {
+    content: "";
+    color: #e6e6e6;
+    border-bottom-width: 8px;
+    border-bottom-style: solid;
 
-        position: absolute;
-        right: $base-spacing-unit * 4;
-        left: $base-spacing-unit * 4;
+    position: absolute;
+    right: -$base-spacing-unit * 6;
+    bottom: $base-spacing-unit * 1.5;
+    left: -$base-spacing-unit * 6;
+
+    @include media-query(portable) {
+        right: 0;
+        left: 0;
     }
 }
 
+%seperator {
+    position: relative;
+
+    &:not(:last-of-type):after {
+        content: "";
+        color: #e6e6e6;
+        border-bottom-width: 8px;
+        border-bottom-style: solid;
+
+        position: absolute;
+        right: -$base-spacing-unit * 6;
+        bottom: 0;
+        left: -$base-spacing-unit * 6;
+
+        @include media-query(portable) {
+            right: 0;
+            left: 0;
+        }
+    }
+}
 
 
 /**
@@ -115,7 +133,7 @@ pre, code, kbd, samp {
 pre {
     white-space: pre;
     word-wrap: normal;
-    color: $white-color;
+    color: $white;
     background-color: $base-ui-color;
     padding: $base-spacing-unit / 4 $half-spacing-unit;
     border-radius: 3px;
@@ -123,7 +141,7 @@ pre {
 
 pre {
     code, kbd, samp {
-        color: $white-color;
+        color: $white;
         @include font-size(16px);
     }
 }

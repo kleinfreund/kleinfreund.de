@@ -1,15 +1,15 @@
 ---
 layout: default
-site-title: Website von Philipp Rudloff
-page-title: Freundliche Artikel
+site-title: Moonbase of Philipp Rudloff
+page-title: Friendly Articles
 page-class: page--blog
 ---
-<ul class="post-list wrapper">
+<ul class="post-list">
     {% for post in paginator.posts %}
     <li>
         <article class="post">
             <a href="{{ post.url }}" class="post-list__link">
-                <time datetime="{{ post.date | date: "%Y-%m-%d" }}" class="post-list__time">{{ post.date | date: "%-d. %B %Y" | replace:"January","Januar" | replace:"February","Februar" | replace:"March","März" | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"December","Dezember" }}</time>
+                <time datetime="{{ post.date | date: "%Y-%m-%d" }}" class="post-list__time">{{ post.date | date: "%-d %B, %Y" }}</time>
                 <h2 class="post-list__title">{{ post.site-title }}</h2>
             </a>
             {{ post.excerpt }}
@@ -19,23 +19,23 @@ page-class: page--blog
 </ul>
 
 {% if paginator.total_pages > 1 %}
-<ol class="nav pagination wrapper">
+<ol class="nav pagination">
     <li class="pagination__prev">
         {% if paginator.previous_page %}
         {% if paginator.previous_page == 1 %}
-            <a href="/" rel="prev">Neuere</a>
+            <a href="/" rel="prev">Newer</a>
         {% else %}
-            <a href="/page{{paginator.previous_page}}" rel="prev">Neuere</a>
+            <a href="/page{{paginator.previous_page}}" rel="prev">Newer</a>
         {% endif %}
         {% else %}
-            Neuere
+            Newer
         {% endif %}
     </li><!--
  --><li class="pagination__next">
         {% if paginator.next_page %}
-            <a href="/page{{paginator.next_page}}" rel="next">Ältere</a>
+            <a href="/page{{paginator.next_page}}" rel="next">Older</a>
         {% else %}
-            Ältere
+            Older
         {% endif %}
     </li>
 </ol>

@@ -1700,65 +1700,6 @@ label,
  * Objects and abstractions
  */
 /*------------------------------------*\
-    $GRIDS
-\*------------------------------------*/
-/**
- * Fluid and nestable grid system, e.g.:
- *
-   <div class="grid">
-
-       <div class="grid__item  one-third">
-           <p>One third grid</p>
-       </div><!--
-
-    --><div class="grid__item  two-thirds">
-           <p>Two thirds grid</p>
-       </div><!--
-
-    --><div class="grid__item  one-half">
-           <p>One half grid</p>
-       </div><!--
-
-    --><div class="grid__item  one-quarter">
-           <p>One quarter grid</p>
-       </div><!--
-
-    --><div class="grid__item  one-quarter">
-           <p>One quarter grid</p>
-       </div>
-
-   </div>
- *
- * Demo: jsfiddle.net/inuitcss/CLYUC
- *
- */
-/**
- * Grid wrapper
- */
-.grid {
-  margin-left: -30px;
-  list-style: none;
-  margin-bottom: 0;
-}
-
-/**
- * Very infrequently occuring grid wrappers as children of grid wrappers.
- */
-.grid > .grid {
-  margin-left: 0;
-}
-
-/**
- * Grid
- */
-.grid__item {
-  display: inline-block;
-  width: 100%;
-  padding-left: 30px;
-  vertical-align: top;
-}
-
-/*------------------------------------*\
     $NAV
 \*------------------------------------*/
 /**
@@ -3229,12 +3170,12 @@ main {
   }
 }
 
-.page-content, .post, .post-list {
+.page-content, .post-list {
   margin-bottom: 60px;
   margin-bottom: 3rem;
 }
 @media only screen and (min-width: 681px) {
-  .page-content, .post, .post-list {
+  .page-content, .post-list {
     margin-bottom: 120px;
     margin-bottom: 6rem;
   }
@@ -3284,29 +3225,49 @@ figure > img {
 /**
  * Rulers
  */
-.ruler {
-  color: #aaaaaa;
+hr {
+  position: relative;
   border: 0;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  margin-bottom: 29px;
-  margin-bottom: 1.45rem;
-}
-
-.ruler--extended {
-  color: #e6e6e6;
-  border-bottom: 0;
   margin-bottom: 0;
   padding-top: 30px;
   padding-bottom: 60px;
 }
-.ruler--extended:after {
+
+hr:after {
   content: "";
-  border-bottom-width: 7px;
+  color: #e6e6e6;
+  border-bottom-width: 8px;
   border-bottom-style: solid;
   position: absolute;
-  right: 120px;
-  left: 120px;
+  right: -180px;
+  bottom: 45px;
+  left: -180px;
+}
+@media only screen and (max-width: 1023px) {
+  hr:after {
+    right: 0;
+    left: 0;
+  }
+}
+
+.post-list > li {
+  position: relative;
+}
+.post-list > li:not(:last-of-type):after {
+  content: "";
+  color: #e6e6e6;
+  border-bottom-width: 8px;
+  border-bottom-style: solid;
+  position: absolute;
+  right: -180px;
+  bottom: 0;
+  left: -180px;
+}
+@media only screen and (max-width: 1023px) {
+  .post-list > li:not(:last-of-type):after {
+    right: 0;
+    left: 0;
+  }
 }
 
 /**
@@ -3353,7 +3314,7 @@ pre code, pre kbd, pre samp {
 
 .page-head {
   padding-left: 15px;
-  background-color: #323232;
+  background-color: #2b2b2b;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 }
 @media only screen and (min-width: 681px) {
@@ -3374,15 +3335,11 @@ pre code, pre kbd, pre samp {
 }
 
 .page--portfolio .page-head {
-  background-color: #ffaa10;
+  background-color: #ec5e27;
 }
 
-.page--profil .page-head {
+.page--profile .page-head {
   background-color: #6d91da;
-}
-
-.page--impressum .page-head {
-  background-color: #e04345;
 }
 
 .page-content a:hover {
@@ -3400,26 +3357,25 @@ pre code, pre kbd, pre samp {
 
 .page--portfolio a,
 .page--portfolio h1, .page--portfolio h2, .page--portfolio h3, .page--portfolio h4, .page--portfolio h5, .page--portfolio h6 {
-  color: #eb9800;
+  color: #dd4b13;
 }
 
-.page--profil a,
-.page--profil h1, .page--profil h2, .page--profil h3, .page--profil h4, .page--profil h5, .page--profil h6 {
+.page--profile a,
+.page--profile h1, .page--profile h2, .page--profile h3, .page--profile h4, .page--profile h5, .page--profile h6 {
   color: #507bd3;
-}
-
-.page--impressum a,
-.page--impressum h1, .page--impressum h2, .page--impressum h3, .page--impressum h4, .page--impressum h5, .page--impressum h6 {
-  color: #db2427;
 }
 
 .post-list,
 .post-list > li {
   border: 0;
 }
-.post-list li {
-  margin-bottom: 60px;
-  padding: 0;
+.post-list > li {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.post p:last-of-type {
+  margin-bottom: 0;
 }
 
 .post-list__time,
@@ -3430,31 +3386,6 @@ pre code, pre kbd, pre samp {
 .post-list__time {
   display: block;
   color: #aaaaaa;
-}
-
-.grid {
-  margin-left: -15px;
-}
-.grid figure {
-  margin-bottom: 0;
-}
-
-.grid__item {
-  padding-bottom: 15px;
-  padding-left: 15px;
-}
-
-.grid__link {
-  color: white !important;
-}
-
-.grid__caption {
-  font-size: 16px;
-  font-size: 0.8rem;
-  line-height: 1.875;
-  padding: 7.5px;
-  color: #444444;
-  font-weight: 300;
 }
 
 .site-logo {
@@ -3477,8 +3408,8 @@ pre code, pre kbd, pre samp {
 
 .site-nav {
   margin-bottom: 0;
-  padding-right: 90px;
-  border-bottom: 7px solid #323232;
+  padding-right: 120px;
+  border-bottom: 7px solid #2b2b2b;
   text-align: right;
 }
 @media only screen and (max-width: 680px) {
@@ -3515,15 +3446,11 @@ pre code, pre kbd, pre samp {
 }
 
 .page--portfolio .site-nav {
-  border-color: #eb9800;
+  border-color: #dd4b13;
 }
 
-.page--profil .site-nav {
+.page--profile .site-nav {
   border-color: #507bd3;
-}
-
-.page--impressum .site-nav {
-  border-color: #db2427;
 }
 
 .site-nav__item--blog {
@@ -3534,34 +3461,22 @@ pre code, pre kbd, pre samp {
 }
 
 .site-nav__item--portfolio {
-  background-color: #eb9800;
+  background-color: #dd4b13;
 }
 .page:not(.page--portfolio) .site-nav__item--portfolio:hover {
-  background-color: #ffaa10;
+  background-color: #ec5e27;
 }
 
-.site-nav__item--profil {
+.site-nav__item--profile {
   background-color: #507bd3;
 }
-.page:not(.page--profil) .site-nav__item--profil:hover {
+.page:not(.page--profile) .site-nav__item--profile:hover {
   background-color: #6d91da;
-}
-
-.site-nav__item--impressum {
-  background-color: #db2427;
-}
-.page:not(.page--impressum) .site-nav__item--impressum:hover {
-  background-color: #e04345;
-}
-
-.page--404 .site-nav__item {
-  background-color: #323232;
 }
 
 .page--blog .site-nav__item--blog,
 .page--portfolio .site-nav__item--portfolio,
-.page--profil .site-nav__item--profil,
-.page--impressum .site-nav__item--impressum {
+.page--profile .site-nav__item--profile {
   cursor: default;
 }
 
@@ -3571,10 +3486,10 @@ pre code, pre kbd, pre samp {
 
 .site-foot {
   background-color: #444444;
-  font-size: 16px;
-  font-size: 0.8rem;
-  line-height: 1.875;
   padding: 15px 30px;
+  font-size: 14px;
+  font-size: 0.7rem;
+  line-height: 2.14286;
 }
 .site-foot,
 .site-foot a {

@@ -1,18 +1,18 @@
 ---
 layout: post--portfolio
-site-title: "Gesch&auml;ftspapier: RUDELOVE"
+site-title: "RUDELOVE business papers"
 permalink: /portfolio/rudelove/
 ---
-![RUDELOVE Logo](/img/rudelove/logo.png)
+![RUDELOVE logo](/img/rudelove/logo.png)
 
-Für eine fiktive Firma das Geschäftspapier, Visitenkarten und den Briefumschlaf gestalten war das Thema. Auch ein passendes Logo gehört da natürlich dazu. Wie man eben so ist hält man sich zunächst eine halbe Ewigkeit damit auf, sich eine möglichst dämliche Firma zu überlegen.
+We created business papers, cards and letterheads and a fitting logo for a fictional company.
 
-![RUDELOVE Briefbogen](/img/rudelove/briefbogen.png)
+![RUDELOVE letterhead](/img/rudelove/letterhead.png)
 
-Was mein Unternehmen _RUDELOVE_ nun aber eigentlich macht, weiß ich garnicht. Aber an den Schöpfer dieses wunderbaren Nachnamenwortspiels kann man ja mal schreiben.
+I don't know what _RUDELOVE_ is supposed to be. It's a fictional company, right?
 
-![RUDELOVE Visitenkarte](/img/rudelove/visitenkarten.png)
+![RUDELOVE business card](/img/rudelove/business-card.png)
 
-Spätestens im eigentlichen Brief offenbart sich dann, was hinter der Fantasiefirma steckt: Jemand, der Blindtexte googlet. Großartig. Ganz toll, Philipp. So wird das nichts.
+Right. I didn't came up with a decent idea of what this company should do.
 
-![RUDELOVE Briefpapier](/img/rudelove/briefpapier.png)
+![RUDELOVE stationary](/img/rudelove/stationary.png)

@@ -1,9 +1,9 @@
 ---
 layout: post--portfolio
-site-title: "Fotografie: Landscapes"
+site-title: "Photography: Landscapes"
 permalink: /portfolio/landscapes/
 ---
-Ein paar Momentaufnahmen aus dem letzten Jahr. Ich sollte mir wirklich eine anständige Kamera anschaffen. Dann muss ich nur noch dran denken, die auch immer einzupacken und auch zu benutzen. Klingt nach 'nem Plan? Finde ich auch. Hat jemand Vorschläge dazu?
+A few snapshots from last year. I should really get a decent camera. Then remind to take it with me and actually use it. Sounds like a plan.
 
 ![Landscapes 1](/img/landscapes/landscapes-1.jpg)
 

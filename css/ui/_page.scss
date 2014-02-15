@@ -7,10 +7,6 @@
     }
 }
 
-.post {
-    @extend %vertical-gap-bottom;
-}
-
     .post__meta {
         color: $light-ui-color;
     }

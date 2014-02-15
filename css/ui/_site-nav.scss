@@ -1,6 +1,6 @@
 .site-nav {
     margin-bottom: 0;
-    padding-right: $base-spacing-unit * 3;
+    padding-right: $base-spacing-unit * 4;
     border-bottom: 7px solid $dark-ui-color;
     text-align: right;
 
@@ -22,7 +22,7 @@
 
         > a {
             padding: $half-spacing-unit $base-spacing-unit;
-            color: $white-color;
+            color: $white;
             text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 
             @include media-query(palm) {
@@ -54,29 +54,16 @@
         }
     }
 
-    .site-nav__item--profil {
-        background-color: $profil-color;
+    .site-nav__item--profile {
+        background-color: $profile-color;
 
-        .page:not(.page--profil) &:hover {
-            background-color: $profil-color-light;
+        .page:not(.page--profile) &:hover {
+            background-color: $profile-color-light;
         }
-    }
-
-    .site-nav__item--impressum {
-        background-color: $impressum-color;
-
-        .page:not(.page--impressum) &:hover {
-            background-color: $impressum-color-light;
-        }
-    }
-
-    .page--404 .site-nav__item {
-        background-color: $dark-ui-color;
     }
 
     .page--blog      .site-nav__item--blog,
     .page--portfolio .site-nav__item--portfolio,
-    .page--profil    .site-nav__item--profil,
-    .page--impressum .site-nav__item--impressum {
+    .page--profile   .site-nav__item--profile {
         cursor: default;
     }

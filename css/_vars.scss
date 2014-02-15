@@ -78,7 +78,6 @@ $micro-size:        12px;
 
 $base-ui-color:     #444;
 
-$use-grids:         true;
 $use-nav:           true;
 $use-pagination:    true;
 $use-block-list:    true;
@@ -95,21 +94,18 @@ $use-block-list:    true;
  */
 $background-color:      #efefef;
 $foreground-color:      #444;
-$white-color:           #fff;
+$white:                 #fff;
 
-$light-ui-color:        #aaa;
-$dark-ui-color:         darken($base-ui-color, 7%);
+$light-ui-color:        lighten($base-ui-color, 40%);
+$dark-ui-color:         darken($base-ui-color, 10%);
 
 $blog-color:            #5a9b00;
 $blog-color-light:      lighten($blog-color, 7%);
 
-$profil-color:          #507bd3;
-$profil-color-light:    lighten($profil-color, 7%);
+$profile-color:         #507bd3;
+$profile-color-light:   lighten($profile-color, 7%);
 
-$portfolio-color:       #eb9800;
+$portfolio-color:       #dd4b13;
 $portfolio-color-light: lighten($portfolio-color, 7%);
-
-$impressum-color:       #db2427;
-$impressum-color-light: lighten($impressum-color, 7%);
 
 $lap-start:             681px;

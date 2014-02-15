@@ -1,46 +1,46 @@
 ---
 layout: default
 site-title: Portfolio
-page-title: "&hellip;wohl eher Sammelsorium"
+page-title: "Loose Collection"
 page-class: page--portfolio
 permalink: /portfolio/
 ---
-## Gestaltungstechnischer Assistent für Medien und Kommunikation
+## Design Assistant for Media and Communication
 
-So nannten sie unsere Ausbildung und schufen sie im letzten Jahr dann ab. Sinn hatte das keinen gemacht. Es ging wohl um's Geld. Wir sind der letzte GTA-Jahrgang. Eine Träne im Knopfloch.
+Loosely translated from the German _Gestaltungstechnischer Assistent für Medien und Kommunikation_. Doesn't sound any better if you ask me. However they cancelled this apprenticeship and many others in 2012. We're the last _GTA_ year. A tear in the eye.
 
-Hier sind hauptsächlich Arbeiten aus den Fächern Typografie, Fotografie und Webdesign zu finden.
+These are some of my works from this time. Mostly things from our typography, photography and web design classes.
 
-## Website von Anke &amp; Andreas Rudloff
+## Website of Anke &amp; Andreas Rudloff
 
-[![Website von Anke &amp; Andreas Rudloff](/img/artrudloff/thumbnail.jpg)](/portfolio/artrudloff)
+[![Website of Anke &amp; Andreas Rudloff](/img/artrudloff/thumbnail.jpg)](/portfolio/artrudloff)
 
-<hr class="ruler ruler--extended">
+---
 
-## Geschäftspapier: RUDELOVE
+## Business Papers: RUDELOVE
 
-[![Gesch&auml;ftspapier: RUDELOVE](/img/rudelove/thumbnail.png)](/portfolio/rudelove)
+[![Business Papers: RUDELOVE](/img/rudelove/thumbnail.png)](/portfolio/rudelove)
 
-<hr class="ruler ruler--extended">
+---
 
-## Neujahrs-Typografie
+## New Years Typografie
 
-[![Neujahrs-Typografie](/img/neujahrs-typografie/thumbnail.png)](/portfolio/neujahrs-typografie)
+[![Neujahrs-Typografie](/img/new-years-typografie/thumbnail.png)](/portfolio/new-years-typografie)
 
-<hr class="ruler ruler--extended">
+---
 
-## Piktogramme
+## Pictograms
 
-[![Piktogramme](/img/piktogramme/thumbnail.png)](/portfolio/piktogramme)
+[![Piktogramme](/img/pictograms/thumbnail.png)](/portfolio/pictograms)
 
-<hr class="ruler ruler--extended">
+---
 
 ## Landscapes
 
 [![Landscapes](/img/landscapes/thumbnail.jpg)](/portfolio/landscapes)
 
-<hr class="ruler ruler--extended">
+---
 
 ## Martin &amp; Phil
 
-[![Martin &amp; Phil](/img/martin-und-phil/thumbnail.jpg)](/portfolio/martin-und-phil)
+[![Martin &amp; Phil](/img/martin-and-phil/thumbnail.jpg)](/portfolio/martin-and-phil)
