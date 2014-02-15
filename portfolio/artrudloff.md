@@ -1,9 +1,9 @@
 ---
 layout: post--portfolio
-site-title: "Website: artrudloff.de"
+title: "Website: artrudloff.de"
 permalink: /portfolio/artrudloff/
 ---
-For my parents, I built [artrudloff.de](http://artrudloff.de). It's a showcase of their work.
+For my parents, I built [artrudloff.de](http://artrudloff.de). It’s a showcase of their work.
 
 The site is a self-coded theme for Wordpress. Last year I added [inuitcss](http://inuitcss.com) and a custom [Teehan+Lax Navigation](http://alexcican.com/post/teehan-lax-navigation).
 

@@ -1,6 +1,7 @@
 ---
+date: 2014-02-11 12:06:38
 layout: post
-site-title: Music
+title: Music
 ---
 People tend to use services like Spotify more and more these days. Some of them even use it exclusively. I still use iTunes.
 
@@ -14,6 +15,6 @@ Yes, I need to go through my podcasts. I know that.
 
 iTunes manages my music directory automatically. When I open a mp3, it adds it to the library and copies it to the media directory.
 
-While driving, I'm using an iPod touch. Sadly, my latch is about to die. Sometimes the sound is too quiet or with cracking noises.
+While driving, I’m using an iPod touch. Sadly, my latch is about to die. Sometimes the sound is too quiet or with cracking noises.
 
 How do you handle your music? Do you even _handle_ it? Streaming?

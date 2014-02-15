@@ -1,6 +1,6 @@
 ---
 layout: default
-site-title: Moonbase of Philipp Rudloff
+title: Moonbase of Philipp Rudloff
 page-title: Friendly Articles
 page-class: page--blog
 ---
@@ -10,7 +10,7 @@ page-class: page--blog
         <article class="post">
             <a href="{{ post.url }}" class="post-list__link">
                 <time datetime="{{ post.date | date: "%Y-%m-%d" }}" class="post-list__time">{{ post.date | date: "%-d %B, %Y" }}</time>
-                <h2 class="post-list__title">{{ post.site-title }}</h2>
+                <h2 class="post-list__title">{{ post.title }}</h2>
             </a>
             {{ post.excerpt }}
         </article>

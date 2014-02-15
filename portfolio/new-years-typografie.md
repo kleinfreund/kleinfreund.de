@@ -1,9 +1,9 @@
 ---
 layout: post--portfolio
-site-title: "New Years Typografie"
+site-title: New Years Typografie
 permalink: /portfolio/new-years-typografie/
 ---
-The new year in typography started with some experiments around hierarchy and structure of type. It's too easy to get lost on a didigtal playground like InDesign.
+The new year in typography started with some experiments around hierarchy and structure of type. It’s too easy to get lost on a didigtal playground like InDesign.
 
 ![2014 #1](/img/new-years-typografie/2014-1.png)
 

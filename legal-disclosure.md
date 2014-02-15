@@ -1,8 +1,8 @@
 ---
 layout: default
-site-title: Legal Disclosure
+title: Legal Disclosure
 page-class: page--disclaimer
-permalink: /disclaimer/
+permalink: /legal-disclosure/
 ---
 ## Contact
 

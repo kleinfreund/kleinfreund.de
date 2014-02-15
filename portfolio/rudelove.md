@@ -1,6 +1,6 @@
 ---
 layout: post--portfolio
-site-title: "RUDELOVE business papers"
+title: RUDELOVE business papers
 permalink: /portfolio/rudelove/
 ---
 ![RUDELOVE logo](/img/rudelove/logo.png)
@@ -9,10 +9,10 @@ We created business papers, cards and letterheads and a fitting logo for a ficti
 
 ![RUDELOVE letterhead](/img/rudelove/letterhead.png)
 
-I don't know what _RUDELOVE_ is supposed to be. It's a fictional company, right?
+I don’t know what _RUDELOVE_ is supposed to be. It’s a fictional company, right?
 
 ![RUDELOVE business card](/img/rudelove/business-card.png)
 
-Right. I didn't came up with a decent idea of what this company should do.
+Right. I didn’t came up with a decent idea of what this company should do.
 
 ![RUDELOVE stationary](/img/rudelove/stationary.png)

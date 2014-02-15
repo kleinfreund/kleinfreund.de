@@ -1,6 +1,6 @@
 ---
 layout: post--portfolio
-site-title: "Pictograms"
+title: Pictograms
 permalink: /portfolio/pictograms/
 ---
 Limited to two basic geometrical forms, we should to animals as pictograms.

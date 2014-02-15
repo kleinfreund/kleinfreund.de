@@ -1,9 +1,9 @@
 ---
 layout: post--portfolio
-site-title: "Martin &amp; Phil"
+title: Martin & Phil
 permalink: /portfolio/martin-and-phil/
 ---
-Our first steps in studio photography were classic trial and error. Yes, I'm blonde. I like my hair longer.
+Our first steps in studio photography were classic trial and error. Yes, I’m blonde. I like my hair longer.
 
 ![Martin &amp; Phil 1](/img/martin-and-phil/portraet-1.jpg)
 
