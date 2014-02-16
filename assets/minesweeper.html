@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Minesweeper!</title>
+
+    <link rel="stylesheet" href="minesweeper.css">
+
+    <meta name="description" content="Minesweeper!?">
+    <!--[if lt IE 9]>
+        <script src="/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="game">
+        <div class="tile tile-00-00">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-01-00">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-02-00">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-03-00">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-04-00">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-05-00">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-06-00">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-07-00">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-08-00">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-09-00">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-10-00">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-11-00">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-12-00">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-13-00">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-14-00">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-15-00">
+            <img src="" alt="" class="" />
+        </div>
+
+
+        <div class="tile tile-00-01">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-01-01">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-02-01">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-03-01">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-04-01">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-05-01">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-06-01">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-07-01">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-08-01">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-09-01">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-10-01">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-11-01">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-12-01">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-13-01">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-14-01">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-15-01">
+            <img src="" alt="" class="" />
+        </div>
+
+
+        <div class="tile tile-00-02">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-01-02">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-02-02">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-03-02">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-04-02">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-05-02">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-06-02">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-07-02">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-08-02">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-09-02">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-10-02">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-11-02">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-12-02">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-13-02">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-14-02">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-15-02">
+            <img src="" alt="" class="" />
+        </div>
+
+
+        <div class="tile tile-00-03">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-01-03">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-02-03">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-03-03">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-04-03">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-05-03">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-06-03">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-07-03">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-08-03">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-09-03">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-10-03">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-11-03">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-12-03">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-13-03">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-14-03">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-15-03">
+            <img src="" alt="" class="" />
+        </div>
+
+
+        <div class="tile tile-00-04">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-01-04">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-02-04">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-03-04">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-04-04">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-05-04">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-06-04">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-07-04">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-08-04">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-09-04">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-10-04">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-11-04">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-13-04">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-13-04">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-14-04">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-15-04">
+            <img src="" alt="" class="" />
+        </div>
+
+
+        <div class="tile tile-00-05">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-01-05">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-02-05">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-03-05">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-04-05">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-05-05">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-06-05">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-07-05">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-08-05">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-09-05">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-10-05">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-11-05">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-12-05">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-13-05">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-14-05">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-15-05">
+            <img src="" alt="" class="" />
+        </div>
+
+
+        <div class="tile tile-00-06">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-01-06">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-02-06">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-03-06">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-04-06">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-05-06">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-06-06">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-07-06">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-08-06">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-09-06">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-10-06">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-11-06">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-12-06">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-13-06">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-14-06">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-15-06">
+            <img src="" alt="" class="" />
+        </div>
+
+
+        <div class="tile tile-00-07">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-01-07">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-02-07">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-03-07">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-04-07">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-05-07">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-06-07">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-07-07">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-08-07">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-09-07">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-10-07">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-11-07">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-12-07">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-13-07">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-14-07">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-15-07">
+            <img src="" alt="" class="" />
+        </div>
+
+
+        <div class="tile tile-00-08">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-01-08">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-02-08">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-03-08">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-04-08">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-05-08">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-06-08">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-07-08">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-08-08">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-09-08">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-10-08">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-11-08">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-12-08">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-13-08">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-14-08">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-15-08">
+            <img src="" alt="" class="" />
+        </div>
+
+
+        <div class="tile tile-00-09">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-01-09">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-02-09">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-03-09">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-04-09">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-05-09">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-06-09">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-07-09">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-08-09">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-09-09">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-10-09">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-11-09">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-12-09">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-13-09">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-14-09">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-15-09">
+            <img src="" alt="" class="" />
+        </div>
+
+
+        <div class="tile tile-00-10">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-01-10">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-02-10">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-03-10">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-04-10">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-05-10">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-06-10">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-07-10">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-08-10">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-09-10">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-10-10">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-11-10">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-12-10">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-13-10">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-14-10">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-15-10">
+            <img src="" alt="" class="" />
+        </div>
+
+
+        <div class="tile tile-00-11">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-01-11">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-02-11">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-03-11">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-04-11">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-05-11">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-06-11">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-07-11">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-08-11">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-09-11">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-10-11">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-11-11">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-12-11">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-13-11">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-14-11">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-15-11">
+            <img src="" alt="" class="" />
+        </div>
+
+
+        <div class="tile tile-00-12">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-01-12">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-02-12">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-03-12">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-04-12">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-05-12">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-06-12">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-07-12">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-08-12">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-09-12">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-10-12">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-11-12">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-12-12">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-13-12">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-14-12">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-15-12">
+            <img src="" alt="" class="" />
+        </div>
+
+
+        <div class="tile tile-00-13">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-01-13">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-02-13">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-03-13">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-04-13">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-05-13">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-06-13">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-07-13">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-08-13">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-09-13">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-10-13">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-11-13">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-12-13">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-13-13">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-14-13">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-15-13">
+            <img src="" alt="" class="" />
+        </div>
+
+
+        <div class="tile tile-00-14">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-01-14">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-02-14">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-03-14">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-04-14">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-05-14">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-06-14">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-07-14">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-08-14">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-09-14">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-10-14">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-11-14">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-12-14">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-13-14">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-14-14">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-15-14">
+            <img src="" alt="" class="" />
+        </div>
+
+
+        <div class="tile tile-00-15">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-01-15">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-02-15">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-03-15">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-04-15">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-05-15">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-06-15">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-07-15">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-08-15">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-09-15">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-10-15">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-11-15">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-12-15">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-13-15">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-14-15">
+            <img src="" alt="" class="" />
+        </div>
+        <div class="tile tile-15-15">
+            <img src="" alt="" class="" />
+        </div>
+    </div>
+
+    <div class="info-box">
+
+    </div>
+</div>
+
+</body>
+</html>
