@@ -448,6 +448,14 @@
         "ac40651f"
       ]
     },
+    "b17793f0": {
+      "id": "b17793f0",
+      "pid": "3d35895f",
+      "path": "css\\ui\\_page-head.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
     "25f95ef3": {
       "id": "25f95ef3",
       "pid": "3d35895f",
@@ -471,27 +479,9 @@
       "parents": [
         "ac40651f"
       ]
-    },
-    "b17793f0": {
-      "id": "b17793f0",
-      "pid": "3d35895f",
-      "path": "css\\ui\\_page-head.scss",
-      "parents": [
-        "ac40651f"
-      ]
     }
   },
   "images": {
-    "43999068": {
-      "id": "43999068",
-      "pid": "3d35895f",
-      "path": "img\\rudelove\\briefpapier.png",
-      "size": 45067,
-      "name": "briefpapier.png",
-      "type": "Png",
-      "initialSize": 46403,
-      "status": "OPTIMIZED"
-    },
     "e796c869": {
       "id": "e796c869",
       "pid": "3d35895f",
@@ -540,16 +530,6 @@
       "name": "thumbnail.jpg",
       "type": "Jpg",
       "initialSize": 18456,
-      "status": "OPTIMIZED"
-    },
-    "951cbe57": {
-      "id": "951cbe57",
-      "pid": "3d35895f",
-      "path": "img\\ich.jpg",
-      "size": 284190,
-      "name": "ich.jpg",
-      "type": "Jpg",
-      "initialSize": 285322,
       "status": "OPTIMIZED"
     },
     "5acc45b1": {
@@ -612,176 +592,6 @@
       "initialSize": 64100,
       "status": "OPTIMIZED"
     },
-    "efea31f5": {
-      "id": "efea31f5",
-      "pid": "3d35895f",
-      "path": "img\\martin-und-phil\\portraet-1.jpg",
-      "size": 215016,
-      "name": "portraet-1.jpg",
-      "type": "Jpg",
-      "initialSize": 215926,
-      "status": "OPTIMIZED"
-    },
-    "93dde2d4": {
-      "id": "93dde2d4",
-      "pid": "3d35895f",
-      "path": "img\\martin-und-phil\\portraet-2.jpg",
-      "size": 204372,
-      "name": "portraet-2.jpg",
-      "type": "Jpg",
-      "initialSize": 206302,
-      "status": "OPTIMIZED"
-    },
-    "1c017807": {
-      "id": "1c017807",
-      "pid": "3d35895f",
-      "path": "img\\martin-und-phil\\portraet-3.jpg",
-      "size": 253650,
-      "name": "portraet-3.jpg",
-      "type": "Jpg",
-      "initialSize": 255700,
-      "status": "OPTIMIZED"
-    },
-    "57eba153": {
-      "id": "57eba153",
-      "pid": "3d35895f",
-      "path": "img\\martin-und-phil\\portraet-4.jpg",
-      "size": 204332,
-      "name": "portraet-4.jpg",
-      "type": "Jpg",
-      "initialSize": 206325,
-      "status": "OPTIMIZED"
-    },
-    "19a718e6": {
-      "id": "19a718e6",
-      "pid": "3d35895f",
-      "path": "img\\martin-und-phil\\thumbnail.jpg",
-      "size": 182550,
-      "name": "thumbnail.jpg",
-      "type": "Jpg",
-      "initialSize": 93287,
-      "status": "OPTIMIZED"
-    },
-    "a5f59d4c": {
-      "id": "a5f59d4c",
-      "pid": "3d35895f",
-      "path": "img\\neujahrs-typografie\\2014-1.png",
-      "size": 10022,
-      "name": "2014-1.png",
-      "type": "Png",
-      "initialSize": 12583,
-      "status": "OPTIMIZED"
-    },
-    "a1f4faf0": {
-      "id": "a1f4faf0",
-      "pid": "3d35895f",
-      "path": "img\\neujahrs-typografie\\2014-2.png",
-      "size": 17707,
-      "name": "2014-2.png",
-      "type": "Png",
-      "initialSize": 18794,
-      "status": "OPTIMIZED"
-    },
-    "b0f9f02d": {
-      "id": "b0f9f02d",
-      "pid": "3d35895f",
-      "path": "img\\neujahrs-typografie\\2014-3.png",
-      "size": 10747,
-      "name": "2014-3.png",
-      "type": "Png",
-      "initialSize": 11397,
-      "status": "OPTIMIZED"
-    },
-    "885e17d1": {
-      "id": "885e17d1",
-      "pid": "3d35895f",
-      "path": "img\\neujahrs-typografie\\2014-4.png",
-      "size": 5272,
-      "name": "2014-4.png",
-      "type": "Png",
-      "initialSize": 5721,
-      "status": "OPTIMIZED"
-    },
-    "4d57953a": {
-      "id": "4d57953a",
-      "pid": "3d35895f",
-      "path": "img\\neujahrs-typografie\\2014-5.png",
-      "size": 6512,
-      "name": "2014-5.png",
-      "type": "Png",
-      "initialSize": 7271,
-      "status": "OPTIMIZED"
-    },
-    "9e0af7ba": {
-      "id": "9e0af7ba",
-      "pid": "3d35895f",
-      "path": "img\\neujahrs-typografie\\2014-6.png",
-      "size": 7916,
-      "name": "2014-6.png",
-      "type": "Png",
-      "initialSize": 8738,
-      "status": "OPTIMIZED"
-    },
-    "7c0ea50c": {
-      "id": "7c0ea50c",
-      "pid": "3d35895f",
-      "path": "img\\neujahrs-typografie\\thumbnail.png",
-      "size": 21001,
-      "name": "thumbnail.png",
-      "type": "Png",
-      "initialSize": 11937,
-      "status": "OPTIMIZED"
-    },
-    "475ea645": {
-      "id": "475ea645",
-      "pid": "3d35895f",
-      "path": "img\\piktogramme\\raupe.png",
-      "size": 4721,
-      "name": "raupe.png",
-      "type": "Png",
-      "initialSize": 4781,
-      "status": "OPTIMIZED"
-    },
-    "c4d55444": {
-      "id": "c4d55444",
-      "pid": "3d35895f",
-      "path": "img\\piktogramme\\schildkroete.png",
-      "size": 5442,
-      "name": "schildkroete.png",
-      "type": "Png",
-      "initialSize": 5495,
-      "status": "OPTIMIZED"
-    },
-    "2dbcb709": {
-      "id": "2dbcb709",
-      "pid": "3d35895f",
-      "path": "img\\piktogramme\\schlange.png",
-      "size": 11061,
-      "name": "schlange.png",
-      "type": "Png",
-      "initialSize": 11117,
-      "status": "OPTIMIZED"
-    },
-    "320747ce": {
-      "id": "320747ce",
-      "pid": "3d35895f",
-      "path": "img\\piktogramme\\thumbnail.png",
-      "size": 12274,
-      "name": "thumbnail.png",
-      "type": "Png",
-      "initialSize": 3505,
-      "status": "OPTIMIZED"
-    },
-    "3a3d20ce": {
-      "id": "3a3d20ce",
-      "pid": "3d35895f",
-      "path": "img\\rudelove\\briefbogen.png",
-      "size": 14201,
-      "name": "briefbogen.png",
-      "type": "Png",
-      "initialSize": 14201,
-      "status": "OPTIMIZED"
-    },
     "ca5561f4": {
       "id": "ca5561f4",
       "pid": "3d35895f",
@@ -802,14 +612,224 @@
       "initialSize": 14116,
       "status": "OPTIMIZED"
     },
-    "c0db9456": {
-      "id": "c0db9456",
+    "0eeeb02b": {
+      "id": "0eeeb02b",
       "pid": "3d35895f",
-      "path": "img\\rudelove\\visitenkarten.png",
+      "path": "img\\martin-and-phil\\portraet-1.jpg",
+      "size": 215016,
+      "name": "portraet-1.jpg",
+      "type": "Jpg",
+      "initialSize": 215016,
+      "status": "OPTIMIZED"
+    },
+    "bc85e581": {
+      "id": "bc85e581",
+      "pid": "3d35895f",
+      "path": "img\\martin-and-phil\\portraet-2.jpg",
+      "size": 204372,
+      "name": "portraet-2.jpg",
+      "type": "Jpg",
+      "initialSize": 204372,
+      "status": "OPTIMIZED"
+    },
+    "2b7b9da8": {
+      "id": "2b7b9da8",
+      "pid": "3d35895f",
+      "path": "img\\martin-and-phil\\portraet-3.jpg",
+      "size": 253650,
+      "name": "portraet-3.jpg",
+      "type": "Jpg",
+      "initialSize": 253650,
+      "status": "OPTIMIZED"
+    },
+    "680ab5c4": {
+      "id": "680ab5c4",
+      "pid": "3d35895f",
+      "path": "img\\martin-and-phil\\portraet-4.jpg",
+      "size": 204332,
+      "name": "portraet-4.jpg",
+      "type": "Jpg",
+      "initialSize": 204332,
+      "status": "OPTIMIZED"
+    },
+    "4c5c1242": {
+      "id": "4c5c1242",
+      "pid": "3d35895f",
+      "path": "img\\martin-and-phil\\thumbnail.jpg",
+      "size": 182550,
+      "name": "thumbnail.jpg",
+      "type": "Jpg",
+      "initialSize": 182550,
+      "status": "OPTIMIZED"
+    },
+    "77129ef4": {
+      "id": "77129ef4",
+      "pid": "3d35895f",
+      "path": "img\\me.jpg",
+      "size": 284190,
+      "name": "me.jpg",
+      "type": "Jpg",
+      "initialSize": 284190,
+      "status": "OPTIMIZED"
+    },
+    "0162c8f4": {
+      "id": "0162c8f4",
+      "pid": "3d35895f",
+      "path": "img\\new-years-typografie\\2014-1.png",
+      "size": 10022,
+      "name": "2014-1.png",
+      "type": "Png",
+      "initialSize": 10022,
+      "status": "OPTIMIZED"
+    },
+    "b6ffb6bd": {
+      "id": "b6ffb6bd",
+      "pid": "3d35895f",
+      "path": "img\\new-years-typografie\\2014-2.png",
+      "size": 17707,
+      "name": "2014-2.png",
+      "type": "Png",
+      "initialSize": 17707,
+      "status": "OPTIMIZED"
+    },
+    "7afcfc21": {
+      "id": "7afcfc21",
+      "pid": "3d35895f",
+      "path": "img\\new-years-typografie\\2014-3.png",
+      "size": 10747,
+      "name": "2014-3.png",
+      "type": "Png",
+      "initialSize": 10747,
+      "status": "OPTIMIZED"
+    },
+    "888eac68": {
+      "id": "888eac68",
+      "pid": "3d35895f",
+      "path": "img\\new-years-typografie\\2014-4.png",
+      "size": 5272,
+      "name": "2014-4.png",
+      "type": "Png",
+      "initialSize": 5272,
+      "status": "OPTIMIZED"
+    },
+    "0a9784e8": {
+      "id": "0a9784e8",
+      "pid": "3d35895f",
+      "path": "img\\new-years-typografie\\2014-5.png",
+      "size": 6512,
+      "name": "2014-5.png",
+      "type": "Png",
+      "initialSize": 6512,
+      "status": "OPTIMIZED"
+    },
+    "f228b355": {
+      "id": "f228b355",
+      "pid": "3d35895f",
+      "path": "img\\new-years-typografie\\2014-6.png",
+      "size": 7916,
+      "name": "2014-6.png",
+      "type": "Png",
+      "initialSize": 7916,
+      "status": "OPTIMIZED"
+    },
+    "e648e742": {
+      "id": "e648e742",
+      "pid": "3d35895f",
+      "path": "img\\new-years-typografie\\thumbnail.png",
+      "size": 21001,
+      "name": "thumbnail.png",
+      "type": "Png",
+      "initialSize": 21001,
+      "status": "OPTIMIZED"
+    },
+    "4bd97c67": {
+      "id": "4bd97c67",
+      "pid": "3d35895f",
+      "path": "img\\pictograms\\caterpillar.png",
+      "size": 4721,
+      "name": "caterpillar.png",
+      "type": "Png",
+      "initialSize": 4721,
+      "status": "OPTIMIZED"
+    },
+    "7e2adc23": {
+      "id": "7e2adc23",
+      "pid": "3d35895f",
+      "path": "img\\pictograms\\snake.png",
+      "size": 11061,
+      "name": "snake.png",
+      "type": "Png",
+      "initialSize": 11061,
+      "status": "OPTIMIZED"
+    },
+    "69337db0": {
+      "id": "69337db0",
+      "pid": "3d35895f",
+      "path": "img\\pictograms\\thumbnail.png",
+      "size": 12274,
+      "name": "thumbnail.png",
+      "type": "Png",
+      "initialSize": 12274,
+      "status": "OPTIMIZED"
+    },
+    "01eb999d": {
+      "id": "01eb999d",
+      "pid": "3d35895f",
+      "path": "img\\pictograms\\turtle.png",
+      "size": 5442,
+      "name": "turtle.png",
+      "type": "Png",
+      "initialSize": 5442,
+      "status": "OPTIMIZED"
+    },
+    "3bedb09a": {
+      "id": "3bedb09a",
+      "pid": "3d35895f",
+      "path": "img\\posts\\itunes-album-cover.png",
+      "size": 237765,
+      "name": "itunes-album-cover.png",
+      "type": "Png",
+      "initialSize": 239172,
+      "status": "OPTIMIZED"
+    },
+    "93c7bb5b": {
+      "id": "93c7bb5b",
+      "pid": "3d35895f",
+      "path": "img\\posts\\itunes-various-artists.png",
+      "size": 54567,
+      "name": "itunes-various-artists.png",
+      "type": "Png",
+      "initialSize": 54612,
+      "status": "OPTIMIZED"
+    },
+    "95aeadc8": {
+      "id": "95aeadc8",
+      "pid": "3d35895f",
+      "path": "img\\rudelove\\business-card.png",
       "size": 40503,
-      "name": "visitenkarten.png",
+      "name": "business-card.png",
       "type": "Png",
       "initialSize": 40503,
+      "status": "OPTIMIZED"
+    },
+    "f5d8c1f7": {
+      "id": "f5d8c1f7",
+      "pid": "3d35895f",
+      "path": "img\\rudelove\\letterhead.png",
+      "size": 14201,
+      "name": "letterhead.png",
+      "type": "Png",
+      "initialSize": 14201,
+      "status": "OPTIMIZED"
+    },
+    "53628f04": {
+      "id": "53628f04",
+      "pid": "3d35895f",
+      "path": "img\\rudelove\\stationary.png",
+      "size": 45067,
+      "name": "stationary.png",
+      "type": "Png",
+      "initialSize": 45067,
       "status": "OPTIMIZED"
     }
   },
