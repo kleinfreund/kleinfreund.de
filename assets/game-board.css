@@ -1,0 +1,98 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #1f1f1f;
+}
+
+.wrapper {
+    display: table;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.wrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/*
+ *  GAME
+ *  Board size is calculated as follows:
+ */
+.game {
+    float: left;
+    width: 448px;
+    height: 448px;
+}
+
+@media screen and (max-width: 720px) {
+    .game {
+        float: none;
+        width: 320px;
+        height: 320px;
+    }
+}
+
+
+/*
+ *  TILE
+ */
+.tile {
+    float: left;
+
+    background-color: #323232;
+    box-shadow: inset -2px -2px 2px 0px #1f1f1f,
+                inset 2px 2px 2px 0px #3b3b3b;
+}
+
+.tile:hover,
+.tile:focus {
+    opacity: 0.8;
+    background-color: #f07314;
+    box-shadow: inset -2px -2px 2px 0px #d4630e,
+                inset 2px 2px 2px 0px #f28634;
+}
+
+.tile:active {
+    box-shadow: inset -2px -2px 2px 0px #f28634,
+                inset 2px 2px 2px 0px #d4630e;
+}
+
+.game-16-16 .tile {
+    width: 6.25%;
+    height: 6.25%;
+}
+
+
+
+/*
+ *  INFO-BOX
+ */
+.info-box {
+    float: right;
+    margin-left: 50px;
+    width: 200px;
+    height: 448px;
+    background-color: #323232;
+    box-shadow: inset -2px -2px 2px 0px #1f1f1f,
+                inset 2px 2px 2px 0px #3b3b3b;
+}
+
+@media screen and (max-width: 720px) {
+    .info-box {
+        float: none;
+        margin-top: 25px;
+        margin-left: 0;
+        width: 320px;
+        height: 142px;
+    }
+}
