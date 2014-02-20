@@ -3447,6 +3447,7 @@ pre code, pre kbd, pre samp {
     margin-left: 0;
     text-align: center;
     -webkit-box-flex: 1;
+    width: 33.333%;
     -webkit-flex: 1;
     flex: 1;
   }
