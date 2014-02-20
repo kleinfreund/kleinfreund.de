@@ -3460,8 +3460,8 @@ pre code, pre kbd, pre samp {
   .site-nav > li > a {
     display: block;
     font-weight: 300;
-    padding-right: 7.5px;
-    padding-left: 7.5px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 }
 
