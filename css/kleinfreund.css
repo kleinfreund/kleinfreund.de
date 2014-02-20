@@ -3434,6 +3434,7 @@ pre code, pre kbd, pre samp {
 @media only screen and (max-width: 680px) {
   .site-nav {
     padding-right: 0;
+    display: -webkit-box;
     display: -webkit-flex;
     display: flex;
   }
@@ -3445,6 +3446,7 @@ pre code, pre kbd, pre samp {
   .site-nav > li {
     margin-left: 0;
     text-align: center;
+    -webkit-box-flex: 1;
     -webkit-flex: 1;
     flex: 1;
   }

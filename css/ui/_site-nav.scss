@@ -6,6 +6,7 @@
 
     @include media-query(palm) {
         padding-right: 0;
+        display: -webkit-box;
         display: -webkit-flex;
         display:         flex;
     }
@@ -16,6 +17,7 @@
         @include media-query(palm) {
             margin-left: 0;
             text-align: center;
+            -webkit-box-flex: 1;
             -webkit-flex: 1;
                     flex: 1;
         }
