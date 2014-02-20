@@ -6,6 +6,7 @@
 
     @include media-query(palm) {
         padding-right: 0;
+        width: 100%;
         display: -webkit-box;
         display: -webkit-flex;
         display:         flex;
