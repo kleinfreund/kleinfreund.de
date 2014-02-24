@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: en
 title: Profile
 page-title: Some Personality
 page-class: page--profile

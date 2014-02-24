@@ -1,5 +1,6 @@
 ---
 layout: post--portfolio
+lang: en
 title: "Website: artrudloff.de"
 permalink: /portfolio/artrudloff/
 ---

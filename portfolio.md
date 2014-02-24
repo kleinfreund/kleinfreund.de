@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: en
 title: Portfolio
 page-title: Loose Collection
 page-class: page--portfolio
@@ -11,9 +12,15 @@ Loosely translated from the German _Gestaltungstechnischer Assistent für Medien
 
 These are some of my works from this time. Mostly things from our typography, photography and web design classes.
 
-## Website of Anke & Andreas Rudloff
+## Website: Bund Bildender Künstler Vogtland
 
-[![Website of Anke & Andreas Rudloff](/img/artrudloff/thumbnail.jpg)](/portfolio/artrudloff)
+[![Website: Bund Bildender Künstler Vogtland e.V.](/img/bbk-vogtland/thumbnail.jpg)](/portfolio/bbk-vogtland)
+
+---
+
+## Website: Anke & Andreas Rudloff
+
+[![Website: Anke & Andreas Rudloff](/img/artrudloff/thumbnail.jpg)](/portfolio/artrudloff)
 
 ---
 

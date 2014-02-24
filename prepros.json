@@ -831,6 +831,46 @@
       "type": "Png",
       "initialSize": 45067,
       "status": "OPTIMIZED"
+    },
+    "ec30fce2": {
+      "id": "ec30fce2",
+      "pid": "3d35895f",
+      "path": "img\\bbk-vogtland\\bbk-vogtland-1.jpg",
+      "size": 76167,
+      "name": "bbk-vogtland-1.jpg",
+      "type": "Jpg",
+      "initialSize": 76167,
+      "status": "OPTIMIZED"
+    },
+    "b428a9a6": {
+      "id": "b428a9a6",
+      "pid": "3d35895f",
+      "path": "img\\bbk-vogtland\\bbk-vogtland-2.jpg",
+      "size": 56542,
+      "name": "bbk-vogtland-2.jpg",
+      "type": "Jpg",
+      "initialSize": 56542,
+      "status": "OPTIMIZED"
+    },
+    "c31e4fd6": {
+      "id": "c31e4fd6",
+      "pid": "3d35895f",
+      "path": "img\\bbk-vogtland\\bbk-vogtland-3.jpg",
+      "size": 105912,
+      "name": "bbk-vogtland-3.jpg",
+      "type": "Jpg",
+      "initialSize": 105912,
+      "status": "OPTIMIZED"
+    },
+    "5cc57e38": {
+      "id": "5cc57e38",
+      "pid": "3d35895f",
+      "path": "img\\bbk-vogtland\\thumbnail.jpg",
+      "size": 57679,
+      "name": "thumbnail.jpg",
+      "type": "Jpg",
+      "initialSize": 58517,
+      "status": "OPTIMIZED"
     }
   },
   "config": {

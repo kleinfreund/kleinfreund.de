@@ -1,5 +1,6 @@
 ---
 layout: post--portfolio
+lang: en
 title: Pictograms
 permalink: /portfolio/pictograms/
 ---

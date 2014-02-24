@@ -1,5 +1,6 @@
 ---
 layout: post--portfolio
+lang: en
 site-title: New Years Typografie
 permalink: /portfolio/new-years-typografie/
 ---

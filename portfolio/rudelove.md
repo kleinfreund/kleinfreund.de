@@ -1,5 +1,6 @@
 ---
 layout: post--portfolio
+lang: en
 title: RUDELOVE business papers
 permalink: /portfolio/rudelove/
 ---

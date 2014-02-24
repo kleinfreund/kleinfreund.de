@@ -1,7 +1,10 @@
 ---
 date: 2014-02-7 19:33:47
 layout: post
+lang: en
 title: Ingredients
+categories:
+- en
 ---
 With [Jekyll](http://jekyllrb.com/) I get a fully functional and static website from a bunch of kooky files. What Jekyll does is great, because I don’t need more.
 
