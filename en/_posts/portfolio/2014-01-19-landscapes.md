@@ -1,8 +1,7 @@
 ---
 layout: post--portfolio
-lang: en
 title: "Photography: Landscapes"
-permalink: /portfolio/landscapes/
+permalink: /en/portfolio/landscapes/
 ---
 A few snapshots from last year. I should really get a decent camera. Then remind to take it with me and actually use it. Sounds like a plan.
 

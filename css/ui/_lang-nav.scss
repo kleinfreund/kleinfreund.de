@@ -1,0 +1,15 @@
+.lang-nav {
+    text-align: center;
+    position: absolute;
+        top: $half-spacing-unit;
+        right: $half-spacing-unit;
+
+    > a {
+        display: block;
+        width: $base-spacing-unit * 1.5;
+        line-height: $base-spacing-unit;
+        font-weight: 300;
+        background-color: $dark-ui-color;
+        color: $white;
+    }
+}

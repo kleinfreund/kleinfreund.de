@@ -1,43 +1,10 @@
 ---
-layout: default
-lang: en
-title: Moonbase of Philipp Rudloff
-page-title: Friendly Articles
-page-class: page--blog
+layout: none
 ---
-<ul class="post-list">
-    {% for post in paginator.posts %}
-    <li>
-        <article class="post">
-            <a href="{{ post.url }}" class="post-list__link">
-                <time datetime="{{ post.date | date: "%Y-%m-%d" }}" class="post-list__time">{{ post.date | date: "%-d %B, %Y" }}</time>
-                <h2 class="post-list__title">{{ post.title }}</h2>
-            </a>
-            {{ post.excerpt }}
-        </article>
-    </li>
-    {% endfor %}
-</ul>
-
-{% if paginator.total_pages > 1 %}
-<ol class="nav pagination">
-    <li class="pagination__prev">
-        {% if paginator.previous_page %}
-        {% if paginator.previous_page == 1 %}
-            <a href="/" rel="prev">Newer</a>
-        {% else %}
-            <a href="/page{{paginator.previous_page}}" rel="prev">Newer</a>
-        {% endif %}
-        {% else %}
-            Newer
-        {% endif %}
-    </li><!--
- --><li class="pagination__next">
-        {% if paginator.next_page %}
-            <a href="/page{{paginator.next_page}}" rel="next">Older</a>
-        {% else %}
-            Older
-        {% endif %}
-    </li>
-</ol>
-{% endif %}
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="refresh" content="0;url=/de/" />
+</head>
+</html>

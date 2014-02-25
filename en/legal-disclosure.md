@@ -1,9 +1,8 @@
 ---
 layout: default
-lang: en
 title: Legal Disclosure
 page-class: page--disclaimer
-permalink: /legal-disclosure/
+permalink: /en/legal-disclosure/
 ---
 ## Contact
 

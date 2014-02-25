@@ -1,12 +1,9 @@
 ---
 layout: post--portfolio
-lang: en
 title: Pictograms
-permalink: /portfolio/pictograms/
+permalink: /en/portfolio/pictograms/
 ---
-Limited to two basic geometrical forms, we should to animals as pictograms.
-
-And yes, I know the distances are not always even. Shame on me.
+Limited to two basic geometrical forms, we should to animals as pictograms. And yes, I know the distances are not always even. Shame on me.
 
 ![Pictogram Caterpillar](/img/pictograms/caterpillar.png)
 

@@ -6,5 +6,9 @@
     > li {
         padding: $base-spacing-unit / 2;
         display: inline-block;
+
+        > a:hover {
+            border: 0;
+        }
     }
 }

@@ -1,0 +1,55 @@
+---
+layout: default
+title: Moonbase of Philipp Rudloff
+page-title: Friendly Articles
+page-class: page--blog
+category: en
+---
+{% capture locale %}{{ page.url | truncate: 3, "" | remove: "/" }}{% endcapture %}
+
+{% unless site.authorized_locales contains locale %}
+    {% assign locale = site.default_locale %}
+{% endunless %}
+
+<ul class="post-list">
+    {% for post in paginator.posts %}
+    <li>
+        <article class="post">
+            <a href="{{ post.url }}" class="post-list__link">
+                <time datetime="{{ post.date | date: "%Y-%m-%d" }}" class="post-list__time">
+                {% if locale == site.default_locale %}
+                    {{ post.date | localize: "%-d. %B %Y" }}
+                {% else %}
+                    {{ post.date | date: "%-d %B, %Y" }}
+                {% endif %}
+                </time>
+                <h2 class="post-list__title">{{ post.title }}</h2>
+            </a>
+            {{ post.excerpt }}
+        </article>
+    </li>
+    {% endfor %}
+</ul>
+
+{% if paginator.total_pages > 1 %}
+<ol class="nav pagination">
+    <li class="pagination__prev">
+        {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+            <a href="/en/" rel="prev">Newer</a>
+        {% else %}
+            <a href="/en/page{{paginator.previous_page}}" rel="prev">Newer</a>
+        {% endif %}
+        {% else %}
+            Newer
+        {% endif %}
+    </li><!--
+ --><li class="pagination__next">
+        {% if paginator.next_page %}
+            <a href="/en/page{{paginator.next_page}}" rel="next">Older</a>
+        {% else %}
+            Older
+        {% endif %}
+    </li>
+</ol>
+{% endif %}

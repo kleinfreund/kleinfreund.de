@@ -3143,7 +3143,7 @@ body {
   /* (Same syntax for weird IE tweener) */
   flex-direction: column;
   /* unprefixed new syntax */
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 main {
@@ -3365,7 +3365,7 @@ pre code, pre kbd, pre samp {
   border-bottom: 0.125em solid;
 }
 
-.post__meta {
+.post__time {
   color: #aaaaaa;
 }
 
@@ -3382,6 +3382,19 @@ pre code, pre kbd, pre samp {
 .page--profile a,
 .page--profile h1, .page--profile h2, .page--profile h3, .page--profile h4, .page--profile h5, .page--profile h6 {
   color: #507bd3;
+}
+
+.pagination {
+  margin-left: 0;
+  list-style: none;
+  text-align: center;
+}
+.pagination > li {
+  padding: 15px;
+  display: inline-block;
+}
+.pagination > li > a:hover {
+  border: 0;
 }
 
 .post-list,
@@ -3502,6 +3515,21 @@ pre code, pre kbd, pre samp {
 .page--portfolio .site-nav__item--portfolio,
 .page--profile .site-nav__item--profile {
   cursor: default;
+}
+
+.lang-nav {
+  text-align: center;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.lang-nav > a {
+  display: block;
+  width: 45px;
+  line-height: 30px;
+  font-weight: 300;
+  background-color: #2b2b2b;
+  color: white;
 }
 
 .site-head {

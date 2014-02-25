@@ -456,6 +456,22 @@
         "ac40651f"
       ]
     },
+    "4aa9a351": {
+      "id": "4aa9a351",
+      "pid": "3d35895f",
+      "path": "css\\ui\\_pagination.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "b70831e9": {
+      "id": "b70831e9",
+      "pid": "3d35895f",
+      "path": "css\\ui\\_lang-nav.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
     "25f95ef3": {
       "id": "25f95ef3",
       "pid": "3d35895f",
@@ -482,6 +498,16 @@
     }
   },
   "images": {
+    "55852385": {
+      "id": "55852385",
+      "pid": "3d35895f",
+      "path": "img\\new-years-typography\\2014-6.png",
+      "size": 7916,
+      "name": "2014-6.png",
+      "type": "Png",
+      "initialSize": 7916,
+      "status": "NOT_OPTIMIZED"
+    },
     "e796c869": {
       "id": "e796c869",
       "pid": "3d35895f",
@@ -662,86 +688,6 @@
       "initialSize": 182550,
       "status": "OPTIMIZED"
     },
-    "77129ef4": {
-      "id": "77129ef4",
-      "pid": "3d35895f",
-      "path": "img\\me.jpg",
-      "size": 284190,
-      "name": "me.jpg",
-      "type": "Jpg",
-      "initialSize": 284190,
-      "status": "OPTIMIZED"
-    },
-    "0162c8f4": {
-      "id": "0162c8f4",
-      "pid": "3d35895f",
-      "path": "img\\new-years-typografie\\2014-1.png",
-      "size": 10022,
-      "name": "2014-1.png",
-      "type": "Png",
-      "initialSize": 10022,
-      "status": "OPTIMIZED"
-    },
-    "b6ffb6bd": {
-      "id": "b6ffb6bd",
-      "pid": "3d35895f",
-      "path": "img\\new-years-typografie\\2014-2.png",
-      "size": 17707,
-      "name": "2014-2.png",
-      "type": "Png",
-      "initialSize": 17707,
-      "status": "OPTIMIZED"
-    },
-    "7afcfc21": {
-      "id": "7afcfc21",
-      "pid": "3d35895f",
-      "path": "img\\new-years-typografie\\2014-3.png",
-      "size": 10747,
-      "name": "2014-3.png",
-      "type": "Png",
-      "initialSize": 10747,
-      "status": "OPTIMIZED"
-    },
-    "888eac68": {
-      "id": "888eac68",
-      "pid": "3d35895f",
-      "path": "img\\new-years-typografie\\2014-4.png",
-      "size": 5272,
-      "name": "2014-4.png",
-      "type": "Png",
-      "initialSize": 5272,
-      "status": "OPTIMIZED"
-    },
-    "0a9784e8": {
-      "id": "0a9784e8",
-      "pid": "3d35895f",
-      "path": "img\\new-years-typografie\\2014-5.png",
-      "size": 6512,
-      "name": "2014-5.png",
-      "type": "Png",
-      "initialSize": 6512,
-      "status": "OPTIMIZED"
-    },
-    "f228b355": {
-      "id": "f228b355",
-      "pid": "3d35895f",
-      "path": "img\\new-years-typografie\\2014-6.png",
-      "size": 7916,
-      "name": "2014-6.png",
-      "type": "Png",
-      "initialSize": 7916,
-      "status": "OPTIMIZED"
-    },
-    "e648e742": {
-      "id": "e648e742",
-      "pid": "3d35895f",
-      "path": "img\\new-years-typografie\\thumbnail.png",
-      "size": 21001,
-      "name": "thumbnail.png",
-      "type": "Png",
-      "initialSize": 21001,
-      "status": "OPTIMIZED"
-    },
     "4bd97c67": {
       "id": "4bd97c67",
       "pid": "3d35895f",
@@ -871,6 +817,76 @@
       "type": "Jpg",
       "initialSize": 58517,
       "status": "OPTIMIZED"
+    },
+    "951cbe57": {
+      "id": "951cbe57",
+      "pid": "3d35895f",
+      "path": "img\\ich.jpg",
+      "size": 284190,
+      "name": "ich.jpg",
+      "type": "Jpg",
+      "initialSize": 284190,
+      "status": "NOT_OPTIMIZED"
+    },
+    "872d09ca": {
+      "id": "872d09ca",
+      "pid": "3d35895f",
+      "path": "img\\new-years-typography\\2014-1.png",
+      "size": 10022,
+      "name": "2014-1.png",
+      "type": "Png",
+      "initialSize": 10022,
+      "status": "NOT_OPTIMIZED"
+    },
+    "d59db616": {
+      "id": "d59db616",
+      "pid": "3d35895f",
+      "path": "img\\new-years-typography\\2014-2.png",
+      "size": 17707,
+      "name": "2014-2.png",
+      "type": "Png",
+      "initialSize": 17707,
+      "status": "NOT_OPTIMIZED"
+    },
+    "57938c80": {
+      "id": "57938c80",
+      "pid": "3d35895f",
+      "path": "img\\new-years-typography\\2014-3.png",
+      "size": 10747,
+      "name": "2014-3.png",
+      "type": "Png",
+      "initialSize": 10747,
+      "status": "NOT_OPTIMIZED"
+    },
+    "76b6d2a0": {
+      "id": "76b6d2a0",
+      "pid": "3d35895f",
+      "path": "img\\new-years-typography\\2014-4.png",
+      "size": 5272,
+      "name": "2014-4.png",
+      "type": "Png",
+      "initialSize": 5272,
+      "status": "NOT_OPTIMIZED"
+    },
+    "bcd0f479": {
+      "id": "bcd0f479",
+      "pid": "3d35895f",
+      "path": "img\\new-years-typography\\2014-5.png",
+      "size": 6512,
+      "name": "2014-5.png",
+      "type": "Png",
+      "initialSize": 6512,
+      "status": "NOT_OPTIMIZED"
+    },
+    "64819d37": {
+      "id": "64819d37",
+      "pid": "3d35895f",
+      "path": "img\\new-years-typography\\thumbnail.png",
+      "size": 21001,
+      "name": "thumbnail.png",
+      "type": "Png",
+      "initialSize": 21001,
+      "status": "NOT_OPTIMIZED"
     }
   },
   "config": {

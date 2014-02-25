@@ -1,10 +1,9 @@
 ---
 layout: post--portfolio
-lang: en
-title: Martin & Phil
-permalink: /portfolio/martin-and-phil/
+title: "Martin &amp; Phil"
+permalink: /de/portfolio/martin-und-phil/
 ---
-Our first steps in studio photography were classic trial and error. Yes, I’m blonde. I like my hair longer.
+Im Rahmen unserer ersten Gehversuche in der Studiofotografie entstanden diese wundervollen Momentaufnahme von Martin und mir. Wir wollten es eigentlich geheim halten, doch jetzt muss es raus.
 
 ![Martin &amp; Phil 1](/img/martin-and-phil/portraet-1.jpg)
 

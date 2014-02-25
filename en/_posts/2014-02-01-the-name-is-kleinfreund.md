@@ -1,10 +1,7 @@
 ---
 date: 2014-02-01 19:36:27
 layout: post
-lang: en
 title: The name is kleinfreund
-categories:
-- en
 ---
 Yes, Hello! Something happened in the last weeks. My first real personal and self-built website. Here it starts.
 

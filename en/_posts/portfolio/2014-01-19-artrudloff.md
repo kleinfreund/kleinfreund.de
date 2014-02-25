@@ -1,10 +1,9 @@
 ---
 layout: post--portfolio
-lang: en
 title: "Website: artrudloff.de"
-permalink: /portfolio/artrudloff/
+permalink: /en/portfolio/artrudloff/
 ---
-For my parents, I built [artrudloff.de](http://artrudloff.de). It’s a showcase of their work.
+I built [artrudloff.de](http://artrudloff.de) for my parents in Summer 2012. It’s a showcase of their work.
 
 The site is a self-coded theme for Wordpress. Last year I added [inuitcss](http://inuitcss.com) and a custom [Teehan+Lax Navigation](http://alexcican.com/post/teehan-lax-navigation).
 

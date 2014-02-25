@@ -14,7 +14,7 @@ body {
         -ms-flex-direction: column; /* (Same syntax for weird IE tweener) */
             flex-direction: column; /* unprefixed new syntax */
 
-    min-height: 100%;
+    min-height: 100vh;
 }
 
 main {

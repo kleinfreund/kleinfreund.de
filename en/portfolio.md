@@ -1,10 +1,9 @@
 ---
 layout: default
-lang: en
 title: Portfolio
 page-title: Loose Collection
 page-class: page--portfolio
-permalink: /portfolio/
+permalink: /en/portfolio/
 ---
 ## Design Assistant for Media and Communication
 
@@ -14,40 +13,40 @@ These are some of my works from this time. Mostly things from our typography, ph
 
 ## Website: Bund Bildender Künstler Vogtland
 
-[![Website: Bund Bildender Künstler Vogtland e.V.](/img/bbk-vogtland/thumbnail.jpg)](/portfolio/bbk-vogtland)
+[![Website: Bund Bildender Künstler Vogtland e.V.](/img/bbk-vogtland/thumbnail.jpg)](/en/portfolio/bbk-vogtland)
 
 ---
 
 ## Website: Anke & Andreas Rudloff
 
-[![Website: Anke & Andreas Rudloff](/img/artrudloff/thumbnail.jpg)](/portfolio/artrudloff)
+[![Website: Anke & Andreas Rudloff](/img/artrudloff/thumbnail.jpg)](/en/portfolio/artrudloff)
 
 ---
 
 ## Business Papers: RUDELOVE
 
-[![Business Papers: RUDELOVE](/img/rudelove/thumbnail.png)](/portfolio/rudelove)
+[![Business Papers: RUDELOVE](/img/rudelove/thumbnail.png)](/en/portfolio/rudelove)
 
 ---
 
-## New Years Typografie
+## New Years Typography
 
-[![Neujahrs-Typografie](/img/new-years-typografie/thumbnail.png)](/portfolio/new-years-typografie)
+[![Neujahrs-Typografie](/img/new-years-typography/thumbnail.png)](/en/portfolio/new-years-typography)
 
 ---
 
 ## Pictograms
 
-[![Piktogramme](/img/pictograms/thumbnail.png)](/portfolio/pictograms)
+[![Pictograms](/img/pictograms/thumbnail.png)](/en/portfolio/pictograms)
 
 ---
 
 ## Landscapes
 
-[![Landscapes](/img/landscapes/thumbnail.jpg)](/portfolio/landscapes)
+[![Landscapes](/img/landscapes/thumbnail.jpg)](/en/portfolio/landscapes)
 
 ---
 
 ## Martin & Phil
 
-[![Martin & Phil](/img/martin-and-phil/thumbnail.jpg)](/portfolio/martin-and-phil)
+[![Martin & Phil](/img/martin-and-phil/thumbnail.jpg)](/en/portfolio/martin-and-phil)
