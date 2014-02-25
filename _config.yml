@@ -1,8 +1,11 @@
 markdown: rdiscount
+destination: "C:/Users/Philipp/_dev/github/kleinfreund.github.io"
 pygments: true
 permalink: /:categories/:year/:month/:title
 paginate: 5
 relative_permalinks: false
+include:
+- .nojekyll
 exclude: [prepros.json, config.rb, assets/fonts]
 
 name: kleinfreund

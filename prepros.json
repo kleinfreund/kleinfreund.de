@@ -471,30 +471,6 @@
       "parents": [
         "ac40651f"
       ]
-    },
-    "25f95ef3": {
-      "id": "25f95ef3",
-      "pid": "3d35895f",
-      "path": "css\\ui\\_site-logo.scss",
-      "parents": [
-        "ac40651f"
-      ]
-    },
-    "4b1f1563": {
-      "id": "4b1f1563",
-      "pid": "3d35895f",
-      "path": "css\\ui\\_site-nav.scss",
-      "parents": [
-        "ac40651f"
-      ]
-    },
-    "8e9bbca7": {
-      "id": "8e9bbca7",
-      "pid": "3d35895f",
-      "path": "css\\ui\\_site-head.scss",
-      "parents": [
-        "ac40651f"
-      ]
     }
   },
   "images": {
