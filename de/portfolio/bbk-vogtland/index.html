@@ -1,0 +1,87 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="de" class="page page--post page--portfolio">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Prefetching Google Webfonts -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//themes.googleusercontent.com">
+
+    <title>Website: bbk-vogtland.de &ndash; kleinfreund.de</title>
+
+    <!--|
+        | Hello, code inspecting individual. How is it going?
+        | Feel free to poke around. Drop me a line, if you want.
+        |
+        | Have a nice day. :)
+        |-->
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic">
+    <link rel="stylesheet" href="/css/kleinfreund.min.css">
+
+    <link rel="alternate" type="application/rss+xml" href="/feed.xml">
+    <link rel="shortcut icon" href="/icon.png">
+
+    <meta name="description" content="Mondbasis von Philipp Rudloff. Mache Webentwicklung und -design. Dinge und Sachen auch.">
+
+    <!--[if lt IE 9]>
+        <script src="/assets/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <header class="site-head" role="banner">
+        <a href="/de/" class="site-logo">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="kleinfreund">
+        </a>
+
+        <nav role="navigation">
+            <ul class="site-nav nav nav--block">
+                <li>
+                    <a href="/de/" class="site-nav__item site-nav__item--blog">Blog</a>
+                </li><li>
+                    <a href="/de/portfolio/" class="site-nav__item site-nav__item--portfolio">Portfolio</a>
+                </li><li>
+                    <a href="/de/profil/" class="site-nav__item site-nav__item--profile">Profil</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="lang-nav">
+            <a href="/en/" title="/de/portfolio/bbk-vogtland/">
+                en
+            </a>
+        </div>
+    </header>
+
+    <main role="main">
+        
+        <div class="page-content wrapper">
+            <article class="post">
+    <h1>Website: bbk-vogtland.de</h1>
+
+    <p>Der Verein <a href="http://bbk-vogtland.de/">Bund Bildender Künstler Vogtland e.V.</a> bekam ein Redesign. Das Ergebnis ist eine schlanke, statische Seite.</p>
+
+<p><img src="/img/bbk-vogtland/bbk-vogtland-1.jpg" alt="BBK Vogtland Startseite" /></p>
+
+<p>Nur die Mitgliederseite bedarf etwas jQuery, um die entsprechenden Informationen anzuzeigen.</p>
+
+<p><img src="/img/bbk-vogtland/bbk-vogtland-2.jpg" alt="BBK Vogtland Mitgliederseite" /></p>
+
+<p>Der komplizierte Teil war die Animation mit der CSS3-Eigenschaft <code>transition</code>, da die einzelnen Boxen unterschiedlich hoch sind. Statt zu <code>height: auto;</code> zu animieren, muss man auf <code>max-height</code> zurückgreifen. Nicht optimal, funktioniert aber.</p>
+
+<p><img src="/img/bbk-vogtland/bbk-vogtland-3.jpg" alt="BBK Vogtland Detailansicht der Mitglieder" /></p>
+
+</article>
+        </div>
+    </main>
+
+    <footer class="site-foot" role="contentinfo">
+        <p>Mondbasis von <a href='http://twitter.com/kleinfreund'>Philipp Rudloff</a>. Gehostet auf <a href='http://github.com/kleinfreund/kleinfreund.github.io'>GitHub</a>. Erstellt mit <a href='http://jekyllrb.com'>Jekyll</a> und <a href='http://inuitcss.com'>inuitcss</a>. Und das notwendige <a href='/de/impressum/'>Impressum</a>.</p>
+    </footer>
+</body>
+</html>

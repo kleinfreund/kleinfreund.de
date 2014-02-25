@@ -1,21 +1,240 @@
----
-layout: none
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>{{ site.name | xml_escape }}</title>
-        <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>                
-        <link>{{ site.url }}</link>
-        <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
-        {% for post in site.posts limit:10 %}
+        <title>kleinfreund</title>
+        <description>Mondbasis von Philipp Rudloff. Mache Webentwicklung und -design. Dinge und Sachen auch.</description>                
+        <link>http://kleinfreund.de</link>
+        <atom:link href="http://kleinfreund.de/feed.xml" rel="self" type="application/rss+xml" />
+        
             <item>
-                <title>{{ post.title | xml_escape }}</title>
-                <description>{{ post.content | xml_escape }}</description>
-                <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-                <link>{{ site.url }}{{ post.url }}</link>
-                <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+                <title>Website: bbk-vogtland.de</title>
+                <description>&lt;p&gt;The local society &lt;a href=&quot;http://bbk-vogtland.de/&quot;&gt;Bund Bildender Künstler Vogtland e.V.&lt;/a&gt; got a redesign. The result is a light, static site.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/bbk-vogtland/bbk-vogtland-1.jpg&quot; alt=&quot;BBK Vogtland homepage&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Only the members page involves a bit jQuery to reveal the member information.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/bbk-vogtland/bbk-vogtland-2.jpg&quot; alt=&quot;BBK Vogtland members page&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The tricky part was using the CSS3 &lt;code&gt;transition&lt;/code&gt; property, because the boxes for the detail view vary in height. Instead of transitioning to &lt;code&gt;height: auto;&lt;/code&gt; one needs to use &lt;code&gt;max-height&lt;/code&gt;. Not optimal, but it works.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/bbk-vogtland/bbk-vogtland-3.jpg&quot; alt=&quot;BBK Vogtland detail view for members page&quot; /&gt;&lt;/p&gt;
+</description>
+                <pubDate>Mon, 24 Feb 2014 00:00:00 +0100</pubDate>
+                <link>http://kleinfreund.de/en/portfolio/bbk-vogtland/</link>
+                <guid isPermaLink="true">http://kleinfreund.de/en/portfolio/bbk-vogtland/</guid>
             </item>
-        {% endfor %}
+        
+            <item>
+                <title>Website: bbk-vogtland.de</title>
+                <description>&lt;p&gt;Der Verein &lt;a href=&quot;http://bbk-vogtland.de/&quot;&gt;Bund Bildender Künstler Vogtland e.V.&lt;/a&gt; bekam ein Redesign. Das Ergebnis ist eine schlanke, statische Seite.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/bbk-vogtland/bbk-vogtland-1.jpg&quot; alt=&quot;BBK Vogtland Startseite&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nur die Mitgliederseite bedarf etwas jQuery, um die entsprechenden Informationen anzuzeigen.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/bbk-vogtland/bbk-vogtland-2.jpg&quot; alt=&quot;BBK Vogtland Mitgliederseite&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Der komplizierte Teil war die Animation mit der CSS3-Eigenschaft &lt;code&gt;transition&lt;/code&gt;, da die einzelnen Boxen unterschiedlich hoch sind. Statt zu &lt;code&gt;height: auto;&lt;/code&gt; zu animieren, muss man auf &lt;code&gt;max-height&lt;/code&gt; zurückgreifen. Nicht optimal, funktioniert aber.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/bbk-vogtland/bbk-vogtland-3.jpg&quot; alt=&quot;BBK Vogtland Detailansicht der Mitglieder&quot; /&gt;&lt;/p&gt;
+</description>
+                <pubDate>Mon, 24 Feb 2014 00:00:00 +0100</pubDate>
+                <link>http://kleinfreund.de/de/portfolio/bbk-vogtland/</link>
+                <guid isPermaLink="true">http://kleinfreund.de/de/portfolio/bbk-vogtland/</guid>
+            </item>
+        
+            <item>
+                <title>Musik</title>
+                <description>&lt;p&gt;Leute nutzen ja heute vermehrt Dienste wie Spotify. Manche sogar ausschließlich. Ich bin immernoch bei iTunes.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/posts/itunes-album-cover.png&quot;&gt;&lt;img src=&quot;/img/posts/itunes-album-cover.png&quot; alt=&quot;iTunes: Various Artists&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Meine Mediathek is sauber getaggt. Jedes Album hat ein hübsches Bildchen. Zusätzlich habe ich noch eine ziemlich umfangreiche &lt;em&gt;Various Artists&lt;/em&gt; Wiedergabeliste. Titel ohne Album, Compilation etc. bekommen den Album-Interpret &lt;code&gt;Various Artists&lt;/code&gt;. Eine intelligente Wiedergabeliste sammelt dann alle Titel mit eben diesem Album-Interpreten ein.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/posts/itunes-various-artists.png&quot;&gt;&lt;img src=&quot;/img/posts/itunes-various-artists.png&quot; alt=&quot;iTunes: Various Artists&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ja, ich muss mal wieder Podcasts hören. Ich weiß.&lt;/p&gt;
+
+&lt;p&gt;iTunes lasse ich mittlerweile mein Musik-Verzeichnis automatisch verwalten. Wenn ich ’ne mp3 öffner, wird sie zur Mediathek hinzugefügt und in das entsprechende Verzeichnis kopiert.&lt;/p&gt;
+
+&lt;p&gt;Beim Fahren benutze ich meinen iPod touch. Leider gibt die Kopfhörerbuchse langsam den Geist auf. Der Ton manchmal leiser als gewöhnlich und es gibt Rauschen.&lt;/p&gt;
+
+&lt;p&gt;Wie macht ihr das mit der Musik? Kümmert ihr euch da überhaupt? Streamt ihr?&lt;/p&gt;
+</description>
+                <pubDate>Tue, 11 Feb 2014 12:06:38 +0000</pubDate>
+                <link>http://kleinfreund.de/de/2014/02/musik</link>
+                <guid isPermaLink="true">http://kleinfreund.de/de/2014/02/musik</guid>
+            </item>
+        
+            <item>
+                <title>Music</title>
+                <description>&lt;p&gt;People tend to use services like Spotify more and more these days. Some of them even use it exclusively. I still use iTunes.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/posts/itunes-album-cover.png&quot;&gt;&lt;img src=&quot;/img/posts/itunes-album-cover.png&quot; alt=&quot;iTunes: Various Artists&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;My media library is properly tagged. Every album has an album cover. Additionally I have a rather long &lt;em&gt;Various Artists&lt;/em&gt; playlist. Songs without a whole album, compilation, whatsoever get the album artist &lt;code&gt;Various Artists&lt;/code&gt;. A smart playlist grabs all titles with this album artist.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/posts/itunes-various-artists.png&quot;&gt;&lt;img src=&quot;/img/posts/itunes-various-artists.png&quot; alt=&quot;iTunes: Various Artists&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Yes, I need to go through my podcasts. I know that.&lt;/p&gt;
+
+&lt;p&gt;iTunes manages my music directory automatically. When I open a mp3, it adds it to the library and copies it to the media directory.&lt;/p&gt;
+
+&lt;p&gt;While driving, I’m using an iPod touch. Sadly, my latch is about to die. Sometimes the sound is too quiet or with cracking noises.&lt;/p&gt;
+
+&lt;p&gt;How do you handle your music? Do you even &lt;em&gt;handle&lt;/em&gt; it? Streaming?&lt;/p&gt;
+</description>
+                <pubDate>Tue, 11 Feb 2014 12:06:38 +0000</pubDate>
+                <link>http://kleinfreund.de/en/2014/02/music</link>
+                <guid isPermaLink="true">http://kleinfreund.de/en/2014/02/music</guid>
+            </item>
+        
+            <item>
+                <title>Zutaten</title>
+                <description>&lt;p&gt;Mit &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; wird aus einem Haufen verrückter Dateien eine voll funktionsfähige, statische Website. Die funktioniert sogar offline, wenn die Pfade ohne &lt;code&gt;&quot;/&quot;&lt;/code&gt; beginnen und die Links in der Navigation angepasst werden. Aber das ist ja nicht der primäre Zweck einer Website, was?&lt;/p&gt;
+
+&lt;p&gt;Das, was Jekyll macht, ist großartig, denn mehr brauche ich garnicht. Es gibt ein Blog samt Paginierung. Beiträge kann ich bequem in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt; schreiben. Anpassungen an der Seite muss ich nicht in einem Dutzend HTML-Dateien vornehmen, sondern lediglich in einem Layoutdatei.&lt;/p&gt;
+
+&lt;p&gt;Mit einem &lt;code&gt;jekyll serve -w&lt;/code&gt; in der Kommandozeile lässt sich mittels lokalem Server testen. Dabei kann ich Änderungen direkt sehen und neue Artikel &lt;em&gt;testen&lt;/em&gt;. SASS wird beim Speichern von &lt;a href=&quot;http://alphapixels.com/prepros/&quot;&gt;Prepros&lt;/a&gt; mit &lt;a href=&quot;http://github.com/kleinfreund/kleinfreund.github.io/blob/master/config.rb&quot;&gt;config.rb&lt;/a&gt; als normale und als komprimierte CSS-Datei ausgegeben.&lt;/p&gt;
+
+&lt;p&gt;Für’s CSS verwende ich noch &lt;a href=&quot;http://inuitcss.com/&quot;&gt;inuit.css&lt;/a&gt;, von dem ich eigentlich mal einen Fork machen sollte, weil ich eben doch nicht alles daraus brauche. Damit warte ich vorerst aber, weil Harry sicher irgendwann dieses Jahr inuitcss 5 raushaut. Er hat jedenfalls schon mal den &lt;em&gt;Punkt&lt;/em&gt; aus dem Namen entfernt.&lt;/p&gt;
+
+&lt;p&gt;Ganz nebenbei bin ich auf eine weitere Seite aus dem Stack Exchange Netzwerk gestoßen, die ich vorher noch nicht kannte. Nein, mit Aktien hat das nichts zu tun. &lt;a href=&quot;http://codereview.stackexchange.com/&quot;&gt;Code&amp;nbsp;Review&lt;/a&gt;! Dort kann man&amp;hellip; seinen Code überprüfen lassen (sic!). Das habe ich gleich genutzt und Teile der Seite durchchecken lassen (&lt;a href=&quot;http://codereview.stackexchange.com/q/39890/35408&quot;&gt;hier&lt;/a&gt;, &lt;a href=&quot;http://codereview.stackexchange.com/q/40142/35408&quot;&gt;hier&lt;/a&gt; und &lt;a href=&quot;http://codereview.stackexchange.com/q/40574/35408&quot;&gt;hier&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Welche Hilfsmittel benutzt ihr denn für eure Websites? Lasst mir ein paar Statements da: &lt;a href=&quot;https://twitter.com/kleinfreund&quot;&gt;@kleinfreund&lt;/a&gt;.&lt;/p&gt;
+</description>
+                <pubDate>Fri, 07 Feb 2014 19:33:47 +0000</pubDate>
+                <link>http://kleinfreund.de/de/2014/02/zutaten</link>
+                <guid isPermaLink="true">http://kleinfreund.de/de/2014/02/zutaten</guid>
+            </item>
+        
+            <item>
+                <title>Ingredients</title>
+                <description>&lt;p&gt;With &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; I get a fully functional and static website from a bunch of kooky files. What Jekyll does is great, because I don’t need more.&lt;/p&gt;
+
+&lt;p&gt;I get a blog with pagination. Posts can be written in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;. Changes to the page are made in a few template files, not in all my HTML files. This site would work offline as well, if I omit &lt;code&gt;&quot;/&quot;&lt;/code&gt; from paths and adjust the navigation accordingly. However this isn’t the primary goal of a website, isn’t it?&lt;/p&gt;
+
+&lt;p&gt;I can test the whole thing locally by typing &lt;code&gt;jekyll serve -w&lt;/code&gt; into the command line. Whatever is changed in my project directory is reflected on the local server immediately. Sass is compiled on saving by &lt;a href=&quot;http://alphapixels.com/prepros/&quot;&gt;Prepros&lt;/a&gt; with a custom &lt;a href=&quot;http://github.com/kleinfreund/kleinfreund.github.io/blob/master/config.rb&quot;&gt;config.rb&lt;/a&gt;. Besides the regular CSS file, I get a compressed version.&lt;/p&gt;
+
+&lt;p&gt;The CSS is enhanced by &lt;a href=&quot;http://inuitcss.com/&quot;&gt;inuit.css&lt;/a&gt;. I should probably fork this in the future, because I don’t need anything from it. But Harry is probably releasing inuitcss v5.0 this year. He was removing the dot from &lt;em&gt;inuit.css&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Besides that I discovered another member of the Stack Exchange network, which I didn’t know before. &lt;a href=&quot;http://codereview.stackexchange.com/&quot;&gt;Code&amp;nbsp;Review&lt;/a&gt;! Basically, you get reviews of your own code. Tried it out with this very site (&lt;a href=&quot;http://codereview.stackexchange.com/q/39890/35408&quot;&gt;here&lt;/a&gt;, &lt;a href=&quot;http://codereview.stackexchange.com/q/40142/35408&quot;&gt;here&lt;/a&gt; and &lt;a href=&quot;http://codereview.stackexchange.com/q/40574/35408&quot;&gt;here&lt;/a&gt;) and got a few nice answers. You should give it a try. It also has a pretty vital and active chat: &lt;a href=&quot;http://chat.stackexchange.com/rooms/8595/&quot;&gt;The&amp;nbsp;2nd&amp;nbsp;Monitor&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;What tools do you use for your websites? Drop me a line: &lt;a href=&quot;https://twitter.com/kleinfreund&quot;&gt;@kleinfreund&lt;/a&gt;.&lt;/p&gt;
+</description>
+                <pubDate>Fri, 07 Feb 2014 19:33:47 +0000</pubDate>
+                <link>http://kleinfreund.de/en/2014/02/ingredients</link>
+                <guid isPermaLink="true">http://kleinfreund.de/en/2014/02/ingredients</guid>
+            </item>
+        
+            <item>
+                <title>The name is kleinfreund</title>
+                <description>&lt;p&gt;Yes, Hello! Something happened in the last weeks. My first real personal and self-built website. Here it starts.&lt;/p&gt;
+
+&lt;p&gt;It all began with the final project in our web design class during my apprenticeship as a &lt;em&gt;Gestaltungstechnischer Assistent&lt;/em&gt; (loosely translated to design assistant). We were to build our own website, including a portfolio containing works from the past two years.&lt;/p&gt;
+
+&lt;p&gt;That’s something I kept on cold storage for a long time now. Roughly outlined in my mind, I imagined a purely static and minimalistic site. On my way I took a rather big swing.&lt;/p&gt;
+
+&lt;h2&gt;While we’re at it…&lt;/h2&gt;
+
+&lt;p&gt;Why not have a look on the things the cool young kids use these days. Instead of using vanilla HTML and CSS, I ended up with a more powerful set of tools on my belt:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://sass-lang.com&quot;&gt;SASS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://inuitcss.com&quot;&gt;inuitcss&lt;/a&gt; &amp;ndash; CSS Framework by Harry Roberts&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; &amp;ndash; Hosting the source code&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; &amp;ndash; Generating a static blog page&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;hr /&gt;
+
+&lt;p&gt;Now let’s see where this leads to. &lt;strong&gt;Cast off, the countdown has started, towards final frontiers.&lt;/strong&gt;&lt;/p&gt;
+</description>
+                <pubDate>Sat, 01 Feb 2014 19:36:27 +0000</pubDate>
+                <link>http://kleinfreund.de/en/2014/02/the-name-is-kleinfreund</link>
+                <guid isPermaLink="true">http://kleinfreund.de/en/2014/02/the-name-is-kleinfreund</guid>
+            </item>
+        
+            <item>
+                <title>Der Name ist kleinfreund</title>
+                <description>&lt;p&gt;Ja, Hallo! In den letzten Wochen ist hier etwas enstanden. Quasi meine erste richtig eigene und selbst erstelle Website. Hier geht’s los.&lt;/p&gt;
+
+&lt;p&gt;Angefangen hat alles mit dem Abschlussprojekt für das Fach Webdesign während meiner Ausbildung zum Gestaltungstechnischen Assistenten für Medien und Kommunikation. Ein toller Name, nicht wahr? Aufgabe war das Erstellen einer eigenen Website, samt Portfolio bestehend aus Arbeiten der zwei Ausbildungsjahre.&lt;/p&gt;
+
+&lt;p&gt;Nun, das hatte ich ja ohnehin schon lange vor mir her geschoben. Grob in Gedanken skizziert stellte ich mir eine vollkommen statische und minimalistische Seite vor. Auf dem Weg dahin habe ich aber etwas weiter ausgeholt.&lt;/p&gt;
+
+&lt;h2&gt;Wenn man schon einmal dabei ist…&lt;/h2&gt;
+
+&lt;p&gt;Dann kann man sich ja auch gleich noch die ganzen Sachen anschauen, die der Rest dieser coolen jungen (und alten) Leute heute so benutzt. Die Seite ist zwar immer noch recht minimalistisch und statisch , aber nicht so, wie ich das anfangs noch erdacht hatte.&lt;/p&gt;
+
+&lt;p&gt;Statt ganz klassisch alles mit Vanille-HTML und Vanille-CSS zu machen, sind folgende Helferlein zum Einsatz gekommen:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://sass-lang.com&quot;&gt;SASS&lt;/a&gt; &amp;ndash; Sagt man wirklich &lt;em&gt;Präprozessor&lt;/em&gt;?&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://inuitcss.com&quot;&gt;inuitcss&lt;/a&gt; &amp;ndash; handliches CSS Framework vom Harry Roberts&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; &amp;ndash; Speicher für statische Seiten; Großartig!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; &amp;ndash; Statische Seiten samt Blog&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;In der nächsten Zeit schreibe ich, warum ich diese Werkzeuge nutze und inwiefern sie mir helfen.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Dann wollen wir doch mal sehen, wo das hier hin führt. &lt;strong&gt;Leinen los, den Countdown starten, auf zu unendlichen Weiten.&lt;/strong&gt;&lt;/p&gt;
+</description>
+                <pubDate>Sat, 01 Feb 2014 19:36:27 +0000</pubDate>
+                <link>http://kleinfreund.de/de/2014/02/der-name-ist-kleinfreund</link>
+                <guid isPermaLink="true">http://kleinfreund.de/de/2014/02/der-name-ist-kleinfreund</guid>
+            </item>
+        
+            <item>
+                <title>RUDELOVE business papers</title>
+                <description>&lt;p&gt;We created business papers, cards and letterheads and a fitting logo for a fictional company.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/rudelove/logo.png&quot; alt=&quot;RUDELOVE logo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Of course one spends half of the time with creating a preferably stupid company.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/rudelove/letterhead.png&quot; alt=&quot;RUDELOVE letterhead&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I don’t know what &lt;em&gt;RUDELOVE&lt;/em&gt; is supposed to be. It’s a fictional company, right?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/rudelove/business-card.png&quot; alt=&quot;RUDELOVE business card&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Right. I didn’t came up with a decent idea of what this company should do.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/rudelove/stationary.png&quot; alt=&quot;RUDELOVE stationary&quot; /&gt;&lt;/p&gt;
+</description>
+                <pubDate>Sun, 19 Jan 2014 00:00:00 +0100</pubDate>
+                <link>http://kleinfreund.de/en/portfolio/rudelove/</link>
+                <guid isPermaLink="true">http://kleinfreund.de/en/portfolio/rudelove/</guid>
+            </item>
+        
+            <item>
+                <title>Gesch&amp;auml;ftspapier: RUDELOVE</title>
+                <description>&lt;p&gt;Für eine fiktive Firma das Geschäftspapier, Visitenkarten und den Briefumschlaf gestalten war das Thema. Auch ein passendes Logo gehört da natürlich dazu.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/rudelove/logo.png&quot; alt=&quot;RUDELOVE Logo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Wie man eben so ist hält man sich zunächst eine halbe Ewigkeit damit auf, sich eine möglichst dämliche Firma zu überlegen.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/rudelove/letterhead.png&quot; alt=&quot;RUDELOVE Briefbogen&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Was mein Unternehmen &lt;em&gt;RUDELOVE&lt;/em&gt; nun aber eigentlich macht, weiß ich garnicht. Aber an den Schöpfer dieses wunderbaren Nachnamenwortspiels kann man ja mal schreiben.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/rudelove/business-card.png&quot; alt=&quot;RUDELOVE Visitenkarte&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Spätestens im eigentlichen Brief offenbart sich dann, was hinter der Fantasiefirma steckt: Jemand, der Blindtexte googlet. Großartig. Ganz toll, Philipp. So wird das nichts.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/rudelove/stationary.png&quot; alt=&quot;RUDELOVE Briefpapier&quot; /&gt;&lt;/p&gt;
+</description>
+                <pubDate>Sun, 19 Jan 2014 00:00:00 +0100</pubDate>
+                <link>http://kleinfreund.de/de/portfolio/rudelove/</link>
+                <guid isPermaLink="true">http://kleinfreund.de/de/portfolio/rudelove/</guid>
+            </item>
+        
     </channel>
 </rss>
