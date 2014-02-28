@@ -3255,7 +3255,7 @@ hr {
  * Quotations
  */
 blockquote {
-  text-indent: initial;
+  text-indent: 0;
   border-left: 8px solid #e2e2e2;
   margin-left: 15px;
   padding-left: 15px;
