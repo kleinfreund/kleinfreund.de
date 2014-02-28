@@ -92,6 +92,8 @@ $use-block-list:    true;
 /**
  * Place any of your own variables that sit on top of inuit.css here.
  */
+$border-width:          8px;
+
 $background-color:      #efefef;
 $foreground-color:      #444;
 $white:                 #fff;
@@ -107,5 +109,3 @@ $profile-color-light:   lighten($profile-color, 7%);
 
 $portfolio-color:       #dd4b13;
 $portfolio-color-light: lighten($portfolio-color, 7%);
-
-$lap-start:             681px;

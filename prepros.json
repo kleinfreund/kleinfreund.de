@@ -464,10 +464,34 @@
         "ac40651f"
       ]
     },
-    "b70831e9": {
-      "id": "b70831e9",
+    "25f95ef3": {
+      "id": "25f95ef3",
       "pid": "3d35895f",
-      "path": "css\\ui\\_lang-nav.scss",
+      "path": "css\\ui\\_site-logo.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "4b1f1563": {
+      "id": "4b1f1563",
+      "pid": "3d35895f",
+      "path": "css\\ui\\_site-nav.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "8e9bbca7": {
+      "id": "8e9bbca7",
+      "pid": "3d35895f",
+      "path": "css\\ui\\_site-head.scss",
+      "parents": [
+        "ac40651f"
+      ]
+    },
+    "b3f4e41e": {
+      "id": "b3f4e41e",
+      "pid": "3d35895f",
+      "path": "css\\ui\\_site-foot.scss",
       "parents": [
         "ac40651f"
       ]

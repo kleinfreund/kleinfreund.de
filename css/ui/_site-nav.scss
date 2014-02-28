@@ -1,38 +1,30 @@
 .site-nav {
     margin-bottom: 0;
     padding-right: $base-spacing-unit * 4;
-    border-bottom: 7px solid $dark-ui-color;
+    border-bottom: $border-width solid $dark-ui-color;
     text-align: right;
 
     @include media-query(palm) {
         padding-right: 0;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display:         flex;
     }
 
-    > li {
+    > li > a {
         margin-left: $half-spacing-unit;
+        padding: $half-spacing-unit $base-spacing-unit;
+        color: $white;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+        text-transform: lowercase;
 
-        @include media-query(palm) {
-            margin-left: 0;
-            text-align: center;
-            -webkit-box-flex: 1;
-            -webkit-flex: 1;
-                    flex: 1;
+        &:before {
+            /* Adding `/` before links */
+            content: "\002F";
         }
 
-        > a {
-            padding: $half-spacing-unit $base-spacing-unit;
-            color: $white;
-            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
-
-            @include media-query(palm) {
-                display: block;
-                font-weight: 300;
-                padding-right: $base-spacing-unit / 3;
-                padding-left: $base-spacing-unit / 3;
-            }
+        @include media-query(palm) {
+            display: block;
+            margin-left: 0;
+            padding-right: $base-spacing-unit / 2;
+            padding-left: $base-spacing-unit / 2;
         }
     }
 }
@@ -65,10 +57,4 @@
         .page:not(.page--profile) &:hover {
             background-color: $profile-color-light;
         }
-    }
-
-    .page--blog      .site-nav__item--blog,
-    .page--portfolio .site-nav__item--portfolio,
-    .page--profile   .site-nav__item--profile {
-        cursor: default;
     }

@@ -37,6 +37,10 @@
 </head>
 <body>
     <header class="site-head" role="banner">
+        <a href="{% if locale == 'de' %}/en/{% else %}/de/{% endif %}" class="lang-nav" title="{{ page.url }}">
+            {% if locale == 'de' %}en{% else %}de{% endif %}
+        </a>
+
         <a href="{{ site.locales[locale].url }}" class="site-logo">
             <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="kleinfreund">
         </a>
@@ -48,12 +52,6 @@
                 </li>{% endfor %}
             </ul>
         </nav>
-
-        <div class="lang-nav">
-            <a href="{% if locale == 'de' %}/en/{% else %}/de/{% endif %}" title="{{ page.url }}">
-                {% if locale == 'de' %}en{% else %}de{% endif %}
-            </a>
-        </div>
     </header>
 
     <main role="main">
