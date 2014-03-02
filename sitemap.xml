@@ -9,11 +9,11 @@
         <lastmod>2014-02-28T14:48:55+01:00</lastmod>
     </url>
     <url>
-        <loc>http://kleinfreund.de/en/portfolio/landscapes/</loc>
+        <loc>http://kleinfreund.de/de/portfolio/landscapes/</loc>
         <lastmod>2014-02-28T14:48:55+01:00</lastmod>
     </url>
     <url>
-        <loc>http://kleinfreund.de/de/portfolio/landscapes/</loc>
+        <loc>http://kleinfreund.de/en/portfolio/landscapes/</loc>
         <lastmod>2014-02-28T14:48:55+01:00</lastmod>
     </url>
     <url>
@@ -41,11 +41,11 @@
         <lastmod>2014-02-28T14:48:55+01:00</lastmod>
     </url>
     <url>
-        <loc>http://kleinfreund.de/de/portfolio/rudelove/</loc>
+        <loc>http://kleinfreund.de/en/portfolio/rudelove/</loc>
         <lastmod>2014-02-28T14:48:55+01:00</lastmod>
     </url>
     <url>
-        <loc>http://kleinfreund.de/en/portfolio/rudelove/</loc>
+        <loc>http://kleinfreund.de/de/portfolio/rudelove/</loc>
         <lastmod>2014-02-28T14:48:55+01:00</lastmod>
     </url>
     <url>
@@ -81,6 +81,14 @@
         <lastmod>2014-02-28T14:48:55+01:00</lastmod>
     </url>
     <url>
+        <loc>http://kleinfreund.de/de/portfolio/eule/</loc>
+        <lastmod>2014-03-02T18:57:50+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://kleinfreund.de/en/portfolio/owl/</loc>
+        <lastmod>2014-03-02T18:57:55+01:00</lastmod>
+    </url>
+    <url>
         <loc>http://kleinfreund.de/de/impressum/</loc>
         <lastmod>2014-02-28T14:48:55+01:00</lastmod>
     </url>
@@ -90,7 +98,7 @@
     </url>
     <url>
         <loc>http://kleinfreund.de/de/portfolio/</loc>
-        <lastmod>2014-02-28T14:48:55+01:00</lastmod>
+        <lastmod>2014-03-02T18:58:09+01:00</lastmod>
     </url>
     <url>
         <loc>http://kleinfreund.de/de/profil/</loc>
@@ -106,7 +114,7 @@
     </url>
     <url>
         <loc>http://kleinfreund.de/en/portfolio/</loc>
-        <lastmod>2014-02-28T14:48:55+01:00</lastmod>
+        <lastmod>2014-03-02T18:54:16+01:00</lastmod>
     </url>
     <url>
         <loc>http://kleinfreund.de/en/profile/</loc>
@@ -114,6 +122,6 @@
     </url>
     <url>
         <loc>http://kleinfreund.de/</loc>
-        <lastmod>2014-02-25T16:46:35+01:00</lastmod>
+        <lastmod>2014-03-02T18:57:55+01:00</lastmod>
     </url>
 </urlset>

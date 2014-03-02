@@ -7,22 +7,29 @@
         <atom:link href="http://kleinfreund.de/feed.xml" rel="self" type="application/rss+xml" />
         
             <item>
-                <title>Website: bbk-vogtland.de</title>
-                <description>&lt;p&gt;The local society &lt;a href=&quot;http://bbk-vogtland.de/&quot;&gt;Bund Bildender Künstler Vogtland e.V.&lt;/a&gt; got a redesign. The result is a light, static site.&lt;/p&gt;
+                <title>Owl</title>
+                <description>&lt;p&gt;From time to time I do little cards for birthdays, Christmas, etc. Usually I’m looking for inspiration on Dribbble or while doing Tumblr stuff.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/img/bbk-vogtland/bbk-vogtland-1.jpg&quot; alt=&quot;BBK Vogtland homepage&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Although I went through the 26 pages for the owl tag on Dribbble, I couldn’t find the author of the original illustration. If you know who did this, feel free to &lt;a href=&quot;mailto:phrudloff@gmail.com&quot;&gt;mail&lt;/a&gt; me a link.&lt;/p&gt;
 
-&lt;p&gt;Only the members page involves a bit jQuery to reveal the member information.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/bbk-vogtland/bbk-vogtland-2.jpg&quot; alt=&quot;BBK Vogtland members page&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The tricky part was using the CSS3 &lt;code&gt;transition&lt;/code&gt; property, because the boxes for the detail view vary in height. Instead of transitioning to &lt;code&gt;height: auto;&lt;/code&gt; one needs to use &lt;code&gt;max-height&lt;/code&gt;. Not optimal, but it works.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/bbk-vogtland/bbk-vogtland-3.jpg&quot; alt=&quot;BBK Vogtland detail view for members page&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/owl/owl.jpg&quot; alt=&quot;Owl&quot; /&gt;&lt;/p&gt;
 </description>
-                <pubDate>Mon, 24 Feb 2014 00:00:00 +0100</pubDate>
-                <link>http://kleinfreund.de/en/portfolio/bbk-vogtland/</link>
-                <guid isPermaLink="true">http://kleinfreund.de/en/portfolio/bbk-vogtland/</guid>
+                <pubDate>Sun, 02 Mar 2014 00:00:00 +0100</pubDate>
+                <link>http://kleinfreund.de/en/portfolio/owl/</link>
+                <guid isPermaLink="true">http://kleinfreund.de/en/portfolio/owl/</guid>
+            </item>
+        
+            <item>
+                <title>Eule</title>
+                <description>&lt;p&gt;Ab und zu mache ich kleine Karten für Geburtstage, Weihnachten etc. Normalerweise lasse ich mich auf Dribbble oder beim Tumblrn inspirieren.&lt;/p&gt;
+
+&lt;p&gt;Obwohl ich mir die 26 Seiten für den &lt;em&gt;owl&lt;/em&gt;-Tag auf Dribbble angeschaut habe, konnte ich den Autor der ursprünglichen Illustration nicht finden. Wenn jemand weiß, wer das erstellt hat, kann er mir das gerne per &lt;a href=&quot;mailto:phrudloff@gmail.com&quot;&gt;Mail&lt;/a&gt; senden.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/owl/owl.jpg&quot; alt=&quot;Eule&quot; /&gt;&lt;/p&gt;
+</description>
+                <pubDate>Sun, 02 Mar 2014 00:00:00 +0100</pubDate>
+                <link>http://kleinfreund.de/de/portfolio/eule/</link>
+                <guid isPermaLink="true">http://kleinfreund.de/de/portfolio/eule/</guid>
             </item>
         
             <item>
@@ -42,6 +49,25 @@
                 <pubDate>Mon, 24 Feb 2014 00:00:00 +0100</pubDate>
                 <link>http://kleinfreund.de/de/portfolio/bbk-vogtland/</link>
                 <guid isPermaLink="true">http://kleinfreund.de/de/portfolio/bbk-vogtland/</guid>
+            </item>
+        
+            <item>
+                <title>Website: bbk-vogtland.de</title>
+                <description>&lt;p&gt;The local society &lt;a href=&quot;http://bbk-vogtland.de/&quot;&gt;Bund Bildender Künstler Vogtland e.V.&lt;/a&gt; got a redesign. The result is a light, static site.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/bbk-vogtland/bbk-vogtland-1.jpg&quot; alt=&quot;BBK Vogtland homepage&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Only the members page involves a bit jQuery to reveal the member information.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/bbk-vogtland/bbk-vogtland-2.jpg&quot; alt=&quot;BBK Vogtland members page&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The tricky part was using the CSS3 &lt;code&gt;transition&lt;/code&gt; property, because the boxes for the detail view vary in height. Instead of transitioning to &lt;code&gt;height: auto;&lt;/code&gt; one needs to use &lt;code&gt;max-height&lt;/code&gt;. Not optimal, but it works.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/bbk-vogtland/bbk-vogtland-3.jpg&quot; alt=&quot;BBK Vogtland detail view for members page&quot; /&gt;&lt;/p&gt;
+</description>
+                <pubDate>Mon, 24 Feb 2014 00:00:00 +0100</pubDate>
+                <link>http://kleinfreund.de/en/portfolio/bbk-vogtland/</link>
+                <guid isPermaLink="true">http://kleinfreund.de/en/portfolio/bbk-vogtland/</guid>
             </item>
         
             <item>
@@ -188,52 +214,6 @@
                 <pubDate>Sat, 01 Feb 2014 19:36:27 +0000</pubDate>
                 <link>http://kleinfreund.de/de/2014/02/der-name-ist-kleinfreund</link>
                 <guid isPermaLink="true">http://kleinfreund.de/de/2014/02/der-name-ist-kleinfreund</guid>
-            </item>
-        
-            <item>
-                <title>RUDELOVE business papers</title>
-                <description>&lt;p&gt;We created business papers, cards and letterheads and a fitting logo for a fictional company.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/rudelove/logo.png&quot; alt=&quot;RUDELOVE logo&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Of course one spends half of the time with creating a preferably stupid company.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/rudelove/letterhead.png&quot; alt=&quot;RUDELOVE letterhead&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I don’t know what &lt;em&gt;RUDELOVE&lt;/em&gt; is supposed to be. It’s a fictional company, right?&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/rudelove/business-card.png&quot; alt=&quot;RUDELOVE business card&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Right. I didn’t came up with a decent idea of what this company should do.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/rudelove/stationary.png&quot; alt=&quot;RUDELOVE stationary&quot; /&gt;&lt;/p&gt;
-</description>
-                <pubDate>Sun, 19 Jan 2014 00:00:00 +0100</pubDate>
-                <link>http://kleinfreund.de/en/portfolio/rudelove/</link>
-                <guid isPermaLink="true">http://kleinfreund.de/en/portfolio/rudelove/</guid>
-            </item>
-        
-            <item>
-                <title>Gesch&amp;auml;ftspapier: RUDELOVE</title>
-                <description>&lt;p&gt;Für eine fiktive Firma das Geschäftspapier, Visitenkarten und den Briefumschlaf gestalten war das Thema. Auch ein passendes Logo gehört da natürlich dazu.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/rudelove/logo.png&quot; alt=&quot;RUDELOVE Logo&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Wie man eben so ist hält man sich zunächst eine halbe Ewigkeit damit auf, sich eine möglichst dämliche Firma zu überlegen.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/rudelove/letterhead.png&quot; alt=&quot;RUDELOVE Briefbogen&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Was mein Unternehmen &lt;em&gt;RUDELOVE&lt;/em&gt; nun aber eigentlich macht, weiß ich garnicht. Aber an den Schöpfer dieses wunderbaren Nachnamenwortspiels kann man ja mal schreiben.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/rudelove/business-card.png&quot; alt=&quot;RUDELOVE Visitenkarte&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Spätestens im eigentlichen Brief offenbart sich dann, was hinter der Fantasiefirma steckt: Jemand, der Blindtexte googlet. Großartig. Ganz toll, Philipp. So wird das nichts.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/rudelove/stationary.png&quot; alt=&quot;RUDELOVE Briefpapier&quot; /&gt;&lt;/p&gt;
-</description>
-                <pubDate>Sun, 19 Jan 2014 00:00:00 +0100</pubDate>
-                <link>http://kleinfreund.de/de/portfolio/rudelove/</link>
-                <guid isPermaLink="true">http://kleinfreund.de/de/portfolio/rudelove/</guid>
             </item>
         
     </channel>
