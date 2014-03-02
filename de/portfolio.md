@@ -23,6 +23,12 @@ Hier sind hauptsächlich Arbeiten aus den Fächern Typografie, Fotografie und We
 
 ---
 
+## Zeichnung: Eule
+
+[![Zeichnung: Eule](/img/owl/thumbnail.jpg)](/en/portfolio/owl)
+
+---
+
 ## Geschäftspapier: RUDELOVE
 
 [![Geschäftspapier: RUDELOVE](/img/rudelove/thumbnail.png)](/de/portfolio/rudelove)

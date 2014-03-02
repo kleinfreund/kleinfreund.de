@@ -23,6 +23,12 @@ These are some of my works from this time. Mostly things from our typography, ph
 
 ---
 
+## Drawing: Owl
+
+[![Drawing: Owl](/img/owl/thumbnail.jpg)](/en/portfolio/owl)
+
+---
+
 ## Business Papers: RUDELOVE
 
 [![Business Papers: RUDELOVE](/img/rudelove/thumbnail.png)](/en/portfolio/rudelove)
