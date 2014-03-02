@@ -25,7 +25,7 @@ Hier sind hauptsächlich Arbeiten aus den Fächern Typografie, Fotografie und We
 
 ## Zeichnung: Eule
 
-[![Zeichnung: Eule](/img/owl/thumbnail.jpg)](/en/portfolio/owl)
+[![Zeichnung: Eule](/img/owl/thumbnail.jpg)](/de/portfolio/eule)
 
 ---
 

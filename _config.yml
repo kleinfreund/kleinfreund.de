@@ -1,3 +1,4 @@
+encoding: UTF-8
 markdown: rdiscount
 destination: "C:/Users/Philipp/_dev/github/kleinfreund.github.io"
 pygments: true
