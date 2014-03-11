@@ -13,46 +13,46 @@ Hier sind hauptsächlich Arbeiten aus den Fächern Typografie, Fotografie und We
 
 ## Website: Bund Bildender Künstler Vogtland
 
-[![Website: Bund Bildender Künstler Vogtland e.V.](/img/bbk-vogtland/thumbnail.jpg)](/de/portfolio/bbk-vogtland)
+[![Website: Bund Bildender Künstler Vogtland e.V.](/img/bbk-vogtland/thumbnail.jpg)](/de/portfolio/bbk-vogtland/)
 
 ---
 
 ## Website: Anke & Andreas Rudloff
 
-[![Website: Anke & Andreas Rudloff](/img/artrudloff/thumbnail.jpg)](/de/portfolio/artrudloff)
+[![Website: Anke & Andreas Rudloff](/img/artrudloff/thumbnail.jpg)](/de/portfolio/artrudloff/)
 
 ---
 
 ## Zeichnung: Eule
 
-[![Zeichnung: Eule](/img/owl/thumbnail.jpg)](/de/portfolio/eule)
+[![Zeichnung: Eule](/img/owl/thumbnail.jpg)](/de/portfolio/eule/)
 
 ---
 
 ## Geschäftspapier: RUDELOVE
 
-[![Geschäftspapier: RUDELOVE](/img/rudelove/thumbnail.png)](/de/portfolio/rudelove)
+[![Geschäftspapier: RUDELOVE](/img/rudelove/thumbnail.png)](/de/portfolio/rudelove/)
 
 ---
 
 ## Neujahrs-Typografie
 
-[![Neujahrs-Typografie](/img/new-years-typography/thumbnail.png)](/de/portfolio/neujahrs-typografie)
+[![Neujahrs-Typografie](/img/new-years-typography/thumbnail.png)](/de/portfolio/neujahrs-typografie/)
 
 ---
 
 ## Piktogramme
 
-[![Piktogramme](/img/pictograms/thumbnail.png)](/de/portfolio/piktogramme)
+[![Piktogramme](/img/pictograms/thumbnail.png)](/de/portfolio/piktogramme/)
 
 ---
 
 ## Landscapes
 
-[![Landscapes](/img/landscapes/thumbnail.jpg)](/de/portfolio/landscapes)
+[![Landscapes](/img/landscapes/thumbnail.jpg)](/de/portfolio/landscapes/)
 
 ---
 
 ## Martin & Phil
 
-[![Martin & Phil](/img/martin-and-phil/thumbnail.jpg)](/de/portfolio/martin-und-phil)
+[![Martin & Phil](/img/martin-and-phil/thumbnail.jpg)](/de/portfolio/martin-und-phil/)

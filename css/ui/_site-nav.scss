@@ -1,5 +1,9 @@
 .site-nav {
+    list-style: none;
+    @extend .cf;
     margin-bottom: 0;
+    margin-left: 0;
+    line-height: 1;
     padding-right: $base-spacing-unit * 4;
     border-bottom: $border-width solid $dark-ui-color;
     text-align: right;
@@ -8,23 +12,25 @@
         padding-right: 0;
     }
 
-    > li > a {
-        margin-left: $half-spacing-unit;
-        padding: $half-spacing-unit $base-spacing-unit;
-        color: $white;
-        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
-        text-transform: lowercase;
+    > li {
 
-        &:before {
-            /* Adding `/` before links */
-            content: "\002F";
+        &,
+        > a {
+            display: inline-block;
         }
 
-        @include media-query(palm) {
-            display: block;
-            margin-left: 0;
-            padding-right: $base-spacing-unit / 2;
-            padding-left: $base-spacing-unit / 2;
+        > a {
+            margin-left: $half-spacing-unit;
+            padding: $half-spacing-unit $base-spacing-unit;
+            color: $white;
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+
+            @include media-query(palm) {
+                display: block;
+                margin-left: 0;
+                padding-right: $base-spacing-unit / 2;
+                padding-left: $base-spacing-unit / 2;
+            }
         }
     }
 }

@@ -13,46 +13,46 @@ These are some of my works from this time. Mostly things from our typography, ph
 
 ## Website: Bund Bildender Künstler Vogtland
 
-[![Website: Bund Bildender Künstler Vogtland e.V.](/img/bbk-vogtland/thumbnail.jpg)](/en/portfolio/bbk-vogtland)
+[![Website: Bund Bildender Künstler Vogtland e.V.](/img/bbk-vogtland/thumbnail.jpg)](/en/portfolio/bbk-vogtland/)
 
 ---
 
 ## Website: Anke & Andreas Rudloff
 
-[![Website: Anke & Andreas Rudloff](/img/artrudloff/thumbnail.jpg)](/en/portfolio/artrudloff)
+[![Website: Anke & Andreas Rudloff](/img/artrudloff/thumbnail.jpg)](/en/portfolio/artrudloff/)
 
 ---
 
 ## Drawing: Owl
 
-[![Drawing: Owl](/img/owl/thumbnail.jpg)](/en/portfolio/owl)
+[![Drawing: Owl](/img/owl/thumbnail.jpg)](/en/portfolio/owl/)
 
 ---
 
 ## Business Papers: RUDELOVE
 
-[![Business Papers: RUDELOVE](/img/rudelove/thumbnail.png)](/en/portfolio/rudelove)
+[![Business Papers: RUDELOVE](/img/rudelove/thumbnail.png)](/en/portfolio/rudelove/)
 
 ---
 
 ## New Years Typography
 
-[![Neujahrs-Typografie](/img/new-years-typography/thumbnail.png)](/en/portfolio/new-years-typography)
+[![Neujahrs-Typografie](/img/new-years-typography/thumbnail.png)](/en/portfolio/new-years-typography/)
 
 ---
 
 ## Pictograms
 
-[![Pictograms](/img/pictograms/thumbnail.png)](/en/portfolio/pictograms)
+[![Pictograms](/img/pictograms/thumbnail.png)](/en/portfolio/pictograms/)
 
 ---
 
 ## Landscapes
 
-[![Landscapes](/img/landscapes/thumbnail.jpg)](/en/portfolio/landscapes)
+[![Landscapes](/img/landscapes/thumbnail.jpg)](/en/portfolio/landscapes/)
 
 ---
 
 ## Martin & Phil
 
-[![Martin & Phil](/img/martin-and-phil/thumbnail.jpg)](/en/portfolio/martin-and-phil)
+[![Martin & Phil](/img/martin-and-phil/thumbnail.jpg)](/en/portfolio/martin-and-phil/)

@@ -14,7 +14,7 @@
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="dns-prefetch" href="//themes.googleusercontent.com">
 
-    <title>{{ page.title }} &ndash; kleinfreund.de</title>
+    <title>{{ page.title }} – kleinfreund.de</title>
 
     <!--|
         | Hello, code inspecting individual. How is it going?
@@ -37,7 +37,7 @@
 </head>
 <body>
     <header class="site-head" role="banner">
-        <a href="{% if locale == 'de' %}/en/{% else %}/de/{% endif %}" class="lang-nav" title="{{ page.url }}">
+        <a href="{% if locale == 'de' %}/en/{% else %}/de/{% endif %}" class="lang-nav">
             {% if locale == 'de' %}en{% else %}de{% endif %}
         </a>
 
@@ -46,7 +46,7 @@
         </a>
 
         <nav role="navigation">
-            <ul class="site-nav nav nav--block">
+            <ul class="site-nav">
                 {% for link in site.locales[locale].nav %}<li>
                     <a href="{{ link.url }}" class="site-nav__item {{ link.class }}">{{ link.text }}</a>
                 </li>{% endfor %}

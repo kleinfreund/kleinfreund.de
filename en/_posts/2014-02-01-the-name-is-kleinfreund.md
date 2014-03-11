@@ -14,9 +14,9 @@ That’s something I kept on cold storage for a long time now. Roughly outlined 
 Why not have a look on the things the cool young kids use these days. Instead of using vanilla HTML and CSS, I ended up with a more powerful set of tools on my belt:
 
 * [SASS](http://sass-lang.com)
-* [inuitcss](http://inuitcss.com) &ndash; CSS Framework by Harry Roberts
-* [GitHub Pages](http://pages.github.com/) &ndash; Hosting the source code
-* [Jekyll](http://jekyllrb.com/) &ndash; Generating a static blog page
+* [inuitcss](http://inuitcss.com) – CSS Framework by Harry Roberts
+* [GitHub Pages](http://pages.github.com/) – Hosting the source code
+* [Jekyll](http://jekyllrb.com/) – Generating a static blog page
 
 ---
 

@@ -1,30 +1,30 @@
 /**
  * Sticky footer
- */
+ *
 body {
 
-    display: -webkit-box; /* Ye Olde Flexbox for Webkit */
-    display: -ms-flexbox; /* Tweener flexbox for IE10 */
-    display: -webkit-flex; /* Prefixed "new flexbox" */
-    display:         flex; /* unprefixed standard "new flexbox" version for the rest */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display:         flex;
 
 
-    -webkit-box-orient: vertical; /* Your grandparents flexbox for old Webkit */
-    -webkit-flex-direction: column; /* Prefixed new syntax: */
-        -ms-flex-direction: column; /* (Same syntax for weird IE tweener) */
-            flex-direction: column; /* unprefixed new syntax */
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
 
     min-height: 100vh;
 }
 
 main {
-    -webkit-box-flex: 1; /* Pepperidge Farm remembers. */
-        -ms-flex: 1; /* IE10, ugh */
-            flex: 1; /* Unprefixed */
-    -webkit-flex: 1; /* prefixed webkit syntax */
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -webkit-flex: 1;
 
     -ms-flex-preferred-size: auto;
-}
+}*/
 
 
 

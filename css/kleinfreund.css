@@ -839,7 +839,7 @@ textarea:focus {
  * Extend the clearfix class with Sass to avoid the `.cf` class appearing over
  * and over in your markup.
  */
-.cf:after, .nav:after {
+.cf:after, .site-nav:after {
   content: "";
   display: table;
   clear: both;
@@ -1699,184 +1699,6 @@ label,
 /**
  * Objects and abstractions
  */
-/*------------------------------------*\
-    $NAV
-\*------------------------------------*/
-/**
- * Nav abstraction as per: csswizardry.com/2011/09/the-nav-abstraction
- * When used on an `ol` or `ul`, this class throws the list into horizontal mode
- * e.g.:
- *
-   <ul class=nav>
-       <li><a href=#>Home</a></li>
-       <li><a href=#>About</a></li>
-       <li><a href=#>Portfolio</a></li>
-       <li><a href=#>Contact</a></li>
-   </ul>
- *
- * Demo: jsfiddle.net/inuitcss/Vnph4
- *
- */
-.nav {
-  list-style: none;
-  margin-left: 0;
-}
-.nav > li,
-.nav > li > a {
-  display: inline-block;
-  *display: inline;
-  zoom: 1;
-}
-
-/**
- * `.nav--stacked` extends `.nav` and throws the list into vertical mode, e.g.:
- *
-   <ul class="nav  nav--stacked">
-       <li><a href=#>Home</a></li>
-       <li><a href=#>About</a></li>
-       <li><a href=#>Portfolio</a></li>
-       <li><a href=#>Contact</a></li>
-   </ul>
- *
- */
-.nav--stacked > li {
-  display: list-item;
-}
-.nav--stacked > li > a {
-  display: block;
-}
-
-/**
- * `.nav--banner` extends `.nav` and centres the list, e.g.:
- *
-   <ul class="nav  nav--banner">
-       <li><a href=#>Home</a></li>
-       <li><a href=#>About</a></li>
-       <li><a href=#>Portfolio</a></li>
-       <li><a href=#>Contact</a></li>
-   </ul>
- *
- */
-.nav--banner {
-  text-align: center;
-}
-
-/**
- * Give nav links a big, blocky hit area. Extends `.nav`, e.g.:
- *
-   <ul class="nav  nav--block">
-       <li><a href=#>Home</a></li>
-       <li><a href=#>About</a></li>
-       <li><a href=#>Portfolio</a></li>
-       <li><a href=#>Contact</a></li>
-   </ul>
- *
- */
-.nav--block {
-  line-height: 1;
-  /**
-   * Remove whitespace caused by `inline-block`.
-   */
-  letter-spacing: -0.31em;
-  word-spacing: -0.43em;
-  white-space: nowrap;
-}
-.nav--block > li {
-  letter-spacing: normal;
-  word-spacing: normal;
-}
-.nav--block > li > a {
-  padding: 15px;
-}
-
-/**
- * Force a nav to occupy 100% of the available width of its parent. Extends
- * `.nav`, e.g.:
- *
-   <ul class="nav  nav--fit">
-       <li><a href=#>Home</a></li>
-       <li><a href=#>About</a></li>
-       <li><a href=#>Portfolio</a></li>
-       <li><a href=#>Contact</a></li>
-   </ul>
- *
- * Thanks to @pimpl for this idea!
- */
-.nav--fit {
-  display: table;
-  width: 100%;
-}
-.nav--fit > li {
-  display: table-cell;
-}
-.nav--fit > li > a {
-  display: block;
-}
-
-/**
- * Make a list of keywords. Extends `.nav`, e.g.:
- *
-   `<ul class="nav  nav--keywords>`
- *
- */
-.nav--keywords > li:after {
-  content: "\002C" "\00A0";
-}
-.nav--keywords > li:last-child:after {
-  display: none;
-}
-
-/*------------------------------------*\
-    $PAGINATION
-\*------------------------------------*/
-/**
- * Basic pagination object, extends `.nav`.
- * Requires some funky commenting to collapse any white-space caused by the
- * `display:inline-block;` rules.
- *
-   <ol class="nav  pagination">
-       <li class=pagination__first>First</li>
-       <li class=pagination__prev>Previous</li>
-       <li><a href=/page/1>1</a></li>
-       <li><a href=/page/2>2</a></li>
-       <li class=current><a href=/page/3>3</a></li>
-       <li><a href=/page/4>4</a></li>
-       <li><a href=/page/5>5</a></li>
-       <li class=pagination__next><a href=/page/next>Next</a></li>
-       <li class=pagination__last><a href=/page/last>Last</a></li>
-   </ol>
- *
- * Demo: jsfiddle.net/inuitcss/9Y6PU
- *
- */
-.pagination {
-  text-align: center;
-  /**
-   * Remove whitespace caused by `inline-block`.
-   */
-  letter-spacing: -0.31em;
-  word-spacing: -0.43em;
-}
-
-.pagination > li {
-  padding: 15px;
-  letter-spacing: normal;
-  word-spacing: normal;
-}
-
-.pagination > li > a {
-  padding: 15px;
-  margin: -15px;
-}
-
-.pagination__first a:before {
-  content: "\00AB" "\00A0";
-}
-
-.pagination__last a:after {
-  content: "\00A0" "\00BB";
-}
-
 /*------------------------------------*\
     $BLOCK-LIST
 \*------------------------------------*/
@@ -3125,39 +2947,31 @@ label,
  */
 /**
  * Sticky footer
- */
+ *
 body {
-  display: -webkit-box;
-  /* Ye Olde Flexbox for Webkit */
-  display: -ms-flexbox;
-  /* Tweener flexbox for IE10 */
-  display: -webkit-flex;
-  /* Prefixed "new flexbox" */
-  display: flex;
-  /* unprefixed standard "new flexbox" version for the rest */
-  -webkit-box-orient: vertical;
-  /* Your grandparents flexbox for old Webkit */
-  -webkit-flex-direction: column;
-  /* Prefixed new syntax: */
-  -ms-flex-direction: column;
-  /* (Same syntax for weird IE tweener) */
-  flex-direction: column;
-  /* unprefixed new syntax */
-  min-height: 100vh;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display:         flex;
+
+
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+
+    min-height: 100vh;
 }
 
 main {
-  -webkit-box-flex: 1;
-  /* Pepperidge Farm remembers. */
-  -ms-flex: 1;
-  /* IE10, ugh */
-  flex: 1;
-  /* Unprefixed */
-  -webkit-flex: 1;
-  /* prefixed webkit syntax */
-  -ms-flex-preferred-size: auto;
-}
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -webkit-flex: 1;
 
+    -ms-flex-preferred-size: auto;
+}*/
 /**
  * Wrapper
  */
@@ -3446,7 +3260,10 @@ pre code, pre kbd, pre samp {
 }
 
 .site-nav {
+  list-style: none;
   margin-bottom: 0;
+  margin-left: 0;
+  line-height: 1;
   padding-right: 120px;
   border-bottom: 8px solid #2b2b2b;
   text-align: right;
@@ -3456,16 +3273,15 @@ pre code, pre kbd, pre samp {
     padding-right: 0;
   }
 }
+.site-nav > li,
+.site-nav > li > a {
+  display: inline-block;
+}
 .site-nav > li > a {
   margin-left: 15px;
   padding: 15px 30px;
   color: white;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
-  text-transform: lowercase;
-}
-.site-nav > li > a:before {
-  /* Adding `/` before links */
-  content: "\002F";
 }
 @media only screen and (max-width: 480px) {
   .site-nav > li > a {

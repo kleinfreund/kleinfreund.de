@@ -15,10 +15,10 @@ Dann kann man sich ja auch gleich noch die ganzen Sachen anschauen, die der Rest
 
 Statt ganz klassisch alles mit Vanille-HTML und Vanille-CSS zu machen, sind folgende Helferlein zum Einsatz gekommen:
 
-* [SASS](http://sass-lang.com) &ndash; Sagt man wirklich _Präprozessor_?
-* [inuitcss](http://inuitcss.com) &ndash; handliches CSS Framework vom Harry Roberts
-* [GitHub Pages](http://pages.github.com/) &ndash; Speicher für statische Seiten; Großartig!
-* [Jekyll](http://jekyllrb.com/) &ndash; Statische Seiten samt Blog
+* [SASS](http://sass-lang.com) – Sagt man wirklich _Präprozessor_?
+* [inuitcss](http://inuitcss.com) – handliches CSS Framework vom Harry Roberts
+* [GitHub Pages](http://pages.github.com/) – Speicher für statische Seiten; Großartig!
+* [Jekyll](http://jekyllrb.com/) – Statische Seiten samt Blog
 
 In der nächsten Zeit schreibe ich, warum ich diese Werkzeuge nutze und inwiefern sie mir helfen.
 
