@@ -126,7 +126,7 @@
 
 &lt;p&gt;Für’s CSS verwende ich noch &lt;a href=&quot;http://inuitcss.com/&quot;&gt;inuit.css&lt;/a&gt;, von dem ich eigentlich mal einen Fork machen sollte, weil ich eben doch nicht alles daraus brauche. Damit warte ich vorerst aber, weil Harry sicher irgendwann dieses Jahr inuitcss 5 raushaut. Er hat jedenfalls schon mal den &lt;em&gt;Punkt&lt;/em&gt; aus dem Namen entfernt.&lt;/p&gt;
 
-&lt;p&gt;Ganz nebenbei bin ich auf eine weitere Seite aus dem Stack Exchange Netzwerk gestoßen, die ich vorher noch nicht kannte. Nein, mit Aktien hat das nichts zu tun. &lt;a href=&quot;http://codereview.stackexchange.com/&quot;&gt;Code&amp;nbsp;Review&lt;/a&gt;! Dort kann man&amp;hellip; seinen Code überprüfen lassen (sic!). Das habe ich gleich genutzt und Teile der Seite durchchecken lassen (&lt;a href=&quot;http://codereview.stackexchange.com/q/39890/35408&quot;&gt;hier&lt;/a&gt;, &lt;a href=&quot;http://codereview.stackexchange.com/q/40142/35408&quot;&gt;hier&lt;/a&gt; und &lt;a href=&quot;http://codereview.stackexchange.com/q/40574/35408&quot;&gt;hier&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Ganz nebenbei bin ich auf eine weitere Seite aus dem Stack Exchange Netzwerk gestoßen, die ich vorher noch nicht kannte. Nein, mit Aktien hat das nichts zu tun. &lt;a href=&quot;http://codereview.stackexchange.com/&quot;&gt;Code&amp;nbsp;Review&lt;/a&gt;! Dort kann man… seinen Code überprüfen lassen (sic!). Das habe ich gleich genutzt und Teile der Seite durchchecken lassen (&lt;a href=&quot;http://codereview.stackexchange.com/q/39890/35408&quot;&gt;hier&lt;/a&gt;, &lt;a href=&quot;http://codereview.stackexchange.com/q/40142/35408&quot;&gt;hier&lt;/a&gt; und &lt;a href=&quot;http://codereview.stackexchange.com/q/40574/35408&quot;&gt;hier&lt;/a&gt;).&lt;/p&gt;
 
 &lt;p&gt;Welche Hilfsmittel benutzt ihr denn für eure Websites? Lasst mir ein paar Statements da: &lt;a href=&quot;https://twitter.com/kleinfreund&quot;&gt;@kleinfreund&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -168,9 +168,9 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://sass-lang.com&quot;&gt;SASS&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://inuitcss.com&quot;&gt;inuitcss&lt;/a&gt; &amp;ndash; CSS Framework by Harry Roberts&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; &amp;ndash; Hosting the source code&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; &amp;ndash; Generating a static blog page&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://inuitcss.com&quot;&gt;inuitcss&lt;/a&gt; – CSS Framework by Harry Roberts&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; – Hosting the source code&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; – Generating a static blog page&lt;/li&gt;
 &lt;/ul&gt;
 
 
@@ -198,10 +198,10 @@
 &lt;p&gt;Statt ganz klassisch alles mit Vanille-HTML und Vanille-CSS zu machen, sind folgende Helferlein zum Einsatz gekommen:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://sass-lang.com&quot;&gt;SASS&lt;/a&gt; &amp;ndash; Sagt man wirklich &lt;em&gt;Präprozessor&lt;/em&gt;?&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://inuitcss.com&quot;&gt;inuitcss&lt;/a&gt; &amp;ndash; handliches CSS Framework vom Harry Roberts&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; &amp;ndash; Speicher für statische Seiten; Großartig!&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; &amp;ndash; Statische Seiten samt Blog&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://sass-lang.com&quot;&gt;SASS&lt;/a&gt; – Sagt man wirklich &lt;em&gt;Präprozessor&lt;/em&gt;?&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://inuitcss.com&quot;&gt;inuitcss&lt;/a&gt; – handliches CSS Framework vom Harry Roberts&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; – Speicher für statische Seiten; Großartig!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; – Statische Seiten samt Blog&lt;/li&gt;
 &lt;/ul&gt;
 
 
