@@ -7,6 +7,8 @@ Ich weiß nicht, wie’s euch geht, aber in meiner Steam-Bibliothek tummeln sich
 
 Fakt ist, dass ich viel mehr die Musik zu den Spielen höre, als selbige zu spielen. Zu dem bringt mich das in die merkwürdige Situation hier von Musik zu berichten, die ich auch wirklich gekauft habe.
 
+__Übrigens:__ Klickt auf die Bilder, um zu den Bandcamp-Seiten der Alben zu kommen. Kauft!
+
 ## Darren Korb: Bastion
 
 [![Darren Korb: Bastion Soundtrack](/img/posts/darren-korb-bastion-soundtrack-cover.jpg)](http://supergiantgames.bandcamp.com/album/bastion-original-soundtrack/)
