@@ -41,11 +41,11 @@
         <lastmod>2014-03-11T16:42:11+01:00</lastmod>
     </url>
     <url>
-        <loc>http://kleinfreund.de/en/portfolio/rudelove/</loc>
+        <loc>http://kleinfreund.de/de/portfolio/rudelove/</loc>
         <lastmod>2014-03-11T16:42:11+01:00</lastmod>
     </url>
     <url>
-        <loc>http://kleinfreund.de/de/portfolio/rudelove/</loc>
+        <loc>http://kleinfreund.de/en/portfolio/rudelove/</loc>
         <lastmod>2014-03-11T16:42:11+01:00</lastmod>
     </url>
     <url>
@@ -73,11 +73,11 @@
         <lastmod>2014-03-11T16:42:11+01:00</lastmod>
     </url>
     <url>
-        <loc>http://kleinfreund.de/de/portfolio/bbk-vogtland/</loc>
+        <loc>http://kleinfreund.de/en/portfolio/bbk-vogtland/</loc>
         <lastmod>2014-03-11T16:42:11+01:00</lastmod>
     </url>
     <url>
-        <loc>http://kleinfreund.de/en/portfolio/bbk-vogtland/</loc>
+        <loc>http://kleinfreund.de/de/portfolio/bbk-vogtland/</loc>
         <lastmod>2014-03-11T16:42:11+01:00</lastmod>
     </url>
     <url>
@@ -87,6 +87,14 @@
     <url>
         <loc>http://kleinfreund.de/en/portfolio/owl/</loc>
         <lastmod>2014-03-11T16:42:11+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://kleinfreund.de/de/2014/03/soundtracks</loc>
+        <lastmod>2014-03-19T15:23:24+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://kleinfreund.de/en/2014/03/soundtracks</loc>
+        <lastmod>2014-03-19T15:23:21+01:00</lastmod>
     </url>
     <url>
         <loc>http://kleinfreund.de/de/impressum/</loc>
@@ -122,6 +130,6 @@
     </url>
     <url>
         <loc>http://kleinfreund.de/</loc>
-        <lastmod>2014-03-04T15:34:23+01:00</lastmod>
+        <lastmod>2014-03-19T15:23:24+01:00</lastmod>
     </url>
 </urlset>
