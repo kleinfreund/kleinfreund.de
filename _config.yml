@@ -7,7 +7,7 @@ paginate: 5
 relative_permalinks: false
 include:
 - .nojekyll
-exclude: [prepros.json, config.rb, assets/fonts]
+exclude: [prepros.json, config.rb]
 
 name: kleinfreund
 description: Mondbasis von Philipp Rudloff. Mache Webentwicklung und -design. Dinge und Sachen auch.
