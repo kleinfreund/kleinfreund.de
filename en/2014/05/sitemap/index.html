@@ -3,7 +3,7 @@
 
 
 <!DOCTYPE html>
-<html lang="en" class="page page--blog">
+<html lang="en" class="page page--post page--blog">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,7 @@
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="dns-prefetch" href="//themes.googleusercontent.com">
 
-    <title>Moonbase of Philipp Rudloff – kleinfreund.de</title>
+    <title>Sitemap – kleinfreund.de</title>
 
     <!--|
         | Hello, code inspecting individual. How is it going?
@@ -53,80 +53,37 @@
 
     <main role="main">
         
-        <div class="page-head">
-            <h1 class="page-title">Friendly Articles</h1>
-        </div>
-        
         <div class="page-content wrapper">
             
 
 
 
-<ul class="post-list">
+<article class="post">
+    <time datetime="" class="post__time">
     
-    <li>
-        <article class="post">
-            <a href="/en/portfolio/rudelove/" class="post-list__link">
-                <time datetime="2014-01-19" class="post-list__time">
-                
-                    19 January, 2014
-                
-                </time>
-                <h2 class="post-list__title">RUDELOVE business papers</h2>
-            </a>
-            <p>We created business papers, cards and letterheads and a fitting logo for a fictional company.</p>
-
-        </article>
-    </li>
+        5 May, 2014
     
-    <li>
-        <article class="post">
-            <a href="/en/portfolio/artrudloff/" class="post-list__link">
-                <time datetime="2014-01-19" class="post-list__time">
-                
-                    19 January, 2014
-                
-                </time>
-                <h2 class="post-list__title">Website: artrudloff.de</h2>
-            </a>
-            <p>I built <a href="http://artrudloff.de">artrudloff.de</a> for my parents in Summer 2012. It’s a showcase of their work.</p>
+    </time>
+    <h1>Sitemap</h1>
 
-        </article>
-    </li>
-    
-    <li>
-        <article class="post">
-            <a href="/en/portfolio/landscapes/" class="post-list__link">
-                <time datetime="2014-01-19" class="post-list__time">
-                
-                    19 January, 2014
-                
-                </time>
-                <h2 class="post-list__title">Photography: Landscapes</h2>
-            </a>
-            <p>A few snapshots from last year. I should really get a decent camera. Then remind to take it with me and actually use it. Sounds like a plan.</p>
+    <p>Today I discovered, that there <a href="https://help.github.com/articles/sitemaps-for-github-pages">a few Jekyll plugins</a> which run in <em>safe mode</em>. GitHub Pages doesn’t normally allow plugins, unless you compile locally.</p>
 
-        </article>
-    </li>
-    
-</ul>
+<p>Because I need the plugins <a href="https://github.com/gacha/gacha.id.lv/blob/master/_plugins/i18n_filter.rb">i18n_filter.rb</a> and <a href="https://github.com/captaincanine/marran.com/blob/master/_plugins/generate_category_pages.rb">generate_category_pages.rb</a> for the bilinguality of my site, I need to do that anyway. The first plugin is used to display the month names in the right language. The last one creates blog pages filtered by category (German and English).</p>
 
+<p>I’d prefer letting GitHub Pages do the compiling for me. I’m not really happy with my current solution. However I exchanged the plugin for the sitemap for now.</p>
 
-<ol class="pagination">
-    <li class="pagination__prev">
-        
-        
-            <a href="/en/page2" rel="prev">Newer</a>
-        
-        
-    </li><!--
- --><li class="pagination__next">
-        
-            Older
-        
-    </li>
-</ol>
+<p>The <em>404.html</em> gets a <em>YAML front matter</em> so it'll be ignored for sitemap generation.</p>
 
+<p><strong>404.html</strong></p>
+
+<pre><code>---
+sitemap: false
+---
+</code></pre>
+
+<p>Sadly you currently can’t exclude files and directories without using <em>front matter</em>.</p>
+
+</article>
 
         </div>
     </main>

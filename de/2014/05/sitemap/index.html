@@ -1,0 +1,95 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="de" class="page page--post page--blog">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Prefetching Google Webfonts -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//themes.googleusercontent.com">
+
+    <title>Sitemap – kleinfreund.de</title>
+
+    <!--|
+        | Hello, code inspecting individual. How is it going?
+        | Feel free to poke around. Drop me a line, if you want.
+        |
+        | Have a nice day. :)
+        |-->
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic">
+    <link rel="stylesheet" href="/css/kleinfreund.min.css">
+
+    <link rel="shortcut icon" href="/icon.png">
+
+    <meta name="description" content="Mondbasis von Philipp Rudloff. Mache Webentwicklung und -design. Dinge und Sachen auch.">
+</head>
+<body>
+    <header class="site-head" role="banner">
+        <a href="/en/" class="lang-nav">
+            en
+        </a>
+
+        <a href="/de/" class="site-logo">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="kleinfreund">
+        </a>
+
+        <nav role="navigation">
+            <ul class="site-nav">
+                <li>
+                    <a href="/de/" class="site-nav__item site-nav__item--blog">Blog</a>
+                </li><li>
+                    <a href="/de/portfolio/" class="site-nav__item site-nav__item--portfolio">Portfolio</a>
+                </li><li>
+                    <a href="/de/profil/" class="site-nav__item site-nav__item--profile">Profil</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main role="main">
+        
+        <div class="page-content wrapper">
+            
+
+
+
+<article class="post">
+    <time datetime="" class="post__time">
+    
+        5. Mai 2014
+    
+    </time>
+    <h1>Sitemap</h1>
+
+    <p>Heute habe ich entdeckt, dass es <a href="https://help.github.com/articles/sitemaps-for-github-pages">ein paar Jekyll-Plugins</a> gibt, die auch im <em>Safe Mode</em> laufen. GitHub Pages erlaubt normalerweise die Verwendung von Plugins nicht, es sei denn man kompiliert lokal.</p>
+
+<p>Da ich für die Zweisprachigkeit meiner Seite die Plugins <a href="https://github.com/gacha/gacha.id.lv/blob/master/_plugins/i18n_filter.rb">i18n_filter.rb</a> und <a href="https://github.com/captaincanine/marran.com/blob/master/_plugins/generate_category_pages.rb">generate_category_pages.rb</a> brauche, muss ich das dennoch machen. Das erste Plugin sorgt dafür, dass die Monatsnamen an die jeweilige Sprache angepasst sind. Letzteres erlaubt das erzeugen von Blogseiten, die nach Kategorie (Deutsch und Englisch) gefiltert sind.</p>
+
+<p>Mir wäre es lieber, wenn ich das kompilieren wieder GitHub Pages überlassen könnte. So richtig zufrieden bin ich mit meiner aktuellen Lösung nämlich nicht. Das Plugin für die Sitemap habe ich jetzt jedenfalls schon einmal ausgetauscht.</p>
+
+<p>Die <em>404.html</em> bekommt <em>YAML Front Matter</em>, so dass sie nicht in die <em>sitemap.xml</em> generiert wird.</p>
+
+<p><strong>404.html</strong></p>
+
+<pre><code>---
+sitemap: false
+---
+</code></pre>
+
+<p>Was leider noch nicht geht ist das ausschließen von Dateien und Verzeichnissen ohne <em>Front Matter</em>.</p>
+
+</article>
+
+        </div>
+    </main>
+
+    <footer class="site-foot" role="contentinfo">
+        <p>Mondbasis von <a href='http://twitter.com/kleinfreund'>Philipp Rudloff</a>. Gehostet auf <a href='http://github.com/kleinfreund/kleinfreund.github.io'>GitHub</a>. Erstellt mit <a href='http://jekyllrb.com'>Jekyll</a> und <a href='http://inuitcss.com'>inuitcss</a>. Und das notwendige <a href='/de/impressum/'>Impressum</a>.</p>
+    </footer>
+</body>
+</html>
