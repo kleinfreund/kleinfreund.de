@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+
+  <title type="text">kleinfreund.de</title>
+  <subtitle type="text"></subtitle>
+  <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
+  <link rel="self" type="application/atom+xml" href="http://kleinfreund.de/feed.xml" />
+  <link rel="alternate" type="text/html" href="http://kleinfreund.de" />
+  <updated>2014-05-23T11:44:47+02:00</updated>
+  <id>http://kleinfreund.de/</id>
+  <author>
+    <name>Philipp Rudloff</name>
+    <uri>http://kleinfreund.de/</uri>
+  </author>
+
+
+
+  <entry>
+    <title><![CDATA[Jekyll: Sitemap-Plugin mit GitHub&nbsp;Pages]]></title>
+    <link rel="alternate" type="text/html" href="http://kleinfreund.de/2014/05/jekyll-sitemap-plugin-mit-github-pages" />
+    <updated>2014-05-22T13:02:14+02:00</updated>
+    <id>http://kleinfreund.de/2014/05/jekyll-sitemap-plugin-mit-github-pages</id>
+    <author>
+      <name>Philipp Rudloff</name>
+      <uri>http://kleinfreund.de</uri>
+    </author>
+    <content type="html"><p>Eine Jekyll-Seite läuft mit Plugins auf GitHub Pages nur, wenn man vorher lokal kompiliert. <a href="https://help.github.com/articles/using-jekyll-plugins-with-github-pages">Seit kurzem</a> muss man diesen Umweg zumindest für das erzeugen einer Sitemap nicht mehr gehen.</p>
+
+<p>Man installiert das Plugin <a href="https://github.com/jekyll/jekyll-sitemap">jekyll-sitemap</a>…</p>
+
+<pre><code>gem install jekyll-sitemap
+</code></pre>
+
+<p>…und aktiviert es über einen Eintrag in der _config.yml:</p>
+
+<pre><code>gems:
+  - jekyll-sitemap
+</code></pre>
+
+<p>Der 404.html habe ich noch <code>sitemap: false</code> in das Front Matter geschrieben, so dass sie nicht in der Sitemap auftaucht. Das Feature jedoch noch nicht eingebaut. Kommt aber wohl mit Version 0.5.0.</p>
+
+<p>In der Version 0.4.0 gibt es auch noch <a href="https://github.com/jekyll/jekyll-sitemap/issues/15">einen Konflikt</a> mit dem neuen <a href="http://jekyllrb.com/news/2014/05/06/jekyll-turns-2-0-0/">Jekyll 2.0.0</a> (nämlich mit Configuration Defaults).</p>
+
+<p>Legt man für alle Dateien <code>layout: default</code> als Standardwert fest, so wird auch die Sitemap als Jekyll-Seite behandelt. Die sitemap.xml enthält dann das HTML aus der Layout-Datei und an die Stelle von <code>{{ content }}</code> landet der Sitemap-Code.</p>
+
+<p>Das ist mit der Version 0.4.1 gefixt. Schön wäre es noch, wenn man Dateien ausschließen könnte, die nichts mit der Jekyll-Seite zu tun haben.</p>
+</content>
+  </entry>
+
+
+
+
+
+  <entry>
+    <title><![CDATA[Soundtracks]]></title>
+    <link rel="alternate" type="text/html" href="http://kleinfreund.de/2014/03/soundtracks" />
+    <updated>2014-03-19T15:18:27+01:00</updated>
+    <id>http://kleinfreund.de/2014/03/soundtracks</id>
+    <author>
+      <name>Philipp Rudloff</name>
+      <uri>http://kleinfreund.de</uri>
+    </author>
+    <content type="html"><p>Ich weiß nicht, wie’s euch geht, aber in meiner Steam-Bibliothek tummeln sich unzählige, nie angerührte Spiele. Humble Bundle, du weißt bescheid. Trotz Omnipräsenz durch Shop und wöchentliche Angebote immer noch eine gute Sache.</p>
+
+<p>Fakt ist, dass ich viel mehr die Musik zu den Spielen höre, als selbige zu spielen. Zu dem bringt mich das in die merkwürdige Situation hier von Musik zu berichten, die ich auch wirklich gekauft habe.</p>
+
+<p><strong>Übrigens:</strong> Klickt auf die Bilder, um zu den Bandcamp-Seiten der Alben zu kommen. Kauft!</p>
+
+<h2>Darren Korb: Bastion</h2>
+
+<figure>
+    <a href="http://supergiantgames.bandcamp.com/album/bastion-original-soundtrack"><img src="/img/posts/darren-korb-bastion-soundtrack-cover.jpg" alt="Darren Korb: Bastion Soundtrack" /></a>
+    <figcaption>Bastion Artwork by <a href="http://supergiantgames.com">Supergiant Games</a>.</figcaption>
+</figure>
+
+<p>Bastion ist ein Gesamtkunstwerk. Das Spiel ist zwar im Grunde ein Hack and Slay, aber eben ein richtig gutes. Die Story, der Erzähler, das Gameplay. Wahnsinn. Tut mir Leid für die, die damals das <em>Humble Indie Bundle V</em> verpasst oder ignoriert haben.</p>
+
+<p>Toll, dass der Soundtrack das auch noch toppt. Absolute Empfehlung. Lieblingstitel ist <em>Mother, I’m Here (Zulf’s Theme)</em>. Ach herrje. Übrigens eines der wenigen Spiele, die ich auch wirklich mal durchgespielt habe. Bin gespannt auf <a href="http://supergiantgames.com/index.php/transistor">Transistor</a>.</p>
+
+<h2>Floex: Zorya</h2>
+
+<figure>
+    <a href="http://store.floex.cz/album/zorya"><img src="/img/posts/floex-zorya-cover.jpg" alt="Floex: Zorya" /></a>
+    <figcaption>Zorya Artwork by <a href="http://www.floex.cz">Floex</a>.</figcaption>
+</figure>
+
+<p>Kein Soundtrack zu einem Spiel, war aber beim <em>Humble Amanita Bundle</em> dabei. Die haben den Soundtrack für Samorost II und Machinarium gemacht.</p>
+
+<p>Harmonisches, mystisches Klarinettengedudel. Steh ich voll drauf. Bestes Lied? <em>Precious Creature.</em></p>
+
+<h2>Jim Guthrie: Sword &amp; Sworcery LP</h2>
+
+<figure>
+    <a href="http://jimguthrie.bandcamp.com/album/sword-sworcery-lp-the-ballad-of-the-space-babies"><img src="/img/posts/jim-guthrie-sword-and-sworcery-lp-cover.jpg" alt="Jim Guthrie: Sword &amp; Sworcery LP" /></a>
+    <figcaption>Sword &amp; Sworcery LP Artwork by <a href="http://www.superbrothershq.com/artwork/sword-sworcery-2009-2012">Superbrothers HQ</a>.</figcaption>
+</figure>
+
+<p>Hat gewisse Ähnlichkeiten mit dem Zorya-Album, klingt aber mehr nach <em>Spiel</em>. Obwohl sich da bei Sword &amp; Sworcery auch die Geister scheiden.</p>
+
+<p>Angenehmer Begleiter für ruhigere Nachmittage oder Wochenenden. Aber das trifft auf fast alle hier vorgestellten Sachen zu. Favorit ist der Eröffnungstrack <em>Dark Flute</em>. Richtig funky wird’s mit <em>Com64</em> aus dem Bonusmaterial.</p>
+
+<h2>Carlo Castellano: The Swapper</h2>
+
+<figure>
+    <a href="http://store.carlocastellano.cc/album/the-swapper-original-soundtrack"><img src="/img/posts/carlo-castellano-the-swapper-soundtrack-cover.jpg" alt="Carlo Castellano: The Swapper" /></a>
+    <figcaption>The Swapper Artwork by <a href="http://www.sakkesoini.com">Sakke Soini</a> and <a href="https://twitter.com/facepalmgames">Olli Harjola</a>.</figcaption>
+</figure>
+
+<p>Das Spiel wurde an vielen Stellen gerade auch wegen des Soundtracks gelobt. Habe es nicht gespielt, aber auf die Empfehlung gehört und mich reingehört. Bestätige.</p>
+
+<p>Sphärische, mystische Klänge. Und dann Titel 6, eines dieser fesselnden Klavierstücke: <em>Recreation</em>. Wer sowas mag, dem kann ich nur <a href="https://soundcloud.com/oskarschuster">Oskar Schuster</a> empfehlen.</p>
+
+<h2>C418: Volume Beta</h2>
+
+<figure>
+    <a href="http://c418.bandcamp.com/album/minecraft-volume-beta"><img src="/img/posts/c418-volume-beta-cover.jpg" alt="C418: Volume Beta" /></a>
+    <figcaption>Volume Beta Artwork by <a href="http://c418.bandcamp.com/album/minecraft-volume-beta">C418</a>.</figcaption>
+</figure>
+
+<p>Als wäre der erste Soundtrack zu Minecraft nicht schon gut genug, legt Daniel Rosenfeld hier nochmal fantastisch nach. Den mag ich sogar noch etwas mehr als <em>Volume Alpha</em>. Das Teil hat 140 Minuten Spieldauer. Über zwei Stunden. Fast ein Zehntel Tag!</p>
+
+<h2>Tiny &amp; Big: Music To Cut Rocks By</h2>
+
+<figure>
+    <a href="http://blackpantsgamestudio.bandcamp.com/album/tiny-big-soundtrack"><img src="/img/posts/tiny-and-big-soundtrack-cover.jpg" alt="Tiny &amp; Big: Music To Cut Rocks By" /></a>
+    <figcaption>Tiny &amp; Big Artwork by <a href="http://www.the-stamm.com/wordpress/?portfolio=tiny-big-box-art">Sebastian Stamm</a>.</figcaption>
+</figure>
+
+<p>Die tanzt aus der Reihe. Die schräge Musik zu einem wahrscheinlich nicht minder schrägen Spiel. Ist auch eine Compilation von mehreren Künstlern. Hier geht’s dann auch etwas mehr zur Sache. Liebling ist <em>Lusitiana</em>.</p>
+
+<h2>Sonstige</h2>
+
+<p>Sehr beeindruckt hat mich auch die Musik zu <em>Gothic II</em>. Eines meiner Lieblingsspiele. Zu erwähnen wäre vielleicht noch die verrückte Musik von <em>Command &amp; Conquer: Red Alert 3</em>. Der Soundtrack von <em>Dust: An Elysian Tail</em> kam eigentlich auch gut weg. Den muss ich mir nochmal anhören.</p>
+
+<p>Aus dem Bereich Film kennt sicher jeder schon die großen Teile von Star Wars, Herr der Ringe, Hobbit etc. Nicht zu vergessen Yann Tiersen mit <em>Le Fabuleux Destin d’Amélie Poulain</em>.</p>
+
+<hr />
+
+<p>Wen hab ich vergessen? Was ist eure Lieblingsspielmusik? Lieblingsfilmmusik? Meinetwegen auch Lieblingsmusik? Lieblingsirgendwas?!</p>
+</content>
+  </entry>
+
+
+
+
+
+  <entry>
+    <title><![CDATA[Website: bbk-vogtland.de]]></title>
+    <link rel="alternate" type="text/html" href="http://kleinfreund.de/portfolio/2014/03/bbk-vogtland" />
+    <updated>2014-03-02T16:59:41+01:00</updated>
+    <id>http://kleinfreund.de/portfolio/2014/03/bbk-vogtland</id>
+    <author>
+      <name>Philipp Rudloff</name>
+      <uri>http://kleinfreund.de</uri>
+    </author>
+    <content type="html"><p>Der Verein <a href="http://bbk-vogtland.de">Bund Bildender Künstler Vogtland e.V.</a> bekam ein Redesign. Das Ergebnis ist eine schlanke, statische Seite.</p>
+
+<p><img src="/img/portfolio/bbk-vogtland-1.jpg" alt="BBK Vogtland Startseite" /></p>
+
+<p><img src="/img/portfolio/bbk-vogtland-2.jpg" alt="BBK Vogtland Mitgliederseite" /></p>
+
+<p><img src="/img/portfolio/bbk-vogtland-3.jpg" alt="BBK Vogtland Detailansicht der Mitglieder" /></p>
+</content>
+  </entry>
+
+
+
+
+
+  <entry>
+    <title><![CDATA[Website: artrudloff.de]]></title>
+    <link rel="alternate" type="text/html" href="http://kleinfreund.de/portfolio/2014/02/artrudloff" />
+    <updated>2014-02-25T15:31:33+01:00</updated>
+    <id>http://kleinfreund.de/portfolio/2014/02/artrudloff</id>
+    <author>
+      <name>Philipp Rudloff</name>
+      <uri>http://kleinfreund.de</uri>
+    </author>
+    <content type="html"><p>Die Website <a href="http://artrudloff.de">artrudloff.de</a> habe ich im Sommer 2012 für meine Eltern erstellt. Zu finden gibt es eine Auswahl der Arbeiten von Anke und Andreas Rudloff.</p>
+
+<p>Hinter der Seite steht ein braves Wordpress. Im letzten Jahr habe ich die Seite noch einmal überarbeitet. Seit dem verwende ich <a href="http://inuitcss.com">inuitcss</a> und eine angepasste <a href="http://alexcican.com/post/teehan-lax-navigation">Teehan+Lax Navigation</a>.</p>
+
+<p><img src="/img/portfolio/artrudloff-1.jpg" alt="artrudloff.de Startseite" /></p>
+
+<p>Andreas präsentiert seine Druckgrafiken, Aquarelle und Plakate.</p>
+
+<p><img src="/img/portfolio/artrudloff-2.jpg" alt="Website von Andreas Rudloff" /></p>
+
+<p>Bei Anke finden sich ihre Glockengestaltungen, Holzarbeiten, Wandbilder und Zeichnungen.</p>
+
+<p><img src="/img/portfolio/artrudloff-3.jpg" alt="Website von Anke Rudloff" /></p>
+</content>
+  </entry>
+
+
+
+
+
+  <entry>
+    <title><![CDATA[Eule]]></title>
+    <link rel="alternate" type="text/html" href="http://kleinfreund.de/portfolio/2014/02/eule" />
+    <updated>2014-02-24T14:59:33+01:00</updated>
+    <id>http://kleinfreund.de/portfolio/2014/02/eule</id>
+    <author>
+      <name>Philipp Rudloff</name>
+      <uri>http://kleinfreund.de</uri>
+    </author>
+    <content type="html"><p>Ab und zu mache ich kleine Karten für Geburtstage, Weihnachten etc. Normalerweise lasse ich mich auf Dribbble oder beim Tumblrn inspirieren.</p>
+
+<p>Obwohl ich mir die 26 Seiten für den <em>owl</em>-Tag auf Dribbble angeschaut habe, konnte ich den Autor der ursprünglichen Illustration nicht finden. Wenn jemand weiß, wer das erstellt hat, kann er mir das gerne per <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#112;&#104;&#114;&#117;&#100;&#108;&#111;&#102;&#102;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">Mail</a> senden.</p>
+
+<p><img src="/img/portfolio/owl.jpg" alt="Eule" /></p>
+</content>
+  </entry>
+
+
+
+
+
+</feed>

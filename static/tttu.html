@@ -10,9 +10,107 @@
     <link rel="stylesheet" href="tttu.css">
 
     <meta name="description" content="Tic-Tac-Toe Ultimate">
-    <!--[if lt IE 9]>
-        <script src="/js/html5shiv.js"></script>
-    <![endif]-->
+    <style>
+    *, *:before, *:after {
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+    }
+
+
+
+    /*
+     *  GAME
+     *  Board size is calculated as follows:
+     */
+    .game {
+        width: 450px;
+        height: 450px;
+        margin-top: 50px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    @media screen and (max-width: 500px) {
+        .game {
+            width: 315px;
+            height: 315px;
+        }
+    }
+
+    /* Clearfixing .game */
+    .game:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+
+
+    /*
+     *  AREA
+     */
+    .area {
+        float: left;
+        width: 33.333%;
+        height: 33.333%;
+        padding: 1%;
+    }
+
+    .area:nth-child(3n+1),
+    .area:nth-child(3n+2) {
+        border-right: 3px solid #444;
+    }
+
+    .area:nth-child(n+4) {
+        border-top: 3px solid #444;
+    }
+
+    /* Clearfixing .area */
+    .area:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+
+    /*
+     *  TILE
+     */
+    .tile {
+        float: left;
+        width: 33.333%;
+        height: 33.333%;
+        padding: 1%;
+    }
+
+
+
+    /*
+     *  BUTTONS
+     */
+    .tile-button {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        cursor: pointer;
+        vertical-align: middle;
+
+        border: 1px solid gray;
+        border-radius: 3px;
+        background-color: greenYellow;
+    }
+
+    .tile-button:hover,
+    .tile-button:focus {
+        border-color: #444;
+        background-color: yellowGreen;
+    }
+    </style>
 </head>
 <body>
 

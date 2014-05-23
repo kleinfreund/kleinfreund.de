@@ -14,7 +14,7 @@
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="dns-prefetch" href="//themes.googleusercontent.com">
 
-    <title>Mondbasis von Philipp Rudloff – kleinfreund.de</title>
+    <title>Jekyll: Sitemap-Plugin mit GitHub&nbsp;Pages – kleinfreund.de</title>
 
     <!--| Hello, code inspecting individual.
         | Feel free to poke around.
@@ -54,99 +54,54 @@
 
     <main>
         
-        <div class="page-head">
-            <h1 class="page-title">Freundliche Artikel</h1>
-        </div>
-        
 
         <div class="page-content wrapper">
-            <ul class="post-list">
-    
-
-    
-
-    
-        
-    
-
-    <li>
-        <ul class="meta-list">
+            <article class="post">
+    <ul class="meta-list">
+        <li>
+            <time datetime="2014-05-22">
             
-                <li>
-                    <time datetime="2014-01-19">
-                        19.
-                        
-                        Januar
-                            
-                        2014
-                    </time>
-                </li>
-
-                <li>Deutsch</li>
-
+                22.
                 
-                    <li>Portfolio</li>
-                
+                Mai
+                    
+                2014
             
-        </ul>
-
-        <a href="/portfolio/2014/01/landscapes">
-            <h2 class="post-list__heading">Landscapes</h2>
-        </a>
+            </time>
+        </li>
+        <li>
+        
+            Deutsch
+        
+        </li>
 
         
-            
-                <p><img src="/img/portfolio/landscapes-1.jpg" alt="Landscapes"></p>
-            
-        
-    </li>
+    </ul>
 
-    
-    
-    
+    <h1>Jekyll: Sitemap-Plugin mit GitHub&nbsp;Pages</h1>
 
-    
-        
-    
+    <p>Eine Jekyll-Seite läuft mit Plugins auf GitHub Pages nur, wenn man vorher lokal kompiliert. <a href="https://help.github.com/articles/using-jekyll-plugins-with-github-pages">Seit kurzem</a> muss man diesen Umweg zumindest für das erzeugen einer Sitemap nicht mehr gehen.</p>
 
-    
-        
-    
+<p>Man installiert das Plugin <a href="https://github.com/jekyll/jekyll-sitemap">jekyll-sitemap</a>…</p>
 
-    <li class="post-translation">
-        <ul class="meta-list">
-            
-                <li>English translation:</li>
-            
-        </ul>
+<pre><code>gem install jekyll-sitemap
+</code></pre>
 
-        <a href="/en/portfolio/2014/01/landscapes">
-            <h2 class="post-list__heading">Landscapes</h2>
-        </a>
+<p>…und aktiviert es über einen Eintrag in der _config.yml:</p>
 
-        
-    </li>
+<pre><code>gems:
+  - jekyll-sitemap
+</code></pre>
 
-    
-    
-    
-</ul>
+<p>Der 404.html habe ich noch <code>sitemap: false</code> in das Front Matter geschrieben, so dass sie nicht in der Sitemap auftaucht. Das Feature jedoch noch nicht eingebaut. Kommt aber wohl mit Version 0.5.0.</p>
 
+<p>In der Version 0.4.0 gibt es auch noch <a href="https://github.com/jekyll/jekyll-sitemap/issues/15">einen Konflikt</a> mit dem neuen <a href="http://jekyllrb.com/news/2014/05/06/jekyll-turns-2-0-0/">Jekyll 2.0.0</a> (nämlich mit Configuration Defaults).</p>
 
-<ol class="pagination">
-    <li>
-        
-            <a href="/page2" rel="prev">Neuere</a>
-        
-    </li>
+<p>Legt man für alle Dateien <code>layout: default</code> als Standardwert fest, so wird auch die Sitemap als Jekyll-Seite behandelt. Die sitemap.xml enthält dann das HTML aus der Layout-Datei und an die Stelle von <code>{{ content }}</code> landet der Sitemap-Code.</p>
 
-    <li>
-        
-            Ältere
-        
-    </li>
-</ol>
+<p>Das ist mit der Version 0.4.1 gefixt. Schön wäre es noch, wenn man Dateien ausschließen könnte, die nichts mit der Jekyll-Seite zu tun haben.</p>
 
+</article>
 
         </div>
     </main>

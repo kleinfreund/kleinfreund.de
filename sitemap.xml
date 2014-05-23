@@ -3,20 +3,20 @@
   
   
   <url>
-    <loc>http://kleinfreund.de/en/2014/05/sitemap</loc>
-    <lastmod>2014-05-05T23:24:13+02:00</lastmod>
+    <loc>http://kleinfreund.de/2014/05/jekyll-sitemap-plugin-mit-github-pages</loc>
+    <lastmod>2014-05-22T13:02:14+02:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://kleinfreund.de/de/2014/05/sitemap</loc>
-    <lastmod>2014-05-05T23:24:13+02:00</lastmod>
+    <loc>http://kleinfreund.de/en/2014/05/jekyll-sitemap-plugin-with-github-pages</loc>
+    <lastmod>2014-05-22T13:02:13+02:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://kleinfreund.de/de/2014/03/soundtracks</loc>
-    <lastmod>2014-03-19T15:18:26+01:00</lastmod>
+    <loc>http://kleinfreund.de/2014/03/soundtracks</loc>
+    <lastmod>2014-03-19T15:18:27+01:00</lastmod>
     <priority>0.8</priority>
   </url>
   
@@ -27,32 +27,44 @@
   </url>
   
   <url>
-    <loc>http://kleinfreund.de/en/portfolio/owl/</loc>
-    <lastmod>2014-03-02T00:00:00+01:00</lastmod>
+    <loc>http://kleinfreund.de/portfolio/2014/03/bbk-vogtland</loc>
+    <lastmod>2014-03-02T16:59:41+01:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://kleinfreund.de/de/portfolio/eule/</loc>
-    <lastmod>2014-03-02T00:00:00+01:00</lastmod>
+    <loc>http://kleinfreund.de/en/portfolio/2014/03/bbk-vogtland</loc>
+    <lastmod>2014-03-02T16:59:40+01:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://kleinfreund.de/en/portfolio/bbk-vogtland/</loc>
-    <lastmod>2014-02-24T00:00:00+01:00</lastmod>
+    <loc>http://kleinfreund.de/portfolio/2014/02/artrudloff</loc>
+    <lastmod>2014-02-25T15:31:33+01:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://kleinfreund.de/de/portfolio/bbk-vogtland/</loc>
-    <lastmod>2014-02-24T00:00:00+01:00</lastmod>
+    <loc>http://kleinfreund.de/en/portfolio/2014/02/artrudloff</loc>
+    <lastmod>2014-02-25T15:31:32+01:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://kleinfreund.de/de/2014/02/musik</loc>
-    <lastmod>2014-02-11T13:06:38+01:00</lastmod>
+    <loc>http://kleinfreund.de/portfolio/2014/02/eule</loc>
+    <lastmod>2014-02-24T14:59:33+01:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://kleinfreund.de/en/portfolio/2014/02/owl</loc>
+    <lastmod>2014-02-24T14:59:32+01:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://kleinfreund.de/2014/02/musik</loc>
+    <lastmod>2014-02-11T13:06:39+01:00</lastmod>
     <priority>0.8</priority>
   </url>
   
@@ -63,14 +75,8 @@
   </url>
   
   <url>
-    <loc>http://kleinfreund.de/de/2014/02/zutaten</loc>
-    <lastmod>2014-02-07T20:33:47+01:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>http://kleinfreund.de/en/2014/02/ingredients</loc>
-    <lastmod>2014-02-07T20:33:47+01:00</lastmod>
+    <loc>http://kleinfreund.de/2014/02/der-name-ist-kleinfreund</loc>
+    <lastmod>2014-02-01T20:36:28+01:00</lastmod>
     <priority>0.8</priority>
   </url>
   
@@ -81,192 +87,107 @@
   </url>
   
   <url>
-    <loc>http://kleinfreund.de/de/2014/02/der-name-ist-kleinfreund</loc>
-    <lastmod>2014-02-01T20:36:27+01:00</lastmod>
+    <loc>http://kleinfreund.de/portfolio/2014/01/rudelove</loc>
+    <lastmod>2014-01-19T17:59:33+01:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://kleinfreund.de/de/portfolio/rudelove/</loc>
-    <lastmod>2014-01-19T00:00:00+01:00</lastmod>
+    <loc>http://kleinfreund.de/en/portfolio/2014/01/rudelove</loc>
+    <lastmod>2014-01-19T17:59:32+01:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://kleinfreund.de/en/portfolio/rudelove/</loc>
-    <lastmod>2014-01-19T00:00:00+01:00</lastmod>
+    <loc>http://kleinfreund.de/portfolio/2014/01/piktogramme</loc>
+    <lastmod>2014-01-19T17:55:53+01:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://kleinfreund.de/de/portfolio/piktogramme/</loc>
-    <lastmod>2014-01-19T00:00:00+01:00</lastmod>
+    <loc>http://kleinfreund.de/en/portfolio/2014/01/pictograms</loc>
+    <lastmod>2014-01-19T17:55:52+01:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://kleinfreund.de/en/portfolio/pictograms/</loc>
-    <lastmod>2014-01-19T00:00:00+01:00</lastmod>
+    <loc>http://kleinfreund.de/portfolio/2014/01/neujahrs-typografie</loc>
+    <lastmod>2014-01-19T17:49:44+01:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://kleinfreund.de/en/portfolio/new-years-typography/</loc>
-    <lastmod>2014-01-19T00:00:00+01:00</lastmod>
+    <loc>http://kleinfreund.de/en/portfolio/2014/01/new-years-typography</loc>
+    <lastmod>2014-01-19T17:49:43+01:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://kleinfreund.de/de/portfolio/neujahrs-typografie/</loc>
-    <lastmod>2014-01-19T00:00:00+01:00</lastmod>
+    <loc>http://kleinfreund.de/portfolio/2014/01/landscapes</loc>
+    <lastmod>2014-01-19T17:46:13+01:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://kleinfreund.de/de/portfolio/martin-und-phil/</loc>
-    <lastmod>2014-01-19T00:00:00+01:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>http://kleinfreund.de/en/portfolio/martin-and-phil/</loc>
-    <lastmod>2014-01-19T00:00:00+01:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>http://kleinfreund.de/en/portfolio/landscapes/</loc>
-    <lastmod>2014-01-19T00:00:00+01:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>http://kleinfreund.de/de/portfolio/landscapes/</loc>
-    <lastmod>2014-01-19T00:00:00+01:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>http://kleinfreund.de/en/portfolio/artrudloff/</loc>
-    <lastmod>2014-01-19T00:00:00+01:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>http://kleinfreund.de/de/portfolio/artrudloff/</loc>
-    <lastmod>2014-01-19T00:00:00+01:00</lastmod>
+    <loc>http://kleinfreund.de/en/portfolio/2014/01/landscapes</loc>
+    <lastmod>2014-01-19T17:46:12+01:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   
   <url>
     <loc>http://kleinfreund.de/404.html</loc>
-    <lastmod>2014-05-06T11:26:29+02:00</lastmod>
+    <lastmod>2014-05-23T11:44:47+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>http://kleinfreund.de/de/impressum/</loc>
-    <lastmod>2014-05-06T11:26:29+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>http://kleinfreund.de/de/</loc>
-    <lastmod>2014-05-06T11:26:29+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>http://kleinfreund.de/de/portfolio/</loc>
-    <lastmod>2014-05-06T11:26:29+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>http://kleinfreund.de/de/profil/</loc>
-    <lastmod>2014-05-06T11:26:29+02:00</lastmod>
+    <loc>http://kleinfreund.de/en/contact/</loc>
+    <lastmod>2014-05-23T11:44:47+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://kleinfreund.de/en/</loc>
-    <lastmod>2014-05-06T11:26:29+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>http://kleinfreund.de/en/legal-disclosure/</loc>
-    <lastmod>2014-05-06T11:26:29+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>http://kleinfreund.de/en/portfolio/</loc>
-    <lastmod>2014-05-06T11:26:29+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>http://kleinfreund.de/en/profile/</loc>
-    <lastmod>2014-05-06T11:26:29+02:00</lastmod>
+    <lastmod>2014-05-23T11:44:47+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://kleinfreund.de/</loc>
-    <lastmod>2014-05-06T11:26:29+02:00</lastmod>
+    <lastmod>2014-05-23T11:44:47+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
-    <loc>http://kleinfreund.de/de/page2/</loc>
-    <lastmod>2014-05-06T11:26:29+02:00</lastmod>
+    <loc>http://kleinfreund.de/kontakt/</loc>
+    <lastmod>2014-05-23T11:44:47+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>http://kleinfreund.de/de/page3/</loc>
-    <lastmod>2014-05-06T11:26:29+02:00</lastmod>
+    <loc>http://kleinfreund.de/profil/</loc>
+    <lastmod>2014-05-23T11:44:47+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>http://kleinfreund.de/en/page2/</loc>
-    <lastmod>2014-05-06T11:26:29+02:00</lastmod>
+    <loc>http://kleinfreund.de/en/profile/</loc>
+    <lastmod>2014-05-23T11:44:47+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
-  <url>
-    <loc>http://kleinfreund.de/en/page3/</loc>
-    <lastmod>2014-05-06T11:26:29+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  
-  <url>
-    <loc>http://kleinfreund.de/google4f7354cecd2d1627.html</loc>
-    <lastmod>2014-02-25T16:46:34+01:00</lastmod>
-    <priority>0.6</priority>
-  </url>
   
   <url>
     <loc>http://kleinfreund.de/static/tttu.html</loc>
-    <lastmod>2014-05-06T11:17:19+02:00</lastmod>
+    <lastmod>2014-05-10T09:38:1399707507Z</lastmod>
     <priority>0.6</priority>
   </url>
   
