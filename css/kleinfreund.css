@@ -14,6 +14,12 @@
 /**
  * Place any of your own variables that sit on top of inuit.css here.
  */
+/*
+blue:  5e85d6
+green: 5a9b00
+red:   dd4b13
+red2:  ef7445
+*/
 /* Necessary stuff moved to own files to reduce bloat
 @import "inuit.css/inuit";*/
 /**
@@ -24,9 +30,6 @@
  */
 /**
  * inuitcss media-query mixin
- */
-/**
- * themify mixin
  */
 /**
  * Vertical Rhythm/Gaps
@@ -459,9 +462,27 @@ figure {
 }
 
 /**
+ * Wrapper
+ */
+.wrapper {
+  max-width: 680px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media only screen and (min-width: 481px) {
+  .wrapper {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+/**
  * Clearfix
  */
 .clearfix:after,
+.site-head:after,
 .site-nav:after {
   content: "";
   display: table;
@@ -475,6 +496,9 @@ img {
   /* Emphasis on `alt` text */
   font-style: italic;
   max-width: 100%;
+}
+
+img, svg {
   vertical-align: middle;
 }
 
@@ -518,7 +542,7 @@ figcaption > a {
  */
 hr {
   border: 0;
-  border-bottom: 8px solid #e2e2e2;
+  border-bottom: 8px solid #aaaaaa;
   margin-bottom: 22px;
   margin-bottom: 1.1rem;
 }
@@ -532,73 +556,47 @@ html {
 }
 
 /**
- * Small print
- */
-.small-print {
-  font-size: 16px;
-  font-size: 0.8rem;
-  line-height: 1.875;
-}
-
-/**
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
+  color: #5e85d6;
   font-weight: 300;
 }
 
-h1, .alpha {
+h1 {
   font-size: 36px;
   font-size: 1.8rem;
   line-height: 1.66667;
 }
 
-h2, .beta {
+h2 {
   font-size: 32px;
   font-size: 1.6rem;
   line-height: 1.875;
 }
 
-h3, .gamma {
+h3 {
   font-size: 28px;
   font-size: 1.4rem;
   line-height: 1.07143;
 }
 
-h4, .delta {
+h4 {
   font-size: 24px;
   font-size: 1.2rem;
   line-height: 1.25;
 }
 
-h5, .epsilon {
+h5 {
   font-size: 20px;
   font-size: 1rem;
   line-height: 1.5;
 }
 
-h6, .zeta {
+h6 {
   font-size: 16px;
   font-size: 0.8rem;
   line-height: 1.875;
-}
-
-.giga {
-  font-size: 120px;
-  font-size: 6rem;
-  line-height: 1;
-}
-
-.mega {
-  font-size: 90px;
-  font-size: 4.5rem;
-  line-height: 1;
-}
-
-.kilo {
-  font-size: 60px;
-  font-size: 3rem;
-  line-height: 1;
 }
 
 /**
@@ -628,12 +626,12 @@ dt {
  * Quotations
  */
 blockquote {
-  border-left: 8px solid #e2e2e2;
+  border-left: 4px solid #5e85d6;
   margin-left: 15px;
   padding-left: 7px;
   font-style: italic;
 }
-blockquote p:last-of-type {
+blockquote > p:last-of-type {
   margin-bottom: 0;
 }
 
@@ -644,7 +642,7 @@ blockquote p:last-of-type {
 /**
  * Inline elements
  */
-strong, a {
+strong {
   font-weight: 500;
 }
 
@@ -656,7 +654,8 @@ q {
  * Links
  */
 a {
-  color: #444444;
+  color: #5e85d6;
+  font-weight: 300;
   text-decoration: none;
 }
 
@@ -675,7 +674,7 @@ pre {
   overflow: auto;
   white-space: pre;
   word-wrap: normal;
-  color: white;
+  color: #fff;
   background-color: #444444;
   padding: 7.5px 15px;
   border-radius: 3px;
@@ -684,55 +683,18 @@ pre > code {
   font-size: 16px;
   font-size: 0.8rem;
   line-height: 1.875;
-  color: white;
+  color: #fff;
   white-space: pre;
 }
 
-/**
- * Wrapper
- */
-.wrapper {
-  max-width: 680px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
+.pagination {
+  margin-left: 0;
+  list-style: none;
+  text-align: center;
 }
-@media only screen and (min-width: 481px) {
-  .wrapper {
-    padding-right: 30px;
-    padding-left: 30px;
-  }
-}
-
-.page-head {
-  padding-left: 15px;
-  background-color: #2b2b2b;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
-}
-@media only screen and (min-width: 481px) {
-  .page-head {
-    padding-left: 90px;
-  }
-}
-.page-head .page-title {
-  margin-bottom: 0;
-  font-size: 32px;
-  font-size: 1.6rem;
-  line-height: 1.875;
-  color: white;
-}
-
-.page--blog .page-head {
-  background-color: #6cba00;
-}
-
-.page--contact .page-head {
-  background-color: #ed6531;
-}
-
-.page--profile .page-head {
-  background-color: #6d91da;
+.pagination > li {
+  padding: 15px;
+  display: inline-block;
 }
 
 .page-content {
@@ -753,33 +715,9 @@ pre > code {
     margin-bottom: 6rem;
   }
 }
-.page-content a:hover {
+.page-content a:hover,
+.page-content a:focus {
   border-bottom: 0.125em solid;
-}
-
-.page--blog a,
-.page--blog h1, .page--blog h2, .page--blog h3 {
-  color: #5a9b00;
-}
-
-.page--contact a,
-.page--contact h1, .page--contact h2, .page--contact h3 {
-  color: #dd4b13;
-}
-
-.page--profile a,
-.page--profile h1, .page--profile h2, .page--profile h3 {
-  color: #507bd3;
-}
-
-.pagination {
-  margin-left: 0;
-  list-style: none;
-  text-align: center;
-}
-.pagination > li {
-  padding: 15px;
-  display: inline-block;
 }
 
 .post-list {
@@ -797,19 +735,22 @@ pre > code {
 .post-list > li {
   margin-bottom: 30px;
 }
+.post-list p:last-child {
+  margin-bottom: 0;
+}
 .post-list > .post-translation {
   margin-bottom: 120px;
 }
-.post-list :last-child {
+
+.post-list__heading {
+  display: inline;
   margin-bottom: 0;
 }
 
 .post-translation .post-list__heading {
-  font-size: 20px;
-  font-size: 1rem;
-  line-height: 1.5;
-  font-weight: 500;
-  margin-bottom: 0;
+  font-size: 24px;
+  font-size: 1.2rem;
+  line-height: 1.25;
 }
 .post-translation .post-list__heading:before {
   content: "\2192 \0020";
@@ -830,107 +771,78 @@ pre > code {
 }
 
 .site-head {
-  background-color: #444444;
-}
-.site-head .lang-nav {
-  display: block;
-  padding-right: 15px;
-  padding-left: 15px;
-  color: white;
-  background-color: #2b2b2b;
-  text-align: center;
-  font-weight: 300;
-}
-@media only screen and (min-width: 481px) {
-  .site-head .lang-nav {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-  }
+  border-top: 8px solid #5e85d6;
 }
 
 .site-logo {
-  display: inline-block;
-  padding: 15px;
-}
-@media only screen and (min-width: 481px) {
-  .site-logo {
-    padding-right: 60px;
-    padding-left: 60px;
-  }
-}
-.site-logo > img {
-  width: 256px;
-  height: 64px;
-  background-image: url(/img/kleinfreund.svg);
+  display: none;
 }
 
-.site-nav {
-  list-style: none;
-  margin-bottom: 0;
-  margin-left: 0;
-  line-height: 1;
-  border-bottom: 8px solid #2b2b2b;
-  text-align: right;
-}
 @media only screen and (min-width: 481px) {
-  .site-nav {
-    padding-right: 60px;
+  .site-logo {
+    display: inline;
+    float: left;
+    margin-top: -8px;
+    margin-left: 30px;
+  }
+  .site-logo > svg {
+    width: 64px;
+  }
+
+  .site-logo__face {
+    fill: #5e85d6;
+  }
+
+  .site-logo__text {
+    display: none;
   }
 }
 @media only screen and (min-width: 1024px) {
-  .site-nav {
-    padding-right: 120px;
+  .site-logo {
+    margin-top: 15px;
+    margin-left: 90px;
+  }
+  .site-logo > svg {
+    width: 300px;
+  }
+
+  .site-logo__text {
+    display: block;
   }
 }
-.site-nav > li,
-.site-nav > li > a {
-  display: inline-block;
+.site-nav {
+  float: right;
+  line-height: 1;
+  text-align: right;
 }
-.site-nav > li > a {
-  color: white;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
-  padding: 15px;
+@media only screen and (min-width: 1024px) {
+  .site-nav {
+    margin-right: 90px;
+  }
+}
+
+.site-nav__item {
+  float: left;
+  display: block;
+  padding: 10px;
+  color: #fff;
+  background-color: #5e85d6;
+  text-shadow: 0 -1px 0 #444444;
 }
 @media only screen and (min-width: 481px) {
-  .site-nav > li > a {
-    margin-left: 15px;
+  .site-nav__item {
+    padding: 15px;
+    font-weight: 500;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .site-nav__item {
     padding-right: 30px;
     padding-left: 30px;
   }
-}
-
-.page--blog .site-nav {
-  border-color: #5a9b00;
-}
-
-.page--contact .site-nav {
-  border-color: #dd4b13;
-}
-
-.page--profile .site-nav {
-  border-color: #507bd3;
-}
-
-.site-nav__item--blog {
-  background-color: #5a9b00;
-}
-.page:not(.page--blog) .site-nav__item--blog:hover {
-  background-color: #6cba00;
-}
-
-.site-nav__item--contact {
-  background-color: #dd4b13;
-}
-.page:not(.page--contact) .site-nav__item--contact:hover {
-  background-color: #ed6531;
-}
-
-.site-nav__item--profile {
-  background-color: #507bd3;
-}
-.page:not(.page--profile) .site-nav__item--profile:hover {
-  background-color: #6d91da;
+  .site-nav__item:not(:first-child) {
+    margin-left: 15px;
+  }
 }
 
 .site-foot {
@@ -942,10 +854,9 @@ pre > code {
 }
 .site-foot,
 .site-foot a {
-  color: white;
+  color: #fff;
 }
 .site-foot a {
-  font-weight: 300;
   text-decoration: underline;
 }
 .site-foot p:last-of-type {
