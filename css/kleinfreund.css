@@ -627,8 +627,8 @@ dt {
  */
 blockquote {
   border-left: 4px solid #5e85d6;
-  margin-left: 15px;
-  padding-left: 7px;
+  margin-left: -15px;
+  padding-left: 11px;
   font-style: italic;
 }
 blockquote > p:last-of-type {

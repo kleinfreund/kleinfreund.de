@@ -1,0 +1,4 @@
+.site-head {
+    border-top: $border-width solid $profile-color;
+    @extend %clearfix;
+}

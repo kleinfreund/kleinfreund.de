@@ -1,0 +1,140 @@
+html {
+    font: 300 #{($base-font-size/16px)*1em}/#{$line-height-ratio} $base-font-family;
+    color: $text-color;
+    background-color: $background-color;
+    overflow-y: scroll;
+    min-height: 100%;
+}
+
+
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+    color: $profile-color;
+    font-weight: 300;
+}
+
+h1 {
+    @include font-size($h1-size);
+}
+
+h2 {
+    @include font-size($h2-size);
+}
+
+h3 {
+    @include font-size($h3-size);
+}
+
+h4 {
+    @include font-size($h4-size);
+}
+
+h5 {
+    @include font-size($h5-size);
+}
+
+h6 {
+    @include font-size($h6-size);
+}
+
+
+
+/**
+ * Lists
+ */
+ul, ol, dd {
+    margin-left: $base-spacing-unit;
+    margin-left: ($base-spacing-unit / $base-font-size)*1rem;
+
+    @include media-query(lap-and-up) {
+        margin-left: 2 * $base-spacing-unit;
+        margin-left: (2 * $base-spacing-unit / $base-font-size)*1rem;
+    }
+}
+
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+
+dt {
+    font-weight: 500;
+}
+
+
+
+/**
+ * Quotations
+ */
+blockquote {
+    border-left: $border-width / 2 solid $profile-color;
+    margin-left: - $half-spacing-unit;
+    padding-left: $half-spacing-unit - $border-width / 2;
+    font-style: italic;
+
+    > p:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+.source {
+    font-style: normal;
+}
+
+
+
+/**
+ * Inline elements
+ */
+strong {
+    font-weight: 500;
+}
+
+q {
+    font-style: italic;
+}
+
+
+
+/**
+ * Links
+ */
+a {
+    color: $profile-color;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+
+
+/**
+ * Code
+ */
+pre, code, kbd, samp {
+    font-family: Consolas, "Courier New", Courier, monospace;
+}
+
+code {
+    white-space: nowrap;
+}
+
+pre {
+    overflow: auto;
+    white-space: pre;
+    word-wrap: normal;
+    color: #fff;
+    background-color: $alt-color;
+    padding: $base-spacing-unit / 4 $half-spacing-unit;
+    border-radius: 3px;
+
+    > code {
+        @include font-size($small-print-size);
+        color: #fff;
+        white-space: pre;
+    }
+}

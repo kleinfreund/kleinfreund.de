@@ -1,0 +1,129 @@
+/**
+ * IE6 was right!
+ */
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+
+/**
+ * Reset some basic elements
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+dl, dd, ol, ul, hr,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/**
+ * Set `margin-bottom` to maintain vertycal rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl,
+figure,
+%vertical-rhythm {
+    margin-bottom: $base-spacing-unit;
+    margin-bottom: ($base-spacing-unit / $base-font-size)*1rem;
+}
+
+
+
+/**
+ * Wrapper
+ */
+.wrapper,
+%wrapper {
+    max-width: 680px;
+    margin-right: auto;
+    margin-left:  auto;
+    padding-right: $half-spacing-unit;
+    padding-left:  $half-spacing-unit;
+
+    @include media-query(lap-and-up) {
+        padding-right: $base-spacing-unit;
+        padding-left:  $base-spacing-unit;
+    }
+}
+
+
+
+/**
+ * Clearfix
+ */
+.clearfix,
+%clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+
+
+/**
+ * Images
+ */
+img {
+    /* Emphasis on `alt` text */
+    font-style: italic;
+    max-width: 100%;
+}
+
+img, svg {
+    vertical-align: middle;
+}
+
+.img--right {
+    float: right;
+    margin-bottom: $base-spacing-unit;
+    margin-left:   $base-spacing-unit;
+}
+.img--left {
+    float: left;
+    margin-right:  $base-spacing-unit;
+    margin-bottom: $base-spacing-unit;
+}
+.img--center {
+    display: block;
+    margin-right: auto;
+    margin-bottom: $base-spacing-unit;
+    margin-left: auto;
+}
+
+
+
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+}
+
+figcaption {
+    @include font-size($small-print-size);
+
+    > a {
+        font-weight: 300;
+    }
+}
+
+
+
+/**
+ * Rulers
+ */
+hr {
+    border: 0;
+    border-bottom: $border-width solid $alt-color-light;
+    margin-bottom: $base-spacing-unit - $border-width;
+    margin-bottom: (($base-spacing-unit - $border-width) / $base-font-size)*1rem;
+}

@@ -1,0 +1,39 @@
+.site-logo {
+    display: none;
+}
+
+@include media-query(lap-and-up) {
+    .site-logo {
+        display: inline;
+        float: left;
+        margin-top: -$border-width;
+        margin-left: $base-spacing-unit;
+
+        > svg {
+            width: 64px;
+        }
+    }
+
+    .site-logo__face {
+        fill: $profile-color;
+    }
+
+    .site-logo__text {
+        display: none;
+    }
+}
+
+@include media-query(desk) {
+    .site-logo {
+        margin-top: $half-spacing-unit;
+        margin-left: $base-spacing-unit * 3;
+
+        > svg {
+            width: 300px;
+        }
+    }
+
+    .site-logo__text {
+        display: block;
+    }
+}
