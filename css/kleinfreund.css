@@ -785,7 +785,7 @@ pre > code {
     margin-top: -8px;
     margin-left: 30px;
   }
-  .site-logo > svg {
+  .site-logo svg {
     position: absolute;
     top: 0;
     left: 0;

@@ -10,6 +10,7 @@ All content is licensed under [CC BY-SA](http://creativecommons.org/licenses/by-
   - A page that holds information which techniques/tools the site is currently using (?)
 - Blog en show only list of posts > make it nice (?)
 - Is icon retina ready?
+- Firefox ignoring whitespace preserving for SVG
 - Posts
   - Revamping the site in general
 - CSS
