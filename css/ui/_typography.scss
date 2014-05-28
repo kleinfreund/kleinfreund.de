@@ -108,6 +108,11 @@ a {
     color: $base-ui-color;
     font-weight: 300;
     text-decoration: none;
+
+    &:visited,
+    &:active {
+        color: $base-ui-color-dark;
+    }
 }
 
 

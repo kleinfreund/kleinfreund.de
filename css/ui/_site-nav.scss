@@ -14,9 +14,14 @@
     float: left;
     display: block;
     padding: $base-spacing-unit / 3;
-    color: #fff;
     background-color: $base-ui-color;
     text-shadow: 0 -1px 0 $alt-color;
+
+    &,
+    &:visited,
+    &:active {
+        color: #fff;
+    }
 
     @include media-query(lap-and-up) {
         padding: $half-spacing-unit;

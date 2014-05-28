@@ -652,6 +652,9 @@ a {
   font-weight: 300;
   text-decoration: none;
 }
+a:visited, a:active {
+  color: #1f3d7c;
+}
 
 /**
  * Code
@@ -774,16 +777,23 @@ pre > code {
 
 @media only screen and (min-width: 481px) {
   .site-logo {
+    position: relative;
+    width: 64px;
+    height: 64px;
     display: inline;
     float: left;
     margin-top: -8px;
     margin-left: 30px;
   }
   .site-logo > svg {
-    width: 64px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 
-  .site-logo__face {
+  .site-logo__icon {
     fill: #5e85d6;
   }
 
@@ -793,15 +803,16 @@ pre > code {
 }
 @media only screen and (min-width: 1024px) {
   .site-logo {
+    width: 300px;
     margin-top: 15px;
     margin-left: 90px;
-  }
-  .site-logo > svg {
-    width: 300px;
   }
 
   .site-logo__text {
     display: block;
+  }
+  .site-logo__text > tspan {
+    font-weight: 500;
   }
 }
 .site-nav {
@@ -819,9 +830,11 @@ pre > code {
   float: left;
   display: block;
   padding: 10px;
-  color: #fff;
   background-color: #5e85d6;
   text-shadow: 0 -1px 0 #444444;
+}
+.site-nav__item, .site-nav__item:visited, .site-nav__item:active {
+  color: #fff;
 }
 @media only screen and (min-width: 481px) {
   .site-nav__item {

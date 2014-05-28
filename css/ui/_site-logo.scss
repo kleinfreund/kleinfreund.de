@@ -4,17 +4,24 @@
 
 @include media-query(lap-and-up) {
     .site-logo {
+        position: relative;
+        width: 64px;
+        height: 64px;
         display: inline;
         float: left;
         margin-top: -$border-width;
         margin-left: $base-spacing-unit;
 
         > svg {
-            width: 64px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
         }
     }
 
-    .site-logo__face {
+    .site-logo__icon {
         fill: $base-ui-color;
     }
 
@@ -25,15 +32,16 @@
 
 @include media-query(desk) {
     .site-logo {
+        width: 300px;
         margin-top: $half-spacing-unit;
         margin-left: $base-spacing-unit * 3;
-
-        > svg {
-            width: 300px;
-        }
     }
 
     .site-logo__text {
         display: block;
+
+        > tspan {
+            font-weight: 500;
+        }
     }
 }
