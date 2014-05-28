@@ -15,7 +15,7 @@
     display: block;
     padding: $base-spacing-unit / 3;
     color: #fff;
-    background-color: $profile-color;
+    background-color: $base-ui-color;
     text-shadow: 0 -1px 0 $alt-color;
 
     @include media-query(lap-and-up) {

@@ -12,7 +12,7 @@ html {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    color: $profile-color;
+    color: $base-ui-color;
     font-weight: 300;
 }
 
@@ -72,7 +72,7 @@ dt {
  * Quotations
  */
 blockquote {
-    border-left: $border-width / 2 solid $profile-color;
+    border-left: $border-width / 2 solid $base-ui-color;
     margin-left: - $half-spacing-unit;
     padding-left: $half-spacing-unit - $border-width / 2;
     font-style: italic;
@@ -105,7 +105,7 @@ q {
  * Links
  */
 a {
-    color: $profile-color;
+    color: $base-ui-color;
     font-weight: 300;
     text-decoration: none;
 }
