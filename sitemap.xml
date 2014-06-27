@@ -3,6 +3,12 @@
   
   
   <url>
+    <loc>http://kleinfreund.de/2014/05/das-logo-als-inline-svg</loc>
+    <lastmod>2014-05-30T15:03:22+02:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://kleinfreund.de/2014/05/jekyll-front-matter-defaults</loc>
     <lastmod>2014-05-26T10:17:34+02:00</lastmod>
     <priority>0.8</priority>
@@ -149,58 +155,52 @@
   
   <url>
     <loc>http://kleinfreund.de/404.html</loc>
-    <lastmod>2014-05-28T16:45:05+02:00</lastmod>
+    <lastmod>2014-06-27T16:31:24+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://kleinfreund.de/en/contact/</loc>
-    <lastmod>2014-05-28T16:45:05+02:00</lastmod>
+    <lastmod>2014-06-27T16:31:24+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://kleinfreund.de/en/</loc>
-    <lastmod>2014-05-28T16:45:05+02:00</lastmod>
+    <lastmod>2014-06-27T16:31:24+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://kleinfreund.de/</loc>
-    <lastmod>2014-05-28T16:45:05+02:00</lastmod>
+    <lastmod>2014-06-27T16:31:24+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>http://kleinfreund.de/kontakt/</loc>
-    <lastmod>2014-05-28T16:45:05+02:00</lastmod>
+    <lastmod>2014-06-27T16:31:24+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://kleinfreund.de/profil/</loc>
-    <lastmod>2014-05-28T16:45:05+02:00</lastmod>
+    <lastmod>2014-06-27T16:31:24+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://kleinfreund.de/en/profile/</loc>
-    <lastmod>2014-05-28T16:45:05+02:00</lastmod>
+    <lastmod>2014-06-27T16:31:24+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
-  
-  <url>
-    <loc>http://kleinfreund.de/static/tttu.html</loc>
-    <lastmod>2014-05-10T09:38:1399707507Z</lastmod>
-    <priority>0.6</priority>
-  </url>
   
 </urlset>
