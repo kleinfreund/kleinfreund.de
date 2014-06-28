@@ -45,7 +45,7 @@ h6 {
 /**
  * Lists
  */
-ul, ol, dd {
+/*ul, ol, dd {
     margin-left: $base-spacing-unit;
     margin-left: ($base-spacing-unit / $base-font-size)*1rem;
 
@@ -53,7 +53,7 @@ ul, ol, dd {
         margin-left: 2 * $base-spacing-unit;
         margin-left: (2 * $base-spacing-unit / $base-font-size)*1rem;
     }
-}
+}*/
 
 li {
     > ul,

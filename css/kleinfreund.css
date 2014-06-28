@@ -553,17 +553,15 @@ h6 {
 /**
  * Lists
  */
-ul, ol, dd {
-  margin-left: 30px;
-  margin-left: 1.5rem;
-}
-@media only screen and (min-width: 481px) {
-  ul, ol, dd {
-    margin-left: 60px;
-    margin-left: 3rem;
-  }
-}
+/*ul, ol, dd {
+    margin-left: $base-spacing-unit;
+    margin-left: ($base-spacing-unit / $base-font-size)*1rem;
 
+    @include media-query(lap-and-up) {
+        margin-left: 2 * $base-spacing-unit;
+        margin-left: (2 * $base-spacing-unit / $base-font-size)*1rem;
+    }
+}*/
 li > ul,
 li > ol {
   margin-bottom: 0;
@@ -669,6 +667,9 @@ pre > code {
     margin-bottom: 6rem;
   }
 }
+.page-content ul, .page-content ol {
+  list-style-position: outside;
+}
 .page-content a:hover,
 .page-content a:focus {
   border-bottom: 0.125em solid;
@@ -676,7 +677,6 @@ pre > code {
 
 .post-list {
   list-style: none;
-  margin-left: 0;
   margin-bottom: 60px;
   margin-bottom: 3rem;
 }
