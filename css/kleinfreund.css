@@ -28,6 +28,9 @@
 /**
  * Vertical Rhythm/Gaps
  */
+/**
+ * https://twitter.com/csswizardry/status/478938530342006784
+ */
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /**
  * 1. Prevent iOS text size adjust after orientation change, without disabling
@@ -501,7 +504,7 @@ hr {
 html {
   font: 300 1.25em/1.5 Ubuntu, sans-serif;
   color: #444444;
-  background-color: #efefef;
+  background-color: white;
   overflow-y: scroll;
   min-height: 100%;
 }
@@ -607,7 +610,7 @@ a {
   font-weight: 300;
   text-decoration: none;
 }
-a:visited, a:active {
+a:hover, a:focus, a:active {
   color: #1f3d7c;
 }
 
@@ -669,10 +672,6 @@ pre > code {
 }
 .page-content ul, .page-content ol {
   list-style-position: outside;
-}
-.page-content a:hover,
-.page-content a:focus {
-  border-bottom: 0.125em solid;
 }
 
 .post-list {

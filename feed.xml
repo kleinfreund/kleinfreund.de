@@ -2,16 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 
   <title type="text">kleinfreund.de</title>
-  <subtitle type="text"></subtitle>
+  <subtitle type="text">Mondbasis von Philipp Rudloff. Über Web, Frontend und Design und allerlei Dinge, die mir in den Sinn kommen.</subtitle>
   <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
   <link rel="self" type="application/atom+xml" href="http://kleinfreund.de/feed.xml" />
   <link rel="alternate" type="text/html" href="http://kleinfreund.de" />
-  <updated>2014-06-28T12:41:17+02:00</updated>
+  <updated>2014-07-01T09:11:49+02:00</updated>
   <id>http://kleinfreund.de/</id>
   <author>
     <name>Philipp Rudloff</name>
     <uri>http://kleinfreund.de/</uri>
   </author>
+
+
+
+  <entry>
+    <title><![CDATA[Website: marcografie.de]]></title>
+    <link rel="alternate" type="text/html" href="http://kleinfreund.de/portfolio/2014/07/marcografie" />
+    <updated>2014-07-01T08:46:12+02:00</updated>
+    <id>http://kleinfreund.de/portfolio/2014/07/marcografie</id>
+    <author>
+      <name>Philipp Rudloff</name>
+      <uri>http://kleinfreund.de</uri>
+    </author>
+    <content type="html"><p>Während der Praktika in meiner Ausbildung war ich in einer Agentur zu gegen. Marco Müller ist Fotograf und wollte sein Flashungetüm von Website loswerden. Nach einer kurzen Eiszeit ist <a href="http://marcografie.de">marcografie.de</a> jetzt in neuem Gewand verfügbar.</p>
+
+<p><img src="/img/portfolio/marcografie-thumbnail.jpg" alt="Website von Marco Müller – Startseite" /></p>
+
+<p>Hinter der Seite steckt Wordpress und das Theme <a href="http://themeforest.net/item/responsive-fullscreen-studio-for-wordpress/2026019">Responsive Fullscreen Studio</a>, das ich an Marcos Wünsche angepasst habe.</p>
+
+<p><img src="/img/portfolio/marcografie-1.jpg" alt="Website von Marco Müller – Portfolio: Werbung" /></p>
+
+<p>Die ersten Momente im Code, den man ’mal nicht selbst fabriziert hat, sind kaltes Wasser. Die Temperatur steigt dann mit der Zeit.</p>
+
+<p><img src="/img/portfolio/marcografie-2.jpg" alt="Website von Marco Müller – Portfolio: Essen &amp; Trinken" /></p>
+</content>
+  </entry>
+
+
 
 
 
@@ -199,35 +226,6 @@
 <p><img src="/img/portfolio/bbk-vogtland-2.jpg" alt="BBK Vogtland Mitgliederseite" /></p>
 
 <p><img src="/img/portfolio/bbk-vogtland-3.jpg" alt="BBK Vogtland Detailansicht der Mitglieder" /></p>
-</content>
-  </entry>
-
-
-
-
-
-  <entry>
-    <title><![CDATA[Website: artrudloff.de]]></title>
-    <link rel="alternate" type="text/html" href="http://kleinfreund.de/portfolio/2014/02/artrudloff" />
-    <updated>2014-02-25T15:31:33+01:00</updated>
-    <id>http://kleinfreund.de/portfolio/2014/02/artrudloff</id>
-    <author>
-      <name>Philipp Rudloff</name>
-      <uri>http://kleinfreund.de</uri>
-    </author>
-    <content type="html"><p>Die Website <a href="http://artrudloff.de">artrudloff.de</a> habe ich im Sommer 2012 für meine Eltern erstellt. Zu finden gibt es eine Auswahl der Arbeiten von Anke und Andreas Rudloff.</p>
-
-<p>Hinter der Seite steht ein braves Wordpress. Im letzten Jahr habe ich die Seite noch einmal überarbeitet. Seit dem verwende ich <a href="http://inuitcss.com">inuitcss</a> und eine angepasste <a href="http://alexcican.com/post/teehan-lax-navigation">Teehan+Lax Navigation</a>.</p>
-
-<p><img src="/img/portfolio/artrudloff-1.jpg" alt="artrudloff.de Startseite" /></p>
-
-<p>Andreas präsentiert seine Druckgrafiken, Aquarelle und Plakate.</p>
-
-<p><img src="/img/portfolio/artrudloff-2.jpg" alt="Website von Andreas Rudloff" /></p>
-
-<p>Bei Anke finden sich ihre Glockengestaltungen, Holzarbeiten, Wandbilder und Zeichnungen.</p>
-
-<p><img src="/img/portfolio/artrudloff-3.jpg" alt="Website von Anke Rudloff" /></p>
 </content>
   </entry>
 

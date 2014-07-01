@@ -7,6 +7,7 @@ All content is licensed under [CC BY-SA](http://creativecommons.org/licenses/by-
 ## To Do
 
 - Remove `.nojekyll` before using GHP again
+- Make `kleinfreund` a h1 instead of the logo.
 - What to do with the contact page (?)
   - A page that holds information which techniques/tools the site is currently using (?)
 - Blog en show only list of posts > make it nice (?)

@@ -109,8 +109,7 @@ a {
     font-weight: 300;
     text-decoration: none;
 
-    &:visited,
-    &:active {
+    @include attention() {
         color: $base-ui-color-dark;
     }
 }
