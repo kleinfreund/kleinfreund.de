@@ -5,43 +5,26 @@
 @include media-query(lap-and-up) {
     .site-logo {
         position: relative;
-        width: 64px;
-        height: 64px;
-        display: inline;
+        display: block;
         float: left;
         margin-top: -$border-width;
         margin-left: $base-spacing-unit;
 
-        svg {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
+        > svg {
+            width: 64px;
+            height: 64px;
+            float: left;
         }
     }
 
     .site-logo__icon {
         fill: $base-ui-color;
     }
-
-    .site-logo__text {
-        display: none;
-    }
 }
 
 @include media-query(desk) {
     .site-logo {
-        width: 300px;
         margin-top: $half-spacing-unit;
         margin-left: $base-spacing-unit * 3;
-    }
-
-    .site-logo__text {
-        display: block;
-
-        > tspan {
-            font-weight: 500;
-        }
     }
 }

@@ -1,23 +1,6 @@
 @charset "UTF-8";
-
-
-
-/**
- * Setup (Sass variables)
- */
-@import "vars";
-
-/* Necessary stuff moved to own files to reduce bloat
-@import "inuit.css/inuit";*/
-
-
-
-
-
-/**
- * Own files
- */
 @import
+        "ui/vars",
         "ui/defaults",
         "ui/mixins",
         "ui/normalize",
