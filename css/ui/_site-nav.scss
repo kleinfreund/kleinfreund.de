@@ -14,12 +14,11 @@
     float: left;
     display: block;
     padding: $base-spacing-unit / 3;
+    color: #fff;
     background-color: $base-ui-color;
     text-shadow: 0 -1px 0 $alt-color;
 
-    &,
-    &:visited,
-    &:active {
+    @include attention() {
         color: #fff;
     }
 
@@ -32,7 +31,7 @@
         padding-right: $base-spacing-unit;
         padding-left:  $base-spacing-unit;
 
-        &:not(:first-child) {
+        + .site-nav__item {
             margin-left: $half-spacing-unit;
         }
     }

@@ -47,9 +47,9 @@
 
     > li {
         display: inline-block;
-        color: $alt-color-light;
+        @include font-size(16px);
 
-        &:not(:first-child):before {
+        + li:before {
             /* content: space middot space */
             content: "\0020 \00B7 \0020";
         }

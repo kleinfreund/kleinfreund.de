@@ -12,7 +12,6 @@ html {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    color: $base-ui-color;
     font-weight: 300;
 }
 
@@ -45,16 +44,6 @@ h6 {
 /**
  * Lists
  */
-/*ul, ol, dd {
-    margin-left: $base-spacing-unit;
-    margin-left: ($base-spacing-unit / $base-font-size)*1rem;
-
-    @include media-query(lap-and-up) {
-        margin-left: 2 * $base-spacing-unit;
-        margin-left: (2 * $base-spacing-unit / $base-font-size)*1rem;
-    }
-}*/
-
 li {
     > ul,
     > ol {
@@ -77,7 +66,7 @@ blockquote {
     padding-left: $half-spacing-unit - $border-width / 2;
     font-style: italic;
 
-    > p:last-of-type {
+    > :last-child {
         margin-bottom: 0;
     }
 }

@@ -505,7 +505,6 @@ html {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  color: #5e85d6;
   font-weight: 300;
 }
 
@@ -548,15 +547,6 @@ h6 {
 /**
  * Lists
  */
-/*ul, ol, dd {
-    margin-left: $base-spacing-unit;
-    margin-left: ($base-spacing-unit / $base-font-size)*1rem;
-
-    @include media-query(lap-and-up) {
-        margin-left: 2 * $base-spacing-unit;
-        margin-left: (2 * $base-spacing-unit / $base-font-size)*1rem;
-    }
-}*/
 li > ul,
 li > ol {
   margin-bottom: 0;
@@ -575,7 +565,7 @@ blockquote {
   padding-left: 11px;
   font-style: italic;
 }
-blockquote > p:last-of-type {
+blockquote > :last-child {
   margin-bottom: 0;
 }
 
@@ -708,9 +698,11 @@ pre > code {
 }
 .meta-list > li {
   display: inline-block;
-  color: #aaaaaa;
+  font-size: 16px;
+  font-size: 0.8rem;
+  line-height: 1.875;
 }
-.meta-list > li:not(:first-child):before {
+.meta-list > li + li:before {
   /* content: space middot space */
   content: "\0020 \00B7 \0020";
 }
@@ -779,10 +771,11 @@ pre > code {
   float: left;
   display: block;
   padding: 10px;
+  color: #fff;
   background-color: #5e85d6;
   text-shadow: 0 -1px 0 #444444;
 }
-.site-nav__item, .site-nav__item:visited, .site-nav__item:active {
+.site-nav__item:hover, .site-nav__item:focus, .site-nav__item:active {
   color: #fff;
 }
 @media only screen and (min-width: 481px) {
@@ -796,7 +789,7 @@ pre > code {
     padding-right: 30px;
     padding-left: 30px;
   }
-  .site-nav__item:not(:first-child) {
+  .site-nav__item + .site-nav__item {
     margin-left: 15px;
   }
 }
