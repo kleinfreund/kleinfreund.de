@@ -77,13 +77,9 @@
   - jekyll-sitemap
 </code></pre>
 
-<p>For the 404.html I added <code>sitemap: false</code> to the front matter, so it isn’t generated into the sitemap. However this feature isn’t implemented yet. It should be available with 0.5.0.</p>
+<p>The plugin is whitelisted. This means you can use it while letting GitHub Pages do the Jekyll build process for you. Super!</p>
 
-<p>There is also <a href="https://github.com/jekyll/jekyll-sitemap/issues/15">a conflict</a> in version 0.4.0 with the new <a href="http://jekyllrb.com/news/2014/05/06/jekyll-turns-2-0-0/">Jekyll 2.0.0</a> (namely configuration defaults).</p>
-
-<p>If <code>layout: default</code> is set as a default for all files, the sitemap is treated as a Jekyll page itself. Thus the sitemap.xml contains the HTML from the layout file and in place of <code>{{ content }}</code> is the sitemap code.</p>
-
-<p>This is fixed with version 0.4.1. It would also be nice to exclude files unrelated to the Jekyll site.</p>
+<p>A downside is still not being able to exclude certain pages like the 404.html from the Sitemap.</p>
 
 </article>
 

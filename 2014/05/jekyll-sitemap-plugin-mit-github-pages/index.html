@@ -81,13 +81,9 @@
   - jekyll-sitemap
 </code></pre>
 
-<p>Der 404.html habe ich noch <code>sitemap: false</code> in das Front Matter geschrieben, so dass sie nicht in der Sitemap auftaucht. Das Feature jedoch noch nicht eingebaut. Kommt aber wohl mit Version 0.5.0.</p>
+<p>Das Plugin steht auf der Whitelist und läuft somit auch mit bequemen Build-Prozess auf GitHub Pages. Spitze!</p>
 
-<p>In der Version 0.4.0 gibt es auch noch <a href="https://github.com/jekyll/jekyll-sitemap/issues/15">einen Konflikt</a> mit dem neuen <a href="http://jekyllrb.com/news/2014/05/06/jekyll-turns-2-0-0/">Jekyll 2.0.0</a> (nämlich mit Configuration Defaults).</p>
-
-<p>Legt man für alle Dateien <code>layout: default</code> als Standardwert fest, so wird auch die Sitemap als Jekyll-Seite behandelt. Die sitemap.xml enthält dann das HTML aus der Layout-Datei und an die Stelle von <code>{{ content }}</code> landet der Sitemap-Code.</p>
-
-<p>Das ist mit der Version 0.4.1 gefixt. Schön wäre es noch, wenn man Dateien ausschließen könnte, die nichts mit der Jekyll-Seite zu tun haben.</p>
+<p>Leider gibt es noch keine Möglichkeit selbst Seiten auszuschließen. Die 404.html landet also mit in der Sitemap.</p>
 
 </article>
 
