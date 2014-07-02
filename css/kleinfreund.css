@@ -505,6 +505,7 @@ html {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
+  color: #5e85d6;
   font-weight: 300;
 }
 
@@ -688,7 +689,7 @@ pre > code {
   line-height: 1.25;
 }
 .post-translation .post-list__heading:before {
-  content: "\2192 \0020";
+  content: "\25B8 \0020";
 }
 
 .meta-list {

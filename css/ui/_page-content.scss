@@ -35,7 +35,7 @@
         @include font-size($h4-size);
 
         &:before {
-            content: "\2192 \0020";
+            content: "\25B8 \0020";
         }
     }
 }
