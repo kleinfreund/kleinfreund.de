@@ -6,12 +6,57 @@
   <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
   <link rel="self" type="application/atom+xml" href="http://kleinfreund.de/feed.xml" />
   <link rel="alternate" type="text/html" href="http://kleinfreund.de" />
-  <updated>2014-07-02T08:31:21+02:00</updated>
+  <updated>2014-07-04T12:10:12+02:00</updated>
   <id>http://kleinfreund.de/</id>
   <author>
     <name>Philipp Rudloff</name>
     <uri>http://kleinfreund.de/</uri>
   </author>
+
+
+
+  <entry>
+    <title><![CDATA[’Ne eigene Kamera]]></title>
+    <link rel="alternate" type="text/html" href="http://kleinfreund.de/2014/07/ne-eigene-kamera" />
+    <updated>2014-07-04T08:46:12+02:00</updated>
+    <id>http://kleinfreund.de/2014/07/ne-eigene-kamera</id>
+    <author>
+      <name>Philipp Rudloff</name>
+      <uri>http://kleinfreund.de</uri>
+    </author>
+    <content type="html"><p>Seit ein paar Monaten habe ich eine eigene Kamera. Meine erste Überlegung war in Richtung einer schnuckligen Systemkamera (<a href="http://www.amazon.de/Sony-NEX-3NLB-Systemkamera-Megapixel-LCD-Display/dp/B00BHXVU6M">Sony NEX-3N</a>).</p>
+
+<p>In diesem Preissegment lässt man sich auf viele Kompromisse ein. Die Dinger sind zwar klein und leicht, aber in der Bedienung als Konsumentenprodukt für die breite Masse gebaut. Touchscreen, wirre Menüführung, teilweise magere Verarbeitung.</p>
+
+<p><a href="https://www.flickr.com/photos/kleinfreund/14366190156/"><img src="/img/posts/flickr-1.jpg" alt="Fingerhut" /></a></p>
+
+<p>Mein Budget war ziemlich klein und für 280 € schien mir das alles völlig okay. Da Amazon mit dem Preis schon wieder weiter oben war, habe ich sie bei Conrad bestellt. Das war keine gute Idee.</p>
+
+<p>Als nach gut zwei Wochen noch keine Bestätigung raus war, habe ich dort angerufen. Man sagte mir, dass die zur Zeit nicht verfügbar ist und dass man die Bestellung storniert habe. Blöd nur, dass man mir das nicht mitgeteilt hat.</p>
+
+<p><a href="https://www.flickr.com/photos/kleinfreund/14032864382/"><img src="/img/posts/flickr-2.jpg" alt="Eva — Sibirische Waldkatze" /></a></p>
+
+<p>Zurück auf Anfang also. Die Sache hat mir irgendwie einen Dämpfer verpasst und meine Augen fielen wieder auf Spiegelreflexkameras. Am Ende kaufte ich bei Media Markt eine <a href="http://www.amazon.de/Canon-SLR-Digitalkamera-Megapixel-schwenkbares-Display/dp/B004MKNBJG">Canon EOS 600D</a> samt Tasche, Putztuch und SD-Karte für 400 Goldmünzen—die Kamera allein kostet zur Zeit wieder um die 550 €, so viel dazu.</p>
+
+<p><a href="https://www.flickr.com/photos/kleinfreund/14274453544/"><img src="/img/posts/flickr-3.jpg" alt="Pfingstrose (rot)" /></a></p>
+
+<p>Die Kamera hat einen guten Bildschirm—samt Selfiefunktion, man kann ihn rausklappen—den ich erstaunlich häufig als Sucher verwende (Live View ist garnicht so blöd).</p>
+
+<p>Die Bedienung ist flexibel wie man es von DSLR-Kameras gewohnt ist. Das Kitobjektiv macht seine Sache gut, aber bei wenig Licht schlapp. Nachvollziehbar.</p>
+
+<p><a href="https://www.flickr.com/photos/kleinfreund/14522077401/"><img src="/img/posts/flickr-4.jpg" alt="Garten durch die Brille gesehen" /></a></p>
+
+<p>Meine nächste Investition wird also <s>mein kränkelndes Mobiltelefon zu ersetzten</s> das zu erwartende <a href="http://www.amazon.de/Canon-EF-50mm-Objektiv-Filtergewinde/dp/B00005K47X">Canon EF 50mm f/1.8 II</a>.</p>
+
+<p>Die Fotos sind zwar entsprechend verlinkt, aber mir sei an dieser Stelle noch der Hinweis auf meinen <a href="https://www.flickr.com/photos/kleinfreund">Flickr-Account</a> erlaubt. Schaut mal rein.</p>
+
+<p><a href="https://www.flickr.com/photos/kleinfreund/14349218616/"><img src="/img/posts/flickr-5.jpg" alt="Pfingstrose (weiß)" /></a></p>
+
+<p>Alle Bilder sind übrigens Creative Commons-Material: <a href="http://creativecommons.org/licenses/by-sa/3.0/de/">CC BY-SA</a>.</p>
+</content>
+  </entry>
+
+
 
 
 
@@ -201,29 +246,6 @@
 <p>Aus dem Bereich Film kennt sicher jeder schon die großen Teile von Star Wars, Herr der Ringe, Hobbit etc. Nicht zu vergessen Yann Tiersen mit <em>Le Fabuleux Destin d’Amélie Poulain</em>.</p>
 
 <p>Wen hab ich vergessen? Was ist eure Lieblingsspielmusik? Lieblingsfilmmusik? Meinetwegen auch Lieblingsmusik? Lieblingsirgendwas?!</p>
-</content>
-  </entry>
-
-
-
-
-
-  <entry>
-    <title><![CDATA[Website: bbk-vogtland.de]]></title>
-    <link rel="alternate" type="text/html" href="http://kleinfreund.de/portfolio/2014/03/bbk-vogtland" />
-    <updated>2014-03-02T16:59:41+01:00</updated>
-    <id>http://kleinfreund.de/portfolio/2014/03/bbk-vogtland</id>
-    <author>
-      <name>Philipp Rudloff</name>
-      <uri>http://kleinfreund.de</uri>
-    </author>
-    <content type="html"><p>Der Verein <a href="http://bbk-vogtland.de">Bund Bildender Künstler Vogtland e.V.</a> bekam ein Redesign. Das Ergebnis ist eine schlanke, statische Seite.</p>
-
-<p><img src="/img/portfolio/bbk-vogtland-1.jpg" alt="BBK Vogtland Startseite" /></p>
-
-<p><img src="/img/portfolio/bbk-vogtland-2.jpg" alt="BBK Vogtland Mitgliederseite" /></p>
-
-<p><img src="/img/portfolio/bbk-vogtland-3.jpg" alt="BBK Vogtland Detailansicht der Mitglieder" /></p>
 </content>
   </entry>
 
