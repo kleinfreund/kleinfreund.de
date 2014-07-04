@@ -1,22 +1,29 @@
 # kleinfreund.github.io
 
-This is the repository for my personal site [kleinfreund.de](http://kleinfreund.de). I’m using [Jekyll](http://jekyllrb.com) with [GitHub Pages](https://pages.github.com). This means it’s build automatically whenever I push the repository to GitHub.
-
-All content is licensed under [CC BY-SA](http://creativecommons.org/licenses/by-sa/3.0) unless stated otherwise.
+This is the repository for my personal site [kleinfreund.de](http://kleinfreund.de). I’m using [Jekyll](http://jekyllrb.com) with [GitHub Pages](https://pages.github.com). That way I don’t need to build the site by hand every time I want to push new stuff.
 
 ## To Do
 
-- Remove `.nojekyll` before using GHP again
-- try Vollkorn (http://www.google.com/fonts/specimen/Vollkorn#pairings) and Ubuntu
-- What to do with the contact page (?)
-  - A page that holds information which techniques/tools the site is currently using (?)
-- Blog en show only list of posts > make it nice (?)
-- Introduction text about me/the site (?)
-- Posts
-  - Revamping the site in general
-  - Logo as SVG
+### When Jekyll v2+ lands on GitHub Pages…
+
+- Remove `.nojekyll`
+- Remove include rule for .nojekyll file from _config.yml
+
+### Site enhancements:
+
+- New contact (?) page (story about the current state of the site is made)
+- Rebuild blog pages with endless list of posts
+
+### Design:
+
+- Think about alternate fonts (Vollkorn?)
+- __EN__: Enhanve list of posts
+
+### Posts:
+
+- Logo as SVG
 
 ## License
 
-Content: [Creative Commons – Attribution-ShareAlike](http://creativecommons.org/licenses/by-sa/3.0/)
-Code: [MIT](http://opensource.org/licenses/mit-license.php)
+- Content: [Creative Commons – Attribution-ShareAlike](http://creativecommons.org/licenses/by-sa/3.0/)
+- Code: [MIT](http://opensource.org/licenses/mit-license.php)
