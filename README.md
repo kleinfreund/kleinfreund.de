@@ -13,11 +13,12 @@ This is the repository for my personal site [kleinfreund.de](http://kleinfreund.
 
 - New contact (?) page (story about the current state of the site is made)
 - Rebuild blog pages with endless list of posts
+- Utilize CSS source maps
 
 ### Design:
 
 - Think about alternate fonts (Vollkorn?)
-- __EN__: Enhanve list of posts
+- __EN__: Enhance list of posts
 
 ### Posts:
 

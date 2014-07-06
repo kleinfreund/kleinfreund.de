@@ -1,6 +1,7 @@
 .site-head {
     border-top: $border-width solid $base-ui-color;
     @extend %clearfix;
+    @include vertical-gap();
 }
 
 .site-title {

@@ -436,6 +436,17 @@ figure {
 }
 
 /**
+ * Hide/Show stuff
+ */
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+/**
  * Images
  */
 img {
@@ -635,23 +646,100 @@ pre > code {
   display: inline-block;
 }
 
+/*------------------------------------*\
+    $FUNCTIONAL LAYER
+\*------------------------------------*/
+/**
+ * 1. Always hide actual `input` element
+ */
+#toggle-nav {
+  display: none;
+  /* [1] */
+}
+
+/**
+ * 1. Avoid selection while rapidly toggling the navigation
+ * 2. Change cursor to pointer to indicate action
+ * 3. Hide toggle trigger on big screens
+ */
+[for="toggle-nav"] {
+  -webkit-user-select: none;
+  /* [1] */
+  -moz-user-select: none;
+  /* [1] */
+  -ms-user-select: none;
+  /* [1] */
+  user-select: none;
+  /* [1] */
+  cursor: pointer;
+  /* [2] */
+}
+@media only screen and (min-width: 1024px) {
+  [for="toggle-nav"] {
+    display: none;
+    /* [3] */
+  }
+}
+
+/**
+ * 1. Hide navigation
+ * 2. Show navigation when input is checked
+ * 3. Show navigation on big screens
+ */
+.site-nav {
+  display: none;
+  /* [1] */
+}
+#toggle-nav:checked ~ .site-nav {
+  display: block;
+  /* [2] */
+}
+@media only screen and (min-width: 1024px) {
+  .site-nav {
+    display: block;
+    /* [3] */
+  }
+}
+
+/*------------------------------------*\
+    $VISUAL LAYER
+\*------------------------------------*/
+.toggle-nav__label {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.nav-icon {
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+.nav-icon__bar {
+  fill: #5e85d6;
+  -webkit-transform: translate(0) rotate(0);
+  transform: translate(0) rotate(0);
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+}
+
+.toggle-nav__input:checked ~ .toggle-nav__label .nav-icon__bar--top {
+  -webkit-transform: translate(6px, 2px) rotate(45deg);
+  transform: translate(6px, 2px) rotate(45deg);
+}
+.toggle-nav__input:checked ~ .toggle-nav__label .nav-icon__bar--mid {
+  display: none;
+}
+.toggle-nav__input:checked ~ .toggle-nav__label .nav-icon__bar--bot {
+  -webkit-transform: translate(-15px, 6px) rotate(-45deg);
+  transform: translate(-15px, 6px) rotate(-45deg);
+}
+
 .page-content {
-  margin-top: 60px;
-  margin-top: 3rem;
-  margin-bottom: 60px;
-  margin-bottom: 3rem;
-}
-@media only screen and (min-width: 481px) {
-  .page-content {
-    margin-top: 120px;
-    margin-top: 6rem;
-  }
-}
-@media only screen and (min-width: 481px) {
-  .page-content {
-    margin-bottom: 120px;
-    margin-bottom: 6rem;
-  }
+  margin-top: 120px;
+  margin-top: 6rem;
+  margin-bottom: 120px;
+  margin-bottom: 6rem;
 }
 .page-content ul, .page-content ol {
   list-style-position: outside;
@@ -659,14 +747,8 @@ pre > code {
 
 .post-list {
   list-style: none;
-  margin-bottom: 60px;
-  margin-bottom: 3rem;
-}
-@media only screen and (min-width: 481px) {
-  .post-list {
-    margin-bottom: 120px;
-    margin-bottom: 6rem;
-  }
+  margin-bottom: 120px;
+  margin-bottom: 6rem;
 }
 .post-list > li {
   margin-bottom: 30px;
@@ -710,6 +792,8 @@ pre > code {
 
 .site-head {
   border-top: 8px solid #5e85d6;
+  margin-bottom: 120px;
+  margin-bottom: 6rem;
 }
 
 .site-title {
@@ -730,65 +814,65 @@ pre > code {
 }
 
 .site-logo {
-  display: none;
+  position: relative;
+  display: block;
+  float: left;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+.site-logo > svg {
+  width: 64px;
+  height: 64px;
+  float: left;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+}
+.site-logo:hover > svg {
+  -webkit-transform: translateY(-30px);
+  transform: translateY(-30px);
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+}
+
+.site-logo__icon {
+  fill: #5e85d6;
 }
 
 @media only screen and (min-width: 481px) {
   .site-logo {
-    position: relative;
-    display: block;
-    float: left;
-    margin-top: -8px;
-    margin-left: 30px;
-  }
-  .site-logo > svg {
-    width: 64px;
-    height: 64px;
-    float: left;
-  }
-
-  .site-logo__icon {
-    fill: #5e85d6;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .site-logo {
-    margin-top: 15px;
     margin-left: 90px;
   }
 }
 .site-nav {
-  float: right;
-  line-height: 1;
+  position: absolute;
+  top: 60px;
+  right: 30px;
   text-align: right;
 }
 @media only screen and (min-width: 1024px) {
   .site-nav {
+    position: static;
+    float: right;
+    line-height: 1;
     margin-right: 90px;
   }
 }
 
 .site-nav__item {
-  float: left;
   display: block;
-  padding: 10px;
-  color: #fff;
-  background-color: #5e85d6;
-  text-shadow: 0 -1px 0 #444444;
-}
-.site-nav__item:hover, .site-nav__item:focus, .site-nav__item:active {
-  color: #fff;
-}
-@media only screen and (min-width: 481px) {
-  .site-nav__item {
-    padding: 15px;
-    font-weight: 500;
-  }
+  padding-top: 10px;
+  font-weight: 500;
 }
 @media only screen and (min-width: 1024px) {
   .site-nav__item {
-    padding-right: 30px;
-    padding-left: 30px;
+    float: left;
+    padding: 15px 30px;
+    color: #fff;
+    background-color: #5e85d6;
+    text-shadow: 0 -1px 0 #444444;
+  }
+  .site-nav__item:hover, .site-nav__item:focus, .site-nav__item:active {
+    color: #fff;
   }
   .site-nav__item + .site-nav__item {
     margin-left: 15px;

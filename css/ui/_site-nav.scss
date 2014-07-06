@@ -1,35 +1,33 @@
 .site-nav {
-    float: right;
     @extend %clearfix;
-
-    line-height: 1;
+    position: absolute;
+    top: $base-spacing-unit * 2;
+    right: $base-spacing-unit;
     text-align: right;
 
     @include media-query(desk) {
+        position: static;
+        float: right;
+        line-height: 1;
         margin-right: $base-spacing-unit * 3;
     }
 }
 
 .site-nav__item {
-    float: left;
     display: block;
-    padding: $base-spacing-unit / 3;
-    color: #fff;
-    background-color: $base-ui-color;
-    text-shadow: 0 -1px 0 $alt-color;
-
-    @include attention() {
-        color: #fff;
-    }
-
-    @include media-query(lap-and-up) {
-        padding: $half-spacing-unit;
-        font-weight: 500;
-    }
+    padding-top: $base-spacing-unit / 3;
+    font-weight: 500;
 
     @include media-query(desk) {
-        padding-right: $base-spacing-unit;
-        padding-left:  $base-spacing-unit;
+        float: left;
+        padding: $base-spacing-unit / 2 $base-spacing-unit;
+        color: #fff;
+        background-color: $base-ui-color;
+        text-shadow: 0 -1px 0 $alt-color;
+
+        @include attention() {
+            color: #fff;
+        }
 
         + .site-nav__item {
             margin-left: $half-spacing-unit;

@@ -46,13 +46,8 @@
  * Vertical Rhythm/Gaps
  */
 @mixin vertical-gap($direction: bottom) {
-    margin-#{$direction}: $base-spacing-unit * 2;
-    margin-#{$direction}: 3rem;
-
-    @include media-query(lap-and-up) {
-        margin-#{$direction}: $base-spacing-unit * 4;
-        margin-#{$direction}: 6rem;
-    }
+    margin-#{$direction}: $base-spacing-unit * 4;
+    margin-#{$direction}: 6rem;
 }
 
 

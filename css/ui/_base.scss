@@ -70,6 +70,19 @@ figure,
 
 
 /**
+ * Hide/Show stuff
+ */
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+
+
+/**
  * Images
  */
 img {
