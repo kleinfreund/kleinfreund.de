@@ -867,12 +867,6 @@ pre > code {
   .site-nav__item {
     float: left;
     padding: 15px 30px;
-    color: #fff;
-    background-color: #5e85d6;
-    text-shadow: 0 -1px 0 #444444;
-  }
-  .site-nav__item:hover, .site-nav__item:focus, .site-nav__item:active {
-    color: #fff;
   }
   .site-nav__item + .site-nav__item {
     margin-left: 15px;

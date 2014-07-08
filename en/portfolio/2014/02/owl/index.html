@@ -17,9 +17,10 @@
         | :]
         |-->
 
-    <!-- Prefetching Google Webfonts -->
+    <!-- Prefetching Google Webfonts/Analytics -->
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="dns-prefetch" href="//themes.googleusercontent.com">
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
 
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ubuntu:300,500,300italic">
     <link rel="stylesheet" href="/css/kleinfreund.min.css">
@@ -41,9 +42,9 @@
         <input type="checkbox" class="toggle-nav__input" id="toggle-nav">
         <label class="toggle-nav__label" for="toggle-nav">
             <svg class="nav-icon" viewBox="0 0 30 30">
-                <use class="nav-icon__bar  nav-icon__bar--top" xlink:href="#nav-icon__bar--top"></use>
-                <use class="nav-icon__bar  nav-icon__bar--mid" xlink:href="#nav-icon__bar--mid"></use>
-                <use class="nav-icon__bar  nav-icon__bar--bot" xlink:href="#nav-icon__bar--bot"></use>
+                <use class="nav-icon__bar  nav-icon__bar--top" xlink:href="#nav-icon__bar"></use>
+                <use class="nav-icon__bar  nav-icon__bar--mid" xlink:href="#nav-icon__bar" y="12"></use>
+                <use class="nav-icon__bar  nav-icon__bar--bot" xlink:href="#nav-icon__bar" y="24"></use>
             </svg>
         </label>
 
@@ -106,11 +107,7 @@
         <defs>
             <path id="site-logo" d="M58.52 0H6.73C3.43 0 0 2.4 0 5.75v52C0 61.1 3.4 64 6.7 64H48V48h16V5.75C64 2.4 61.8 0 58.5 0z M39 36c-2.76 0-5-2.24-5-5s2.24-5 5-5s5 2.2 5 5S41.76 36 39 36z"/>
 
-            <g id="nav-icon">
-                <path id="nav-icon__bar--top" d="M0,0 30,0 30,6 0,6"/>
-                <path id="nav-icon__bar--mid" d="M0,12 30,12 30,18 0,18"/>
-                <path id="nav-icon__bar--bot" d="M0,24 30,24 30,30 0,30"/>
-            </g>
+            <path id="nav-icon__bar" d="M0,0 30,0 30,6 0,6"/>
         </defs>
     </svg>
 

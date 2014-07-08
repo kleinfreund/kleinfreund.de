@@ -21,13 +21,6 @@
     @include media-query(desk) {
         float: left;
         padding: $base-spacing-unit / 2 $base-spacing-unit;
-        color: #fff;
-        background-color: $base-ui-color;
-        text-shadow: 0 -1px 0 $alt-color;
-
-        @include attention() {
-            color: #fff;
-        }
 
         + .site-nav__item {
             margin-left: $half-spacing-unit;
