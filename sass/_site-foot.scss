@@ -1,0 +1,18 @@
+.site-foot {
+    background-color: $alt-color;
+    padding: $half-spacing-unit $base-spacing-unit;
+    @include font-size(14px);
+
+    &,
+    a {
+        color: #fff;
+    }
+
+    a {
+        text-decoration: underline;
+    }
+
+    p:last-of-type {
+        margin-bottom: 0;
+    }
+}

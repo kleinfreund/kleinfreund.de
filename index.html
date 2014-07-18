@@ -1,10 +1,54 @@
 ---
-layout: none
+title: Mondbasis von Philipp Rudloff
 ---
-<!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<meta http-equiv="refresh" content="0;url=/de/" />
-</head>
-</html>
+{% assign posts_de = site.posts | where:"lang","de" %}
+
+<ul class="post-list">
+{% for post in posts_de limit:site.max_posts %}
+    <li>
+        <ul class="meta-list">
+            <li>
+                <time datetime="{{ post.date | date: '%Y-%m-%d' }}">
+                    {{ post.date | date: '%-d.' }}
+                    {% assign m-de = post.date | date: '%-m' %}
+                    {% case m-de %}
+                        {% when '1' %}Januar
+                        {% when '2' %}Februar
+                        {% when '3' %}März
+                        {% when '4' %}April
+                        {% when '5' %}Mai
+                        {% when '6' %}Juni
+                        {% when '7' %}Juli
+                        {% when '8' %}August
+                        {% when '9' %}September
+                        {% when '10' %}Oktober
+                        {% when '11' %}November
+                        {% when '12' %}Dezember
+                    {% endcase %}
+                    {{ post.date | date: '%Y' }}
+                </time>
+            </li>
+
+            {% for category in post.categories %}
+            <li>
+                <a href="/kategorien#{{ category }}">{{ category | capitalize }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+
+        <h2 class="post-list__heading">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </h2>
+
+        {% if post.thumbnail-url %}
+            <p><img src="{{ post.thumbnail-url }}" alt="{{ post.title }}"></p>
+        {% else %}
+            {{ post.excerpt }}
+        {% endif %}
+    </li>
+{% endfor %}
+</ul>
+
+{% if posts_de.size > site.max_posts %}
+<a href="/archiv" class="island">Mehr Beiträge im Archiv lesen</a>
+{% endif %}

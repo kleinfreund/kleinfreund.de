@@ -1,15 +1,18 @@
-environment     = :development
-firesass        = false
-line_comments   = false
+environment      = :development
+firesass         = false
+line_comments    = false
+relative_assets  = true
+preferred_syntax = :scss
+output_style     = :expanded
 
-css_dir         = ""
-sass_dir        = ""
-images_dir      = "images"
-javascripts_dir = "js"
+css_dir          = 'css'
+sass_dir         = 'sass'
+images_dir       = 'img'
+javascripts_dir  = 'js'
 
-output_style    = :expanded
-
-relative_assets = true
+sass_options = {
+    :sourcemap => true
+}
 
 require 'fileutils'
 
@@ -19,14 +22,17 @@ on_stylesheet_saved do |file|
 
     Compass.add_configuration(
         {
-            :project_path => File.dirname(File.dirname(file)),
-            :sass_dir => File.basename(File.dirname(file)),
-            :css_dir => File.basename(File.dirname(file)),
-            :output_style => :compressed
+            :output_style => :compressed,
+            :sass_options => {
+                :sourcemap => true
+            }
         },
-        'alwaysmin' # name for the configuration
+        'minify-css'
     )
-    Compass.compiler.compile(File.dirname(file) + "/" + File.basename(file, '.css') + '.scss', File.dirname(file) + "/" + File.basename(file, '.css') + ".min.css")
+    Compass.compiler.compile(
+        sass_dir + '/' + File.basename(file, '.css') + '.scss',
+        css_dir  + '/' + File.basename(file, '.css') + '.min.css'
+    )
 
   end
 end

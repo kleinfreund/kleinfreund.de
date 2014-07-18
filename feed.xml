@@ -1,0 +1,35 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+
+  <title type="text">{{ site.title }}</title>
+  <subtitle type="text">{{ site.data.locales.de.description }}</subtitle>
+  <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
+  <link rel="self" type="application/atom+xml" href="{{ site.url }}/feed.xml" />
+  <link rel="alternate" type="text/html" href="{{ site.url }}" />
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.url }}/</id>
+  <author>
+    <name>{{ site.author.name }}</name>
+    <uri>{{ site.url }}/</uri>
+  </author>
+
+{% for post in site.posts limit:10 %}
+{% unless post.categories contains 'en' %}
+  <entry>
+    <title><![CDATA[{{ post.title | cdata_escape }}]]></title>
+    <link rel="alternate" type="text/html" href="{{ site.url }}{{ post.url }}" />
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <id>{{ site.url }}{{ post.id }}</id>
+    <author>
+      <name>{{ site.author.name }}</name>
+      <uri>{{ site.url }}</uri>
+    </author>
+    <content type="html">{{ post.content }}</content>
+  </entry>
+{% endunless %}
+{% endfor %}
+
+</feed>

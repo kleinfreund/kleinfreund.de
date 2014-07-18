@@ -1,0 +1,92 @@
+/*------------------------------------*\
+    $FUNCTIONAL LAYER
+\*------------------------------------*/
+/**
+ * 1. Always hide actual `input` element
+ */
+#toggle-nav {
+    display: none; /* [1] */
+}
+
+
+
+/**
+ * 1. Avoid selection while rapidly toggling the navigation
+ * 2. Change cursor to pointer to indicate action
+ * 3. Hide toggle trigger on big screens
+ */
+[for="toggle-nav"] {
+    -webkit-user-select: none; /* [1] */
+       -moz-user-select: none; /* [1] */
+        -ms-user-select: none; /* [1] */
+            user-select: none; /* [1] */
+    cursor: pointer; /* [2] */
+
+    @include media-query(desk) {
+        display: none; /* [3] */
+    }
+}
+
+
+
+/**
+ * 1. Hide navigation
+ * 2. Show navigation when input is checked
+ * 3. Show navigation on big screens
+ */
+.site-nav {
+    display: none; /* [1] */
+
+    #toggle-nav:checked ~ & {
+        display: block; /* [2] */
+    }
+
+    @include media-query(desk) {
+        display: block; /* [3] */
+    }
+}
+
+
+
+/*------------------------------------*\
+    $VISUAL LAYER
+\*------------------------------------*/
+.toggle-nav__label {
+    position: absolute;
+    top: $base-spacing-unit;
+    right: $base-spacing-unit;
+}
+
+.nav-icon {
+    display: block;
+    width: 30px;
+    height: 30px;
+
+    &__bar {
+        fill: $base-ui-color;
+        -webkit-transform: translate(0) rotate(0);
+                transform: translate(0) rotate(0);
+        -webkit-transition: -webkit-transform 0.2s;
+                transition:         transform 0.2s;
+    }
+}
+
+.toggle-nav__input:checked ~ .toggle-nav__label {
+
+    .nav-icon__bar {
+
+        &--top {
+            -webkit-transform: translate(6px, 2px) rotate(45deg);
+                    transform: translate(6px, 2px) rotate(45deg);
+        }
+
+        &--mid {
+            display: none;
+        }
+
+        &--bot {
+            -webkit-transform: translate(-15px, 6px) rotate(-45deg);
+                    transform: translate(-15px, 6px) rotate(-45deg);
+        }
+    }
+}

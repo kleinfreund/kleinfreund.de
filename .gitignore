@@ -1,23 +1,9 @@
-# fonts #
-#########
-assets/fonts/
-css/ui/_ubuntu.scss
-
-# Jekyll #
-##########
 _site/
-
-# prepros #
-###########
-.sass-cache/
-
-# OS junk #
-###########
-.DS_Store
-.DS_Store?
+.sass-cache
+*.sublime-workspace
 ._*
+.DS_Store
 .Spotlight-V100
 .Trashes
-ehthumbs.db
 Thumbs.db
 Desktop.ini

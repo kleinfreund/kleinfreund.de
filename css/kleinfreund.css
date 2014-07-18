@@ -1,38 +1,5 @@
 @charset "UTF-8";
 /*------------------------------------*\
-    STYLE.CSS
-\*------------------------------------*/
-/**
- *
- * sass --watch style.scss:style.min.css --style compressed
- *
- * Here we pull in some variables, include the inuit.css framework, then add our
- * project-specific components afterwards.
- */
-/**
- * Setup
- */
-/*------------------------------------*\
-    VARS.SCSS
-\*------------------------------------*/
-/**
- * Any variables you find set in inuit.css’ `_vars.scss` that you do not wish to
- * keep, simply redefine here. This means that if inuit.css, for example, sets
- * your `$base-font-size` at 16px and you wish it to be 14px, simply redeclare
- * that variable in this file. inuit.css ignores its own variables in favour of
- * using your own, so you can completely modify how inuit.css works without ever
- * having to alter the framework itself.
- */
-/*------------------------------------*\
-    $OBJECTS-AND-ABSTRACTIONS
-\*------------------------------------*/
-/**
- * All of inuit.css’ objects and abstractions are initially turned off by
- * default. This means that you start any project with as little as possible,
- * and introducing objects and abstractions is as simple as switching the
- * following variables to `true`.
- */
-/*------------------------------------*\
     $OVERRIDES
 \*------------------------------------*/
 /**
@@ -44,351 +11,43 @@
 /**
  * Place any of your own variables that sit on top of inuit.css here.
  */
-/*------------------------------------*\
-    INUIT.CSS
-\*------------------------------------*/
-/*!*
- *
- * inuitcss.com -- @inuitcss -- @csswizardry
- *
+/**
+ * inuitcss font-size mixin
  */
 /**
- * inuit.css acts as a base stylesheet which you should extend with your own
- * theme stylesheet.
- *
- * inuit.css aims to do the heavy lifting; sorting objects and abstractions,
- * design patterns and fiddly bits of CSS, whilst leaving as much design as
- * possible to you. inuit.css is the scaffolding to your decorator.
- *
- * This stylesheet is heavily documented and contains lots of comments, please
- * take care to read and refer to them as you build. For further support please
- * tweet at @inuitcss.
- *
- * Owing to the amount of comments please only ever use minified CSS in
- * production. This file is purely a dev document.
- *
- * The table of contents below maps to section titles of the same name, to jump
- * to any section simply run a find for $[SECTION-TITLE].
- *
- * Most objects and abstractions come with a chunk of markup that you should be
- * able to paste into any view to quickly see how the CSS works in conjunction
- * with the correct HTML.
- *
- * inuit.css is written to this standard: github.com/csswizardry/CSS-Guidelines
- *
- * LICENSE
- *
- * Copyright 2013 Harry Roberts
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
- * Thank you for choosing inuit.css. May your web fonts render perfectly.
- */
-/*------------------------------------*\
-    $CONTENTS
-\*------------------------------------*/
-/**
- * CONTENTS............You’re reading it!
- * WARNING.............Here be dragons!
- * IMPORTS.............Begin importing the sections below
- *
- * MIXINS..............Super-simple Sass stuff
- * NORMALIZE...........normalize.css
- * RESET...............Set some defaults
- * CLEARFIX............
- * SHARED..............Shared declarations
- *
- * MAIN................High-level elements like `html`, `body`, etc.
- * HEADINGS............Double-stranded heading hierarchy
- * PARAGRAPHS..........
- * SMALLPRINT..........Smaller text elements like `small`
- * QUOTES..............
- * CODE................
- * LISTS...............
- * IMAGES..............
- * TABLES..............
- * FORMS...............
- *
- * GRIDS...............Fluid, proportional and nestable grids
- * FLEXBOX.............Crudely emulate flexbox
- * COLUMNS.............CSS3 columns
- * NAV.................A simple abstraction to put a list in horizontal nav mode
- * OPTIONS.............Grouped nav items
- * PAGINATION..........Very stripped back, basic paginator
- * BREADCRUMB..........Simple breadcrumb trail object
- * MEDIA...............Media object
- * MARGINALIA..........Simple marginalia content
- * ISLAND..............Boxed off content
- * BLOCK-LIST..........Blocky lists of content
- * MATRIX..............Gridded lists
- * SPLIT...............A simple split-in-two object
- * THIS-OR-THIS........Options object
- * LINK-COMPLEX........
- * FLYOUT..............Flyout-on-hover object
- * ARROWS..............CSS arrows
- * SPRITE..............Generic spriting element
- * ICON-TEXT...........Icon and text couplings
- * BEAUTONS............Use the beautons micro library
- * LOZENGES............Basic lozenge styles
- * RULES...............Horizontal rules
- * STATS...............Simple stats object
- * GREYBOX.............Wireframing styles
- *
- * WIDTHS..............Width classes for use alongside the grid system etc.
- * PUSH................Push classes for manipulating grids
- * PULL................Pull classes for manipulating grids
- * BRAND...............Helper class to apply brand treatment to elements
- * HELPER..............A series of helper classes to use arbitrarily
- * DEBUG...............Enable to add visual flags for debugging purposes
- */
-/*------------------------------------*\
-    $WARNING
-\*------------------------------------*/
-/*
- * inuit.css, being an OO framework, works in keeping with the open/closed
- * principle. The variables you set previously are now being used throughout
- * inuit.css to style everything we need for a base. Any custom styles SHOULD
- * NOT be added or modified in inuit.css directly, but added via your theme
- * stylesheet as per the open/closed principle:
- *
- * csswizardry.com/2012/06/the-open-closed-principle-applied-to-css
- *
- * Try not to edit any CSS beyond this point; if you find you need to do so
- * it is a failing of the framework so please tweet at @inuitcss.
- */
-/*------------------------------------*\
-    $IMPORTS
-\*------------------------------------*/
-/**
- * Generic utility styles etc.
- */
-/*------------------------------------*\
-    $DEFAULTS
-\*------------------------------------*/
-/**
- * inuit.css’ default variables. Redefine these in your `_vars.scss` file (found
- * in the inuit.css-web-template) to override them.
- */
-/*------------------------------------*\
-    $DEBUG
-\*------------------------------------*/
-/**
- * Debug mode will visually highlight any potential markup/accessibility quirks
- * in the browser. Set to `true` or `false`.
- */
-/*------------------------------------*\
-    $BORDER-BOX
-\*------------------------------------*/
-/**
- * Do you want all elements to adopt `box-sizing:border-box;` as per
- * paulirish.com/2012/box-sizing-border-box-ftw ?
- */
-/*------------------------------------*\
-    $BASE
-\*------------------------------------*/
-/**
- * Base stuff
+ * inuitcss media-query mixin
  */
 /**
- * Base font-family.
+ * Vertical Rhythm/Gaps
  */
 /**
- * Default colour for objects’ borders etc.
+ * https://twitter.com/csswizardry/status/478938530342006784
  */
-/*------------------------------------*\
-    $RESPONSIVE
-\*------------------------------------*/
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /**
- * Responsiveness?
+ * 1. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
  */
-/**
- * Responsiveness for widescreen/high resolution desktop monitors and beyond?
- * Note: `$responsive` variable above must be set to true before enabling this.
- */
-/**
- * Responsive push and pull produce a LOT of code, only turn them on if you
- * definitely need them.
- */
-/**
- * Note: `$push` variable above must be set to true before enabling these.
- */
-/**
- * Note: `$pull` variable above must be set to true before enabling these.
- */
-/**
- * Tell inuit.css when breakpoints start.
- */
-/*------------------------------------*\
-    $FONT-SIZES
-\*------------------------------------*/
-/**
- * Font-sizes (in pixels). Refer to relevant sections for their implementations.
- */
-/*------------------------------------*\
-    $QUOTES
-\*------------------------------------*/
-/**
- * English quote marks?
- */
-/**
- * If you want English quotes then please do not edit these; they’re only here
- * because Sass needs them.
- */
-/**
- * If you need non-English quotes, please alter the following values accordingly:
- */
-/*------------------------------------*\
-    $BRAND
-\*------------------------------------*/
-/**
- * Brand stuff
- */
-/**
- * How big would you like round corners to be by default?
- */
-/*------------------------------------*\
-    $OBJECTS AND ABSTRACTIONS
-\*------------------------------------*/
-/**
- * Which objects and abstractions would you like to use?
- */
-/*------------------------------------*\
-    $FRAMEWORK
-\*------------------------------------*/
-/**
- * inuit.css will work these next ones out for use within the framework.
- *
- * Assign our `$base-line-height` to a new spacing var for more transparency.
- */
-/*------------------------------------*\
-    $MIXINS
-\*------------------------------------*/
-/**
- * Create a fully formed type style (sizing and vertical rhythm) by passing in a
- * single value, e.g.:
- *
-   `@include font-size(10px);`
- *
- * Thanks to @redclov3r for the `line-height` Sass:
- * twitter.com/redclov3r/status/250301539321798657
- */
-/**
- * Style any number of headings in one fell swoop, e.g.:
- *
-   .foo{
-       @include headings(1, 3){
-           color:#BADA55;
-       }
-    }
- *
- * With thanks to @lar_zzz, @paranoida, @rowanmanning and ultimately
- * @thierrylemoulec for refining and improving my initial mixin.
- */
-/**
- * Create vendor-prefixed CSS in one go, e.g.
- *
-   `@include vendor(border-radius, 4px);`
- *
- */
-/**
- * Create CSS keyframe animations for all vendors in one go, e.g.:
- *
-   .foo{
-       @include vendor(animation, shrink 3s);
-   }
+html {
+  -ms-text-size-adjust: 100%;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 1 */
+}
 
-   @include keyframe(shrink){
-       from{
-           font-size:5em;
-       }
-   }
- *
- * Courtesy of @integralist: twitter.com/integralist/status/260484115315437569
- */
 /**
- * Force overly long spans of text to truncate, e.g.:
- *
-   `@include truncate(100%);`
- *
- * Where `$truncation-boundary` is a united measurement.
+ * Remove default margin.
  */
-/**
- * CSS arrows!!! But... before you read on, you might want to grab a coffee...
- *
- * This mixin creates a CSS arrow on a given element. We can have the arrow
- * appear in one of 12 locations, thus:
- *
- *       01    02    03
- *    +------------------+
- * 12 |                  | 04
- *    |                  |
- * 11 |                  | 05
- *    |                  |
- * 10 |                  | 06
- *    +------------------+
- *       09    08    07
- *
- * You pass this position in along with a desired arrow color and optional
- * border color, for example:
- *
- * `@include arrow(top, left, red)`
- *
- * for just a single, red arrow, or:
- *
- * `@include arrow(bottom, center, red, black)`
- *
- * which will create a red triangle with a black border which sits at the bottom
- * center of the element. Call the mixin thus:
- *
-   .foo{
-       background-color:#BADA55;
-       border:1px solid #ACE;
-       @include arrow(top, left, #BADA55, #ACE);
-   }
- *
- */
-/**
- * Media query mixin.
- *
- * It’s not great practice to define solid breakpoints up-front, preferring to
- * modify your design when it needs it, rather than assuming you’ll want a
- * change at ‘mobile’. However, as inuit.css is required to take a hands off
- * approach to design decisions, this is the closest we can get to baked-in
- * responsiveness. It’s flexible enough to allow you to set your own breakpoints
- * but solid enough to be frameworkified.
- *
- * We define some broad breakpoints in our vars file that are picked up here
- * for use in a simple media query mixin. Our options are:
- *
- * palm
- * lap
- * lap-and-up
- * portable
- * desk
- * desk-wide
- *
- * Not using a media query will, naturally, serve styles to all devices.
- *
- * `@include media-query(palm){ [styles here] }`
- *
- * We work out your end points for you:
- */
-/*! normalize.css v2.1.0 | MIT License | git.io/normalize */
-/* ==========================================================================
-   HTML5 display definitions
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
    ========================================================================== */
-/*
- * Correct `block` display not defined in IE 8/9.
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
  */
 article,
 aside,
@@ -405,16 +64,21 @@ summary {
   display: block;
 }
 
-/*
- * Correct `inline-block` display not defined in IE 8/9.
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
 audio,
 canvas,
+progress,
 video {
   display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
 }
 
-/*
+/**
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
@@ -423,48 +87,16 @@ audio:not([controls]) {
   height: 0;
 }
 
-/*
- * Address styling not present in IE 8/9.
- */
-[hidden] {
-  display: none;
-}
-
-/* ==========================================================================
-   Base
+/* Links
    ========================================================================== */
-/*
- * 1. Set default font family to sans-serif.
- * 2. Prevent iOS text size adjust after orientation change, without disabling
- *    user zoom.
+/**
+ * Remove the gray background color from active links in IE 10.
  */
-html {
-  font-family: sans-serif;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
-  -ms-text-size-adjust: 100%;
-  /* 2 */
+a {
+  background: transparent;
 }
 
-/*
- * Remove default margin.
- */
-body {
-  margin: 0;
-}
-
-/* ==========================================================================
-   Links
-   ========================================================================== */
-/*
- * Address `outline` inconsistency between Chrome and other browsers.
- */
-a:focus {
-  outline: thin dotted;
-}
-
-/*
+/**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
 a:active,
@@ -472,90 +104,24 @@ a:hover {
   outline: 0;
 }
 
-/* ==========================================================================
-   Typography
+/* Text-level semantics
    ========================================================================== */
-/*
- * Address variable `h1` font-size and margin within `section` and `article`
- * contexts in Firefox 4+, Safari 5, and Chrome.
- */
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
-/*
- * Address styling not present in IE 8/9, Safari 5, and Chrome.
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/*
- * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
 b,
 strong {
   font-weight: bold;
 }
 
-/*
- * Address styling not present in Safari 5 and Chrome.
- */
-dfn {
-  font-style: italic;
-}
-
-/*
- * Address differences between Firefox and other browsers.
- */
-hr {
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  height: 0;
-}
-
-/*
- * Address styling not present in IE 8/9.
- */
-mark {
-  background: #ff0;
-  color: #000;
-}
-
-/*
- * Correct font family set oddly in Safari 5 and Chrome.
- */
-code,
-kbd,
-pre,
-samp {
-  font-family: monospace, serif;
-  font-size: 1em;
-}
-
-/*
- * Improve readability of pre-formatted text in all browsers.
- */
-pre {
-  white-space: pre-wrap;
-}
-
-/*
- * Set consistent quote types.
- */
-q {
-  quotes: "\201C" "\201D" "\2018" "\2019";
-}
-
-/*
- * Address inconsistent and variable font size in all browsers.
- */
-small {
-  font-size: 80%;
-}
-
-/*
+/**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
 sub,
@@ -574,94 +140,102 @@ sub {
   bottom: -0.25em;
 }
 
-/* ==========================================================================
-   Embedded content
+/* Embedded content
    ========================================================================== */
-/*
- * Remove border when inside `a` element in IE 8/9.
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
  */
 img {
   border: 0;
 }
 
-/*
- * Correct overflow displayed oddly in IE 9.
+/**
+ * Correct overflow not hidden in IE 9/10/11.
  */
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* ==========================================================================
-   Figures
+/* Grouping content
    ========================================================================== */
-/*
- * Address margin not present in IE 8/9 and Safari 5.
+/**
+ * Address margin not present in IE 8/9 and Safari.
  */
 figure {
-  margin: 0;
+  margin: 1em 40px;
 }
 
-/* ==========================================================================
-   Forms
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
    ========================================================================== */
-/*
- * Define consistent border, margin, and padding.
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
  */
-fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
-}
-
-/*
- * 1. Correct `color` not being inherited in IE 8/9.
- * 2. Remove padding so people aren't caught out if they zero out fieldsets.
- */
-legend {
-  border: 0;
-  /* 1 */
-  padding: 0;
-  /* 2 */
-}
-
-/*
- * 1. Correct font family not being inherited in all browsers.
- * 2. Correct font size not being inherited in all browsers.
- * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
 button,
 input,
+optgroup,
 select,
 textarea {
-  font-family: inherit;
+  color: inherit;
   /* 1 */
-  font-size: 100%;
+  font: inherit;
   /* 2 */
   margin: 0;
   /* 3 */
 }
 
-/*
- * Address Firefox 4+ setting `line-height` on `input` using `!important` in
- * the UA stylesheet.
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-button,
-input {
-  line-height: normal;
+button {
+  overflow: visible;
 }
 
-/*
+/**
  * Address inconsistent `text-transform` inheritance for `button` and `select`.
  * All other form control elements do not inherit `text-transform` values.
- * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
- * Correct `select` style inheritance in Firefox 4+ and Opera.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
  */
 button,
 select {
   text-transform: none;
 }
 
-/*
+/**
  * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
  *    and `video` controls.
  * 2. Correct inability to style clickable `input` types in iOS.
@@ -678,7 +252,7 @@ input[type="submit"] {
   /* 3 */
 }
 
-/*
+/**
  * Re-set default cursor for disabled elements.
  */
 button[disabled],
@@ -686,9 +260,29 @@ html input[disabled] {
   cursor: default;
 }
 
-/*
- * 1. Address box sizing set to `content-box` in IE 8/9.
- * 2. Remove excess padding in IE 8/9.
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
  */
 input[type="checkbox"],
 input[type="radio"] {
@@ -698,9 +292,19 @@ input[type="radio"] {
   /* 2 */
 }
 
-/*
- * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
- * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
  *    (include `-moz` to future-proof).
  */
 input[type="search"] {
@@ -712,39 +316,54 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
-/*
- * Remove inner padding and search cancel button in Safari 5 and Chrome
- * on OS X.
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
  */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/*
- * Remove inner padding and border in Firefox 4+.
+/**
+ * Define consistent border, margin, and padding.
  */
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
 }
 
-/*
- * 1. Remove default vertical scrollbar in IE 8/9.
- * 2. Improve readability and alignment in all browsers.
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-textarea {
-  overflow: auto;
+legend {
+  border: 0;
   /* 1 */
-  vertical-align: top;
+  padding: 0;
   /* 2 */
 }
 
-/* ==========================================================================
-   Tables
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
    ========================================================================== */
-/*
+/**
  * Remove most spacing between table cells.
  */
 table {
@@ -752,472 +371,96 @@ table {
   border-spacing: 0;
 }
 
-/*------------------------------------*\
-    $RESET
-\*------------------------------------*/
+td,
+th {
+  padding: 0;
+}
+
 /**
- * A more considered reset; more of a restart...
- * As per: csswizardry.com/2011/10/reset-restarted
+ * IE6 was right!
  */
-/**
-* Let’s make the box model all nice, shall we...?
-*/
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  -o-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 /**
- * The usual...
+ * Reset some basic elements
  */
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
-dl, dd, ol, ul,
-form, fieldset, legend,
-table, th, td, caption,
-hr {
+dl, dd, ol, ul, hr,
+figure {
   margin: 0;
   padding: 0;
 }
 
 /**
- * Give a help cursor to elements that give extra info on `:hover`.
+ * Set `margin-bottom` to maintain vertycal rhythm
  */
-abbr[title], dfn[title] {
-  cursor: help;
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl,
+figure,
+.island {
+  margin-bottom: 30px;
+  margin-bottom: 1.5rem;
 }
 
 /**
- * Remove underlines from potentially troublesome elements.
+ * Wrapper
  */
-u, ins {
-  text-decoration: none;
+.wrapper {
+  max-width: 680px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media only screen and (min-width: 481px) {
+  .wrapper {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
 }
 
 /**
- * Apply faux underline via `border-bottom`.
+ * Clearfix
  */
-ins {
-  border-bottom: 1px solid;
-}
-
-/**
- * So that `alt` text is visually offset if images don’t load.
- */
-img {
-  font-style: italic;
-}
-
-/**
- * Give form elements some cursor interactions...
- */
-label,
-input,
-textarea,
-button,
-select,
-option {
-  cursor: pointer;
-}
-
-.text-input:active,
-.text-input:focus,
-textarea:active,
-textarea:focus {
-  cursor: text;
-  outline: none;
-}
-
-/*------------------------------------*\
-    $CLEARFIX
-\*------------------------------------*/
-/**
- * Micro clearfix, as per: css-101.org/articles/clearfix/latest-new-clearfix-so-far.php
- * Extend the clearfix class with Sass to avoid the `.cf` class appearing over
- * and over in your markup.
- */
-.cf:after, .site-nav:after {
+.clearfix:after,
+.island:after,
+.site-head:after,
+.site-nav:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/*------------------------------------*\
-    $SHARED
-\*------------------------------------*/
 /**
- * Where `margin-bottom` is concerned, this value will be the same as the
- * base line-height. This allows us to keep a consistent vertical rhythm.
- * As per: csswizardry.com/2012/06/single-direction-margin-declarations
+ * Hide/Show stuff
  */
-/**
- * Base elements
- */
-h1, h2, h3, h4, h5, h6, hgroup,
-ul, ol, dl,
-blockquote, p, address,
-table,
-fieldset, figure,
-pre,
-.form-fields > li,
-.media,
-.island,
-.islet {
-  margin-bottom: 30px;
-  margin-bottom: 1.5rem;
-}
-.islet h1, .islet h2, .islet h3, .islet h4, .islet h5, .islet h6, .islet hgroup, .islet
-ul, .islet ol, .islet dl, .islet
-blockquote, .islet p, .islet address, .islet
-table, .islet
-fieldset, .islet figure, .islet
-pre, .islet .form-fields > li, .islet
-.media, .islet
-.island, .islet
-.islet {
-  margin-bottom: 15px;
-  margin-bottom: 0.75rem;
+.hidden {
+  display: none;
 }
 
-/**
- * Doubled up `margin-bottom` helper class.
- */
-.landmark {
-  margin-bottom: 60px;
-  margin-bottom: 3rem;
-}
-
-/**
- * `hr` elements only take up a few pixels, so we need to give them special
- * treatment regarding vertical rhythm.
- */
-hr {
-  margin-bottom: 28px;
-  margin-bottom: 1.4rem;
-}
-
-/**
- * Where `margin-left` is concerned we want to try and indent certain elements
- * by a consistent amount. Define that amount once, here.
- */
-ul, ol, dd {
-  margin-left: 60px;
-  margin-left: 3rem;
-}
-
-/**
- * Base styles; unclassed HTML elements etc.
- */
-/*------------------------------------*\
-    $MAIN
-\*------------------------------------*/
-html {
-  font: 1.25em/1.5 Ubuntu;
-  overflow-y: scroll;
-  min-height: 100%;
-}
-
-/*------------------------------------*\
-    $HEADINGS
-\*------------------------------------*/
-/**
- * As per: csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css
- *
- * When we define a heading we also define a corresponding class to go with it.
- * This allows us to apply, say, `class=alpha` to a `h3`; a double-stranded
- * heading hierarchy.
- */
-h1, .alpha {
-  font-size: 36px;
-  font-size: 1.8rem;
-  line-height: 1.66667;
-}
-
-h2, .beta {
-  font-size: 32px;
-  font-size: 1.6rem;
-  line-height: 1.875;
-}
-
-h3, .gamma {
-  font-size: 28px;
-  font-size: 1.4rem;
-  line-height: 1.07143;
-}
-
-h4, .delta {
-  font-size: 24px;
-  font-size: 1.2rem;
-  line-height: 1.25;
-}
-
-h5, .epsilon {
-  font-size: 20px;
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-h6, .zeta {
-  font-size: 16px;
-  font-size: 0.8rem;
-  line-height: 1.875;
-}
-
-/**
- * Heading groups and generic any-heading class.
- * To target any heading of any level simply apply a class of `.hN`, e.g.:
- *
-   <hgroup>
-       <h1 class=hN>inuit.css</h1>
-       <h2 class=hN>Best. Framework. Ever!</h2>
-   </hgroup>
- *
- */
-hgroup .hN {
-  margin-bottom: 0;
-}
-
-/**
- * A series of classes for setting massive type; for use in heroes, mastheads,
- * promos, etc.
- */
-.giga {
-  font-size: 120px;
-  font-size: 6rem;
-  line-height: 1;
-}
-
-.mega {
-  font-size: 90px;
-  font-size: 4.5rem;
-  line-height: 1;
-}
-
-.kilo {
-  font-size: 60px;
-  font-size: 3rem;
-  line-height: 1;
-}
-
-/*------------------------------------*\
-    $PARAGRAPHS
-\*------------------------------------*/
-/**
- * The `.lede` class is used to make the introductory text (usually a paragraph)
- * of a document slightly larger.
- */
-.lede,
-.lead {
-  font-size: 22.5px;
-  font-size: 1.125rem;
-  line-height: 1.33333;
-}
-
-/*------------------------------------*\
-    $SMALLPRINT
-\*------------------------------------*/
-/**
- * A series of classes for setting tiny type; for use in smallprint etc.
- */
-.smallprint,
-.milli {
-  font-size: 14px;
-  font-size: 0.7rem;
-  line-height: 2.14286;
-}
-
-.micro {
-  font-size: 12px;
-  font-size: 0.6rem;
-  line-height: 2.5;
-}
-
-/*------------------------------------*\
-    $QUOTES
-\*------------------------------------*/
-/**
- * If English quotes are set in `_vars.scss`, define them here.
- */
-/**
- * Big up @boblet: html5doctor.com/blockquote-q-cite
- */
-/**
- * Inline quotes.
- */
-q {
-  quotes: "\2018" "\2019" "\201C" "\201D";
-}
-q:before {
-  content: "\2018";
-  content: open-quote;
-}
-q:after {
-  content: "\2019";
-  content: close-quote;
-}
-q q:before {
-  content: "\201C";
-  content: open-quote;
-}
-q q:after {
-  content: "\201D";
-  content: close-quote;
-}
-
-blockquote {
-  quotes: "\201C" "\201D";
-}
-blockquote p:before {
-  content: "\201C";
-  content: open-quote;
-}
-blockquote p:after {
-  content: "";
-  content: no-close-quote;
-}
-blockquote p:last-of-type:after {
-  content: "\201D";
-  content: close-quote;
-}
-blockquote q:before {
-  content: "\2018";
-  content: open-quote;
-}
-blockquote q:after {
-  content: "\2019";
-  content: close-quote;
-}
-
-/**
- *
-   <blockquote>
-       <p>Insanity: doing the same thing over and over again and expecting
-       different results.</p>
-       <b class=source>Albert Einstein</b>
-   </blockquote>
- *
- */
-blockquote {
-  /**
-   * .4em is roughly equal to the width of the opening “ that we wish to hang.
-   */
-  text-indent: -0.41em;
-}
-blockquote p:last-of-type {
-  margin-bottom: 0;
-}
-
-.source {
+.visible {
   display: block;
-  text-indent: 0;
-}
-.source:before {
-  content: "\2014";
-}
-
-/*------------------------------------*\
-    $CODE
-\*------------------------------------*/
-/**
- * Use an explicit font stack to ensure browsers render correct `line-height`.
- */
-pre {
-  overflow: auto;
-}
-
-pre mark {
-  background: none;
-  border-bottom: 1px solid;
-  color: inherit;
 }
 
 /**
- * Add comments to your code examples, e.g.:
- *
-   <code>&lt;/div&gt;<span class=code-comment>&lt;!-- /wrapper --&gt;</span></code>
- *
- */
-.code-comment {
-  /**
-   * Override this setting in your theme stylesheet
-   */
-  opacity: 0.75;
-  filter: alpha(opacity=75);
-}
-
-/**
- * You can add line numbers to your code examples but be warned, it requires
- * some pretty funky looking markup, e.g.:
- *
-   <ol class=line-numbers>
-       <li><code>.nav{</code></li>
-       <li><code>    list-style:none;</code></li>
-       <li><code>    margin-left:0;</code></li>
-       <li><code>}</code></li>
-       <li><code>    .nav > li,</code></li>
-       <li><code>        .nav > li > a{</code></li>
-       <li><code>            display:inline-block;</code></li>
-       <li><code>           *display:inline-block;</code></li>
-       <li><code>            zoom:1;</code></li>
-       <li><code>        }</code></li>
-   </ol>
- *
- * 1. Make the list look like code.
- * 2. Give the list flush numbers with a leading zero.
- * 3. Make sure lines of code don’t wrap.
- * 4. Give the code form by forcing the `code` to honour white-space.
- */
-.line-numbers {
-  font-family: monospace, serif;
-  /* [1] */
-  list-style: decimal-leading-zero inside;
-  /* [2] */
-  white-space: nowrap;
-  /* [3] */
-  overflow: auto;
-  /* [3] */
-  margin-left: 0;
-}
-
-.line-numbers code {
-  white-space: pre;
-  /* [4] */
-}
-
-/*------------------------------------*\
-    $IMAGES
-\*------------------------------------*/
-/**
- * Demo: jsfiddle.net/inuitcss/yMtur
- */
-/**
- * Fluid images.
+ * Images
  */
 img {
+  /* Emphasis on `alt` text */
+  font-style: italic;
   max-width: 100%;
 }
 
-/**
- * Non-fluid images if you specify `width` and/or `height` attributes.
- */
-img[width],
-img[height] {
-  max-width: none;
+img, svg {
+  vertical-align: middle;
 }
 
-/**
- * Rounded images.
- */
-.img--round {
-  border-radius: 4px;
-}
-
-/**
- * Image placement variations.
- */
 .img--right {
   float: right;
   margin-bottom: 30px;
@@ -1238,1821 +481,19 @@ img[height] {
 }
 
 /**
- * Keep your images on your baseline.
- *
- * Please note, these will not work too nicely with fluid images and will
- * distort when resized below a certain width. Use with caution.
- */
-.img--short {
-  height: 150px;
-}
-
-.img--medium {
-  height: 300px;
-}
-
-.img--tall {
-  height: 450px;
-}
-
-/**
- * Images in `figure` elements.
- */
-figure > img {
-  display: block;
-}
-
-/*------------------------------------*\
-    $LISTS
-\*------------------------------------*/
-/**
- * Remove vertical spacing from nested lists.
- */
-li > ul,
-li > ol {
-  margin-bottom: 0;
-}
-
-/**
- * Have a numbered `ul` without the semantics implied by using an `ol`.
- */
-/*ul*/
-.numbered-list {
-  list-style-type: decimal;
-}
-
-/*------------------------------------*\
-    $TABLES
-\*------------------------------------*/
-/**
- * We have a lot at our disposal for making very complex table constructs, e.g.:
- *
-   <table class="table--bordered  table--striped  table--data">
-       <colgroup>
-           <col class=t10>
-           <col class=t10>
-           <col class=t10>
-           <col>
-       </colgroup>
-       <thead>
-           <tr>
-               <th colspan=3>Foo</th>
-               <th>Bar</th>
-           </tr>
-           <tr>
-               <th>Lorem</th>
-               <th>Ipsum</th>
-               <th class=numerical>Dolor</th>
-               <th>Sit</th>
-           </tr>
-       </thead>
-       <tbody>
-           <tr>
-               <th rowspan=3>Sit</th>
-               <td>Dolor</td>
-               <td class=numerical>03.788</td>
-               <td>Lorem</td>
-           </tr>
-           <tr>
-               <td>Dolor</td>
-               <td class=numerical>32.210</td>
-               <td>Lorem</td>
-           </tr>
-           <tr>
-               <td>Dolor</td>
-               <td class=numerical>47.797</td>
-               <td>Lorem</td>
-           </tr>
-           <tr>
-               <th rowspan=2>Sit</th>
-               <td>Dolor</td>
-               <td class=numerical>09.640</td>
-               <td>Lorem</td>
-           </tr>
-           <tr>
-               <td>Dolor</td>
-               <td class=numerical>12.117</td>
-               <td>Lorem</td>
-           </tr>
-       </tbody>
-   </table>
- *
- */
-table {
-  width: 100%;
-}
-
-th,
-td {
-  padding: 7.5px;
-  text-align: left;
-}
-@media screen and (min-width: 480px) {
-  th,
-  td {
-    padding: 15px;
-  }
-}
-
-/**
- * Cell alignments
- */
-[colspan] {
-  text-align: center;
-}
-
-[colspan="1"] {
-  text-align: left;
-}
-
-[rowspan] {
-  vertical-align: middle;
-}
-
-[rowspan="1"] {
-  vertical-align: top;
-}
-
-.numerical {
-  text-align: right;
-}
-
-/**
- * In the HTML above we see several `col` elements with classes whose numbers
- * represent a percentage width for that column. We leave one column free of a
- * class so that column can soak up the effects of any accidental breakage in
- * the table.
- */
-.t5 {
-  width: 5%;
-}
-
-.t10 {
-  width: 10%;
-}
-
-.t12 {
-  width: 12.5%;
-}
-
-/* 1/8 */
-.t15 {
-  width: 15%;
-}
-
-.t20 {
-  width: 20%;
-}
-
-.t25 {
-  width: 25%;
-}
-
-/* 1/4 */
-.t30 {
-  width: 30%;
-}
-
-.t33 {
-  width: 33.333%;
-}
-
-/* 1/3 */
-.t35 {
-  width: 35%;
-}
-
-.t37 {
-  width: 37.5%;
-}
-
-/* 3/8 */
-.t40 {
-  width: 40%;
-}
-
-.t45 {
-  width: 45%;
-}
-
-.t50 {
-  width: 50%;
-}
-
-/* 1/2 */
-.t55 {
-  width: 55%;
-}
-
-.t60 {
-  width: 60%;
-}
-
-.t62 {
-  width: 62.5%;
-}
-
-/* 5/8 */
-.t65 {
-  width: 65%;
-}
-
-.t66 {
-  width: 66.666%;
-}
-
-/* 2/3 */
-.t70 {
-  width: 70%;
-}
-
-.t75 {
-  width: 75%;
-}
-
-/* 3/4*/
-.t80 {
-  width: 80%;
-}
-
-.t85 {
-  width: 85%;
-}
-
-.t87 {
-  width: 87.5%;
-}
-
-/* 7/8 */
-.t90 {
-  width: 90%;
-}
-
-.t95 {
-  width: 95%;
-}
-
-/**
- * Bordered tables
- */
-.table--bordered th,
-.table--bordered td {
-  border: 1px solid #444444;
-}
-.table--bordered th:empty,
-.table--bordered td:empty {
-  border: none;
-}
-.table--bordered thead tr:last-child th {
-  border-bottom-width: 2px;
-}
-.table--bordered tbody tr th:last-of-type {
-  border-right-width: 2px;
-}
-
-/**
- * Striped tables
- */
-.table--striped tbody tr:nth-of-type(odd) {
-  background-color: #ffc;
-  /* Override this color in your theme stylesheet */
-}
-
-/**
- * Data table
- */
-.table--data {
-  font: 12px/1.5 sans-serif;
-}
-
-/*------------------------------------*\
-    $FORMS
-\*------------------------------------*/
-/**
- *
- * Demo: jsfiddle.net/inuitcss/MhHHU
- *
- */
-fieldset {
-  padding: 30px;
-}
-
-/**
- * Text inputs
- *
- * Instead of a `[type]` selector for each kind of form input, we just use a
- * class to target any/every one, e.g.:
-   <input type=text class=text-input>
-   <input type=email class=text-input>
-   <input type=password class=text-input>
- *
- */
-.text-input,
-textarea {
-  /**
-   * Style these via your theme stylesheet.
-   */
-}
-
-/**
- * Group sets of form fields in a list, e.g.:
- *
-   <ul class=form-fields>
-       <li>
-           <label />
-           <input />
-       </li>
-       <li>
-           <label />
-           <select />
-       </li>
-       <li>
-           <label />
-           <input />
-       </li>
-   </ul>
- *
- */
-.form-fields {
-  list-style: none;
-  margin: 0;
-}
-
-.form-fields > li:last-child {
-  margin-bottom: 0;
-}
-
-/**
- * Labels
- *
- * Define a `.label` class as well as a `label` element. This means we can apply
- * label-like styling to meta-labels for groups of options where a `label`
- * element is not suitable, e.g.:
- *
-   <li>
-       <span class=label>Select an option below:</span>
-       <ul class="multi-list  four-cols">
-           <li>
-               <input /> <label />
-           </li>
-           <li>
-               <input /> <label />
-           </li>
-           <li>
-               <input /> <label />
-           </li>
-           <li>
-               <input /> <label />
-           </li>
-       </ul>
-   </li>
- *
- */
-label,
-.label {
-  display: block;
-}
-
-/**
- * Extra help text in `label`s, e.g.:
- *
-   <label>Card number <small class=additional>No spaces</small></label>
- *
- */
-.additional {
-  display: block;
-  font-weight: normal;
-}
-
-/*
- * Groups of checkboxes and radios, e.g.:
- *
-   <li>
-       <ul class=check-list>
-           <li>
-               <input /> <label />
-           </li>
-           <li>
-               <input /> <label />
-           </li>
-       </ul>
-   </li>
- *
- */
-.check-list {
-  list-style: none;
-  margin: 0;
-}
-
-/*
- * Labels in check-lists
- */
-.check-label,
-.check-list label,
-.check-list .label {
-  display: inline-block;
-}
-
-/**
- * Spoken forms are for forms that read like spoken word, e.g.:
- *
-   <li class=spoken-form>
-       Hello, my <label for=spoken-name>name</label> is
-       <input type=text class=text-input id=spoken-name>. My home
-       <label for=country>country</label> is
-       <select id=country>
-           <option>UK</option>
-           <option>US</option>
-           <option>Other</option>
-       </select>
-   </li>
- *
- */
-.spoken-form label {
-  display: inline-block;
-  font: inherit;
-}
-
-/**
- * Extra help text displayed after a field when that field is in focus, e.g.:
- *
-   <label for=email>Email:</label>
-   <input type=email class=text-input id=email>
-   <small class=extra-help>.edu emails only</small>
- *
- * We leave the help text in the document flow and merely set it to
- * `visibility:hidden;`. This means that it won’t interfere with anything once
- * it reappears.
- *
- */
-/*small*/
-.extra-help {
-  display: inline-block;
-  visibility: hidden;
-}
-
-.text-input:active + .extra-help,
-.text-input:focus + .extra-help {
-  visibility: visible;
-}
-
-/**
- * Objects and abstractions
- */
-/*------------------------------------*\
-    $BLOCK-LIST
-\*------------------------------------*/
-/**
- * Create big blocky lists of content, e.g.:
- *
-   <ul class=block-list>
-      <li>Foo</li>
-      <li>Bar</li>
-      <li>Baz</li>
-      <li><a href=# class=block-list__link>Foo Bar Baz</a></li>
-   </ul>
- *
- * Extend this object in your theme stylesheet.
- *
- * Demo: jsfiddle.net/inuitcss/hR57q
- *
- */
-.block-list, .post-list,
-.block-list > li,
-.post-list > li {
-  border: 0 solid #444444;
-}
-
-.block-list, .post-list {
-  list-style: none;
-  margin-left: 0;
-  border-top-width: 1px;
-}
-.block-list > li, .post-list > li {
-  border-bottom-width: 1px;
-  padding: 15px;
-}
-
-.block-list__link {
-  display: block;
-  padding: 15px;
-  margin: -15px;
-}
-
-/**
- * Style trumps; helper and brand classes
- */
-/*------------------------------------*\
-    $WIDTHS
-\*------------------------------------*/
-/**
- * Sizes in human readable format. These are used in conjunction with other
- * objects and abstractions found in inuit.css, most commonly the grid system
- * and faux flexbox.
- *
- * We have a mixin to generate our widths and their breakpoint-specific
- * variations.
- */
-/**
-* Whole
-*/
-.one-whole {
-  width: 100%;
-}
-
-/**
-* Halves
-*/
-.one-half, .two-quarters, .three-sixths, .four-eighths, .five-tenths, .six-twelfths {
-  width: 50%;
-}
-
-/**
-* Thirds
-*/
-.one-third, .two-sixths, .four-twelfths {
-  width: 33.333%;
-}
-
-.two-thirds, .four-sixths, .eight-twelfths {
-  width: 66.666%;
-}
-
-/**
-* Quarters
-*/
-.one-quarter, .two-eighths, .three-twelfths {
-  width: 25%;
-}
-
-.three-quarters, .six-eighths, .nine-twelfths {
-  width: 75%;
-}
-
-/**
-* Fifths
-*/
-.one-fifth, .two-tenths {
-  width: 20%;
-}
-
-.two-fifths, .four-tenths {
-  width: 40%;
-}
-
-.three-fifths, .six-tenths {
-  width: 60%;
-}
-
-.four-fifths, .eight-tenths {
-  width: 80%;
-}
-
-/**
-* Sixths
-*/
-.one-sixth, .two-twelfths {
-  width: 16.666%;
-}
-
-.five-sixths, .ten-twelfths {
-  width: 83.333%;
-}
-
-/**
-* Eighths
-*/
-.one-eighth {
-  width: 12.5%;
-}
-
-.three-eighths {
-  width: 37.5%;
-}
-
-.five-eighths {
-  width: 62.5%;
-}
-
-.seven-eighths {
-  width: 87.5%;
-}
-
-/**
-* Tenths
-*/
-.one-tenth {
-  width: 10%;
-}
-
-.three-tenths {
-  width: 30%;
-}
-
-.seven-tenths {
-  width: 70%;
-}
-
-.nine-tenths {
-  width: 90%;
-}
-
-/**
-* Twelfths
-*/
-.one-twelfth {
-  width: 8.333%;
-}
-
-.five-twelfths {
-  width: 41.666%;
-}
-
-.seven-twelfths {
-  width: 58.333%;
-}
-
-.eleven-twelfths {
-  width: 91.666%;
-}
-
-/**
- * If you have set `$responsive` to ‘true’ in `_vars.scss` then you now have
- * access to these classes. You can define at which breakpoint you’d like an
- * element to be a certain size, e.g.:
- *
- * `<div class="g  one-quarter  lap-one-half  palm-one-whole"> ... </div>`
- *
- * This would create a `div` that, at ‘desktop’ sizes, takes up a quarter of the
- * horizontal space, a half of that space at ‘tablet’ sizes, and goes full width
- * at ‘mobile’ sizes.
- *
- * Demo: jsfiddle.net/inuitcss/WS4Ge
- *
- */
-@media only screen and (max-width: 480px) {
-  /**
-  * Whole
-  */
-  .palm-one-whole {
-    width: 100%;
-  }
-
-  /**
-  * Halves
-  */
-  .palm-one-half, .palm-two-quarters, .palm-three-sixths, .palm-four-eighths, .palm-five-tenths, .palm-six-twelfths {
-    width: 50%;
-  }
-
-  /**
-  * Thirds
-  */
-  .palm-one-third, .palm-two-sixths, .palm-four-twelfths {
-    width: 33.333%;
-  }
-
-  .palm-two-thirds, .palm-four-sixths, .palm-eight-twelfths {
-    width: 66.666%;
-  }
-
-  /**
-  * Quarters
-  */
-  .palm-one-quarter, .palm-two-eighths, .palm-three-twelfths {
-    width: 25%;
-  }
-
-  .palm-three-quarters, .palm-six-eighths, .palm-nine-twelfths {
-    width: 75%;
-  }
-
-  /**
-  * Fifths
-  */
-  .palm-one-fifth, .palm-two-tenths {
-    width: 20%;
-  }
-
-  .palm-two-fifths, .palm-four-tenths {
-    width: 40%;
-  }
-
-  .palm-three-fifths, .palm-six-tenths {
-    width: 60%;
-  }
-
-  .palm-four-fifths, .palm-eight-tenths {
-    width: 80%;
-  }
-
-  /**
-  * Sixths
-  */
-  .palm-one-sixth, .palm-two-twelfths {
-    width: 16.666%;
-  }
-
-  .palm-five-sixths, .palm-ten-twelfths {
-    width: 83.333%;
-  }
-
-  /**
-  * Eighths
-  */
-  .palm-one-eighth {
-    width: 12.5%;
-  }
-
-  .palm-three-eighths {
-    width: 37.5%;
-  }
-
-  .palm-five-eighths {
-    width: 62.5%;
-  }
-
-  .palm-seven-eighths {
-    width: 87.5%;
-  }
-
-  /**
-  * Tenths
-  */
-  .palm-one-tenth {
-    width: 10%;
-  }
-
-  .palm-three-tenths {
-    width: 30%;
-  }
-
-  .palm-seven-tenths {
-    width: 70%;
-  }
-
-  .palm-nine-tenths {
-    width: 90%;
-  }
-
-  /**
-  * Twelfths
-  */
-  .palm-one-twelfth {
-    width: 8.333%;
-  }
-
-  .palm-five-twelfths {
-    width: 41.666%;
-  }
-
-  .palm-seven-twelfths {
-    width: 58.333%;
-  }
-
-  .palm-eleven-twelfths {
-    width: 91.666%;
-  }
-}
-@media only screen and (min-width: 481px) and (max-width: 1023px) {
-  /**
-  * Whole
-  */
-  .lap-one-whole {
-    width: 100%;
-  }
-
-  /**
-  * Halves
-  */
-  .lap-one-half, .lap-two-quarters, .lap-three-sixths, .lap-four-eighths, .lap-five-tenths, .lap-six-twelfths {
-    width: 50%;
-  }
-
-  /**
-  * Thirds
-  */
-  .lap-one-third, .lap-two-sixths, .lap-four-twelfths {
-    width: 33.333%;
-  }
-
-  .lap-two-thirds, .lap-four-sixths, .lap-eight-twelfths {
-    width: 66.666%;
-  }
-
-  /**
-  * Quarters
-  */
-  .lap-one-quarter, .lap-two-eighths, .lap-three-twelfths {
-    width: 25%;
-  }
-
-  .lap-three-quarters, .lap-six-eighths, .lap-nine-twelfths {
-    width: 75%;
-  }
-
-  /**
-  * Fifths
-  */
-  .lap-one-fifth, .lap-two-tenths {
-    width: 20%;
-  }
-
-  .lap-two-fifths, .lap-four-tenths {
-    width: 40%;
-  }
-
-  .lap-three-fifths, .lap-six-tenths {
-    width: 60%;
-  }
-
-  .lap-four-fifths, .lap-eight-tenths {
-    width: 80%;
-  }
-
-  /**
-  * Sixths
-  */
-  .lap-one-sixth, .lap-two-twelfths {
-    width: 16.666%;
-  }
-
-  .lap-five-sixths, .lap-ten-twelfths {
-    width: 83.333%;
-  }
-
-  /**
-  * Eighths
-  */
-  .lap-one-eighth {
-    width: 12.5%;
-  }
-
-  .lap-three-eighths {
-    width: 37.5%;
-  }
-
-  .lap-five-eighths {
-    width: 62.5%;
-  }
-
-  .lap-seven-eighths {
-    width: 87.5%;
-  }
-
-  /**
-  * Tenths
-  */
-  .lap-one-tenth {
-    width: 10%;
-  }
-
-  .lap-three-tenths {
-    width: 30%;
-  }
-
-  .lap-seven-tenths {
-    width: 70%;
-  }
-
-  .lap-nine-tenths {
-    width: 90%;
-  }
-
-  /**
-  * Twelfths
-  */
-  .lap-one-twelfth {
-    width: 8.333%;
-  }
-
-  .lap-five-twelfths {
-    width: 41.666%;
-  }
-
-  .lap-seven-twelfths {
-    width: 58.333%;
-  }
-
-  .lap-eleven-twelfths {
-    width: 91.666%;
-  }
-}
-@media only screen and (min-width: 481px) {
-  /**
-  * Whole
-  */
-  .lap-and-up-one-whole {
-    width: 100%;
-  }
-
-  /**
-  * Halves
-  */
-  .lap-and-up-one-half, .lap-and-up-two-quarters, .lap-and-up-three-sixths, .lap-and-up-four-eighths, .lap-and-up-five-tenths, .lap-and-up-six-twelfths {
-    width: 50%;
-  }
-
-  /**
-  * Thirds
-  */
-  .lap-and-up-one-third, .lap-and-up-two-sixths, .lap-and-up-four-twelfths {
-    width: 33.333%;
-  }
-
-  .lap-and-up-two-thirds, .lap-and-up-four-sixths, .lap-and-up-eight-twelfths {
-    width: 66.666%;
-  }
-
-  /**
-  * Quarters
-  */
-  .lap-and-up-one-quarter, .lap-and-up-two-eighths, .lap-and-up-three-twelfths {
-    width: 25%;
-  }
-
-  .lap-and-up-three-quarters, .lap-and-up-six-eighths, .lap-and-up-nine-twelfths {
-    width: 75%;
-  }
-
-  /**
-  * Fifths
-  */
-  .lap-and-up-one-fifth, .lap-and-up-two-tenths {
-    width: 20%;
-  }
-
-  .lap-and-up-two-fifths, .lap-and-up-four-tenths {
-    width: 40%;
-  }
-
-  .lap-and-up-three-fifths, .lap-and-up-six-tenths {
-    width: 60%;
-  }
-
-  .lap-and-up-four-fifths, .lap-and-up-eight-tenths {
-    width: 80%;
-  }
-
-  /**
-  * Sixths
-  */
-  .lap-and-up-one-sixth, .lap-and-up-two-twelfths {
-    width: 16.666%;
-  }
-
-  .lap-and-up-five-sixths, .lap-and-up-ten-twelfths {
-    width: 83.333%;
-  }
-
-  /**
-  * Eighths
-  */
-  .lap-and-up-one-eighth {
-    width: 12.5%;
-  }
-
-  .lap-and-up-three-eighths {
-    width: 37.5%;
-  }
-
-  .lap-and-up-five-eighths {
-    width: 62.5%;
-  }
-
-  .lap-and-up-seven-eighths {
-    width: 87.5%;
-  }
-
-  /**
-  * Tenths
-  */
-  .lap-and-up-one-tenth {
-    width: 10%;
-  }
-
-  .lap-and-up-three-tenths {
-    width: 30%;
-  }
-
-  .lap-and-up-seven-tenths {
-    width: 70%;
-  }
-
-  .lap-and-up-nine-tenths {
-    width: 90%;
-  }
-
-  /**
-  * Twelfths
-  */
-  .lap-and-up-one-twelfth {
-    width: 8.333%;
-  }
-
-  .lap-and-up-five-twelfths {
-    width: 41.666%;
-  }
-
-  .lap-and-up-seven-twelfths {
-    width: 58.333%;
-  }
-
-  .lap-and-up-eleven-twelfths {
-    width: 91.666%;
-  }
-}
-@media only screen and (max-width: 1023px) {
-  /**
-  * Whole
-  */
-  .portable-one-whole {
-    width: 100%;
-  }
-
-  /**
-  * Halves
-  */
-  .portable-one-half, .portable-two-quarters, .portable-three-sixths, .portable-four-eighths, .portable-five-tenths, .portable-six-twelfths {
-    width: 50%;
-  }
-
-  /**
-  * Thirds
-  */
-  .portable-one-third, .portable-two-sixths, .portable-four-twelfths {
-    width: 33.333%;
-  }
-
-  .portable-two-thirds, .portable-four-sixths, .portable-eight-twelfths {
-    width: 66.666%;
-  }
-
-  /**
-  * Quarters
-  */
-  .portable-one-quarter, .portable-two-eighths, .portable-three-twelfths {
-    width: 25%;
-  }
-
-  .portable-three-quarters, .portable-six-eighths, .portable-nine-twelfths {
-    width: 75%;
-  }
-
-  /**
-  * Fifths
-  */
-  .portable-one-fifth, .portable-two-tenths {
-    width: 20%;
-  }
-
-  .portable-two-fifths, .portable-four-tenths {
-    width: 40%;
-  }
-
-  .portable-three-fifths, .portable-six-tenths {
-    width: 60%;
-  }
-
-  .portable-four-fifths, .portable-eight-tenths {
-    width: 80%;
-  }
-
-  /**
-  * Sixths
-  */
-  .portable-one-sixth, .portable-two-twelfths {
-    width: 16.666%;
-  }
-
-  .portable-five-sixths, .portable-ten-twelfths {
-    width: 83.333%;
-  }
-
-  /**
-  * Eighths
-  */
-  .portable-one-eighth {
-    width: 12.5%;
-  }
-
-  .portable-three-eighths {
-    width: 37.5%;
-  }
-
-  .portable-five-eighths {
-    width: 62.5%;
-  }
-
-  .portable-seven-eighths {
-    width: 87.5%;
-  }
-
-  /**
-  * Tenths
-  */
-  .portable-one-tenth {
-    width: 10%;
-  }
-
-  .portable-three-tenths {
-    width: 30%;
-  }
-
-  .portable-seven-tenths {
-    width: 70%;
-  }
-
-  .portable-nine-tenths {
-    width: 90%;
-  }
-
-  /**
-  * Twelfths
-  */
-  .portable-one-twelfth {
-    width: 8.333%;
-  }
-
-  .portable-five-twelfths {
-    width: 41.666%;
-  }
-
-  .portable-seven-twelfths {
-    width: 58.333%;
-  }
-
-  .portable-eleven-twelfths {
-    width: 91.666%;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  /**
-  * Whole
-  */
-  .desk-one-whole {
-    width: 100%;
-  }
-
-  /**
-  * Halves
-  */
-  .desk-one-half, .desk-two-quarters, .desk-three-sixths, .desk-four-eighths, .desk-five-tenths, .desk-six-twelfths {
-    width: 50%;
-  }
-
-  /**
-  * Thirds
-  */
-  .desk-one-third, .desk-two-sixths, .desk-four-twelfths {
-    width: 33.333%;
-  }
-
-  .desk-two-thirds, .desk-four-sixths, .desk-eight-twelfths {
-    width: 66.666%;
-  }
-
-  /**
-  * Quarters
-  */
-  .desk-one-quarter, .desk-two-eighths, .desk-three-twelfths {
-    width: 25%;
-  }
-
-  .desk-three-quarters, .desk-six-eighths, .desk-nine-twelfths {
-    width: 75%;
-  }
-
-  /**
-  * Fifths
-  */
-  .desk-one-fifth, .desk-two-tenths {
-    width: 20%;
-  }
-
-  .desk-two-fifths, .desk-four-tenths {
-    width: 40%;
-  }
-
-  .desk-three-fifths, .desk-six-tenths {
-    width: 60%;
-  }
-
-  .desk-four-fifths, .desk-eight-tenths {
-    width: 80%;
-  }
-
-  /**
-  * Sixths
-  */
-  .desk-one-sixth, .desk-two-twelfths {
-    width: 16.666%;
-  }
-
-  .desk-five-sixths, .desk-ten-twelfths {
-    width: 83.333%;
-  }
-
-  /**
-  * Eighths
-  */
-  .desk-one-eighth {
-    width: 12.5%;
-  }
-
-  .desk-three-eighths {
-    width: 37.5%;
-  }
-
-  .desk-five-eighths {
-    width: 62.5%;
-  }
-
-  .desk-seven-eighths {
-    width: 87.5%;
-  }
-
-  /**
-  * Tenths
-  */
-  .desk-one-tenth {
-    width: 10%;
-  }
-
-  .desk-three-tenths {
-    width: 30%;
-  }
-
-  .desk-seven-tenths {
-    width: 70%;
-  }
-
-  .desk-nine-tenths {
-    width: 90%;
-  }
-
-  /**
-  * Twelfths
-  */
-  .desk-one-twelfth {
-    width: 8.333%;
-  }
-
-  .desk-five-twelfths {
-    width: 41.666%;
-  }
-
-  .desk-seven-twelfths {
-    width: 58.333%;
-  }
-
-  .desk-eleven-twelfths {
-    width: 91.666%;
-  }
-}
-/**
- * If you have set the additional `$responsive-extra` variable to ‘true’ in
- * `_vars.scss` then you now have access to the following class available to
- * accomodate much larger screen resolutions.
- */
-/* endif */
-/*------------------------------------*\
-    $PUSH
-\*------------------------------------*/
-/**
- * Push classes, to move grid items over to the right by certain amounts.
- */
-/*------------------------------------*\
-    $PULL
-\*------------------------------------*/
-/**
- * Pull classes, to move grid items over to the right by certain amounts.
- */
-/*------------------------------------*\
-    $BRAND
-\*------------------------------------*/
-/**
- * `.brand` is a quick and simple way to apply your brand face and/or color to
- * any element using a handy helper class.
- */
-.brand {
-  font-family: "Helvetica Neue", sans-serif!important;
-  color: #4a8ec2!important;
-}
-
-.brand-face {
-  font-family: "Helvetica Neue", sans-serif!important;
-}
-
-.brand-color,
-.brand-colour {
-  color: #4a8ec2!important;
-}
-
-/*------------------------------------*\
-    $HELPER
-\*------------------------------------*/
-/**
- * A series of helper classes to use arbitrarily. Only use a helper class if an
- * element/component doesn’t already have a class to which you could apply this
- * styling, e.g. if you need to float `.main-nav` left then add `float:left;` to
- * that ruleset as opposed to adding the `.float--left` class to the markup.
- *
- * A lot of these classes carry `!important` as you will always want them to win
- * out over other selectors.
- */
-/**
- * Add/remove floats
- */
-.float--right {
-  float: right !important;
-}
-
-.float--left {
-  float: left !important;
-}
-
-.float--none {
-  float: none !important;
-}
-
-/**
- * Text alignment
- */
-.text--left {
-  text-align: left  !important;
-}
-
-.text--center {
-  text-align: center !important;
-}
-
-.text--right {
-  text-align: right !important;
-}
-
-/**
- * Font weights
- */
-.weight--light {
-  font-weight: 300 !important;
-}
-
-.weight--normal {
-  font-weight: 400 !important;
-}
-
-.weight--semibold {
-  font-weight: 600 !important;
-}
-
-/**
- * Add/remove margins
- */
-.push {
-  margin: 30px !important;
-}
-
-.push--top {
-  margin-top: 30px !important;
-}
-
-.push--right {
-  margin-right: 30px !important;
-}
-
-.push--bottom {
-  margin-bottom: 30px !important;
-}
-
-.push--left {
-  margin-left: 30px !important;
-}
-
-.push--ends {
-  margin-top: 30px !important;
-  margin-bottom: 30px !important;
-}
-
-.push--sides {
-  margin-right: 30px !important;
-  margin-left: 30px !important;
-}
-
-.push-half {
-  margin: 15px !important;
-}
-
-.push-half--top {
-  margin-top: 15px !important;
-}
-
-.push-half--right {
-  margin-right: 15px !important;
-}
-
-.push-half--bottom {
-  margin-bottom: 15px !important;
-}
-
-.push-half--left {
-  margin-left: 15px !important;
-}
-
-.push-half--ends {
-  margin-top: 15px !important;
-  margin-bottom: 15px !important;
-}
-
-.push-half--sides {
-  margin-right: 15px !important;
-  margin-left: 15px !important;
-}
-
-.flush {
-  margin: 0 !important;
-}
-
-.flush--top {
-  margin-top: 0 !important;
-}
-
-.flush--right {
-  margin-right: 0 !important;
-}
-
-.flush--bottom {
-  margin-bottom: 0 !important;
-}
-
-.flush--left {
-  margin-left: 0 !important;
-}
-
-.flush--ends {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-}
-
-.flush--sides {
-  margin-right: 0 !important;
-  margin-left: 0 !important;
-}
-
-/**
- * Add/remove paddings
- */
-.soft {
-  padding: 30px !important;
-}
-
-.soft--top {
-  padding-top: 30px !important;
-}
-
-.soft--right {
-  padding-right: 30px !important;
-}
-
-.soft--bottom {
-  padding-bottom: 30px !important;
-}
-
-.soft--left {
-  padding-left: 30px !important;
-}
-
-.soft--ends {
-  padding-top: 30px !important;
-  padding-bottom: 30px !important;
-}
-
-.soft--sides {
-  padding-right: 30px !important;
-  padding-left: 30px !important;
-}
-
-.soft-half {
-  padding: 15px !important;
-}
-
-.soft-half--top {
-  padding-top: 15px !important;
-}
-
-.soft-half--right {
-  padding-right: 15px !important;
-}
-
-.soft-half--bottom {
-  padding-bottom: 15px !important;
-}
-
-.soft-half--left {
-  padding-left: 15px !important;
-}
-
-.soft-half--ends {
-  padding-top: 15px !important;
-  padding-bottom: 15px !important;
-}
-
-.soft-half--sides {
-  padding-right: 15px !important;
-  padding-left: 15px !important;
-}
-
-.hard {
-  padding: 0 !important;
-}
-
-.hard--top {
-  padding-top: 0 !important;
-}
-
-.hard--right {
-  padding-right: 0 !important;
-}
-
-.hard--bottom {
-  padding-bottom: 0 !important;
-}
-
-.hard--left {
-  padding-left: 0 !important;
-}
-
-.hard--ends {
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-}
-
-.hard--sides {
-  padding-right: 0 !important;
-  padding-left: 0 !important;
-}
-
-/**
- * Pull items full width of `.island` parents.
- */
-.full-bleed {
-  margin-right: -30px !important;
-  margin-left: -30px !important;
-}
-.islet .full-bleed {
-  margin-right: -15px !important;
-  margin-left: -15px !important;
-}
-
-/**
- * Add a help cursor to any element that gives the user extra information on
- * `:hover`.
- */
-.informative {
-  cursor: help !important;
-}
-
-/**
- * Mute an object by reducing its opacity.
- */
-.muted {
-  opacity: 0.5 !important;
-  filter: alpha(opacity=50) !important;
-}
-
-/**
- * Align items to the right where they imply progression/movement forward, e.g.:
- *
-   <p class=proceed><a href=#>Read more...</a></p>
- *
- */
-.proceed {
-  text-align: right !important;
-}
-
-/**
- * Add a right-angled quote to links that imply movement, e.g.:
- *
-   <a href=# class=go>Read more</a>
- *
- */
-.go:after {
-  content: "\00A0" "\00BB" !important;
-}
-
-/**
- * Apply capital case to an element (usually a `strong`).
- */
-.caps {
-  text-transform: uppercase !important;
-}
-
-/**
- * Hide content off-screen without resorting to `display:none;`, also provide
- * breakpoint specific hidden elements.
- */
-.accessibility,
-.visuallyhidden {
-  border: 0 !important;
-  clip: rect(0 0 0 0) !important;
-  height: 1px !important;
-  margin: -1px !important;
-  overflow: hidden !important;
-  padding: 0 !important;
-  position: absolute !important;
-  width: 1px !important;
-}
-
-@media only screen and (max-width: 480px) {
-  .accessibility--palm,
-  .visuallyhidden--palm {
-    border: 0 !important;
-    clip: rect(0 0 0 0) !important;
-    height: 1px !important;
-    margin: -1px !important;
-    overflow: hidden !important;
-    padding: 0 !important;
-    position: absolute !important;
-    width: 1px !important;
-  }
-}
-@media only screen and (min-width: 481px) and (max-width: 1023px) {
-  .accessibility--lap,
-  .visuallyhidden--lap {
-    border: 0 !important;
-    clip: rect(0 0 0 0) !important;
-    height: 1px !important;
-    margin: -1px !important;
-    overflow: hidden !important;
-    padding: 0 !important;
-    position: absolute !important;
-    width: 1px !important;
-  }
-}
-@media only screen and (min-width: 481px) {
-  .accessibility--lap-and-up,
-  .visuallyhidden--lap-and-up {
-    border: 0 !important;
-    clip: rect(0 0 0 0) !important;
-    height: 1px !important;
-    margin: -1px !important;
-    overflow: hidden !important;
-    padding: 0 !important;
-    position: absolute !important;
-    width: 1px !important;
-  }
-}
-@media only screen and (max-width: 1023px) {
-  .accessibility--portable,
-  .visuallyhidden--portable {
-    border: 0 !important;
-    clip: rect(0 0 0 0) !important;
-    height: 1px !important;
-    margin: -1px !important;
-    overflow: hidden !important;
-    padding: 0 !important;
-    position: absolute !important;
-    width: 1px !important;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .accessibility--desk,
-  .visuallyhidden--desk {
-    border: 0 !important;
-    clip: rect(0 0 0 0) !important;
-    height: 1px !important;
-    margin: -1px !important;
-    overflow: hidden !important;
-    padding: 0 !important;
-    position: absolute !important;
-    width: 1px !important;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .accessibility--desk-wide,
-  .visuallyhidden--desk-wide {
-    border: 0 !important;
-    clip: rect(0 0 0 0) !important;
-    height: 1px !important;
-    margin: -1px !important;
-    overflow: hidden !important;
-    padding: 0 !important;
-    position: absolute !important;
-    width: 1px !important;
-  }
-}
-/* endif */
-/**
- * She’s all yours, cap’n... Begin importing your stuff here.
- */
-/**
- * Sticky footer
- *
-body {
-
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display:         flex;
-
-
-    -webkit-box-orient: vertical;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-
-    min-height: 100vh;
-}
-
-main {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    -webkit-flex: 1;
-
-    -ms-flex-preferred-size: auto;
-}*/
-/**
- * Wrapper
- */
-.wrapper {
-  max-width: 680px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-@media only screen and (min-width: 481px) {
-  .wrapper {
-    padding-right: 30px;
-    padding-left: 30px;
-  }
-}
-
-/**
- * Vertical Rhythm/Gaps
- */
-.page-content {
-  margin-top: 60px;
-  margin-top: 3rem;
-}
-@media only screen and (min-width: 481px) {
-  .page-content {
-    margin-top: 120px;
-    margin-top: 6rem;
-  }
-}
-
-.page-content, .post-list {
-  margin-bottom: 60px;
-  margin-bottom: 3rem;
-}
-@media only screen and (min-width: 481px) {
-  .page-content, .post-list {
-    margin-bottom: 120px;
-    margin-bottom: 6rem;
-  }
-}
-
-html {
-  font-family: Ubuntu, sans-serif;
-  font-weight: 300;
-  color: #444444;
-  background-color: #efefef;
-}
-
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 300;
-}
-
-dt {
-  font-weight: 500;
-}
-
-/**
- * Lists
- */
-@media only screen and (max-width: 480px) {
-  ul, ol, dd {
-    margin-left: 30px;
-    margin-left: 1.5rem;
-  }
-}
-/**
- * Base styles
- */
-img {
-  vertical-align: middle;
-}
-
-/**
  * Figures
  */
 figure > img {
   display: block;
+}
+
+figcaption {
+  font-size: 16px;
+  font-size: 0.8rem;
+  line-height: 1.875;
+}
+figcaption > a {
+  font-weight: 300;
 }
 
 /**
@@ -3060,27 +501,85 @@ figure > img {
  */
 hr {
   border: 0;
-  border-bottom: 8px solid #e2e2e2;
+  border-bottom: 8px solid #aaaaaa;
   margin-bottom: 22px;
   margin-bottom: 1.1rem;
+}
+
+html {
+  font: 300 1.25em/1.5 Ubuntu, sans-serif;
+  color: #444444;
+  background-color: white;
+  overflow-y: scroll;
+  min-height: 100%;
+}
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+  color: #5e85d6;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 36px;
+  font-size: 1.8rem;
+  line-height: 1.66667;
+}
+
+h2 {
+  font-size: 32px;
+  font-size: 1.6rem;
+  line-height: 1.875;
+}
+
+h3 {
+  font-size: 28px;
+  font-size: 1.4rem;
+  line-height: 1.07143;
+}
+
+h4 {
+  font-size: 24px;
+  font-size: 1.2rem;
+  line-height: 1.25;
+}
+
+h5 {
+  font-size: 20px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+h6 {
+  font-size: 16px;
+  font-size: 0.8rem;
+  line-height: 1.875;
+}
+
+/**
+ * Lists
+ */
+li > ul,
+li > ol {
+  margin-bottom: 0;
+}
+
+dt {
+  font-weight: 500;
 }
 
 /**
  * Quotations
  */
 blockquote {
-  text-indent: 0;
-  border-left: 8px solid #e2e2e2;
-  margin-left: 15px;
-  padding-left: 15px;
+  border-left: 4px solid #5e85d6;
+  margin-left: -15px;
+  padding-left: 11px;
   font-style: italic;
 }
-blockquote p:before,
-blockquote p:after,
-blockquote p:last-of-type {
-  content: "";
-}
-blockquote p:last-of-type {
+blockquote > :last-child {
   margin-bottom: 0;
 }
 
@@ -3091,7 +590,7 @@ blockquote p:last-of-type {
 /**
  * Inline elements
  */
-strong, a {
+strong {
   font-weight: 500;
 }
 
@@ -3103,84 +602,40 @@ q {
  * Links
  */
 a {
-  color: #444444;
+  color: #5e85d6;
+  font-weight: 300;
   text-decoration: none;
+}
+a:hover, a:focus, a:active {
+  color: #1f3d7c;
 }
 
 /**
  * Code
  */
 pre, code, kbd, samp {
-  font-family: Inconsolata, Monaco, Consolas, "Courier New", Courier, monospace;
+  font-family: Consolas, "Courier New", Courier, monospace;
+}
+
+code {
+  white-space: nowrap;
 }
 
 pre {
+  overflow: auto;
   white-space: pre;
   word-wrap: normal;
-  color: white;
+  color: #fff;
   background-color: #444444;
   padding: 7.5px 15px;
   border-radius: 3px;
 }
-
-pre code, pre kbd, pre samp {
-  color: white;
+pre > code {
   font-size: 16px;
   font-size: 0.8rem;
   line-height: 1.875;
-}
-
-.page-head {
-  padding-left: 15px;
-  background-color: #2b2b2b;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
-}
-@media only screen and (min-width: 481px) {
-  .page-head {
-    padding-left: 90px;
-  }
-}
-.page-head .page-title {
-  margin-bottom: 0;
-  font-size: 32px;
-  font-size: 1.6rem;
-  line-height: 1.875;
-  color: white;
-}
-
-.page--blog .page-head {
-  background-color: #6fbf00;
-}
-
-.page--portfolio .page-head {
-  background-color: #ec5e27;
-}
-
-.page--profile .page-head {
-  background-color: #6d91da;
-}
-
-.page-content a:hover {
-  border-bottom: 0.125em solid;
-}
-
-.post__time {
-  color: #aaaaaa;
-}
-
-.page--blog a,
-.page--blog h1, .page--blog h2, .page--blog h3, .page--blog h4, .page--blog h5, .page--blog h6 {
-  color: #5a9b00;
-}
-
-.page--portfolio a,
-.page--portfolio h1, .page--portfolio h2, .page--portfolio h3, .page--portfolio h4, .page--portfolio h5, .page--portfolio h6 {
-  color: #dd4b13;
-}
-
-.page--profile a,
-.page--profile h1, .page--profile h2, .page--profile h3, .page--profile h4, .page--profile h5, .page--profile h6 {
-  color: #507bd3;
+  color: #fff;
+  white-space: pre;
 }
 
 .pagination {
@@ -3192,137 +647,236 @@ pre code, pre kbd, pre samp {
   padding: 15px;
   display: inline-block;
 }
-.pagination > li > a:hover {
-  border: 0;
-}
 
-.post-list,
-.post-list > li {
-  border: 0;
-}
-.post-list > li {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.post-list__time,
-.post-list__title {
-  font-weight: 300;
-}
-
-.post-list__time {
+.island {
   display: block;
-  color: #aaaaaa;
+  padding: 15px;
+  color: #fff;
+  background-color: #5e85d6;
+  text-align: center;
+  font-weight: 500;
 }
-
-.post p:last-child {
+.island:hover, .island:focus, .island:active {
+  color: #fff;
+  background-color: #1f3d7c;
+}
+.island > :last-child {
   margin-bottom: 0;
 }
 
-.site-head {
-  background-color: #444444;
+/*------------------------------------*\
+    $FUNCTIONAL LAYER
+\*------------------------------------*/
+/**
+ * 1. Always hide actual `input` element
+ */
+#toggle-nav {
+  display: none;
+  /* [1] */
 }
-.site-head .lang-nav {
+
+/**
+ * 1. Avoid selection while rapidly toggling the navigation
+ * 2. Change cursor to pointer to indicate action
+ * 3. Hide toggle trigger on big screens
+ */
+[for="toggle-nav"] {
+  -webkit-user-select: none;
+  /* [1] */
+  -moz-user-select: none;
+  /* [1] */
+  -ms-user-select: none;
+  /* [1] */
+  user-select: none;
+  /* [1] */
+  cursor: pointer;
+  /* [2] */
+}
+@media only screen and (min-width: 1024px) {
+  [for="toggle-nav"] {
+    display: none;
+    /* [3] */
+  }
+}
+
+/**
+ * 1. Hide navigation
+ * 2. Show navigation when input is checked
+ * 3. Show navigation on big screens
+ */
+.site-nav {
+  display: none;
+  /* [1] */
+}
+#toggle-nav:checked ~ .site-nav {
   display: block;
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  padding-right: 15px;
-  padding-left: 15px;
-  color: white;
-  background-color: #2b2b2b;
-  text-align: center;
-  font-weight: 300;
+  /* [2] */
 }
-@media only screen and (max-width: 480px) {
-  .site-head .lang-nav {
-    position: static;
-    width: auto;
+@media only screen and (min-width: 1024px) {
+  .site-nav {
+    display: block;
+    /* [3] */
+  }
+}
+
+/*------------------------------------*\
+    $VISUAL LAYER
+\*------------------------------------*/
+.toggle-nav__label {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.nav-icon {
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+.nav-icon__bar {
+  fill: #5e85d6;
+  -webkit-transform: translate(0) rotate(0);
+  transform: translate(0) rotate(0);
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+}
+
+.toggle-nav__input:checked ~ .toggle-nav__label .nav-icon__bar--top {
+  -webkit-transform: translate(6px, 2px) rotate(45deg);
+  transform: translate(6px, 2px) rotate(45deg);
+}
+.toggle-nav__input:checked ~ .toggle-nav__label .nav-icon__bar--mid {
+  display: none;
+}
+.toggle-nav__input:checked ~ .toggle-nav__label .nav-icon__bar--bot {
+  -webkit-transform: translate(-15px, 6px) rotate(-45deg);
+  transform: translate(-15px, 6px) rotate(-45deg);
+}
+
+.page-content {
+  margin-top: 120px;
+  margin-top: 6rem;
+  margin-bottom: 120px;
+  margin-bottom: 6rem;
+}
+.page-content ul, .page-content ol {
+  list-style-position: outside;
+}
+
+.post-list {
+  list-style: none;
+  margin-bottom: 120px;
+  margin-bottom: 6rem;
+}
+.post-list > li {
+  margin-bottom: 120px;
+  margin-bottom: 6rem;
+}
+.post-list > li > :last-child {
+  margin-bottom: 0;
+}
+
+.meta-list {
+  list-style: none;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+.meta-list > li {
+  display: inline-block;
+  font-size: 16px;
+  font-size: 0.8rem;
+  line-height: 1.875;
+}
+.meta-list > li + li:before {
+  /* content: space middot space */
+  content: "\0020 \00B7 \0020";
+}
+
+.archive-list .current-post a {
+  color: #aaa;
+}
+
+.site-head {
+  border-top: 8px solid #5e85d6;
+  margin-bottom: 120px;
+  margin-bottom: 6rem;
+}
+
+.site-title {
+  display: none;
+}
+@media only screen and (min-width: 1024px) {
+  .site-title {
+    color: #444444;
+    line-height: 64px;
+    margin-bottom: 0;
+    margin-left: 15px;
+    float: left;
+    display: block;
+  }
+  .site-title > span {
+    font-weight: 500;
   }
 }
 
 .site-logo {
-  display: inline-block;
-  padding: 15px;
+  position: relative;
+  display: block;
+  float: left;
+  margin-top: 15px;
+  margin-left: 30px;
 }
+.site-logo > svg {
+  width: 64px;
+  height: 64px;
+  float: left;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+}
+.site-logo:hover > svg {
+  -webkit-transform: translateY(-30px);
+  transform: translateY(-30px);
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+}
+
+.site-logo__icon {
+  fill: #5e85d6;
+}
+
 @media only screen and (min-width: 481px) {
   .site-logo {
-    padding: 15px 60px;
+    margin-left: 90px;
   }
 }
-.site-logo > img {
-  width: 256px;
-  height: 64px;
-  background-image: url(/img/kleinfreund.png);
-  /* Fallback for <IE9 */
-  background-image: url(/img/kleinfreund.svg), none;
-  /* Using multiple backgrounds to make <IE9 ignore this declaration */
-}
-
 .site-nav {
-  list-style: none;
-  margin-bottom: 0;
-  margin-left: 0;
-  line-height: 1;
-  padding-right: 120px;
-  border-bottom: 8px solid #2b2b2b;
+  position: absolute;
+  top: 60px;
+  right: 30px;
   text-align: right;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 1024px) {
   .site-nav {
-    padding-right: 0;
-  }
-}
-.site-nav > li,
-.site-nav > li > a {
-  display: inline-block;
-}
-.site-nav > li > a {
-  margin-left: 15px;
-  padding: 15px 30px;
-  color: white;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
-}
-@media only screen and (max-width: 480px) {
-  .site-nav > li > a {
-    display: block;
-    margin-left: 0;
-    padding-right: 15px;
-    padding-left: 15px;
+    position: static;
+    float: right;
+    line-height: 1;
+    margin-right: 90px;
   }
 }
 
-.page--blog .site-nav {
-  border-color: #5a9b00;
+.site-nav__item {
+  display: block;
+  padding-top: 10px;
+  font-weight: 500;
 }
-
-.page--portfolio .site-nav {
-  border-color: #dd4b13;
-}
-
-.page--profile .site-nav {
-  border-color: #507bd3;
-}
-
-.site-nav__item--blog {
-  background-color: #5a9b00;
-}
-.page:not(.page--blog) .site-nav__item--blog:hover {
-  background-color: #6fbf00;
-}
-
-.site-nav__item--portfolio {
-  background-color: #dd4b13;
-}
-.page:not(.page--portfolio) .site-nav__item--portfolio:hover {
-  background-color: #ec5e27;
-}
-
-.site-nav__item--profile {
-  background-color: #507bd3;
-}
-.page:not(.page--profile) .site-nav__item--profile:hover {
-  background-color: #6d91da;
+@media only screen and (min-width: 1024px) {
+  .site-nav__item {
+    float: left;
+    padding: 15px 30px;
+  }
+  .site-nav__item + .site-nav__item {
+    margin-left: 15px;
+  }
 }
 
 .site-foot {
@@ -3334,10 +888,9 @@ pre code, pre kbd, pre samp {
 }
 .site-foot,
 .site-foot a {
-  color: white;
+  color: #fff;
 }
 .site-foot a {
-  font-weight: 300;
   text-decoration: underline;
 }
 .site-foot p:last-of-type {

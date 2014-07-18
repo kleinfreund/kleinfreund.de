@@ -1,0 +1,134 @@
+html {
+    font: 300 #{($base-font-size/16px)*1em}/#{$line-height-ratio} $base-font-family;
+    color: $text-color;
+    background-color: $background-color;
+    overflow-y: scroll;
+    min-height: 100%;
+}
+
+
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+    color: $base-ui-color;
+    font-weight: 300;
+}
+
+h1 {
+    @include font-size($h1-size);
+}
+
+h2 {
+    @include font-size($h2-size);
+}
+
+h3 {
+    @include font-size($h3-size);
+}
+
+h4 {
+    @include font-size($h4-size);
+}
+
+h5 {
+    @include font-size($h5-size);
+}
+
+h6 {
+    @include font-size($h6-size);
+}
+
+
+
+/**
+ * Lists
+ */
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+
+dt {
+    font-weight: 500;
+}
+
+
+
+/**
+ * Quotations
+ */
+blockquote {
+    border-left: $border-width / 2 solid $base-ui-color;
+    margin-left: - $half-spacing-unit;
+    padding-left: $half-spacing-unit - $border-width / 2;
+    font-style: italic;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+.source {
+    font-style: normal;
+}
+
+
+
+/**
+ * Inline elements
+ */
+strong {
+    font-weight: 500;
+}
+
+q {
+    font-style: italic;
+}
+
+
+
+/**
+ * Links
+ */
+a {
+    color: $base-ui-color;
+    font-weight: 300;
+    text-decoration: none;
+
+    @include attention() {
+        color: $base-ui-color-dark;
+    }
+}
+
+
+
+/**
+ * Code
+ */
+pre, code, kbd, samp {
+    font-family: Consolas, "Courier New", Courier, monospace;
+}
+
+code {
+    white-space: nowrap;
+}
+
+pre {
+    overflow: auto;
+    white-space: pre;
+    word-wrap: normal;
+    color: #fff;
+    background-color: $alt-color;
+    padding: $base-spacing-unit / 4 $half-spacing-unit;
+    border-radius: 3px;
+
+    > code {
+        @include font-size($small-print-size);
+        color: #fff;
+        white-space: pre;
+    }
+}

@@ -1,0 +1,10 @@
+.pagination {
+    margin-left: 0;
+    list-style: none;
+    text-align: center;
+
+    > li {
+        padding: $base-spacing-unit / 2;
+        display: inline-block;
+    }
+}

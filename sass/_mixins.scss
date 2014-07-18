@@ -1,0 +1,64 @@
+/**
+ * inuitcss font-size mixin
+ */
+@mixin font-size($font-size, $line-height:true) {
+    font-size: $font-size;
+    font-size: ($font-size / $base-font-size)*1rem;
+    @if $line-height == true{
+        line-height: ceil($font-size / $base-line-height) * ($base-line-height / $font-size);
+    }
+}
+
+
+
+/**
+ * inuitcss media-query mixin
+ */
+@mixin media-query($media-query) {
+    @if $media-query == palm {
+        @media only screen and (max-width:$palm-end) { @content; }
+    }
+
+    @if $media-query == lap {
+        @media only screen and (min-width:$lap-start) and (max-width:$lap-end) { @content; }
+    }
+
+    @if $media-query == lap-and-up {
+        @media only screen and (min-width:$lap-start) { @content; }
+    }
+
+    @if $media-query == portable {
+        @media only screen and (max-width:$lap-end) { @content; }
+    }
+
+    @if $media-query == desk {
+        @media only screen and (min-width:$desk-start) { @content; }
+    }
+
+    @if $media-query == desk-wide {
+        @media only screen and (min-width: $desk-wide-start) { @content; }
+    }
+}
+
+
+
+/**
+ * Vertical Rhythm/Gaps
+ */
+@mixin vertical-gap($direction: bottom) {
+    margin-#{$direction}: $base-spacing-unit * 4;
+    margin-#{$direction}: 6rem;
+}
+
+
+
+/**
+ * https://twitter.com/csswizardry/status/478938530342006784
+ */
+@mixin attention() {
+    &:hover,
+    &:focus,
+    &:active {
+        @content;
+    }
+}

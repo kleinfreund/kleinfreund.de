@@ -1,0 +1,44 @@
+.page-content {
+    @include vertical-gap(top);
+    @include vertical-gap(bottom);
+
+    ul, ol {
+        list-style-position: outside;
+    }
+}
+
+.post-list {
+    list-style: none;
+    @include vertical-gap(bottom);
+
+    > li {
+        @include vertical-gap();
+
+        > :last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.meta-list {
+    list-style: none;
+    margin-bottom: 0;
+    margin-left: 0;
+
+    > li {
+        display: inline-block;
+        @include font-size(16px);
+
+        + li:before {
+            /* content: space middot space */
+            content: "\0020 \00B7 \0020";
+        }
+    }
+}
+
+.archive-list {
+
+    .current-post a {
+        color: #aaa;
+    }
+}

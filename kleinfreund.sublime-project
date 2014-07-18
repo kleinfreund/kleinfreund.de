@@ -1,0 +1,24 @@
+{
+    "folders":
+    [
+        {
+            "path": "/",
+            "name": "kleinfreund",
+            "file_exclude_patterns":[
+                "CNAME",
+                ".nojekyll",
+                "*.rb",
+                "*.json",
+                "*.txt"
+            ],
+            "folder_exclude_patterns": [
+                "_site",
+                "static"
+            ]
+        }
+    ],
+    "settings":
+    {
+        "tab_size": 4
+    }
+}

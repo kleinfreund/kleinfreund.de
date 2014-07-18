@@ -1,54 +1,74 @@
-encoding: UTF-8
-markdown: rdiscount
-destination: "C:/Users/Philipp/_dev/github/kleinfreund.github.io"
-pygments: true
-permalink: /:categories/:year/:month/:title
-paginate: 5
-relative_permalinks: false
-include:
-  - .nojekyll
-exclude:
-  - prepros.json
-  - config.rb
-gems:
-  - jekyll-sitemap
-
-name: kleinfreund
-description: Mondbasis von Philipp Rudloff. Mache Webentwicklung und -design. Dinge und Sachen auch.
+title: kleinfreund.de
 url: http://kleinfreund.de
 
-default_locale: de
-authorized_locales: [de, en]
+permalink: /:categories/:year/:month/:title
+relative_permalinks: false
 
-locales:
-  de:
-    url: "/de/"
-    language: "de"
-    nav:
-    - text: "Blog"
-      url:  "/de/"
-      class: "site-nav__item--blog"
-    - text: "Portfolio"
-      url:  "/de/portfolio/"
-      class: "site-nav__item--portfolio"
-    - text: "Profil"
-      url:  "/de/profil/"
-      class: "site-nav__item--profile"
-    description: "Mondbasis von Philipp Rudloff. Mache Webentwicklung und -design. Dinge und Sachen auch."
-    footer: "Mondbasis von <a href='http://twitter.com/kleinfreund'>Philipp Rudloff</a>. Gehostet auf <a href='http://github.com/kleinfreund/kleinfreund.github.io'>GitHub</a>. Erstellt mit <a href='http://jekyllrb.com'>Jekyll</a> und <a href='http://inuitcss.com'>inuitcss</a>. Und das notwendige <a href='/de/impressum/'>Impressum</a>."
+# Maximum number of posts to display on blog pages
+max_posts: 10
 
-  en:
-    url: "/en/"
-    language: "en"
-    nav:
-    - text: "Blog"
-      url:  "/en/"
-      class: "site-nav__item--blog"
-    - text: "Portfolio"
-      url:  "/en/portfolio/"
-      class: "site-nav__item--portfolio"
-    - text: "Profile"
-      url:  "/en/profile/"
-      class: "site-nav__item--profile"
-    description: "Moonbase of Philipp Rudloff. Doing Web Development and Design. Things and stuff."
-    footer: "Moonbase of <a href='http://twitter.com/kleinfreund'>Philipp Rudloff</a>. Source code hosted on <a href='http://github.com/kleinfreund/kleinfreund.github.io'>GitHub</a>. Built with <a href='http://jekyllrb.com'>Jekyll</a> and <a href='http://inuitcss.com'>inuitcss</a>. And the necessary <a href='/en/legal-disclosure/'>legal disclosure</a>."
+include:
+  - .htaccess
+  # Include Sass files that are preprended with an underscore
+  - _*.scss
+  # Remove this and the file when deploying with Pages
+  - .nojekyll
+
+exclude:
+  - static
+  - prepros.json
+  - config.rb
+  - kleinfreund.sublime-workspace
+
+gems:
+  # Activate jekyll-sitemap plugin
+  - jekyll-sitemap
+
+kramdown:
+  # Enable GitHub Flavored Markdown (fenced code blocks)
+  input: GFM
+  # Disable auto-generated ID's for headings
+  auto_ids: false
+
+# Author information
+author:
+  name: Philipp Rudloff
+  email: phrudloff@gmail.com
+  twitter: https://twitter.com/kleinfreund
+  github: https://github.com/kleinfreund
+  flickr: https://www.flickr.com/photos/kleinfreund
+  stackoverflow: http://stackoverflow.com/users/2036825
+  codereview: http://codereview.stackexchange.com/users/35408
+
+# Google analytics/webmaster tools verification
+google_analytics: UA-52540063-1
+google_verify: 2D5zbZ2Vatb8CeFj1cUCRdJZ3SQatSUlQesml02jEPo
+
+# Used to output language-specific text via `_data/locales.yml`
+default_locale: "de"
+authorized_locales: ["de", "en"]
+
+defaults:
+  # all files get `layout: default`
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
+  # all posts get `layout: post`, `lang: de` and `category: blog`
+  -
+    scope:
+      path: ""
+      type: "post"
+    values:
+      layout: "post"
+      lang: "de"
+      category: "blog"
+  # all English posts get `lang: en`
+  -
+    scope:
+      path: "_posts/en"
+      type: "post"
+    values:
+      lang: "en"
