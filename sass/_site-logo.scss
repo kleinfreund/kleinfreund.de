@@ -1,0 +1,32 @@
+.site-logo {
+    position: relative;
+    display: block;
+    float: left;
+    margin-top: $half-spacing-unit;
+    margin-left: $base-spacing-unit;
+
+    > svg {
+        width: 64px;
+        height: 64px;
+        float: left;
+        -webkit-transition: -webkit-transform 0.2s;
+                transition:         transform 0.2s;
+    }
+
+    &:hover > svg {
+        -webkit-transform: translateY(-30px);
+                transform: translateY(-30px);
+        -webkit-transition: -webkit-transform 0.2s 0.3s;
+                transition:         transform 0.2s 0.3s;
+    }
+}
+
+.site-logo__icon {
+    fill: $base-ui-color;
+}
+
+@include media-query(lap-and-up) {
+    .site-logo {
+        margin-left: $base-spacing-unit * 3;
+    }
+}

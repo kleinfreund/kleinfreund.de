@@ -1,0 +1,18 @@
+.island {
+    display: block;
+    @extend %clearfix;
+    padding: $base-spacing-unit / 2;
+    color: #fff;
+    background-color: $base-ui-color;
+    text-align: center;
+    font-weight: $bold-font-weight;
+
+    @include attention() {
+        color: #fff;
+        background-color: $base-ui-color-dark;
+    }
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}

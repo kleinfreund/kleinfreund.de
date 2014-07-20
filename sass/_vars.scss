@@ -1,0 +1,38 @@
+/**
+ * Typography
+ */
+$base-font-size:    20px;
+$base-line-height:  30px;
+$base-font-family:  Ubuntu, sans-serif;
+
+$base-font-weight:  300;
+$bold-font-weight:  500;
+
+$h1-size:           36px;
+$h2-size:           32px;
+$h3-size:           28px;
+$h4-size:           24px;
+$h5-size:           20px;
+$h6-size:           16px;
+
+$small-print-size:  16px;
+
+
+
+/**
+ * Colors
+ */
+$text-color:            #444;
+$background-color:      #fff;
+
+$alt-color:             #444;
+
+$base-ui-color:         #5e85d6;
+$base-ui-color-dark:    darken($base-ui-color, 30%);
+
+
+
+/**
+ * Misc
+ */
+$border-width:          8px;

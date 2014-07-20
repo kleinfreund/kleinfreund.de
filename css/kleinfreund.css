@@ -1,15 +1,11 @@
-@charset "UTF-8";
-/*------------------------------------*\
-    $OVERRIDES
-\*------------------------------------*/
 /**
- * Place any variables that should override inuit.css’ defaults here.
+ * Typography
  */
-/*------------------------------------*\
-    $CUSTOM
-\*------------------------------------*/
 /**
- * Place any of your own variables that sit on top of inuit.css here.
+ * Colors
+ */
+/**
+ * Misc
  */
 /**
  * inuitcss font-size mixin
@@ -402,7 +398,8 @@ figure {
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl,
-figure {
+figure,
+.island {
   margin-bottom: 30px;
   margin-bottom: 1.5rem;
 }
@@ -428,6 +425,7 @@ figure {
  * Clearfix
  */
 .clearfix:after,
+.island:after,
 .site-head:after,
 .site-nav:after {
   content: "";
@@ -499,9 +497,10 @@ figcaption > a {
  */
 hr {
   border: 0;
-  border-bottom: 8px solid #aaaaaa;
-  margin-bottom: 22px;
-  margin-bottom: 1.1rem;
+  border-bottom: 2px solid #aaa;
+  margin-top: -1px;
+  margin-bottom: 29px;
+  margin-bottom: 1.45rem;
 }
 
 html {
@@ -646,6 +645,22 @@ pre > code {
   display: inline-block;
 }
 
+.island {
+  display: block;
+  padding: 15px;
+  color: #fff;
+  background-color: #5e85d6;
+  text-align: center;
+  font-weight: 500;
+}
+.island:hover, .island:focus, .island:active {
+  color: #fff;
+  background-color: #1f3d7c;
+}
+.island > :last-child {
+  margin-bottom: 0;
+}
+
 /*------------------------------------*\
     $FUNCTIONAL LAYER
 \*------------------------------------*/
@@ -751,27 +766,11 @@ pre > code {
   margin-bottom: 6rem;
 }
 .post-list > li {
-  margin-bottom: 30px;
-}
-.post-list p:last-child {
-  margin-bottom: 0;
-}
-.post-list > .post-translation {
   margin-bottom: 120px;
+  margin-bottom: 6rem;
 }
-
-.post-list__heading {
-  display: inline;
+.post-list > li > :last-child {
   margin-bottom: 0;
-}
-
-.post-translation .post-list__heading {
-  font-size: 24px;
-  font-size: 1.2rem;
-  line-height: 1.25;
-}
-.post-translation .post-list__heading:before {
-  content: "\25B8 \0020";
 }
 
 .meta-list {
@@ -788,6 +787,10 @@ pre > code {
 .meta-list > li + li:before {
   /* content: space middot space */
   content: "\0020 \00B7 \0020";
+}
+
+.archive-list .current-post a {
+  color: #aaa;
 }
 
 .site-head {
@@ -830,8 +833,8 @@ pre > code {
 .site-logo:hover > svg {
   -webkit-transform: translateY(-30px);
   transform: translateY(-30px);
-  -webkit-transition: -webkit-transform 0.2s;
-  transition: transform 0.2s;
+  -webkit-transition: -webkit-transform 0.2s 0.3s;
+  transition: transform 0.2s 0.3s;
 }
 
 .site-logo__icon {
@@ -855,6 +858,7 @@ pre > code {
     float: right;
     line-height: 1;
     margin-right: 90px;
+    margin-top: 30px;
   }
 }
 

@@ -1,6 +1,6 @@
 # kleinfreund.github.io
 
-This is the repository for my personal site [kleinfreund.de](http://kleinfreund.de). I’m using [Jekyll](http://jekyllrb.com) with [GitHub Pages](https://pages.github.com). That way I don’t need to build the site by hand every time I want to push new stuff.
+This is the repository for my personal site [kleinfreund.de](http://kleinfreund.de). I’m using [Jekyll](http://jekyllrb.com) with [GitHub Pages](https://pages.github.com). That way I don’t need to build the site by hand every time I want to push new stuff. GitHub Pages does that for me. Downside? Not being able to use plugins.
 
 ## To Do
 
@@ -8,21 +8,21 @@ This is the repository for my personal site [kleinfreund.de](http://kleinfreund.
 
 - Remove `.nojekyll`
 - Remove include rule for .nojekyll file from _config.yml
+- Make dev branch master branch, remove dev branch
 
 ### Site enhancements:
 
 - New contact (?) page (story about the current state of the site is made)
-- Rebuild blog pages with endless list of posts
 - Utilize CSS source maps
-
-### Design:
-
-- Think about alternate fonts (Vollkorn?)
-- __EN__: Enhance list of posts
+    - Use build tools to accomplish this (gulp?)
 
 ### Posts:
 
-- Logo as SVG
+- Translate Schilbach post? Maybe not?
+- about bilingual with `{{ page.lang }}` and Front Matter defaults
+    - Uses category for languages (e.g.: `en`)
+    - English pages and posts live inside `/en` and `/en/_posts`
+    - When creating category pages, one needs to filter out the _language_ categories
 
 ## License
 

@@ -1,0 +1,30 @@
+.site-nav {
+    @extend %clearfix;
+    position: absolute;
+    top: $base-spacing-unit * 2;
+    right: $base-spacing-unit;
+    text-align: right;
+
+    @include media-query(desk) {
+        position: static;
+        float: right;
+        line-height: 1;
+        margin-right: $base-spacing-unit * 3;
+        margin-top: $base-spacing-unit;
+    }
+}
+
+.site-nav__item {
+    display: block;
+    padding-top: $base-spacing-unit / 3;
+    font-weight: $bold-font-weight;
+
+    @include media-query(desk) {
+        float: left;
+        padding: $base-spacing-unit / 2 $base-spacing-unit;
+
+        + .site-nav__item {
+            margin-left: $half-spacing-unit;
+        }
+    }
+}
