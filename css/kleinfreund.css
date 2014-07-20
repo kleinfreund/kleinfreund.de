@@ -611,7 +611,7 @@ a:hover, a:focus, a:active {
  * Code
  */
 pre, code, kbd, samp {
-  font-family: Consolas, "Courier New", Courier, monospace;
+  font-family: Consolas, Courier New, Courier, monospace;
 }
 
 code {
@@ -791,6 +791,23 @@ pre > code {
 
 .archive-list .current-post a {
   color: #aaa;
+}
+
+.block-note {
+  position: relative;
+  display: block;
+  font-size: 16px;
+  font-size: 0.8rem;
+  line-height: 1.875;
+}
+.block-note:before {
+  /* content: "/!\ "; */
+  content: "\2F \21 \5C \A0";
+  position: absolute;
+  right: 100%;
+  color: #5e85d6;
+  font-family: Consolas, Courier New, Courier, monospace;
+  font-weight: bold;
 }
 
 .site-head {

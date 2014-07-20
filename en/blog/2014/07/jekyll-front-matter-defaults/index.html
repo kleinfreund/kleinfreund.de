@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Jekyll: Front Matter defaults – kleinfreund.de</title>
+    <title>Jekyll: Front Matter Defaults – kleinfreund.de</title>
 
     <!--| Hello, code inspecting individual.
         | Feel free to poke around.
@@ -67,9 +67,9 @@
         <article class="post">
     <ul class="meta-list">
         <li>
-            <time datetime="2014-05-26">
+            <time datetime="2014-07-20">
             
-                26 May, 2014
+                20 July, 2014
             
             </time>
         </li>
@@ -87,11 +87,15 @@
         
     </ul>
 
-    <h2>Jekyll: Front Matter defaults</h2>
+    <h2>Jekyll: Front Matter Defaults</h2>
 
-    <p>With Jekyll 2 there is now the possibility to set defaults for YAML Front Matter inyour configuration file: <a href="http://jekyllrb.com/docs/configuration/#frontmatter-defaults">Front Matter Defaults</a>.</p>
+    <p>With <a href="http://jekyllrb.com/news/2014/05/06/jekyll-turns-2-0-0/">Jekyll 2.0.0</a> one can set default values for the Front Matter. This is true for collections and categories since <a href="http://jekyllrb.com/news/2014/06/28/jekyll-turns-21-i-mean-2-1-0/">2.1.0</a> as well.</p>
 
-<p>Instead of repeating yourself by adding <code>layout: post</code> to the Front Matter over and over again, you set a default in your _config.yml. You can limit the scope of these rules with <code>path</code> and <code>type</code>. An empty value in path means targeting all files. Optionally you specify the type of file (<code>page</code>, <code>post</code> or <code>draft</code>).</p>
+<p class="block-note">Because GitHub Pages isn’t running on 2.1 (<a href="https://github.com/github/pages-gem/pull/75">status</a>) yet, one has to compile locally to be able to set Front Matter defaults.</p>
+
+<h3>My Defaults</h3>
+
+<p>We go from the rough things to the fine details. At first I set the default layout and language for everything. Basically, <code>path: ""</code> says <em>“Take all the things!”</em>.</p>
 
 <pre><code>defaults:
   -
@@ -99,7 +103,12 @@
       path: ""
     values:
       layout: "default"
-  -
+      lang: "de"
+</code></pre>
+
+<p>Posts get their own layout. We overwrite the layout and set a default category for blog posts as well.</p>
+
+<pre><code>  -
     scope:
       path: ""
       type: "post"
@@ -108,13 +117,28 @@
       category: "blog"
 </code></pre>
 
-<p>At first I set the default layout for all files. All posts should have the posts’ layout. The second part is more specific and overwrites the default layout from the first part.</p>
+<p>Since I’m doing this bilingual thing, I somehow have to differ between German and English entries. This is done with <code>lang: [de|en]</code>.</p>
 
-<p>Keep in mind that settings in layouts or other Jekyll files may overwrite your Front Matter defaults.</p>
+<p>My default language is German, so I overwrite the value only when the page or post happens to reside inside the <code>/en</code> directory.</p>
 
-<p>However. Great feature. It’s more and more fun to work with Jekyll.</p>
+<pre><code>  -
+    scope:
+      path: "en"
+    values:
+      lang: "en"
+</code></pre>
 
-<p><strong>Update:</strong> <a href="http://jekyllrb.com/news/2014/06/28/jekyll-turns-21-i-mean-2-1-0/">Jekyll 2.1.0</a> comes with some good news. Collections are now allowed in <code>scope</code>and one can set default categories as well.</p>
+<p>Because Jekyll is treating everything inside a <code>/_posts</code> directory as a post, I need to set the language explicitly again.</p>
+
+<pre><code>  -
+    scope:
+      path: "en/_posts"
+      type: "post"
+    values:
+      lang: "en"
+</code></pre>
+
+<p>In the long term Front Matter defaults make the work with Jekyll easier. Even when you only set the default layout for pages and posts. Good thing.</p>
 
 </article>
 
