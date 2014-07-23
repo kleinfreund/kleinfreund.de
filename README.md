@@ -12,15 +12,19 @@ This is the repository for my personal site [kleinfreund.de](http://kleinfreund.
 
 ### Site enhancements:
 
-- New contact (?) page (story about the current state of the site is made)
+- New contact (?) page (story about the current state of how the site is made)
+    - wait for: ghp 2.1 / source maps
 - Utilize CSS source maps
-    - Use build tools to accomplish this (gulp?)
-
-### Design:
-
-- Think about alternate fonts (Vollkorn?)
+    - gulp? wait for: npm path crap
+    - prepros? wait for: prepros issue
 
 ### Posts:
+
+- Translate Schilbach post? Maybe not?
+- about bilingual with `{{ page.lang }}` and Front Matter defaults
+    - Uses category for languages (e.g.: `en`)
+    - English pages and posts live inside `/en` and `/en/_posts`
+    - When creating category pages, one needs to filter out the _language_ categories
 
 ## License
 

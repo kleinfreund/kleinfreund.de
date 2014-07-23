@@ -15,7 +15,6 @@ include:
   - .nojekyll
 
 exclude:
-  - static
   - prepros.json
   - config.rb
   - kleinfreund.sublime-workspace
@@ -49,26 +48,31 @@ default_locale: "de"
 authorized_locales: ["de", "en"]
 
 defaults:
-  # all files get `layout: default`
+  # Default layout and language to everything
   -
     scope:
       path: ""
     values:
       layout: "default"
-
-  # all posts get `layout: post`, `lang: de` and `category: blog`
+      lang: "de"
+  # Specify default posts’ layout and category
   -
     scope:
       path: ""
       type: "post"
     values:
       layout: "post"
-      lang: "de"
       category: "blog"
-  # all English posts get `lang: en`
+  # Set language for everything inside `/en`
   -
     scope:
-      path: "_posts/en"
+      path: "en"
+    values:
+      lang: "en"
+  # Set language for English posts
+  -
+    scope:
+      path: "en/_posts"
       type: "post"
     values:
       lang: "en"

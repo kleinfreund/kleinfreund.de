@@ -14,9 +14,11 @@ title: Moonbase of Philipp Rudloff
             </li>
 
             {% for category in post.categories %}
+            {% unless category == page.lang %}
             <li>
                 <a href="/en/categories#{{ category }}">{{ category | capitalize }}</a>
             </li>
+            {% endunless %}
             {% endfor %}
         </ul>
 

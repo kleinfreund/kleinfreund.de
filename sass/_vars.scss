@@ -1,12 +1,12 @@
-/*------------------------------------*\
-    $OVERRIDES
-\*------------------------------------*/
 /**
- * Place any variables that should override inuit.css’ defaults here.
+ * Typography
  */
 $base-font-size:    20px;
 $base-line-height:  30px;
-$base-font-family: Ubuntu, sans-serif;
+$base-font-family:  Ubuntu, sans-serif;
+
+$base-font-weight:  300;
+$bold-font-weight:  500;
 
 $h1-size:           36px;
 $h2-size:           32px;
@@ -19,20 +19,20 @@ $small-print-size:  16px;
 
 
 
-
-
-/*------------------------------------*\
-    $CUSTOM
-\*------------------------------------*/
 /**
- * Place any of your own variables that sit on top of inuit.css here.
+ * Colors
  */
-$border-width:          8px;
-
-$background-color:      #fff;
 $text-color:            #444;
+$background-color:      #fff;
 
 $alt-color:             #444;
 
 $base-ui-color:         #5e85d6;
 $base-ui-color-dark:    darken($base-ui-color, 30%);
+
+
+
+/**
+ * Misc
+ */
+$border-width:          8px;

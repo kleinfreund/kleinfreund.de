@@ -22,10 +22,7 @@ on_stylesheet_saved do |file|
 
     Compass.add_configuration(
         {
-            :output_style => :compressed,
-            :sass_options => {
-                :sourcemap => true
-            }
+            :output_style => :compressed
         },
         'minify-css'
     )

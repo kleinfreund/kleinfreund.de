@@ -1,7 +1,5 @@
-{% capture locale %}{{ page.url | truncate: 3, "" | remove: "/" }}{% endcapture %}
-{% unless site.authorized_locales contains locale %}{% assign locale = site.default_locale %}{% endunless %}
 <!DOCTYPE html>
-<html lang="{{ locale }}">
+<html lang="{{ page.lang }}">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,14 +22,14 @@
 
     <link rel="shortcut icon" href="/img/icon.png">
 
-    <meta name="description" content="{{ site.data.locales[locale].description }}">
+    <meta name="description" content="{{ site.data.locales[page.lang].description }}">
 
     {% if site.google_verify %}<!-- Webmaster Tools verfication -->
     <meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
 </head>
 <body>
     <header class="site-head">
-        <a href="{{ site.data.locales[locale].url }}" class="site-logo">
+        <a href="{{ site.data.locales[page.lang].url }}" class="site-logo">
             <svg viewBox="0 0 64 64">
                 <use class="site-logo__icon" xlink:href="#site-logo"></use>
             </svg>
@@ -49,7 +47,7 @@
         </label>
 
         <nav class="site-nav">
-            {% for link in site.data.locales[locale].nav %}
+            {% for link in site.data.locales[page.lang].nav %}
             {% assign page-url = page.url | remove: "index.html" %}
             <a href="{{ link.url }}" class="site-nav__item{% if page-url == link.url %} current{% endif %}">{{ link.text }}</a>
             {% endfor %}
@@ -61,7 +59,7 @@
     </main>
 
     <footer class="site-foot">
-        <p>{{ site.data.locales[locale].footer }}</p>
+        <p>{{ site.data.locales[page.lang].footer }}</p>
     </footer>
 
     <svg class="hidden">

@@ -1,15 +1,11 @@
-@charset "UTF-8";
-/*------------------------------------*\
-    $OVERRIDES
-\*------------------------------------*/
 /**
- * Place any variables that should override inuit.css’ defaults here.
+ * Typography
  */
-/*------------------------------------*\
-    $CUSTOM
-\*------------------------------------*/
 /**
- * Place any of your own variables that sit on top of inuit.css here.
+ * Colors
+ */
+/**
+ * Misc
  */
 /**
  * inuitcss font-size mixin
@@ -501,9 +497,10 @@ figcaption > a {
  */
 hr {
   border: 0;
-  border-bottom: 8px solid #aaaaaa;
-  margin-bottom: 22px;
-  margin-bottom: 1.1rem;
+  border-bottom: 2px solid #aaa;
+  margin-top: -1px;
+  margin-bottom: 29px;
+  margin-bottom: 1.45rem;
 }
 
 html {
@@ -614,7 +611,7 @@ a:hover, a:focus, a:active {
  * Code
  */
 pre, code, kbd, samp {
-  font-family: Consolas, "Courier New", Courier, monospace;
+  font-family: Consolas, Courier New, Courier, monospace;
 }
 
 code {
@@ -796,6 +793,23 @@ pre > code {
   color: #aaa;
 }
 
+.block-note {
+  position: relative;
+  display: block;
+  font-size: 16px;
+  font-size: 0.8rem;
+  line-height: 1.875;
+}
+.block-note:before {
+  /* content: "/!\ "; */
+  content: "\2F \21 \5C \A0";
+  position: absolute;
+  right: 100%;
+  color: #5e85d6;
+  font-family: Consolas, Courier New, Courier, monospace;
+  font-weight: bold;
+}
+
 .site-head {
   border-top: 8px solid #5e85d6;
   margin-bottom: 120px;
@@ -836,8 +850,8 @@ pre > code {
 .site-logo:hover > svg {
   -webkit-transform: translateY(-30px);
   transform: translateY(-30px);
-  -webkit-transition: -webkit-transform 0.2s;
-  transition: transform 0.2s;
+  -webkit-transition: -webkit-transform 0.2s 0.3s;
+  transition: transform 0.2s 0.3s;
 }
 
 .site-logo__icon {
@@ -861,6 +875,7 @@ pre > code {
     float: right;
     line-height: 1;
     margin-right: 90px;
+    margin-top: 30px;
   }
 }
 

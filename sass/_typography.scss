@@ -13,7 +13,7 @@ html {
  */
 h1, h2, h3, h4, h5, h6 {
     color: $base-ui-color;
-    font-weight: 300;
+    font-weight: $base-font-weight;
 }
 
 h1 {
@@ -53,7 +53,7 @@ li {
 }
 
 dt {
-    font-weight: 500;
+    font-weight: $bold-font-weight;
 }
 
 
@@ -82,7 +82,7 @@ blockquote {
  * Inline elements
  */
 strong {
-    font-weight: 500;
+    font-weight: $bold-font-weight;
 }
 
 q {
@@ -96,7 +96,7 @@ q {
  */
 a {
     color: $base-ui-color;
-    font-weight: 300;
+    font-weight: $base-font-weight;
     text-decoration: none;
 
     @include attention() {
@@ -110,7 +110,7 @@ a {
  * Code
  */
 pre, code, kbd, samp {
-    font-family: Consolas, "Courier New", Courier, monospace;
+    font-family: Consolas, Courier New, Courier, monospace;
 }
 
 code {

@@ -42,3 +42,19 @@
         color: #aaa;
     }
 }
+
+.block-note {
+    position: relative;
+    display: block;
+    @include font-size(16px);
+
+    &:before {
+        /* content: "/!\ "; */
+        content: "\2F \21 \5C \A0";
+        position: absolute;
+        right: 100%;
+        color: $base-ui-color;
+        font-family: Consolas, Courier New, Courier, monospace;
+        font-weight: bold;
+    }
+}

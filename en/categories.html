@@ -3,6 +3,8 @@ title: Categories
 permalink: /en/categories/
 ---
 {% for category in site.categories %}
+    {% unless category[0] == page.lang %}
+
     {% assign posts = category[1] | where:"lang","en" %}
 
     {% if posts.size > 0 %}
@@ -17,4 +19,6 @@ permalink: /en/categories/
     {% endif %}
 
     {% assign posts = nil %}
+
+    {% endunless %}
 {% endfor %}

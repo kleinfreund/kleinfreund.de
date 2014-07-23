@@ -16,8 +16,8 @@
     &:hover > svg {
         -webkit-transform: translateY(-30px);
                 transform: translateY(-30px);
-        -webkit-transition: -webkit-transform 0.2s;
-                transition:         transform 0.2s;
+        -webkit-transition: -webkit-transform 0.2s 0.3s;
+                transition:         transform 0.2s 0.3s;
     }
 }
 

@@ -5,7 +5,7 @@
     color: #fff;
     background-color: $base-ui-color;
     text-align: center;
-    font-weight: 500;
+    font-weight: $bold-font-weight;
 
     @include attention() {
         color: #fff;
