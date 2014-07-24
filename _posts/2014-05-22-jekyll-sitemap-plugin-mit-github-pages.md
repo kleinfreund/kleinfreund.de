@@ -19,4 +19,4 @@ gems:
 
 Das Plugin steht auf der Whitelist und läuft somit auch mit bequemen Build-Prozess auf GitHub Pages. Spitze!
 
-Seit Version 0.5.0 kann man mit `sitemap: false` im Front Matter auch Seiten wie die 404.html ausschließen.
+Seit Version 0.5.0 (noch nicht auf GitHub Pages) kann man mit `sitemap: false` im Front Matter auch Seiten wie die 404.html ausschließen.
