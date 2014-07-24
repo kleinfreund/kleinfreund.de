@@ -12,9 +12,11 @@ This is the repository for my personal site [kleinfreund.de](http://kleinfreund.
 
 ### Site enhancements:
 
-- New contact (?) page (story about the current state of the site is made)
+- New contact (?) page (story about the current state of how the site is made)
+    - wait for: ghp 2.1 / source maps
 - Utilize CSS source maps
-    - Use build tools to accomplish this (gulp?)
+    - gulp? wait for: npm path crap
+    - prepros? wait for: prepros issue
 
 ### Posts:
 

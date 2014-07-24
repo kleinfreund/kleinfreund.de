@@ -93,6 +93,8 @@
 
     <p>Eine Jekyll-Seite läuft mit Plugins auf GitHub Pages nur, wenn man vorher lokal kompiliert. <a href="https://help.github.com/articles/using-jekyll-plugins-with-github-pages">Seit kurzem</a> muss man diesen Umweg zumindest für das erzeugen einer Sitemap nicht mehr gehen.</p>
 
+<p class="block-note">GitHub Pages läuft noch nicht mit der aktuellen Version von jekyll-sitemap. Aktuell ist es v0.3.0 ([GitHub Pages dependency versions])(https://pages.github.com/versions/)).</p>
+
 <p>Man installiert das Plugin <a href="https://github.com/jekyll/jekyll-sitemap">jekyll-sitemap</a>…</p>
 
 <pre><code>gem install jekyll-sitemap
@@ -106,7 +108,7 @@
 
 <p>Das Plugin steht auf der Whitelist und läuft somit auch mit bequemen Build-Prozess auf GitHub Pages. Spitze!</p>
 
-<p>Seit Version 0.5.0 kann man mit <code>sitemap: false</code> im Front Matter auch Seiten wie die 404.html ausschließen.</p>
+<p>Seit Version 0.5.0 (noch nicht auf GitHub Pages) kann man mit <code>sitemap: false</code> im Front Matter auch Seiten wie die 404.html ausschließen.</p>
 
 </article>
 
