@@ -15,7 +15,7 @@ This is the repository for my personal site [kleinfreund.de](http://kleinfreund.
 - New contact (?) page (story about the current state of how the site is made)
     - wait for: ghp 2.1 / source maps
 - Utilize CSS source maps
-    - gulp? wait for: npm path crap
+    - gulp? wait for node-sass issue
     - prepros? wait for: prepros issue
 
 ### Posts:

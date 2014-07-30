@@ -1,0 +1,77 @@
+title: kleinfreund.de
+url: http://kleinfreund.de
+
+permalink: /:categories/:year/:month/:title
+relative_permalinks: false
+
+# Maximum number of posts to display on blog pages
+max_posts: 10
+
+include:
+  - .htaccess
+  # Include Sass files that are preprended with an underscore
+  - _*.scss
+
+exclude:
+  - node_modules
+  - prepros.json
+  - config.rb
+  - kleinfreund.sublime-workspace
+
+gems:
+  # Activate jekyll-sitemap plugin
+  - jekyll-sitemap
+
+kramdown:
+  # Enable GitHub Flavored Markdown (fenced code blocks)
+  input: GFM
+  # Disable auto-generated ID's for headings
+  auto_ids: false
+
+# Author information
+author:
+  name: Philipp Rudloff
+  email: phrudloff@gmail.com
+  twitter: https://twitter.com/kleinfreund
+  github: https://github.com/kleinfreund
+  flickr: https://www.flickr.com/photos/kleinfreund
+  stackoverflow: http://stackoverflow.com/users/2036825
+  codereview: http://codereview.stackexchange.com/users/35408
+
+# Google analytics/webmaster tools verification
+google_analytics: UA-52540063-1
+google_verify: 2D5zbZ2Vatb8CeFj1cUCRdJZ3SQatSUlQesml02jEPo
+
+# Used to output language-specific text via `_data/locales.yml`
+default_locale: "de"
+authorized_locales: ["de", "en"]
+
+defaults:
+  # Default layout and language to everything
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+      lang: "de"
+  # Specify default posts’ layout and category
+  -
+    scope:
+      path: ""
+      type: "post"
+    values:
+      layout: "post"
+      category: "blog"
+  # Set language for everything inside `/en`
+  -
+    scope:
+      path: "en"
+    values:
+      lang: "en"
+  # Set language for English posts
+  -
+    scope:
+      path: "en/_posts"
+      type: "post"
+    values:
+      lang: "en"

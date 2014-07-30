@@ -6,10 +6,7 @@
             "name": "kleinfreund",
             "file_exclude_patterns":[
                 "CNAME",
-                ".nojekyll",
-                "*.rb",
-                "*.json",
-                "*.txt"
+                ".nojekyll"
             ],
             "folder_exclude_patterns": [
                 "_site",

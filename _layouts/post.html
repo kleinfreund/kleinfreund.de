@@ -1,0 +1,48 @@
+---
+layout: default
+---
+<article class="post">
+    <ul class="meta-list">
+        <li>
+            <time datetime="{{ page.date | date: "%Y-%m-%d" }}">
+            {% if page.lang == 'de' %}
+                {{ page.date | date: '%-d.' }}
+                {% assign m-de = page.date | date: '%-m' %}
+                {% case m-de %}
+                    {% when '1' %}Januar
+                    {% when '2' %}Februar
+                    {% when '3' %}März
+                    {% when '4' %}April
+                    {% when '5' %}Mai
+                    {% when '6' %}Juni
+                    {% when '7' %}Juli
+                    {% when '8' %}August
+                    {% when '9' %}September
+                    {% when '10' %}Oktober
+                    {% when '11' %}November
+                    {% when '12' %}Dezember
+                {% endcase %}
+                {{ page.date | date: '%Y' }}
+            {% else %}
+                {{ page.date | date: '%-d %B, %Y' }}
+            {% endif %}
+            </time>
+        </li>
+
+        {% for category in page.categories %}
+        {% unless category == 'en' %}
+        <li>
+            {% if page.lang == 'en'%}
+            <a href="/en/categories#{{ category }}">{{ category | capitalize }}</a>
+            {% else %}
+            <a href="/kategorien#{{ category }}">{{ category | capitalize }}</a>
+            {% endif %}
+        </li>
+        {% endunless %}
+        {% endfor %}
+    </ul>
+
+    <h2>{{ page.title }}</h2>
+
+    {{ content }}
+</article>

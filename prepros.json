@@ -1,0 +1,655 @@
+{
+  "id": "3d35895f",
+  "cfgVersion": 1,
+  "name": "kleinfreund.github.io.dev",
+  "files": {
+    "071a4073": {
+      "id": "071a4073",
+      "pid": "3d35895f",
+      "name": "kleinfreund.scss",
+      "input": "sass\\kleinfreund.scss",
+      "customOutput": false,
+      "type": "Scss",
+      "config": {
+        "autoCompile": true,
+        "lineNumbers": false,
+        "unixNewlines": false,
+        "sourcemaps": false,
+        "debug": false,
+        "compass": true,
+        "fullCompass": true,
+        "outputStyle": "expanded",
+        "autoprefixer": false
+      }
+    }
+  },
+  "imports": {
+    "20b3c290": {
+      "id": "20b3c290",
+      "pid": "3d35895f",
+      "path": "sass\\_vars.scss",
+      "parents": [
+        "071a4073"
+      ]
+    },
+    "fa193f92": {
+      "id": "fa193f92",
+      "pid": "3d35895f",
+      "path": "sass\\_defaults.scss",
+      "parents": [
+        "071a4073"
+      ]
+    },
+    "3f83dbe6": {
+      "id": "3f83dbe6",
+      "pid": "3d35895f",
+      "path": "sass\\_mixins.scss",
+      "parents": [
+        "071a4073"
+      ]
+    },
+    "b1628501": {
+      "id": "b1628501",
+      "pid": "3d35895f",
+      "path": "sass\\_normalize.scss",
+      "parents": [
+        "071a4073"
+      ]
+    },
+    "5fe72ffa": {
+      "id": "5fe72ffa",
+      "pid": "3d35895f",
+      "path": "sass\\_base.scss",
+      "parents": [
+        "071a4073"
+      ]
+    },
+    "62760e35": {
+      "id": "62760e35",
+      "pid": "3d35895f",
+      "path": "sass\\_typography.scss",
+      "parents": [
+        "071a4073"
+      ]
+    },
+    "4df932ed": {
+      "id": "4df932ed",
+      "pid": "3d35895f",
+      "path": "sass\\_pagination.scss",
+      "parents": [
+        "071a4073"
+      ]
+    },
+    "8fce4cb4": {
+      "id": "8fce4cb4",
+      "pid": "3d35895f",
+      "path": "sass\\_island.scss",
+      "parents": [
+        "071a4073"
+      ]
+    },
+    "dd01a46e": {
+      "id": "dd01a46e",
+      "pid": "3d35895f",
+      "path": "sass\\_toggle-nav.scss",
+      "parents": [
+        "071a4073"
+      ]
+    },
+    "4ff67ce7": {
+      "id": "4ff67ce7",
+      "pid": "3d35895f",
+      "path": "sass\\_page-content.scss",
+      "parents": [
+        "071a4073"
+      ]
+    },
+    "22fbb105": {
+      "id": "22fbb105",
+      "pid": "3d35895f",
+      "path": "sass\\_site-head.scss",
+      "parents": [
+        "071a4073"
+      ]
+    },
+    "f523fb52": {
+      "id": "f523fb52",
+      "pid": "3d35895f",
+      "path": "sass\\_site-logo.scss",
+      "parents": [
+        "071a4073"
+      ]
+    },
+    "cc557957": {
+      "id": "cc557957",
+      "pid": "3d35895f",
+      "path": "sass\\_site-nav.scss",
+      "parents": [
+        "071a4073"
+      ]
+    },
+    "24a7e2dd": {
+      "id": "24a7e2dd",
+      "pid": "3d35895f",
+      "path": "sass\\_site-foot.scss",
+      "parents": [
+        "071a4073"
+      ]
+    }
+  },
+  "images": {
+    "99001499": {
+      "id": "99001499",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\pictograms-thumbnail.png",
+      "size": 12274,
+      "name": "pictograms-thumbnail.png",
+      "type": "Png",
+      "initialSize": 12274,
+      "status": "OPTIMIZED"
+    },
+    "db13317d": {
+      "id": "db13317d",
+      "pid": "3d35895f",
+      "path": "img\\icon.png",
+      "size": 517,
+      "name": "icon.png",
+      "type": "Png",
+      "initialSize": 243,
+      "status": "OPTIMIZED"
+    },
+    "77129ef4": {
+      "id": "77129ef4",
+      "pid": "3d35895f",
+      "path": "img\\me.jpg",
+      "size": 284190,
+      "name": "me.jpg",
+      "type": "Jpg",
+      "initialSize": 284190,
+      "status": "OPTIMIZED"
+    },
+    "37fa6246": {
+      "id": "37fa6246",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\2014-1.png",
+      "size": 10022,
+      "name": "2014-1.png",
+      "type": "Png",
+      "initialSize": 10022,
+      "status": "OPTIMIZED"
+    },
+    "2c179cb0": {
+      "id": "2c179cb0",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\2014-2.png",
+      "size": 17707,
+      "name": "2014-2.png",
+      "type": "Png",
+      "initialSize": 17707,
+      "status": "OPTIMIZED"
+    },
+    "05dd47a5": {
+      "id": "05dd47a5",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\2014-3.png",
+      "size": 10747,
+      "name": "2014-3.png",
+      "type": "Png",
+      "initialSize": 10747,
+      "status": "OPTIMIZED"
+    },
+    "8c59566b": {
+      "id": "8c59566b",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\2014-4.png",
+      "size": 5272,
+      "name": "2014-4.png",
+      "type": "Png",
+      "initialSize": 5272,
+      "status": "OPTIMIZED"
+    },
+    "080773e2": {
+      "id": "080773e2",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\2014-5.png",
+      "size": 6512,
+      "name": "2014-5.png",
+      "type": "Png",
+      "initialSize": 6512,
+      "status": "OPTIMIZED"
+    },
+    "bbfa4d93": {
+      "id": "bbfa4d93",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\2014-6.png",
+      "size": 7916,
+      "name": "2014-6.png",
+      "type": "Png",
+      "initialSize": 7916,
+      "status": "OPTIMIZED"
+    },
+    "0fd1bba0": {
+      "id": "0fd1bba0",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\2014-thumbnail.png",
+      "size": 21001,
+      "name": "2014-thumbnail.png",
+      "type": "Png",
+      "initialSize": 21001,
+      "status": "OPTIMIZED"
+    },
+    "55adbc91": {
+      "id": "55adbc91",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\artrudloff-1.jpg",
+      "size": 32920,
+      "name": "artrudloff-1.jpg",
+      "type": "Jpg",
+      "initialSize": 32920,
+      "status": "OPTIMIZED"
+    },
+    "4f06de97": {
+      "id": "4f06de97",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\artrudloff-2.jpg",
+      "size": 94637,
+      "name": "artrudloff-2.jpg",
+      "type": "Jpg",
+      "initialSize": 94637,
+      "status": "OPTIMIZED"
+    },
+    "30a400fb": {
+      "id": "30a400fb",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\artrudloff-3.jpg",
+      "size": 81447,
+      "name": "artrudloff-3.jpg",
+      "type": "Jpg",
+      "initialSize": 81447,
+      "status": "OPTIMIZED"
+    },
+    "f9d86105": {
+      "id": "f9d86105",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\artrudloff-thumbnail.jpg",
+      "size": 32614,
+      "name": "artrudloff-thumbnail.jpg",
+      "type": "Jpg",
+      "initialSize": 32614,
+      "status": "OPTIMIZED"
+    },
+    "b3b97d08": {
+      "id": "b3b97d08",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\bbk-vogtland-1.jpg",
+      "size": 76167,
+      "name": "bbk-vogtland-1.jpg",
+      "type": "Jpg",
+      "initialSize": 76167,
+      "status": "OPTIMIZED"
+    },
+    "ae36cb32": {
+      "id": "ae36cb32",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\bbk-vogtland-2.jpg",
+      "size": 56542,
+      "name": "bbk-vogtland-2.jpg",
+      "type": "Jpg",
+      "initialSize": 56542,
+      "status": "OPTIMIZED"
+    },
+    "2402c31e": {
+      "id": "2402c31e",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\bbk-vogtland-3.jpg",
+      "size": 105912,
+      "name": "bbk-vogtland-3.jpg",
+      "type": "Jpg",
+      "initialSize": 105912,
+      "status": "OPTIMIZED"
+    },
+    "289d0b28": {
+      "id": "289d0b28",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\bbk-vogtland-thumbnail.jpg",
+      "size": 57679,
+      "name": "bbk-vogtland-thumbnail.jpg",
+      "type": "Jpg",
+      "initialSize": 57679,
+      "status": "OPTIMIZED"
+    },
+    "ce133706": {
+      "id": "ce133706",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\landscapes-1.jpg",
+      "size": 108948,
+      "name": "landscapes-1.jpg",
+      "type": "Jpg",
+      "initialSize": 108948,
+      "status": "OPTIMIZED"
+    },
+    "9a25fbf3": {
+      "id": "9a25fbf3",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\landscapes-2.jpg",
+      "size": 119986,
+      "name": "landscapes-2.jpg",
+      "type": "Jpg",
+      "initialSize": 119986,
+      "status": "OPTIMIZED"
+    },
+    "4343f7a2": {
+      "id": "4343f7a2",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\landscapes-3.jpg",
+      "size": 119236,
+      "name": "landscapes-3.jpg",
+      "type": "Jpg",
+      "initialSize": 119236,
+      "status": "OPTIMIZED"
+    },
+    "14f50ba1": {
+      "id": "14f50ba1",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\landscapes-4.jpg",
+      "size": 120807,
+      "name": "landscapes-4.jpg",
+      "type": "Jpg",
+      "initialSize": 120807,
+      "status": "OPTIMIZED"
+    },
+    "e5562d44": {
+      "id": "e5562d44",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\owl-thumbnail.jpg",
+      "size": 321425,
+      "name": "owl-thumbnail.jpg",
+      "type": "Jpg",
+      "initialSize": 321425,
+      "status": "OPTIMIZED"
+    },
+    "bbd43d96": {
+      "id": "bbd43d96",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\owl.jpg",
+      "size": 770245,
+      "name": "owl.jpg",
+      "type": "Jpg",
+      "initialSize": 770245,
+      "status": "OPTIMIZED"
+    },
+    "01f88ed6": {
+      "id": "01f88ed6",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\pictograms-caterpillar.png",
+      "size": 4721,
+      "name": "pictograms-caterpillar.png",
+      "type": "Png",
+      "initialSize": 4721,
+      "status": "OPTIMIZED"
+    },
+    "ec54720c": {
+      "id": "ec54720c",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\pictograms-snake.png",
+      "size": 11061,
+      "name": "pictograms-snake.png",
+      "type": "Png",
+      "initialSize": 11061,
+      "status": "OPTIMIZED"
+    },
+    "8808c189": {
+      "id": "8808c189",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\pictograms-turtle.png",
+      "size": 5442,
+      "name": "pictograms-turtle.png",
+      "type": "Png",
+      "initialSize": 5442,
+      "status": "OPTIMIZED"
+    },
+    "3ff83d0f": {
+      "id": "3ff83d0f",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\rudelove-business-card.png",
+      "size": 40503,
+      "name": "rudelove-business-card.png",
+      "type": "Png",
+      "initialSize": 40503,
+      "status": "OPTIMIZED"
+    },
+    "eb4c276d": {
+      "id": "eb4c276d",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\rudelove-letterhead.png",
+      "size": 14201,
+      "name": "rudelove-letterhead.png",
+      "type": "Png",
+      "initialSize": 14201,
+      "status": "OPTIMIZED"
+    },
+    "2f24e988": {
+      "id": "2f24e988",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\rudelove-logo.png",
+      "size": 5413,
+      "name": "rudelove-logo.png",
+      "type": "Png",
+      "initialSize": 5413,
+      "status": "OPTIMIZED"
+    },
+    "84ada4bb": {
+      "id": "84ada4bb",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\rudelove-stationary.png",
+      "size": 45067,
+      "name": "rudelove-stationary.png",
+      "type": "Png",
+      "initialSize": 45067,
+      "status": "OPTIMIZED"
+    },
+    "7bb6af56": {
+      "id": "7bb6af56",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\rudelove-thumbnail.png",
+      "size": 6375,
+      "name": "rudelove-thumbnail.png",
+      "type": "Png",
+      "initialSize": 6375,
+      "status": "OPTIMIZED"
+    },
+    "1a5093db": {
+      "id": "1a5093db",
+      "pid": "3d35895f",
+      "path": "img\\posts\\c418-volume-beta-cover.jpg",
+      "size": 73254,
+      "name": "c418-volume-beta-cover.jpg",
+      "type": "Jpg",
+      "initialSize": 73254,
+      "status": "NOT_OPTIMIZED"
+    },
+    "fef8f2c2": {
+      "id": "fef8f2c2",
+      "pid": "3d35895f",
+      "path": "img\\posts\\carlo-castellano-the-swapper-soundtrack-cover.jpg",
+      "size": 127593,
+      "name": "carlo-castellano-the-swapper-soundtrack-cover.jpg",
+      "type": "Jpg",
+      "initialSize": 127593,
+      "status": "NOT_OPTIMIZED"
+    },
+    "99e21e7c": {
+      "id": "99e21e7c",
+      "pid": "3d35895f",
+      "path": "img\\posts\\darren-korb-bastion-soundtrack-cover.jpg",
+      "size": 104419,
+      "name": "darren-korb-bastion-soundtrack-cover.jpg",
+      "type": "Jpg",
+      "initialSize": 104419,
+      "status": "NOT_OPTIMIZED"
+    },
+    "082c4e70": {
+      "id": "082c4e70",
+      "pid": "3d35895f",
+      "path": "img\\posts\\floex-zorya-cover.jpg",
+      "size": 101335,
+      "name": "floex-zorya-cover.jpg",
+      "type": "Jpg",
+      "initialSize": 101335,
+      "status": "NOT_OPTIMIZED"
+    },
+    "de2f318b": {
+      "id": "de2f318b",
+      "pid": "3d35895f",
+      "path": "img\\posts\\itunes-album-cover.jpg",
+      "size": 159070,
+      "name": "itunes-album-cover.jpg",
+      "type": "Jpg",
+      "initialSize": 159975,
+      "status": "NOT_OPTIMIZED"
+    },
+    "a94058d2": {
+      "id": "a94058d2",
+      "pid": "3d35895f",
+      "path": "img\\posts\\itunes-various-artists.jpg",
+      "size": 154441,
+      "name": "itunes-various-artists.jpg",
+      "type": "Jpg",
+      "initialSize": 155336,
+      "status": "NOT_OPTIMIZED"
+    },
+    "1042d486": {
+      "id": "1042d486",
+      "pid": "3d35895f",
+      "path": "img\\posts\\jim-guthrie-sword-and-sworcery-lp-cover.jpg",
+      "size": 110528,
+      "name": "jim-guthrie-sword-and-sworcery-lp-cover.jpg",
+      "type": "Jpg",
+      "initialSize": 110528,
+      "status": "NOT_OPTIMIZED"
+    },
+    "5d250fa1": {
+      "id": "5d250fa1",
+      "pid": "3d35895f",
+      "path": "img\\posts\\tiny-and-big-soundtrack-cover.jpg",
+      "size": 86818,
+      "name": "tiny-and-big-soundtrack-cover.jpg",
+      "type": "Jpg",
+      "initialSize": 86818,
+      "status": "NOT_OPTIMIZED"
+    },
+    "f9cb11ce": {
+      "id": "f9cb11ce",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\marcografie-1.jpg",
+      "size": 89513,
+      "name": "marcografie-1.jpg",
+      "type": "Jpg",
+      "initialSize": 85968,
+      "status": "OPTIMIZED"
+    },
+    "43c44be7": {
+      "id": "43c44be7",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\marcografie-2.jpg",
+      "size": 161011,
+      "name": "marcografie-2.jpg",
+      "type": "Jpg",
+      "initialSize": 154034,
+      "status": "OPTIMIZED"
+    },
+    "1c4903d3": {
+      "id": "1c4903d3",
+      "pid": "3d35895f",
+      "path": "img\\portfolio\\marcografie-thumbnail.jpg",
+      "size": 91975,
+      "name": "marcografie-thumbnail.jpg",
+      "type": "Jpg",
+      "initialSize": 89934,
+      "status": "OPTIMIZED"
+    },
+    "cb9c7357": {
+      "id": "cb9c7357",
+      "pid": "3d35895f",
+      "path": "img\\posts\\flickr-1.jpg",
+      "size": 68051,
+      "name": "flickr-1.jpg",
+      "type": "Jpg",
+      "initialSize": 69068,
+      "status": "NOT_OPTIMIZED"
+    },
+    "d1fa3dee": {
+      "id": "d1fa3dee",
+      "pid": "3d35895f",
+      "path": "img\\posts\\flickr-2.jpg",
+      "size": 83504,
+      "name": "flickr-2.jpg",
+      "type": "Jpg",
+      "initialSize": 83885,
+      "status": "NOT_OPTIMIZED"
+    },
+    "96c6c7bd": {
+      "id": "96c6c7bd",
+      "pid": "3d35895f",
+      "path": "img\\posts\\flickr-3.jpg",
+      "size": 87576,
+      "name": "flickr-3.jpg",
+      "type": "Jpg",
+      "initialSize": 86421,
+      "status": "NOT_OPTIMIZED"
+    },
+    "3d3ea96e": {
+      "id": "3d3ea96e",
+      "pid": "3d35895f",
+      "path": "img\\posts\\flickr-4.jpg",
+      "size": 113225,
+      "name": "flickr-4.jpg",
+      "type": "Jpg",
+      "initialSize": 111335,
+      "status": "NOT_OPTIMIZED"
+    },
+    "d1a6a481": {
+      "id": "d1a6a481",
+      "pid": "3d35895f",
+      "path": "img\\posts\\flickr-5.jpg",
+      "size": 54763,
+      "name": "flickr-5.jpg",
+      "type": "Jpg",
+      "initialSize": 56429,
+      "status": "NOT_OPTIMIZED"
+    }
+  },
+  "config": {
+    "watch": true,
+    "liveRefresh": true,
+    "liveRefreshDelay": 0,
+    "filterPatterns": ".md,\n.js,\n_site",
+    "useCustomServer": false,
+    "customServerUrl": "",
+    "cssPath": "css/",
+    "jsPath": "js/",
+    "htmlPath": "html/",
+    "minJsPath": "min/",
+    "htmlExtension": ".html",
+    "cssPathType": "REPLACE_TYPE",
+    "htmlPathType": "REPLACE_TYPE",
+    "jsPathType": "REPLACE_TYPE",
+    "minJsPathType": "RELATIVE_FILEDIR",
+    "htmlTypes": "jade, haml, slim, markdown, md",
+    "cssTypes": "less, sass, stylus, scss, styl",
+    "jsTypes": "coffee, coffeescript, coffeescripts, ls, livescript, livescripts",
+    "cssPreprocessorPath": "",
+    "htmlPreprocessorPath": "",
+    "jsPreprocessorPath": "",
+    "minJsPreprocessorPath": "",
+    "autoprefixerBrowsers": "",
+    "ftpHost": "",
+    "ftpPort": "21",
+    "ftpRemotePath": "",
+    "ftpIgnorePreprocessorFiles": true,
+    "ftpType": "FTP",
+    "ftpExcludePatterns": "",
+    "ftpPassword": "",
+    "ftpUsername": ""
+  }
+}

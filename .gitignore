@@ -1,0 +1,10 @@
+node_modules
+_site/
+.sass-cache
+*.sublime-workspace
+._*
+.DS_Store
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Desktop.ini

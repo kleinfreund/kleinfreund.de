@@ -1,0 +1,15 @@
+---
+title: Archive
+permalink: /en/archive/
+---
+<h2>Archive</h2>
+
+{% assign posts = site.posts | where:"lang","en" %}
+
+<ul class="archive-list">
+{% for post in posts %}
+    <li class="{% if forloop.index > site.max_posts %}past-post{% else %}current-post{% endif %}">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+{% endfor %}
+</ul>
