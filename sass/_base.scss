@@ -40,17 +40,16 @@ figure,
 /**
  * Wrapper
  */
-.wrapper,
-%wrapper {
+.wrapper {
     max-width: 680px;
     margin-right: auto;
     margin-left:  auto;
     padding-right: $half-spacing-unit;
-    padding-left:  $half-spacing-unit;
+    padding-left: $half-spacing-unit;
 
     @include media-query(lap-and-up) {
         padding-right: $base-spacing-unit;
-        padding-left:  $base-spacing-unit;
+        padding-left: $base-spacing-unit;
     }
 }
 
