@@ -11,15 +11,15 @@ var rename    = require('gulp-rename');
 var options = {};
 
 options.sass = {
-  errLogToConsole: true,
-  sourceMap: 'sass',
-  sourceComments: 'map'
+    errLogToConsole: true,
+    sourceMap: 'sass',
+    sourceComments: 'map'
 };
 
 options.autoprefixer = {
-  map: true,
-  from: 'css',
-  to: 'kleinfreund.min.css'
+    map: true,
+    from: 'css',
+    to: 'kleinfreund.min.css'
 };
 
 

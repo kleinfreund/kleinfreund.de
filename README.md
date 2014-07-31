@@ -4,13 +4,11 @@ This is the repository for my personal site [kleinfreund.de](http://kleinfreund.
 
 ## To Do
 
-### When Jekyll v2+ lands on GitHub Pages…
+### Under the hood
 
-- Remove `.nojekyll`
-- Remove include rule for .nojekyll file from _config.yml
-- Make dev branch master branch, remove dev branch
+- Using `layout: null` in feed.xml and 404.html instead of `nil`
 
-### Site enhancements:
+### Site enhancements
 
 - New contact (?) page (story about the current state of how the site is made)
     - wait for: ghp 2.1 / source maps
@@ -18,7 +16,7 @@ This is the repository for my personal site [kleinfreund.de](http://kleinfreund.
     - gulp? wait for node-sass issue
     - prepros? wait for: prepros issue
 
-### Posts:
+### Posts
 
 - Translate Schilbach post? Maybe not?
 - about bilingual with `{{ page.lang }}` and Front Matter defaults
