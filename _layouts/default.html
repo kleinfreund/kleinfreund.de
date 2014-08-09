@@ -17,9 +17,6 @@
     <link rel="dns-prefetch" href="//themes.googleusercontent.com">
     {% if site.google_analytics %}<link rel="dns-prefetch" href="//www.google-analytics.com">{% endif %}
 
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ubuntu:300,500,300italic">
-    <!-- <link rel="stylesheet" href="/css/kleinfreund.min.css"> -->
-
     <link rel="shortcut icon" href="/img/icon.png">
 
     <meta name="description" content="{{ site.data.locales[page.lang].description }}">
@@ -31,6 +28,8 @@
         /*! loadCSS: load a CSS file asynchronously. [c]2014 @scottjehl, Filament Group, Inc. Licensed MIT */
         function loadCSS(e,t,n){"use strict";var r=window.document.createElement("link");var i=t||window.document.getElementsByTagName("script")[0];r.rel="stylesheet";r.href=e;r.media="only x";i.parentNode.insertBefore(r,i);setTimeout(function(){r.media=n||"all"});return r}loadCSS("/css/kleinfreund.min.css")
     </script>
+
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ubuntu:300,500,300italic">
 </head>
 <body>
     <header class="site-head">
