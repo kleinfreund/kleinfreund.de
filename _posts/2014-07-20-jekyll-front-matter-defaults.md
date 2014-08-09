@@ -1,10 +1,13 @@
 ---
 date: 2014-07-20 17:03:34
 title: "Jekyll: Front Matter Defaults"
+tags:
+- dev
+- jekyll
 ---
-Mit [Jekyll 2.0.0](http://jekyllrb.com/news/2014/05/06/jekyll-turns-2-0-0/) kann man Standardwerte für’s Front Matter bestimmen. Auch Collections und Categories sind seit [2.1.0](http://jekyllrb.com/news/2014/06/28/jekyll-turns-21-i-mean-2-1-0/) verwendbar.
+Mit [Jekyll 2](http://jekyllrb.com/news/2014/05/06/jekyll-turns-2-0-0/) kann man Standardwerte für’s Front Matter bestimmen. Hurra! Keine Layout- und Spracheinstellungen in Beiträgen mehr.
 
-### Meine Defaults
+## Meine Defaults
 
 Wir arbeiten uns vom Groben zum Feinen durch. Als erstes habe ich das Standardlayout und die Sprache für alles festgelegt. Die Angabe von `path` sagt quasi _„Take all the things!“_.
 

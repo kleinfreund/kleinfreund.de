@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>{{ page.title }} – {{ site.title }}</title>
+    <title>{% if page.title %}{{ page.title }}{% endif %} – kleinfreund.de</title>
 
     <!--| Hello, code inspecting individual.
         | Feel free to poke around.
@@ -29,12 +29,12 @@
 </head>
 <body>
     <header class="site-head">
-        <a href="{{ site.data.locales[page.lang].url }}" class="site-logo">
+        <a class="site-logo" href="{{ site.data.locales[page.lang].url }}">
             <svg viewBox="0 0 64 64">
                 <use class="site-logo__icon" xlink:href="#site-logo"></use>
             </svg>
 
-            <h1 class="site-title">klein<span>freund</span></h1>
+            <div class="site-title">klein<span>freund</span></div>
         </a>
 
         <input type="checkbox" class="toggle-nav__input" id="toggle-nav">
@@ -48,20 +48,28 @@
 
         <nav class="site-nav">
             {% for link in site.data.locales[page.lang].nav %}
-            {% assign page-url = page.url | remove: "index.html" %}
-            <a href="{{ link.url }}" class="site-nav__item{% if page-url == link.url %} current{% endif %}">{{ link.text }}</a>
+            <a class="site-nav__item" href="{{ link.url }}">{{ link.text }}</a>
             {% endfor %}
         </nav>
     </header>
 
-    <main class="page-content wrapper">
-        {{ content }}
+
+
+    <main class="page-content">
+        <div class="wrapper">
+            {{ content }}
+        </div>
     </main>
+
+
 
     <footer class="site-foot">
         <p>{{ site.data.locales[page.lang].footer }}</p>
     </footer>
 
+
+
+    <!-- Hidden inline SVG’s to be referenced in the document -->
     <svg class="hidden">
         <defs>
             <path id="site-logo" d="M58.52 0H6.73C3.43 0 0 2.4 0 5.75v52C0 61.1 3.4 64 6.7 64H48V48h16V5.75C64 2.4 61.8 0 58.5 0z M39 36c-2.76 0-5-2.24-5-5s2.24-5 5-5s5 2.2 5 5S41.76 36 39 36z"/>
@@ -70,12 +78,21 @@
         </defs>
     </svg>
 
-    {% if site.google_analytics %}
+
+
+    {% if site.google_analytics %}<!-- Google Analytics snippet -->
     <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        (function(i,s,o,g,r,a,m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js', 'ga');
 
         ga('create', '{{ site.google_analytics }}', 'auto');
         ga('set', 'anonymizeIp', true);

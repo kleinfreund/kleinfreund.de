@@ -1,15 +1,11 @@
 ---
-title: Profil
+title: "Hey, ich bin Philipp…"
 permalink: /profil/
 ---
-## Hey, ich bin Philipp.
-
-Mache Webentwicklung und -design. Momentan in der Ausbildung, anschließend studiere ich Medieninformatik.
+…und ich mache Websites. Nach meiner Ausbildung zum [Gestaltungstechnischen Assistenten](https://de.wikipedia.org/wiki/Gestaltungstechnischer_Assistent) werde ich deswegen auch ab Oktober Medieninformatik in Weimar studieren.
 
 ![Philipp Rudloff](/img/me.jpg)
 
-In die Trickkiste habe ich reichlich [CSS](http://www.w3.org/Style/CSS) und [SASS](http://sass-lang.com "Syntactically Awesome Style Sheets") gepackt. Daneben enthält sie [Jekyll](http://jekyllrb.com), [Wordpress](http://de.wordpress.org) und [Tumblr](http://tumblr.com).
+Meine Lieblingswerkzeuge sind CSS und [Sass](http://sass-lang.com "Syntactically Awesome Stylesheets"), zusammen mit [Jekyll](http://jekyllrb.com) und [GitHub]({{ site.author.github }}).
 
-Komplizierte Knoten werden durch [GitHub]({{ site.author.github }}), [Stack&nbsp;Overflow]({{ site.author.stackoverflow }}) und [Code&nbsp;Review]({{ site.author.codereview }}) gelöst. Die Nebendarsteller [Don’t Repeat Yourself](http://csswizardry.com/2013/07/writing-dryer-vanilla-css "Writing DRYer vanilla CSS by Harry Roberts") und [Block Element Modifier](http://bem.info "BEM. Block, Element, Modifier") helfen, die Übersicht zu bewahren.
-
-Als [kleinfreund]({{ site.author.twitter }}) bei Twitter unterwegs. Ab und zu landen ein paar Bilder aus der Knipse bei [Flickr]({{ site.author.flickr }}). Schöne Dinge sammle ich mit Tumblr auf [infinite&nbsp;amplitudes](http://infiniteamplitudes.tumblr.com) (Vorsicht, NSFW).
+Und sonst? Richtige Apostrophe verwende ich auch (meist) auf [Twitter]({{ site.author.twitter }}), im manuellen Modus [fotografiere ich]({{ site.author.flickr }}) (manchmal) meine Umgebung und [infinite amplitudes](http://infiniteamplitudes.tumblr.com) ist der Platz, wo ich (häufig nackte) Dinge sammle.

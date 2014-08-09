@@ -1,12 +1,13 @@
 ---
 date: 2014-07-20 17:03:33
 title: "Jekyll: Front Matter Defaults"
+tags:
+- dev
+- jekyll
 ---
-With [Jekyll 2.0.0](http://jekyllrb.com/news/2014/05/06/jekyll-turns-2-0-0/) one can set default values for the Front Matter. This is true for collections and categories since [2.1.0](http://jekyllrb.com/news/2014/06/28/jekyll-turns-21-i-mean-2-1-0/) as well.
+With [Jekyll 2](http://jekyllrb.com/news/2014/05/06/jekyll-turns-2-0-0/) one can set default values for the front matter. Hooray! No more layout and language settings on posts for me.
 
-<p class="block-note">Because GitHub Pages isn’t running on 2.1 (<a href="https://github.com/github/pages-gem/pull/75">status</a>) yet, one has to compile locally to be able to set Front Matter defaults.</p>
-
-### My Defaults
+## My Defaults
 
 We go from the rough things to the fine details. At first I set the default layout and language for everything. Basically, `path: ""` says _“Take all the things!”_.
 

@@ -2,8 +2,6 @@
 title: Impressum
 permalink: /impressum/
 ---
-## Impressum
-
 Philipp Rudloff
 Markt 32
 08626 Adorf

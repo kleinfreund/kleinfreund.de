@@ -1,8 +1,9 @@
 ---
 date: 2014-02-06 16:46:13
 title: Landscapes
-category: portfolio
 thumbnail-url: /img/portfolio/landscapes-1.jpg
+tags:
+- photography
 ---
 Ein paar Momentaufnahmen aus dem letzten Jahr. Ich sollte mir wirklich eine anständige Kamera anschaffen. Dann muss ich nur noch dran denken, die auch immer einzupacken und auch zu benutzen. Klingt nach ’nem Plan? Finde ich auch. Hat jemand Vorschläge dazu?
 

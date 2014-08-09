@@ -1,6 +1,8 @@
 ---
 date: 2014-03-19 14:18:26
 title: Soundtracks
+tags:
+- music
 ---
 I don’t know about you, but my Steam library is stuffed with numerous, untouched games. I’m looking at you, Humble Bundle. Although omnipresent through shop and Weekly Deals, it’s still a good thing.
 

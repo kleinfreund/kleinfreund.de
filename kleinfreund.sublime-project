@@ -4,10 +4,6 @@
         {
             "path": "/",
             "name": "kleinfreund",
-            "file_exclude_patterns":[
-                "CNAME",
-                ".nojekyll"
-            ],
             "folder_exclude_patterns": [
                 "_site",
                 "static"

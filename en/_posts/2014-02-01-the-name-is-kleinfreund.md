@@ -1,6 +1,8 @@
 ---
 date: 2014-02-01 19:36:27
 title: The name is kleinfreund
+tags:
+- dev
 ---
 Yes, Hello! Something happened in the last weeks. My first real personal and self-built website. Here it starts.
 

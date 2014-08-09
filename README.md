@@ -6,7 +6,9 @@ This is the repository for my personal site [kleinfreund.de](http://kleinfreund.
 
 ### Under the hood
 
-- Using `layout: null` in feed.xml and 404.html instead of `nil`
+- Minify production HTML? Seems like it’s not possible with GHP. MEH =/
+- Inline critical CSS with `loadCSS();`
+- Consider using Grunt instead of Gulp
 
 ### Site enhancements
 
@@ -19,12 +21,11 @@ This is the repository for my personal site [kleinfreund.de](http://kleinfreund.
 ### Posts
 
 - Translate Schilbach post? Maybe not?
+- Write more for bbkv post
+- Use `{% post_url %}` in jekyll multilingual post
 - about bilingual with `{{ page.lang }}` and Front Matter defaults
-    - Uses category for languages (e.g.: `en`)
-    - English pages and posts live inside `/en` and `/en/_posts`
-    - When creating category pages, one needs to filter out the _language_ categories
 
 ## License
 
-- Content: [Creative Commons – Attribution-ShareAlike](http://creativecommons.org/licenses/by-sa/3.0/)
+- Content: [CC BY-SA](http://creativecommons.org/licenses/by-sa/3.0/)
 - Code: [MIT](http://opensource.org/licenses/mit-license.php)
