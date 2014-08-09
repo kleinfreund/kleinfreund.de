@@ -7,7 +7,7 @@ This is the repository for my personal site [kleinfreund.de](http://kleinfreund.
 ### Under the hood
 
 - Minify production HTML? Seems like it’s not possible with GHP. MEH =/
-- Inline critical CSS with `loadCSS();`
+- Inline critical CSS with `loadCSS();` (testing this currently)
 - Consider using Grunt instead of Gulp
 
 ### Site enhancements
@@ -23,7 +23,6 @@ This is the repository for my personal site [kleinfreund.de](http://kleinfreund.
 - Translate Schilbach post? Maybe not?
 - Write more for bbkv post
 - Use `{% post_url %}` in jekyll multilingual post
-- about bilingual with `{{ page.lang }}` and Front Matter defaults
 
 ## License
 
