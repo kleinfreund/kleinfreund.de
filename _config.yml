@@ -54,14 +54,14 @@ defaults:
   -
     scope:
       path: ""
-      type: "pages"
+      type: "page"
     values:
       layout: "page"
   # Specify default posts’ layout
   -
     scope:
       path: ""
-      type: "posts"
+      type: "post"
     values:
       layout: "post"
   # Set language for everything inside `/en`
@@ -74,6 +74,6 @@ defaults:
   -
     scope:
       path: "en/_posts"
-      type: "posts"
+      type: "post"
     values:
       lang: "en"
