@@ -54,8 +54,6 @@ And we don’t need to set this for every document over and over because we can 
 defaults:
   # Default language
   -
-    scope:
-      path: ""
     values:
       lang: "de"
   # Language for everything inside `/en`
@@ -68,7 +66,7 @@ defaults:
   -
     scope:
       path: "en/_posts"
-      type: "post"
+      type: "posts"
     values:
       lang: "en"
 ```

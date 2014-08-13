@@ -54,8 +54,6 @@ Mit Front Matter Defaults brauchen wir das auch nicht für jedes Dokument einzel
 defaults:
   # Default language
   -
-    scope:
-      path: ""
     values:
       lang: "de"
   # Language for everything inside `/en`
@@ -68,7 +66,7 @@ defaults:
   -
     scope:
       path: "en/_posts"
-      type: "post"
+      type: "posts"
     values:
       lang: "en"
 ```
