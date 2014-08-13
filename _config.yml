@@ -45,18 +45,22 @@ google_verify: 2D5zbZ2Vatb8CeFj1cUCRdJZ3SQatSUlQesml02jEPo
 defaults:
   # Default layout and language to everything
   -
+    scope:
+      path: ""
     values:
       layout: "default"
       lang: "de"
   # Specify default pages’ layout
   -
     scope:
+      path: ""
       type: "pages"
     values:
       layout: "page"
   # Specify default posts’ layout
   -
     scope:
+      path: ""
       type: "posts"
     values:
       layout: "post"
