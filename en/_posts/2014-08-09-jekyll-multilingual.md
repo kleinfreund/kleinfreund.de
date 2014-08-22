@@ -44,9 +44,9 @@ permalink: /:categories/:year/:month/:title
 
 ## Set the Language
 
-To distinct between German and English documents, we don’t need to alienate categories again. We only needed that for permalinks. For posts and pages, we set the language with `lang: [de|en]`.
+To distinct between German and English documents, we don’t need to alienate categories again. We only needed that for the permalinks. For posts and pages we set the language with `lang: [de|en]`.
 
-And we don’t need to set this for every document over and over because we can use front matter defaults. Nice!
+And with front matter defaults we don’t even need to do this for each document over and over. Nice!
 
 ### _config.yml:
 
@@ -54,6 +54,8 @@ And we don’t need to set this for every document over and over because we can 
 defaults:
   # Default language
   -
+    scope:
+      path: ""
     values:
       lang: "de"
   # Language for everything inside `/en`
@@ -66,16 +68,18 @@ defaults:
   -
     scope:
       path: "en/_posts"
-      type: "posts"
+      type: "posts" # As of version 2.3.0, Jekyll uses plural keywords for type
     values:
       lang: "en"
 ```
 
 ## The Blog Thing
 
-Creating a paginated blog with Jekyll is super easy. However this is not with its limitations. For example one isn’t able to filter the posts that `paginator.posts` is returning. That means we can’t take all posts with `lang: en` and create a paginated blog page with them.
+Creating a paginated blog with Jekyll is super easy. However this has its limitations. For example one isn’t able to filter tje posts `paginator.posts` is returning. That means I can’t just take all posts with `lang: en` and make a blog with pagination.
 
-Because I’m open for compromises, I just xed that out. Instead I show the first 10 entries and link to the archive.
+Because I
+
+Da ich kompromissfreudig bin, hab ich dieses Vorhaben gestrichen. Stattdessen nehm ich mir jetzt die ersten 10 Beiträge und verlinke dann auf’s Archiv.
 
 ### _config.yml:
 
@@ -90,13 +94,13 @@ max_posts: 10
 {% assign posts_de = site.posts | where:"lang","de" %}
 
 {% for post in posts_de limit:site.max_posts %}
-<!-- posts 1–10 -->
+<!-- Beiträge 1–10 -->
 {% endfor %}
 
 {% if posts_de.size > site.max_posts %}
-<!-- link to the archive only for more that 10 posts -->
+<!-- Archivlink, bei mehr als 10 Beiträgen -->
 {% endif %}
 ```
 {% endraw %}
 
-That’s it. For better understanding you can checkout the [GitHub repository]({{ site.author.github | append:"/kleinfreund.github.io" }}) of my site and go through the files.
+Das war’s im Grunde. Zum besseren Verständnis könnt ihr euch das [GitHub Repository]({{ site.author.github | append:"/kleinfreund.github.io" }}) meiner Seite ansehen und durch die Dateien klicken.

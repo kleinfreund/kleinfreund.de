@@ -66,7 +66,7 @@ defaults:
   -
     scope:
       path: "en/_posts"
-      type: "posts"
+      type: "posts" # Seit Version 2.3.0 nutzt Jekyll den Plural für die `type`-Schlüsselwörter
     values:
       lang: "en"
 ```
