@@ -1,8 +1,10 @@
 ---
 date: 2014-03-02 15:59:41
 title: "Website: bbk-vogtland.de"
-category: portfolio
 thumbnail-url: /img/portfolio/bbk-vogtland-thumbnail.jpg
+tags:
+- dev
+- portfolio
 ---
 Der Verein [Bund Bildender Künstler Vogtland e.V.](http://bbk-vogtland.de) bekam ein Redesign. Das Ergebnis ist eine schlanke, statische Seite.
 

@@ -2,8 +2,6 @@
 title: Legal disclosure
 permalink: /en/legal-disclosure/
 ---
-## Legal disclosure
-
 Philipp Rudloff
 Markt 32
 08626 Adorf

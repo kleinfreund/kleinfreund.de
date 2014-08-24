@@ -2,6 +2,8 @@
 date: 2014-07-04 06:46:11
 title: "The own camera"
 thumbnail-url: /img/posts/flickr-1.jpg
+tags:
+- photography
 ---
 I have my own camera for a few months now. My first thought was in the direction of a cute mirrorless ([Sony NEX-3N](http://www.amazon.com/Sony-NEX-3NL-Compact-Interchangeable-Digital/dp/B00BF9MUBM)).
 

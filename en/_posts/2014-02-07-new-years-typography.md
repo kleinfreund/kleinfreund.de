@@ -1,7 +1,6 @@
 ---
 date: 2014-02-07 16:49:43
 title: New Year’s Typography
-category: portfolio
 thumbnail-url: /img/portfolio/2014-thumbnail.png
 ---
 The new year in typography started with some experiments around hierarchy and structure of type. It’s too easy to get lost on a didigtal playground like InDesign.

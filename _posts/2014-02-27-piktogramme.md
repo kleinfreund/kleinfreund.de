@@ -1,7 +1,6 @@
 ---
 date: 2014-02-27 16:55:53
 title: Piktogramme
-category: portfolio
 thumbnail-url: /img/portfolio/pictograms-thumbnail.png
 ---
 Hier sollten wir uns auf zwei einfache geometrische Formen beschränken und ein paar Tiere in Piktogramme verpacken.

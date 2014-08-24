@@ -1,6 +1,8 @@
 ---
 date: 2014-02-01 19:36:28
 title: Der Name ist kleinfreund
+tags:
+- dev
 ---
 Ja, Hallo! In den letzten Wochen ist hier etwas enstanden. Quasi meine erste richtig eigene und selbst erstelle Website. Hier geht’s los.
 

@@ -1,8 +1,9 @@
 ---
 date: 2014-02-06 16:46:12
 title: Landscapes
-category: portfolio
 thumbnail-url: /img/portfolio/landscapes-1.jpg
+tags:
+- photography
 ---
 A few snapshots from last year. I should really get a decent camera. Then remind to take it with me and actually use it. Sounds like a plan.
 

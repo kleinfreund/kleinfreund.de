@@ -47,6 +47,7 @@
     position: relative;
     display: block;
     @include font-size(16px);
+    @extend %vertical-rhythm;
 
     &:before {
         /* content: "/!\ "; */

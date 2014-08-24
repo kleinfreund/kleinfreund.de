@@ -1,54 +1,52 @@
 ---
 date: 2014-07-20 17:03:34
 title: "Jekyll: Front Matter Defaults"
+tags:
+- dev
+- jekyll
 ---
-Mit [Jekyll 2.0.0](http://jekyllrb.com/news/2014/05/06/jekyll-turns-2-0-0/) kann man Standardwerte für’s Front Matter bestimmen. Auch Collections und Categories sind seit [2.1.0](http://jekyllrb.com/news/2014/06/28/jekyll-turns-21-i-mean-2-1-0/) verwendbar.
+Mit [Jekyll 2](http://jekyllrb.com/news/2014/05/06/jekyll-turns-2-0-0/) kann man Standardwerte für’s Front Matter bestimmen. Hurra! Keine Layout- und Spracheinstellungen in Beiträgen mehr. Version [2.3.0](http://jekyllrb.com/news/2014/08/11/jekyll-2-3-0-released/) hat das noch einmal verbessert.
 
-### Meine Defaults
+## Meine Defaults
 
-Wir arbeiten uns vom Groben zum Feinen durch. Als erstes habe ich das Standardlayout und die Sprache für alles festgelegt. Die Angabe von `path` sagt quasi _„Take all the things!“_.
+Wir arbeiten uns vom Groben zum Feinen durch. Als erstes habe ich das Standardlayout und die Sprache für alles festgelegt. Mit 2.3.0 ist `scope` nicht mehr zwingend nötig. Lässt man es weg, verhält sich die Regel quasi wie _„Take all the <del>things</del> documents!“_.
 
-```
+Die zweite und dritte Regeln sorgen dafür, dass Beiträge und Seiten ihr entsprechendes Layout bekommen. Zum Schluss bekommt englischer Inhalt noch `lang: en`. So kann ich zwischen den Sprachen meines Inhalts unterscheiden ohne Kategorien zu missbrauchen.
+
+```yaml
 defaults:
+  # [1.]
   -
-    scope:
-      path: ""
     values:
       layout: "default"
       lang: "de"
-```
 
-Beiträge bekommen ein eigenes Layout. Wir überschreiben das Layout und setzen auch gleich die Standardkategorie für Blogeinträge.
-
-```
+  # [2.]
   -
     scope:
-      path: ""
-      type: "post"
+      type: "pages"
+    values:
+      layout: "page"
+
+  # [3.]
+  -
+    scope:
+      type: "posts"
     values:
       layout: "post"
-      category: "blog"
-```
 
-Da ich mir ja diese bilinguale Sache an’s Bein gebunden habe, muss ich irgendwie zwischen deutschen und englischen Beiträgen unterscheiden. Das geschieht mit `lang: [de|en]`.
-
-Meine Standardsprache ist Deutsch, ich überschreibe also nur den Wert, wenn sich die Seite oder der Beitrag im Verzeichnis `/en` befindet.
-
-```
+  # [4.]
   -
     scope:
       path: "en"
     values:
       lang: "en"
-```
 
-Da für Jekyll alles innerhalb eines `/_posts`-Verzeichnisses ein Beitrag ist, muss ich hier noch einmal explizit die Sprache festlegen.
-
-```
+  # [5.]
   -
     scope:
       path: "en/_posts"
-      type: "post"
+      type: "posts"
     values:
       lang: "en"
 ```

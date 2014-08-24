@@ -2,7 +2,9 @@
 title: Kategorien
 permalink: /kategorien/
 ---
-{% for category in site.categories %}
+{% assign categories_sorted = site.categories | sort %}
+
+{% for category in categories_sorted %}
     {% assign posts = category[1] | where:"lang","de" %}
 
     {% if posts.size > 0 %}
@@ -14,6 +16,8 @@ permalink: /kategorien/
         </li>
         {% endfor %}
     </ul>
+    {% else %}
+    <p>Gibt wohl keine Kategorien.</p>
     {% endif %}
 
     {% assign posts = nil %}

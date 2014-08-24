@@ -1,8 +1,10 @@
 ---
 date: 2014-07-01 06:46:11
 title: "Website: marcografie.de"
-category: portfolio
 thumbnail-url: /img/portfolio/marcografie-thumbnail.jpg
+tags:
+- dev
+- portfolio
 ---
 During the internships I had in my apprenticeship I worked at a local agency. Marco Müller is a photographer and wanted to get rid of his flash monstrosity of a website. After a little ice age [marcografie.de](http://marcografie.de) is available in new guise.
 

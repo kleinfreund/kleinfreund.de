@@ -1,7 +1,6 @@
 ---
 date: 2014-02-27 16:55:52
 title: Pictograms
-category: portfolio
 thumbnail-url: /img/portfolio/pictograms-thumbnail.png
 ---
 Limited to two basic geometrical forms, we should to animals as pictograms. And yes, I know the distances are not always even. Shame on me.

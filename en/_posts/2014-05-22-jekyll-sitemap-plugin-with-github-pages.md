@@ -1,10 +1,11 @@
 ---
 date: 2014-05-22 11:02:13
 title: "Jekyll: Sitemap plugin with GitHub Pages"
+tags:
+- dev
+- jekyll
 ---
 A Jekyll site with plugins only runs on GitHub Pages, if you compile locally. [As of recently](https://help.github.com/articles/using-jekyll-plugins-with-github-pages), atleast for creating a sitemap, this isn’t necessary anymore.
-
-<p class="block-note">GitHub Pages isn’t running the latest version of jekyll-sitemap. It’s currently v0.3.0 ([GitHub Pages dependency versions])(https://pages.github.com/versions/)).</p>
 
 One installs the plugin [jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap)…
 

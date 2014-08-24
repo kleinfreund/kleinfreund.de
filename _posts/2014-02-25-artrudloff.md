@@ -1,8 +1,10 @@
 ---
 date: 2014-02-25 14:31:33
 title: "Website: artrudloff.de"
-category: portfolio
 thumbnail-url: /img/portfolio/artrudloff-thumbnail.jpg
+tags:
+- dev
+- portfolio
 ---
 Die Website [artrudloff.de](http://artrudloff.de) habe ich im Sommer 2012 für meine Eltern erstellt. Zu finden gibt es eine Auswahl der Arbeiten von Anke und Andreas Rudloff.
 

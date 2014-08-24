@@ -1,8 +1,10 @@
 ---
 date: 2014-07-01 06:46:12
 title: "Website: marcografie.de"
-category: portfolio
 thumbnail-url: /img/portfolio/marcografie-thumbnail.jpg
+tags:
+- dev
+- portfolio
 ---
 Während der Praktika in meiner Ausbildung war ich in einer Agentur zu gegen. Marco Müller ist Fotograf und wollte sein Flashungetüm von Website loswerden. Nach einer kurzen Eiszeit ist [marcografie.de](http://marcografie.de) jetzt in neuem Gewand verfügbar.
 

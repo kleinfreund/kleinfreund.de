@@ -1,6 +1,9 @@
 ---
 title: Mondbasis von Philipp Rudloff
+layout: default
 ---
+<h1 class="page-title">Beiträge</h1>
+
 {% assign posts_de = site.posts | where:"lang","de" %}
 
 <ul class="post-list">
@@ -29,9 +32,9 @@ title: Mondbasis von Philipp Rudloff
                 </time>
             </li>
 
-            {% for category in post.categories %}
+            {% for tag in post.tags %}
             <li>
-                <a href="/kategorien#{{ category }}">{{ category | capitalize }}</a>
+                <a href="/tags#{{ tag }}">{{ tag }}</a>
             </li>
             {% endfor %}
         </ul>

@@ -2,6 +2,8 @@
 date: 2014-07-04 06:46:12
 title: "’Ne eigene Kamera"
 thumbnail-url: /img/posts/flickr-1.jpg
+tags:
+- photography
 ---
 Seit ein paar Monaten habe ich eine eigene Kamera. Meine erste Überlegung war in Richtung einer schnuckligen Systemkamera ([Sony NEX-3N](http://www.amazon.de/Sony-NEX-3NLB-Systemkamera-Megapixel-LCD-Display/dp/B00BHXVU6M)).
 

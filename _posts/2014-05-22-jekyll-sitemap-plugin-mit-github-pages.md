@@ -1,6 +1,9 @@
 ---
 date: 2014-05-22 11:02:14
 title: "Jekyll: Sitemap-Plugin mit GitHub Pages"
+tags:
+- dev
+- jekyll
 ---
 Eine Jekyll-Seite läuft mit Plugins auf GitHub Pages nur, wenn man vorher lokal kompiliert. [Seit kurzem](https://help.github.com/articles/using-jekyll-plugins-with-github-pages) muss man diesen Umweg zumindest für das erzeugen einer Sitemap nicht mehr gehen.
 

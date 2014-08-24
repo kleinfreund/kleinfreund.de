@@ -1,7 +1,6 @@
 ---
 date: 2014-02-07 16:49:44
 title: Neujahrs-Typografie
-category: portfolio
 thumbnail-url: /img/portfolio/2014-thumbnail.png
 ---
 Das neue Jahr begann in Typografie mit ein paar leichten Aufgaben zum Jahreswechsel. Stoff war eigentlich das Thema Hierarchie und durch welche Auszeichnungen man eine solche erzeugen kann. Viel zu leicht verliert man sich dann in grafischem Austoben. Wenigstens beim Motto bin ich geblieben.

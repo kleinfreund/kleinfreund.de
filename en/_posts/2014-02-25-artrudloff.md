@@ -1,8 +1,10 @@
 ---
 date: 2014-02-25 14:31:32
 title: "Website: artrudloff.de"
-category: portfolio
 thumbnail-url: /img/portfolio/artrudloff-thumbnail.jpg
+tags:
+- dev
+- portfolio
 ---
 I built [artrudloff.de](http://artrudloff.de) for my parents in Summer 2012. It’s a showcase of their work.
 

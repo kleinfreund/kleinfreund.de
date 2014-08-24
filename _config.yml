@@ -42,10 +42,6 @@ author:
 google_analytics: UA-52540063-1
 google_verify: 2D5zbZ2Vatb8CeFj1cUCRdJZ3SQatSUlQesml02jEPo
 
-# Used to output language-specific text via `_data/locales.yml`
-default_locale: "de"
-authorized_locales: ["de", "en"]
-
 defaults:
   # Default layout and language to everything
   -
@@ -54,14 +50,20 @@ defaults:
     values:
       layout: "default"
       lang: "de"
-  # Specify default posts’ layout and category
+  # Specify default pages’ layout
+  -
+    scope:
+      path: ""
+      type: "page"
+    values:
+      layout: "page"
+  # Specify default posts’ layout
   -
     scope:
       path: ""
       type: "post"
     values:
       layout: "post"
-      category: "blog"
   # Set language for everything inside `/en`
   -
     scope:

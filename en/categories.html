@@ -2,11 +2,14 @@
 title: Categories
 permalink: /en/categories/
 ---
-{% for category in site.categories %}
+{% assign categories_sorted = site.categories | sort %}
+
+{% for category in categories_sorted %}
     {% unless category[0] == page.lang %}
 
     {% assign posts = category[1] | where:"lang","en" %}
 
+    {{posts.size}}
     {% if posts.size > 0 %}
     <h2 id="{{ category[0] }}">{{ category[0] }}</h2>
     <ul>
