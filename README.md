@@ -19,6 +19,10 @@ This is the repository for my personal site [kleinfreund.de](http://kleinfreund.
 ### Posts
 
 - Translate Schilbach post? Maybe not?
+- Soundtrack post reloaded?
+    - Transistor
+    - FTL
+    - Machinarium
 - about bilingual with `{{ page.lang }}` and Front Matter defaults
     - Uses category for languages (e.g.: `en`)
     - English pages and posts live inside `/en` and `/en/_posts`
