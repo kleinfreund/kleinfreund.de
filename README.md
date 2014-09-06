@@ -21,7 +21,6 @@ This is the repository for my personal site [kleinfreund.de](http://kleinfreund.
 ### Posts
 
 - Translate Schilbach post? Maybe not?
-<<<<<<< HEAD
 - Soundtrack post reloaded?
     - Transistor
     - FTL
@@ -30,10 +29,8 @@ This is the repository for my personal site [kleinfreund.de](http://kleinfreund.
     - Uses category for languages (e.g.: `en`)
     - English pages and posts live inside `/en` and `/en/_posts`
     - When creating category pages, one needs to filter out the _language_ categories
-=======
 - Write more for bbkv post
 - Use `{% post_url %}` in jekyll multilingual post
->>>>>>> 07933dc2c0df02624bdfc2dbd50f3d50bd26d401
 
 ## License
 
