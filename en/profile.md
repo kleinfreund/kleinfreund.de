@@ -1,8 +1,8 @@
 ---
-title: "Hey, I’m Philipp…"
+title: "Hey, I’m Philipp"
 permalink: /en/profile/
 ---
-I do Web Development and Design. Currently in an apprenticeship, study Media Informatics after that.
+I make websites and study Media Informatics at Bauhaus-Universität Weimar.
 
 ![Philipp Rudloff](/img/me.jpg)
 

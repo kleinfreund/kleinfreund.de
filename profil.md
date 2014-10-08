@@ -1,8 +1,8 @@
 ---
-title: "Hey, ich bin Philipp…"
+title: "Hey, ich bin Philipp"
 permalink: /profil/
 ---
-…und ich mache Websites. Nach meiner Ausbildung zum [Gestaltungstechnischen Assistenten](https://de.wikipedia.org/wiki/Gestaltungstechnischer_Assistent) werde ich deswegen auch ab Oktober Medieninformatik in Weimar studieren.
+Ich mache Websites und studiere Medieninformatik an der Bauhaus-Universität Weimar.
 
 ![Philipp Rudloff](/img/me.jpg)
 
