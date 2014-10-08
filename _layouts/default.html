@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>{% if page.title %}{{ page.title }}{% endif %} – kleinfreund.de</title>
+    <title>{% if page.title %}{{ page.title }}{% endif %} – {{ site.title }}</title>
 
     <!--| Hello, code inspecting individual.
         | Feel free to poke around.
@@ -12,21 +12,21 @@
         | :]
         |-->
 
-    <!-- Prefetching Google Webfonts/Analytics -->
+    <!-- Prefetching external content (i.e. Google Fonts, Analytics, etc.) -->
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="dns-prefetch" href="//themes.googleusercontent.com">
     {% if site.google_analytics %}<link rel="dns-prefetch" href="//www.google-analytics.com">{% endif %}
 
     <link rel="shortcut icon" href="/img/icon.png">
 
-    <meta name="description" content="{{ site.data.locales[page.lang].description }}">
+    {% if site.description %}<meta name="description" content="{{ site.data.locales[page.lang].description }}">{% endif %}
 
     {% if site.google_verify %}<!-- Webmaster Tools verfication -->
     <meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
 
     <script>
         /*! loadCSS: load a CSS file asynchronously. [c]2014 @scottjehl, Filament Group, Inc. Licensed MIT */
-        function loadCSS(e,t,n){"use strict";var r=window.document.createElement("link");var i=t||window.document.getElementsByTagName("script")[0];r.rel="stylesheet";r.href=e;r.media="only x";i.parentNode.insertBefore(r,i);setTimeout(function(){r.media=n||"all"});return r}loadCSS("/css/kleinfreund.min.css")
+        function loadCSS(e,t,n){"use strict";var r=window.document.createElement("link");var i=t||window.document.getElementsByTagName("script")[0];r.rel="stylesheet";r.href=e;r.media="only x";i.parentNode.insertBefore(r,i);setTimeout(function(){r.media=n||"all"});return r}loadCSS("/css/{{ site.name }}.min.css")
     </script>
 
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ubuntu:300,500,300italic">
@@ -86,21 +86,7 @@
 
     {% if site.google_analytics %}<!-- Google Analytics snippet -->
     <script>
-        (function(i,s,o,g,r,a,m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('set', 'anonymizeIp', true);
-        ga('send', 'pageview');
+        (function(e,t,n,r,i,s,o){e["GoogleAnalyticsObject"]=i;e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date;s=t.createElement(n),o=t.getElementsByTagName(n)[0];s.async=1;s.src=r;o.parentNode.insertBefore(s,o)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","{{site.google_analytics}}","auto");ga("set","anonymizeIp",true);ga("send","pageview")
     </script>
     {% endif %}
 </body>

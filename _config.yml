@@ -1,3 +1,4 @@
+name: kleinfreund
 title: kleinfreund.de
 url: http://kleinfreund.de
 
@@ -11,10 +12,8 @@ include:
   - .htaccess
 
 exclude:
-  - node_modules
   - prepros.json
   - config.rb
-  - kleinfreund.sublime-workspace
 
 gems:
   # Activate jekyll-sitemap plugin
