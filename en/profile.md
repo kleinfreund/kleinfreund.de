@@ -2,7 +2,7 @@
 title: "Hey, I’m Philipp"
 permalink: /en/profile/
 ---
-I make websites and study Media Informatics at Bauhaus-Universität Weimar.
+I make websites and study Computer Science and Media at Bauhaus-Universität Weimar.
 
 ![Philipp Rudloff](/img/me.jpg)
 
