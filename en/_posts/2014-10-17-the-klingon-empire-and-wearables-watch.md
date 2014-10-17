@@ -4,7 +4,7 @@ title: "The Klingon Empire and Wearables: Watch"
 tags:
 - personal
 ---
-I’m happy to hear that the [Klingonische Reich](http://en.memory-alpha.org/wiki/Klingon_Empire) is catching up on the trend of wearables in time.
+I’m happy to hear that the [Klingon Empire](http://en.memory-alpha.org/wiki/Klingon_Empire) is catching up on the trend of wearables in time.
 
 But seriously now, can you please stop using `` ([U+F8FF](http://www.fileformat.info/info/unicode/char/f8ff)) as a symbol for Apple?
 
