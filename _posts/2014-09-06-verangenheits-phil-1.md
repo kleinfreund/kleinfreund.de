@@ -1,10 +1,10 @@
 ---
 date: 2014-09-06 10:16:45
-title: "Vergangenheits-Phil… (1)"
+title: "Vergangenheits-Phil … (1)"
 tags:
 - personal
 ---
-…wusste damals nicht, dass man eine iTunes-Mediathek exportieren kann, um sie auf einen anderen oder in seinem Fall neu eingerichteten Rechner zu übertragen.
+… wusste damals nicht, dass man eine iTunes-Mediathek exportieren kann, um sie auf einen anderen oder in seinem Fall neu eingerichteten Rechner zu übertragen.
 
 __Datei__ > __Mediathek__ > __Mediathek exportieren__
 
