@@ -6,31 +6,28 @@ This is the repository for my personal site [kleinfreund.de](http://kleinfreund.
 
 ### Under the hood
 
-- Minify production HTML? Seems like it’s not possible with GHP. MEH =/
-- Inline critical CSS with `loadCSS();` (testing this currently)
-- Consider using Grunt instead of Gulp
+-
 
 ### Site enhancements
 
 - New contact (?) page (story about the current state of how the site is made)
-    - wait for: ghp 2.1 / source maps
-- Utilize CSS source maps
-    - gulp? wait for node-sass issue
-    - prepros? wait for: prepros issue
 
 ### Posts
 
-- Translate Schilbach post? Maybe not?
-- Soundtrack post reloaded?
-    - Transistor
-    - FTL
-    - Machinarium
-- about bilingual with `{{ page.lang }}` and Front Matter defaults
-    - Uses category for languages (e.g.: `en`)
-    - English pages and posts live inside `/en` and `/en/_posts`
-    - When creating category pages, one needs to filter out the _language_ categories
-- Write more for bbkv post
-- Use `{% post_url %}` in jekyll multilingual post
+-
+
+### Performance
+
+- Leverage browser caching
+- Specify dimensions for `img` tags
+- Minify HTML
+- Minify CSS (Omit space in media queries)
+- Inline critical CSS with `loadCSS();` (testing this currently)
+- Async webfont loading
+
+http://bdadam.com/blog/loading-webfonts-with-high-performance.html
+
+Check WOFF/WOFF2 support and support only IE9+ und modern browsers
 
 ## License
 
