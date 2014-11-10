@@ -25,6 +25,14 @@ kramdown:
   # Disable auto-generated ID’s for headings
   auto_ids: false
 
+# Asset paths
+path:
+  css: css/
+  sass: sass/
+  fonts: fonts/
+  images: img/
+  javascript: js/
+
 # Author information
 author:
   name: Philipp Rudloff
