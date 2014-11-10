@@ -10,6 +10,6 @@ But seriously now, can you please stop using `` ([U+F8FF](http://www.fileform
 
 Because all I see is this:
 
-![The Klingon Empire](/img/posts/klingon-empire.png)
+<img src="/img/posts/klingon-empire.jpg" alt="The Klingon Empire" width="620" height="100">
 
 This is due the character being part of the [Private Use Area](http://en.wikipedia.org/wiki/Private_Use_Areas) which OS manufacturers are free to assign symbols to. Apple chose to assign an Apple. Microsaft could’ve assigned a pile of poo. Good thing they did not.

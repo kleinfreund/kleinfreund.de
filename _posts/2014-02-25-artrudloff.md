@@ -1,7 +1,10 @@
 ---
 date: 2014-02-25 14:31:33
 title: "Website: artrudloff.de"
-thumbnail-url: /img/portfolio/artrudloff-thumbnail.jpg
+thumbnail:
+    url: /img/portfolio/artrudloff-thumbnail.jpg
+    width: 620
+    height: 349
 tags:
 - dev
 - portfolio
@@ -10,12 +13,12 @@ Die Website [artrudloff.de](http://artrudloff.de) habe ich im Sommer 2012 für m
 
 Hinter der Seite steht ein braves Wordpress. Im letzten Jahr habe ich die Seite noch einmal überarbeitet. Seit dem verwende ich [inuitcss](http://inuitcss.com) und eine angepasste [Teehan+Lax Navigation](http://alexcican.com/post/teehan-lax-navigation).
 
-![Website von Anke und Andreas Rudloff – Startseite](/img/portfolio/artrudloff-1.jpg)
+<img src="/img/portfolio/artrudloff-1.jpg" alt="Website von Anke und Andreas Rudloff – Startseite" width="620" height="330">
 
 Andreas präsentiert seine Druckgrafiken, Aquarelle und Plakate.
 
-![Website von Andreas Rudloff](/img/portfolio/artrudloff-2.jpg)
+<img src="/img/portfolio/artrudloff-2.jpg" alt="Website von Andreas Rudloff" width="620" height="330">
 
 Bei Anke finden sich ihre Glockengestaltungen, Holzarbeiten, Wandbilder und Zeichnungen.
 
-![Website von Anke Rudloff](/img/portfolio/artrudloff-3.jpg)
+<img src="/img/portfolio/artrudloff-3.jpg" alt="Website von Anke Rudloff" width="620" height="330">

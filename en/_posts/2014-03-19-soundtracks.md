@@ -13,7 +13,7 @@ __By the way:__ Click on the images to go to the bandcamp pages of these albums.
 ## Darren Korb: Bastion
 
 <figure>
-    <a href="http://supergiantgames.bandcamp.com/album/bastion-original-soundtrack/"><img src="/img/posts/darren-korb-bastion-soundtrack-cover.jpg" alt="Darren Korb: Bastion Soundtrack"></a>
+    <a href="http://supergiantgames.bandcamp.com/album/bastion-original-soundtrack/"><img src="/img/posts/soundtracks-darren-korb-bastion-soundtrack-cover.jpg" alt="Darren Korb: Bastion Soundtrack" width="620" height="207"></a>
     <figcaption>Bastion Artwork by <a href="http://supergiantgames.com">Supergiant Games</a>.</figcaption>
 </figure>
 
@@ -24,7 +24,7 @@ Great, that the soundtrack even tops that. Downright recommended. Favorite track
 ## Floex: Zorya
 
 <figure>
-    <a href="http://store.floex.cz/album/zorya"><img src="/img/posts/floex-zorya-cover.jpg" alt="Floex: Zorya"></a>
+    <a href="http://store.floex.cz/album/zorya"><img src="/img/posts/soundtracks-floex-zorya-cover.jpg" alt="Floex: Zorya" width="620" height="207"></a>
     <figcaption>Zorya Artwork by <a href="http://www.floex.cz">Floex</a>.</figcaption>
 </figure>
 
@@ -35,7 +35,7 @@ Harmonious, mystic clarinette tootling. I like it a lot. Best song? _Precious Cr
 ## Jim Guthrie: Sword & Sworcery LP
 
 <figure>
-    <a href="http://jimguthrie.bandcamp.com/album/sword-sworcery-lp-the-ballad-of-the-space-babies"><img src="/img/posts/jim-guthrie-sword-and-sworcery-lp-cover.jpg" alt="Jim Guthrie: Sword & Sworcery LP"></a>
+    <a href="http://jimguthrie.bandcamp.com/album/sword-sworcery-lp-the-ballad-of-the-space-babies"><img src="/img/posts/soundtracks-jim-guthrie-sword-and-sworcery-lp-cover.jpg" alt="Jim Guthrie: Sword &amp; Sworcery LP" width="620" height="207"></a>
     <figcaption>Sword & Sworcery LP Artwork by <a href="http://www.superbrothershq.com/artwork/sword-sworcery-2009-2012">Superbrothers HQ</a>.</figcaption>
 </figure>
 
@@ -46,7 +46,7 @@ Pleasent companion for quiet afternoons or weekends. But that may account for al
 ## Carlo Castellano: The Swapper
 
 <figure>
-    <a href="http://store.carlocastellano.cc/album/the-swapper-original-soundtrack"><img src="/img/posts/carlo-castellano-the-swapper-soundtrack-cover.jpg" alt="Carlo Castellano: The Swapper"></a>
+    <a href="http://store.carlocastellano.cc/album/the-swapper-original-soundtrack"><img src="/img/posts/soundtracks-carlo-castellano-the-swapper-soundtrack-cover.jpg" alt="Carlo Castellano: The Swapper" width="620" height="207"></a>
     <figcaption>The Swapper Artwork by <a href="http://www.sakkesoini.com">Sakke Soini</a> and <a href="https://twitter.com/facepalmgames">Olli Harjola</a>.</figcaption>
 </figure>
 
@@ -57,7 +57,7 @@ Spherical, mystical sounds. Title 6 is one of those fascinating piano tracks: _R
 ## C418: Volume Beta
 
 <figure>
-    <a href="http://c418.bandcamp.com/album/minecraft-volume-beta"><img src="/img/posts/c418-volume-beta-cover.jpg" alt="C418: Volume Beta"></a>
+    <a href="http://c418.bandcamp.com/album/minecraft-volume-beta"><img src="/img/posts/soundtracks-c418-volume-beta-cover.jpg" alt="C418: Volume Beta" width="620" height="207"></a>
     <figcaption>Volume Beta Artwork by <a href="http://c418.bandcamp.com/album/minecraft-volume-beta">C418</a>.</figcaption>
 </figure>
 
@@ -66,7 +66,7 @@ As if the first soundtrack for Minecraft wasn’t good enough, Daniel Rosenfeld 
 ## Tiny & Big: Music To Cut Rocks By
 
 <figure>
-    <a href="http://blackpantsgamestudio.bandcamp.com/album/tiny-big-soundtrack"><img src="/img/posts/tiny-and-big-soundtrack-cover.jpg" alt="Tiny & Big: Music To Cut Rocks By"></a>
+    <a href="http://blackpantsgamestudio.bandcamp.com/album/tiny-big-soundtrack"><img src="/img/posts/soundtracks-tiny-and-big-soundtrack-cover.jpg" alt="Tiny &amp; Big: Music To Cut Rocks By" width="620" height="207"></a>
     <figcaption>Tiny & Big Artwork by <a href="http://www.the-stamm.com/wordpress/?portfolio=tiny-big-box-art">Sebastian Stamm</a>.</figcaption>
 </figure>
 

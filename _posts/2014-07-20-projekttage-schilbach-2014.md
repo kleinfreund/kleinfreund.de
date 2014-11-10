@@ -11,7 +11,7 @@ Dass nicht nur die kreative Sau ’mal mit dem einen oder anderen durchgeht, bra
 [Andreas Rudloff](http://andreas.artrudloff.de/) arbeitet mit den Schülern in der traditionellen Technik der Radierung. Zeichnungen mit Salpetersäure und Zinkplatten.
 
 <figure>
-    <img src="/img/posts/schilbach-2014-druckgrafik.jpg" alt="">
+    <img src="/img/posts/schilbach-2014-druckgrafik.jpg" alt="Wolpertinger von Julia Hahn" width="620" height="413">
     <figcaption>Wolpertinger von Julia Hahn (Mein Lieblings)</figcaption>
 </figure>
 
@@ -24,7 +24,7 @@ Völlig analog entstehen Fotografien mit [selbst gebauten Lochkameras](https://w
 Eine kleine Auswahl meiner Arbeiten aus dieser Woche habe ich in Form eines [Flickr-Albums](https://www.flickr.com/photos/kleinfreund/sets/72157645775493805/) zusammengestellt.
 
 <figure>
-    <img src="/img/posts/schilbach-2014-lochkamera.jpg" alt="">
+    <img src="/img/posts/schilbach-2014-lochkamera.jpg" alt="Brunnen (Negativ und Positiv) von Ruben Odewole" width="620" height="413">
     <figcaption>Brunnen (Negativ und Positiv) von Ruben Odewole</figcaption>
 </figure>
 
@@ -33,7 +33,7 @@ Eine kleine Auswahl meiner Arbeiten aus dieser Woche habe ich in Form eines [Fli
 Die Teilnehmer arbeiten mit farbigen Tuschen und Wachs auf Japan- und Seidenpapieren. Mit der Anleitung von [Anke Rudloff](http://anke.artrudloff.de/) entstehen großzügige Malereien auf großem Format.
 
 <figure>
-    <img src="/img/posts/schilbach-2014-wachspapiere.jpg" alt="">
+    <img src="/img/posts/schilbach-2014-wachspapiere.jpg" alt="Jamie Lang" width="620" height="413">
     <figcaption>Jamie Lang im schweißtreibenden Einsatz</figcaption>
 </figure>
 
@@ -42,7 +42,7 @@ Die Teilnehmer arbeiten mit farbigen Tuschen und Wachs auf Japan- und Seidenpapi
 Mit Zeichnungen erzählen die Schüler Bildergeschichten, die schließlich gedruckt als Comics entstehen. Begleitet wird das von der freiberuflichen Illustratorin Christina Röckl aus Leipzig.
 
 <figure>
-    <img src="/img/posts/schilbach-2014-comic.jpg" alt="">
+    <img src="/img/posts/schilbach-2014-comic.jpg" alt="Comic Workshop" width="620" height="413">
     <figcaption>Comics im Entstehen. Der letzte Keks wurde gemein vor meinen Augen verspissen.</figcaption>
 </figure>
 
@@ -51,8 +51,8 @@ Mit Zeichnungen erzählen die Schüler Bildergeschichten, die schließlich gedru
 Die Teilnehmer entwickeln mit Reiner Bittner zufällige Formen und Strukturen, die dann Kraft der Fantasie zu Landschaften und Figuren werden.
 
 <figure>
-    <img src="/img/posts/schilbach-2014-malerei.jpg" alt="">
-    <figcaption>Bild von Leon Zschächner (Acrylmalerei)</figcaption>
+    <img src="/img/posts/schilbach-2014-malerei.jpg" alt="von Leon Zschächner (Acryl)" width="620" height="465">
+    <figcaption>Bild von Leon Zschächner (Acryl)</figcaption>
 </figure>
 
 ## Leder
@@ -60,7 +60,7 @@ Die Teilnehmer entwickeln mit Reiner Bittner zufällige Formen und Strukturen, d
 Aus eigenen Designs entstehen Ledertaschen mit Steffi Ehrhardt. Über echte Handarbeit kommt man am Ende zu einem handfesten Produkt.
 
 <figure>
-    <img src="/img/posts/schilbach-2014-leder.jpg" alt="">
+    <img src="/img/posts/schilbach-2014-leder.jpg" alt="Leder Workshop" width="620" height="413">
     <figcaption>Der völlig unaufgeräumte Arbeitsplatz der Lederleute (Quatsch, sah überall so aus)</figcaption>
 </figure>
 
