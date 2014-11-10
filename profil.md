@@ -4,7 +4,7 @@ permalink: /profil/
 ---
 Ich mache Websites und studiere Medieninformatik an der Bauhaus-Universität Weimar.
 
-![Philipp Rudloff](/img/me.jpg)
+<img src="/img/me.jpg" alt="Philipp Rudloff" width="620" height="620">
 
 Meine Lieblingswerkzeuge sind CSS und [Sass](http://sass-lang.com "Syntactically Awesome Stylesheets"), zusammen mit [Jekyll](http://jekyllrb.com) und [GitHub]({{ site.author.github }}).
 

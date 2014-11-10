@@ -4,7 +4,7 @@ permalink: /en/profile/
 ---
 I make websites and study Computer Science and Media at Bauhaus-Universität Weimar.
 
-![Philipp Rudloff](/img/me.jpg)
+<img src="/img/me.jpg" alt="Philipp Rudloff" width="620" height="620">
 
 I’ve put plenty of [CSS](http://www.w3.org/Style/CSS) and [SASS](http://sass-lang.com "Syntactically Awesome Style Sheets") into my bag of tricks. Besides that, it contains [Jekyll](http://jekyllrb.com), [Wordpress](http://de.wordpress.org) and [Tumblr](http://tumblr.com).
 
