@@ -3,7 +3,7 @@ loadCSS: load a CSS file asynchronously.
 [c]2014 @scottjehl, Filament Group, Inc.
 Licensed MIT
 */
-function loadCSS(href, before, media){
+function loadCSS(href, before, media) {
     "use strict";
 
     // Arguments explained:
@@ -25,8 +25,10 @@ function loadCSS(href, before, media){
     ref.parentNode.insertBefore(ss, ref);
 
     // set media back to `all` so that the styleshet applies once it loads
-    setTimeout( function(){
+    setTimeout( function() {
         ss.media = media || "all";
     });
     return ss;
 }
+
+loadCSS("/css/{{ site.name }}.min.css")
