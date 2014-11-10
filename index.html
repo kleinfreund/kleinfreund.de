@@ -43,8 +43,8 @@ layout: default
             <a href="{{ post.url }}">{{ post.title }}</a>
         </h2>
 
-        {% if post.thumbnail-url %}
-            <p><img src="{{ post.thumbnail-url }}" alt="{{ post.title }}"></p>
+        {% if post.thumbnail.url %}
+            <p><img src="{{ post.thumbnail.url }}" alt="{{ post.title }}" width="{{ post.thumbnail.width }}" height="{{ post.thumbnail.height }}"></p>
         {% else %}
             {{ post.excerpt }}
         {% endif %}
