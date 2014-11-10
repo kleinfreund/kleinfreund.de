@@ -1,5 +1,5 @@
 html {
-    font: 300 #{($base-font-size/16px)*1em}/#{$line-height-ratio} $base-font-family;
+    font: $base-font-weight #{($base-font-size/16px)*1em}/#{$line-height-ratio} $base-font-family;
     color: $text-color;
     background-color: $background-color;
     overflow-y: scroll;
@@ -11,6 +11,10 @@ html {
 /**
  * Headings
  */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: $bold-font-weight;
+}
+
 h1 {
     @include font-size($h1-size);
 }
