@@ -19,6 +19,11 @@ layout: compress
 
     <script>{% include ubuntu.min.js %}</script>
     <script>{% include loadcss.min.js %}</script>
+    {% if site.google_analytics %}<!-- Google Analytics snippet -->
+    <script defer>
+        {% include analytics.min.js %}
+    </script>
+    {% endif %}
 
     <!-- Prefetching external content (i.e. Analytics) -->
     {% if site.google_analytics %}<link rel="dns-prefetch" href="//www.google-analytics.com">{% endif %}
@@ -74,13 +79,5 @@ layout: compress
             <path id="nav-icon__bar" d="M0,0 30,0 30,6 0,6"/>
         </defs>
     </svg>
-
-
-
-    {% if site.google_analytics %}<!-- Google Analytics snippet -->
-    <script>
-        {% include analytics.min.js %}
-    </script>
-    {% endif %}
 </body>
 </html>
