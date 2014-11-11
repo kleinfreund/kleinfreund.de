@@ -29,7 +29,7 @@ http://bdadam.com/blog/loading-webfonts-with-high-performance.html
 
 Check WOFF/WOFF2 support and support only IE9+ und modern browsers
 
-## License
+## Licenses
 
 - Content: [CC BY-SA](http://creativecommons.org/licenses/by-sa/3.0/)
 - Code: [MIT](http://opensource.org/licenses/mit-license.php)
