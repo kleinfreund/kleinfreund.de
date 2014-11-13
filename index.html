@@ -4,10 +4,10 @@ layout: default
 ---
 <h1 class="page-title">Beiträge</h1>
 
-{% assign posts_de = site.posts | where:"lang","de" %}
+{% assign posts = site.posts | where:"lang","de" %}
 
 <ul class="post-list">
-{% for post in posts_de limit:site.max_posts %}
+{% for post in posts limit:site.max_posts %}
     <li>
         <ul class="meta-list">
             <li>
@@ -52,6 +52,6 @@ layout: default
 {% endfor %}
 </ul>
 
-{% if posts_de.size > site.max_posts %}
+{% if posts.size > site.max_posts %}
 <a href="/archiv" class="island">Mehr Beiträge im Archiv lesen</a>
 {% endif %}
