@@ -33,6 +33,8 @@ path:
   images: img/
   javascript: js/
 
+ui_color: 5e85d6
+
 # Author information
 author:
   name: Philipp Rudloff
