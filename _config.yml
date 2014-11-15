@@ -46,7 +46,7 @@ author:
   codereview: http://codereview.stackexchange.com/users/35408
 
 # Google analytics/webmaster tools verification
-google_analytics: UA-52540063-1
+# google_analytics: UA-52540063-1
 google_verify: 2D5zbZ2Vatb8CeFj1cUCRdJZ3SQatSUlQesml02jEPo
 
 # https://github.com/penibelst/jekyll-compress-html by Anatol Broder
