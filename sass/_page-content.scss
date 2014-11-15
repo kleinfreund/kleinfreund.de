@@ -1,5 +1,4 @@
 .page-content {
-    @include vertical-gap(top);
     @include vertical-gap(bottom);
 
     ul, ol {

@@ -583,6 +583,22 @@ pre {
     color: #fff;
     white-space: pre; }
 
+/* line 1, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/sticky-footer */
+.page {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+/* line 7, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/sticky-footer */
+.page-content {
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1; }
+
 /* line 1, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/pagination */
 .pagination {
   margin-left: 0;
@@ -678,76 +694,71 @@ pre {
   .nav-icon__bar {
     fill: #5e85d6;
     -webkit-transform: translate(0) rotate(0);
-    -ms-transform: translate(0) rotate(0);
-        transform: translate(0) rotate(0);
+    transform: translate(0) rotate(0);
     transition: -webkit-transform 0.2s;
     transition: transform 0.2s; }
 
 /* line 78, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/toggle-nav */
 .toggle-nav__input:checked ~ .toggle-nav__label .nav-icon__bar--top {
   -webkit-transform: translate(6px, 2px) rotate(45deg);
-  -ms-transform: translate(6px, 2px) rotate(45deg);
-      transform: translate(6px, 2px) rotate(45deg); }
+  transform: translate(6px, 2px) rotate(45deg); }
 /* line 83, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/toggle-nav */
 .toggle-nav__input:checked ~ .toggle-nav__label .nav-icon__bar--mid {
   display: none; }
 /* line 87, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/toggle-nav */
 .toggle-nav__input:checked ~ .toggle-nav__label .nav-icon__bar--bot {
   -webkit-transform: translate(-15px, 6px) rotate(-45deg);
-  -ms-transform: translate(-15px, 6px) rotate(-45deg);
-      transform: translate(-15px, 6px) rotate(-45deg); }
+  transform: translate(-15px, 6px) rotate(-45deg); }
 
 /* line 1, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
 .page-content {
-  margin-top: 120px;
-  margin-top: 6rem;
   margin-bottom: 120px;
   margin-bottom: 6rem; }
-  /* line 5, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+  /* line 4, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
   .page-content ul, .page-content ol {
     list-style-position: outside; }
 
-/* line 10, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+/* line 9, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
 .post-list {
   list-style: none;
   margin-bottom: 120px;
   margin-bottom: 6rem; }
-  /* line 14, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+  /* line 13, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
   .post-list > li {
     margin-bottom: 120px;
     margin-bottom: 6rem; }
-    /* line 17, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+    /* line 16, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
     .post-list > li > :last-child {
       margin-bottom: 0; }
 
-/* line 23, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+/* line 22, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
 .meta-list {
   list-style: none;
   margin-bottom: 0;
   margin-left: 0; }
-  /* line 28, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+  /* line 27, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
   .meta-list > li {
     display: inline-block;
     font-size: 16px;
     font-size: 0.8rem;
     line-height: 1.875; }
-    /* line 32, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+    /* line 31, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
     .meta-list > li + li:before {
       /* content: space middot space */
       content: "\0020 \00B7 \0020"; }
 
-/* line 41, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+/* line 40, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
 .archive-list .current-post a {
   color: #aaa; }
 
-/* line 46, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+/* line 45, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
 .block-note {
   position: relative;
   display: block;
   font-size: 16px;
   font-size: 0.8rem;
   line-height: 1.875; }
-  /* line 52, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+  /* line 51, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
   .block-note:before {
     /* content: "/!\ "; */
     content: "\2F \21 \5C \A0";
@@ -797,8 +808,7 @@ pre {
   /* line 16, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/site-logo */
   .site-logo:hover > svg {
     -webkit-transform: translateY(-30px);
-    -ms-transform: translateY(-30px);
-        transform: translateY(-30px);
+    transform: translateY(-30px);
     transition: -webkit-transform 0.2s 0.3s;
     transition: transform 0.2s 0.3s; }
 
