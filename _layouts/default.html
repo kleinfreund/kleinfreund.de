@@ -20,9 +20,8 @@ layout: compress
 
     <script>{% include ubuntu.min.js %}</script>
     <script>{% include loadcss.min.js %}</script>
-    {% if site.google_analytics %}<!-- Google Analytics snippet -->
-    <script defer>{% include analytics.min.js %}</script>
-    {% endif %}
+    {% if site.google_analytics %}<script defer>{% include analytics.min.js %}</script>{% endif %}
+
     <link rel="icon" href="/img/icon.png">
     <link rel="icon" href="/img/icon.svg" sizes="any" type="image/svg+xml">
     <link rel="apple-touch-icon-precomposed" href="/img/icon.png">
