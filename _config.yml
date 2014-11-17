@@ -5,24 +5,13 @@ url: http://kleinfreund.de
 permalink: /:categories/:year/:month/:title
 relative_permalinks: false
 
-# Maximum number of posts to display on blog pages
 max_posts: 10
 
-include:
-  - .htaccess
-
-exclude:
-  - prepros.json
-  - config.rb
-
 gems:
-  # Activate jekyll-sitemap plugin
   - jekyll-sitemap
 
 kramdown:
-  # Enable GitHub Flavored Markdown (fenced code blocks)
   input: GFM
-  # Disable auto-generated ID’s for headings
   auto_ids: false
 
 # Asset paths
@@ -45,7 +34,6 @@ author:
   stackoverflow: http://stackoverflow.com/users/2036825
   codereview: http://codereview.stackexchange.com/users/35408
 
-# Google analytics/webmaster tools verification
 # google_analytics: UA-52540063-1
 google_verify: 2D5zbZ2Vatb8CeFj1cUCRdJZ3SQatSUlQesml02jEPo
 
