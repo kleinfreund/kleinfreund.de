@@ -3,8 +3,8 @@ title: Legal disclosure
 permalink: /en/legal-disclosure/
 ---
 Philipp Rudloff
-Markt 32
-08626 Adorf
+Hegelstraße 7
+99423 Weimar
 
 [phrudloff@gmail.com](mailto:phrudloff@gmail.com)
 
