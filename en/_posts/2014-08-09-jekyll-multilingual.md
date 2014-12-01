@@ -9,7 +9,7 @@ One of the big ups of Jekyll is the luxutry of being able to work with GitHub Pa
 
 My site is bilingual—German and English—whereas German is my main language. To do this I need an adjusted directory structure, categories and front matter defaults.
 
-## Direcotry Structure
+## Directory Structure
 
 ```
 .
@@ -75,7 +75,7 @@ defaults:
 
 ## The Blog Thing
 
-Creating a paginated blog with Jekyll is super easy. However this has its limitations. For example one isn’t able to filter tje posts `paginator.posts` is returning. That means I can’t just take all posts with `lang: en` and make a blog with pagination.
+Creating a paginated blog with Jekyll is super easy. However this has its limitations. For example one isn’t able to filter the posts `paginator.posts` is returning. That means I can’t just take all posts with `lang: en` and make a blog with pagination.
 
 Because I
 
