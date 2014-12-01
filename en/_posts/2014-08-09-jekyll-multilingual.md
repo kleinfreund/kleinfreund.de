@@ -75,7 +75,7 @@ defaults:
 
 ## The Blog Thing
 
-Creating a paginated blog with Jekyll is super easy. However this has its limitations. For example one isn’t able to filter tje posts `paginator.posts` is returning. That means I can’t just take all posts with `lang: en` and make a blog with pagination.
+Creating a paginated blog with Jekyll is super easy. However this has its limitations. For example one isn’t able to filter the posts `paginator.posts` is returning. That means I can’t just take all posts with `lang: en` and make a blog with pagination.
 
 Because I
 
