@@ -9,7 +9,7 @@ One of the big ups of Jekyll is the luxutry of being able to work with GitHub Pa
 
 My site is bilingual—German and English—whereas German is my main language. To do this I need an adjusted directory structure, categories and front matter defaults.
 
-## Direcotry Structure
+## Directory Structure
 
 ```
 .
