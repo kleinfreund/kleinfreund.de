@@ -19,9 +19,24 @@ layout: compress
         |-->
 
     <script>{% include ubuntu.min.js %}</script>
-    <script>{% include loadcss.min.js %}</script>
-    <noscript><link rel="stylesheet" href="/css/kleinfreund.min.css"></noscript>
-    {% if site.google_analytics %}<script defer>{% include analytics.min.js %}</script>{% endif %}
+
+    {% if site.loadCSS_js %}
+    <script>
+        {% include loadcss.min.js %}
+        loadCSS("{{ site.assets.css }}{{ site.name }}.min.css")
+    </script>
+    <noscript>
+        <link rel="stylesheet" href="{{ site.assets.css }}{{ site.name }}.min.css">
+    </noscript>
+    {% else %}
+        <link rel="stylesheet" href="{{ site.assets.css }}{{ site.name }}.min.css">
+    {% endif %}
+
+    {% if site.google_analytics %}
+    <script defer>
+        {% include analytics.min.js %}
+    </script>
+    {% endif %}
 
     <link rel="icon" href="/img/icon.png">
     <link rel="icon" href="/img/icon.svg" sizes="any" type="image/svg+xml">

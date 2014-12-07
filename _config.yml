@@ -15,12 +15,14 @@ kramdown:
   auto_ids: false
 
 # Asset paths
-path:
-  css: css/
-  sass: sass/
-  fonts: fonts/
-  images: img/
-  javascript: js/
+assets:
+  css: /css/
+  sass: /sass/
+  fonts: /fonts/
+  images: /img/
+  javascript: /js/
+
+loadCSS_js: true
 
 ui_color: 5e85d6
 

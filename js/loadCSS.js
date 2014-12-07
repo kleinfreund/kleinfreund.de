@@ -30,5 +30,3 @@ function loadCSS(href, before, media) {
     });
     return ss;
 }
-
-loadCSS("/css/{{ site.name }}.min.css")

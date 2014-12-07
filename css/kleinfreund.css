@@ -28,7 +28,7 @@
 html {
   -ms-text-size-adjust: 100%;
   /* 1 */
-  -webkit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
   /* 1 */ }
 
 /**
@@ -57,7 +57,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 audio, canvas, progress, video {
   display: inline-block;
   /* 1 */
-  vertical-align: baseline;
+  vertical-align: baseline
   /* 2 */ }
 
 /**
@@ -185,7 +185,7 @@ button, input, optgroup, select, textarea {
   /* 1 */
   font: inherit;
   /* 2 */
-  margin: 0;
+  margin: 0
   /* 3 */ }
 
 /**
@@ -216,7 +216,7 @@ button, select {
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
-  cursor: pointer;
+  cursor: pointer
   /* 3 */ }
 
 /**
@@ -253,7 +253,7 @@ input {
 input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
-  padding: 0;
+  padding: 0
   /* 2 */ }
 
 /**
@@ -303,7 +303,7 @@ fieldset {
 legend {
   border: 0;
   /* 1 */
-  padding: 0;
+  padding: 0
   /* 2 */ }
 
 /**
@@ -633,7 +633,7 @@ pre {
  */
 /* line 7, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/toggle-nav */
 #toggle-nav {
-  display: none;
+  display: none
   /* [1] */ }
 
 /**
@@ -651,11 +651,11 @@ pre {
   /* [1] */
   user-select: none;
   /* [1] */
-  cursor: pointer;
+  cursor: pointer
   /* [2] */ }
   @media only screen and (min-width: 1024px) {
     [for="toggle-nav"] {
-      display: none;
+      display: none
       /* [3] */ } }
 
 /**
@@ -665,15 +665,15 @@ pre {
  */
 /* line 37, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/toggle-nav */
 .site-nav {
-  display: none;
+  display: none
   /* [1] */ }
   /* line 40, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/toggle-nav */
   #toggle-nav:checked ~ .site-nav {
-    display: block;
+    display: block
     /* [2] */ }
   @media only screen and (min-width: 1024px) {
     .site-nav {
-      display: block;
+      display: block
       /* [3] */ } }
 
 /*------------------------------------*\
