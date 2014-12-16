@@ -30,7 +30,7 @@
 
         + li:before {
             /* content: space middot space */
-            content: "\0020 \00B7 \0020";
+            content: "\00A0 \00B7 \0020";
         }
     }
 }
