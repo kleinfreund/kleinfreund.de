@@ -58,3 +58,37 @@
         font-weight: bold;
     }
 }
+
+.quote__body {
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+.quote__source {
+    display: block;
+
+    &:before {
+        content: "\2014";
+    }
+}
+
+.iframe-wrapper {
+    @extend %vertical-rhythm;
+    position: relative;
+    height: 0;
+
+    &__video {
+        padding-bottom: 56.25%; /* 16:9 */
+        padding-top: 25px;
+    }
+
+    > iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}

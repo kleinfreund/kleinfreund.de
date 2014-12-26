@@ -354,7 +354,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dd, ol, ul, hr, figure {
  * Set `margin-bottom` to maintain vertycal rhythm
  */
 /* line 33, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/base */
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .block-note, .island {
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .block-note, .iframe-wrapper, .island {
   margin-bottom: 30px;
   margin-bottom: 1.5rem; }
 
@@ -464,41 +464,41 @@ html {
 /**
  * Headings
  */
-/* line 14, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
-h1, h2, h3, h4, h5, h6 {
+/* line 17, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
+h1, h1 > a, h2, h2 > a, h3, h3 > a, h4, h4 > a, h5, h5 > a, h6, h6 > a {
   font-weight: 500; }
 
-/* line 18, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
+/* line 22, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 h1 {
   font-size: 40px;
   font-size: 2rem;
   line-height: 1.5; }
 
-/* line 22, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
+/* line 26, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 h2 {
   font-size: 32px;
   font-size: 1.6rem;
   line-height: 1.875; }
 
-/* line 26, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
+/* line 30, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 h3 {
   font-size: 28px;
   font-size: 1.4rem;
   line-height: 1.071428571; }
 
-/* line 30, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
+/* line 34, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 h4 {
   font-size: 24px;
   font-size: 1.2rem;
   line-height: 1.25; }
 
-/* line 34, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
+/* line 38, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 h5 {
   font-size: 20px;
   font-size: 1rem;
   line-height: 1.5; }
 
-/* line 38, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
+/* line 42, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 h6 {
   font-size: 16px;
   font-size: 0.8rem;
@@ -507,46 +507,46 @@ h6 {
 /**
  * Lists
  */
-/* line 49, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
+/* line 53, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 li > ul, li > ol {
   margin-bottom: 0; }
 
-/* line 54, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
+/* line 58, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 dt {
   font-weight: 500; }
 
 /**
  * Quotations
  */
-/* line 63, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
+/* line 67, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 blockquote {
   border-left: 4px solid #5e85d6;
   margin-left: -15px;
   padding-left: 11px;
   font-style: italic; }
-  /* line 69, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
+  /* line 73, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
   blockquote > :last-child {
     margin-bottom: 0; }
 
-/* line 74, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
+/* line 78, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 .source {
   font-style: normal; }
 
 /**
  * Inline elements
  */
-/* line 83, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
+/* line 87, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 strong {
   font-weight: 500; }
 
-/* line 87, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
+/* line 91, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 q {
   font-style: italic; }
 
 /**
  * Links
  */
-/* line 96, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
+/* line 100, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 a {
   color: #5e85d6;
   font-weight: 300;
@@ -558,15 +558,15 @@ a {
 /**
  * Code
  */
-/* line 111, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
+/* line 115, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 pre, code, kbd, samp {
   font-family: Consolas, Courier New, Courier, monospace; }
 
-/* line 115, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
+/* line 119, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 code {
   white-space: nowrap; }
 
-/* line 119, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
+/* line 123, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 pre {
   overflow: auto;
   white-space: pre;
@@ -575,7 +575,7 @@ pre {
   background-color: #444;
   padding: 7.5px 15px;
   border-radius: 3px; }
-  /* line 128, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
+  /* line 132, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
   pre > code {
     font-size: 16px;
     font-size: 0.8rem;
@@ -745,7 +745,7 @@ pre {
     /* line 31, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
     .meta-list > li + li:before {
       /* content: space middot space */
-      content: "\0020 \00B7 \0020"; }
+      content: "\00A0 \00B7 \0020"; }
 
 /* line 40, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
 .archive-list .current-post a {
@@ -767,6 +767,34 @@ pre {
     color: #5e85d6;
     font-family: Consolas, Courier New, Courier, monospace;
     font-weight: bold; }
+
+/* line 64, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+.quote__body > :last-child {
+  margin-bottom: 0; }
+
+/* line 69, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+.quote__source {
+  display: block; }
+  /* line 72, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+  .quote__source:before {
+    content: "\2014"; }
+
+/* line 77, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+.iframe-wrapper {
+  position: relative;
+  height: 0; }
+  /* line 82, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+  .iframe-wrapper__video {
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px; }
+  /* line 87, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+  .iframe-wrapper > iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
 
 /* line 1, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/site-head */
 .site-head {
