@@ -41,9 +41,9 @@ google_verify: 2D5zbZ2Vatb8CeFj1cUCRdJZ3SQatSUlQesml02jEPo
 
 # https://github.com/penibelst/jekyll-compress-html by Anatol Broder
 compress_html:
-  clippings: [html, head, title, link, meta, style, body, article, section, nav, aside, h1, h2, h3, h4, h5, h6, header, footer, address, p, hr, blockquote, ol, ul, li, dl, dt, dd, figure, figcaption, main, div, table, caption, colgroup, col, tbody, thead, tfoot, tr, td, th]
+  clippings: all
   comments: ["<!--", "-->"]
-  endings: [html, head, body, li, dt, dd, p, rt, rp, optgroup, option, colgroup, caption, thead, tbody, tfoot, tr, td, th]
+  endings: all
   ignore:
     envs: [local]
 
