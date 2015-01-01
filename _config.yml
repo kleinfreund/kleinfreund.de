@@ -14,6 +14,8 @@ kramdown:
   input: GFM
   auto_ids: false
 
+
+
 # Asset paths
 assets:
   css: /css/
@@ -36,16 +38,18 @@ author:
   stackoverflow: http://stackoverflow.com/users/2036825
   codereview: http://codereview.stackexchange.com/users/35408
 
-# google_analytics: UA-52540063-1
 google_verify: 2D5zbZ2Vatb8CeFj1cUCRdJZ3SQatSUlQesml02jEPo
 
-# https://github.com/penibelst/jekyll-compress-html by Anatol Broder
+# compress.html by Anatol Broder
+# https://github.com/penibelst/jekyll-compress-html
 compress_html:
   clippings: all
   comments: ["<!--", "-->"]
   endings: all
   ignore:
     envs: [local]
+
+
 
 defaults:
   # Default layout and language to everything
