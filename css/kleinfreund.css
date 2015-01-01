@@ -743,22 +743,28 @@ pre {
     font-size: 0.8rem;
     line-height: 1.875; }
     /* line 31, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
-    .meta-list > li + li:before {
-      /* content: space middot space */
-      content: "\00A0 \00B7 \0020"; }
+    .meta-list > li + li {
+      position: relative; }
+      /* line 34, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+      .meta-list > li + li:before {
+        /* content: &middot; */
+        content: "\00B7";
+        position: relative;
+        margin-right: 5px;
+        margin-left: 5px; }
 
-/* line 40, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+/* line 47, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
 .archive-list .current-post a {
   color: #aaa; }
 
-/* line 45, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+/* line 52, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
 .block-note {
   position: relative;
   display: block;
   font-size: 16px;
   font-size: 0.8rem;
   line-height: 1.875; }
-  /* line 51, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+  /* line 58, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
   .block-note:before {
     /* content: "/!\ "; */
     content: "\2F \21 \5C \A0";
@@ -768,27 +774,27 @@ pre {
     font-family: Consolas, Courier New, Courier, monospace;
     font-weight: bold; }
 
-/* line 64, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+/* line 71, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
 .quote__body > :last-child {
   margin-bottom: 0; }
 
-/* line 69, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+/* line 76, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
 .quote__source {
   display: block; }
-  /* line 72, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+  /* line 79, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
   .quote__source:before {
     content: "\2014"; }
 
-/* line 77, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+/* line 84, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
 .iframe-wrapper {
   position: relative;
   height: 0; }
-  /* line 82, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+  /* line 89, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
   .iframe-wrapper__video {
     padding-bottom: 56.25%;
     /* 16:9 */
     padding-top: 25px; }
-  /* line 87, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+  /* line 94, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
   .iframe-wrapper > iframe {
     position: absolute;
     top: 0;

@@ -10,16 +10,10 @@ layout: default
 {% for post in posts limit:site.max_posts %}
     <li>
         <ul class="meta-list">
-            <li>
-                <time datetime="{{ post.date | date: '%Y-%m-%d' }}">
-                    {{ post.date | date: '%-d %B, %Y' }}
-                </time>
-            </li>
+            <li><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%-d %B, %Y' }}</time></li>
 
             {% for tag in post.tags %}
-            <li>
-                <a href="/tags#{{ tag }}">{{ tag }}</a>
-            </li>
+            <li><a href="/tags#{{ tag }}">{{ tag }}</a></li>
             {% endfor %}
         </ul>
 

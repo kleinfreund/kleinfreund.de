@@ -28,9 +28,16 @@
         display: inline-block;
         @include font-size(16px);
 
-        + li:before {
-            /* content: space middot space */
-            content: "\00A0 \00B7 \0020";
+        + li {
+            position: relative;
+
+            &:before {
+                /* content: &middot; */
+                content: "\00B7";
+                position: relative;
+                margin-right: $base-spacing-unit/6;
+                margin-left: $base-spacing-unit/6;
+            }
         }
     }
 }
