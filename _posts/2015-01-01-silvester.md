@@ -8,7 +8,7 @@ thumbnail:
 tags:
 - photography
 ---
-Zu Silvester waren wir draußen, da es zur Überraschung aller doch noch geschneit hatte. Die Temperaturen sind zwar wieder gestiegen, aber es war noch kalt genug. Der Schnee blieb bis zum nächsten Tag noch liegen.
+Zu Silvester waren wir draußen, da es zur Überraschung aller doch noch geschneit hatte. Die Temperaturen sind zwar wieder gestiegen, aber es war noch kalt genug. Der Schnee blieb bis zum nächsten Tag liegen.
 
 Der Himmel war von tiefhängenden Wolken verdeckt und es war merkwürdig düster. Es sah aus wie Nebel und als würde es gleich regnen. Herrlich.
 
