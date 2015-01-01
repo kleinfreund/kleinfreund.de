@@ -1,6 +1,8 @@
 ---
 date: 2014-07-20 06:50:37
 title: Projekttage Schilbach 2014
+tags:
+- personal
 ---
 Einmal im Jahr lassen Schüler des [BSZ e.o.plauen](http://bsz-eoplauen.de/) in der Projektwoche in Schilbach (Vogtland) im kreativen Sinne die Sau raus. In verschiedenen Workshops werden sie von Lehrern und auch Nichtlehrern betreut, das [Rittergut](http://rittergut-schilbach.de/) und die umliegenden Parkanlagen sind perfekte Unterbringung für diese Zeit.
 

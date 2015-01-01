@@ -5,6 +5,8 @@ thumbnail:
     url: /img/portfolio/pictograms-thumbnail.png
     width: 620
     height: 349
+tags:
+- design
 ---
 Hier sollten wir uns auf zwei einfache geometrische Formen beschränken und ein paar Tiere in Piktogramme verpacken.
 

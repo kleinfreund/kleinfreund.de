@@ -5,6 +5,8 @@ thumbnail:
     url: /img/portfolio/2014-thumbnail.png
     width: 620
     height: 349
+tags:
+- design
 ---
 The new year in typography started with some experiments around hierarchy and structure of type. It’s too easy to get lost on a didigtal playground like InDesign.
 
