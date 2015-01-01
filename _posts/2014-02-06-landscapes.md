@@ -1,7 +1,10 @@
 ---
 date: 2014-02-06 16:46:13
 title: Landscapes
-thumbnail-url: /img/portfolio/landscapes-1.jpg
+thumbnail:
+    url: /img/portfolio/landscapes-1.jpg
+    width: 620
+    height: 349
 tags:
 - photography
 ---
