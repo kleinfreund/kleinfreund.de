@@ -14,7 +14,7 @@ The sky was covered by low-hanging clouds and it was awkwardly gloomly. It looke
 
 <a href="https://www.flickr.com/photos/kleinfreund/15977614418"><img src="/img/posts/silvester-1.jpg" alt="New Year’s Eve 1" width="620" height="413"></a>
 
-<a href="https://www.flickr.com/photos/kleinfreund/15977734180/"><img src="/img/posts/silvester-2.jpg" alt="New Year’s Eve 2" width="620" height="413"></a>
+<a href="https://www.flickr.com/photos/kleinfreund/15977734180"><img src="/img/posts/silvester-2.jpg" alt="New Year’s Eve 2" width="620" height="413"></a>
 
 <a href="https://www.flickr.com/photos/kleinfreund/15977740110"><img src="/img/posts/silvester-3.jpg" alt="New Year’s Eve 3" width="620" height="413"></a>
 

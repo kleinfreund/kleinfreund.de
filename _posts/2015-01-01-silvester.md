@@ -14,7 +14,7 @@ Der Himmel war von tiefhängenden Wolken verdeckt und es war merkwürdig düster
 
 <a href="https://www.flickr.com/photos/kleinfreund/15977614418"><img src="/img/posts/silvester-1.jpg" alt="Silvester 1" width="620" height="413"></a>
 
-<a href="https://www.flickr.com/photos/kleinfreund/15977734180/"><img src="/img/posts/silvester-2.jpg" alt="Silvester 2" width="620" height="413"></a>
+<a href="https://www.flickr.com/photos/kleinfreund/15977734180"><img src="/img/posts/silvester-2.jpg" alt="Silvester 2" width="620" height="413"></a>
 
 <a href="https://www.flickr.com/photos/kleinfreund/15977740110"><img src="/img/posts/silvester-3.jpg" alt="Silvester 3" width="620" height="413"></a>
 
