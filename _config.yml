@@ -40,8 +40,7 @@ author:
 
 google_verify: 2D5zbZ2Vatb8CeFj1cUCRdJZ3SQatSUlQesml02jEPo
 
-# compress.html by Anatol Broder
-# https://github.com/penibelst/jekyll-compress-html
+# compress.html by Anatol Broder (http://jch.penibelst.de)
 compress_html:
   clippings: all
   comments: ["<!--", "-->"]
