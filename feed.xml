@@ -1,11 +1,11 @@
 ---
 layout: null
 ---
-{% assign posts = site.posts | where:"lang","de" %}
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        {% if site.title %}<title>{{ site.title | xml_escape }}</title>{% endif %}
+        {% assign posts = site.posts | where:"lang","de" %}
+        {% if site.title %}<title>{{ site.title | xml_escape }} (Deutsche Beiträge)</title>{% endif %}
         {% if site.data.locales[page.lang].description %}<description>{{ site.data.locales[page.lang].description | xml_escape }}</description>{% endif %}
         <link>{{ site.url }}{{ site.baseurl }}/</link>
         <atom:link href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
