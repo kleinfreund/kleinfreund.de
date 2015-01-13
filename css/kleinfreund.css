@@ -429,23 +429,26 @@ img, svg {
 /**
  * Figures
  */
-/* line 123, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/base */
+/* line 124, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/base */
 figure > img {
   display: block; }
+/* line 128, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/base */
+figure > .iframe-wrapper {
+  margin-bottom: 0; }
 
-/* line 127, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/base */
+/* line 133, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/base */
 figcaption {
   font-size: 16px;
   font-size: 0.8rem;
   line-height: 1.875; }
-  /* line 130, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/base */
+  /* line 136, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/base */
   figcaption > a {
     font-weight: 300; }
 
 /**
  * Rulers
  */
-/* line 140, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/base */
+/* line 146, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/base */
 hr {
   border: 0;
   border-bottom: 2px solid #aaa;

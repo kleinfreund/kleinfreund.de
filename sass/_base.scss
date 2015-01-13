@@ -120,8 +120,14 @@ img, svg {
 /**
  * Figures
  */
-figure > img {
-    display: block;
+figure {
+    > img {
+        display: block;
+    }
+
+    > .iframe-wrapper {
+        margin-bottom: 0;
+    }
 }
 
 figcaption {
