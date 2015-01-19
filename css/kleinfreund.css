@@ -456,6 +456,13 @@ hr {
   margin-bottom: 29px;
   margin-bottom: 1.45rem; }
 
+/**
+ * iframes
+ */
+/* line 159, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/base */
+iframe {
+  vertical-align: middle; }
+
 /* line 1, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 html {
   font: 300 1.25em/1.5 Ubuntu, sans-serif;
@@ -795,9 +802,17 @@ pre {
   /* line 89, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
   .iframe-wrapper__video {
     padding-bottom: 56.25%;
-    /* 16:9 */
+    /* 16:9: 9/16 */
     padding-top: 25px; }
   /* line 94, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+  .iframe-wrapper__soundcloud {
+    padding-bottom: 26.77%
+    /* 166/620 */ }
+  /* line 98, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+  .iframe-wrapper__bandcamp {
+    padding-bottom: 6.77%
+    /* 42/620 */ }
+  /* line 102, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
   .iframe-wrapper > iframe {
     position: absolute;
     top: 0;

@@ -87,8 +87,12 @@
     height: 0;
 
     &__video {
-        padding-bottom: 56.25%; /* 16:9 */
+        padding-bottom: 56.25%; /* 16:9: 9/16 */
         padding-top: 25px;
+    }
+
+    &__soundcloud {
+        padding-bottom: 26.77%; /* 166/620 */
     }
 
     > iframe {
