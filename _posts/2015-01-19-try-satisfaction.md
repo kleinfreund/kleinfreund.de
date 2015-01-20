@@ -8,7 +8,7 @@ Es gibt gute Nachrichten. Die Domain <a href="http://musigh.com">musigh.com</a> 
 
 Unter die Player packe ich jeweils den Direktlink zu SoundCloud, YouTube, Bandcamp etc. und, falls ich sie finde, die Website des Interpreten. An der Stelle sei ein Lob an Bandcamp ausgesprochen, deren Player zum Einbetten responsive sind.
 
-### LISS – Try
+## LISS – Try
 
 <figure>
     <div class="iframe-wrapper  iframe-wrapper__soundcloud">
@@ -17,14 +17,14 @@ Unter die Player packe ich jeweils den Direktlink zu SoundCloud, YouTube, Bandca
     <figcaption>auf <a href="https://soundcloud.com/liss2014/try/">SoundCloud</a>, via <a href="http://fuckyouverymuch.dk/post/106547379190/we-listen-to-liss">fuck you very much</a></figcaption>
 </figure>
 
-### Ghost Feet – Bog
+## Ghost Feet – Bog
 
 <figure>
     <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2367195171/size=small/bgcol=ffffff/linkcol={{ site.ui_color }}/track=2183804182/transparent=true/" seamless></iframe>
     <figcaption>auf <a href="https://droppinggems.bandcamp.com/track/bog">Bandcamp</a></figcaption>
 </figure>
 
-### Cat Power – (I Can’t Get No) Satisfaction
+## Cat Power – (I Can’t Get No) Satisfaction
 
 <figure>
     <div class="iframe-wrapper  iframe-wrapper__video">
