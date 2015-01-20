@@ -9,15 +9,33 @@
         width: 64px;
         height: 64px;
         float: left;
-        -webkit-transition: -webkit-transform 0.2s;
-                transition:         transform 0.2s;
+        transition: transform 0.2s;
     }
 
     &:hover > svg {
-        -webkit-transform: translateY(-30px);
-                transform: translateY(-30px);
-        -webkit-transition: -webkit-transform 0.2s 0.3s;
-                transition:         transform 0.2s 0.3s;
+        transform: translateY(-30px);
+        transition: transform 0.2s 0.3s;
+    }
+}
+
+.site-logo--valentines {
+
+    > svg,
+    &:hover > svg {
+        transform: none;
+        transition: none;
+    }
+
+    .site-logo__icon {
+        transform: rotate(0);
+        transform-origin: 50% 50%;
+        transition: all 0.3s;
+    }
+
+    &:hover .site-logo__icon {
+        transform: rotate(-135deg);
+        transition: all 0.7s 0.3s;
+        fill: #b31809;
     }
 }
 

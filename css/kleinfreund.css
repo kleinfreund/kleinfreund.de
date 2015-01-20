@@ -795,24 +795,25 @@ pre {
   .quote__source:before {
     content: "\2014"; }
 
-/* line 84, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+/**
+ * Responsive video/audio players
+ *   - Use 16:9 for videos in general
+ *   - Respect SoundCloud's fixed height to calculate ratio
+ */
+/* line 91, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
 .iframe-wrapper {
   position: relative;
   height: 0; }
-  /* line 89, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+  /* line 96, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
   .iframe-wrapper__video {
     padding-bottom: 56.25%;
     /* 16:9: 9/16 */
     padding-top: 25px; }
-  /* line 94, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+  /* line 101, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
   .iframe-wrapper__soundcloud {
     padding-bottom: 26.77%
     /* 166/620 */ }
-  /* line 98, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
-  .iframe-wrapper__bandcamp {
-    padding-bottom: 6.77%
-    /* 42/620 */ }
-  /* line 102, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
+  /* line 105, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
   .iframe-wrapper > iframe {
     position: absolute;
     top: 0;
@@ -857,19 +858,38 @@ pre {
     float: left;
     transition: -webkit-transform 0.2s;
     transition: transform 0.2s; }
-  /* line 16, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/site-logo */
+  /* line 15, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/site-logo */
   .site-logo:hover > svg {
     -webkit-transform: translateY(-30px);
-    transform: translateY(-30px);
+            transform: translateY(-30px);
     transition: -webkit-transform 0.2s 0.3s;
     transition: transform 0.2s 0.3s; }
 
 /* line 24, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/site-logo */
+.site-logo--valentines > svg, .site-logo--valentines:hover > svg {
+  -webkit-transform: none;
+          transform: none;
+  transition: none; }
+/* line 29, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/site-logo */
+.site-logo--valentines .site-logo__icon {
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  transition: all 0.3s; }
+/* line 35, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/site-logo */
+.site-logo--valentines:hover .site-logo__icon {
+  -webkit-transform: rotate(-135deg);
+          transform: rotate(-135deg);
+  transition: all 0.7s 0.3s;
+  fill: #b31809; }
+
+/* line 42, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/site-logo */
 .site-logo__icon {
   fill: #5e85d6; }
 
 @media only screen and (min-width: 481px) {
-  /* line 29, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/site-logo */
+  /* line 47, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/site-logo */
   .site-logo {
     margin-left: 90px; }
  }
