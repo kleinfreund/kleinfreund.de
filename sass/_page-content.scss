@@ -81,6 +81,13 @@
     }
 }
 
+
+
+/**
+ * Responsive video/audio players
+ *   - Use 16:9 for videos in general
+ *   - Respect SoundCloud's fixed height to calculate ratio
+ */
 .iframe-wrapper {
     @extend %vertical-rhythm;
     position: relative;
