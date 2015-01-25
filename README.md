@@ -4,30 +4,9 @@ This is the repository for my personal site [kleinfreund.de](http://kleinfreund.
 
 ## To Do
 
-### Under the hood
-
--
-
-### Site enhancements
-
-- New contact (?) page (story about the current state of how the site is made)
-
-### Posts
-
--
-
-### Performance
-
-- Leverage browser caching
-- Specify dimensions for `img` tags
-- Minify HTML
-- Minify CSS (Omit space in media queries)
-- Inline critical CSS with `loadCSS();` (testing this currently)
-- Async webfont loading
-
-http://bdadam.com/blog/loading-webfonts-with-high-performance.html
-
-Check WOFF/WOFF2 support and support only IE9+ und modern browsers
+- Post about Transistor (?)
+- Post about Moonman (?)
+- Handling tags in posts, not only on the blog index
 
 ## Licenses
 
