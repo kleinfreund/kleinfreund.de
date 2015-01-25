@@ -14,13 +14,13 @@ I will put the direct link to SoundCloud, YouTube, etc. below and also the links
     <div class="iframe-wrapper  iframe-wrapper__soundcloud">
         <iframe width="620" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/178633491&amp;color={{ site.ui_color }}&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
     </div>
-    <figcaption>on <a href="https://soundcloud.com/liss2014/try/">SoundCloud</a>, via <a href="http://fuckyouverymuch.dk/post/106547379190/we-listen-to-liss">fuck you very much</a></figcaption>
+    <figcaption>on <a href="https://soundcloud.com/liss2014/try/">SoundCloud</a> · via <a href="http://fuckyouverymuch.dk/post/106547379190/we-listen-to-liss">fuck you very much</a></figcaption>
 </figure>
 
 ## Ghost Feet – Bog
 
 <figure>
-    <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2367195171/size=small/bgcol=ffffff/linkcol={{ site.ui_color }}/track=2183804182/transparent=true/" seamless></iframe>
+    <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2367195171/size=small/bgcol=ffffff/linkcol={{ site.ui_color }}/track=2183804182/transparent=true/" seamless>Ghost Feet – Bog</iframe>
     <figcaption>on <a href="https://droppinggems.bandcamp.com/track/bog">Bandcamp</a></figcaption>
 </figure>
 
@@ -30,5 +30,5 @@ I will put the direct link to SoundCloud, YouTube, etc. below and also the links
     <div class="iframe-wrapper  iframe-wrapper__video">
         <iframe width="620" height="465" src="//www.youtube-nocookie.com/embed/W97TF9PCKWg?rel=0" frameborder="0" allowfullscreen></iframe>
     </div>
-    <figcaption>on <a href="https://www.youtube.com/watch?v=W97TF9PCKWg">YouTube</a>, <a href="http://www.catpowermusic.com/">website</a></figcaption>
+    <figcaption>on <a href="https://www.youtube.com/watch?v=W97TF9PCKWg">YouTube</a> · <a href="http://www.catpowermusic.com/">website</a></figcaption>
 </figure>
