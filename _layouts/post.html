@@ -2,7 +2,35 @@
 layout: default
 ---
 <article class="post">
-    <h1 class="page-title">{{ page.title }}</h1>
+    <ul class="meta-list">
+        <li>
+            <time datetime="{{ page.date | date: '%Y-%m-%d' }}">
+                {{ page.date | date: '%-d.' }}
+                {% assign m-de = page.date | date: '%-m' %}
+                {% case m-de %}
+                    {% when '1' %}Januar
+                    {% when '2' %}Februar
+                    {% when '3' %}März
+                    {% when '4' %}April
+                    {% when '5' %}Mai
+                    {% when '6' %}Juni
+                    {% when '7' %}Juli
+                    {% when '8' %}August
+                    {% when '9' %}September
+                    {% when '10' %}Oktober
+                    {% when '11' %}November
+                    {% when '12' %}Dezember
+                {% endcase %}
+                {{ page.date | date: '%Y' }}
+            </time>
+        </li>
+
+        {% for tag in page.tags %}
+        <li><a href="/tags#{{ tag }}">{{ tag }}</a></li>
+        {% endfor %}
+    </ul>
+
+    <h1>{{ page.title }}</h1>
 
     {{ content }}
 </article>

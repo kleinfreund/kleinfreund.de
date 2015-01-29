@@ -2,7 +2,7 @@
 title: Mondbasis von Philipp Rudloff
 layout: default
 ---
-<h1 class="page-title">Beiträge</h1>
+<h1>Beiträge</h1>
 
 {% assign posts = site.posts | where:"lang","de" %}
 
@@ -37,9 +37,7 @@ layout: default
             {% endfor %}
         </ul>
 
-        <h2 class="post-list__heading">
-            <a href="{{ post.url }}">{{ post.title }}</a>
-        </h2>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 
         {% if post.thumbnail.url %}
             <p><img src="{{ post.thumbnail.url }}" alt="{{ post.title }}" width="{{ post.thumbnail.width }}" height="{{ post.thumbnail.height }}"></p>

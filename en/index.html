@@ -2,7 +2,7 @@
 title: Moonbase of Philipp Rudloff
 layout: default
 ---
-<h1 class="page-title">Posts</h1>
+<h1>Posts</h1>
 
 {% assign posts = site.posts | where:"lang","en" %}
 
@@ -17,9 +17,7 @@ layout: default
             {% endfor %}
         </ul>
 
-        <h2 class="post-list__heading">
-            <a href="{{ post.url }}">{{ post.title }}</a>
-        </h2>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 
         {% if post.thumbnail.url %}
             <p><img src="{{ post.thumbnail.url }}" alt="{{ post.title }}" width="{{ post.thumbnail.width }}" height="{{ post.thumbnail.height }}"></p>
