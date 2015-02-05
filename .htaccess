@@ -1,6 +1,0 @@
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteBase /
-RedirectMatch 301 /mi http://webuser.uni-weimar.de/~ranu2619/mi
-RedirectMatch 301 /mi/ http://webuser.uni-weimar.de/~ranu2619/mi
-</IfModule>
