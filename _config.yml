@@ -9,7 +9,6 @@ max_posts: 10
 
 gems:
   - jekyll-sitemap
-  - jekyll-redirect-from
 
 kramdown:
   input: GFM
