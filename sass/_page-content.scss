@@ -90,23 +90,12 @@
  */
 .iframe-wrapper {
     @extend %vertical-rhythm;
-    position: relative;
-    height: 0;
 
     &__video {
-        padding-bottom: 56.25%; /* 16:9: 9/16 */
-        padding-top: 25px;
+        @include aspect-ratio(16, 9);
     }
 
     &__soundcloud {
-        padding-bottom: 26.77%; /* 166/620 */
-    }
-
-    > iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+        @include aspect-ratio(620, 166);
     }
 }

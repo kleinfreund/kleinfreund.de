@@ -62,3 +62,27 @@
         @content;
     }
 }
+
+
+
+/**
+ * http://css-tricks.com/snippets/sass/maintain-aspect-ratio-mixin/
+ */
+@mixin aspect-ratio($width, $height) {
+    position: relative;
+
+    &:before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: ($height / $width) * 100%;
+    }
+
+    > iframe {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+}
