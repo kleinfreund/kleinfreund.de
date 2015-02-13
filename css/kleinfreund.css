@@ -34,13 +34,15 @@ html {
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Remove default margin.
  */
 body {
-  margin: 0; }
+  margin: 0;
+}
 
 /* HTML5 display definitions
    ========================================================================== */
@@ -63,7 +65,8 @@ menu,
 nav,
 section,
 summary {
-  display: block; }
+  display: block;
+}
 
 /**
  * 1. Correct `inline-block` display not defined in IE 8/9.
@@ -76,7 +79,8 @@ video {
   display: inline-block;
   /* 1 */
   vertical-align: baseline;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Prevent modern browsers from displaying `audio` without controls.
@@ -84,7 +88,8 @@ video {
  */
 audio:not([controls]) {
   display: none;
-  height: 0; }
+  height: 0;
+}
 
 /**
  * Address `[hidden]` styling not present in IE 8/9/10.
@@ -92,7 +97,8 @@ audio:not([controls]) {
  */
 [hidden],
 template {
-  display: none; }
+  display: none;
+}
 
 /* Links
    ========================================================================== */
@@ -100,14 +106,16 @@ template {
  * Remove the gray background color from active links in IE 10.
  */
 a {
-  background-color: transparent; }
+  background-color: transparent;
+}
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
 a:active,
 a:hover {
-  outline: 0; }
+  outline: 0;
+}
 
 /* Text-level semantics
    ========================================================================== */
@@ -115,20 +123,23 @@ a:hover {
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
 abbr[title] {
-  border-bottom: 1px dotted; }
+  border-bottom: 1px dotted;
+}
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
 b,
 strong {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 /**
  * Address styling not present in Safari and Chrome.
  */
 dfn {
-  font-style: italic; }
+  font-style: italic;
+}
 
 /**
  * Address variable `h1` font-size and margin within `section` and `article`
@@ -136,20 +147,23 @@ dfn {
  */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0; }
+  margin: 0.67em 0;
+}
 
 /**
  * Address styling not present in IE 8/9.
  */
 mark {
   background: #ff0;
-  color: #000; }
+  color: #000;
+}
 
 /**
  * Address inconsistent and variable font size in all browsers.
  */
 small {
-  font-size: 80%; }
+  font-size: 80%;
+}
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
@@ -159,13 +173,16 @@ sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 sup {
-  top: -0.5em; }
+  top: -0.5em;
+}
 
 sub {
-  bottom: -0.25em; }
+  bottom: -0.25em;
+}
 
 /* Embedded content
    ========================================================================== */
@@ -173,13 +190,15 @@ sub {
  * Remove border when inside `a` element in IE 8/9/10.
  */
 img {
-  border: 0; }
+  border: 0;
+}
 
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
 svg:not(:root) {
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 /* Grouping content
    ========================================================================== */
@@ -187,7 +206,8 @@ svg:not(:root) {
  * Address margin not present in IE 8/9 and Safari.
  */
 figure {
-  margin: 1em 40px; }
+  margin: 1em 40px;
+}
 
 /**
  * Address differences between Firefox and other browsers.
@@ -195,13 +215,15 @@ figure {
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  height: 0; }
+  height: 0;
+}
 
 /**
  * Contain overflow in all browsers.
  */
 pre {
-  overflow: auto; }
+  overflow: auto;
+}
 
 /**
  * Address odd `em`-unit font size rendering in all browsers.
@@ -211,7 +233,8 @@ kbd,
 pre,
 samp {
   font-family: monospace, monospace;
-  font-size: 1em; }
+  font-size: 1em;
+}
 
 /* Forms
    ========================================================================== */
@@ -235,13 +258,15 @@ textarea {
   font: inherit;
   /* 2 */
   margin: 0;
-  /* 3 */ }
+  /* 3 */
+}
 
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
 button {
-  overflow: visible; }
+  overflow: visible;
+}
 
 /**
  * Address inconsistent `text-transform` inheritance for `button` and `select`.
@@ -251,7 +276,8 @@ button {
  */
 button,
 select {
-  text-transform: none; }
+  text-transform: none;
+}
 
 /**
  * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
@@ -267,14 +293,16 @@ input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
   cursor: pointer;
-  /* 3 */ }
+  /* 3 */
+}
 
 /**
  * Re-set default cursor for disabled elements.
  */
 button[disabled],
 html input[disabled] {
-  cursor: default; }
+  cursor: default;
+}
 
 /**
  * Remove inner padding and border in Firefox 4+.
@@ -282,14 +310,16 @@ html input[disabled] {
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 /**
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
 input {
-  line-height: normal; }
+  line-height: normal;
+}
 
 /**
  * It's recommended that you don't attempt to style these elements.
@@ -303,7 +333,8 @@ input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Fix the cursor style for Chrome's increment/decrement buttons. For certain
@@ -312,7 +343,8 @@ input[type="radio"] {
  */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
-  height: auto; }
+  height: auto;
+}
 
 /**
  * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
@@ -325,7 +357,8 @@ input[type="search"] {
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   /* 2 */
-  box-sizing: content-box; }
+  box-sizing: content-box;
+}
 
 /**
  * Remove inner padding and search cancel button in Safari and Chrome on OS X.
@@ -334,7 +367,8 @@ input[type="search"] {
  */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; }
+  -webkit-appearance: none;
+}
 
 /**
  * Define consistent border, margin, and padding.
@@ -342,7 +376,8 @@ input[type="search"]::-webkit-search-decoration {
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em; }
+  padding: 0.35em 0.625em 0.75em;
+}
 
 /**
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
@@ -352,20 +387,23 @@ legend {
   border: 0;
   /* 1 */
   padding: 0;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
 textarea {
-  overflow: auto; }
+  overflow: auto;
+}
 
 /**
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
 optgroup {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 /* Tables
    ========================================================================== */
@@ -374,11 +412,13 @@ optgroup {
  */
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
 td,
 th {
-  padding: 0; }
+  padding: 0;
+}
 
 /**
  * IE6 was right!
@@ -386,7 +426,8 @@ th {
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 /**
  * Reset some basic elements
@@ -396,7 +437,8 @@ p, blockquote, pre,
 dl, dd, ol, ul, hr,
 figure {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 /**
  * Set `margin-bottom` to maintain vertycal rhythm
@@ -409,7 +451,8 @@ figure,
 .iframe-wrapper,
 .island {
   margin-bottom: 30px;
-  margin-bottom: 1.5rem; }
+  margin-bottom: 1.5rem;
+}
 
 /**
  * Wrapper
@@ -419,11 +462,14 @@ figure,
   margin-right: auto;
   margin-left: auto;
   padding-right: 15px;
-  padding-left: 15px; }
-  @media only screen and (min-width: 481px) {
-    .wrapper {
-      padding-right: 30px;
-      padding-left: 30px; } }
+  padding-left: 15px;
+}
+@media only screen and (min-width: 481px) {
+  .wrapper {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
 
 /**
  * Clearfix
@@ -434,16 +480,19 @@ figure,
 .site-nav:after {
   content: "";
   display: table;
-  clear: both; }
+  clear: both;
+}
 
 /**
  * Hide/Show stuff
  */
 .hidden {
-  display: none; }
+  display: none;
+}
 
 .visible {
-  display: block; }
+  display: block;
+}
 
 /**
  * Images
@@ -452,41 +501,50 @@ img {
   /* Emphasis on `alt` text */
   font-style: italic;
   max-width: 100%;
-  height: auto; }
+  height: auto;
+}
 
 img, svg {
-  vertical-align: middle; }
+  vertical-align: middle;
+}
 
 .img--right {
   float: right;
   margin-bottom: 30px;
-  margin-left: 30px; }
+  margin-left: 30px;
+}
 
 .img--left {
   float: left;
   margin-right: 30px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+}
 
 .img--center {
   display: block;
   margin-right: auto;
   margin-bottom: 30px;
-  margin-left: auto; }
+  margin-left: auto;
+}
 
 /**
  * Figures
  */
 figure > img {
-  display: block; }
+  display: block;
+}
 figure > .iframe-wrapper {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
 figcaption {
   font-size: 16px;
   font-size: 0.8rem;
-  line-height: 1.875; }
-  figcaption > a {
-    font-weight: 300; }
+  line-height: 1.875;
+}
+figcaption > a {
+  font-weight: 300;
+}
 
 /**
  * Rulers
@@ -496,20 +554,23 @@ hr {
   border-bottom: 2px solid #aaa;
   margin-top: -1px;
   margin-bottom: 29px;
-  margin-bottom: 1.45rem; }
+  margin-bottom: 1.45rem;
+}
 
 /**
  * iframes
  */
 iframe {
-  vertical-align: middle; }
+  vertical-align: middle;
+}
 
 html {
   font: 300 1.25em/1.5 Ubuntu, sans-serif;
   color: #444;
   background-color: #fff;
   overflow-y: scroll;
-  min-height: 100%; }
+  min-height: 100%;
+}
 
 /**
  * Headings
@@ -521,47 +582,56 @@ h3 > a, h4,
 h4 > a, h5,
 h5 > a, h6,
 h6 > a {
-  font-weight: 500; }
+  font-weight: 500;
+}
 
 h1 {
   font-size: 40px;
   font-size: 2rem;
-  line-height: 1.5; }
+  line-height: 1.5;
+}
 
 h2 {
   font-size: 32px;
   font-size: 1.6rem;
-  line-height: 1.875; }
+  line-height: 1.875;
+}
 
 h3 {
   font-size: 28px;
   font-size: 1.4rem;
-  line-height: 1.07143; }
+  line-height: 1.07143;
+}
 
 h4 {
   font-size: 24px;
   font-size: 1.2rem;
-  line-height: 1.25; }
+  line-height: 1.25;
+}
 
 h5 {
   font-size: 20px;
   font-size: 1rem;
-  line-height: 1.5; }
+  line-height: 1.5;
+}
 
 h6 {
   font-size: 16px;
   font-size: 0.8rem;
-  line-height: 1.875; }
+  line-height: 1.875;
+}
 
 /**
  * Lists
  */
 li > ul,
 li > ol {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
 dt {
-  font-weight: 500; }
+  font-weight: 500;
+}
 
 /**
  * Quotations
@@ -570,21 +640,26 @@ blockquote {
   border-left: 4px solid #5e85d6;
   margin-left: -15px;
   padding-left: 11px;
-  font-style: italic; }
-  blockquote > :last-child {
-    margin-bottom: 0; }
+  font-style: italic;
+}
+blockquote > :last-child {
+  margin-bottom: 0;
+}
 
 .source {
-  font-style: normal; }
+  font-style: normal;
+}
 
 /**
  * Inline elements
  */
 strong {
-  font-weight: 500; }
+  font-weight: 500;
+}
 
 q {
-  font-style: italic; }
+  font-style: italic;
+}
 
 /**
  * Links
@@ -592,18 +667,22 @@ q {
 a {
   color: #5e85d6;
   font-weight: 300;
-  text-decoration: none; }
-  a:hover, a:focus, a:active {
-    color: #1f3d7c; }
+  text-decoration: none;
+}
+a:hover, a:focus, a:active {
+  color: #1f3d7c;
+}
 
 /**
  * Code
  */
 pre, code, kbd, samp {
-  font-family: Consolas, Courier New, Courier, monospace; }
+  font-family: Consolas, Courier New, Courier, monospace;
+}
 
 code {
-  white-space: nowrap; }
+  white-space: nowrap;
+}
 
 pre {
   overflow: auto;
@@ -612,29 +691,35 @@ pre {
   color: #fff;
   background-color: #444;
   padding: 7.5px 15px;
-  border-radius: 3px; }
-  pre > code {
-    font-size: 16px;
-    font-size: 0.8rem;
-    line-height: 1.875;
-    color: #fff;
-    white-space: pre; }
+  border-radius: 3px;
+}
+pre > code {
+  font-size: 16px;
+  font-size: 0.8rem;
+  line-height: 1.875;
+  color: #fff;
+  white-space: pre;
+}
 
 .page {
   display: flex;
   min-height: 100vh;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
 .page-content {
-  flex: 1; }
+  flex: 1;
+}
 
 .pagination {
   margin-left: 0;
   list-style: none;
-  text-align: center; }
-  .pagination > li {
-    padding: 15px;
-    display: inline-block; }
+  text-align: center;
+}
+.pagination > li {
+  padding: 15px;
+  display: inline-block;
+}
 
 .island {
   display: block;
@@ -642,12 +727,15 @@ pre {
   color: #fff;
   background-color: #5e85d6;
   text-align: center;
-  font-weight: 500; }
-  .island:hover, .island:focus, .island:active {
-    color: #fff;
-    background-color: #1f3d7c; }
-  .island > :last-child {
-    margin-bottom: 0; }
+  font-weight: 500;
+}
+.island:hover, .island:focus, .island:active {
+  color: #fff;
+  background-color: #1f3d7c;
+}
+.island > :last-child {
+  margin-bottom: 0;
+}
 
 /*------------------------------------*\
     $FUNCTIONAL LAYER
@@ -657,7 +745,8 @@ pre {
  */
 #toggle-nav {
   display: none;
-  /* [1] */ }
+  /* [1] */
+}
 
 /**
  * 1. Avoid selection while rapidly toggling the navigation
@@ -674,11 +763,14 @@ pre {
   user-select: none;
   /* [1] */
   cursor: pointer;
-  /* [2] */ }
-  @media only screen and (min-width: 1024px) {
-    [for="toggle-nav"] {
-      display: none;
-      /* [3] */ } }
+  /* [2] */
+}
+@media only screen and (min-width: 1024px) {
+  [for="toggle-nav"] {
+    display: none;
+    /* [3] */
+  }
+}
 
 /**
  * 1. Hide navigation
@@ -687,14 +779,18 @@ pre {
  */
 .site-nav {
   display: none;
-  /* [1] */ }
-  #toggle-nav:checked ~ .site-nav {
+  /* [1] */
+}
+#toggle-nav:checked ~ .site-nav {
+  display: block;
+  /* [2] */
+}
+@media only screen and (min-width: 1024px) {
+  .site-nav {
     display: block;
-    /* [2] */ }
-  @media only screen and (min-width: 1024px) {
-    .site-nav {
-      display: block;
-      /* [3] */ } }
+    /* [3] */
+  }
+}
 
 /*------------------------------------*\
     $VISUAL LAYER
@@ -702,87 +798,108 @@ pre {
 .toggle-nav__label {
   position: absolute;
   top: 30px;
-  right: 30px; }
+  right: 30px;
+}
 
 .nav-icon {
   display: block;
   width: 30px;
-  height: 30px; }
-  .nav-icon__bar {
-    fill: #5e85d6;
-    -webkit-transform: translate(0) rotate(0);
-    transform: translate(0) rotate(0);
-    -webkit-transition: -webkit-transform 0.2s;
-    transition: transform 0.2s; }
+  height: 30px;
+}
+.nav-icon__bar {
+  fill: #5e85d6;
+  -webkit-transform: translate(0) rotate(0);
+  transform: translate(0) rotate(0);
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+}
 
 .toggle-nav__input:checked ~ .toggle-nav__label .nav-icon__bar--top {
   -webkit-transform: translate(6px, 2px) rotate(45deg);
-  transform: translate(6px, 2px) rotate(45deg); }
+  transform: translate(6px, 2px) rotate(45deg);
+}
 .toggle-nav__input:checked ~ .toggle-nav__label .nav-icon__bar--mid {
-  display: none; }
+  display: none;
+}
 .toggle-nav__input:checked ~ .toggle-nav__label .nav-icon__bar--bot {
   -webkit-transform: translate(-15px, 6px) rotate(-45deg);
-  transform: translate(-15px, 6px) rotate(-45deg); }
+  transform: translate(-15px, 6px) rotate(-45deg);
+}
 
 .page-content {
   margin-bottom: 120px;
-  margin-bottom: 6rem; }
-  .page-content ul, .page-content ol {
-    list-style-position: outside; }
+  margin-bottom: 6rem;
+}
+.page-content ul, .page-content ol {
+  list-style-position: outside;
+}
 
 .post-list {
   list-style: none;
   margin-bottom: 120px;
-  margin-bottom: 6rem; }
-  .post-list > li {
-    margin-bottom: 120px;
-    margin-bottom: 6rem; }
-    .post-list > li > :last-child {
-      margin-bottom: 0; }
+  margin-bottom: 6rem;
+}
+.post-list > li {
+  margin-bottom: 120px;
+  margin-bottom: 6rem;
+}
+.post-list > li > :last-child {
+  margin-bottom: 0;
+}
 
 .meta-list {
   list-style: none;
   margin-bottom: 0;
-  margin-left: 0; }
-  .meta-list > li {
-    display: inline-block;
-    font-size: 16px;
-    font-size: 0.8rem;
-    line-height: 1.875; }
-    .meta-list > li + li {
-      position: relative; }
-      .meta-list > li + li:before {
-        /* content: &middot; */
-        content: "\00B7";
-        position: relative;
-        margin-right: 5px;
-        margin-left: 5px; }
+  margin-left: 0;
+}
+.meta-list > li {
+  display: inline-block;
+  font-size: 16px;
+  font-size: 0.8rem;
+  line-height: 1.875;
+}
+.meta-list > li + li {
+  position: relative;
+}
+.meta-list > li + li:before {
+  /* content: &middot; */
+  content: "\00B7";
+  position: relative;
+  margin-right: 5px;
+  margin-left: 5px;
+}
 
 .archive-list .current-post a {
-  color: #aaa; }
+  color: #aaa;
+}
 
 .block-note {
   position: relative;
   display: block;
   font-size: 16px;
   font-size: 0.8rem;
-  line-height: 1.875; }
-  .block-note:before {
-    /* content: "/!\ "; */
-    content: "\2F \21 \5C \A0";
-    position: absolute;
-    right: 100%;
-    color: #5e85d6;
-    font-family: Consolas, Courier New, Courier, monospace;
-    font-weight: bold; }
+  line-height: 1.875;
+}
+.block-note:before {
+  /* content: "/!\ "; */
+  content: "\2F \21 \5C \A0";
+  position: absolute;
+  right: 100%;
+  color: #5e85d6;
+  font-family: Consolas, Courier New, Courier, monospace;
+  font-weight: bold;
+}
 
 .quote__body > :last-child {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
 .quote__source {
-  display: block; }
-  .quote__source:before {
-    content: "\2014"; }
+  display: block;
+}
+.quote__source:before {
+  content: "\2014";
+}
 
 /**
  * Responsive video/audio players
@@ -790,121 +907,154 @@ pre {
  *   - Respect SoundCloud's fixed height to calculate ratio
  */
 .iframe-wrapper__video {
-  position: relative; }
-  .iframe-wrapper__video:before {
-    display: block;
-    content: "";
-    width: 100%;
-    padding-top: 56.25%; }
-  .iframe-wrapper__video > iframe {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0; }
+  position: relative;
+}
+.iframe-wrapper__video:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 56.25%;
+}
+.iframe-wrapper__video > iframe {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
 .iframe-wrapper__soundcloud {
-  position: relative; }
-  .iframe-wrapper__soundcloud:before {
-    display: block;
-    content: "";
-    width: 100%;
-    padding-top: 26.77419%; }
-  .iframe-wrapper__soundcloud > iframe {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0; }
+  position: relative;
+}
+.iframe-wrapper__soundcloud:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 26.77419%;
+}
+.iframe-wrapper__soundcloud > iframe {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
 
 .site-head {
   border-top: 8px solid #5e85d6;
   margin-bottom: 120px;
-  margin-bottom: 6rem; }
+  margin-bottom: 6rem;
+}
 
 .site-title {
-  display: none; }
-  @media only screen and (min-width: 1024px) {
-    .site-title {
-      font-size: 40px;
-      font-size: 2rem;
-      line-height: 1.5;
-      color: #444;
-      line-height: 64px;
-      margin-left: 15px;
-      float: left;
-      display: block; }
-      .site-title > span {
-        font-weight: 500; } }
+  display: none;
+}
+@media only screen and (min-width: 1024px) {
+  .site-title {
+    font-size: 40px;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #444;
+    line-height: 64px;
+    margin-left: 15px;
+    float: left;
+    display: block;
+  }
+  .site-title > span {
+    font-weight: 500;
+  }
+}
 
 .site-logo {
   position: relative;
   display: block;
   float: left;
   margin-top: 15px;
-  margin-left: 30px; }
-  .site-logo > svg {
-    width: 64px;
-    height: 64px;
-    float: left;
-    transition: transform 0.2s; }
-  .site-logo:hover > svg {
-    transform: translateY(-30px);
-    transition: transform 0.2s 0.3s; }
+  margin-left: 30px;
+}
+.site-logo > svg {
+  width: 64px;
+  height: 64px;
+  float: left;
+  transition: transform 0.2s;
+}
+.site-logo:hover > svg {
+  transform: translateY(-30px);
+  transition: transform 0.2s 0.3s;
+}
 
 .site-logo--2665 > svg, .site-logo--2665:hover > svg {
   transform: none;
-  transition: none; }
+  transition: none;
+}
 .site-logo--2665 .site-logo__icon {
   transform: rotate(0);
   transform-origin: 50% 50%;
-  transition: all 0.3s; }
+  transition: all 0.3s;
+}
 .site-logo--2665:hover .site-logo__icon {
   transform: rotate(-135deg);
   transition: all 0.7s 0.3s;
-  fill: #b31809; }
+  fill: #b31809;
+}
 
 .site-logo__icon {
-  fill: #5e85d6; }
+  fill: #5e85d6;
+}
 
 @media only screen and (min-width: 481px) {
   .site-logo {
-    margin-left: 90px; } }
+    margin-left: 90px;
+  }
+}
 .site-nav {
   position: absolute;
   top: 60px;
   right: 30px;
-  text-align: right; }
-  @media only screen and (min-width: 1024px) {
-    .site-nav {
-      position: static;
-      float: right;
-      line-height: 1;
-      margin-right: 90px;
-      margin-top: 30px; } }
+  text-align: right;
+}
+@media only screen and (min-width: 1024px) {
+  .site-nav {
+    position: static;
+    float: right;
+    line-height: 1;
+    margin-right: 90px;
+    margin-top: 30px;
+  }
+}
 
 .site-nav__item {
   display: block;
   padding-top: 10px;
-  font-weight: 500; }
-  @media only screen and (min-width: 1024px) {
-    .site-nav__item {
-      float: left;
-      padding: 15px 30px; }
-      .site-nav__item + .site-nav__item {
-        margin-left: 15px; } }
+  font-weight: 500;
+}
+@media only screen and (min-width: 1024px) {
+  .site-nav__item {
+    float: left;
+    padding: 15px 30px;
+  }
+  .site-nav__item + .site-nav__item {
+    margin-left: 15px;
+  }
+}
 
 .site-foot {
   background-color: #444;
   padding: 15px 30px;
   font-size: 14px;
   font-size: 0.7rem;
-  line-height: 2.14286; }
-  .site-foot,
-  .site-foot a {
-    color: #fff; }
-  .site-foot a {
-    text-decoration: underline; }
-  .site-foot p:last-of-type {
-    margin-bottom: 0; }
+  line-height: 2.14286;
+}
+.site-foot,
+.site-foot a {
+  color: #fff;
+}
+.site-foot a {
+  text-decoration: underline;
+}
+.site-foot p:last-of-type {
+  margin-bottom: 0;
+}
 
 /*# sourceMappingURL=kleinfreund.css.map */
