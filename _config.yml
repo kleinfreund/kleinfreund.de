@@ -13,7 +13,9 @@ gems:
 kramdown:
   input: GFM
   auto_ids: false
-#testgit
+
+sass:
+  style: :compressed
 
 
 

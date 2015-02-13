@@ -23,13 +23,13 @@ layout: compress
     {% if site.loadCSS_js %}
     <script>
         {% include loadcss.min.js %}
-        loadCSS("{{ site.assets.css }}{{ site.name }}.min.css")
+        loadCSS("{{ site.assets.css }}{{ site.name }}.css")
     </script>
     <noscript>
-        <link rel="stylesheet" href="{{ site.assets.css }}{{ site.name }}.min.css">
+        <link rel="stylesheet" href="{{ site.assets.css }}{{ site.name }}.css">
     </noscript>
     {% else %}
-        <link rel="stylesheet" href="{{ site.assets.css }}{{ site.name }}.min.css">
+        <link rel="stylesheet" href="{{ site.assets.css }}{{ site.name }}.css">
     {% endif %}
 
     {% if site.google_analytics %}
