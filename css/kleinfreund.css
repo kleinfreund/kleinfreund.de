@@ -19,22 +19,26 @@
 /**
  * https://twitter.com/csswizardry/status/478938530342006784
  */
-/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /**
- * 1. Prevent iOS text size adjust after orientation change, without disabling
+ * http://css-tricks.com/snippets/sass/maintain-aspect-ratio-mixin/
+ */
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 8, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
 html {
-  -ms-text-size-adjust: 100%;
+  font-family: sans-serif;
   /* 1 */
-  -webkit-text-size-adjust: 100%
-  /* 1 */ }
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
 
 /**
  * Remove default margin.
  */
-/* line 17, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
 body {
   margin: 0; }
 
@@ -42,47 +46,67 @@ body {
    ========================================================================== */
 /**
  * Correct `block` display not defined for any HTML5 element in IE 8/9.
- * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
-/* line 41, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
   display: block; }
 
 /**
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
-/* line 53, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
-audio, canvas, progress, video {
+audio,
+canvas,
+progress,
+video {
   display: inline-block;
   /* 1 */
-  vertical-align: baseline
+  vertical-align: baseline;
   /* 2 */ }
 
 /**
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 63, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
 audio:not([controls]) {
   display: none;
   height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none; }
 
 /* Links
    ========================================================================== */
 /**
  * Remove the gray background color from active links in IE 10.
  */
-/* line 75, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
 a {
-  background: transparent; }
+  background-color: transparent; }
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 84, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
-a:active, a:hover {
+a:active,
+a:hover {
   outline: 0; }
 
 /* Text-level semantics
@@ -90,32 +114,56 @@ a:active, a:hover {
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
-/* line 95, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
 abbr[title] {
   border-bottom: 1px dotted; }
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
-/* line 104, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
-b, strong {
+b,
+strong {
   font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 113, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
-sub, sup {
+sub,
+sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline; }
 
-/* line 120, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
 sup {
   top: -0.5em; }
 
-/* line 124, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
 sub {
   bottom: -0.25em; }
 
@@ -124,14 +172,12 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
-/* line 135, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
 img {
   border: 0; }
 
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
-/* line 143, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
 svg:not(:root) {
   overflow: hidden; }
 
@@ -140,30 +186,30 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
-/* line 154, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
 figure {
   margin: 1em 40px; }
 
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 162, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
 hr {
+  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0; }
 
 /**
  * Contain overflow in all browsers.
  */
-/* line 172, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
 pre {
   overflow: auto; }
 
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-/* line 183, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
-code, kbd, pre, samp {
+code,
+kbd,
+pre,
+samp {
   font-family: monospace, monospace;
   font-size: 1em; }
 
@@ -179,19 +225,21 @@ code, kbd, pre, samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-/* line 207, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
-button, input, optgroup, select, textarea {
+button,
+input,
+optgroup,
+select,
+textarea {
   color: inherit;
   /* 1 */
   font: inherit;
   /* 2 */
-  margin: 0
+  margin: 0;
   /* 3 */ }
 
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-/* line 217, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
 button {
   overflow: visible; }
 
@@ -201,8 +249,8 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-/* line 229, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
-button, select {
+button,
+select {
   text-transform: none; }
 
 /**
@@ -212,25 +260,27 @@ button, select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 244, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
-button, html input[type="button"], input[type="reset"], input[type="submit"] {
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
-  cursor: pointer
+  cursor: pointer;
   /* 3 */ }
 
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 254, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
-button[disabled], html input[disabled] {
+button[disabled],
+html input[disabled] {
   cursor: default; }
 
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 263, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
-button::-moz-focus-inner, input::-moz-focus-inner {
+button::-moz-focus-inner,
+input::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
@@ -238,7 +288,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 273, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
 input {
   line-height: normal; }
 
@@ -249,11 +298,11 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-/* line 286, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
-input[type="checkbox"], input[type="radio"] {
+input[type="checkbox"],
+input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
-  padding: 0
+  padding: 0;
   /* 2 */ }
 
 /**
@@ -261,8 +310,8 @@ input[type="checkbox"], input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 298, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
-input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
   height: auto; }
 
 /**
@@ -270,10 +319,11 @@ input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-o
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 308, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
   /* 2 */
   box-sizing: content-box; }
 
@@ -282,14 +332,13 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 322, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
-input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 330, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -299,17 +348,15 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 341, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
 legend {
   border: 0;
   /* 1 */
-  padding: 0
+  padding: 0;
   /* 2 */ }
 
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
-/* line 350, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
 textarea {
   overflow: auto; }
 
@@ -317,7 +364,6 @@ textarea {
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
-/* line 359, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
 optgroup {
   font-weight: bold; }
 
@@ -326,42 +372,48 @@ optgroup {
 /**
  * Remove most spacing between table cells.
  */
-/* line 370, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 376, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/normalize */
-td, th {
+td,
+th {
   padding: 0; }
 
 /**
  * IE6 was right!
  */
-/* line 4, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/base */
 *, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
 /**
  * Reset some basic elements
  */
-/* line 18, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/base */
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dd, ol, ul, hr, figure {
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+dl, dd, ol, ul, hr,
+figure {
   margin: 0;
   padding: 0; }
 
 /**
  * Set `margin-bottom` to maintain vertycal rhythm
  */
-/* line 33, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/base */
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .block-note, .iframe-wrapper, .island {
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl,
+figure,
+.block-note,
+.iframe-wrapper,
+.island {
   margin-bottom: 30px;
   margin-bottom: 1.5rem; }
 
 /**
  * Wrapper
  */
-/* line 43, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/base */
 .wrapper {
   max-width: 680px;
   margin-right: auto;
@@ -376,8 +428,10 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .block-note, .if
 /**
  * Clearfix
  */
-/* line 63, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/base */
-.clearfix:after, .island:after, .site-head:after, .site-nav:after {
+.clearfix:after,
+.island:after,
+.site-head:after,
+.site-nav:after {
   content: "";
   display: table;
   clear: both; }
@@ -385,41 +439,34 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .block-note, .if
 /**
  * Hide/Show stuff
  */
-/* line 75, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/base */
 .hidden {
   display: none; }
 
-/* line 79, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/base */
 .visible {
   display: block; }
 
 /**
  * Images
  */
-/* line 88, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/base */
 img {
   /* Emphasis on `alt` text */
   font-style: italic;
   max-width: 100%;
   height: auto; }
 
-/* line 95, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/base */
 img, svg {
   vertical-align: middle; }
 
-/* line 99, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/base */
 .img--right {
   float: right;
   margin-bottom: 30px;
   margin-left: 30px; }
 
-/* line 105, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/base */
 .img--left {
   float: left;
   margin-right: 30px;
   margin-bottom: 30px; }
 
-/* line 111, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/base */
 .img--center {
   display: block;
   margin-right: auto;
@@ -429,26 +476,21 @@ img, svg {
 /**
  * Figures
  */
-/* line 124, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/base */
 figure > img {
   display: block; }
-/* line 128, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/base */
 figure > .iframe-wrapper {
   margin-bottom: 0; }
 
-/* line 133, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/base */
 figcaption {
   font-size: 16px;
   font-size: 0.8rem;
   line-height: 1.875; }
-  /* line 136, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/base */
   figcaption > a {
     font-weight: 300; }
 
 /**
  * Rulers
  */
-/* line 146, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/base */
 hr {
   border: 0;
   border-bottom: 2px solid #aaa;
@@ -459,11 +501,9 @@ hr {
 /**
  * iframes
  */
-/* line 159, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/base */
 iframe {
   vertical-align: middle; }
 
-/* line 1, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 html {
   font: 300 1.25em/1.5 Ubuntu, sans-serif;
   color: #444;
@@ -474,41 +514,40 @@ html {
 /**
  * Headings
  */
-/* line 17, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
-h1, h1 > a, h2, h2 > a, h3, h3 > a, h4, h4 > a, h5, h5 > a, h6, h6 > a {
+h1,
+h1 > a, h2,
+h2 > a, h3,
+h3 > a, h4,
+h4 > a, h5,
+h5 > a, h6,
+h6 > a {
   font-weight: 500; }
 
-/* line 22, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 h1 {
   font-size: 40px;
   font-size: 2rem;
   line-height: 1.5; }
 
-/* line 26, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 h2 {
   font-size: 32px;
   font-size: 1.6rem;
   line-height: 1.875; }
 
-/* line 30, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 h3 {
   font-size: 28px;
   font-size: 1.4rem;
-  line-height: 1.071428571; }
+  line-height: 1.07143; }
 
-/* line 34, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 h4 {
   font-size: 24px;
   font-size: 1.2rem;
   line-height: 1.25; }
 
-/* line 38, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 h5 {
   font-size: 20px;
   font-size: 1rem;
   line-height: 1.5; }
 
-/* line 42, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 h6 {
   font-size: 16px;
   font-size: 0.8rem;
@@ -517,66 +556,55 @@ h6 {
 /**
  * Lists
  */
-/* line 53, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
-li > ul, li > ol {
+li > ul,
+li > ol {
   margin-bottom: 0; }
 
-/* line 58, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 dt {
   font-weight: 500; }
 
 /**
  * Quotations
  */
-/* line 67, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 blockquote {
   border-left: 4px solid #5e85d6;
   margin-left: -15px;
   padding-left: 11px;
   font-style: italic; }
-  /* line 73, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
   blockquote > :last-child {
     margin-bottom: 0; }
 
-/* line 78, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 .source {
   font-style: normal; }
 
 /**
  * Inline elements
  */
-/* line 87, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 strong {
   font-weight: 500; }
 
-/* line 91, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 q {
   font-style: italic; }
 
 /**
  * Links
  */
-/* line 100, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 a {
   color: #5e85d6;
   font-weight: 300;
   text-decoration: none; }
-  /* line 61, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/mixins */
   a:hover, a:focus, a:active {
     color: #1f3d7c; }
 
 /**
  * Code
  */
-/* line 115, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 pre, code, kbd, samp {
   font-family: Consolas, Courier New, Courier, monospace; }
 
-/* line 119, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 code {
   white-space: nowrap; }
 
-/* line 123, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
 pre {
   overflow: auto;
   white-space: pre;
@@ -585,7 +613,6 @@ pre {
   background-color: #444;
   padding: 7.5px 15px;
   border-radius: 3px; }
-  /* line 132, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/typography */
   pre > code {
     font-size: 16px;
     font-size: 0.8rem;
@@ -593,33 +620,22 @@ pre {
     color: #fff;
     white-space: pre; }
 
-/* line 1, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/sticky-footer */
 .page {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   min-height: 100vh;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column; }
+  flex-direction: column; }
 
-/* line 7, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/sticky-footer */
 .page-content {
-  -webkit-flex: 1;
-      -ms-flex: 1;
-          flex: 1; }
+  flex: 1; }
 
-/* line 1, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/pagination */
 .pagination {
   margin-left: 0;
   list-style: none;
   text-align: center; }
-  /* line 6, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/pagination */
   .pagination > li {
     padding: 15px;
     display: inline-block; }
 
-/* line 1, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/island */
 .island {
   display: block;
   padding: 15px;
@@ -627,11 +643,9 @@ pre {
   background-color: #5e85d6;
   text-align: center;
   font-weight: 500; }
-  /* line 61, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/mixins */
   .island:hover, .island:focus, .island:active {
     color: #fff;
     background-color: #1f3d7c; }
-  /* line 15, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/island */
   .island > :last-child {
     margin-bottom: 0; }
 
@@ -641,9 +655,8 @@ pre {
 /**
  * 1. Always hide actual `input` element
  */
-/* line 7, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/toggle-nav */
 #toggle-nav {
-  display: none
+  display: none;
   /* [1] */ }
 
 /**
@@ -651,7 +664,6 @@ pre {
  * 2. Change cursor to pointer to indicate action
  * 3. Hide toggle trigger on big screens
  */
-/* line 18, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/toggle-nav */
 [for="toggle-nav"] {
   -webkit-user-select: none;
   /* [1] */
@@ -661,11 +673,11 @@ pre {
   /* [1] */
   user-select: none;
   /* [1] */
-  cursor: pointer
+  cursor: pointer;
   /* [2] */ }
   @media only screen and (min-width: 1024px) {
     [for="toggle-nav"] {
-      display: none
+      display: none;
       /* [3] */ } }
 
 /**
@@ -673,89 +685,72 @@ pre {
  * 2. Show navigation when input is checked
  * 3. Show navigation on big screens
  */
-/* line 37, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/toggle-nav */
 .site-nav {
-  display: none
+  display: none;
   /* [1] */ }
-  /* line 40, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/toggle-nav */
   #toggle-nav:checked ~ .site-nav {
-    display: block
+    display: block;
     /* [2] */ }
   @media only screen and (min-width: 1024px) {
     .site-nav {
-      display: block
+      display: block;
       /* [3] */ } }
 
 /*------------------------------------*\
     $VISUAL LAYER
 \*------------------------------------*/
-/* line 54, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/toggle-nav */
 .toggle-nav__label {
   position: absolute;
   top: 30px;
   right: 30px; }
 
-/* line 60, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/toggle-nav */
 .nav-icon {
   display: block;
   width: 30px;
   height: 30px; }
-  /* line 65, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/toggle-nav */
   .nav-icon__bar {
     fill: #5e85d6;
     -webkit-transform: translate(0) rotate(0);
     transform: translate(0) rotate(0);
-    transition: -webkit-transform 0.2s;
+    -webkit-transition: -webkit-transform 0.2s;
     transition: transform 0.2s; }
 
-/* line 78, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/toggle-nav */
 .toggle-nav__input:checked ~ .toggle-nav__label .nav-icon__bar--top {
   -webkit-transform: translate(6px, 2px) rotate(45deg);
   transform: translate(6px, 2px) rotate(45deg); }
-/* line 83, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/toggle-nav */
 .toggle-nav__input:checked ~ .toggle-nav__label .nav-icon__bar--mid {
   display: none; }
-/* line 87, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/toggle-nav */
 .toggle-nav__input:checked ~ .toggle-nav__label .nav-icon__bar--bot {
   -webkit-transform: translate(-15px, 6px) rotate(-45deg);
   transform: translate(-15px, 6px) rotate(-45deg); }
 
-/* line 1, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
 .page-content {
   margin-bottom: 120px;
   margin-bottom: 6rem; }
-  /* line 4, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
   .page-content ul, .page-content ol {
     list-style-position: outside; }
 
-/* line 9, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
 .post-list {
   list-style: none;
   margin-bottom: 120px;
   margin-bottom: 6rem; }
-  /* line 13, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
   .post-list > li {
     margin-bottom: 120px;
     margin-bottom: 6rem; }
-    /* line 16, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
     .post-list > li > :last-child {
       margin-bottom: 0; }
 
-/* line 22, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
 .meta-list {
   list-style: none;
   margin-bottom: 0;
   margin-left: 0; }
-  /* line 27, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
   .meta-list > li {
     display: inline-block;
     font-size: 16px;
     font-size: 0.8rem;
     line-height: 1.875; }
-    /* line 31, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
     .meta-list > li + li {
       position: relative; }
-      /* line 34, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
       .meta-list > li + li:before {
         /* content: &middot; */
         content: "\00B7";
@@ -763,18 +758,15 @@ pre {
         margin-right: 5px;
         margin-left: 5px; }
 
-/* line 47, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
 .archive-list .current-post a {
   color: #aaa; }
 
-/* line 52, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
 .block-note {
   position: relative;
   display: block;
   font-size: 16px;
   font-size: 0.8rem;
   line-height: 1.875; }
-  /* line 58, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
   .block-note:before {
     /* content: "/!\ "; */
     content: "\2F \21 \5C \A0";
@@ -784,14 +776,11 @@ pre {
     font-family: Consolas, Courier New, Courier, monospace;
     font-weight: bold; }
 
-/* line 71, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
 .quote__body > :last-child {
   margin-bottom: 0; }
 
-/* line 76, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
 .quote__source {
   display: block; }
-  /* line 79, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
   .quote__source:before {
     content: "\2014"; }
 
@@ -800,34 +789,38 @@ pre {
  *   - Use 16:9 for videos in general
  *   - Respect SoundCloud's fixed height to calculate ratio
  */
-/* line 91, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
-.iframe-wrapper {
-  position: relative;
-  height: 0; }
-  /* line 96, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
-  .iframe-wrapper__video {
-    padding-bottom: 56.25%;
-    /* 16:9: 9/16 */
-    padding-top: 25px; }
-  /* line 101, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
-  .iframe-wrapper__soundcloud {
-    padding-bottom: 26.77%
-    /* 166/620 */ }
-  /* line 105, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/page-content */
-  .iframe-wrapper > iframe {
+.iframe-wrapper__video {
+  position: relative; }
+  .iframe-wrapper__video:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 56.25%; }
+  .iframe-wrapper__video > iframe {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; }
+.iframe-wrapper__soundcloud {
+  position: relative; }
+  .iframe-wrapper__soundcloud:before {
+    display: block;
+    content: "";
     width: 100%;
-    height: 100%; }
+    padding-top: 26.77419%; }
+  .iframe-wrapper__soundcloud > iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; }
 
-/* line 1, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/site-head */
 .site-head {
   border-top: 8px solid #5e85d6;
   margin-bottom: 120px;
   margin-bottom: 6rem; }
 
-/* line 7, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/site-head */
 .site-title {
   display: none; }
   @media only screen and (min-width: 1024px) {
@@ -840,61 +833,42 @@ pre {
       margin-left: 15px;
       float: left;
       display: block; }
-      /* line 18, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/site-head */
       .site-title > span {
         font-weight: 500; } }
 
-/* line 1, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/site-logo */
 .site-logo {
   position: relative;
   display: block;
   float: left;
   margin-top: 15px;
   margin-left: 30px; }
-  /* line 8, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/site-logo */
   .site-logo > svg {
     width: 64px;
     height: 64px;
     float: left;
-    transition: -webkit-transform 0.2s;
     transition: transform 0.2s; }
-  /* line 15, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/site-logo */
   .site-logo:hover > svg {
-    -webkit-transform: translateY(-30px);
-            transform: translateY(-30px);
-    transition: -webkit-transform 0.2s 0.3s;
+    transform: translateY(-30px);
     transition: transform 0.2s 0.3s; }
 
-/* line 24, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/site-logo */
-.site-logo--valentines > svg, .site-logo--valentines:hover > svg {
-  -webkit-transform: none;
-          transform: none;
+.site-logo--2665 > svg, .site-logo--2665:hover > svg {
+  transform: none;
   transition: none; }
-/* line 29, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/site-logo */
-.site-logo--valentines .site-logo__icon {
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  -webkit-transform-origin: 50% 50%;
-          transform-origin: 50% 50%;
+.site-logo--2665 .site-logo__icon {
+  transform: rotate(0);
+  transform-origin: 50% 50%;
   transition: all 0.3s; }
-/* line 35, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/site-logo */
-.site-logo--valentines:hover .site-logo__icon {
-  -webkit-transform: rotate(-135deg);
-          transform: rotate(-135deg);
+.site-logo--2665:hover .site-logo__icon {
+  transform: rotate(-135deg);
   transition: all 0.7s 0.3s;
   fill: #b31809; }
 
-/* line 42, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/site-logo */
 .site-logo__icon {
   fill: #5e85d6; }
 
 @media only screen and (min-width: 481px) {
-  /* line 47, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/site-logo */
   .site-logo {
-    margin-left: 90px; }
- }
-
-/* line 1, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/site-nav */
+    margin-left: 90px; } }
 .site-nav {
   position: absolute;
   top: 60px;
@@ -908,7 +882,6 @@ pre {
       margin-right: 90px;
       margin-top: 30px; } }
 
-/* line 17, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/site-nav */
 .site-nav__item {
   display: block;
   padding-top: 10px;
@@ -917,24 +890,21 @@ pre {
     .site-nav__item {
       float: left;
       padding: 15px 30px; }
-      /* line 26, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/site-nav */
       .site-nav__item + .site-nav__item {
         margin-left: 15px; } }
 
-/* line 1, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/site-foot */
 .site-foot {
   background-color: #444;
   padding: 15px 30px;
   font-size: 14px;
   font-size: 0.7rem;
-  line-height: 2.142857143; }
-  /* line 7, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/site-foot */
-  .site-foot, .site-foot a {
+  line-height: 2.14286; }
+  .site-foot,
+  .site-foot a {
     color: #fff; }
-  /* line 11, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/site-foot */
   .site-foot a {
     text-decoration: underline; }
-  /* line 15, C:/Users/Philipp/_dev/github/kleinfreund.github.io/sass/site-foot */
   .site-foot p:last-of-type {
     margin-bottom: 0; }
+
 /*# sourceMappingURL=kleinfreund.css.map */
