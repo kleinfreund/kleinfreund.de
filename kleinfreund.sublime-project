@@ -5,8 +5,7 @@
             "path": "/",
             "name": "kleinfreund",
             "folder_exclude_patterns": [
-                "_site",
-                "static"
+                "_site"
             ]
         }
     ],
