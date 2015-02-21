@@ -1,0 +1,28 @@
+.post-list {
+    list-style: none;
+
+    > li {
+        border-bottom: 1px solid $gray-color-light;
+
+        .timestamp {
+            display: block;
+        }
+
+        &:first-child {
+            border-top: 1px solid $gray-color-light;
+        }
+
+        > :last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.post-list__link {
+    display: block;
+    padding: $base-spacing-unit / 2;
+}
+
+.post-title {
+    @include font-size(20px);
+}

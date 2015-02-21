@@ -1,0 +1,35 @@
+.post-head {
+
+    > .timestamp {
+        display: inline-block;
+    }
+}
+
+.timestamp {
+    display: inline-block;
+    color: $gray-color;
+}
+
+
+
+/**
+ * Tags
+ */
+.tag {
+    display: inline-block;
+    margin-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    font-size: $small-font-size;
+    background-color: $ui-color-light;
+    color: #fff;
+}
+
+// Well, look at this little sucker. I actually needed to overqualify for once.
+// That’s due to tags that may appear in link *and* non-link environments.
+a.tag {
+    @include attention() {
+        background-color: $ui-color;
+        color: #fff;
+    }
+}
