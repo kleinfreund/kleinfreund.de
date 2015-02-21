@@ -1,46 +1,29 @@
 .site-logo {
-    position: relative;
-    display: block;
-    float: left;
+    display: inline-block;
     margin-top: $half-spacing-unit;
     margin-left: $base-spacing-unit;
 
     > svg {
-        width: 64px;
-        height: 64px;
+        fill: $ui-color;
         float: left;
-        transition: transform 0.2s;
-    }
-
-    &:hover > svg {
-        transform: translateY(-30px);
-        transition: transform 0.2s 0.3s;
-    }
-}
-
-.site-logo--2665 {
-
-    > svg,
-    &:hover > svg {
         transform: none;
-        transition: none;
+        transition: all 0.7s;
     }
 
-    .site-logo__icon {
-        transform: rotate(0);
-        transform-origin: 50% 50%;
-        transition: all 0.3s;
-    }
-
-    &:hover .site-logo__icon {
+    &:hover > svg {
         transform: rotate(-135deg);
         transition: all 0.7s 0.3s;
+    }
+
+    &:hover .site-logo__face,
+    &:hover .site-logo__eye {
         fill: #b31809;
+        transition: all 0.7s 0.3s;
     }
 }
 
-.site-logo__icon {
-    fill: $base-ui-color;
+.site-logo__eye {
+    fill: #fff;
 }
 
 @include media-query(lap-and-up) {
