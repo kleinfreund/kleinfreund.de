@@ -1,15 +1,15 @@
 .island {
-    display: block;
+    display: inline-block;
     @extend %clearfix;
-    padding: $base-spacing-unit / 2;
+    padding: $base-spacing-unit / 2 $base-spacing-unit;
     color: #fff;
-    background-color: $base-ui-color;
+    background-color: $ui-color;
     text-align: center;
     font-weight: $bold-font-weight;
 
     @include attention() {
         color: #fff;
-        background-color: $base-ui-color-dark;
+        background-color: $ui-color-dark;
     }
 
     > :last-child {

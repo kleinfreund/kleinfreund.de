@@ -1,5 +1,5 @@
 .site-head {
-    border-top: $border-width solid $base-ui-color;
+    border-top: $border-width solid $ui-color;
     @extend %clearfix;
     @include vertical-gap();
 }

@@ -63,7 +63,7 @@
     height: 30px;
 
     &__bar {
-        fill: $base-ui-color;
+        fill: $ui-color;
         -webkit-transform: translate(0) rotate(0);
                 transform: translate(0) rotate(0);
         -webkit-transition: -webkit-transform 0.2s;

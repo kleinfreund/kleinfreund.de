@@ -1,7 +1,8 @@
 $base-font-size:    16px!default;
 $base-line-height:  24px!default;
 $base-font-family:  sans-serif!default;
-$base-ui-color:     #ccc!default;
+
+$ui-color:          #ccc!default;
 
 $base-font-weight:  normal!default;
 $bold-font-weight:  bold!default;
@@ -24,7 +25,7 @@ $h4-size:           20px!default; // .delta
 $h5-size:           16px!default; // .epsilon
 $h6-size:           14px!default; // .zeta
 
-$small-print-size:  14px!default;
+$small-font-size:   14px!default;
 
 $base-spacing-unit: $base-line-height!default;
 $half-spacing-unit: $base-spacing-unit / 2!default;

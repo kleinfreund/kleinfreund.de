@@ -6,42 +6,6 @@
     }
 }
 
-.post-list {
-    list-style: none;
-    @include vertical-gap(bottom);
-
-    > li {
-        @include vertical-gap();
-
-        > :last-child {
-            margin-bottom: 0;
-        }
-    }
-}
-
-.meta-list {
-    list-style: none;
-    margin-bottom: 0;
-    margin-left: 0;
-
-    > li {
-        display: inline-block;
-        @include font-size(16px);
-
-        + li {
-            position: relative;
-
-            &:before {
-                /* content: &middot; */
-                content: "\00B7";
-                position: relative;
-                margin-right: $base-spacing-unit/6;
-                margin-left: $base-spacing-unit/6;
-            }
-        }
-    }
-}
-
 .archive-list {
 
     .current-post a {
@@ -60,7 +24,7 @@
         content: "\2F \21 \5C \A0";
         position: absolute;
         right: 100%;
-        color: $base-ui-color;
+        color: $ui-color;
         font-family: Consolas, Courier New, Courier, monospace;
         font-weight: bold;
     }

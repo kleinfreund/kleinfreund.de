@@ -65,7 +65,7 @@ dt {
  * Quotations
  */
 blockquote {
-    border-left: $border-width / 2 solid $base-ui-color;
+    border-left: $border-width / 2 solid $ui-color;
     margin-left: - $half-spacing-unit;
     padding-left: $half-spacing-unit - $border-width / 2;
     font-style: italic;
@@ -98,12 +98,12 @@ q {
  * Links
  */
 a {
-    color: $base-ui-color;
+    color: $ui-color;
     font-weight: $base-font-weight;
     text-decoration: none;
 
     @include attention() {
-        color: $base-ui-color-dark;
+        color: $ui-color-dark;
     }
 }
 
@@ -130,7 +130,7 @@ pre {
     border-radius: 3px;
 
     > code {
-        @include font-size($small-print-size);
+        @include font-size($small-font-size);
         color: #fff;
         white-space: pre;
     }
