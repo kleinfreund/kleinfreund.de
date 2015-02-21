@@ -12,6 +12,9 @@ de:
     url: '/profil/'
   - text: 'en'
     url: '/en/'
+  blog-archive:
+    text: 'Mehr Beiträge lesen'
+    url: '/archiv'
   description: 'Mondbasis von Philipp Rudloff. Über Web, Frontend und Design und allerlei Dinge, die mir in den Sinn kommen.'
   footer: 'Mondbasis von <a href="https://twitter.com/kleinfreund">Philipp Rudloff</a>. Alle Inhalte sind unter <a href="http://creativecommons.org/licenses/by-sa/3.0/de" title="Namensnennung – Weitergabe unter gleichen Bedingungen">CC BY-SA</a> lizenziert. Gehostet auf <a href="http://github.com/kleinfreund/kleinfreund.github.io">GitHub</a>. Erstellt mit <a href="http://jekyllrb.com">Jekyll</a>. <a href="/impressum">Impressum</a>.'
 
@@ -29,5 +32,8 @@ en:
     url: '/en/profile/'
   - text: 'de'
     url: '/'
+  blog-archive:
+  - text: 'Read more articles'
+    url: '/archive'
   description: 'Moonbase of Philipp Rudloff. About web, front-end and design and various things that crosses my mind.'
   footer: 'Moonbase of <a href="https://twitter.com/kleinfreund">Philipp Rudloff</a>. All content is licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0" title="Attribution – ShareAlike">CC BY-SA</a>. Hosted on <a href="http://github.com/kleinfreund/kleinfreund.github.io">GitHub</a>. Built with <a href="http://jekyllrb.com">Jekyll</a>. <a href="/en/legal-disclosure">Legal disclosure</a>.'
