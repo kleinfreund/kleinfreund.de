@@ -64,19 +64,50 @@ dt {
 /**
  * Quotations
  */
+q {
+    font-style: italic;
+}
+
 blockquote {
     border-left: $border-width / 2 solid $ui-color;
-    margin-left: - $half-spacing-unit;
+    margin-left: $half-spacing-unit;
     padding-left: $half-spacing-unit - $border-width / 2;
     font-style: italic;
+}
+
+.quote__body {
+
+    > :first-child:before {
+        content: "\201C";
+    }
+
+    > :last-child:after {
+        content: "\201D";
+    }
 
     > :last-child {
         margin-bottom: 0;
     }
 }
 
-.source {
+[lang="de"]:root .quote__body {
+
+    > :first-child:before {
+        content: "\201E";
+    }
+
+    > :last-child:after {
+        content: "\201C";
+    }
+}
+
+.quote__source {
+    display: block;
     font-style: normal;
+
+    &:before {
+        content: "\2014";
+    }
 }
 
 
@@ -86,10 +117,6 @@ blockquote {
  */
 strong {
     font-weight: $bold-font-weight;
-}
-
-q {
-    font-style: italic;
 }
 
 

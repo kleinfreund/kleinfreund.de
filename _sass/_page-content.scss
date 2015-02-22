@@ -1,9 +1,5 @@
 .page-content {
     @include vertical-gap(bottom);
-
-    ul, ol {
-        list-style-position: outside;
-    }
 }
 
 .archive-list {
@@ -27,21 +23,6 @@
         color: $ui-color;
         font-family: Consolas, Courier New, Courier, monospace;
         font-weight: bold;
-    }
-}
-
-.quote__body {
-
-    > :last-child {
-        margin-bottom: 0;
-    }
-}
-
-.quote__source {
-    display: block;
-
-    &:before {
-        content: "\2014";
     }
 }
 
