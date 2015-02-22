@@ -28,7 +28,7 @@ Unter die Player packe ich jeweils den Direktlink zu SoundCloud, YouTube, Bandca
 
 <figure>
     <div class="iframe-wrapper  iframe-wrapper__video">
-        <iframe width="620" height="465" src="//www.youtube-nocookie.com/embed/W97TF9PCKWg?rel=0" frameborder="0" allowfullscreen></iframe>
+        <iframe width="620" height="465" src="https://www.youtube-nocookie.com/embed/lF3Wo47EbNo?rel=0" frameborder="0" allowfullscreen></iframe>
     </div>
     <figcaption>auf <a href="https://www.youtube.com/watch?v=W97TF9PCKWg">YouTube</a> · <a href="http://www.catpowermusic.com/">Website</a></figcaption>
 </figure>
