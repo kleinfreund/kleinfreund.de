@@ -4,8 +4,6 @@ de:
   nav:
   - text: 'Blog'
     url: '/'
-  - text: 'Kontakt'
-    url: '/kontakt/'
   - text: 'Profil'
     url: '/profil/'
   - text: 'en'
@@ -15,7 +13,7 @@ de:
     text: 'Mehr Beiträge lesen'
     url: '/archiv'
   description: 'Mondbasis von Philipp Rudloff. Über Web, Frontend und Design und allerlei Dinge, die mir in den Sinn kommen.'
-  footer: 'Mondbasis von <a href="https://twitter.com/kleinfreund">Philipp Rudloff</a>. Alle Inhalte sind unter <a href="https://creativecommons.org/licenses/by-sa/4.0/" title="Attribution – ShareAlike 4.0 International">CC BY-SA</a> lizenziert. Gehostet auf <a href="https://github.com/kleinfreund/kleinfreund.github.io">GitHub</a>. Erstellt mit <a href="http://jekyllrb.com">Jekyll</a>. <a href="/impressum">Impressum</a>.'
+  footer: 'Mondbasis von <a href="https://twitter.com/kleinfreund">Philipp Rudloff</a>. Alle Inhalte sind unter <a href="https://creativecommons.org/licenses/by-sa/4.0/" title="Attribution – ShareAlike 4.0 International">CC BY-SA</a> lizenziert. Gehostet auf <a href="https://github.com/kleinfreund/kleinfreund.github.io">GitHub</a>. Erstellt mit <a href="http://jekyllrb.com">Jekyll</a>.<br>Schreib mir einen Liebesbrief an <a href="mailto:phrudloff@gmail.com">phrudloff@gmail.com</a>. — <a href="/impressum">Impressum</a>.'
 
 en:
   url: '/en/'
@@ -23,8 +21,6 @@ en:
   nav:
   - text: 'Blog'
     url: '/en/'
-  - text: 'Contact'
-    url: '/en/contact/'
   - text: 'Profile'
     url: '/en/profile/'
   - text: 'de'
@@ -34,4 +30,4 @@ en:
     text: 'Read more articles'
     url: '/en/archive'
   description: 'Moonbase of Philipp Rudloff. About web, front-end and design and various things that crosses my mind.'
-  footer: 'Moonbase of <a href="https://twitter.com/kleinfreund">Philipp Rudloff</a>. All content is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" title="Attribution – ShareAlike 4.0 International">CC BY-SA</a>. Hosted on <a href="https://github.com/kleinfreund/kleinfreund.github.io">GitHub</a>. Built with <a href="http://jekyllrb.com">Jekyll</a>. <a href="/en/legal-disclosure">Legal disclosure</a>.'
+  footer: 'Moonbase of <a href="https://twitter.com/kleinfreund">Philipp Rudloff</a>. All content is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" title="Attribution – ShareAlike 4.0 International">CC BY-SA</a>. Hosted on <a href="https://github.com/kleinfreund/kleinfreund.github.io">GitHub</a>. Built with <a href="http://jekyllrb.com">Jekyll</a>.<br>Write me a love letter to <a href="mailto:phrudloff@gmail.com">phrudloff@gmail.com</a>. — <a href="/en/legal-disclosure">Legal disclosure</a>.'
