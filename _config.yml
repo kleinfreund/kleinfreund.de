@@ -1,6 +1,6 @@
 name: kleinfreund
-title: kleinfreund.de
-url: http://kleinfreund.de
+title: hey.kleinfreund.de
+url: http://hey.kleinfreund.de
 
 permalink: /:categories/:year/:month/:title
 relative_permalinks: false
