@@ -1,8 +1,6 @@
 de:
   url: '/'
   language: 'de'
-  other-lang-text: 'English'
-  other-lang-url: '/en/'
   nav:
   - text: 'Blog'
     url: '/'
@@ -21,8 +19,6 @@ de:
 en:
   url: '/en/'
   language: 'en'
-  other-lang-text: 'Deutsch'
-  other-lang-url: '/'
   nav:
   - text: 'Blog'
     url: '/en/'
