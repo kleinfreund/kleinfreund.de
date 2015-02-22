@@ -18,12 +18,13 @@
  */
 .tag {
     display: inline-block;
-    margin-right: 0.5rem;
+    margin-right: 0.25rem;
     padding-right: 0.5rem;
     padding-left: 0.5rem;
     font-size: $small-font-size;
     background-color: $ui-color-light;
     color: #fff;
+    border-radius: 2px;
 
     &:last-child {
         margin-right: 0;
@@ -33,6 +34,7 @@
 // Well, look at this little sucker. I actually needed to overqualify for once.
 // That’s due to tags that may appear in link *and* non-link environments.
 a.tag {
+
     @include attention() {
         background-color: $ui-color;
         color: #fff;

@@ -1,18 +1,14 @@
-$base-font-size: 16px!default;
-$base-line-height: 24px!default;
-$base-font-family: sans-serif!default;
-
-$ui-color: #ccc!default;
-
+/**
+ * Typography
+ */
 $base-font-weight: normal!default;
 $bold-font-weight: bold!default;
 
-$lap-start: 481px!default;
-$desk-start: 1024px!default;
-$desk-wide-start: 1200px!default;
+$base-font-family: sans-serif!default;
+$code-font-family: Consolas, Courier New, Courier, monospace!default;
 
-$palm-end: $lap-start - 1px;
-$lap-end: $desk-start - 1px;
+$base-font-size: 16px!default;
+$base-line-height: 24px!default;
 
 $giga-size: 96px!default;
 $mega-size: 72px!default;
@@ -27,6 +23,30 @@ $h6-size: 14px!default;
 
 $small-font-size: 14px!default;
 
+
+
+/**
+ * Colors
+ */
+$ui-color: #ccc!default;
+
+
+
+/**
+ * Media Query Breakpoints
+ */
+$lap-start: 481px!default;
+$desk-start: 1024px!default;
+$desk-wide-start: 1200px!default;
+
+$palm-end: $lap-start - 1px;
+$lap-end: $desk-start - 1px;
+
+
+
+/**
+ * Misc
+ */
 $base-spacing-unit: $base-line-height!default;
 $half-spacing-unit: $base-spacing-unit / 2!default;
 $line-height-ratio: $base-line-height / $base-font-size;

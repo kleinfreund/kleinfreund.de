@@ -7,9 +7,9 @@ layout: page
 {% for post in posts limit:site.max_posts %}
     <li>
         {% if post.off-site-url %}
-            <a class="post-list__link  external" href="{{ post.off-site-url }}">
+        <a class="post-list__link  external" href="{{ post.off-site-url }}">
         {% else %}
-            <a class="post-list__link" href="{{ post.url }}">
+        <a class="post-list__link" href="{{ post.url }}">
         {% endif %}
 
             <time class="timestamp" datetime="{{ post.date | date: '%Y-%m-%d' }}">
@@ -47,5 +47,5 @@ layout: page
 </ul>
 
 {% if posts.size > site.max_posts %}
-<a href="{{ site.data.locales[page.lang].blog-archive.url }}" class="island">{{ site.data.locales[page.lang].blog-archive.text }}</a>
+<a href="{{ site.data.locales[page.lang].blog-archive.url }}#next-post" class="island">{{ site.data.locales[page.lang].blog-archive.text }}</a>
 {% endif %}

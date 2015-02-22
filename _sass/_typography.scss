@@ -140,7 +140,7 @@ a {
  * Code
  */
 pre, code, kbd, samp {
-    font-family: Consolas, Courier New, Courier, monospace;
+    font-family: $code-font-family;
 }
 
 code {
