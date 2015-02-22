@@ -10,7 +10,6 @@ layout: compress
     {% if site.data.locales[page.lang].description %}<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.data.locales[page.lang].description }}{% endif %}">{% endif %}
 
     {% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
-    {% if site.google_analytics %}<link rel="dns-prefetch" href="//www.google-analytics.com">{% endif %}
 
     <!--| Hello, code inspecting individual.
         | Feel free to poke around.

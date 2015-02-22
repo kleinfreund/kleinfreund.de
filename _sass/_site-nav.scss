@@ -1,8 +1,8 @@
 .site-nav {
     @extend %clearfix;
     position: absolute;
-    top: $base-spacing-unit * 2;
-    right: $base-spacing-unit;
+    top: 64px;
+    right: 32px;
     text-align: right;
 
     @include media-query(desk) {
