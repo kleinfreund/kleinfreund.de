@@ -6,46 +6,7 @@ layout: page
 <ul class="post-list">
 {% for post in posts limit:site.max_posts %}
     <li>
-        {% if post.off-site-url %}
-        <a class="post-list__link  external" href="{{ post.off-site-url }}">
-        {% else %}
-        <a class="post-list__link" href="{{ post.url }}">
-        {% endif %}
-
-            <time class="timestamp" datetime="{{ post.date | date: '%Y-%m-%d' }}">
-                {% if post.lang == 'de' %}
-                    {{ post.date | date: '%-d.' }}
-                    {% assign month = post.date | date: '%-m' %}
-                    {% case month %}
-                        {% when '1' %}Januar
-                        {% when '2' %}Februar
-                        {% when '3' %}März
-                        {% when '4' %}April
-                        {% when '5' %}Mai
-                        {% when '6' %}Juni
-                        {% when '7' %}Juli
-                        {% when '8' %}August
-                        {% when '9' %}September
-                        {% when '10' %}Oktober
-                        {% when '11' %}November
-                        {% when '12' %}Dezember
-                    {% endcase %}
-                {% else %}
-                    {{ post.date | date: '%-d %B, ' }}
-                {% endif %}
-                {{ post.date | date: '%Y' }}
-            </time>
-
-            <span class="post-title">{{ post.title }}</span>
-
-            {% for tag in post.tags %}
-                <span class="tag">{{ tag }}</span>
-            {% endfor %}
-
-            {% if post.off-site-url %}
-                <span class="tag  tag--external" title="{{ site.data.locales[page.lang].external-link }}">*</span>
-            {% endif %}
-        </a>
+        {% include _post-list-entry.html %}
     </li>
 {% endfor %}
 </ul>
