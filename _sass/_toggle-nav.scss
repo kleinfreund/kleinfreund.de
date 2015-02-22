@@ -17,9 +17,9 @@
  */
 [for="toggle-nav"] {
     -webkit-user-select: none; /* [1] */
-       -moz-user-select: none; /* [1] */
-        -ms-user-select: none; /* [1] */
-            user-select: none; /* [1] */
+    -moz-user-select: none; /* [1] */
+    -ms-user-select: none; /* [1] */
+    user-select: none; /* [1] */
     cursor: pointer; /* [2] */
 
     @include media-query(desk) {
@@ -66,9 +66,9 @@
     &__bar {
         fill: $ui-color;
         -webkit-transform: translate(0) rotate(0);
-                transform: translate(0) rotate(0);
+        transform: translate(0) rotate(0);
         -webkit-transition: -webkit-transform 0.2s;
-                transition:         transform 0.2s;
+        transition: transform 0.2s;
     }
 }
 
@@ -78,7 +78,7 @@
 
         &--top {
             -webkit-transform: translate(6px, 2px) rotate(45deg);
-                    transform: translate(6px, 2px) rotate(45deg);
+            transform: translate(6px, 2px) rotate(45deg);
         }
 
         &--mid {
@@ -87,7 +87,7 @@
 
         &--bot {
             -webkit-transform: translate(-15px, 6px) rotate(-45deg);
-                    transform: translate(-15px, 6px) rotate(-45deg);
+            transform: translate(-15px, 6px) rotate(-45deg);
         }
     }
 }

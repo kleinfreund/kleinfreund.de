@@ -6,18 +6,23 @@
     > svg {
         fill: $ui-color;
         float: left;
+        -webkit-transform: none;
         transform: none;
+        -webkit-transition: all 0.7s;
         transition: all 0.7s;
     }
 
     &:hover > svg {
+        -webkit-transform: rotate(-135deg);
         transform: rotate(-135deg);
+        -webkit-transition: all 0.7s 0.3s;
         transition: all 0.7s 0.3s;
     }
 
     &:hover .site-logo__face,
     &:hover .site-logo__eye {
         fill: #b31809;
+        -webkit-transition: all 0.7s 0.3s;
         transition: all 0.7s 0.3s;
     }
 }
