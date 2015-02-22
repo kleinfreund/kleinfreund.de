@@ -10,6 +10,7 @@ de:
     url: '/profil/'
   - text: 'en'
     url: '/en/'
+  external-link: 'Externer Link'
   blog-archive:
     text: 'Mehr Beiträge lesen'
     url: '/archiv'
@@ -28,6 +29,7 @@ en:
     url: '/en/profile/'
   - text: 'de'
     url: '/'
+  external-link: 'External link'
   blog-archive:
     text: 'Read more articles'
     url: '/en/archive'
