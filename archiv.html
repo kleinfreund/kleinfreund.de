@@ -1,13 +1,5 @@
 ---
 title: Archiv
+layout: archive
 permalink: /archiv/
 ---
-{% assign posts_de = site.posts | where:"lang","de" %}
-
-<ul class="archive-list">
-{% for post in posts_de %}
-    <li class="{% if forloop.index > site.max_posts %}past-post{% else %}current-post{% endif %}">
-        <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-{% endfor %}
-</ul>
