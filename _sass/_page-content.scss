@@ -4,8 +4,14 @@
 
 .archive-list {
 
-    .current-post a {
-        color: #aaa;
+    .current-post {
+        .tag {
+            background-color: $gray-color-light;
+        }
+
+        a {
+            color: $gray-color;
+        }
     }
 }
 
