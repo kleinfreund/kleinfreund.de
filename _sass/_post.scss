@@ -17,12 +17,16 @@
  */
 .tag {
     display: inline-block;
-    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     padding-right: 0.5rem;
     padding-left: 0.5rem;
     font-size: $small-font-size;
     background-color: $ui-color-light;
     color: #fff;
+
+    &:last-child {
+        margin-right: 0;
+    }
 }
 
 // Well, look at this little sucker. I actually needed to overqualify for once.
