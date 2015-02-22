@@ -29,7 +29,7 @@ en:
   - text: 'de'
     url: '/'
   blog-archive:
-  - text: 'Read more articles'
+    text: 'Read more articles'
     url: '/archive'
   description: 'Moonbase of Philipp Rudloff. About web, front-end and design and various things that crosses my mind.'
   footer: 'Moonbase of <a href="https://twitter.com/kleinfreund">Philipp Rudloff</a>. All content is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" title="Attribution – ShareAlike 4.0 International">CC BY-SA</a>. Hosted on <a href="https://github.com/kleinfreund/kleinfreund.github.io">GitHub</a>. Built with <a href="http://jekyllrb.com">Jekyll</a>. <a href="/en/legal-disclosure">Legal disclosure</a>.'
