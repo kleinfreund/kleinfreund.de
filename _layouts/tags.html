@@ -1,26 +1,20 @@
 ---
 layout: page
 ---
-{% assign tags_sorted = site.tags | sort %}
+{% assign sorted_tags = site.tags | sort %}
 
-{% for tag in tags_sorted %}
+{% for tag in sorted_tags %}
     {% assign posts = tag[1] | where: "lang", page.lang %}
 
     {% if posts.size > 0 %}
-    <h2 id="{{ tag[0] }}">{{ tag[0] | prepend: "#" }}</h2>
-    <ul>
-        {% for post in posts %}
-            <li>
-                {% if post.off-site-url %}
-                    <a href="{{ post.off-site-url }}">
-                {% else %}
-                    <a href="{{ post.url }}">
-                {% endif %}
-
-                {{ post.title }}</a>
-            </li>
-        {% endfor %}
-    </ul>
+        <h2 class="tag" id="{{ tag[0] }}">{{ tag[0] | prepend: "#" }}</h2>
+        <ul class="post-list">
+            {% for post in posts %}
+                <li>
+                    {% include _tag-list-entry.html %}
+                </li>
+            {% endfor %}
+        </ul>
     {% endif %}
 
     {% assign posts = nil %}

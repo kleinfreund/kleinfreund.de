@@ -1,0 +1,23 @@
+<time class="timestamp" datetime="{{ post.date | date: '%Y-%m-%d' }}">
+    {% if post.lang == 'de' %}
+        {{ post.date | date: '%-d.' }}
+        {% assign month = post.date | date: '%-m' %}
+        {% case month %}
+            {% when '1' %}Januar
+            {% when '2' %}Februar
+            {% when '3' %}März
+            {% when '4' %}April
+            {% when '5' %}Mai
+            {% when '6' %}Juni
+            {% when '7' %}Juli
+            {% when '8' %}August
+            {% when '9' %}September
+            {% when '10' %}Oktober
+            {% when '11' %}November
+            {% when '12' %}Dezember
+        {% endcase %}
+    {% else %}
+        {{ post.date | date: '%-d %B, ' }}
+    {% endif %}
+    {{ post.date | date: '%Y' }}
+</time>
