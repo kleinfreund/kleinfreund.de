@@ -20,17 +20,25 @@ layout: compress
     <script>{% include loadfont.min.js %}</script>
     <script>loadFont('Ubuntu', '/css/ubuntu.woff.css', '')</script>
 
-    {% if site.loadCSS_js %}
+    <style>
+        {% capture scss_include %}
+            {% include kleinfreund.scss %}
+        {% endcapture %}
+
+        {{ scss_include | scssify }}
+    </style>
+
+    <!-- {% if site.loadCSS_js %}
     <script>
         {% include loadcss.min.js %}
-        loadCSS("{{ site.assets.css }}{{ site.name }}.css")
+        loadCSS("{{ site.assets.css }}kleinfreund.css")
     </script>
     <noscript>
         <link rel="stylesheet" href="{{ site.assets.css }}kleinfreund.css">
     </noscript>
     {% else %}
         <link rel="stylesheet" href="{{ site.assets.css }}kleinfreund.css">
-    {% endif %}
+    {% endif %} -->
 
     <link rel="icon" href="/img/icon.png">
     <link rel="icon" href="/img/icon.svg" sizes="any" type="image/svg+xml">
