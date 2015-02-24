@@ -1,0 +1,52 @@
+/**
+ * Page
+ */
+.wrapper {
+    @extend %clearfix;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.page-title {
+    padding-right: $base-spacing-unit / 2;
+    padding-left: $base-spacing-unit / 2;
+
+    @include media-query(desk) {
+        padding: 0;
+    }
+}
+
+
+
+/**
+ * Page Content
+ */
+.page-content {
+    padding-right: $base-spacing-unit / 2;
+    padding-left: $base-spacing-unit / 2;
+    @include vertical-gap(bottom);
+
+    @include media-query(desk) {
+        float: left;
+        padding-left: 0;
+        padding-right: $base-spacing-unit * 2;
+        width: $content-width;
+    }
+}
+
+
+
+/**
+ * Sidebar
+ */
+.sidebar {
+    padding-right: $base-spacing-unit / 2;
+    padding-left: $base-spacing-unit / 2;
+    @include vertical-gap(bottom);
+
+    @include media-query(desk) {
+        float: left;
+        padding: 0;
+        width: $sidebar-width;
+    }
+}

@@ -1,30 +1,15 @@
 .site-nav {
-    @extend %clearfix;
-    position: absolute;
-    top: 64px;
-    right: 32px;
-    text-align: right;
+    float: right;
+    margin-right: $base-spacing-unit;
+    margin-top: $base-spacing-unit / 2;
 
-    @include media-query(desk) {
-        position: static;
-        float: right;
-        line-height: 1;
-        margin-right: $base-spacing-unit * 3;
-        margin-top: $base-spacing-unit / 2;
-    }
-}
-
-.site-nav__item {
-    display: block;
-    padding-top: $base-spacing-unit / 3;
-    font-weight: $bold-font-weight;
-
-    @include media-query(desk) {
-        float: left;
+    > a {
+        display: inline-block;
         padding: $base-spacing-unit / 2 $base-spacing-unit;
+        font-weight: $bold-font-weight;
+    }
 
-        + .site-nav__item {
-            margin-left: $half-spacing-unit;
-        }
+    @include media-query(desk) {
+        margin-right: $base-spacing-unit * 3;
     }
 }

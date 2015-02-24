@@ -3,6 +3,10 @@
     margin-top: $half-spacing-unit;
     margin-left: $base-spacing-unit;
 
+    &__eye {
+        fill: #fff;
+    }
+
     > svg {
         fill: $ui-color;
         float: left;
@@ -25,14 +29,8 @@
         -webkit-transition: all 0.7s 0.3s;
         transition: all 0.7s 0.3s;
     }
-}
 
-.site-logo__eye {
-    fill: #fff;
-}
-
-@include media-query(lap-and-up) {
-    .site-logo {
+    @include media-query(lap-and-up) {
         margin-left: $base-spacing-unit * 3;
     }
 }
