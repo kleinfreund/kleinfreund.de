@@ -1,4 +1,5 @@
 .post-head {
+    @extend %vertical-rhythm;
 
     > .timestamp {
         display: inline-block;
