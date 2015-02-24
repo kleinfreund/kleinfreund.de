@@ -7,7 +7,8 @@ layout: compress
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }}{% endif %} – {{ site.title }}</title>
-    {% if site.data.locales[page.lang].description %}<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.data.locales[page.lang].description }}{% endif %}">{% endif %}
+    {% assign page-lang = site.data.locales[page.lang] %}
+    {% if page-lang.description %}<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ page-lang.description }}{% endif %}">{% endif %}
 
     {% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
 
@@ -46,41 +47,35 @@ layout: compress
 </head>
 <body class="page">
     <header class="site-head">
-        <a class="site-logo" href="{{ site.data.locales[page.lang].url }}">
+        <a class="site-logo" href="{{ page-lang.url }}">
             <svg viewBox="0 0 48 48" width="48" height="48">
                 <use class="site-logo__face" xlink:href="#site-logo__face"></use>
                 <use class="site-logo__eye" xlink:href="#site-logo__eye"></use>
             </svg>
         </a>
 
-        <input type="checkbox" class="toggle-nav__input" id="toggle-nav">
-        <label class="toggle-nav__label" for="toggle-nav">
-            <svg class="nav-icon" viewBox="0 0 30 30" width="30">
-                <use class="nav-icon__bar  nav-icon__bar--top" xlink:href="#nav-icon__bar"></use>
-                <use class="nav-icon__bar  nav-icon__bar--mid" xlink:href="#nav-icon__bar" y="12"></use>
-                <use class="nav-icon__bar  nav-icon__bar--bot" xlink:href="#nav-icon__bar" y="24"></use>
-            </svg>
-        </label>
-
         <nav class="site-nav">
-            {% for link in site.data.locales[page.lang].nav %}
-            <a class="site-nav__item" href="{{ link.url }}">{{ link.text }}</a>
-            {% endfor %}
+            <a href="{{ page-lang.lang-nav.url }}">{{ page-lang.lang-nav.text }}</a>
         </nav>
     </header>
 
 
 
-    <main class="page-content">
-        <div class="wrapper">
-            {{ content }}
-        </div>
-    </main>
+    <div class="wrapper">
+        {{ content }}
+
+        <aside class="sidebar">
+            <h2>{{ page-lang.sidebar.headline }}</h2>
+            <p>{{ page-lang.sidebar.about }}</p>
+            <p>{{ page-lang.sidebar.links }}</p>
+            <p>{{ page-lang.sidebar.contact }}</p>
+        </aside>
+    </div>
 
 
 
     <footer class="site-foot">
-        <p>{{ site.data.locales[page.lang].footer }}</p>
+        <p>{{ page-lang.footer }}</p>
     </footer>
 
 
@@ -91,8 +86,6 @@ layout: compress
                 <path id="site-logo__face" d="m36,8c-2,0 -22,0 -24,0c-2,0 -4,2 -4,4c0,2 0,22 0,24c0,2 2,4 4,4c2,0 20,0 20,0l0,-8l8,0c0,0 0,-18 0,-20c0,-2 -2,-4 -4,-4z" />
                 <path id="site-logo__eye" d="m 27.5,23 c 0,-1.3807 -1.119,-2.5 -2.5,-2.5 -1.381,0 -2.5,1.1193 -2.5,2.5 0,1.3807 1.119,2.5 2.5,2.5 1.381,0 2.5,-1.1193 2.5,-2.5 z" />
             </g>
-
-            <path id="nav-icon__bar" d="M0,0 30,0 30,6 0,6"/>
         </defs>
     </svg>
 </body>

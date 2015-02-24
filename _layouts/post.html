@@ -1,44 +1,24 @@
 ---
 layout: default
 ---
-<article class="post">
-    <header class="post-head">
-        <time class="timestamp" datetime="{{ page.date | date: '%Y-%m-%d' }}">
-            {% if page.lang == 'de' %}
-                {{ page.date | date: '%-d.' }}
-                {% assign month = page.date | date: '%-m' %}
-                {% case month %}
-                    {% when '1' %}Januar
-                    {% when '2' %}Februar
-                    {% when '3' %}März
-                    {% when '4' %}April
-                    {% when '5' %}Mai
-                    {% when '6' %}Juni
-                    {% when '7' %}Juli
-                    {% when '8' %}August
-                    {% when '9' %}September
-                    {% when '10' %}Oktober
-                    {% when '11' %}November
-                    {% when '12' %}Dezember
-                {% endcase %}
-            {% else %}
-                {{ page.date | date: '%-d %B, ' }}
-            {% endif %}
-            {{ page.date | date: '%Y' }}
-        </time>
+<h1 class="page-title">
+    {% if page.off-site-url %}
+        <a href="{{ page.off-site-url }}">{{ page.title }}</a>
+    {% else %}
+        {{ page.title }}
+    {% endif %}
+</h1>
 
-        {% for tag in page.tags %}
-            <a class="tag" href="/tags#{{ tag }}">{{ tag }}</a>
-        {% endfor %}
+<main class="page-content">
+    <article class="post">
+        <header class="post-head">
+            {% include _timestamp.html %}
 
-        <h1>
-        {% if page.off-site-url %}
-            <a href="{{ page.off-site-url }}">{{ page.title }}</a>
-        {% else %}
-            {{ page.title }}
-        {% endif %}
-        </h1>
-    </header>
+            {% include _tags.html %}
 
-    {{ content }}
-</article>
+            {% include _tag--external.html %}
+        </header>
+
+        {{ content }}
+    </article>
+</main>
