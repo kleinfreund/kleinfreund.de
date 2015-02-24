@@ -1,13 +1,19 @@
 de:
   url: '/'
   language: 'de'
-  lang-nav:
+  translation:
     text: 'English'
     url: '/en/'
-  external-link: 'Externer Link'
-  blog-archive:
+  tags:
+    text: 'Tags'
+    url: '/tags/'
+  categories:
+    text: 'Kategorien'
+    url: '/kategorien/'
+  archive:
     text: 'Mehr Beiträge lesen'
-    url: '/archiv'
+    url: '/archiv/'
+  external-link: 'Externer Link'
   sidebar:
     headline: 'Hey!'
     about: 'Phil hier. Ich mache Websites, lebe in Weimar und studiere Medieninformatik. Ich arbeite vor allem mit <a href="http://jekyllrb.com">Jekyll</a>, <a href="https://github.com/kleinfreund">GitHub</a> und CSS.'
@@ -19,13 +25,19 @@ de:
 en:
   url: '/en/'
   language: 'en'
-  lang-nav:
+  translation:
     text: 'Deutsch'
     url: '/'
-  external-link: 'External link'
-  blog-archive:
+  tags:
+    text: 'Tags'
+    url: '/tags/'
+  categories:
+    text: 'Categories'
+    url: '/categories/'
+  archive:
     text: 'Read more articles'
-    url: '/en/archive'
+    url: '/archive/'
+  external-link: 'External link'
   sidebar:
     headline: 'Hey!'
     about: 'Phil here. I make websites, live in Weimar and study Computer Science and Media. I work with <a href="http://jekyllrb.com">Jekyll</a>, <a href="https://github.com/kleinfreund">GitHub</a> and CSS.'

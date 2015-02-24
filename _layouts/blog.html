@@ -1,16 +1,19 @@
 ---
 layout: page
 ---
+{% assign page-lang = site.data.locales[page.lang] %}
 {% assign posts = site.posts | where: "lang", page.lang %}
 
 <ul class="post-list">
-{% for post in posts limit:site.max_posts %}
-    <li>
-        {% include _post-list-entry.html %}
-    </li>
-{% endfor %}
+    {% for post in posts limit:site.max_posts %}
+        <li>
+            {% include _post-list-entry.html %}
+        </li>
+    {% endfor %}
 </ul>
 
 {% if posts.size > site.max_posts %}
-<a href="{{ site.data.locales[page.lang].blog-archive.url }}#next-post" class="island">{{ site.data.locales[page.lang].blog-archive.text }}</a>
+    <a href="{{ page-lang.archive.url }}#next-post" class="island">
+        {{ page-lang.archive.text }}
+    </a>
 {% endif %}

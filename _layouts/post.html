@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+{% assign page-lang = site.data.locales[page.lang] %}
+
 <h1 class="page-title">
     {% if page.off-site-url %}
         <a href="{{ page.off-site-url }}">{{ page.title }}</a>
@@ -14,7 +16,9 @@ layout: default
         <header class="post-head">
             {% include _timestamp.html %}
 
-            {% include _tags.html %}
+            {% for tag in page.tags %}
+                <a class="tag" href="{{ page-lang.tags.url }}#{{ tag }}">{{ tag }}</a>
+             {% endfor %}
 
             {% include _tag--external.html %}
         </header>
