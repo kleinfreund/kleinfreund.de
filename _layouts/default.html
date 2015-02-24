@@ -21,13 +21,17 @@ layout: compress
     <script>{% include loadfont.min.js %}</script>
     <script>loadFont('Ubuntu', '/css/ubuntu.woff.css', '')</script>
 
-    <style>
-        {% capture scss_include %}
-            {% include kleinfreund.scss %}
-        {% endcapture %}
+    {% if jekyll.environment == 'local' %}
+        <link rel="stylesheet" href="{{ site.assets.css }}kleinfreund.css">
+    {% else %}
+        <style>
+            {% capture scss_include %}
+                {% include kleinfreund.scss %}
+            {% endcapture %}
 
-        {{ scss_include | scssify }}
-    </style>
+            {{ scss_include | scssify }}
+        </style>
+    {% endif %}
 
     <!-- {% if site.loadCSS_js %}
     <script>
