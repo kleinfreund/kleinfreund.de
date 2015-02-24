@@ -11,7 +11,7 @@ de:
   sidebar:
     headline: 'Hey!'
     about: 'Phil hier. Ich mache Websites, lebe in Weimar und studiere Medieninformatik. Ich arbeite vor allem mit <a href="http://jekyllrb.com">Jekyll</a>, <a href="https://github.com/kleinfreund">GitHub</a> und CSS.'
-    links: 'Und sonst? Richtige Apostrophe verwende ich auch (meist) auf <a href="https://twitter.com/kleinfreund">Twitter</a>, im manuellen Modus <a href="https://www.flickr.com/photos/kleinfreund">fotografiere</a> ich (manchmal) meine Umgebung und <a href="http://infiniteamplitudes.tumblr.com">infinite amplitudes</a> ist der Platz, wo ich (häufig nackte) Dinge sammle.'
+    links: 'Und sonst? Richtige Apostrophe verwende ich (oft) auf <a href="https://twitter.com/kleinfreund">Twitter</a>, im manuellen Modus <a href="https://www.flickr.com/photos/kleinfreund">fotografiere</a> ich (manchmal) meine Umgebung.'
     contact: 'E-Mail: <a href="phrudloff@gmail">phrudloff@gmail</a>'
   description: 'Mondbasis von Philipp Rudloff. Über Web, Frontend und Design und allerlei Dinge, die mir in den Sinn kommen.'
   footer: 'Mondbasis von <a href="https://twitter.com/kleinfreund">Philipp Rudloff</a>. Alle Inhalte sind unter <a href="https://creativecommons.org/licenses/by-sa/4.0/" title="Attribution – ShareAlike 4.0 International">CC BY-SA</a> lizenziert. Gehostet auf <a href="https://github.com/kleinfreund/kleinfreund.github.io">GitHub</a>. Erstellt mit <a href="http://jekyllrb.com">Jekyll</a>.<br>Schreib mir einen Liebesbrief an <a href="mailto:phrudloff@gmail.com">phrudloff@gmail.com</a>. — <a href="/impressum">Impressum</a>.'
@@ -29,7 +29,7 @@ en:
   sidebar:
     headline: 'Hey!'
     about: 'Phil here. I make websites, live in Weimar and study Computer Science and Media. I work with <a href="http://jekyllrb.com">Jekyll</a>, <a href="https://github.com/kleinfreund">GitHub</a> and CSS.'
-    links: 'What else? Using correct apostrophes (usually) on <a href="https://twitter.com/kleinfreund">Twitter</a>, <a href="https://www.flickr.com/photos/kleinfreund">shooting</a> my environment (sometimes) in manual mode and collecting (often naked) things on <a href="http://infiniteamplitudes.tumblr.com">infinite amplitudes</a>.'
+    links: 'What else? Using correct apostrophes (usually) on <a href="https://twitter.com/kleinfreund">Twitter</a>, <a href="https://www.flickr.com/photos/kleinfreund">shooting</a> my environment (sometimes) in manual mode.'
     contact: 'E-Mail: <a href="phrudloff@gmail">phrudloff@gmail</a>'
   description: 'Moonbase of Philipp Rudloff. About web, front-end and design and various things that crosses my mind.'
   footer: 'Moonbase of <a href="https://twitter.com/kleinfreund">Philipp Rudloff</a>. All content is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" title="Attribution – ShareAlike 4.0 International">CC BY-SA</a>. Hosted on <a href="https://github.com/kleinfreund/kleinfreund.github.io">GitHub</a>. Built with <a href="http://jekyllrb.com">Jekyll</a>.<br>Write me a love letter to <a href="mailto:phrudloff@gmail.com">phrudloff@gmail.com</a>. — <a href="/en/legal-disclosure">Legal disclosure</a>.'
