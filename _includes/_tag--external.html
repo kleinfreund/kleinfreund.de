@@ -1,3 +1,9 @@
-{% if post.off-site-url %}
-    <span class="tag  tag--external" title="{{ site.data.locales[page.lang].external-link }}">*</span>
+{% if post %}
+    {% if post.off-site-url %}
+        <span class="tag  tag--external" title="{{ site.data.locales[page.lang].external-link }}">*</span>
+    {% endif %}
+{% else %}
+    {% if page.off-site-url %}
+        <span class="tag  tag--external" title="{{ site.data.locales[page.lang].external-link }}">*</span>
+    {% endif %}
 {% endif %}
