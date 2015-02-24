@@ -2,9 +2,14 @@
  * Page
  */
 .wrapper {
+    max-width: $content-width;
     @extend %clearfix;
     margin-right: auto;
     margin-left: auto;
+
+    @include media-query(desk) {
+        max-width: none;
+    }
 }
 
 .page-title {
