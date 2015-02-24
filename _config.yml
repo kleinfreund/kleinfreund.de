@@ -3,7 +3,6 @@ title: hey.kleinfreund.de
 url: http://hey.kleinfreund.de
 
 permalink: /:categories/:year/:month/:title
-relative_permalinks: false
 
 max_posts: 10
 
@@ -15,7 +14,7 @@ kramdown:
   auto_ids: false
 
 sass:
-  style: :compressed
+  style: compressed
 
 
 
@@ -55,31 +54,26 @@ compress_html:
 
 
 defaults:
-  # Default layout and language to everything
   -
     values:
       layout: "default"
       lang: "de"
-  # Specify default pages’ layout
   -
     scope:
       path: ""
       type: "pages"
     values:
       layout: "page"
-  # Specify default posts’ layout
   -
     scope:
       type: "posts"
     values:
       layout: "post"
-  # Set language for everything inside `/en`
   -
     scope:
       path: "en"
     values:
       lang: "en"
-  # Set language for English posts
   -
     scope:
       path: "en/_posts"
