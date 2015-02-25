@@ -42,24 +42,12 @@ figure,
  */
 .clearfix,
 %clearfix {
+
     &:after {
         content: "";
         display: table;
         clear: both;
     }
-}
-
-
-
-/**
- * Hide/Show stuff
- */
-.hidden {
-    display: none;
-}
-
-.visible {
-    display: block;
 }
 
 
@@ -103,6 +91,7 @@ img, svg {
  * Figures
  */
 figure {
+
     > img {
         display: block;
     }
@@ -114,10 +103,6 @@ figure {
 
 figcaption {
     @include font-size($small-font-size);
-
-    > a {
-        font-weight: $base-font-weight;
-    }
 }
 
 
@@ -128,9 +113,8 @@ figcaption {
 hr {
     border: 0;
     border-bottom: 2px solid #aaa;
-    margin-top: -1px;
-    margin-bottom: $base-spacing-unit - 1px;
-    margin-bottom: (($base-spacing-unit - 1px) / $base-font-size)*1rem;
+    margin-bottom: $base-spacing-unit - 2px;
+    margin-bottom: (($base-spacing-unit - 2px) / $base-font-size)*1rem;
 }
 
 
@@ -140,13 +124,4 @@ hr {
  */
 iframe {
     vertical-align: middle;
-}
-
-
-
-/**
- * Lists
- */
-dl, ol, ul {
-    margin-left: 2rem;
 }

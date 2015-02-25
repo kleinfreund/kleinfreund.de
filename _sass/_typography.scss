@@ -44,7 +44,12 @@ h6 {
 /**
  * Lists
  */
+dl, ol, ul {
+    margin-left: 2rem;
+}
+
 li {
+
     > ul,
     > ol {
          margin-bottom: 0;
@@ -111,7 +116,7 @@ blockquote {
 /**
  * Inline elements
  */
-strong {
+b, strong {
     font-weight: $bold-font-weight;
 }
 
@@ -122,7 +127,6 @@ strong {
  */
 a {
     color: $ui-color;
-    font-weight: $base-font-weight;
     text-decoration: none;
 
     @include attention() {
@@ -149,7 +153,7 @@ pre {
     word-wrap: normal;
     color: #fff;
     background-color: $gray-color-dark;
-    padding: $base-spacing-unit / 4 $half-spacing-unit;
+    padding: $base-spacing-unit / 4 $base-spacing-unit / 2;
     border-radius: 3px;
 
     > code {
