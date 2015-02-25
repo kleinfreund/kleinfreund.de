@@ -10,10 +10,10 @@ To build the site locally (with Jekyll), the following things are required:
 
 - Ruby (2 or newer, 1.9 might still work)
 - RubyGems:
-    - jekyll (atleast the current Pages dependency: 2.4.0)
-    - jekyll-sitemap (atleast the current Pages dependency: 0.6.3)
+    - jekyll (latest, atleast the current Pages dependency)
+    - jekyll-sitemap (latest, atleast the current Pages dependency)
 
-Additionally, there are some things that might be required. For example, Jekyll currently needs a JavaScript runtime (i.e. Node.js). On Windows to the wdm gem is required to watch for file changes.
+Additionally, there are some things that might be required. For example, Jekyll currently needs a JavaScript runtime (i.e. Node.js). On Windows the `wdm` gem is required to watch for file changes.
 
 ## To Do
 
