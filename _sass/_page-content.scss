@@ -1,17 +1,26 @@
 .block-note {
     position: relative;
     display: block;
-    @include font-size(16px);
-    @extend %vertical-rhythm;
+    padding-left: 2rem;
+
+    @include media-query(lap-and-up) {
+        padding-left: 0;
+    }
 
     &:before {
-        /* content: "/!\ "; */
+        /* content: "/!\\ "; */
         content: "\2F \21 \5C \A0";
         position: absolute;
-        right: 100%;
+        // right: 100%;
+        left: 0;
         color: $ui-color;
-        font-family: $code-font-family;
         font-weight: $bold-font-weight;
+        letter-spacing: 2px;
+
+        @include media-query(lap-and-up) {
+            left: auto;
+            right: 100%;
+        }
     }
 }
 

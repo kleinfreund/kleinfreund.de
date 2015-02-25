@@ -40,7 +40,7 @@ Wir nehmen Kategorien. Das ist auch nicht ganz sauber, aber es funktioniert. In 
 permalink: /:categories/:year/:month/:title
 ```
 
-<div class="block-note">Mit Ausnahme von <code>permalink: pretty</code> gelten diese Einstellungen nur für Beiträge. Für Seiten müssen die Permalinks explizit festgelegt werden.</div>
+<p class="block-note">Mit Ausnahme von <code>permalink: pretty</code> gelten diese Einstellungen nur für Beiträge. Für Seiten müssen die Permalinks explizit festgelegt werden.</p>
 
 ## Sprache festlegen
 

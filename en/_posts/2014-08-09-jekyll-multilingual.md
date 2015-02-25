@@ -40,7 +40,7 @@ We use categories. That’s not too sound as well, but it works. Actually, we al
 permalink: /:categories/:year/:month/:title
 ```
 
-<div class="block-note">With the exception of <code>permalink: pretty</code> these settings apply to posts only. Permalinks need to be explicitly set for pages.</div>
+<p class="block-note">With the exception of <code>permalink: pretty</code> these settings apply to posts only. Permalinks need to be explicitly set for pages.</p>
 
 ## Set the Language
 
