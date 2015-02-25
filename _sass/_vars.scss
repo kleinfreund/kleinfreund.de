@@ -13,10 +13,8 @@ $bold-font-weight: 500;
 $text-color: #444;
 $background-color: #fff;
 
-$alt-color: #444;
-
-$gray-color: #808f8f;
-$gray-color-light: #d0dfdf;
+$gray-color: #8f8f80;
+$gray-color-light: lighten($gray-color, 30%);
 $gray-color-dark: darken($gray-color, 30%);
 
 $ui-color: #5e85d6;
