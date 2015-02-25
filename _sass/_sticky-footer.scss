@@ -1,9 +1,12 @@
 .page {
+    display: -webkit-flex;
     display: flex;
     min-height: 100vh;
+    -webkit-flex-direction: column;
     flex-direction: column;
 }
 
 .page-content {
+    -webkit-flex: 1;
     flex: 1;
 }
