@@ -2,10 +2,14 @@
  * Page
  */
 .wrapper {
-    max-width: $content-width;
+    max-width: 100%;
     @extend %clearfix;
     margin-right: auto;
     margin-left: auto;
+
+    @include media-query(lap-and-up) {
+        max-width: $content-width;
+    }
 
     @include media-query(desk) {
         max-width: none;

@@ -9,7 +9,7 @@
         font-weight: $bold-font-weight;
     }
 
-    @include media-query(desk) {
+    @include media-query(lap-and-up) {
         margin-right: $base-spacing-unit * 3;
     }
 }
