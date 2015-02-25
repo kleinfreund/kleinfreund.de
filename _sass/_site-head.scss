@@ -3,20 +3,3 @@
     @extend %clearfix;
     @include vertical-gap();
 }
-
-.site-title {
-    display: none;
-
-    @include media-query(desk) {
-        @include font-size($h1-size);
-        color: $text-color;
-        line-height: 64px;
-        margin-left: $base-spacing-unit / 2;
-        float: left;
-        display: block;
-
-        > span {
-            font-weight: $bold-font-weight;
-        }
-    }
-}
