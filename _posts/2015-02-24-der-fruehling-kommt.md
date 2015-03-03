@@ -7,13 +7,13 @@ tags:
 ---
 Es ist mal wieder soweit. Nicht nur der Frühling ist fast da, sondern auch ein neues Jahr für das Blog. Der erste Beitrag ist vom 1. Februar 2014. Heute ist garnicht der 1. Februar? Da hast du natürlich vollkommen Recht. Das macht ja aber auch nichts, oder? In den letzten Tagen habe ich hier und da ein paar Schrauben fest gezogen oder gelockert.
 
-### Subdomain aus Performance-Gründen
+## Subdomain aus Performance-Gründen
 
 Die wichtigste Änderung ist der Umzug auf eine Subdomain. Schaut doch mal, da oben steht jetzt __hey.kleinfreund.de__. Das hat ganz pragmatische Gründe. Zeigt man nämlich mit der Root-Domain (kleinfreund.de) per A Record auf die GitHub Pages-IP, wird man weitergeleitet. Das ist Teil der DDoS-Mitigation-Strategie, die die Mädels und Jungs dort fahren (Anselm Hannemann hat das letztes Jahr <a href="https://helloanselm.com/2014/github-pages-redirect-performance/">aufgeschrieben</a>).
 
 Bei mir hat das Weiterleitern 3–5 Sekunden gedauert und das ist viel zu lange. Schweren Herzens wollte ich also die typische www.-Subdomain einrichten, bis mir dann eingefallen ist, dass man sich auch etwas anderes ausdenken kann. Anatol Broder hat sich drüben zum Beispiel für <a href="http://anatol.penibelst.de/">anatol.penibelst.de</a> entschieden.
 
-### Kritisches CSS
+## Kritisches CSS
 
 Zur Zeit experimentiere ich damit, mein komplettes Stylesheet in den `head` zu stecken. Im Moment sind das 7,3 KB. Damit spare ich mir den HTTP-Request und das Rendern ist auch nicht durch das externe Stylesheet blockiert. Im Gegenzug ist das Ganze auch nicht mehr cachebar, da das Stylesheet ja jetzt im HTML liegt.
 
@@ -35,7 +35,7 @@ Dadurch ist leider die Build-Zeit von Jekyll um 6–7 Sekunden nach oben gegange
 ```
 {% endraw %}
 
-### Unter der Haube
+## Unter der Haube
 
 Bisher gab es ein paar Seiten, die gleich aufgebaut waren und sich nur durch Sprachschnippsel unterschieden haben. Heißt also, dass ich zu faul war dafür ein Layout anzulegen und entsprechende Strings in der locales.yml zu hinterlegen. Das habe ich jetzt nachgeholt.
 
