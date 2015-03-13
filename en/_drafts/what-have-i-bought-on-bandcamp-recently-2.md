@@ -1,5 +1,5 @@
 ---
-# date: 2015-03-11
+date: 2015-03-13
 title: "What have I bought on Bandcamp recently? (2)"
 tags:
 - music
