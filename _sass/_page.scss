@@ -12,7 +12,7 @@
     }
 
     @include media-query(desk) {
-        max-width: none;
+        max-width: $content-width + $sidebar-width;
     }
 }
 
