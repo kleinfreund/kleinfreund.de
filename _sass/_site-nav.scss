@@ -1,11 +1,11 @@
 .site-nav {
     float: right;
     margin-right: $base-spacing-unit;
-    margin-top: $base-spacing-unit / 2;
+    margin-top: $half-spacing-unit;
 
     > a {
         display: inline-block;
-        padding: $base-spacing-unit / 2 $base-spacing-unit;
+        padding: $half-spacing-unit $base-spacing-unit;
         font-weight: $bold-font-weight;
     }
 

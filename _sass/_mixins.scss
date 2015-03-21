@@ -4,7 +4,7 @@
 @mixin font-size($font-size, $line-height:true) {
     font-size: $font-size;
     font-size: ($font-size / $base-font-size)*1rem;
-    @if $line-height == true{
+    @if $line-height == true {
         line-height: ceil($font-size / $base-line-height) * ($base-line-height / $font-size);
     }
 }
@@ -16,27 +16,39 @@
  */
 @mixin media-query($media-query) {
     @if $media-query == palm {
-        @media only screen and (max-width:$palm-end) { @content; }
+        @media only screen and (max-width: $palm-end) {
+            @content;
+        }
     }
 
     @if $media-query == lap {
-        @media only screen and (min-width:$lap-start) and (max-width:$lap-end) { @content; }
+        @media only screen and (min-width: $lap-start) and (max-width: $lap-end) {
+            @content;
+        }
     }
 
     @if $media-query == lap-and-up {
-        @media only screen and (min-width:$lap-start) { @content; }
+        @media only screen and (min-width: $lap-start) {
+            @content;
+        }
     }
 
     @if $media-query == portable {
-        @media only screen and (max-width:$lap-end) { @content; }
+        @media only screen and (max-width: $lap-end) {
+            @content;
+        }
     }
 
     @if $media-query == desk {
-        @media only screen and (min-width:$desk-start) { @content; }
+        @media only screen and (min-width: $desk-start) {
+            @content;
+        }
     }
 
     @if $media-query == desk-wide {
-        @media only screen and (min-width:$desk-wide-start) { @content; }
+        @media only screen and (min-width: $desk-wide-start) {
+            @content;
+        }
     }
 }
 
@@ -57,6 +69,7 @@
  * https://twitter.com/csswizardry/status/478938530342006784
  */
 @mixin attention() {
+
     &:hover,
     &:focus,
     &:active {

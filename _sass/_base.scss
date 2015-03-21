@@ -1,7 +1,9 @@
 /**
  * Internet Explorer 6 was right!
  */
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
@@ -29,8 +31,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl,
 figure,
-%vertical-rhythm,
-.island {
+%vertical-rhythm {
     margin-bottom: $base-spacing-unit;
     margin-bottom: ($base-spacing-unit / $base-font-size)*1rem;
 }
@@ -40,14 +41,10 @@ figure,
 /**
  * Clearfix
  */
-.clearfix,
-%clearfix {
-
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
+%clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 
@@ -62,27 +59,9 @@ img {
     height: auto;
 }
 
-img, svg {
+img,
+svg {
     vertical-align: middle;
-}
-
-.img--right {
-    float: right;
-    margin-bottom: $base-spacing-unit;
-    margin-left: $base-spacing-unit;
-}
-
-.img--left {
-    float: left;
-    margin-right: $base-spacing-unit;
-    margin-bottom: $base-spacing-unit;
-}
-
-.img--center {
-    display: block;
-    margin-right: auto;
-    margin-bottom: $base-spacing-unit;
-    margin-left: auto;
 }
 
 
@@ -94,10 +73,6 @@ figure {
 
     > img {
         display: block;
-    }
-
-    > .iframe-wrapper {
-        margin-bottom: 0;
     }
 }
 

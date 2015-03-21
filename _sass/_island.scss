@@ -1,7 +1,8 @@
 .island {
-    display: inline-block;
     @extend %clearfix;
-    padding: $base-spacing-unit / 2 $base-spacing-unit;
+    @extend %vertical-rhythm;
+    display: inline-block;
+    padding: $half-spacing-unit $base-spacing-unit;
     color: #fff;
     background-color: $ui-color;
     border-radius: 2px;

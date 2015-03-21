@@ -1,6 +1,6 @@
 .site-foot {
-    background-color: $gray-color-dark;
     padding: $half-spacing-unit $base-spacing-unit;
+    background-color: $gray-color-dark;
     @include font-size($small-font-size);
 
     &,

@@ -1,9 +1,9 @@
 html {
+    min-height: 100%;
+    overflow-y: scroll;
     font: $base-font-weight #{($base-font-size/16px)*1em}/#{$line-height-ratio} $base-font-family;
     color: $text-color;
     background-color: $background-color;
-    overflow-y: scroll;
-    min-height: 100%;
 }
 
 
@@ -70,9 +70,9 @@ q {
 }
 
 blockquote {
-    border-left: $border-width / 2 solid $ui-color;
     margin-left: $half-spacing-unit;
     padding-left: $half-spacing-unit - $border-width / 2;
+    border-left: $border-width / 2 solid $ui-color;
     font-style: italic;
 }
 
@@ -91,6 +91,7 @@ blockquote {
     }
 }
 
+// Adjust quotes for German content: „“ instead of “”
 [lang="de"]:root .quote__body {
 
     > :first-child:before {
@@ -116,7 +117,8 @@ blockquote {
 /**
  * Inline elements
  */
-b, strong {
+b,
+strong {
     font-weight: $bold-font-weight;
 }
 
@@ -139,7 +141,10 @@ a {
 /**
  * Code
  */
-pre, code, kbd, samp {
+pre,
+code,
+kbd,
+samp {
     font-family: $code-font-family;
 }
 
@@ -148,13 +153,13 @@ code {
 }
 
 pre {
+    padding: $base-spacing-unit / 4 $half-spacing-unit;
     overflow: auto;
+    background-color: $gray-color-dark;
+    border-radius: 3px;
+    color: #fff;
     white-space: pre;
     word-wrap: normal;
-    color: #fff;
-    background-color: $gray-color-dark;
-    padding: $base-spacing-unit / 4 $base-spacing-unit / 2;
-    border-radius: 3px;
 
     > code {
         @include font-size($small-font-size);

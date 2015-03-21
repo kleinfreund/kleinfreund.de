@@ -8,10 +8,8 @@
     }
 
     &:before {
-        /* content: "/!\\ "; */
-        content: "\2F \21 \5C \A0";
+        content: "\2F \21 \5C \A0"; // content: "/!\ ";
         position: absolute;
-        // right: 100%;
         left: 0;
         color: $ui-color;
         font-weight: $bold-font-weight;
@@ -33,6 +31,10 @@
  */
 .iframe-wrapper {
     @extend %vertical-rhythm;
+
+    figure > & {
+        margin-bottom: 0;
+    }
 
     &__video {
         @include aspect-ratio(16, 9);
