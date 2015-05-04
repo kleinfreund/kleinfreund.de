@@ -19,7 +19,7 @@ Tue dies:
         <pre><code>ms-windows-store:PDP?PFN=</code></pre>
     </li>
     <li>
-        Als Name kannst du eingeben, was du willst, auch _Philipp ist doof_, aber ein einfaches <em>Store</em> tut’s auch. Dann <em>Fertigstellen</em>.
+        Als Name kannst du eingeben, was du willst, auch <em>Philipp ist doof</em>, aber ein einfaches <em>Store</em> tut’s auch. Dann <em>Fertigstellen</em>.
     </li>
     <li>
         Auf die neue Verknüpfung rechtsklickst du nochmal und dann auf <em>Anderes Symbol</em>.
