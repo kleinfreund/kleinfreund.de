@@ -72,6 +72,11 @@ defaults:
       layout: "post"
   -
     scope:
+      type: "drafts"
+    values:
+      layout: "post"
+  -
+    scope:
       path: "en"
     values:
       lang: "en"
