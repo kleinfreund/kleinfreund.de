@@ -16,7 +16,7 @@ Tue dies:
     </li>
     <li>
         Als Speicherort gibst du folgendes ein und drückst <em>Weiter</em>:<br>
-        <pre><code>ms-windows-store:PDP?PFN=</code></pre>
+        <pre><code>ms-windows-store:</code></pre>
     </li>
     <li>
         Als Name kannst du eingeben, was du willst, auch <em>Philipp ist doof</em>, aber ein einfaches <em>Store</em> tut’s auch. Dann <em>Fertigstellen</em>.
