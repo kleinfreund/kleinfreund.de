@@ -11,12 +11,13 @@
 			[
 				".jekyll-metadata"
 			],
-			"name": "kleinfreund",
+			"name": "hey.kleinfreund.de",
 			"path": "/"
 		}
 	],
 	"settings":
 	{
 		"tab_size": 4
-	}
+	},
+	"show_open_files": true
 }
