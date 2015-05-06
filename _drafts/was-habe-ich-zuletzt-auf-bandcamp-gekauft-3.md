@@ -1,28 +1,28 @@
 ---
 date: 2015-05-13
-title: "What have I bought on Bandcamp recently? (3)"
+title: "Was habe ich zuletzt bei Bandcamp gekauft? (3)"
 tags:
 - music
 ---
-This is the third episode of this little series I’ve been doing lately. Basically it’s telling you what I bought off Bandcamp. I’m not sure whether I should be doing more lengthy reviews of individual releases. For now, this is the roundup you’ll be getting.
+Das ist der dritte Teil dieser kleinen Serie, die ich in letzter Zeit mache. Im Grunde erzähle ich euch, was auf Bandcamp gekauft habe. Ich bin nicht sicher, ob ich vielleicht längere Reviews von einzelnen Veröffentlichungen machen sollte. Für den Moment gibt’s für euch diese Zusammenfassung hier.
 
 ## [Ancient Astronauts: Best Of 2001–2011](https://switchstancerecordings.bandcamp.com/album/best-of-2001-2011)
 
 <p><iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3113590202/size=small/bgcol=ffffff/linkcol={{ site.ui_color }}/transparent=true/" seamless><a href="http://switchstancerecordings.bandcamp.com/album/best-of-2001-2011">Ancient Astronauts: Best Of 2001–2011</a></iframe></p>
 
-Not so ancient are these two guys from Cologne Germany. They put together a small Best Of with six tracks of which “Return To Blackspin” cought my ear the most. The base theme of that song alone is so well done that the first seconds are enough for me to like it.
+Nicht ganz so antik sind die zwei Jungs aus Köln. Sie haben ein kleines Best Of mit sechs Titeln zusammengestellt, von denen mit vor allem „Return To Blackspin“ ins Ohr gegangen ist. Das Grundthema des Songs allein ist so gut gemacht, dass schon die ersten paar Sekunden reichen, um ihn zu mögen.
 
 ## [The Raah Project: Take Me Elsewhere](https://theraahproject.bandcamp.com/album/take-me-elsewhere)
 
 <p><iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3750759038/size=small/bgcol=ffffff/linkcol={{ site.ui_color }}/transparent=true/" seamless><a href="http://theraahproject.bandcamp.com/album/take-me-elsewhere">The Raah Project: Take Me Elsewhere</a></iframe></p>
 
-Hip Hop-infused jazz orchestration brought to you by Tamil Rogeon and Ryan Ritchie plus a horn band and string section. This album has a lot of variety and sometimes feels like a game/movie soundtrack. It adds up to over an hour of material.
+Jazz-Orchestrierung mit einer Portion Hip Hop für euch von Tamil Rogeon und Ryan Ritchie zusammen mit einer Hornband und Streichersektion. Das Album besitzt Vielfalt und manchmal fühlt es sich so an wie eine Spiele- oder Film-Soundtrack. Insgesamt gibt es über eine Stunde Material zu hören.
 
 ## [Ola Szmidt: Toi Toi Remix EP](https://olaszmidt.bandcamp.com/album/toi-toi-remix-ep)
 
 <p><iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2179426243/size=small/bgcol=ffffff/linkcol={{ site.ui_color }}/transparent=true/" seamless><a href="http://olaszmidt.bandcamp.com/album/toi-toi-remix-ep">Ola Szmidt: Toi Toi Remix EP</a></iframe></p>
 
-Lovely little piece by Ola Szmidt for her six year old daughter. 1 song, 5 versions. That kinda makes me wanna have children and sing songs for them. That’s most likely not going to happen this year. I clap along through the rest of the article with my 387 hands now.
+Sehr liebevolles kleines Arrangement von Ola Szmidt für ihre sechs Jahre alte Tochter. 1 Lied, 5 Varianten. Da will ich irgendwie auch gleich Kinder haben und ihnen Lieder singen. Das passiert wahrscheinlich nicht in diesem Jahr. Jetzt wird für den Rest des Beitrags mit meinen 387 Händen mitgeklatscht.
 
 ## [Dom La Nena: Soyo](https://domlanenamusic.bandcamp.com/album/soyo)
 
