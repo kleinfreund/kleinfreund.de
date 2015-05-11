@@ -1,5 +1,5 @@
 ---
-date: 2015-05-13
+date: 2015-05-13 14:54:54
 title: "Was habe ich zuletzt bei Bandcamp gekauft? (3)"
 tags:
 - music
@@ -28,32 +28,32 @@ Sehr liebevolles kleines Arrangement von Ola Szmidt für ihre sechs Jahre alte T
 
 <p><iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1343609964/size=small/bgcol=ffffff/linkcol={{ site.ui_color }}/transparent=true/" seamless><a href="http://domlanenamusic.bandcamp.com/album/soyo">Dom La Nena: Soyo</a></iframe></p>
 
-Very soft and friendly album of singer-songwriter Dominique Pinto makes you sway away into other spheres. Although I don’t understand what she’s singing about, some of these songs let me sensor a vague idea of what might be going on. Beautiful album.
+Sehr zartes und freundliches Album von Singer-Songwriterin Dominique Pinto lässt dich in andere Sphären davon schwingen. Auch, wenn ich nicht verstehe, von was sie da singt—ein paar von den Songs lassen mich doch eine leichte Ahnung haben, um was es vielleicht gehen mag. Schönes Album.
 
 ## [Lemâitre: Discography](https://lemaitremusic.bandcamp.com/music)
 
 <p><iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=983927866/size=small/bgcol=ffffff/linkcol={{ site.ui_color }}/transparent=true/" seamless><a href="http://lemaitremusic.bandcamp.com/music">Lemâitre: Relativity 1</a></iframe></p>
 
-I’ve been following the work of Ketil Jansen and Ulrik Denizou Lund for quite a while now after they have been introduced to me through [musigh.com](http://musigh.com) and Johannes Greve Muskat’s video for the track [Come Again](https://vimeo.com/16140069). Now I bought their back catalogue. Would’ve bought the loose tracks as well, if they were on their Bandcamp. They make … quite different and unique music and birds are telling me that there is a new album in the making. A new album? The first ablum that would be. I’m stoked!
+Die Arbeit von Ketil Jensen und Ulrik Denizou Lund verfolge ich schon seit einer geraumen Zeit, nachdem ich sie über das Blog [musigh.com](http://musigh.com) und Johannes Greve Muskats Video für ihr Lied [Come Again](https://vimeo.com/16140069) kennengelernt habe. Habe mir jetzt endlich mal ihre Diskographie gekauft. Die Jungs machen … ziemlich andere und einzigartige Musik und Vögelchen zwitschern von den Dächern, dass da wohl ein neues Album in der Mache ist. Ein neues Album? Das wäre dann das erste Album! Wohoo!
 
 ## [Scheeba: Queen of Scheeba](https://scheeba.bandcamp.com/album/queen-of-scheeba)
 
 <p><iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1969881413/size=small/bgcol=ffffff/linkcol={{ site.ui_color }}/transparent=true/" seamless><a href="http://scheeba.bandcamp.com/album/queen-of-scheeba">Scheeba: Queen of Scheeba</a></iframe></p>
 
-Let me tell you, this is one of my favorite album covers (by Léna Sarrault) of this bulk and there were a lot of really good ones. Now to the musical part. What a voice. Wow. The three musicians from French deliver a rock-solid debut Trip-Hop. That would’ve been at one of the top places of last years list week for albums.
+Ich sag euch was, das ist eins meiner liebsten Album-Cover (von Léna Sarrault) in diesem Haufen und da gab es ein paar richtig Gute. Jetzt zur Musik. Was für eine Stimme. Wow! Die drei Musiker aus Frankreich liefern ein grundsolides Trip-Hop-Debut-Album. Das wäre auf einem der Topplätze für die List Week der Albums im letzten Jahr gelandet.
 
 ## [Weval: Half Age EP](https://atomnation.bandcamp.com/album/half-age-ep)
 
 <p><iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1250614513/size=small/bgcol=ffffff/linkcol={{ site.ui_color }}/transparent=true/" seamless><a href="http://atomnation.bandcamp.com/album/half-age-ep">Weval: Half Age EP</a></iframe></p>
 
-Atomnation again, this time with Harm Coolen and Merijn Scholte Albers as Weval with their debut release. Especially “Something” grabbed my attention. The minimal aesthetic compared with the edited vocals create deep atmosphere. I like to get lost in there.
+Atomnation nochmal. Dieses Mal mit Harm Coolen und Merijn Scholte Albers als Webal mit ihrem Debut-Release. Vor allem „Something“ hat es mir angetan. Diese Minimal-Ästhetik neben den bearbeiteten Stimmen sorgen für so eine schöne tiefe Atmosphäre. Da lass ich mich gern drin verlieren.
 
 ## [C418: Mincraft – Volume Beta](https://c418.bandcamp.com/album/minecraft-volume-beta)
 
 <p><iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=551760206/size=small/bgcol=ffffff/linkcol={{ site.ui_color }}/transparent=true/" seamless><a href="http://c418.bandcamp.com/album/minecraft-volume-beta">C418: Mincraft – Volume Beta</a></iframe></p>
 
-This is a no-brainer. C418? Daniel Rosenfeld? Minecraft? Forever. … as Anthony Fontano would put it. 140 minutes of music and that is only the second part of the soundtrack. Amazeballs. Just buy this piece. Easy.
+Da muss ich nicht groß drüber reden. C418? Daniel Rosenfeld? Minecraft? Forever. … wie es Anthony Fantano sagen würde. 140 Minuten Musik und das ist nur der zweite Teil des Soundtracks. Super-duper! Kauft das Teil einfach, los!
 
 ---
 
-We’re already done again but my wishlist is constantly growing thanks to the [Bandcamp Weekly](http://bandcamp.com/?show=125) and various other sources. I hope you all are well. University has started for me again and it’s quite exhausting. The music helps.
+Wir sind schon wieder fertig, aber meine Wunschliste wächst stetig, dank des [Bandcamp Weekly-Podcasts](http://bandcamp.com/?show=125), der jede Woche erscheint und ein paar anderen Quellen. Ich hoffe, es geht euch allen gut. Für mich hat die Uni wieder angefangen und es ist ziemlich anstrengend. Die Musik hilft.
