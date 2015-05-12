@@ -6,7 +6,7 @@ tags:
 ---
 A few months ago, the harddrive of my previous laptop died on me, but I could work on a Ubuntu partition I prepared for cases like this. Luckily, I kept a backup of all the important configuration files from things like Sublime Text in a [Git repository](https://github.com/kleinfreund/dotfiles). At this point I wanted to improve the process of manually copying the files from the various locations to the repo directory. I wrote a little shell script for that purpose.
 
-<p class="note">Notice, that the script is adjusted to my personal needs and the software I use. It should work on your machine, but I haven’t tested it anywhere apart from my own environments.</p>
+Notice, that the script is adjusted to my personal needs and the software I use. It should work on your machine, but I haven’t tested it anywhere apart from my own environments.
 
 ## What is the script doing?
 

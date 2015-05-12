@@ -6,7 +6,7 @@ tags:
 ---
 Vor ein paar Monaten ist mir die Festplatte meines vorherigen Laptops kaputt gegangen, aber ich konnte auf einer Ubuntu-Partition weiter machen, die ich für solche Fälle vorbereitet hatte. Zum Glück hatte ich auch alle wichtigen Konfigurationsdateien von Dingen wie Sublime Text in einem [Git-Repository](https://github.com/kleinfreund/dotfiles) gespeichert. An dem Punkt wollte ich den Prozess des manuellen Kopierens der einzelnen Dateien aus den verteilten Verzeichnissen vereinfachen. Ich habe ein kleines Shell-Script für dieses Vorhaben geschrieben.
 
-<p class="note">Denkt daran, dass das Script an my persönlichen Wünsche und an die Software angepasst ist, die ich benutze. Es sollte bei euch auch laufen, aber ich habe nichts außer meinen eigenen Umgebungen getestet.</p>
+Denkt daran, dass das Script an meine persönlichen Wünsche und an die Software angepasst ist, die ich benutze. Es sollte bei euch auch laufen, aber ich habe nichts außer meinen eigenen Umgebungen getestet.
 
 ## Was macht das Script?
 
