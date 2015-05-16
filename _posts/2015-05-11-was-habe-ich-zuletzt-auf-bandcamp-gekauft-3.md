@@ -10,7 +10,7 @@ Das ist der dritte Teil dieser kleinen Serie, die ich in letzter Zeit mache. Im 
 
 <p><iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3113590202/size=small/bgcol=ffffff/linkcol={{ site.ui_color }}/transparent=true/" seamless><a href="http://switchstancerecordings.bandcamp.com/album/best-of-2001-2011">Ancient Astronauts: Best Of 2001–2011</a></iframe></p>
 
-Nicht ganz so antik sind die zwei Jungs aus Köln. Sie haben ein kleines Best Of mit sechs Titeln zusammengestellt, von denen mit vor allem „Return To Blackspin“ ins Ohr gegangen ist. Das Grundthema des Songs allein ist so gut gemacht, dass schon die ersten paar Sekunden reichen, um ihn zu mögen.
+Nicht ganz so antik sind die zwei Jungs aus Köln. Sie haben ein kleines Best Of mit sechs Titeln zusammengestellt, von denen mir vor allem „Return To Blackspin“ ins Ohr gegangen ist. Das Grundthema des Songs allein ist so gut gemacht, dass schon die ersten paar Sekunden reichen, um ihn zu mögen.
 
 ## [The Raah Project: Take Me Elsewhere](https://theraahproject.bandcamp.com/album/take-me-elsewhere)
 
