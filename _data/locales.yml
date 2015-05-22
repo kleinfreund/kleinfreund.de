@@ -30,13 +30,13 @@ en:
     url: '/'
   tags:
     text: 'Tags'
-    url: '/tags/'
+    url: '/en/tags/'
   categories:
     text: 'Categories'
-    url: '/categories/'
+    url: '/en/categories/'
   archive:
     text: 'Read more articles'
-    url: '/archive/'
+    url: '/en/archive/'
   external-link: 'External link'
   sidebar:
     headline: 'Hey!'

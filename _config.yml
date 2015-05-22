@@ -1,3 +1,5 @@
+full_rebuild: true
+
 name: kleinfreund
 title: hey.kleinfreund.de
 url: http://hey.kleinfreund.de
