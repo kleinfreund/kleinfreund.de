@@ -1,23 +1,38 @@
 {
-	"folders":
-	[
-		{
-			"folder_exclude_patterns":
-			[
-				"_site",
-				"static"
-			],
-			"file_exclude_patterns":
-			[
-				".jekyll-metadata"
-			],
-			"name": "hey.kleinfreund.de",
-			"path": "/"
-		}
-	],
-	"settings":
-	{
-		"tab_size": 4
-	},
-	"show_open_files": true
+    "folders":
+    [
+        {
+            "folder_exclude_patterns":
+            [
+                "_site",
+                "static"
+            ],
+            "file_exclude_patterns":
+            [
+                ".jekyll-metadata"
+            ],
+            "name": "hey.kleinfreund.de",
+            "path": "/"
+        }
+    ],
+    "settings":
+    {
+        "tab_size": 4
+    },
+    "build_systems":
+    [
+        {
+            "name": "Open local server",
+            "selector": "text.html",
+            "osx": {
+                "cmd": ["open", "http://127.0.0.1:4000/"]
+            },
+            "linux": {
+                "cmd": ["google-chrome", "http://127.0.0.1:4000/"]
+            },
+            "windows": {
+                "cmd": ["C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe", "http://127.0.0.1:4000/"]
+            }
+        }
+    ]
 }
