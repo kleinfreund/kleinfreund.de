@@ -6,19 +6,13 @@ The articles on my site are Open Source and can be freely used under the conditi
 
 ## Build Locally
 
-To build the site locally (with Jekyll), the following things are required:
+To build the site locally (with Jekyll), you need to have Ruby and the Ruby gems `jekyll` and `jekyll-sitemap` installed.
 
-- Ruby (2 or newer, 1.9 might still work)
-- RubyGems:
-    - jekyll (latest, atleast the current Pages dependency)
-    - jekyll-sitemap (latest, atleast the current Pages dependency)
-
-Additionally, there are some things that might be required. For example, Jekyll currently needs a JavaScript runtime (i.e. Node.js). On Windows the `wdm` gem is required to watch for file changes.
+Additionally, there are some things that might be required. For example, Jekyll currently needs a JavaScript runtime (i.e. Node.js). On Windows, the `wdm` gem is required to poll for file changes.
 
 ## To Do
 
-- Post about Transistor (?)
-- Post about Moonman (?)
+- Do I really want to keep writing bilingually? It adds quite the barrier to writing at all
 
 ## Licenses
 
