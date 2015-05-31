@@ -4,3 +4,7 @@ layout: null
 User-agent: *
 Sitemap: {{ site.url }}/sitemap.xml
 Disallow: {{ site.url }}/static/*
+
+# Somehow, Google bot manages to crawl the websites I host on GitHub Pages O.o
+Disallow: {{ site.url }}/bbk-vogtland/*
+Disallow: {{ site.url }}/artrudloff/*
