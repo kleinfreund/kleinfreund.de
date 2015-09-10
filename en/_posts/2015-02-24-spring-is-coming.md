@@ -39,4 +39,4 @@ With this change, my build time went up by 6–7 seconds. That’s due to the `s
 
 Until now there were a couple of pages which basically were the same with the only difference being language-specific strings. That was me being lazy, not creating a layout and the needed strings in the locales.yml for that purpose. I cought up on this.
 
-In addition, I wrote an article about moving the website of my parents from Wordpress to Jekyll. However, it eventually got lost after the partition with Windows on it died. Right now I work on the remaining 50 GB which have Ubuntu on it.
+In addition, I wrote an article about moving the website of my parents from Wordpress to Jekyll. However, it eventually got lost after the partition with Windows on it died. Right now I work on the remaining 50 GB which has Ubuntu on it.

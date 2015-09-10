@@ -50,7 +50,7 @@ Aus Montréal in Québec (Canada) bringen uns Les Passagers einen manchmal gemü
 
 <p><iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=49280693/size=small/bgcol=ffffff/linkcol={{ site.ui_color }}/transparent=true/" seamless><a href="https://wmdchiptune.bandcamp.com/album/wilt">Wilt by WMD</a></iframe></p>
 
-Dieser Michael Erickson haut immernoch ein Release nach dem anderen raus. Besonders mag ich seine Nicht-Chiptune-Teile, die mit dem weiten und offenen, ambienten Charakter. Die Musik ist dafür gemacht, wenn es dunkel ist. Für die Nacht. Für die Momente, wo man sich alleine fühlt oder man alleine ist.
+Dieser Michael Erickson haut immer noch ein Release nach dem anderen raus. Besonders mag ich seine Nicht-Chiptune-Teile, die mit dem weiten und offenen, ambienten Charakter. Die Musik ist dafür gemacht, wenn es dunkel ist. Für die Nacht. Für die Momente, wo man sich alleine fühlt oder man alleine ist.
 
 <blockquote>
     <div class="quote__body">
