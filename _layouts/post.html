@@ -14,13 +14,13 @@ layout: default
 <main class="page-content">
     <article class="post">
         <header class="post-head">
-            {% include _timestamp.html %}
+            {% include date.html date=page.date lang=page.lang %}
 
             {% for tag in page.tags %}
                 <a class="tag" href="{{ page-lang.tags.url }}#{{ tag }}">{{ tag }}</a>
              {% endfor %}
 
-            {% include _tag--external.html %}
+            {% include off-site-tag.html off-site-url=page.off-site-url %}
         </header>
 
         {{ content }}

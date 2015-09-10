@@ -1,0 +1,11 @@
+<a class="post-list__link" href="{% if post.off-site-url %}{{ post.off-site-url }}{% else %}{{ post.url }}{% endif %}">
+    {% include date.html date=post.date lang=post.lang %}
+
+    <span class="post-title">{{ post.title }}</span>
+
+    {% for tag in post.tags %}
+        <span class="tag">{{ tag }}</span>
+    {% endfor %}
+
+    {% include off-site-tag.html off-site-url=post.off-site-url %}
+</a>

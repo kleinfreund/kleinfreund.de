@@ -11,7 +11,13 @@ layout: page
         <ul class="post-list">
             {% for post in posts %}
                 <li>
-                    {% include _tag-list-entry.html %}
+                    <a class="post-list__link" href="{% if post.off-site-url %}{{ post.off-site-url }}{% else %}{{ post.url }}{% endif %}">
+                        {% include date.html date=post.date lang=post.lang %}
+
+                        <span class="post-title">{{ post.title }}</span>
+
+                        {% include off-site-tag.html off-site-url=post.off-site-url %}
+                    </a>
                 </li>
             {% endfor %}
         </ul>

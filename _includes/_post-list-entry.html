@@ -1,9 +1,0 @@
-<a class="post-list__link" href="{% if post.off-site-url %}{{ post.off-site-url }}{% else %}{{ post.url }}{% endif %}">
-    {% include _timestamp.html %}
-
-    <span class="post-title">{{ post.title }}</span>
-
-    {% include _tags.html %}
-
-    {% include _tag--external.html %}
-</a>
