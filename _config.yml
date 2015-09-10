@@ -1,4 +1,4 @@
-full_rebuild: true
+#full_rebuild: true
 
 name: kleinfreund
 title: hey.kleinfreund.de
@@ -43,8 +43,6 @@ author:
   codereview: http://codereview.stackexchange.com/users/35408
   bandcamp: https://bandcamp.com/kleinfreund
   bandcamp_wishlist: "https://bandcamp.com/kleinfreund#wishlist"
-
-google_verify: 2D5zbZ2Vatb8CeFj1cUCRdJZ3SQatSUlQesml02jEPo
 
 # compress.html by Anatol Broder (http://jch.penibelst.de)
 compress_html:
