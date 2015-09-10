@@ -1,5 +1,3 @@
-#full_rebuild: true
-
 name: kleinfreund
 title: hey.kleinfreund.de
 url: http://hey.kleinfreund.de
@@ -7,6 +5,9 @@ url: http://hey.kleinfreund.de
 permalink: /:categories/:year/:month/:title
 
 max_posts: 10
+
+exclude:
+  - "*.sublime-workspace"
 
 gems:
   - jekyll-sitemap
