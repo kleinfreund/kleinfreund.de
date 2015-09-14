@@ -3,19 +3,23 @@
 ---
 @charset "utf-8";
 @import
-        "vars",
-        "defaults",
-        "mixins",
-        "normalize",
-        "base",
-        "typography",
-        "island",
-        "page",
-        "page-content",
-        "post-list",
-        "post",
-        "site-head",
-        "site-logo",
-        "site-nav",
-        "site-foot"
+    "generic/vars",
+    "generic/defaults",
+    "generic/mixins",
+    "generic/normalize",
+    "generic/base",
+    "generic/typography",
+    "layout/page",
+    "layout/site-head",
+    "layout/site-logo",
+    "layout/site-nav",
+    "layout/site-foot",
+    "objects/post-list",
+    "objects/meta-list",
+    "objects/post",
+    "objects/island",
+    "objects/note",
+    "objects/tag",
+    "objects/embedded-media",
+    "objects/blockquote"
 ;

@@ -65,51 +65,8 @@ dt {
 /**
  * Quotations
  */
-q {
+blockquote, q {
     font-style: italic;
-}
-
-blockquote {
-    margin-left: $half-spacing-unit;
-    padding-left: $half-spacing-unit - $border-width / 2;
-    border-left: $border-width / 2 solid $ui-color;
-    font-style: italic;
-}
-
-.quote__body {
-
-    > :first-child:before {
-        content: "\201C";
-    }
-
-    > :last-child:after {
-        content: "\201D";
-    }
-
-    > :last-child {
-        margin-bottom: 0;
-    }
-}
-
-// Adjust quotes for German content: „“ instead of “”
-[lang="de"]:root .quote__body {
-
-    > :first-child:before {
-        content: "\201E";
-    }
-
-    > :last-child:after {
-        content: "\201C";
-    }
-}
-
-.quote__source {
-    display: block;
-    font-style: normal;
-
-    &:before {
-        content: "\2014";
-    }
 }
 
 
@@ -154,16 +111,12 @@ code {
 
 pre {
     padding: $base-spacing-unit / 4 $half-spacing-unit;
-    overflow: auto;
     background-color: $gray-color-dark;
     border-radius: 3px;
     color: #fff;
-    white-space: pre;
-    word-wrap: normal;
 
     > code {
         @include font-size($small-font-size);
-        color: #fff;
         white-space: pre;
     }
 

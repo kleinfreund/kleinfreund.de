@@ -1,0 +1,40 @@
+/*------------------------------------*\
+    #POST-LIST
+\*------------------------------------*/
+.post-list {
+    list-style: none;
+    margin-left: 0;
+
+    .timestamp {
+        display: block;
+    }
+
+    > li {
+        border-bottom: 1px solid $gray-color-light;
+
+        &:first-child {
+            border-top: 1px solid $gray-color-light;
+        }
+
+        > a {
+            display: block;
+            padding: $half-spacing-unit;
+        }
+    }
+}
+
+.post-list--archive > li:not(.archive-post) {
+
+    > a {
+        color: $gray-color;
+    }
+
+    .tag {
+        background-color: $gray-color-light;
+    }
+}
+
+.post-title {
+    @include font-size(20px);
+    margin-right: 0.5rem;
+}

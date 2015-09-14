@@ -1,4 +1,4 @@
-.block-note {
+.note {
     position: relative;
     display: block;
     padding-left: 2rem;
@@ -19,28 +19,5 @@
             left: auto;
             right: 100%;
         }
-    }
-}
-
-
-
-/**
- * Responsive video/audio players
- *   - Use 16:9 for videos in general
- *   - Respect SoundCloud’s fixed height to calculate ratio
- */
-.iframe-wrapper {
-    @extend %vertical-rhythm;
-
-    figure > & {
-        margin-bottom: 0;
-    }
-
-    &__video {
-        @include aspect-ratio(16, 9);
-    }
-
-    &__soundcloud {
-        @include aspect-ratio(620, 166);
     }
 }

@@ -15,7 +15,7 @@
         }
     }
 
-    p:last-of-type {
+    > :last-child {
         margin-bottom: 0;
     }
 }

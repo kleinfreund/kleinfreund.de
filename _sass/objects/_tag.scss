@@ -1,25 +1,8 @@
-.post-head {
-    @extend %vertical-rhythm;
-
-    > .timestamp {
-        display: inline-block;
-        margin-right: 0.5rem;
-    }
-}
-
-.timestamp {
-    display: inline-block;
-    color: $gray-color;
-}
-
-
-
-/**
- * Tags
- */
+/*------------------------------------*\
+    #TAG
+\*------------------------------------*/
 .tag {
     display: inline-block;
-    margin-right: 0.25rem;
     padding-right: 0.5rem;
     padding-left: 0.5rem;
     font-size: $small-font-size;
@@ -27,8 +10,10 @@
     color: #fff;
     border-radius: 2px;
 
-    &:last-child {
-        margin-right: 0;
+    // Indicates that the related piece of content is accessible on a
+    // different website
+    &--off-site {
+        background-color: $ui-color;
     }
 }
 
@@ -42,6 +27,4 @@ a.tag {
     }
 }
 
-.tag--off-site {
-    background-color: $ui-color;
-}
+

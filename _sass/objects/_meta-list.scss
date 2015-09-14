@@ -1,0 +1,14 @@
+.meta-list {
+    margin-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    color: $gray-color;
+
+    > li {
+        display: inline-block;
+    }
+
+    > li:not(:last-child) {
+        margin-right: 0.25rem;
+    }
+}
