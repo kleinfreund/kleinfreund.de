@@ -1,10 +1,6 @@
 ---
 date: 2014-07-04 06:46:12
 title: "’Ne eigene Kamera"
-thumbnail:
-    url: /img/posts/flickr-1.jpg
-    width: 620
-    height: 413
 tags:
 - photography
 ---

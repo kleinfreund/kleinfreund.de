@@ -1,10 +1,6 @@
 ---
 date: 2015-01-01 15:12:13
 title: Silvester
-thumbnail:
-    url: /img/posts/silvester-1.jpg
-    width: 620
-    height: 413
 tags:
 - photography
 ---

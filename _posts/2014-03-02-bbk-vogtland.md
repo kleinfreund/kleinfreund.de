@@ -1,10 +1,6 @@
 ---
 date: 2014-03-02 15:59:41
 title: "Website: bbk-vogtland.de"
-thumbnail:
-    url: /img/portfolio/bbk-vogtland-thumbnail.jpg
-    width: 620
-    height: 349
 tags:
 - dev
 - portfolio

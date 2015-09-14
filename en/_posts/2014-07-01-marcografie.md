@@ -1,10 +1,6 @@
 ---
 date: 2014-07-01 06:46:11
 title: "Website: marcografie.de"
-thumbnail:
-    url: /img/portfolio/marcografie-thumbnail.jpg
-    width: 620
-    height: 349
 tags:
 - dev
 - portfolio

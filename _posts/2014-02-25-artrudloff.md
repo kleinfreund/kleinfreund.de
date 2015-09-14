@@ -1,10 +1,6 @@
 ---
 date: 2014-02-25 14:31:33
 title: "Website: artrudloff.de"
-thumbnail:
-    url: /img/portfolio/artrudloff-thumbnail.jpg
-    width: 620
-    height: 349
 tags:
 - dev
 - portfolio

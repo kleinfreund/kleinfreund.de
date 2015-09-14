@@ -1,10 +1,6 @@
 ---
 date: 2014-07-04 06:46:11
 title: "The own camera"
-thumbnail:
-    url: /img/posts/flickr-1.jpg
-    width: 620
-    height: 413
 tags:
 - photography
 ---

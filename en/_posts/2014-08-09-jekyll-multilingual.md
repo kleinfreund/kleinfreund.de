@@ -91,7 +91,7 @@ max_posts: 10
 
 {% raw %}
 ```liquid
-{% assign posts_de = site.posts | where:"lang","de" %}
+{% assign posts_de = site.posts | where: "lang", "de" %}
 
 {% for post in posts_de limit:site.max_posts %}
 <!-- Beiträge 1–10 -->

@@ -40,7 +40,7 @@ Wir nehmen Kategorien. Das ist auch nicht ganz sauber, aber es funktioniert. In 
 permalink: /:categories/:year/:month/:title
 ```
 
-<p class="block-note">Mit Ausnahme von <code>permalink: pretty</code> gelten diese Einstellungen nur für Beiträge. Für Seiten müssen die Permalinks explizit festgelegt werden.</p>
+<p class="note">Mit Ausnahme von <code>permalink: pretty</code> gelten diese Einstellungen nur für Beiträge. Für Seiten müssen die Permalinks explizit festgelegt werden.</p>
 
 ## Sprache festlegen
 
@@ -87,7 +87,7 @@ max_posts: 10
 
 {% raw %}
 ```liquid
-{% assign posts_de = site.posts | where:"lang","de" %}
+{% assign posts_de = site.posts | where: "lang", "de" %}
 
 {% for post in posts_de limit:site.max_posts %}
 <!-- Beiträge 1–10 -->

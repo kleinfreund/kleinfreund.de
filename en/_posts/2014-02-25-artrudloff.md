@@ -1,24 +1,16 @@
 ---
 date: 2014-02-25 14:31:32
 title: "Website: artrudloff.de"
-thumbnail:
-    url: /img/portfolio/artrudloff-thumbnail.jpg
-    width: 620
-    height: 349
 tags:
 - dev
 - portfolio
 ---
-I built [artrudloff.de](http://artrudloff.de) for my parents in Summer 2012. It’s a showcase of their work.
+I built [artrudloff.de](http://artrudloff.de) for my parents in 2012 to serve as a showcase for their work. Andreas is doing etchings, woodcuttings, aquarelles, poster artwork and drawings. Anke does very detailed drawings and paintings, wooden reliefs and other objects. Recently she’s also doing designs for bell adornments for churches.
 
-The site is a self-coded theme for Wordpress. Last year I added [inuitcss](http://inuitcss.com) and a custom [Teehan+Lax Navigation](http://alexcican.com/post/teehan-lax-navigation).
+The site was running Wordpress originally, but I decided to rebuild it with Jekyll and host it on GitHub. This came with significant performance improvements. It also makes content updates easier for me.
 
 <img src="/img/portfolio/artrudloff-1.jpg" alt="Website of Anke and Andreas Rudloff – Homepage" width="620" height="330">
 
-Andreas Rudloff does printed graphics, aquarelle and placards.
-
 <img src="/img/portfolio/artrudloff-2.jpg" alt="Website of Andreas Rudloff" width="620" height="330">
-
-Bell designs, woodworks, murals and drawings are the work of Anke Rudloff.
 
 <img src="/img/portfolio/artrudloff-3.jpg" alt="Website of Anke Rudloff" width="620" height="330">
