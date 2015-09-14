@@ -16,8 +16,11 @@ layout: compress
     <script>loadFont('Ubuntu', '/css/ubuntu.woff.css', '')</script>
 
     {% if jekyll.environment == 'local' %}
+        <!--| Cut-down Jekyll build times during development by linking to an
+            | external stylesheet -->
         <link rel="stylesheet" href="{{ site.assets.css }}kleinfreund.css">
     {% else %}
+        <!-- Inline complete stylesheet for one less blocking request -->
         <style>
             {% capture scss_include %}
                 {% include kleinfreund.scss %}
@@ -26,18 +29,6 @@ layout: compress
             {{ scss_include | scssify }}
         </style>
     {% endif %}
-
-    <!-- {% if site.loadCSS_js %}
-        <script>
-            {% include loadcss.min.js %}
-            loadCSS("{{ site.assets.css }}kleinfreund.css")
-        </script>
-        <noscript>
-            <link rel="stylesheet" href="{{ site.assets.css }}kleinfreund.css">
-        </noscript>
-    {% else %}
-        <link rel="stylesheet" href="{{ site.assets.css }}kleinfreund.css">
-    {% endif %} -->
 
     <link rel="icon" href="/img/icon.png">
     <link rel="icon" href="/img/icon.svg" sizes="any" type="image/svg+xml">

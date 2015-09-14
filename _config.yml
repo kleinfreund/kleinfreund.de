@@ -31,8 +31,6 @@ assets:
   images: /img/
   javascript: /js/
 
-loadCSS_js: true
-
 ui_color: 5e85d6
 
 # Author information
