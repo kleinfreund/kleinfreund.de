@@ -11,8 +11,8 @@ I will put the direct link to SoundCloud, YouTube, etc. below and also the links
 ## LISS – Try
 
 <figure>
-    <div class="iframe-wrapper  iframe-wrapper__soundcloud">
-        <iframe width="620" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/178633491&amp;color={{ site.ui_color }}&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+    <div class="embedded-media  embedded-media__soundcloud">
+        <iframe width="620" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/219037420&amp;color={{ site.ui_color }}&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
     </div>
     <figcaption>on <a href="https://soundcloud.com/liss2014/try/">SoundCloud</a> · via <a href="http://fuckyouverymuch.dk/post/106547379190/we-listen-to-liss">fuck you very much</a></figcaption>
 </figure>
@@ -27,7 +27,7 @@ I will put the direct link to SoundCloud, YouTube, etc. below and also the links
 ## Cat Power – (I Can’t Get No) Satisfaction
 
 <figure>
-    <div class="iframe-wrapper  iframe-wrapper__video">
+    <div class="embedded-media  embedded-media__video">
         <iframe width="620" height="465" src="https://www.youtube-nocookie.com/embed/lF3Wo47EbNo?rel=0" frameborder="0" allowfullscreen></iframe>
     </div>
     <figcaption>on <a href="https://www.youtube.com/watch?v=lF3Wo47EbNo">YouTube</a> · <a href="http://www.catpowermusic.com/">website</a></figcaption>
