@@ -13,15 +13,21 @@ layout: default
 
 <main class="page-content">
     <article class="post">
-        <header class="post-head">
-            {% include date.html date=page.date lang=page.lang %}
+        <footer class="post-meta">
+            <ul class="meta-list">
+                {% if page.date %}
+                    <li>{% include date.html date=page.date lang=page.lang %}</li>
+                {% endif %}
 
-            {% for tag in page.tags %}
-                <a class="tag" href="{{ page-lang.tags.url }}#{{ tag }}">{{ tag }}</a>
-             {% endfor %}
+                {% for tag in page.tags %}
+                    <li><a class="tag" href="{{ page-lang.tags.url }}#{{ tag }}">{{ tag }}</a></li>
+                {% endfor %}
 
-            {% include off-site-tag.html off-site-url=page.off-site-url %}
-        </header>
+                {% if page.off-site-url %}
+                    <li>{% include off-site-tag.html off-site-url=page.off-site-url %}</li>
+                {% endif %}
+            </ul>
+        </footer>
 
         {{ content }}
     </article>

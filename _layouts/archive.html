@@ -6,7 +6,7 @@ layout: page
 
 <ul class="post-list  post-list--archive">
     {% for post in posts %}
-        <li {% if forloop.index == next-post-index %}id="next-post"{% endif %} class="{% if forloop.index > site.max_posts %}past-post{% else %}current-post{% endif %}">
+        <li {% if forloop.index == next-post-index %}id="next-post"{% endif %} {% if forloop.index > site.max_posts %}class="archive-post"{% endif %}>
             {% include post-list-entry.html %}
         </li>
     {% endfor %}

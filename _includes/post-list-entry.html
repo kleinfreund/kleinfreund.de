@@ -1,5 +1,7 @@
-<a class="post-list__link" href="{% if post.off-site-url %}{{ post.off-site-url }}{% else %}{{ post.url }}{% endif %}">
-    {% include date.html date=post.date lang=post.lang %}
+<a href="{% if post.off-site-url %}{{ post.off-site-url }}{% else %}{{ post.url }}{% endif %}">
+    {% if post.date %}
+        {% include date.html date=post.date lang=post.lang %}
+    {% endif %}
 
     <span class="post-title">{{ post.title }}</span>
 
@@ -7,5 +9,7 @@
         <span class="tag">{{ tag }}</span>
     {% endfor %}
 
-    {% include off-site-tag.html off-site-url=post.off-site-url %}
+    {% if post.off-site-url %}
+        {% include off-site-tag.html off-site-url=post.off-site-url %}
+    {% endif %}
 </a>
