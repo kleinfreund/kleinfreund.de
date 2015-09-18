@@ -19,21 +19,9 @@ The reason why the handling of album artists is so important to me is simple: I 
 
 ## Zukunftsmusik – A Pie in the Sky
 
-There is something that is not handled properly by any software I know: Multiple artists. It’s common practice to do it like this:
+There is something that is not handled properly by any software I know: Multiple artists. It’s common practice to drop the additional artist(s) in parenthesis behind the title (i.e. `Gorillaz – Empire Ants (feat. Little Dragon)`).
 
-<figure>
-  <pre><span aria-hidden="true" style="color: orangered;">[</span>Gorillaz<span aria-hidden="true" style="color: orangered;">]</span> – <span aria-hidden="true" style="color: limegreen;">[</span>Empire Ants <span aria-hidden="true" style="color: orangered;">[</span>(feat. Little Dragon)<span aria-hidden="true" style="color: orangered;">]</span><span aria-hidden="true" style="color: limegreen;">]</span>
-Artist 1     Title        Artist 2</pre>
-  <figcaption>Widely adopted practice</figcaption>
-</figure>
-
-Additional artists are listed after the title of the track in parenthesis. This results in a title field that holds the title plus additional artists. My preferred way would be setting multiple artist fields and using the album artist as the field for the album artist. Most applications won’t offer an arbitrary number of artist fields. My current workaround looks like this:
-
-<figure>
-  <pre><span aria-hidden="true" style="color: orangered;">[</span>Gorillaz<span aria-hidden="true" style="color: orangered;">]</span>/<span aria-hidden="true" style="color: orangered;">[</span>Little Dragon<span aria-hidden="true" style="color: orangered;">]</span> – <span aria-hidden="true" style="color: limegreen;">[</span>Empire Ants<span aria-hidden="true" style="color: limegreen;">]</span>
-Artist 1   Artist 2          Title</pre>
-  <figcaption>Separation of concerns applied to denoting artists–title relation of tracks</figcaption>
-</figure>
+This results in a title field that holds the title plus additional artists. My preferred way would be setting multiple artist fields and using the album artist as the field for the album artist. Most applications won’t offer an arbitrary number of artist fields. My current workaround is putting the artists in one field and separating with a `/` character (i.e. `Gorillaz/Little Dragon – Empire Ants`).
 
 Now this is useful not only because it has a clear structure, but also there is no trouble when dealing with remixes or covers by multiple artists. One day, music players are hopefully able to specify and handle multiple artists. Back to topic. Let’s have a look at some actual players.
 
