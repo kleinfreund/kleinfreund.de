@@ -1,20 +1,28 @@
 .island {
-    @extend %clearfix;
+    // @extend %clearfix;
     @extend %vertical-rhythm;
     display: inline-block;
     padding: $half-spacing-unit $base-spacing-unit;
     color: #fff;
-    background-color: $ui-color;
+    background-color: $c-alt;
     border-radius: 2px;
     text-align: center;
-    font-weight: $bold-font-weight;
+    font-weight: $font-weight--bold;
 
     @include attention() {
         color: #fff;
-        background-color: $ui-color-dark;
+        background-color: $c-alt--dark;
     }
 
     > :last-child {
         margin-bottom: 0;
     }
+}
+
+a.island {
+    border-bottom: 0;
+}
+
+.island--small {
+    padding: 0 $base-spacing-unit / 2;
 }

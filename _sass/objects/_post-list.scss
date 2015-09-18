@@ -2,39 +2,29 @@
     #POST-LIST
 \*------------------------------------*/
 .post-list {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+
     list-style: none;
     margin-left: 0;
+}
 
-    .timestamp {
-        display: block;
+.post-list__item {
+    width: 100%;
+    margin-bottom: $base-spacing-unit;
+
+    &:nth-child(3n+1),
+    &:nth-child(3n+2) {
+        margin-right: 2%;
     }
 
-    > li {
-        border-bottom: 1px solid $gray-color-light;
-
-        &:first-child {
-            border-top: 1px solid $gray-color-light;
-        }
-
-        > a {
-            display: block;
-            padding: $half-spacing-unit;
-        }
+    @include media-query(desk) {
+        width: 32%;
     }
 }
 
-.post-list--archive > li:not(.archive-post) {
-
-    > a {
-        color: $gray-color;
-    }
-
-    .tag {
-        background-color: $gray-color-light;
-    }
-}
-
-.post-title {
-    @include font-size(20px);
-    margin-right: 0.5rem;
+.tag-list:not(:last-child) {
+    @include vertical-gap(bottom);
 }

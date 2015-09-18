@@ -1,9 +1,9 @@
 html {
     min-height: 100%;
     overflow-y: scroll;
-    font: $base-font-weight #{($base-font-size/16px)*1em}/#{$line-height-ratio} $base-font-family;
-    color: $text-color;
-    background-color: $background-color;
+    font: $font-weight--regular #{($base-font-size/16px)*1em}/#{$line-height-ratio} $font-family;
+    color: $c-text;
+    background-color: $c-background;
 }
 
 
@@ -12,7 +12,7 @@ html {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: $bold-font-weight;
+    font-weight: $font-weight--bold;
 }
 
 h1 {
@@ -57,7 +57,7 @@ li {
 }
 
 dt {
-    font-weight: $bold-font-weight;
+    font-weight: $font-weight--bold;
 }
 
 
@@ -76,7 +76,7 @@ blockquote, q {
  */
 b,
 strong {
-    font-weight: $bold-font-weight;
+    font-weight: $font-weight--bold;
 }
 
 
@@ -85,11 +85,13 @@ strong {
  * Links
  */
 a {
-    color: $ui-color;
+    color: $c-ui;
+    font-weight: $font-weight--bold;
     text-decoration: none;
+    border-bottom: 0.125em solid;
 
     @include attention() {
-        color: $ui-color-dark;
+        color: $c-ui--dark;
     }
 }
 
@@ -107,20 +109,4 @@ samp {
 
 code {
     white-space: nowrap;
-}
-
-pre {
-    padding: $base-spacing-unit / 4 $half-spacing-unit;
-    background-color: $gray-color-dark;
-    border-radius: 3px;
-    color: #fff;
-
-    > code {
-        @include font-size($small-font-size);
-        white-space: pre;
-    }
-
-    li > & {
-        margin-top: $base-spacing-unit;
-    }
 }

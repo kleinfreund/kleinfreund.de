@@ -6,25 +6,25 @@
     padding-right: 0.5rem;
     padding-left: 0.5rem;
     font-size: $small-font-size;
-    background-color: $ui-color-light;
+    background-color: $c-alt;
     color: #fff;
     border-radius: 2px;
-
-    // Indicates that the related piece of content is accessible on a
-    // different website
-    &--off-site {
-        background-color: $ui-color;
-    }
 }
 
 // Well, look at this little sucker. I actually needed to overqualify for once.
 // That’s due to tags that may appear in link *and* non-link environments.
 a.tag {
+    border-bottom: 0;
 
     @include attention() {
-        background-color: $ui-color;
         color: #fff;
+        background-color: $c-alt--dark;
     }
+}
+
+// Again. O.o
+h2 > .tag {
+    font-size: 18px;
 }
 
 

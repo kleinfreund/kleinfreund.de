@@ -1,32 +1,36 @@
 /**
  * Typography
  */
-$base-font-family: Ubuntu, Helvetica, sans-serif;
-$base-font-weight: 300;
-$bold-font-weight: 500;
+$font-family: Ubuntu, Helvetica, sans-serif;
+$font-weight--regular: 300;
+$font-weight--bold: 500;
 
 
 
 /**
  * Colors
  */
-$text-color: #444;
-$background-color: #fff;
+$c-text: #444;
+$c-background: #fafcfe;
 
-$gray-color: #8f8f80;
-$gray-color-light: lighten($gray-color, 30%);
-$gray-color-dark: darken($gray-color, 30%);
+$c-gray: #7e7e6f;
+$c-gray--dark: darken($c-gray, 30%);
+$c-grey: $c-gray;
+$c-grey--dark: $c-gray--dark;
 
-$ui-color: #5e85d6;
-$ui-color-light: lighten($ui-color, 15%);
-$ui-color-dark: darken($ui-color, 30%);
+$c-ui: #007d99;
+$c-ui--dark: darken($c-ui, 15%);
+
+$c-alt: #ffa724;
+$c-alt--dark: darken($c-alt, 15%);
 
 
 
 /**
  * Misc
  */
-$content-width: 680px;
-$sidebar-width: 280px;
+$content-width: 800px;
+$blog-width: 960px;
+$blog-width-wide: 1440px;
 
 $border-width: 8px;

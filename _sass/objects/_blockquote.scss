@@ -5,7 +5,7 @@ blockquote,
 .quote {
     margin-left: $half-spacing-unit;
     padding-left: $half-spacing-unit - $border-width / 2;
-    border-left: $border-width / 2 solid $ui-color;
+    border-left: $border-width / 2 solid $c-ui;
     font-style: italic;
 }
 

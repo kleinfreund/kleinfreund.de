@@ -1,19 +1,37 @@
 ---
-layout: page
+layout: default
+class: "page--blog"
+exclusive-styles:
+- "sass/blog.scss"
 ---
-{% assign page-lang = site.data.locales[page.lang] %}
-{% assign posts = site.posts | where: "lang", page.lang %}
+<div class="post-list">
+    {% for post in site.posts limit:site.max_posts %}
+        <a class="post-list__item  post-card"
+            href="{% if post.off-site-url %}{{ post.off-site-url }}{% else %}{{ post.url }}{% endif %}"
+        >
+            <ul class="post-card__meta  meta-list">
+                {% if post.date %}
+                    <li>{% include date.html date=post.date %}</li>
+                {% endif %}
 
-<ul class="post-list">
-    {% for post in posts limit:site.max_posts %}
-        <li>
-            {% include post-list-entry.html %}
-        </li>
+                {% for tag in post.tags %}
+                    <li><span class="tag">{{ tag }}</span></li>
+                {% endfor %}
+
+                {% if post.off-site-url %}
+                    <li>{% include off-site-tag.html off-site-url=post.off-site-url %}</li>
+                {% endif %}
+            </ul>
+
+            <h2 class="post-card__title">{{ post.title }}</h2>
+
+            {% if post.excerpt %}
+                <div class="post-card__excerpt">{{ post.excerpt | strip_html | truncate: 160, '…' }}</div>
+            {% endif %}
+        </a>
     {% endfor %}
-</ul>
+</div>
 
-{% if posts.size > site.max_posts %}
-    <a href="{{ page-lang.archive.url }}#next-post" class="island">
-        {{ page-lang.archive.text }}
-    </a>
+{% if site.posts.size > site.max_posts %}
+    <a href="/archive#next-post" class="island">Read more articles</a>
 {% endif %}

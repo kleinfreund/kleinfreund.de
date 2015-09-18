@@ -1,0 +1,18 @@
+/*------------------------------------*\
+    #CODE-BLOCK
+\*------------------------------------*/
+pre {
+    padding: $base-spacing-unit / 4 $half-spacing-unit;
+    background-color: $c-gray--dark;
+    border-radius: 3px;
+    color: #fff;
+
+    > code {
+        @include font-size($small-font-size);
+        white-space: pre;
+    }
+
+    li > & {
+        margin-top: $base-spacing-unit;
+    }
+}

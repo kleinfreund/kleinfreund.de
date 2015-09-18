@@ -11,8 +11,8 @@
         content: "\2F \21 \5C \A0"; // content: "/!\ ";
         position: absolute;
         left: 0;
-        color: $ui-color;
-        font-weight: $bold-font-weight;
+        color: $c-ui;
+        font-weight: $font-weight--bold;
         letter-spacing: 2px;
 
         @include media-query(lap-and-up) {

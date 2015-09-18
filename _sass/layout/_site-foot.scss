@@ -1,6 +1,6 @@
 .site-foot {
     padding: $half-spacing-unit $base-spacing-unit;
-    background-color: $gray-color-dark;
+    background-color: $c-gray--dark;
 
     &,
     a {
@@ -8,11 +8,16 @@
     }
 
     a {
-        font-weight: $bold-font-weight;
+        font-weight: $font-weight--bold;
+        border-bottom: 0;
 
         @include attention() {
-            text-decoration: underline;
+        border-bottom: 0.125em solid;
         }
+    }
+
+    > p {
+        margin-bottom: $half-spacing-unit;
     }
 
     > :last-child {

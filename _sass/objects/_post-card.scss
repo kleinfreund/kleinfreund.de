@@ -1,0 +1,49 @@
+/*------------------------------------*\
+    #POST-CARD
+\*------------------------------------*/
+.post-card {
+    display: block;
+    padding: $half-spacing-unit;
+    background-color: #fff;
+    box-shadow: 0 3px 10px -3px $c-gray;
+
+    .timestamp {
+        display: block;
+    }
+
+    > :not(:last-child) {
+        margin-bottom: $base-spacing-unit / 2;
+    }
+}
+
+.post-card :not(.post-card__title) {
+    font-weight: $font-weight--regular;
+}
+
+.post-card__meta {
+    @include font-size(16px);
+    color: $c-text;
+}
+
+.post-card__title {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.post-card__excerpt {
+    color: $c-text;
+}
+
+.post-card:target {
+    position: relative;
+
+    &:before {
+        content: "\1F516";
+        position: absolute;
+        right: $half-spacing-unit;
+        top: $half-spacing-unit;
+        font-size: 40px;
+        line-height: 1;
+        color: $c-text;
+    }
+}

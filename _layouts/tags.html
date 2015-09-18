@@ -1,27 +1,44 @@
 ---
-layout: page
+layout: default
+class: page--blog
+exclusive-styles:
+- "sass/blog.scss"
 ---
 {% assign sorted_tags = site.tags | sort %}
 
 {% for tag in sorted_tags %}
-    {% assign posts = tag[1] | where: "lang", page.lang %}
+    {% assign tagged_posts = tag[1] %}
 
-    {% if posts.size > 0 %}
-        <h2 class="tag" id="{{ tag[0] }}">{{ tag[0] | prepend: "#" }}</h2>
-        <ul class="post-list">
-            {% for post in posts %}
-                <li>
-                    <a class="post-list__link" href="{% if post.off-site-url %}{{ post.off-site-url }}{% else %}{{ post.url }}{% endif %}">
-                        {% include date.html date=post.date lang=post.lang %}
+    {% if tagged_posts.size > 0 %}
+        <section id="{{ tag[0] }}" class="tag-list">
+            <h2><a class="tag" href="/tags/{{ tag[0] | prepend: "#" }}">
+                {{ tag[0] | prepend: "#" }}
+            </a></h2>
+            <div class="post-list">
+                {% for post in tagged_posts %}
+                    <a class="post-list__item  post-card" href="{% if post.off-site-url %}{{ post.off-site-url }}{% else %}{{ post.url }}{% endif %}">
+                        <ul class="post-card__meta  meta-list">
+                            {% if post.date %}
+                                <li>{% include date.html date=post.date %}</li>
+                            {% endif %}
 
-                        <span class="post-title">{{ post.title }}</span>
+                            {% if post.off-site-url %}
+                                <li>{% include off-site-tag.html off-site-url=post.off-site-url %}</li>
+                            {% endif %}
+                        </ul>
 
-                        {% include off-site-tag.html off-site-url=post.off-site-url %}
+                        <h2 class="post-card__title">{{ post.title }}</h2>
+
+                        {% if post.excerpt %}
+                            <div class="post-card__excerpt">{{ post.excerpt | strip_html | truncate: 160, '…' }}</div>
+                        {% endif %}
                     </a>
-                </li>
-            {% endfor %}
-        </ul>
+                {% endfor %}
+            </div>
+
+            <a href="#" class="island  island--small">#</a>
+        </section>
     {% endif %}
 
-    {% assign posts = nil %}
+    {% assign tagged_posts = nil %}
 {% endfor %}

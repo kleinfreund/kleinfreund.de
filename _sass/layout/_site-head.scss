@@ -1,5 +1,79 @@
+/*------------------------------------*\
+    #SITE-HEAD
+    Site-wide header area
+\*------------------------------------*/
 .site-head {
-    @extend %clearfix;
     @include vertical-gap();
-    border-top: $border-width solid $ui-color;
+
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+
+    padding: $base-spacing-unit / 2 $base-spacing-unit 0;
+
+    @include media-query(lap-and-up) {
+        padding: $base-spacing-unit $base-spacing-unit * 3 0;
+    }
+
+    @include media-query(desk) {
+        padding: $base-spacing-unit $base-spacing-unit * 6 0;
+    }
+}
+
+
+
+/**
+ * Site logo
+ */
+.site-logo {
+    border-bottom: 0;
+
+    &__eye {
+        fill: #fff;
+    }
+
+    > svg {
+        float: left;
+        fill: $c-ui;
+        -webkit-transform: none;
+        transform: none;
+        -webkit-transition: all 0.7s;
+        transition: all 0.7s;
+    }
+
+    &:hover,
+    &:focus {
+
+        > svg {
+            -webkit-transform: rotate(-135deg);
+            transform: rotate(-135deg);
+            -webkit-transition: all 0.7s 0.3s;
+            transition: all 0.7s 0.3s;
+        }
+
+        .site-logo__face,
+        .site-logo__eye {
+            fill: #b31809;
+            -webkit-transition: all 0.7s 0.3s;
+            transition: all 0.7s 0.3s;
+        }
+    }
+}
+
+
+
+/**
+ * Site-wide navigation
+ */
+.site-nav {
+
+    > a {
+        display: inline-block;
+        padding: $half-spacing-unit $base-spacing-unit;
+        font-weight: $font-weight--bold;
+        border-bottom: 0;
+    }
 }

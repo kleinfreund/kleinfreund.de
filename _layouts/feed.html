@@ -4,14 +4,11 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        {% assign posts = site.posts | where: "lang", page.lang %}
-        {% assign page-lang = site.data.locales[page.lang] %}
-
         {% if site.title %}
-            <title>{{ site.title | xml_escape }} ({{ page-lang.language }})</title>
+            <title>{{ site.title | xml_escape }}</title>
         {% endif %}
-        {% if page-lang.description %}
-            <description>{{ page-lang.description | xml_escape }}</description>
+        {% if site.description %}
+            <description>{{ site.description | xml_escape }}</description>
         {% endif %}
         <link>{{ site.url }}{{ site.baseurl }}/</link>
         <atom:link href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
@@ -19,7 +16,7 @@ layout: null
         <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
         <generator>Jekyll v{{ jekyll.version }}</generator>
 
-        {% for post in posts limit:10 %}
+        {% for post in site.posts limit:10 %}
             <item>
                 <title>{{ post.title | xml_escape }}</title>
                 <description>{{ post.content | xml_escape }}</description>

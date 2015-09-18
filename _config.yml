@@ -3,13 +3,16 @@ full_rebuild: true
 name: kleinfreund
 title: hey.kleinfreund.de
 url: http://hey.kleinfreund.de
+description: 'Moonbase of Philipp Rudloff. About (front-end) development and design, music and various other things that cross my mind.'
 
 permalink: /:categories/:year/:month/:title
 
-max_posts: 10
+max_posts: 13
 
 exclude:
-  - "*.sublime-workspace"
+  - 'LICENSE.txt'
+  - 'node_modules'
+  - '*.sublime-workspace'
 
 gems:
   - jekyll-sitemap
@@ -23,15 +26,7 @@ sass:
 
 
 
-# Asset paths
-assets:
-  css: /css/
-  sass: /sass/
-  fonts: /fonts/
-  images: /img/
-  javascript: /js/
-
-ui_color: 5e85d6
+ui_color: 007d99
 
 # Author information
 author:
@@ -54,18 +49,12 @@ compress_html:
     envs: [local]
 
 
-
 defaults:
-  -
-    values:
-      layout: "default"
-      lang: "de"
   -
     scope:
       path: ""
-      type: "pages"
     values:
-      layout: "page"
+      layout: "default"
   -
     scope:
       type: "posts"
@@ -76,14 +65,3 @@ defaults:
       type: "drafts"
     values:
       layout: "post"
-  -
-    scope:
-      path: "en"
-    values:
-      lang: "en"
-  -
-    scope:
-      path: "en/_posts"
-      type: "posts"
-    values:
-      lang: "en"

@@ -1,0 +1,12 @@
+/**
+ * CSS that is exclusively used for the page/post layouts
+ */
+@charset "utf-8";
+@import
+    "objects/post",
+    "objects/embedded-media",
+    "objects/blockquote",
+    "objects/note",
+    "objects/code-block"
+;
+
