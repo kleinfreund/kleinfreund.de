@@ -10,7 +10,6 @@ permalink: /:categories/:year/:month/:title
 max_posts: 13
 
 exclude:
-  - 'LICENSE.txt'
   - 'node_modules'
   - '*.sublime-workspace'
 
