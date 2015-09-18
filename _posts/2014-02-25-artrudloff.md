@@ -1,20 +1,16 @@
 ---
-date: 2014-02-25 14:31:33
+date: 2014-02-25 14:31:32
 title: "Website: artrudloff.de"
 tags:
 - dev
 - portfolio
 ---
-Die Website [artrudloff.de](http://artrudloff.de) habe ich im Sommer 2012 für meine Eltern erstellt. Zu finden gibt es eine Auswahl der Arbeiten von Anke und Andreas Rudloff.
+I built [artrudloff.de](http://artrudloff.de) for my parents in 2012 to serve as a showcase for their work. Andreas is doing etchings, woodcuttings, aquarelles, poster artwork and drawings. Anke does very detailed drawings and paintings, wooden reliefs and other objects. Recently she’s also doing designs for bell adornments for churches.
 
-Hinter der Seite steht ein braves Wordpress. Im letzten Jahr habe ich die Seite noch einmal überarbeitet. Seit dem verwende ich [inuitcss](http://inuitcss.com) und eine angepasste [Teehan+Lax Navigation](http://alexcican.com/post/teehan-lax-navigation).
+The site was running Wordpress originally, but I decided to rebuild it with Jekyll and host it on GitHub. This came with significant performance improvements. It also makes content updates easier for me.
 
-<img src="/img/portfolio/artrudloff-1.jpg" alt="Website von Anke und Andreas Rudloff – Startseite" width="620" height="330">
+<img src="/img/portfolio/artrudloff-1.jpg" alt="Website of Anke and Andreas Rudloff – Homepage" width="620" height="330">
 
-Andreas präsentiert seine Druckgrafiken, Aquarelle und Plakate.
+<img src="/img/portfolio/artrudloff-2.jpg" alt="Website of Andreas Rudloff" width="620" height="330">
 
-<img src="/img/portfolio/artrudloff-2.jpg" alt="Website von Andreas Rudloff" width="620" height="330">
-
-Bei Anke finden sich ihre Glockengestaltungen, Holzarbeiten, Wandbilder und Zeichnungen.
-
-<img src="/img/portfolio/artrudloff-3.jpg" alt="Website von Anke Rudloff" width="620" height="330">
+<img src="/img/portfolio/artrudloff-3.jpg" alt="Website of Anke Rudloff" width="620" height="330">

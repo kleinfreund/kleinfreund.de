@@ -22,7 +22,7 @@ With this change, my build time went up by 6–7 seconds. That’s due to the `s
 {% raw %}
 ```liquid
 {% if jekyll.environment == 'local' %}
-    <link rel="stylesheet" href="{{ site.assets.css }}kleinfreund.css">
+    <link rel="stylesheet" href="/css/kleinfreund.css">
 {% else %}
     <style>
         {% capture scss_include %}

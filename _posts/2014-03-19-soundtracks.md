@@ -1,26 +1,25 @@
 ---
-date: 2014-03-19 14:18:27
+date: 2014-03-19 14:18:26
 title: Soundtracks
 tags:
 - music
-- games
 ---
-Ich weiß nicht, wie’s euch geht, aber in meiner Steam-Bibliothek tummeln sich unzählige, nie angerührte Spiele. Humble Bundle, du weißt bescheid. Trotz Omnipräsenz durch Shop und wöchentliche Angebote immer noch eine gute Sache.
+I don’t know about you, but my Steam library is stuffed with numerous, untouched games. I’m looking at you, Humble Bundle. Although omnipresent through shop and Weekly Deals, it’s still a good thing.
 
-Fakt ist, dass ich viel mehr die Musik zu den Spielen höre, als selbige zu spielen. Zu dem bringt mich das in die merkwürdige Situation hier von Musik zu berichten, die ich auch wirklich gekauft habe.
+The point is, I listen to the music more often than playing the actual games. Also this leaves me in the awkward spot of talking about music I actually bought.
 
-__Übrigens:__ Klickt auf die Bilder, um zu den Bandcamp-Seiten der Alben zu kommen. Kauft!
+__By the way:__ Click on the images to go to the bandcamp pages of these albums. Buy!
 
 ## Darren Korb: Bastion
 
 <figure>
-    <a href="http://supergiantgames.bandcamp.com/album/bastion-original-soundtrack"><img src="/img/posts/soundtracks-darren-korb-bastion-soundtrack-cover.jpg" alt="Darren Korb: Bastion Soundtrack" width="620" height="207"></a>
+    <a href="http://supergiantgames.bandcamp.com/album/bastion-original-soundtrack/"><img src="/img/posts/soundtracks-darren-korb-bastion-soundtrack-cover.jpg" alt="Darren Korb: Bastion Soundtrack" width="620" height="207"></a>
     <figcaption>Bastion Artwork by <a href="http://supergiantgames.com">Supergiant Games</a>.</figcaption>
 </figure>
 
-Bastion ist ein Gesamtkunstwerk. Das Spiel ist zwar im Grunde ein Hack and Slay, aber eben ein richtig gutes. Die Story, der Erzähler, das Gameplay. Wahnsinn. Tut mir Leid für die, die damals das _Humble Indie Bundle V_ verpasst oder ignoriert haben.
+Bastion is an artistic masterpiece. Although basically a Hack and Slay, it’s a pretty good one. The story, the narration, the gameplay. Wicked. I’m sorry for those of you who missed or ignored the _Humble Indie Bundle V_ back then.
 
-Toll, dass der Soundtrack das auch noch toppt. Absolute Empfehlung. Lieblingstitel ist _Mother, I’m Here (Zulf’s Theme)_. Ach herrje. Übrigens eines der wenigen Spiele, die ich auch wirklich mal durchgespielt habe. Bin gespannt auf [Transistor](http://supergiantgames.com/index.php/transistor).
+Great, that the soundtrack even tops that. Downright recommended. Favorite track is _Mother, I’m Here (Zulf’s Theme)_. Oh, dear. Also, one of the few games I actually played through. I’m looking forward to [Transistor](http://supergiantgames.com/index.php/transistor).
 
 ## Floex: Zorya
 
@@ -29,9 +28,9 @@ Toll, dass der Soundtrack das auch noch toppt. Absolute Empfehlung. Lieblingstit
     <figcaption>Zorya Artwork by <a href="http://www.floex.cz">Floex</a>.</figcaption>
 </figure>
 
-Kein Soundtrack zu einem Spiel, war aber beim _Humble Amanita Bundle_ dabei. Die haben den Soundtrack für Samorost II und Machinarium gemacht.
+Not really a soundtrack for a game, but was part of the _Humble Amanita Bundle_. However, they made the soundtrack for Samorost II and Machinarium.
 
-Harmonisches, mystisches Klarinettengedudel. Steh ich voll drauf. Bestes Lied? _Precious Creature._
+Harmonious, mystic clarinette tootling. I like it a lot. Best song? _Precious Creature_.
 
 ## Jim Guthrie: Sword & Sworcery LP
 
@@ -40,9 +39,9 @@ Harmonisches, mystisches Klarinettengedudel. Steh ich voll drauf. Bestes Lied? _
     <figcaption>Sword & Sworcery LP Artwork by <a href="http://www.superbrothershq.com/artwork/sword-sworcery-2009-2012">Superbrothers HQ</a>.</figcaption>
 </figure>
 
-Hat gewisse Ähnlichkeiten mit dem Zorya-Album, klingt aber mehr nach _Spiel_. Obwohl sich da bei Sword & Sworcery auch die Geister scheiden.
+A bit of similarity to the Zorya album, it sounds more like a _game_ soundtrack. However, opinions differ on whether Sword & Sworcery LP is even a game anyway.
 
-Angenehmer Begleiter für ruhigere Nachmittage oder Wochenenden. Aber das trifft auf fast alle hier vorgestellten Sachen zu. Favorit ist der Eröffnungstrack _Dark Flute_. Richtig funky wird’s mit _Com64_ aus dem Bonusmaterial.
+Pleasent companion for quiet afternoons or weekends. But that may account for all the presented things here. My favorite is _Dark Flute_. It gets really funky with _Com64_ from the bonus material.
 
 ## Carlo Castellano: The Swapper
 
@@ -51,9 +50,9 @@ Angenehmer Begleiter für ruhigere Nachmittage oder Wochenenden. Aber das trifft
     <figcaption>The Swapper Artwork by <a href="http://www.sakkesoini.com">Sakke Soini</a> and <a href="https://twitter.com/facepalmgames">Olli Harjola</a>.</figcaption>
 </figure>
 
-Das Spiel wurde an vielen Stellen gerade auch wegen des Soundtracks gelobt. Habe es nicht gespielt, aber auf die Empfehlung gehört und mich reingehört. Bestätige.
+This game was recommended from many places because of the soundtrack. I haven’t played the game, but listened through the soundtrack. Confirmed.
 
-Sphärische, mystische Klänge. Und dann Titel 6, eines dieser fesselnden Klavierstücke: _Recreation_. Wer sowas mag, dem kann ich nur [Oskar Schuster](https://soundcloud.com/oskarschuster) empfehlen.
+Spherical, mystical sounds. Title 6 is one of those fascinating piano tracks: _Recreation_. Whoever likes these as well should give [Oskar Schuster](https://soundcloud.com/oskarschuster) a listen.
 
 ## C418: Volume Beta
 
@@ -62,7 +61,7 @@ Sphärische, mystische Klänge. Und dann Titel 6, eines dieser fesselnden Klavie
     <figcaption>Volume Beta Artwork by <a href="http://c418.bandcamp.com/album/minecraft-volume-beta">C418</a>.</figcaption>
 </figure>
 
-Als wäre der erste Soundtrack zu Minecraft nicht schon gut genug, legt Daniel Rosenfeld hier nochmal fantastisch nach. Den mag ich sogar noch etwas mehr als _Volume Alpha_. Das Teil hat 140 Minuten Spieldauer. Über zwei Stunden. Fast ein Zehntel Tag!
+As if the first soundtrack for Minecraft wasn’t good enough, Daniel Rosenfeld does it again. I even like it a bit more than _Volume Alpha_. That thing got 140 minutes playing time. Over two hours. Almost one tenth day.
 
 ## Tiny & Big: Music To Cut Rocks By
 
@@ -71,12 +70,12 @@ Als wäre der erste Soundtrack zu Minecraft nicht schon gut genug, legt Daniel R
     <figcaption>Tiny & Big Artwork by <a href="http://www.the-stamm.com/wordpress/?portfolio=tiny-big-box-art">Sebastian Stamm</a>.</figcaption>
 </figure>
 
-Die tanzt aus der Reihe. Die schräge Musik zu einem wahrscheinlich nicht minder schrägen Spiel. Ist auch eine Compilation von mehreren Künstlern. Hier geht’s dann auch etwas mehr zur Sache. Liebling ist _Lusitiana_.
+This one steps out of the line. Weird music to a probably even weirder game. It’s a compilation of multiple artists. It gets quite crazy indeed. Favorite is _Lusitiana_.
 
-## Sonstige
+## Other
 
-Sehr beeindruckt hat mich auch die Musik zu _Gothic II_. Eines meiner Lieblingsspiele. Zu erwähnen wäre vielleicht noch die verrückte Musik von _Command & Conquer: Red Alert 3_. Der Soundtrack von _Dust: An Elysian Tail_ kam eigentlich auch gut weg. Den muss ich mir nochmal anhören.
+I was really impressed by the soundtrack for _Gothic II_ as well. One of my favorite games. Another honorable mention would be the funny and rocky music from _Command & Conquer: Red Alert 3_. Same goes for _Dust: An Elysian Tail_. I should give it another try.
 
-Aus dem Bereich Film kennt sicher jeder schon die großen Teile von Star Wars, Herr der Ringe, Hobbit etc. Nicht zu vergessen Yann Tiersen mit _Le Fabuleux Destin d’Amélie Poulain_.
+From the field of films, most of you will know the big ones like Star Wars, Lord of the Rings, The Hobbit, etc. Don’t forget _Le Fabuleux Destin d’Amélie Poulain_ by Yann Tiersen.
 
-Wen hab ich vergessen? Was ist eure Lieblingsspielmusik? Lieblingsfilmmusik? Meinetwegen auch Lieblingsmusik? Lieblingsirgendwas?!
+Did I forget something? What’s your favorite game tunes? Favorite film music? Favorite music? Favorite whatnot?!

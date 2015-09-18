@@ -22,7 +22,7 @@ Dadurch ist leider die Build-Zeit von Jekyll um 6–7 Sekunden nach oben gegange
 {% raw %}
 ```liquid
 {% if jekyll.environment == 'local' %}
-    <link rel="stylesheet" href="{{ site.assets.css }}kleinfreund.css">
+    <link rel="stylesheet" href="/css/kleinfreund.css">
 {% else %}
     <style>
         {% capture scss_include %}

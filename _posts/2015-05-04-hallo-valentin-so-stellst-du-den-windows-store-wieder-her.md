@@ -2,6 +2,7 @@
 date: 2015-05-04 22:58:13
 title: "Hey Valentin, so stellst du den Windows Store wieder her"
 tags:
+- german
 - personal
 ---
 Weil ich ein ganz sorgfältiger Vollprofi bin, habe ich deinen Laptop vor dem ersten Kontakt mit dir gründlich aufgeräumt. Dabei habe ich die ganze Müll-Software, die vorinstalliert war, deinstalliert. Weil ich so sorgfältig bin, habe ich auch gleich alles im Startmenü gelöscht, deinstalliert, verbrannt—was immer nötig war, um es los zu werden.
