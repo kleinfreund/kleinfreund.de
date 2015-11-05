@@ -81,7 +81,7 @@ If you can suggest other good alternatives, write me on [Twitter]({{ site.author
 
 ## Premium
 
-Now paying for music software is definitely worth considering when you have the same high demands as I do. I love to pay for an application if it’s worth it. However, if there is no way to test the premium version before paying, how am I supposed to decide whether it fits my needs? As fas as I can tell, Helium does not offer such a test version, which is kinda sad. I don’t need any of the Media Monkey features, so I would only buy the gold version, if I was really using it.
+Now paying for music software is definitely worth considering when you have the same high demands as I do. I love to pay for an application if it’s worth it. However, if there is no way to test the premium version before paying, how am I supposed to decide whether it fits my needs? As far as I can tell, Helium does not offer such a test version, which is kinda sad. I don’t need any of the Media Monkey features, so I would only buy the gold version, if I was really using it.
 
 ## Résumé
 
