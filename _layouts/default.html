@@ -6,7 +6,7 @@ layout: compress
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }}{% endif %} – {{ site.title }}</title>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }}</title>
     {% if site.description %}<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">{% endif %}
 
     <script>{% include js/loadfont.min.js %}</script>
