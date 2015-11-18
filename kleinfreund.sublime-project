@@ -27,10 +27,10 @@
                 "cmd": ["open", "http://127.0.0.1:4000/"]
             },
             "linux": {
-                "cmd": ["google-chrome", "http://127.0.0.1:4000/"]
+                "cmd": ["xdg-open", "http://127.0.0.1:4000/"]
             },
             "windows": {
-                "cmd": ["C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe", "http://127.0.0.1:4000/"]
+                "cmd": ["start", "http://127.0.0.1:4000/"]
             }
         }
     ]
