@@ -44,8 +44,8 @@ compress_html:
   clippings: all
   comments: ["<!--", "-->"]
   endings: all
-  ignore:
-    envs: [local]
+#  ignore:
+#    envs: [local]
 
 
 defaults:
