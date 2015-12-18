@@ -1,10 +1,10 @@
 # kleinfreund.github.io
 
-This is the repository for my personal site [hey.kleinfreund.de](http://hey.kleinfreund.de). I’m using [Jekyll](http://jekyllrb.com) with [GitHub Pages](https://pages.github.com). That way I don’t need to build the site by hand every time I want to push new stuff. GitHub Pages does that for me. Downside? Not being able to use Jekyll plugins that aren’t whitelisted.
+This is the repository for my personal site [kleinfreund.de](https://kleinfreund.de). I’m using [Jekyll](http://jekyllrb.com) with [GitHub Pages](https://pages.github.com). That way I don’t need to build the site by hand every time I want to push new stuff. GitHub Pages does that for me. Downside? Not being able to use Jekyll plugins that aren’t whitelisted.
 
 The articles on my site are open source and can be freely used under the conditions of the CC BY-SA license (see [below](#licenses)). Code is licensed under MIT.
 
-If you’re looking for the source of my previous design which was bilingual, I’ve tagged that as [version 1.0](https://github.com/kleinfreund/kleinfreund.github.io/releases/tag/1.0).
+If you’re looking for the source of my previous design which was bilingual, I’ve tagged that as [version 1.0](https://github.com/kleinfreund/kleinfreund.de/releases/tag/1.0).
 
 ## Requirements / Build Locally
 
