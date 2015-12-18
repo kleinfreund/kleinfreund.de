@@ -1,8 +1,8 @@
 full_rebuild: true
 
 name: kleinfreund
-title: hey.kleinfreund.de
-url: http://hey.kleinfreund.de
+title: kleinfreund.de
+url: https://kleinfreund.de
 description: 'Moonbase of Philipp Rudloff. About (front-end) development and design, music and various other things that cross my mind.'
 
 permalink: /:categories/:year/:month/:title
