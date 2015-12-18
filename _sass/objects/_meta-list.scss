@@ -4,8 +4,8 @@
 \*------------------------------------*/
 .meta-list {
     margin-left: 0;
-    margin-bottom: 0;
     list-style: none;
+    @extend %vertical-rhythm;
 
     > li {
         display: inline-block;
