@@ -12,6 +12,12 @@ layout: compress
     <script>{% include js/loadfont.min.js %}</script>
     <script>loadFont('Ubuntu', '/css/ubuntu.woff.css', '')</script>
 
+    {% if layout == nil %}
+        {% assign layout_ = page %}
+    {% else %}
+        {% assign layout_ = layout %}
+    {% endif %}
+
     {% if jekyll.environment == 'local' %}
         <!--| Cut-down Jekyll build times during development by linking to an
             | external stylesheet -->
@@ -22,7 +28,7 @@ layout: compress
             {% capture scss_include %}
                 {% include sass/general.scss %}
 
-                {% for style in page.exclusive-styles %}
+                {% for style in layout_.exclusive-styles %}
                     {% include {{ style }} %}
                 {% endfor %}
             {% endcapture %}
@@ -34,7 +40,7 @@ layout: compress
     <link rel="icon" href="/img/icon.png">
     <link rel="icon" href="/img/icon.svg" sizes="any" type="image/svg+xml">
 </head>
-<body class="{{ page.class }}">
+<body class="{{ layout_.class }}">
     <header class="site-head">
         <a class="site-logo" href="/" title="♥">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-labelledby="title desc">
