@@ -175,7 +175,6 @@ Hey there everyone, it’s List Week already. So without further ado, here are m
 
 <hr>
 
-That’s it for the favorite tracks. Albums following soon. Could’ve easily been a top 50 judging by new additions to my library but I leave it at that.
+<p>That’s it for the favorite tracks. Albums following soon. Could’ve easily been a top 50 judging by new additions to my library but I leave it at that.</p>
 
-I would love to hear what you’ve been listening to through out the year. Let me know.
-
+<p>I would love to hear what you’ve been listening to through out the year. Let me know.</p>
