@@ -52,7 +52,7 @@ tags:
 
 <p><img src="/img/posts/albums-2015/05.jpg"></p>
 
-<p>Released on what is easily my favorite label of the year, <a href="https://atomnation.bandcamp.com/">Atomnation</a>, this album also features my favorite album artwork of the year (Who did this? It’s fantastic!). That said, Atomnation celebrated their 25th release this year with a beautiful booklet. “Allogamy” is the 32nd release. Polynation’s mixture between electronic styles on the hand and analog drums on the other hand is really interesting. The third track features a piano which I did not expect at all. Turned out really well. The forth track, “Dew”, has some elements which remind me of <a href="http://tychomusic.com/awake/">Tycho</a> who are doing music on the more calm and quiet end.</p>
+<p>Released on what is easily my favorite label of the year, <a href="https://atomnation.bandcamp.com/">Atomnation</a>, this album also features my favorite album artwork of the year (Who did this? It’s fantastic!). That said, Atomnation celebrated their 25th release this year with a beautiful booklet. “Allogamy” is the 32nd release. Polynation’s mixture between electronic styles on the one hand and analog drums on the other hand is really interesting. The third track features a piano which I did not expect at all. Turned out really well. The forth track, “Dew”, has some elements which remind me of <a href="http://tychomusic.com/awake/">Tycho</a> who are doing music on the more calm and quiet end.</p>
 
 
 
@@ -76,7 +76,7 @@ tags:
 
 <p><img src="/img/posts/albums-2015/02.jpg"></p>
 
-<p>My sweet-spot for Jazz, here it gets its love. What a journey this <b>three hour long</b> power house of a record is. I expect it to be on Anthony’s favorite albums of the year list right in the top 3 as well (list is up, haven’t seen it yet). Up to this point I only managed to listen through it in its entirety twice. There is definitely still many things to discover and learn about this record. Can only imagine it to get better.</p>
+<p>My sweet-spot for Jazz, here it gets its love. What a journey this <b>three hour long</b> power house of a record is. I expect it to be on Anthony’s favorite albums of the year list right in the top 3 as well (list is up, <s>haven’t seen it yet</s> knew it.). Up to this point I only managed to listen through it in its entirety twice. There is definitely still many things to discover and learn about this record. Can only imagine it to get better.</p>
 
 
 
