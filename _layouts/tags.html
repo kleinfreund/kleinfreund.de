@@ -11,9 +11,11 @@ exclusive-styles:
 
     {% if tagged_posts.size > 0 %}
         <section id="{{ tag[0] }}" class="tag-list">
-            <h2><a class="tag" href="/tags/{{ tag[0] | prepend: "#" }}">
-                {{ tag[0] | prepend: "#" }}
-            </a></h2>
+            <h2>
+                <b><a href="/tags/{{ tag[0] | prepend: "#" }}">
+                    {{ tag[0] | prepend: "#" }}
+                </a></b>
+            </h2>
             <div class="post-list">
                 {% for post in tagged_posts %}
                     <a class="post-list__item  post-card" href="{% if post.off-site-url %}{{ post.off-site-url }}{% else %}{{ post.url }}{% endif %}">
@@ -27,7 +29,7 @@ exclusive-styles:
                             {% endif %}
                         </ul>
 
-                        <h2 class="post-card__title">{{ post.title }}</h2>
+                        <h3 class="post-card__title">{{ post.title }}</h3>
 
                         {% if post.excerpt %}
                             <div class="post-card__excerpt">{{ post.excerpt | strip_html | truncate: 160, '…' }}</div>
@@ -36,7 +38,7 @@ exclusive-styles:
                 {% endfor %}
             </div>
 
-            <a href="#" class="island  island--small">#</a>
+            <a href="#">back to top ↑</a>
         </section>
     {% endif %}
 
