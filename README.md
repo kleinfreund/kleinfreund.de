@@ -1,4 +1,4 @@
-# kleinfreund.github.io
+# kleinfreund.de
 
 This is the repository for my personal site [kleinfreund.de](https://kleinfreund.de). I’m using [Jekyll](http://jekyllrb.com) with [GitHub Pages](https://pages.github.com). That way I don’t need to build the site by hand every time I want to push new stuff. GitHub Pages does that for me. Downside? Not being able to use Jekyll plugins that aren’t whitelisted.
 
