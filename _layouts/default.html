@@ -6,13 +6,53 @@ layout: compress
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }}</title>
+    <title>{% if page.title %}{{ page.title | strip_html }} – {% endif %}{{ site.title }}</title>
     {% if site.description %}
         <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     {% endif %}
 
-    <script>{% include js/loadfont.min.js %}</script>
-    <script>loadFont('Ubuntu', '/css/ubuntu.woff.css', '')</script>
+    <link rel="preload" href="/fonts/fabrikat-regular.woff2" as="font" type="font/woff2" crossorigin>
+
+    <script>{% include js/fontfaceobserver.js %}</script>
+    <script>
+        /**
+         * Font loading strategy as per:
+         * https://www.bramstein.com/writing/web-font-loading-patterns.html
+         */
+        (function () {
+            if (sessionStorage.fontsLoaded) {
+                document.documentElement.classList.add('fonts-loading');
+            }
+
+            var regular = new FontFaceObserver('Fabrikat');
+            var italic = new FontFaceObserver('Fabrikat', {
+                style: 'italic'
+            });
+            var bold = new FontFaceObserver('Fabrikat', {
+                weight: 'bold'
+            });
+            var thin = new FontFaceObserver('Fabrikat', {
+                weight: 100
+            });
+
+            Promise.all([
+                regular.load(),
+                italic.load(),
+                bold.load(),
+                thin.load()
+            ]).then(function () {
+                document.documentElement.classList.remove('fonts-loading');
+                document.documentElement.classList.add('fonts-loaded');
+                sessionStorage.fontsLoaded = true;
+                console.log('Fabrikat has loaded.');
+            }).catch(function () {
+                document.documentElement.classList.remove('fonts-loading');
+                document.documentElement.classList.add('fonts-failed');
+                sessionStorage.fontsLoaded = false;
+                console.log('Fabrikat has NOT loaded in time. Using fallback font.');
+            });
+        }());
+    </script>
 
     {% if layout == nil %}
         {% assign layout_ = page %}
@@ -77,7 +117,7 @@ layout: compress
 
 
     <footer class="site-foot">
-        <p>Moonbase of <a href="https://twitter.com/kleinfreund">Philipp Rudloff</a>. Hosted on <a href="https://github.com/kleinfreund/kleinfreund.de">GitHub</a>. Built with <a href="http://jekyllrb.com" title="Jekyll – Static site generator for blogs">Jekyll</a>.</p>
+        <p>Moonbase of <a href="https://twitter.com/kleinfreund">Philipp Rudloff</a>. Hosted on <a href="https://uberspace.de">Uberspace</a>. Built with <a href="http://jekyllrb.com" title="Jekyll – Static site generator for blogs">Jekyll</a>.</p>
 
         <p>The content is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" title="Attribution – ShareAlike 4.0 International">CC BY-SA</a>, code under <a href="https://opensource.org/licenses/MIT" title="MIT License – open source license">MIT License</a>. Legal disclosure: Philipp Rudloff, Hegelstraße 7, 99423 Weimar.</p>
 
