@@ -21,18 +21,22 @@
     @include media-query(desk) {
         max-width: $blog-width;
     }
-
-    @include media-query(desk-wide) {
-        max-width: $blog-width-wide;
-    }
 }
 
 .page-title {
+    @include vertical-gap(bottom);
     padding-right: $half-spacing-unit;
     padding-left: $half-spacing-unit;
 
     @include media-query(desk) {
+        @include font-size($giga-size);
         padding: 0;
+    }
+}
+
+.page-title__sub {
+    @include media-query(desk) {
+        display: block;
     }
 }
 
@@ -42,6 +46,9 @@
  * Page Content
  */
 .page-content {
+    max-width: $content-width;
+    margin-right: auto;
+    margin-left: auto;
     @include vertical-gap(bottom);
     padding-right: $half-spacing-unit;
     padding-left: $half-spacing-unit;

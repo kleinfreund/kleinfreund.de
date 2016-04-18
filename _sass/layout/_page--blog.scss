@@ -7,8 +7,4 @@
     @include media-query(desk) {
         max-width: $blog-width;
     }
-
-    @include media-query(desk-wide) {
-        max-width: $blog-width-wide;
-    }
 }

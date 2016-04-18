@@ -1,6 +1,10 @@
 .site-foot {
-    padding: $half-spacing-unit $base-spacing-unit;
+    padding: $base-spacing-unit;
     background-color: $c-gray--dark;
+
+    @include media-query(desk) {
+        padding: 2 * $base-spacing-unit;
+    }
 
     &,
     a {
@@ -12,7 +16,7 @@
         border-bottom: 0;
 
         @include attention() {
-        border-bottom: 0.125em solid;
+            border-bottom: 0.125em solid;
         }
     }
 

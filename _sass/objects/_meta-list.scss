@@ -6,6 +6,11 @@
     margin-left: 0;
     list-style: none;
     @extend %vertical-rhythm;
+    padding-right: $base-spacing-unit / 4;
+    padding-left: $base-spacing-unit / 4;
+    vertical-align: top;
+    border-top: 2px solid;
+    @include font-size($small-font-size);
 
     > li {
         display: inline-block;
@@ -13,5 +18,9 @@
 
     > li:not(:last-child) {
         margin-right: $base-spacing-unit / 4;
+    }
+
+    .post-card > & {
+        margin-bottom: 0;
     }
 }

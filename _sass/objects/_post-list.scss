@@ -13,16 +13,7 @@
 
 .post-list__item {
     width: 100%;
-    margin-bottom: $base-spacing-unit;
-
-    &:nth-child(3n+1),
-    &:nth-child(3n+2) {
-        margin-right: 2%;
-    }
-
-    @include media-query(desk) {
-        width: 32%;
-    }
+    margin-bottom: $base-spacing-unit * 2;
 }
 
 .tag-list:not(:last-child) {

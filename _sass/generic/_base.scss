@@ -118,3 +118,18 @@ hr {
 iframe {
     vertical-align: middle;
 }
+
+
+
+/**
+ * Tables
+ */
+table {
+    border-collapse: collapse;
+    @extend %vertical-rhythm;
+}
+
+th, td {
+    border: 1px solid;
+    padding: 4px 10px;
+}

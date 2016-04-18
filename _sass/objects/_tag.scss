@@ -3,12 +3,15 @@
 \*------------------------------------*/
 .tag {
     display: inline-block;
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-right: $base-spacing-unit / 4;
+    padding-left: $base-spacing-unit / 4;
     font-size: $small-font-size;
-    background-color: $c-alt;
-    color: #fff;
+    color: $c-ui;
     border-radius: 2px;
+}
+
+.tag::before {
+    content: "#";
 }
 
 // Well, look at this little sucker. I actually needed to overqualify for once.
@@ -17,8 +20,7 @@ a.tag {
     border-bottom: 0;
 
     @include attention() {
-        color: #fff;
-        background-color: $c-alt--dark;
+        color: $c-ui--dark;
     }
 }
 

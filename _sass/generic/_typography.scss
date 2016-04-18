@@ -1,9 +1,49 @@
+@font-face {
+    font-family: Fabrikat;
+    src: url('/fonts/fabrikat-regular.woff2') format('woff2'),
+         url('/fonts/fabrikat-regular.woff') format('woff'),
+         url('/fonts/fabrikat-regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: $font-weight;
+}
+
+@font-face {
+    font-family: Fabrikat;
+    src: url('/fonts/fabrikat-italic.woff2') format('woff2'),
+         url('/fonts/fabrikat-italic.woff') format('woff'),
+         url('/fonts/fabrikat-italic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: $font-weight;
+}
+
+@font-face {
+    font-family: Fabrikat;
+    src: url('/fonts/fabrikat-bold.woff2') format('woff2'),
+         url('/fonts/fabrikat-bold.woff') format('woff'),
+         url('/fonts/fabrikat-bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: $font-weight--bold;
+}
+
+@font-face {
+    font-family: Fabrikat;
+    src: url('/fonts/fabrikat-thin.woff2') format('woff2'),
+         url('/fonts/fabrikat-thin.woff') format('woff'),
+         url('/fonts/fabrikat-thin.ttf') format('truetype');
+    font-style: normal;
+    font-weight: $font-weight--thin;
+}
+
 html {
     min-height: 100%;
     overflow-y: scroll;
-    font: $font-weight--regular #{($base-font-size/16px)*1em}/#{$line-height-ratio} $font-family;
+    font: $font-weight #{($base-font-size/16px)*1em}/#{$line-height-ratio} $font-family--fallback;
     color: $c-text;
     background-color: $c-background;
+}
+
+html.fonts-loaded {
+    font-family: $font-family;
 }
 
 
@@ -16,6 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+    font-weight: 100;
     @include font-size($h1-size);
 }
 
@@ -86,9 +127,8 @@ strong {
  */
 a {
     color: $c-ui;
-    font-weight: $font-weight--bold;
     text-decoration: none;
-    border-bottom: 0.125em solid;
+    border-bottom: 2px solid;
 
     @include attention() {
         color: $c-ui--dark;

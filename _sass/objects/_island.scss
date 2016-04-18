@@ -4,14 +4,14 @@
     display: inline-block;
     padding: $half-spacing-unit $base-spacing-unit;
     color: #fff;
-    background-color: $c-alt;
+    background-color: $c-ui;
     border-radius: 2px;
     text-align: center;
     font-weight: $font-weight--bold;
 
     @include attention() {
         color: #fff;
-        background-color: $c-alt--dark;
+        background-color: $c-ui--dark;
     }
 
     > :last-child {
