@@ -3,7 +3,7 @@
     Site-wide header area
 \*------------------------------------*/
 .site-head {
-    @include vertical-gap(top);
+    margin-top: 3rem;
     padding-right: $half-spacing-unit;
     padding-left: $half-spacing-unit;
 
