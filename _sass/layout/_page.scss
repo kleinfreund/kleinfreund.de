@@ -24,7 +24,7 @@
 }
 
 .page-title {
-    @include vertical-gap(bottom);
+    margin-bottom: 3rem;
     padding-right: $half-spacing-unit;
     padding-left: $half-spacing-unit;
 
@@ -49,7 +49,7 @@
     max-width: $content-width;
     margin-right: auto;
     margin-left: auto;
-    @include vertical-gap(bottom);
+    margin-bottom: 6rem;;
     padding-right: $half-spacing-unit;
     padding-left: $half-spacing-unit;
 

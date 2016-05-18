@@ -17,5 +17,5 @@
 }
 
 .tag-list:not(:last-child) {
-    @include vertical-gap(bottom);
+    margin-bottom: 6rem;;
 }

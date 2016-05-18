@@ -55,16 +55,6 @@
 
 
 /**
- * Vertical Rhythm/Gaps
- */
-@mixin vertical-gap($direction: bottom) {
-    margin-#{$direction}: $base-spacing-unit * 4;
-    margin-#{$direction}: 6rem;
-}
-
-
-
-/**
  * Link Pseudo Classes
  * https://twitter.com/csswizardry/status/478938530342006784
  */
