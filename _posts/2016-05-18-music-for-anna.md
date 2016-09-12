@@ -4,7 +4,7 @@ title: "Music for Anna"
 tags:
   - music
 ---
-You asked me to write down some recommendations because you liked the music I was playing whiel you were around. So here it is. Not on a piece of paper, though.
+You asked me to write down some recommendations because you liked the music I was playing while you were around. So here it is. Not on a piece of paper, though.
 
 ## [Bachar Mar-Khalifé – Ya Balad](https://infine-rec.bandcamp.com/album/ya-balad-lp-cd)
 
