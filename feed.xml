@@ -11,7 +11,7 @@ layout: null
             <description>{{ site.description | xml_escape }}</description>
         {% endif %}
         <link>{{ site.url }}{{ site.baseurl }}/</link>
-        <atom:link href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+        <atom:link href="{{ '/feed.xml' | absolute_url }}" rel="self" type="application/rss+xml"/>
         <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
         <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
         <generator>Jekyll v{{ jekyll.version }}</generator>
@@ -25,14 +25,14 @@ layout: null
                     {% if post.off-site-url %}
                         {{ post.off-site-url }}
                     {% else %}
-                        {{ post.url | prepend: site.baseurl | prepend: site.url }}
+                        {{ post.url | absolute_url }}
                     {% endif %}
                 </link>
                 <guid isPermaLink="true">
                     {% if post.off-site-url %}
                         {{ post.off-site-url }}
                     {% else %}
-                        {{ post.url | prepend: site.baseurl | prepend: site.url }}
+                        {{ post.url | absolute_url }}
                     {% endif %}
                 </guid>
                 {% for tag in post.tags %}
