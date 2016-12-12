@@ -38,7 +38,8 @@ tags:
 
 <p><img src="/img/posts/eps-2015/02.jpg" alt="Detail from the artwork of Laura Grove’s “Committed Language” EP"></p>
 
-<p>Since I <a href="{% post_url 2015-05-30-laura-groves-committed-language-ep-review %}">reviewed the EP here</a>, I just have you read this instead. It is a very good one.</p>
+
+<p>Since I <a href="{% post_url 2015/2015-05-30-laura-groves-committed-language-ep-review %}">reviewed the EP here</a>, I just have you read this instead. It is a very good one.</p>
 
 
 
