@@ -118,7 +118,7 @@ This is what I call refreshing. It’s is very much the eclectic electronic pop 
 
 Wow, this came out of nowhere. Good thing I browsed the [Bandcamp Top-100](https://daily.bandcamp.com/2016/12/08/the-best-albums-of-2016-40-21/). This is exactly the kind of music I wanted some Godspeed You! Black Emperor songs to evolve into while playing them.
 
-Why is “Despair Is A Siren” not the first thing that plays on their album page on Bandcamp? When I listened to that song riding home through the night from my girlfriends place, I was taken aback. This was so intense, so unique. I wanted to scream. 15 minutes for only the first song. I couldn’t even finish it on my 10 minute way home. But you can be damn sure that I used my time alone in our apartment to play this loud.
+Why is “Despair Is A Siren” not the first thing that plays on their album page on Bandcamp? When I listened to that song riding home through the night from my girlfriends place, I was taken aback. This was so intense, so unique. I wanted to scream. 15 minutes for only the first song. I couldn’t even finish it on my 10 minute way home. But you can be damn sure that I used my time alone in our apartment to play this loud. Love it.
 
 
 
