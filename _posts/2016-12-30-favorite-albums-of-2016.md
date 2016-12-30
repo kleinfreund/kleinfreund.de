@@ -1,14 +1,14 @@
 ---
-date: 2016-12-10 12:00:00
+date: 2016-12-30 10:30:00
 title: "Favorite Albums of 2016"
 tags:
   - music
 ---
 Here we are again. One year done again. It got quite quiet here. Three articles. Nothing more. But I won’t apologize or promise to do better. Often I feel the urge to write something, but I just don’t know what. Strange, but it is what it is and I’m fine with that.
 
-Good things happened this year. I’m talking about music and a very personal improvement in life quality that is only partially related to music. This is now the time to, for a short while atleast, leave behind the year as a whole with all the bad things that came out of it. But only to take away what it offered our ears.
+Good things happened this year. I’m talking about music and a very personal improvement in life quality that is only partially related to music. This is now the time to, for a short while atleast, leave behind the year as a whole with all the bad things that came out of it. To take away what it had to offer for our ears.
 
-For me it felt a bit like there was *less* music this year. Largely this is due to me being invested with other things, but there is still of records I want to tell you about. If you haven’t heard from them already, that is.
+For me it felt a bit like there was *less* music this year. I just had other things on my mind. Still, there is some records I want to tell you about.
 
 
 
@@ -16,11 +16,11 @@ For me it felt a bit like there was *less* music this year. Largely this is due 
 
 ![Gold Panda – Good Luck And Do Your Best album artwork](/img/posts/albums-2016/good-luck-and-do-your-best.jpg)
 
-“In My Car” is great. A wonderful melody, I wish it would never end. But then again there is quite some melodies for which this is true.
+“In My Car” is great. A wonderful melody. I wish it would never end. But then again there is quite some melodies for which this is true.
 
 The record is not without its flaws. It feels a bit incoherent at points. There are a lot of good ideas, interesting little rhythm patterns. I like all these small repetitive melodies that come and come again like on “Pink & Green” or “I Am Real Punk”. The songs are well-executed. In total, they don’t add together as a whole but it’s a pleasent experience nonetheless.
 
-And then there is “Time Eater” and the cover of it by [Ssighborggg](https://ssighborggg.bandcamp.com) and [Luna Lee](https://www.youtube.com/user/luna422422). This for me is the high mark of the record. Both tracks, incredibly well-performed. I dig it.
+And then there is “Time Eater” and the cover version by [Ssighborggg](https://ssighborggg.bandcamp.com) and [Luna Lee](https://www.youtube.com/user/luna422422). This for me is the high mark of the record. Both tracks, incredibly well-performed. I dig it.
 
 
 
@@ -28,7 +28,7 @@ And then there is “Time Eater” and the cover of it by [Ssighborggg](https://
 
 ![Bon Iver – 22, A Million album artwork](/img/posts/albums-2016/22-a-million.jpg)
 
-Up until 2016 I never paid attention to Justin Vernon. There is no particular reason for that. It just didn’t happen. Until early June when I met you. We attended the Michelberger Music Festival in Berlin where he played a good half of the new record. I’m into this kind of rough and unpolished experimenting, although in it’s completeness the album leaves a bit of an unfinished impression upon me. It has some bright moments. There is nothing like getting clocked on the highway because “10 d E A T h b R E a s T ⚄ ⚄”’s driving beat puts you just in that mood.
+Up until 2016 I never paid attention to Justin Vernon. There is no particular reason for that. It just didn’t happen. Until early June when I met you. We attended the Michelberger Music festival in Berlin where he played a good half of his new record. I’m into this kind of rough and unpolished experimenting, although in it’s completeness the album leaves a bit of an unfinished impression upon me. It has some bright moments. There is nothing like getting clocked on the highway because “10 d E A T h b R E a s T ⚄ ⚄”’s driving beat puts you just in that mood.
 
 Or sitting besides you and start singing “I’d be happy as hell if you’d stay for tea” at just the right moment of “33 "GOD"”. And not to forget about that incredible performance of “8 (circle)” accompanied by a humming and stunning choir at Funkhaus Berlin during the festival.
 
@@ -112,9 +112,9 @@ This is what I call refreshing. It’s is very much the eclectic electronic pop 
 
 
 
-## [SubRosa – For This We Fought The Battle Of The Ages](https://profoundlorerecords.bandcamp.com/album/for-this-we-fought-the-battle-of-ages)
+## [SubRosa – For This We Fought The Battle Of Ages](https://profoundlorerecords.bandcamp.com/album/for-this-we-fought-the-battle-of-ages)
 
-![For This We Fought The Battle Of The Ages album artwork](/img/posts/albums-2016/for-this-we-fought-the-battle-of-the-ages.jpg)
+![For This We Fought The Battle Of Ages album artwork](/img/posts/albums-2016/for-this-we-fought-the-battle-of-ages.jpg)
 
 Wow, this came out of nowhere. Good thing I browsed the [Bandcamp Top-100](https://daily.bandcamp.com/2016/12/08/the-best-albums-of-2016-40-21/). This is exactly the kind of music I wanted some Godspeed You! Black Emperor songs to evolve into while playing them.
 
@@ -130,4 +130,4 @@ This year was different for me for many reasons. Globally and personally. I atte
 
 With you, I want to see so much more acts in concert. Most of them we probably don’t even know about, yet. I want to see [Nils Frahm](http://www.nilsfrahm.com/) with you. [Martin Kohlstedt](https://martinkohlstedt.bandcamp.com/). I wouldn’t pass up seeing Anoushka Shankar again. Or Glen Hansard.
 
-I’m really looking forward to the upcoming Bonobo album [“Migration”](https://bonobomusic.bandcamp.com/album/migration) dropping in two weeks. Seeing him and band in February as well as [Bon Iver](https://boniver.bandcamp.com). I’ll also attend Rudolstadt Festival again. That’s a no-brainer, really. I’d love to hear something new from [Laura Groves](https://lauragroves.bandcamp.com). Also what about that new Gorillaz record? Wasn’t there quite some a few months back? Anyway, have a good time folks. Tell me what you listened to this year.
+I’m really looking forward to the upcoming Bonobo album [“Migration”](https://bonobomusic.bandcamp.com/album/migration) dropping in two weeks. Seeing him and band in February as well as [Bon Iver](https://boniver.bandcamp.com). I’ll also attend Rudolstadt Festival again. That’s a no-brainer, really. I’d love to hear something new from [Laura Groves](https://lauragroves.bandcamp.com). Also what about that new Gorillaz record? Wasn’t there quite some fuzz about that a few months back? Anyway, have a good time folks. Tell me what you listened to this year.
