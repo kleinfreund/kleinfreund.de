@@ -13,7 +13,7 @@ exclude:
   - 'node_modules'
   - '*.sublime-workspace'
 
-gems:
+plugins:
   - jekyll-sitemap
 
 kramdown:
