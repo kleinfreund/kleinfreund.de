@@ -60,7 +60,7 @@ layout: compress
         {% assign layout_ = layout %}
     {% endif %}
 
-    {% if jekyll.environment == 'local' %}
+    {% if jekyll.environment == 'development' %}
         <!--| Cut-down Jekyll build times during development by linking to an
             | external stylesheet -->
         <link rel="stylesheet" href="/css/kleinfreund.css">
