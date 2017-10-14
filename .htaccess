@@ -17,41 +17,6 @@
 # https://httpd.apache.org/docs/current/howto/htaccess.html.
 
 # ######################################################################
-# # CROSS-ORIGIN                                                       #
-# ######################################################################
-
-# ----------------------------------------------------------------------
-# | Cross-origin images                                                |
-# ----------------------------------------------------------------------
-
-# Send the CORS header for images when browsers request it.
-#
-# https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_enabled_image
-# https://blog.chromium.org/2011/07/using-cross-domain-images-in-webgl-and.html
-
-<IfModule mod_setenvif.c>
-    <IfModule mod_headers.c>
-        <FilesMatch "\.(bmp|cur|gif|ico|jpe?g|png|svgz?|webp)$">
-            SetEnvIf Origin ":" IS_CORS
-            Header set Access-Control-Allow-Origin "*" env=IS_CORS
-        </FilesMatch>
-    </IfModule>
-</IfModule>
-
-# ----------------------------------------------------------------------
-# | Cross-origin web fonts                                             |
-# ----------------------------------------------------------------------
-
-# Allow cross-origin access to web fonts.
-
-<IfModule mod_headers.c>
-    <FilesMatch "\.(eot|otf|tt[cf]|woff2?)$">
-        Header set Access-Control-Allow-Origin "*"
-    </FilesMatch>
-</IfModule>
-
-
-# ######################################################################
 # # ERRORS                                                             #
 # ######################################################################
 
@@ -79,42 +44,6 @@ Options +MultiViews
 
 
 # ######################################################################
-# # INTERNET EXPLORER                                                  #
-# ######################################################################
-
-# ----------------------------------------------------------------------
-# | Document modes                                                     |
-# ----------------------------------------------------------------------
-
-# Force Internet Explorer 8/9/10 to render pages in the highest mode
-# available in the various cases when it may not.
-#
-# https://hsivonen.fi/doctype/#ie8
-#
-# (!) Starting with Internet Explorer 11, document modes are deprecated.
-# If your business still relies on older web apps and services that were
-# designed for older versions of Internet Explorer, you might want to
-# consider enabling `Enterprise Mode` throughout your company.
-#
-# https://msdn.microsoft.com/en-us/library/ie/bg182625.aspx#docmode
-# http://blogs.msdn.com/b/ie/archive/2014/04/02/stay-up-to-date-with-enterprise-mode-for-internet-explorer-11.aspx
-
-<IfModule mod_headers.c>
-
-    Header set X-UA-Compatible "IE=edge"
-
-    # `mod_headers` cannot match based on the content-type, however,
-    # the `X-UA-Compatible` response header should be sent only for
-    # HTML documents and not for the other resources.
-
-    <FilesMatch "\.(appcache|atom|bbaw|bmp|crx|css|cur|eot|f4[abpv]|flv|geojson|gif|htc|ico|jpe?g|js|json(ld)?|m4[av]|manifest|map|mp4|oex|og[agv]|opus|otf|pdf|png|rdf|rss|safariextz|svgz?|swf|topojson|tt[cf]|txt|vcard|vcf|vtt|webapp|web[mp]|webmanifest|woff2?|xloc|xml|xpi)$">
-        Header unset X-UA-Compatible
-    </FilesMatch>
-
-</IfModule>
-
-
-# ######################################################################
 # # MEDIA TYPES AND CHARACTER ENCODINGS                                #
 # ######################################################################
 
@@ -133,9 +62,7 @@ Options +MultiViews
 
     AddType application/atom+xml                        atom
     AddType application/json                            json map topojson
-    AddType application/ld+json                         jsonld
     AddType application/rss+xml                         rss
-    AddType application/vnd.geo+json                    geojson
     AddType application/xml                             rdf xml
 
 
@@ -156,15 +83,9 @@ Options +MultiViews
 
   # Media files
 
-    AddType audio/mp4                                   f4a f4b m4a
-    AddType audio/ogg                                   oga ogg opus
-    AddType image/bmp                                   bmp
     AddType image/svg+xml                               svg svgz
     AddType image/webp                                  webp
-    AddType video/mp4                                   f4v f4p m4v mp4
-    AddType video/ogg                                   ogv
     AddType video/webm                                  webm
-    AddType video/x-flv                                 flv
 
     # Serving `.ico` image files with a different media type
     # prevents Internet Explorer from displaying them as images:
@@ -414,30 +335,6 @@ AddDefaultCharset utf-8
 
 <IfModule mod_headers.c>
     Header set X-Content-Type-Options "nosniff"
-</IfModule>
-
-# ----------------------------------------------------------------------
-# | Server-side technology information                                 |
-# ----------------------------------------------------------------------
-
-# Remove the `X-Powered-By` response header that:
-#
-#  * is set by some frameworks and server-side languages
-#    (e.g.: ASP.NET, PHP), and its value contains information
-#    about them (e.g.: their name, version number)
-#
-#  * doesn't provide any value to users, contributes to header
-#    bloat, and in some cases, the information it provides can
-#    expose vulnerabilities
-#
-# (!) If you can, you should disable the `X-Powered-By` header from the
-# language / framework level (e.g.: for PHP, you can do that by setting
-# `expose_php = off` in `php.ini`)
-#
-# https://php.net/manual/en/ini.core.php#ini.expose-php
-
-<IfModule mod_headers.c>
-    Header unset X-Powered-By
 </IfModule>
 
 # ----------------------------------------------------------------------
