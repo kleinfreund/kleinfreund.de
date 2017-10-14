@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>{{ .Title }}</title>
+
+  {{ if .Description }}
+    <meta name="description" content="{{ .Description }}">
+  {{ end }}
+  <meta name="theme-color" content="hsl(227, 100%, 25%)">
+
+  {{ if eq (getenv "HUGO_ENV") "production" }}
+    <style>
+      {{ readFile "/static/dist/css/kleinfreund.css" | safeCSS }}
+
+      {{ range $file := .Params.css }}
+        {{ $filePath := delimit (slice "/static/dist/css/isolated/" $file) "" }}
+        {{ readFile $filePath | safeCSS }}
+      {{ end }}
+    </style>
+  {{ else }}
+    <link rel="stylesheet" href="{{ $.Site.BaseURL }}src/css/kleinfreund.css">
+
+    {{ range .Params.css }}
+      <link rel="stylesheet" href="{{ $.Site.BaseURL }}src/css/isolated/{{ . }}">
+    {{ end }}
+
+    {{ range .Params.js }}
+      <script src="{{ $.Site.BaseURL }}src/js/{{ . }}"></script>
+    {{ end }}
+  {{ end }}
+
+  <link rel="icon" href="{{ .Site.BaseURL }}/img/icon.png">
+
+  <script>
+    console.log(
+      `${[...[...(2**2**2**2**2**2).toString()].slice(4,6), ...[...[]+{}].slice(4,6).reverse()].join('')}, i hope you’re doing well, beautiful. :)`
+    )
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+
+    <nav>
+      {{ range .Site.Menus.main }}
+        <a href="{{ .URL }}">{{ .Name }}</a>
+      {{ end }}
+    </nav>
+  </header>
+
+  <main class="page-content">

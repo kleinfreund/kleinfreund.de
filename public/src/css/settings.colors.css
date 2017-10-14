@@ -1,0 +1,11 @@
+:root {
+  --c-text: #fff;
+
+  --c-theme: hsl(227, 100%, 25%);
+  --c-theme-dark: hsl(227, 100%, 15%);
+
+  --c-interactive: hsl(325, 100%, 38%);
+  --c-interactive-dark: hsl(325, 100%, 28%);
+
+  --c-focus: hsl(54, 100%, 55%);
+}

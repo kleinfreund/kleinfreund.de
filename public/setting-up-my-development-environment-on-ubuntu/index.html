@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Setting up my Development Environment on Ubuntu</title>
+
+  
+  <meta name="theme-color" content="hsl(227, 100%, 25%)">
+
+  
+    <style>
+      :root{--c-text:#fff;--c-theme:hsl(227, 100%, 25%);--c-theme-dark:hsl(227, 100%, 15%);--c-interactive:hsl(325, 100%, 38%);--c-interactive-dark:hsl(325, 100%, 28%);--c-focus:hsl(54, 100%, 55%)}:root{--f-size:18px;--f-line-height:1.5}@media screen and (min-width:300px){:root{--f-size:calc(18px + (24 - 18) * ((100vw - 300px) / (1000 - 300)))}}@media screen and (min-width:1000px){:root{--f-size:24px}}:root{--spacing:16px}@media only screen and (min-width:534px){:root{--spacing:3vw}}@media only screen and (min-width:2000px){:root{--spacing:60px}}*,::after,::before{box-sizing:border-box}blockquote,body,dd,dl,figure,h1,h2,h3,h4,h5,h6,ol,p,pre,ul{margin:0;padding:0}details,main,summary{display:block}table{border-collapse:collapse;border-spacing:0}table,tbody,td,tfoot,th,thead,tr{margin:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}hr{border:0}body{overflow-y:scroll;font-size:var(--f-size);line-height:var(--f-line-height);font-family:Cambria,Cochin,Georgia,Times,'Times New Roman',serif;color:var(--c-text);background-color:var(--c-theme)}blockquote,dl,figure,h1,h2,h3,h4,h5,h6,ol,p,pre,table,ul{margin-bottom:calc(var(--f-size) * var(--f-line-height))}li>pre{margin-top:calc(var(--f-size) * var(--f-line-height))}h1{font-size:2em}h2{font-size:1.7em}h3{font-size:1.5em}h4{font-size:1.3em}h5{font-size:1.15em}h6{font-size:1em}@media screen and (min-width:600px){h1{font-size:3em}h2{font-size:2.4em}h3{font-size:1.75em}h4{font-size:1.4em}h5{font-size:1.2em}h6{font-size:1em}}b,strong{font-weight:700}abbr[title]{text-decoration:none;border-bottom:.1em dotted}mark{color:inherit;background-color:hsla(325,100%,38%,.85)}img{max-width:100%;border:0;font-style:italic}img,svg{vertical-align:middle}figure>img{display:block}figure>:first-child{margin-bottom:0}figcaption{font-size:.8em}td,th{border:1px solid;padding:.2em .4em}th{font-weight:700}hr{color:inherit;border-bottom:.2em solid;margin-top:3rem;margin-bottom:3rem}dl,ol,ul{padding-left:1.5em}li ol,li p,li ul{margin-bottom:0}::-moz-selection{background-color:var(--c-interactive)}::selection{background-color:var(--c-interactive)}:focus{outline:2px solid var(--c-focus)}a{text-decoration:none;color:inherit;border-bottom:.15em solid var(--c-interactive);padding-bottom:.1em}a:active,a:hover{outline:0;background-color:var(--c-interactive);transition:background-color .2s ease-out}p a{padding-right:.15em;padding-left:.15em;margin-right:-.15em;margin-left:-.15em}:lang(de) blockquote,:lang(de) q{quotes:'„' '“' '‚' '‘'}blockquote{position:relative;padding:1.5em}blockquote::before{position:absolute;left:0;font-size:3.5em;line-height:1}:lang(en) blockquote::before{content:'“';top:.125em}:lang(de) blockquote::before{content:'„';bottom:.75em}blockquote>p:last-of-type{margin-bottom:0}blockquote cite::before{content:'\2014'}code,kbd,pre,samp,var{font-family:'Fira Code','Fira Mono',SFMono-Regular,Consolas,'Liberation Mono',Menlo,Courier,monospace}pre{padding:1vw 1.5vw;overflow-x:scroll;background-color:var(--c-theme-dark);border-radius:1vw}@media only screen and (min-width:1000px){pre.expandable{width:100%;transition:width 50ms ease-in}pre.expandable:hover{width:94vw;transition-timing-function:ease-out}}kbd{padding:.1em .3em;border:.1em solid;border-radius:.2em;text-transform:capitalize;white-space:nowrap}@media only screen and (min-width:1000px){.wrapper{max-width:1000px;margin-right:auto;margin-left:auto}}.site-header{padding:var(--spacing)}.page-content{padding:var(--spacing)}@media screen and (min-width:1000px){.page-content{max-width:1000px}}.post__header{display:flex;flex-direction:column-reverse}.post__content h1,.post__content h2,.post__content h3,.post__content h4,.post__content h5,.post__content h6{margin-top:calc(2 * var(--f-size) * var(--f-line-height))}.post:not(:last-child){margin-bottom:calc(4 * var(--spacing))}@media only screen and (max-width:600px){.month--suffix,.year--prefix{display:none}.year--suffix::before{content:'’'}.month--prefix::after{content:'.'}}.site-footer{position:relative;overflow:hidden;z-index:2;color:var(--c-theme);background-color:#fff;padding:var(--spacing);margin-top:calc(3 * var(--spacing))}.site-footer>:last-child{margin-bottom:0}.site-footer a:active,.site-footer a:hover{color:var(--c-text);transition-property:all}@media screen and (min-width:1000px){.site-footer{margin:var(--spacing);background-color:transparent}.site-footer::before{content:'';position:absolute;z-index:-1;top:0;right:0;bottom:0;left:0;background-color:#fff;transform:skew(-4deg) rotate(4deg)}}
+
+      
+    </style>
+  
+
+  <link rel="icon" href="https://kleinfreund.de//img/icon.png">
+
+  <script>
+    console.log(
+      `${[...[...(2**2**2**2**2**2).toString()].slice(4,6), ...[...[]+{}].slice(4,6).reverse()].join('')}, i hope you’re doing well, beautiful. :)`
+    )
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <h1><a href="https://kleinfreund.de/">kleinfreund.de</a></h1>
+
+    <nav>
+      
+        <a href="/about/">About</a>
+      
+        <a href="/style-guide/">Style Guide</a>
+      
+    </nav>
+  </header>
+
+  <main class="page-content">
+
+
+<article class="post">
+
+  <header class="post__header">
+    <h2>
+  
+    <a href="/setting-up-my-development-environment-on-ubuntu">Setting up my Development Environment on Ubuntu</a>
+  
+</h2>
+
+
+    <footer class="meta-data">
+  <time datetime='2017-10-14'>
+    <span class="month--prefix">Oct</span><span class="month--suffix">ober</span>
+    14,
+    <span class="year--prefix">20</span><span class="year--suffix">17</span>
+  </time>
+</footer>
+
+  </header>
+
+
+  <div class="post__content">
+    
+
+<p>I like setting up a new operating system. For the most part. All is still fresh. But some things need to be <em>exactly</em> like they were before. For a while now I’ve been keeping a backup of my configuration files in a <a href="https://github.com/kleinfreund/dotfiles">dotfiles repository</a>. This helps me getting up and running fairly quickly. However, that’s only half the trick.</p>
+
+<p>Setting up Ubuntu is tedious. It doesn’t do a good job of getting out of your way. Rather, it gets in your way. Changing some interface behavior or installing software is rarely obvious. What I found myself doing more than anything was hitting up a search engine.</p>
+
+<p><em>“How to install <var>$SOFTWARE</var> on Ubuntu?</em></p>
+
+<p><em>“How to stop Ubuntu from doing <var>$THING</var>?”</em></p>
+
+<p>To help my future self, I created a text document in my home directory. In there, I wrote down what I did to answer these questions for myself. Following now is a loose collection of things I need to do when setting up a fresh Ubuntu installation.</p>
+
+<ul>
+<li>Software
+
+<ul>
+<li>Google Chrome</li>
+<li>Git</li>
+<li>Visual Studio Code</li>
+<li>Sublime Text</li>
+<li>Gnome Tweak Tool</li>
+</ul></li>
+<li>General settings
+
+<ul>
+<li>Global file associations for text files</li>
+<li>Disable touchpad when mouse is connected</li>
+<li>Disable account locking when closing the laptops’ lid</li>
+<li>Disable tab/application switching on scroll <strong>(not possible)</strong></li>
+<li>Disable screenshot sound</li>
+<li>Disable dots covering the wallpaper in the login screen</li>
+<li>Disable mouse wheel click minimizing windows</li>
+<li>Disable global <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Up Arrow</kbd>/<kbd>Down Arrow</kbd> keybindings</li>
+<li>Show the date in the menu bar</li>
+</ul></li>
+</ul>
+
+<h3 id="software">Software</h3>
+
+<h4 id="google-chrome">Google Chrome</h4>
+
+<pre><code>wget -qO - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+echo 'deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main' | sudo tee /etc/apt/sources.list.d/google-chrome.list
+sudo apt update
+sudo apt install google-chrome-stable
+</code></pre>
+
+<p>(Source: <a href="https://askubuntu.com/a/510186">Ask Ubuntu: How to install Google Chrome</a>)</p>
+
+<h4 id="git">Git</h4>
+
+<pre><code>sudo add-apt-repository ppa:git-core/ppa
+sudo apt-get update
+sudo apt-get install git
+</code></pre>
+
+<p>(Source: <a href="https://askubuntu.com/a/568596/337853">Ask Ubuntu: How do I install the latest version of Git with apt?</a>)</p>
+
+<h4 id="visual-studio-code">Visual Studio Code</h4>
+
+<p>Open <a href="https://code.visualstudio.com/Download">code.visualstudio.com/Download</a> and download the <code>.deb</code> file. Install it with <code>dpkg</code> as shown below. You have to adjust the file name.</p>
+
+<pre><code>sudo dpkg --install code_1.16.1-1505406497_amd64.deb
+</code></pre>
+
+<h4 id="sublime-text">Sublime Text</h4>
+
+<p>Follow <a href="https://www.sublimetext.com/docs/3/linux_repositories.html">the instructions on the Sublime Text website</a>.</p>
+
+<p>In order to use a dev build but also get a potentially newer stable release, I added both channels like below.</p>
+
+<pre><code>wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+echo &quot;deb https://download.sublimetext.com/ apt/stable/&quot; | sudo tee /etc/apt/sources.list.d/sublime-text.list
+echo &quot;deb https://download.sublimetext.com/ apt/dev/&quot; | sudo tee /etc/apt/sources.list.d/sublime-text.list
+sudo apt update
+sudo apt install sublime-text
+</code></pre>
+
+<h4 id="gnome-tweak-tool">Gnome Tweak Tool</h4>
+
+<pre><code>sudo apt update
+sudo apt install gnome-tweak-tool
+</code></pre>
+
+<h3 id="general-settings">General Settings</h3>
+
+<h4 id="global-file-associations-for-text-files">Global file associations for text files</h4>
+
+<p>Ubuntu uses gedit as its default text editor. To associate files that are opened in gedit with another program, one needs to adjust the file <code>/usr/share/applications/defaults.list</code>. Replace all occurences of <code>gedit.desktop</code> with the file name that is being associated with your preferred application. The new file name needs to refer to a file that exists in the same directory, e.g.:</p>
+
+<ul>
+<li><code>sublime_text.desktop</code></li>
+<li><code>code.desktop</code></li>
+<li><code>vim.desktop</code></li>
+</ul>
+
+<p>The following command replaces all occurences of <code>gedit.desktop</code> with <code>code.desktop</code>, thus making Visual Studio Code the default text editor in most cases.</p>
+
+<pre><code>sudo sed -i 's/gedit.desktop/code.desktop/g' /usr/share/applications/defaults.list
+</code></pre>
+
+<p>If this did not work for a a certain file, it might not be covered by the entries in <code>defaults.list</code> or it might have been overriden previously. This happens when one changes the default application used for “Open With Other Application” from within the file explorer.</p>
+
+<p>Luckily, these overrides can be controlled with a command-line interface. The following examples re-associate regular text files with Visual Studio Code.</p>
+
+<p><strong>Prints the current setting</strong>:</p>
+
+<pre><code>xdg-mime query default text/plain
+</code></pre>
+
+<p><strong>Changes the association</strong>:</p>
+
+<pre><code>xdg-mime default code.desktop text/plain
+</code></pre>
+
+<h4 id="disable-touchpad-when-mouse-is-connected">Disable touchpad when mouse is connected</h4>
+
+<p>It puzzles me that this is not a setting available in System Settings. The following unfortunately is not very reliable. It also doesn’t communicate the touchpad state to System Settings.</p>
+
+<pre><code>gsettings set org.gnome.desktop.peripherals.touchpad send-events disabled-on-external-mouse
+</code></pre>
+
+<p>Right now, this doesn’t work for.</p>
+
+<h4 id="disable-account-locking-when-closing-the-laptops-lid">Disable account locking when closing the laptops’ lid</h4>
+
+<p>Again, why is this not easily configurable?</p>
+
+<pre><code>sudo sed -i 's/IgnoreLid=false/IgnoreLid=true/g' /etc/UPower/UPower.conf
+service upower restart
+</code></pre>
+
+<h4 id="disable-tab-application-switching-on-scroll-not-possible">Disable tab/application switching on scroll <strong>(not possible)</strong></h4>
+
+<p>This one is not even configurable at all. This feature is very annoying to me, as use my mouse wheel to open links in a new tab very often. That also makes me switch tabs in Chrome by accident all the time when a slight turn of the wheel occures.</p>
+
+<p>It’s not a good idea to use the mouse wheel turn for any kind of distinct interaction like switching a tab or navigating the browser history, as the metaphor is wrong. A wheel affords turning, adjusting values on a scale. In particular it’s well matched for smooth adjustments to a value (e.g. scrolling, zooming, controlling volume levels).</p>
+
+<h4 id="disable-screenshot-sound">Disable screenshot sound</h4>
+
+<pre><code>sudo mv /usr/share/sounds/freedesktop/stereo/screen-capture.oga /usr/share/sounds/freedesktop/stereo/screen-capture-disabled.oga
+</code></pre>
+
+<h4 id="disable-dots-covering-the-wallpaper-in-the-login-screen">Disable dots covering the wallpaper in the login screen</h4>
+
+<p>If you think your wallpaper should have dots like these on it, edit the graphic, but don’t put them on top of my <a href="http://blog.camposanto.com/post/138965082204/firewatch-launch-wallpaper-when-we-redid-the">beautiful Firewatch wallpaper</a>. Certainly nothing a system should do on my behalf.</p>
+
+<pre><code>sudo xhost +SI:localuser:lightdm
+sudo su lightdm -s /bin/bash
+gsettings set com.canonical.unity-greeter draw-grid false
+exit
+</code></pre>
+
+<h4 id="disable-mouse-wheel-click-minimizing-windows">Disable mouse wheel click minimizing windows</h4>
+
+<pre><code>gsettings set org.gnome.desktop.wm.preferences action-middle-click-titlebar 'none'
+</code></pre>
+
+<h4 id="disable-global-kbd-ctrl-kbd-kbd-alt-kbd-kbd-up-arrow-kbd-wbr-kbd-down-arrow-kbd-keybindings">Disable global <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Up Arrow</kbd>/<wbr><kbd>Down Arrow</kbd> keybindings</h4>
+
+<p>Sublime Text trained my muscle memory, so <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Up Arrow</kbd>/<wbr><kbd>Down Arrow</kbd> are already reserved by me. Ubuntu, you shall obey.</p>
+
+<pre><code>gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-up &quot;['']&quot;
+gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-down &quot;['']&quot;
+</code></pre>
+
+<h4 id="show-the-date-in-the-menu-bar">Show the date in the menu bar</h4>
+
+<pre><code>gsettings set com.canonical.indicator.datetime show-date true
+</code></pre>
+
+  </div>
+
+</article>
+
+  </main>
+
+  <div class="wrapper">
+    <footer class="site-footer">
+      <p>Moonbase of <a href="https://twitter.com/kleinfreund">Philipp Rudloff</a>. Hosted on <a href="https://uberspace.de/">Uberspace</a>. Built with <a href="https://gohugo.io">Hugo</a>.</p>
+
+      <p>All content is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a> unless otherwise stated.</p>
+
+      <p>Write love/hate mail to <a href="mailto:phrudloff@gmail.com">phrudloff@gmail.com</a>.</p>
+    </footer>
+  </div>
+
+</body>
+</html>
+

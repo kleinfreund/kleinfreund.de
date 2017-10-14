@@ -1,0 +1,9 @@
+.page-content {
+  padding: var(--spacing);
+}
+
+@media screen and (min-width: 1000px) {
+  .page-content {
+    max-width: 1000px;
+  }
+}

@@ -1,0 +1,7 @@
+<h2>
+  {{ if .Params.link }}
+    <a href="{{ .Params.link }}">{{ .Title }}</a>
+  {{ else }}
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  {{ end }}
+</h2>

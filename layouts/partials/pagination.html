@@ -1,0 +1,24 @@
+{{ $paginationClass := "pagination" }}
+{{ $paginationItemClass := "pagination__item" }}
+
+{{ if gt .Paginator.TotalPages 1 }}
+<nav class="{{ $paginationClass }}">
+
+  <span class="{{ $paginationItemClass }}">
+  {{ if .Paginator.HasPrev }}
+    <a href="{{ .Paginator.Prev.URL }}">Newer Articles</a>
+  {{ else }}
+    Newer Articles
+  {{ end }}
+  </span>
+
+  <span class="{{ $paginationItemClass }}">
+  {{ if .Paginator.HasNext }}
+    <a href="{{ .Paginator.Next.URL }}">Older Articles</a>
+  {{ else }}
+    Older Articles
+  {{ end }}
+  </span>
+
+</nav>
+{{ end }}

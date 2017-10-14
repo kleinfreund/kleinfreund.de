@@ -1,0 +1,7 @@
+@media only screen and (min-width: 1000px) {
+  .wrapper {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

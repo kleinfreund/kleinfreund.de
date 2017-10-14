@@ -1,0 +1,38 @@
+.site-footer {
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+  color: var(--c-theme);
+  background-color: #fff;
+  padding: var(--spacing);
+  margin-top: calc(3 * var(--spacing));
+}
+
+.site-footer > :last-child {
+  margin-bottom: 0;
+}
+
+.site-footer a:hover,
+.site-footer a:active {
+  color: var(--c-text);
+  transition-property: all;
+}
+
+@media screen and (min-width: 1000px) {
+  .site-footer {
+    margin: var(--spacing);
+    background-color: transparent;
+  }
+
+  .site-footer::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transform: skew(-4deg) rotate(4deg);
+  }
+}
