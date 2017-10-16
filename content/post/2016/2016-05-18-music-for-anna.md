@@ -54,7 +54,7 @@ One of my most favorite artists. He released many good albums over the years (An
 
 Now for a something else. This is a soundtrack for an anime which I really like. Give it a listen. Some laid-back instrumental rap.
 
-### The WAYO – [Wanderings](https://thewayo.bandcamp.com/album/wanderings-ep)/[Wanderflips](https://thewayo.bandcamp.com/album/wanderflips-ep) EP
+### The WAYO – [Wanderings](https://thewayo.bandcamp.com/album/wanderings-ep)/<wbr>[Wanderflips](https://thewayo.bandcamp.com/album/wanderflips-ep) EP
 
 Two EP’s from The WAYO while the latter being a remix version of the first one. Good stuff.
 
