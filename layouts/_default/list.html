@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 
 <div class="post-list">
-  {{ range .Paginator.Pages }}
+  {{ range (.Paginate (where .Data.Pages "Type" "post")).Pages }}
   <article class="post">
 
     <header class="post__header">
