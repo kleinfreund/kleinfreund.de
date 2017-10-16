@@ -33,6 +33,12 @@
     bottom: 0;
     left: 0;
     background-color: #fff;
-    transform: skew(-4deg) rotate(4deg);
+    transform: translateY(1vw) skew(-4deg) rotate(4deg);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .site-footer::before {
+    transform: translateY(1vw) skew(-3deg) rotate(3deg);
   }
 }

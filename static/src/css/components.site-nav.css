@@ -1,0 +1,11 @@
+.site-nav {
+  display: flex;
+}
+
+.site-nav__item:not(:last-child) {
+  margin-right: var(--spacing);
+}
+
+.site-nav__item a {
+  padding: 0 calc(var(--spacing) / 2);
+}

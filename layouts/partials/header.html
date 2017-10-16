@@ -41,14 +41,21 @@
   </script>
 </head>
 <body>
-  <header class="site-header">
-    <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+  <div class="wrapper wrapper--wide">
+    <header class="site-header">
+      <h1 class="site-title">
+        <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+      </h1>
 
-    <nav>
-      {{ range .Site.Menus.main }}
-        <a href="{{ .URL }}">{{ .Name }}</a>
-      {{ end }}
-    </nav>
-  </header>
+      <nav class="site-nav">
+        {{ range .Site.Menus.main }}
+          <span class="site-nav__item">
+            <a href="{{ .URL }}">{{ .Name }}</a>
+          </span>
+        {{ end }}
+      </nav>
+    </header>
+  </div>
 
-  <main class="page-content">
+  <div class="wrapper wrapper--wide">
+    <main class="page-content">
