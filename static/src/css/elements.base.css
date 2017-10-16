@@ -187,5 +187,6 @@ li ol {
 }
 
 ::selection {
-  background-color: var(--c-interactive);
+  /* Due to MS Edge 15 pseudo element bug, can’t use custom property here */
+  background-color: hsl(325, 100%, 38%);
 }
