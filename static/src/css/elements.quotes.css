@@ -33,6 +33,16 @@ blockquote > p:last-of-type {
   margin-bottom: 0;
 }
 
-blockquote cite::before {
+blockquote > cite::before {
   content: '\2014';
+}
+
+@media only screen and (min-width: 1000px) {
+  blockquote {
+    font-size: 2em;
+  }
+
+  blockquote > cite {
+    font-size: 0.7em;
+  }
 }

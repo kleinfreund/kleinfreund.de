@@ -13,21 +13,9 @@ var {
 
 pre {
   padding: 1vw 1.5vw;
-  overflow-x: scroll;
+  overflow-x: auto;
   background-color: var(--c-theme-dark);
   border-radius: 1vw;
-}
-
-@media only screen and (min-width: 1000px) {
-  pre.expandable {
-    width: 100%;
-    transition: width 0.05s ease-in;
-  }
-
-  pre.expandable:hover {
-    width: 94vw;
-    transition-timing-function: ease-out;
-  }
 }
 
 kbd {

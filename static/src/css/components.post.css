@@ -1,17 +1,47 @@
-.post__header {
-  display: flex;
-  flex-direction: column-reverse;
+.post:not(:last-child) {
+  margin-bottom: calc(4 * var(--spacing));
 }
 
-.post__content h1,
-.post__content h2,
-.post__content h3,
-.post__content h4,
-.post__content h5,
-.post__content h6 {
+/*
+Don’t target h1 since it should not appear inside an article.
+Don’t target h2 as it is always the top-level title heading which
+only appears once and at the top of an article.
+
+In the future, use the :matches() pseudo class
+*/
+.post h3,
+.post h4,
+.post h5,
+.post h6 {
   margin-top: calc(2 * var(--f-size) * var(--f-line-height));
 }
 
-.post:not(:last-child) {
-  margin-bottom: calc(4 * var(--spacing));
+@media only screen and (min-width: 1000px) {
+  .post {
+    --main-width: 1000px;
+    --extra-width: 200px;
+
+    display: grid;
+    grid-template-columns: [full-start] minmax(auto, var(--extra-width)) [main-start]
+      var(--main-width) [main-end] minmax(auto, var(--extra-width)) [full-end];
+    max-width: calc(var(--main-width) + 2 * var(--extra-width));
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .post > * {
+    grid-column: main-start / main-end;
+  }
+
+  .post > pre,
+  .post > blockquote,
+  .post > figure,
+  .post > .embedded-media {
+    grid-column: full-start / full-end;
+  }
+}
+
+.post__header {
+  display: flex;
+  flex-direction: column-reverse;
 }

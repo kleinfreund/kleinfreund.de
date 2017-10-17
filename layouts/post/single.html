@@ -2,16 +2,13 @@
 
 <article class="post">
 
-  <header class="post__header">
-    {{ partial "post__title.html" . }}
-
+  <footer class="meta-data">
     {{ partial "post__meta.html" . }}
-  </header>
+  </footer>
 
+  {{ partial "post__title.html" . }}
 
-  <div class="post__content">
-    {{ .Content }}
-  </div>
+  {{ .Content }}
 
 </article>
 
