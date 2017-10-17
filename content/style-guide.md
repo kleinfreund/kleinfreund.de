@@ -3,8 +3,6 @@ title: Style Guide
 description: Showing off the appearance of paragraphs, links, figures, code blocks etc. in a small style guide.
 date: 2017-10-14T12:23:00Z
 menu: main
-js:
-- expandable-code-blocks.js
 ---
 I’ve redesigned my site for the umpteenth time now. One big phase has always been the work on the basic visual appearance.
 Up until now, I scavanged my archive for posts that have the elements that needed to be styled: code blocks, quotes, etc. This was a tedious process. Now, I use this document containing all basic forms of content my site uses. My personal style guide.
@@ -118,9 +116,7 @@ It’s a bad solution as it breaks tapping and holding a link on mobile platform
 
 <blockquote>
   <p>Whenever accessibility is really hard, it’s usually just an over-complex component and should be dumped anyway.</p>
-  <footer>
-    <cite><a href="https://twitter.com/heydonworks/status/914879392391852033">Heydon Pickering</a></cite>
-  </footer>
+  <cite><a href="https://twitter.com/heydonworks/status/914879392391852033">Heydon Pickering</a></cite>
 </blockquote>
 
 As my grandma used to say <q>Remember, there is a <q>proper HTML</q> element for when one wants to quote inline</q>.
@@ -155,25 +151,27 @@ Note that I only add the `expandable` class for blocks that have overflowing con
 
 ### Headings
 
-<h1>Heading Level 1</h1>
+<h1 style="margin-top: 0;">Heading Level 1</h1>
 
-<h2>Heading Level 2</h2>
+<h2 style="margin-top: 0;">Heading Level 2</h2>
 
-<h3>Heading Level 3</h3>
+<h3 style="margin-top: 0;">Heading Level 3</h3>
 
-<h4>Heading Level 4</h4>
+<h4 style="margin-top: 0;">Heading Level 4</h4>
 
-<h5>Heading Level 5</h5>
+<h5 style="margin-top: 0;">Heading Level 5</h5>
 
-<h6>Heading Level 6</h6>
+<h6 style="margin-top: 0;">Heading Level 6</h6>
 
 
 
 ### Images
 
 <figure>
-  <img src="/img/posts/silvester-2.jpg" alt="Snowy landscape with a dark grey sky collapsing at the horizon.">
-  <figcaption>New years day walk through thick snow. One of my all-time favorite photographies I took so far.</figcaption>
+  <img src="https://c1.staticflickr.com/9/8675/30106830192_086f433ab8_k.jpg" alt="Rain drops on a spiders’ web">
+  <figcaption>
+    <a href="https://www.flickr.com/photos/kleinfreund/29739015432">via Flickr</a>, shot with a Helios 44-2 1:2.0/58mm manual lens.
+  </figcaption>
 </figure>
 
 A figures’ caption should have a slightly smaller text size than regular text.

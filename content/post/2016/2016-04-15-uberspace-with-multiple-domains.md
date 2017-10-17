@@ -3,8 +3,6 @@ title: Uberspace With Multiple Domains
 date: 2016-04-15T20:16:45Z
 tags:
 - dev
-js:
-- expandable-code-blocks.js
 ---
 A couple of months back I got myself a new hoster, [Uberspace](https://uberspace.de/). I moved my sites to HTTPS, got rid of that subdomain (hey.kleinfreund.de) and setup a mail address. Here I explain the first part: Setting up multiple domains with Uberspace.
 

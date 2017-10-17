@@ -4,7 +4,6 @@ date: 2015-05-11T13:12:45Z
 tags:
 - dev
 js:
-- expandable-code-blocks.js
 ---
 A few months ago, the harddrive of my previous laptop died on me, but I could work on a Ubuntu partition I prepared for cases like this. Luckily, I kept a backup of all the important configuration files from things like Sublime Text in a [Git repository](https://github.com/kleinfreund/dotfiles). At this point I wanted to improve the process of manually copying the files from the various locations to the repo directory. I wrote a little shell script for that purpose.
 

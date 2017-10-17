@@ -3,8 +3,6 @@ title: Setting up my Development Environment on Ubuntu
 date: 2017-10-14T12:30:00Z
 tags:
 - dev
-js:
-- expandable-code-blocks.js
 ---
 I like setting up a new operating system. For the most part. All is still fresh. But some things need to be *exactly* like they were before. For a while now I’ve been keeping a backup of my configuration files in a [dotfiles repository](https://github.com/kleinfreund/dotfiles). This helps me getting up and running fairly quickly. However, that’s only half the trick.
 

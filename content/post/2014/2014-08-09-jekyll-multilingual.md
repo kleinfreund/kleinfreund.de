@@ -4,8 +4,6 @@ date: 2014-08-09T06:50:37Z
 tags:
 - dev
 - jekyll
-js:
-- expandable-code-blocks.js
 ---
 
 One of the big ups of Jekyll is the luxutry of being able to work with GitHub Pages. Building a multilingual site is a bit harder, though. Using plugins is except for [a view exceptions](https://help.github.com/articles/using-jekyll-plugins-with-github-pages) not possible.

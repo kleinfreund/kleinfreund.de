@@ -4,8 +4,6 @@ date: 2015-02-24T13:00:04Z
 tags:
 - dev
 - jekyll
-js:
-- expandable-code-blocks.js
 ---
 It’s time again. Not only is spring at the door but also a new year for the blog. The first entry was posted on 1st February 2014. Today is not the 1st February? You are completely right about that. Don’t worry about that. In the last couple of days I’ve been tightening and loosening some screws.
 
