@@ -15,11 +15,17 @@
     <style>
       {{ readFile "/static/dist/css/kleinfreund.css" | safeCSS }}
 
-      {{ range $file := .Params.css }}
-        {{ $filePath := delimit (slice "/static/dist/css/isolated/" $file) "" }}
-        {{ readFile $filePath | safeCSS }}
+      {{ range $cssFile := .Params.css }}
+        {{ $cssFilePath := delimit (slice "/static/dist/css/isolated/" $cssFile) "" }}
+        {{ readFile $cssFilePath | safeCSS }}
       {{ end }}
     </style>
+    <script>
+      {{ range $jsFile := .Params.js }}
+        {{ $jsFilePath := delimit (slice "/static/src/js/" $jsFile) "" }}
+        {{ readFile $jsFilePath | safeJS }}
+      {{ end }}
+    </script>
   {{ else }}
     <link rel="stylesheet" href="{{ $.Site.BaseURL }}src/css/kleinfreund.css">
 
