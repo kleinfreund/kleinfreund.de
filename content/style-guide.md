@@ -103,12 +103,12 @@ It’s a bad solution as it breaks tapping and holding a link on mobile platform
 3. Third list item
   1. More creativity
   2. Even more creativity
-4. Forth list item with a code block
+<!-- 4. Forth list item with a code block
 
     ```python
     # Start a basic HTTP server and serve the static content from the current working directory
     python3 -m http.server 8000
-    ```
+    ``` -->
 
 
 
