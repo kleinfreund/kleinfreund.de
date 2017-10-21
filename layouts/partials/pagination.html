@@ -4,21 +4,17 @@
 {{ if gt .Paginator.TotalPages 1 }}
 <nav class="{{ $paginationClass }}">
 
-  <span class="{{ $paginationItemClass }}">
   {{ if .Paginator.HasPrev }}
-    <a href="{{ .Paginator.Prev.URL }}">Newer Articles</a>
+    <a class="{{ $paginationItemClass }}" href="{{ .Paginator.Prev.URL }}">Newer Articles</a>
   {{ else }}
-    Newer Articles
+    <span class="{{ $paginationItemClass }}">Newer Articles</span>
   {{ end }}
-  </span>
 
-  <span class="{{ $paginationItemClass }}">
   {{ if .Paginator.HasNext }}
-    <a href="{{ .Paginator.Next.URL }}">Older Articles</a>
+    <a class="{{ $paginationItemClass }}" href="{{ .Paginator.Next.URL }}">Older Articles</a>
   {{ else }}
-    Older Articles
+    <span class="{{ $paginationItemClass }}">Older Articles</span>
   {{ end }}
-  </span>
 
 </nav>
 {{ end }}
