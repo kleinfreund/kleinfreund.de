@@ -1,8 +1,6 @@
 .site-header {
   margin-bottom: calc(3 * var(--spacing));
   padding: var(--spacing);
-  color: var(--c-theme);
-  background-color: #fff;
 }
 
 .site-header a:hover,

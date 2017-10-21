@@ -2,6 +2,14 @@
   margin-bottom: calc(4 * var(--spacing));
 }
 
+@media only screen and (min-width: 1000px) {
+  .post {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
 /*
 Don’t target h1 since it should not appear inside an article.
 Don’t target h2 as it is always the top-level title heading which
@@ -16,32 +24,52 @@ In the future, use the :matches() pseudo class
   margin-top: calc(2 * var(--f-size) * var(--f-line-height));
 }
 
-@media only screen and (min-width: 1000px) {
-  .post {
-    --main-width: 1000px;
-    --extra-width: 200px;
+@supports (display: grid) {
+  @media only screen and (min-width: 1000px) {
+    .post {
+      max-width: 1000px;
+      display: grid;
+      align-items: start;
+      grid-template-columns: [full-start main-start] 3fr [main-end side-start] 1fr [side-end
+        full-end];
+    }
 
-    display: grid;
-    grid-template-columns: [full-start] minmax(auto, var(--extra-width)) [main-start]
-      var(--main-width) [main-end] minmax(auto, var(--extra-width)) [full-end];
-    max-width: calc(var(--main-width) + 2 * var(--extra-width));
-    margin-right: auto;
-    margin-left: auto;
+    .post > * {
+      grid-column: main;
+    }
+
+    .post > figure,
+    .post > blockquote,
+    .post > .embedded-media,
+    .grow-to-full {
+      grid-column: full;
+    }
+
+    .post > h2,
+    .post > h3,
+    .post > h4,
+    .post > h5,
+    .post > h6,
+    .post > pre {
+      grid-column: main-start / full-end;
+    }
+
+    /* Make sure, the side note can take its column */
+    .post > .has-side-note {
+      grid-column-end: main-end;
+    }
+
+    /* Additional, related content (i.e. a side note or boxout) */
+    .post > .side-note {
+      grid-column: side;
+    }
   }
 
-  .post > * {
-    grid-column: main-start / main-end;
+  @media only screen and (min-width: 1400px) {
+    .post {
+      max-width: 1400px;
+      grid-template-columns: [full-start] 1fr [main-start] 3fr [main-end side-start] 1fr [side-end
+        full-end];
+    }
   }
-
-  .post > pre,
-  .post > blockquote,
-  .post > figure,
-  .post > .embedded-media {
-    grid-column: full-start / full-end;
-  }
-}
-
-.post__header {
-  display: flex;
-  flex-direction: column-reverse;
 }

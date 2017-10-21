@@ -2,8 +2,8 @@
   position: relative;
   overflow: hidden;
   z-index: 2;
-  color: var(--c-theme);
-  background-color: #fff;
+  color: #fff;
+  background-color: var(--c-theme-dark);
   padding: var(--spacing);
   margin-top: calc(3 * var(--spacing));
 }
@@ -21,7 +21,7 @@
 @media screen and (min-width: 1000px) {
   .site-footer {
     margin: var(--spacing);
-    background-color: transparent;
+    background-color: transparent !important;
   }
 
   .site-footer::before {
@@ -32,7 +32,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: #fff;
+    background-color: var(--c-theme-dark);
     transform: translateY(1vw) skew(-4deg) rotate(4deg);
   }
 }
