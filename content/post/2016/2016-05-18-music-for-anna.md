@@ -18,7 +18,7 @@ My favorite album from last year. A very special record indeed. This needs to in
   <a href="http://infine-rec.bandcamp.com/album/ya-balad-lp-cd">Ya Balad LP/CD by Bachar Mar-Khalifé</a>
 </iframe>
 
-### [Lucius – Full Performance](https://www.youtube.com/watch?v=kKH0-dV4n9k)<br>Live on KEXP
+### [Lucius – Full Performance](https://www.youtube.com/watch?v=kKH0-dV4n9k) (Live on KEXP)
 
 I’m still so impressed by their style not only musically but also visually. Their twin look is so beautiful. Also, I feel their live recordings are so much better than the studio ones.
 
@@ -34,7 +34,7 @@ I saw this guy walking around the city almost daily last week. He really did put
   <a href="http://martinkohlstedt.bandcamp.com/album/nacht">Nacht by Martin Kohlstedt</a>
 </iframe>
 
-### [Nubiyan Twist](https://wormfoodrecords.bandcamp.com/album/nubiyan-twist-wf103)<br>Self-titled debut album
+### [Nubiyan Twist – Self-titled](https://wormfoodrecords.bandcamp.com/album/nubiyan-twist-wf103)
 
 Putting my speakers in the kitchen and cooking with friends. This is the soundtrack. Apart from no cooking taking place because everyone is just shaking their booties.
 
@@ -50,9 +50,9 @@ There are a lot of very good soundtracks for movies and also games. I’m sure I
 
 One of my most favorite artists. He released many good albums over the years (Animal Magic and Black Sands are both great as well), a great [Late Night Tales mixtape](https://latenighttales.bandcamp.com/album/late-night-tales-bonobo) and an absolutely fantastic live DVD from a show they (Simon Green and band) played at Koko in London (I had a roommate who saw them their. I was so jealous.).
 
-### [Nujabes/Fat Jon – Departure](https://www.youtube.com/watch?v=c3fZ8LXNs_E)<br>Samurai Champloo Soundtrack
+### [Nujabes/Fat Jon – Departure](https://www.youtube.com/watch?v=c3fZ8LXNs_E)
 
-Now for a something else. This is a soundtrack for an anime which I really like. Give it a listen. Some laid-back instrumental rap.
+Now for a something else. This is a soundtrack for the anime Samurai Champloo which I really like. Give it a listen. Some laid-back instrumental rap.
 
 ### The WAYO – [Wanderings](https://thewayo.bandcamp.com/album/wanderings-ep)/<wbr>[Wanderflips](https://thewayo.bandcamp.com/album/wanderflips-ep) EP
 
