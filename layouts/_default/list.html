@@ -4,15 +4,9 @@
   {{ range (.Paginate (where .Data.Pages "Type" "post")).Pages }}
   <article class="post">
 
-    <header class="post__header">
-      {{ partial "post__title.html" . }}
+    {{ partial "post__header.html" . }}
 
-      {{ partial "post__meta.html" . }}
-    </header>
-
-    <div>
-      {{ .Summary }}
-    </div>
+    <p>{{ .Summary }}</p>
 
   </article>
   {{ end }}

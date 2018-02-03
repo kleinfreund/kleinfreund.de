@@ -3,3 +3,11 @@
   {{ .Date.Format "2" }},
   <span class="year--prefix">{{ substr (.Date.Format "2006") 0 2 }}</span><span class="year--suffix">{{ substr (.Date.Format "2006") 2 }}</span>
 </time>
+
+<h2 class="post__title">
+  {{ if .Params.link }}
+    <a href="{{ .Params.link }}">{{ .Title }}</a>
+  {{ else }}
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  {{ end }}
+</h2>
