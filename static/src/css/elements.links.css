@@ -22,27 +22,3 @@ a:active {
   background-color: var(--c-interactive);
   transition: background-color 0.2s ease-out;
 }
-
-/*
-1: Draw the bottom border a bit wider by adding a small padding.
-2: Remove the superfluous visual space to maintain an even word spacing.
-*/
-p a {
-  padding-right: 0.15em; /* 1 */
-  padding-left: 0.15em; /* 1 */
-  margin-right: -0.15em; /* 2 */
-  margin-left: -0.15em; /* 2 */
-}
-
-/*
-Make sure paragraph content is not occluded by hover styles.
-*/
-/* p {
-  position: relative;
-  z-index: 1;
-}
-
-p a:hover {
-  position: relative;
-  z-index: -1;
-} */

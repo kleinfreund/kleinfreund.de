@@ -35,7 +35,7 @@ One of my favorite shortcuts in [Sublime Text](https://sublimetext.com) is <kbd>
 
 
 
-#### Links
+#### Links (no longer using the following)
 
 Arguably the most important HTML element at our disposal, the [`<a>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a).
 

@@ -10,20 +10,6 @@
   }
 }
 
-/*
-Don’t target h1 since it should not appear inside an article.
-Don’t target h2 as it is always the top-level title heading which
-only appears once and at the top of an article.
-
-In the future, use the :matches() pseudo class
-*/
-.post h3,
-.post h4,
-.post h5,
-.post h6 {
-  margin-top: calc(2 * var(--f-size) * var(--f-line-height));
-}
-
 @supports (display: grid) {
   @media only screen and (min-width: 1000px) {
     .post {
