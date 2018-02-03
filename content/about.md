@@ -3,7 +3,7 @@ title: About
 description: Some basic information about the author.
 menu: main
 ---
-Hey, I’m Philipp
+Hey, I’m Philipp.
 
 ![Portrait of the author](/img/me.jpg)
 
