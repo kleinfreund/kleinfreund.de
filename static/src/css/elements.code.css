@@ -24,4 +24,5 @@ kbd {
   border-radius: 0.2em;
   text-transform: capitalize;
   white-space: nowrap;
+  font-size: 0.8em;
 }

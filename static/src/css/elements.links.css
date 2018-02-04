@@ -9,7 +9,7 @@
 a {
   text-decoration: none;
   color: inherit;
-  border-bottom: 0.15em solid var(--c-interactive);
+  border-bottom: 0.1em solid var(--c-interactive);
   padding-bottom: 0.1em;
 }
 
