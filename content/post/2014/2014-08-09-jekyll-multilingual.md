@@ -15,12 +15,12 @@ My site is bilingual—German and English—whereas German is my main language. 
 ```
 .
 ├── _posts
-|   └── 2014-08-09-jekyll-mehrsprachig.md
+│   └── 2014-08-09-jekyll-mehrsprachig.md
 ├── en
-|   ├── _posts
-|   |   └── 2014-08-09-jekyll-multilingual.md
-|   ├── profile.md
-|   └── index.html
+│   ├── _posts
+│   │   └── 2014-08-09-jekyll-multilingual.md
+│   ├── profile.md
+│   └── index.html
 ├── profil.md
 └── index.html
 ```
