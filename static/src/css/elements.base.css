@@ -166,10 +166,11 @@ th {
 */
 
 hr {
-  color: inherit;
-  border-bottom: 0.2em solid;
+  width: 100%;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  color: inherit;
+  border-bottom: 0.2em solid;
 }
 
 /*
