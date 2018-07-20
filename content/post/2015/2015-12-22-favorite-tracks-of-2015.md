@@ -119,7 +119,7 @@ Especially liking how the melody evolves over time on this track. Very nice.
 
 
 
-### 6. [Melanie Biasio – I’m Gonna Leave You (The Cinematic Orchestra Remix)](https://melaniedebiasio.bandcamp.com/album/gilles-peterson-presents-melanie-de-biasio-no-deal-remixed)
+### 6. [Melanie Biasio – I’m Gonna Leave You (The Cinematic Orchestra Remix)](https://melaniedebiasio.bandcamp.com/track/im-gonna-leave-you-the-cinematic-orchestra-remix)
 
 ![Detail from the artwork](/img/posts/tracks-2015/06.jpg)
 
@@ -143,14 +143,12 @@ Royce Wood Junior making his second appearance in this list. Again he’s being 
 
 <blockquote>
   <p>Started with nothing and still got the same. This isn’t pleasure and this isn’t pain it’s just midnight.</p>
-  <footer>
-    <cite>Midnight by Royce Wood Junior</cite>
-  </footer>
+  <cite>Midnight by Royce Wood Junior</cite>
 </blockquote>
 
 
 
-### 3. [Shlohmo – Buried](https://soundcloud.com/shlohmo/buried)
+### 3. [Shlohmo – Buried](https://www.youtube.com/watch?v=mVR10CD2Alk)
 
 ![Detail from the artwork](/img/posts/tracks-2015/03.jpg)
 
@@ -171,7 +169,7 @@ The last piece music which has made me felt so in peace with everything were the
 
 
 
-### 1. [Cumeo Project – On the Surface of the Sea](https://www.xlr8r.com/mp3/2015/03/cumeo-project-on-the-surface-of-the-sea/)
+### 1. [Cumeo Project – On the Surface of the Sea](https://www.youtube.com/watch?v=pBsViwfTeBQ)
 
 ![Detail from the artwork](/img/posts/tracks-2015/01.jpg)
 
