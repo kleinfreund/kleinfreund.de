@@ -38,7 +38,9 @@
     {{ end }}
   {{ end }}
 
-  <link rel="icon" href="{{ .Site.BaseURL }}/img/icon.png">
+  <link rel="icon" href="{{ .Site.BaseURL }}img/icon.png">
+
+  <link rel="alternate" type="application/rss+xml" href="{{ .Site.BaseURL }}index.xml" title="Feed for {{ .Title }}">
 
   <script>
     console.log(
