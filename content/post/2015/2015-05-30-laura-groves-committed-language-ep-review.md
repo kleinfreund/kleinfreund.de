@@ -13,15 +13,15 @@ In 2009, Laura Groves released her debut album _Blue Roses_ under the same name 
 
 First introduced to me by Andrew Jerwis on the [98th installment](https://bandcamp.com/?show=114) of the Bandcamp Weekly, the record reposed in my wishlist for a few months. Now it’s in the bag.
 
-<p>The opener of the EP <em>Committed Language</em>  is a slow-starting, quiet song that develops a moody groove halfway through powered by a sharp voice. That melody in the background during the refrain could go on and on. <q>Into the light, into the light, intooo …</q></p>
+The opener of the EP *Committed Language*  is a slow-starting, quiet song that develops a moody groove halfway through powered by a sharp voice. That melody in the background during the refrain could go on and on. “Into the light, into the light, intooo …”
 
 <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1858991505/size=small/bgcol=ffffff/track=146270167/transparent=true/" seamless><a href="http://lauragroves.bandcamp.com/album/committed-language-ep">Laura Groves – Committed Language (EP)</a></iframe>
 
 Dream Story features a voice just as sharp and really puts me into a little daydream. The whole structure sways and swings. Timidly quiet starting segments which turn into slightly breezier pieces with subtle crescendos. Everything is covered in a woozy atmosphere. The simple background melodies and beats make things concrete.
 
-<p>The third song <em>Friday</em> has more of a ballad-like aesthetic with a piano accentuating the whole song. Although not everyone might agree, the song sounds like a perfectly fine Friday to me. <q>In my life. In my life. Need you in my life!</q></p>
+The third song *Friday* has more of a ballad-like aesthetic with a piano accentuating the whole song. Although not everyone might agree, the song sounds like a perfectly fine Friday to me. “In my life. In my life. Need you in my life!”
 
-<p><em>Mystique</em> is the last track on this EP and sticks out as a special distinctable piece at first glance. It soon evolves into a theme quite similar to that of <em>Dream Story</em>. Again layered sustained voices make the mood. All that is accompanied by romantic percussions of the slow drums. Beautiful. <q>I think I’m ready now, bring back the mistery.</q></p>
+*Mystique* is the last track on this EP and sticks out as a special distinctable piece at first glance. It soon evolves into a theme quite similar to that of *Dream Story*. Again layered sustained voices make the mood. All that is accompanied by romantic percussions of the slow drums. Beautiful. “I think I’m ready now, bring back the mistery.”
 
 <figure>
   <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=562937539/size=small/bgcol=ffffff/track=1001647541/transparent=true/" seamless><a href="http://nautic.bandcamp.com/album/navy-blue-ep">Nautic – Navy Blue (EP)</a></iframe>

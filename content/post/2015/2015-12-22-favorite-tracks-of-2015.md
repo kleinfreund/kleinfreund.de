@@ -91,7 +91,7 @@ Hey there everyone, it’s List Week already. So without further ado, here are m
 
 ![Detail from the artwork](/img/posts/tracks-2015/10.jpg)
 
-<p>The track starts a bit <em>flat</em> but patience is very rewarding. The piano line kicking in later and the vocals are amazing.</p>
+The track starts a bit *flat* but patience is very rewarding. The piano line kicking in later and the vocals are amazing.
 
 
 
@@ -99,7 +99,7 @@ Hey there everyone, it’s List Week already. So without further ado, here are m
 
 ![Detail from the artwork](/img/posts/tracks-2015/09.jpg)
 
-<p>This is a vacation track, isn’t it? It sure sounds like one. Good for me. Haven’t left the country this year.</p>
+This is a vacation track, isn’t it? It sure sounds like one. Good for me. Haven’t left the country this year.
 
 
 

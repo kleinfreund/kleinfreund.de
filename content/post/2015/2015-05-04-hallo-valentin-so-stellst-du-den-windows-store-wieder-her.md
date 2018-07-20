@@ -52,4 +52,4 @@ Tue dies:
 
 Wenn du jetzt die Windowstaste (<kbd>Win</kbd>) drückst müsste da irgendwo die Verknüpfung zum Windows Store sein. Rechtsklick darauf und _An „Start“ anheften_ wählen. Jetzt hast du im Startmenü wieder die Windows Store-Kachel. Von da aus kannst du den anderen Krempel wieder herunterladen.
 
-<p>Siehst du, war doch ganz einfach. <q>Und Piggeldy ging mit Frederick nach Hause</q>.</p>
+Siehst du, war doch ganz einfach. “Und Piggeldy ging mit Frederick nach Hause”.
