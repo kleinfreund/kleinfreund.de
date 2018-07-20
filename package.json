@@ -13,14 +13,13 @@
     "watch:js": "onchange './static/src/js/**/*.js' -- npm run compress:js",
     "compress:all": "npm run compress:css && npm run compress:js",
     "compress:css": "node compress-css.js",
-    "compress:css:old":
-      "node ./node_modules/.bin/cleancss -o ./static/dist/css/kleinfreund.css ./static/src/css/kleinfreund.css",
+    "compress:css:old": "node ./node_modules/.bin/cleancss -o ./static/dist/css/kleinfreund.css ./static/src/css/kleinfreund.css",
     "compress:js": "echo 'compress js ...'"
   },
   "devDependencies": {
-    "clean-css": "^4.1.9",
-    "clean-css-cli": "^4.1.10",
-    "onchange": "^3.2.1",
-    "parallelshell": "^3.0.1"
+    "clean-css": "^4.1.11",
+    "clean-css-cli": "^4.1.11",
+    "onchange": "^4.1.0",
+    "parallelshell": "3.0.1"
   }
 }
