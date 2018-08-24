@@ -1,0 +1,38 @@
+/*
+* CODE / USER INPUT
+*/
+
+pre,
+code,
+kbd,
+samp,
+var {
+  font-size: 0.9em;
+  font-family: 'Fira Code', 'Fira Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo,
+    Courier, monospace;
+}
+
+code {
+  color: var(--c-code-text);
+}
+
+pre code {
+  color: var(--c-code-block-text);
+  background-color: var(--c-code-block-background);
+}
+
+pre {
+  padding: 1vw 1.5vw;
+  overflow-x: auto;
+  background-color: var(--c-code-block-background);
+  border-radius: 1vw;
+}
+
+kbd {
+  padding: 0.1em 0.3em;
+  border: 0.1em solid;
+  border-radius: 0.2em;
+  text-transform: capitalize;
+  white-space: nowrap;
+  font-size: 0.8em;
+}

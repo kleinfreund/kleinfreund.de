@@ -1,0 +1,62 @@
+.note {
+  --note-glyph: '';
+
+  position: relative;
+  font-size: 0.9em;
+}
+
+.note--info {
+  /* 💡 https://www.fileformat.info/info/unicode/char/1f4a1/index.htm */
+  --note-glyph: '\1f4a1';
+}
+
+.note--warning {
+  /* ⚠ https://www.fileformat.info/info/unicode/char/26a0/index.htm */
+  --note-glyph: '\26a0';
+}
+
+.note::before {
+  content: var(--note-glyph) '\a0';
+}
+
+@media only screen and (min-width: 1000px) {
+  .note:not(.marginalia) {
+    padding: calc(var(--spacing) / 4) calc(var(--spacing) / 2);
+    background-color: var(--c-note-background);
+  }
+
+  .note:not(.marginalia)::before {
+    content: var(--note-glyph);
+  }
+
+  .note:not(.marginalia)::before {
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    /* top: 0; */
+    /* transform: translate(50%, -50%); */
+    /* transform: translateX(50%); */
+    font-size: 1.5em;
+  }
+}
+
+/* .note:not(.marginalia) {
+  padding: calc(var(--spacing) / 4) calc(var(--spacing) / 2);
+  background-color: #d2f7ff;
+}
+
+@media only screen and (max-width: 999px) {
+  .note {
+    padding: calc(var(--spacing) / 4) calc(var(--spacing) / 2);
+    background-color: #d2f7ff;
+  }
+} */
+
+/* .note--info::before {
+  content: '\1f4a1' '\a0';
+}
+
+.note--warning::before {
+  content: '\26a0' '\a0';
+} */

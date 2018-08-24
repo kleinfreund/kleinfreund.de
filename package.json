@@ -1,25 +1,17 @@
 {
   "name": "kleinfreund.de",
   "repository": "https://github.com/kleinfreund/kleinfreund.de",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "npm run build:clean && npm run compress:all && HUGO_ENV=production hugo",
-    "build:clean": "rm -rf ./public",
-    "start": "npm run clean && npm run compress:all && HUGO_ENV=development npm run watch:all",
-    "clean": "rm -rf ./static/dist/css/** ./static/dist/js/**",
-    "watch:all": "parallelshell 'npm run watch:css' 'npm run watch:js' 'hugo server'",
-    "watch:css": "onchange './static/src/css/**/*.css' -- npm run compress:css",
-    "watch:js": "onchange './static/src/js/**/*.js' -- npm run compress:js",
-    "compress:all": "npm run compress:css && npm run compress:js",
-    "compress:css": "node compress-css.js",
-    "compress:css:old": "node ./node_modules/.bin/cleancss -o ./static/dist/css/kleinfreund.css ./static/src/css/kleinfreund.css",
-    "compress:js": "echo 'compress js ...'"
+    "start": "ELEVENTY_ENV=development eleventy --serve",
+    "build": "npm run clean && ELEVENTY_ENV=production eleventy",
+    "clean": "rm -rf ./_site"
   },
   "devDependencies": {
-    "clean-css": "^4.1.11",
-    "clean-css-cli": "^4.1.11",
-    "onchange": "^4.1.0",
-    "parallelshell": "3.0.1"
+    "clean-css": "^4.2.1",
+    "html-minifier": "^3.5.20",
+    "markdown-it": "^8.4.2",
+    "markdown-it-anchor": "^5.0.2"
   }
 }

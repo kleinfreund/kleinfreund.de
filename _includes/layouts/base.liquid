@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>{% if title %}{{ title }}{% else %}{{ metadata.title }}{% endif %}</title>
+
+  <meta name="description" content="{% if description %}{{ description }}{% else %}{{ metadata.description }}{% endif %}">
+  <meta name="theme-color" content="hsl(150, 100%, 38%)">
+  <link rel="manifest" href="/manifest.webmanifest">
+
+  <link rel="stylesheet" href="{{ '/css/kleinfreund.css' | url }}">
+
+  {% for cssPath in css %}
+    <link rel="stylesheet" href="{{ '/css/isolated/' | url }}{{ cssPath }}">
+  {% endfor %}
+
+  <link rel="icon" href="{{ '/img/icon.png' | url }}">
+
+  <link rel="alternate" href="{{ '/feed.xml' | url }}" type="application/atom+xml" title="Feed for kleinfreund.de">
+
+  <script>
+    console.log(
+      `have a ${[...[...(2**2**2**2**2**2) + ''].slice(4, 6), ...[...[]+{}].slice(4, 6).reverse()].join('')} day, beautiful!`
+    );
+  </script>
+</head>
+<body>
+
+  <div class="wrapper wrapper--wide">
+    <header class="site-header">
+      <h1 class="site-title">
+        <a href="{{ '/' | url }}">kleinfreund.de</a>
+      </h1>
+
+      <nav class="site-nav">
+        {% for page in collections.pages reversed %}
+          <span class="site-nav__item">
+            <a href="{{ page.url }}">{{ page.data.title }}</a>
+          </span>
+        {% endfor %}
+      </nav>
+    </header>
+  </div>
+
+  <main class="page-content">
+    {{ layoutContent | safe }}
+  </main>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+---
+layout: layouts/base.liquid
+css:
+- components.pagination.css
+pagination:
+  data: collections.allposts
+  size: 5
+  alias: devposts
+---
+<div class="post-list">
+  {%- for post in devposts -%}
+  <article class="post">
+
+    {% include partials/timestamp.liquid, date: post.date %}
+
+    <h2>
+      {% if post.link %}
+        <a href="{{ post.link }}">{{ post.data.title }}</a>
+      {% else %}
+        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+      {% endif %}
+    </h2>
+
+    {% excerpt post %}
+
+  </article>
+  {%- endfor -%}
+</div>
+
+{% if pagination.pageLinks.length > 1 %}
+<nav class="pagination">
+  {% if pagination.previousPageLink %}
+    <a class="pagination__item" href="{{ pagination.previousPageLink | remove: 'index.html' }}">Newer Articles</a>
+  {% else %}
+    <span class="pagination__item">Newer Articles</span>
+  {% endif %}
+
+  {% if pagination.nextPageLink %}
+    <a class="pagination__item" href="{{ pagination.nextPageLink | remove: 'index.html' }}">Older Articles</a>
+  {% else %}
+    <span class="pagination__item">Older Articles</span>
+  {% endif %}
+</nav>
+{% endif %}

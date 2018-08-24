@@ -1,0 +1,14 @@
+:root {
+  --c-text: hsl(227, 100%, 20%);
+
+  --c-code-text: hsl(327, 100%, 40%);
+  --c-code-block-text: hsl(0, 100%, 100%);
+  --c-code-block-background: hsl(236, 20%, 15%);
+
+  --c-interactive: hsl(150, 100%, 38%);
+  --c-interactive-dark: hsl(150, 100%, 28%);
+
+  --c-note-background: hsl(185, 100%, 90%);
+
+  --c-focus: hsl(32, 100%, 55%);
+}

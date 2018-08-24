@@ -1,0 +1,25 @@
+/*
+* LINKS
+*/
+
+:focus {
+  outline: 2px solid var(--c-focus);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 0.1em solid var(--c-interactive);
+  padding-bottom: 0.1em;
+}
+
+/*
+1: Improve visibility for focused links
+*/
+a:hover,
+a:active {
+  outline: none; /* 1 */
+  border-bottom-color: var(--c-interactive-dark);
+  /* background-color: var(--c-interactive); */
+  /* transition: background-color 0.2s ease-out; */
+}
