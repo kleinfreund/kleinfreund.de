@@ -1,0 +1,12 @@
+---
+layout: _includes/layouts/base.liquid
+---
+<article class="post">
+
+  {% include _includes/partials/timestamp.liquid, date: page.date %}
+
+  <h2>{{ title }}</h2>
+
+  {{ layoutContent | safe }}
+
+</article>

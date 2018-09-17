@@ -4,9 +4,31 @@
 
 ## Eleventy To Do
 
-- Waiting on v0.5.1. See .eleventy.js
+- Find out how to inline and minify CSS with CleanCSS.
+
+  CleanCSS Issue: https://github.com/jakubpawlowicz/clean-css/issues/1048
+
+  Draft for base.liquid:
+
+  ```liquid
+  {% if eleventy.environment == production %}
+  {% else %}
+    <style>
+      {% capture main_css %}
+        {% include css/kleinfreund.css %}
+      {% endcapture %}
+
+      {{ main_css | minify_css }}
+    </style>
+    {% comment %} <link rel="stylesheet" href="{{ '/css/kleinfreund.css' | url }}">
+
+    {% for cssPath in css %}
+      <link rel="stylesheet" href="{{ '/css/isolated/' | url }}{{ cssPath }}">
+    {% endfor %} {% endcomment %}
+  {% endif %}
+  ```
+
 - Waiting on [#147](https://github.com/11ty/eleventy/issues/147) so posts with a an `tags` property can be assigned an *additional* collection via a directory-specific data file (i.e. `./posts/posts.json`)
-- Waiting on [#184](https://github.com/11ty/eleventy/issues/184) so that I can inline CSS based on whether I’m building for a development or production environment
 
 ## Generate icons
 

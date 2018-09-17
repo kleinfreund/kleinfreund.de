@@ -23,11 +23,11 @@ const markdownItAnchorOptions = {
 module.exports = function (eleventyConfig) {
   // Copies static files as they are to the output directory
   eleventyConfig
-    .addPassthroughCopy('img')
-    .addPassthroughCopy('css')
-    .addPassthroughCopy('favicon.ico')
-    .addPassthroughCopy('.htaccess')
-    .addPassthroughCopy('manifest.webmanifest');
+    .addPassthroughCopy('src/img')
+    .addPassthroughCopy('src/css')
+    .addPassthroughCopy('src/favicon.ico')
+    .addPassthroughCopy('src/.htaccess')
+    .addPassthroughCopy('src/manifest.webmanifest');
 
   const markdownLib = markdownIt(markdownItOptions)
     .use(require('markdown-it-anchor'), markdownItAnchorOptions);
@@ -37,21 +37,48 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode('excerpt', post => extractExcerpt(post));
 
   // Filter for compressing CSS
-  eleventyConfig.addFilter('cssmin', code => new CleanCSS().minify(code).styles);
+  eleventyConfig.addFilter('minify_css', minifyCss);
 
   // Compresses output HTML
-  eleventyConfig.addTransform('htmlmin', minifyHtml);
+  eleventyConfig.addTransform('minify_html', minifyHtml);
 
   // #147: Can’t use collection.posts because front matter overrides json file
   // #194: Reverse pagination
   eleventyConfig.addCollection('allposts', collection => {
-    return collection.getFilteredByGlob('./posts/**/*').reverse();
+    return collection.getFilteredByGlob('./src/posts/**/*').reverse();
   });
 
   return {
-    templateFormats: ['md', 'html', 'liquid']
+    dir: {
+      input: 'src',
+      // This enables me to include files from the `/css` directory by making `/` the include
+      // directory.
+      includes: ''
+    },
+    templateFormats: ['md', 'liquid']
   };
 };
+
+/**
+ * Minifies CSS content.
+ *
+ * @param {String} content
+ * @returns {String} the minified CSS content
+ */
+function minifyCss(content) {
+  const cleanCss = new CleanCSS();
+
+  const minifyResult = cleanCss.minify(content);
+
+  if (minifyResult.errors.length > 0) {
+    console.error('Could not minify CSS.');
+    minifyResult.errors.forEach(error => { console.error('>', error) });
+
+    return content;
+  }
+
+  return minifyResult.styles;
+}
 
 /**
  * Minifies HTML content.
