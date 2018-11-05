@@ -50,7 +50,7 @@ module.exports = function (eleventyConfig) {
 
   // Compresses output HTML
   if (process.env.ELEVENTY_ENV === 'production') {
-    // eleventyConfig.addTransform('minify_html', minifyHtml);
+    eleventyConfig.addTransform('minify_html', minifyHtml);
   }
 
   // #147: Can’t use collection.posts because front matter overrides json file
