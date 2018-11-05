@@ -90,6 +90,7 @@ max_posts: 10
 #### index.html:
 
 ```liquid
+{%- raw -%}
 {% assign posts_de = site.posts | where: "lang", "de" %}
 
 {% for post in posts_de limit:site.max_posts %}
@@ -99,6 +100,7 @@ max_posts: 10
 {% if posts_de.size > site.max_posts %}
 <!-- Archivlink, bei mehr als 10 Beiträgen -->
 {% endif %}
+{%- endraw -%}
 ```
 
 Das war’s im Grunde. Zum besseren Verständnis könnt ihr euch das [GitHub Repository](http://github.com/kleinfreund/kleinfreund.de) meiner Seite ansehen und durch die Dateien klicken.
