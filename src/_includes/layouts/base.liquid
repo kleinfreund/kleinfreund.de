@@ -10,11 +10,27 @@
   <meta name="theme-color" content="hsl(150, 100%, 38%)">
   <link rel="manifest" href="/manifest.webmanifest">
 
-  <link rel="stylesheet" href="{{ '/css/kleinfreund.css' | url }}">
+  {% if eleventy.environment == 'production' %}
+    <style>
+      {{ 'css/kleinfreund.css' | resolve_css_imports | minify_css }}
 
-  {% for cssPath in css %}
-    <link rel="stylesheet" href="{{ '/css/isolated/' | url }}{{ cssPath }}">
-  {% endfor %}
+      {% for cssPath in css %}
+        {% assign isolated_css_path = 'css/isolated/' | url | append: cssPath %}
+
+        {% capture isolated_css %}
+          {% include isolated_css_path %}
+        {% endcapture %}
+
+        {{ isolated_css | minify_css }}
+      {% endfor %}
+    </style>
+  {% else %}
+    <link rel="stylesheet" href="{{ '/css/kleinfreund.css' | url }}">
+
+    {% for cssPath in css %}
+      <link rel="stylesheet" href="{{ '/css/isolated/' | url }}{{ cssPath }}">
+    {% endfor %}
+  {% endif %}
 
   <link rel="icon" href="{{ '/img/icon.png' | url }}">
   <link rel="icon" href="{{ '/img/icon.svg' | url }}" sizes="any" type="image/svg+xml">
@@ -22,9 +38,7 @@
   <link rel="alternate" href="{{ '/feed.xml' | url }}" type="application/atom+xml" title="Feed for kleinfreund.de">
 
   <script>
-    console.log(
-      `have a ${[...[...(2**2**2**2**2**2) + ''].slice(4, 6), ...[...[]+{}].slice(4, 6).reverse()].join('')} day, beautiful!`
-    );
+    console.log(`have a ${[...[...(2**2**2**2**2**2) + ''].slice(4, 6), ...[...[]+{}].slice(4, 6).reverse()].join('')} day, beautiful!`);
   </script>
 </head>
 <body>
@@ -46,7 +60,7 @@
   </div>
 
   <main class="page-content">
-    {{ layoutContent | safe }}
+    {{ layoutContent }}
   </main>
 
 </body>

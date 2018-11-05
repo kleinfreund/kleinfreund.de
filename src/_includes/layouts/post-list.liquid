@@ -10,7 +10,7 @@ pagination:
   {%- for post in pagination.items -%}
   <article class="post">
 
-    {% include _includes/partials/timestamp.liquid, date: post.date %}
+    {% include '_includes/partials/timestamp.liquid', date: post.date %}
 
     <h2>
       {% if post.link %}

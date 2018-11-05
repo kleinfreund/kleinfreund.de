@@ -1,3 +1,6 @@
+const path = require('path');
+const fs = require('fs');
+
 const CleanCSS = require('clean-css');
 const htmlMinifier = require('html-minifier');
 const markdownIt = require('markdown-it');
@@ -21,6 +24,11 @@ const markdownItAnchorOptions = {
 };
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.setLiquidOptions({
+    dynamicPartials: true,
+    strict_filters: true
+  });
+
   // Copies static files as they are to the output directory
   eleventyConfig
     .addPassthroughCopy('src/img')
@@ -37,10 +45,13 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode('excerpt', post => extractExcerpt(post));
 
   // Filter for compressing CSS
+  eleventyConfig.addFilter('resolve_css_imports', resolveCssImports);
   eleventyConfig.addFilter('minify_css', minifyCss);
 
   // Compresses output HTML
-  eleventyConfig.addTransform('minify_html', minifyHtml);
+  if (process.env.ELEVENTY_ENV === 'production') {
+    // eleventyConfig.addTransform('minify_html', minifyHtml);
+  }
 
   // #147: Can’t use collection.posts because front matter overrides json file
   // #194: Reverse pagination
@@ -59,22 +70,35 @@ module.exports = function (eleventyConfig) {
   };
 };
 
+function resolveCssImports(mainCssPath) {
+  const mainCssContent = fs.readFileSync(path.join('src', mainCssPath), 'utf8');
+  const importRules = mainCssContent.split('\n').filter(line => line.startsWith('@import'));
+  const importPaths = importRules.map(importRule => {
+    return path.join('src', importRule.replace('@import \'', '').replace('\';', ''));
+  });
+
+  let concatenatedCssContent = '';
+  for (const importPath of importPaths) {
+    concatenatedCssContent += fs.readFileSync(importPath, 'utf8');
+  }
+
+  return concatenatedCssContent;
+}
+
 /**
  * Minifies CSS content.
  *
- * @param {String} content
+ * @param {String} concatenatedCssContent
  * @returns {String} the minified CSS content
  */
-function minifyCss(content) {
-  const cleanCss = new CleanCSS();
-
-  const minifyResult = cleanCss.minify(content);
+function minifyCss(concatenatedCssContent) {
+  const minifyResult = new CleanCSS().minify(concatenatedCssContent);
 
   if (minifyResult.errors.length > 0) {
-    console.error('Could not minify CSS.');
-    minifyResult.errors.forEach(error => { console.error('>', error) });
+    console.error('❌ Could not minify CSS.');
+    minifyResult.errors.forEach(error => { console.error('❌', error) });
 
-    return content;
+    return concatenatedCssContent;
   }
 
   return minifyResult.styles;
