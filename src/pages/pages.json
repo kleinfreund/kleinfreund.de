@@ -1,0 +1,4 @@
+{
+  "tags": "pages",
+  "layout": "_includes/layouts/page.liquid"
+}

@@ -2,7 +2,6 @@
 title: Style Guide
 description: Showing off the appearance of paragraphs, links, figures, code blocks, etc. in a small style guide.
 date: 2017-10-14
-layout: _includes/layouts/page.liquid
 ---
 I’ve redesigned my site for the umpteenth time now. One big phase has always been the work on the basic visual appearance.
 Up until now, I scavanged my archive for posts that have the elements that needed to be styled: code blocks, quotes, etc. This was a tedious process. Now, I use this document containing all basic forms of content my site uses. My personal style guide.
