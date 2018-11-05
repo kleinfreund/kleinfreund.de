@@ -1,4 +1,5 @@
 {
   "tags": "pages",
-  "layout": "_includes/layouts/page.liquid"
+  "layout": "_includes/layouts/page.liquid",
+  "permalink": "{{ page.fileSlug }}/index.html"
 }
