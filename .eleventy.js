@@ -68,7 +68,7 @@ module.exports = function (eleventyConfig) {
       // directory.
       includes: ''
     },
-    templateFormats: ['md', 'liquid']
+    templateFormats: ['md', 'liquid', 'html']
   };
 };
 
