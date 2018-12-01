@@ -29,6 +29,8 @@ module.exports = function (eleventyConfig) {
     strict_filters: true
   });
 
+  eleventyConfig.setDataDeepMerge(true);
+
   // Copies static files as they are to the output directory
   eleventyConfig
     .addPassthroughCopy('src/img')
@@ -53,9 +55,9 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addTransform('minify_html', minifyHtml);
   }
 
-  // #147: Can’t use collection.posts because front matter overrides json file
-  // #194: Reverse pagination
-  eleventyConfig.addCollection('allposts', collection => {
+  // #194: Pagination can’t be correctly reversed by other means.
+  // https://github.com/11ty/eleventy/issues/194
+  eleventyConfig.addCollection('posts', collection => {
     return collection.getFilteredByGlob('./src/posts/**/*').reverse();
   });
 
