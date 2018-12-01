@@ -64,8 +64,9 @@ module.exports = function (eleventyConfig) {
   return {
     dir: {
       input: 'src',
-      // This enables me to include files from the `/css` directory by making `/` the include
-      // directory.
+      // Setting `dir.includes` to the empty string effectively makes the project directory the
+      // include directory; thus, allowing to include files from across the project instead of
+      // just a dedicated includes directory.
       includes: ''
     },
     templateFormats: ['md', 'liquid', 'html']
