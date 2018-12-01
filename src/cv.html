@@ -57,18 +57,19 @@
       margin-bottom: 1em;
     }
 
-    .time-line {
-      --time-line-border-width: 2px;
-      --time-line-gap: 1em;
+    .timeline {
+      --tl-border-width: 2px;
+      --tl-gap: 1em;
+      --tl-orb-size: 10px;
 
       position: relative;
-      padding: var(--time-line-gap);
+      padding: var(--tl-gap);
       margin: 2em 1em;
-      border-left: var(--time-line-border-width) solid var(--c-accent);
+      border-left: var(--tl-border-width) solid var(--c-accent);
       list-style-type: none;
     }
 
-    .time-line::before {
+    .timeline::before {
       content: 'now';
 
       position: absolute;
@@ -80,12 +81,12 @@
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
-    .time-line::after {
+    .timeline::after {
       content: '';
 
       position: absolute;
       top: 100%;
-      left: calc(-1 * var(--time-line-border-width) / 2);
+      left: calc(-1 * var(--tl-border-width) / 2);
       transform: translateX(-50%);
 
       margin-top: 2px;
@@ -94,40 +95,47 @@
       border-left: 2px dotted var(--c-accent);
     }
 
-    .time-line__entry {
-      --time-line-bullet-size: 6px;
+    .timeline__entry {
+      --tl-bullet-size: 6px;
       position: relative;
-      padding-left: 0.5em;
+      padding-left: calc(var(--tl-gap) / 2);
+      border-left: var(--tl-border-width) solid var(--c-accent);
     }
 
-    .time-line__entry::before {
+    .timeline__entry::before {
       content: '';
 
       position: absolute;
       z-index: 2;
       top: 50%;
       transform: translateY(-50%);
-      left: calc(-1 * var(--time-line-gap) - calc((var(--time-line-border-width) + var(--time-line-bullet-size)) / 2));
+      left: calc(
+        -1 * var(--tl-gap)
+        - var(--tl-border-width)
+        - var(--tl-bullet-size)
+      );
 
-      border: calc(var(--time-line-bullet-size) / 2) solid var(--c-accent);
+      width: var(--tl-orb-size);
+      height: var(--tl-orb-size);
+      border: var(--tl-border-width) solid var(--c-accent);
       border-radius: 50%;
 
-      background-color: var(--c-accent);
+      background-color: #fff;
     }
 
-    .time-line__entry::after {
+    .timeline__entry::after {
       content: '';
 
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
-      right: 100%;
+      right: calc(100% + var(--tl-border-width));
 
-      width: var(--time-line-gap);
-      border-top: var(--time-line-border-width) solid var(--c-accent);
+      width: var(--tl-gap);
+      border-top: var(--tl-border-width) solid var(--c-accent);
     }
 
-    .time-line__entry:not(:last-child) {
+    .timeline__entry:not(:last-child) {
       margin-bottom: 3em;
     }
 
@@ -153,7 +161,7 @@
       }
 
       a[href^="http"] {
-        text-decoration: none;
+        border-bottom: none;
       }
 
       a[href^="http"]::after {
@@ -186,46 +194,49 @@
 
     <ul class="nav">
       <li>
-        <a href="#time-line">Time line</a>
+        <a href="#timeline">Timeline</a>
       </li>
       <li>
         <a href="#published-code">Published code</a>
       </li>
     </ul>
 
-    <h2 id="time-line">Time line</h2>
+    <h2 id="timeline">Timeline</h2>
 
-    <ul class="time-line">
+    <ul class="timeline">
 
-      <li class="time-line__entry">
+      <li class="timeline__entry">
         <span class="time-span">October 2014 – March 2019 (approximately)</span>
 
         <p>
-          Studying Computer Science and Media (Bachelor of Science) at <a href="https://www.uni-weimar.de/">Bauhaus-Universität Weimar</a>.
+          Studying Computer Science and Media (Bachelor of Science) at <a href="https://uni-weimar.de">Bauhaus-Universität Weimar</a>.
         </p>
       </li>
 
-      <li class="time-line__entry">
+      <li class="timeline__entry">
         <span class="time-span">October 2018 – March 2019 (approximately)</span>
 
         <p>
-          Started writing my bachelor thesis. I will be working with <a href="https://www.args.me">args.me</a>, an argument search engine built by <a href="https://webis.de/">Webis</a>. As part of the thesis, the args API will be extended so that one can retrieve a list of counter-arguments for a specific argument. Additionally, the <a href="https://www.args.me">args.me</a> website will receive a fully responsive layout. Finally, this new layout will be evaluated in a user study.
-          </p>
+          Started writing my bachelor thesis. I will be working with <a href="https://args.me">args.me</a>, an argument search engine built by <a href="https://webis.de">Webis</a>.
+        </p>
+        <p>
+          As part of the thesis, the args API will be extended so that one can retrieve a list of counter-arguments for a specific argument. Additionally, the <a href="https://args.me">args.me</a> website will receive a fully responsive layout. Finally, this new layout will be evaluated in a user study.
+        </p>
       </li>
 
-      <li class="time-line__entry">
+      <li class="timeline__entry">
         <span class="time-span">April 2018 – March 2019</span>
 
         <p>
-          Developing <a href="https://www.disraptor.org/">Disraptor</a> for the <a href="https://webis.de/">Webis</a> network at Bauhaus-Universität Weimar.
+          Developing <a href="https://www.disraptor.org">Disraptor</a> for the <a href="https://webis.de">Webis</a> network at Bauhaus-Universität Weimar.
         </p>
 
         <p>
-          Disraptor tries to decouple the development of an arbitrary web application from the need to implement auxiliary functions like authentication, user management and social networking. The plan is to render the web application inside a <a href="https://www.discourse.org/">Discourse</a> instance and to use the named features that come with it.
+          Disraptor tries to decouple the development of an arbitrary web application from the need to implement auxiliary functions like authentication, user management and social networking. The plan is to render the web application inside a <a href="https://discourse.org">Discourse</a> instance and to use the named features that come with it.
         </p>
       </li>
 
-      <li class="time-line__entry">
+      <li class="timeline__entry">
         <span class="time-span">August 2017 – March 2018</span>
 
         <p>
@@ -233,11 +244,11 @@
         </p>
 
         <p>
-          Slidehub is a web-based browser for PDF documents (e.g. presentations, lectures, talks, etc.). A demo is available at <a href="https://webis.de/slidehub/">webis.de/slidehub</a>.
+          Slidehub is a web-based browser for PDF documents (e.g. presentations, lectures, talks, etc.). A demo is available at <a href="https://webis.de/slidehub">webis.de/slidehub</a>.
         </p>
       </li>
 
-      <li class="time-line__entry">
+      <li class="timeline__entry">
         <span class="time-span">April 2017 – July 2017</span>
 
         <p>
@@ -245,7 +256,7 @@
         </p>
       </li>
 
-      <li class="time-line__entry">
+      <li class="timeline__entry">
         <span class="time-span">October 2016 – March 2017</span>
 
         <p>
@@ -253,7 +264,7 @@
         </p>
       </li>
 
-      <li class="time-line__entry">
+      <li class="timeline__entry">
         <span class="time-span">April 2016 – July 2016</span>
 
         <p>
@@ -269,13 +280,13 @@
 
     <ul>
       <li>
-        <a href="https://www.npmjs.com/package/reverse-iterable-map">reverse-iterable-map</a>
+        <a href="https://npmjs.com/package/reverse-iterable-map">reverse-iterable-map</a>
       </li>
       <li>
-        <a href="https://www.npmjs.com/package/reverse-iterable-array">reverse-iterable-array</a>
+        <a href="https://npmjs.com/package/reverse-iterable-array">reverse-iterable-array</a>
       </li>
       <li>
-        <a href="https://www.npmjs.com/package/reverse-iterable-set">reverse-iterable-set</a>
+        <a href="https://npmjs.com/package/reverse-iterable-set">reverse-iterable-set</a>
       </li>
     </ul>
 
