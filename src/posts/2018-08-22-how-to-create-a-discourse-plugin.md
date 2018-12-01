@@ -645,7 +645,7 @@ export default Ember.Controller.extend({
 ```
 
 <p class="note note--info">
-  The structure of the <code>result</code> object is an artifact of Discourse following the aforementioned naming convention: Distinquising between requests which deal with a single resource (e.g. “PUT /notes/137”) and the ones dealing with multiple resources (e.g. “GET /notes”). Discourse automatically transforms the JSON object in the response body into the correct data structure for <code>result.content</code> based on the kind of data that was requested. In the case of “GET /notes” it’s an array of notes.
+  The structure of the <code>result</code> object is an artifact of Discourse following the aforementioned naming convention: Distinquising between requests which deal with a single resource (e.g. “PUT /notes/137”) and the ones dealing with multiple resources (e.g. “GET /notes”). Discourse automatically transforms the JSON object in the response body into the correct data structure for <code>result.content</code> based on the kind of data that was requested. In the case of “GET /notes”, it’s an array of notes.
 </p>
 
 Finally, we display all notes in a basic list below our form:
