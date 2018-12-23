@@ -1,16 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>CV – Philipp Rudloff</title>
-
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Curriculum Vitae – Philipp Rudloff</title>
   <style>
     :root {
       --c-text: hsl(227, 100%, 20%);
-      --c-accent: hsl(150, 100%, 38%);
-      --c-accent-dark: hsl(150, 100%, 28%);
+
+      --c-interactive: hsl(150, 100%, 38%);
+      --c-interactive-dark: hsl(150, 100%, 28%);
+
+      --c-accent-light: hsl(39, 100%, 80%);
+      --c-accent: hsl(39, 100%, 65%);
+      --c-accent-dark: hsl(39, 100%, 50%);
     }
 
     *,
@@ -21,125 +25,164 @@
 
     html {
       color: var(--c-text);
-      font-size: 1.2em;
+      font-size: 1.25em;
       line-height: 1.5;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    body {
+      margin: 0;
+      padding: 5vh 1vw;
+    }
+
+    :not(h1) + h2,
+    :not(h2) + h3 {
+      margin-top: 2em;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin-top: 0.5em;
+      margin-bottom: 0;
+    }
+
+    ul,
+    p {
+      margin-top: 1em;
+      margin-bottom: 0;
+    }
+
+    li > ul {
+      margin-top: 0;
+      margin-bottom: 1em;
+    }
+
+    p:first-child {
+      margin-top: 0;
     }
 
     a {
       color: inherit;
       padding-bottom: 0.1em;
-      border-bottom: 0.1em solid var(--c-accent);
+      border-bottom: 0.1em solid var(--c-interactive);
       text-decoration: none;
     }
 
-    a:active, a:hover {
-      border-bottom-color: var(--c-accent-dark);
+    a:active,
+    a:hover {
+      border-bottom-color: var(--c-interactive-dark);
     }
 
     :focus {
-      outline: 2px solid crimson;
+      outline: 2px solid var(--c-accent);
     }
 
     main {
       max-width: 800px;
-      padding-right: 16px;
-      padding-left: 16px;
+      padding-right: 3vw;
+      padding-left: 3vw;
     }
 
     @media (min-width: 1000px) {
       main {
         margin-left: 200px;
+        padding-right: 0;
+        padding-left: 0;
       }
     }
 
-    p {
-      margin-top: 0;
-      margin-bottom: 1em;
-    }
-
-    .time-line {
-      --time-line-border-width: 2px;
-      --time-line-gap: 1em;
-
-      position: relative;
-      padding: var(--time-line-gap);
-      margin: 2em 1em;
-      border-left: var(--time-line-border-width) solid var(--c-accent);
+    .timeline {
+      padding-left: 0;
       list-style-type: none;
     }
 
-    .time-line::before {
-      content: 'now';
-
-      position: absolute;
-      bottom: 100%;
-      left: 0;
-      transform: translateX(-50%);
-
-      font-size: 0.9em;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    .timeline__entry p:first-of-type {
+      margin-top: 0.5em;
     }
 
-    .time-line::after {
-      content: '';
-
-      position: absolute;
-      top: 100%;
-      left: calc(-1 * var(--time-line-border-width) / 2);
-      transform: translateX(-50%);
-
-      margin-top: 2px;
-      height: 10px;
-
-      border-left: 2px dotted var(--c-accent);
+    .timeline__entry h3 {
+      margin-top: 0;
     }
 
-    .time-line__entry {
-      --time-line-bullet-size: 6px;
-      position: relative;
-      padding-left: 0.5em;
-    }
-
-    .time-line__entry::before {
-      content: '';
-
-      position: absolute;
-      z-index: 2;
-      top: 50%;
-      transform: translateY(-50%);
-      left: calc(-1 * var(--time-line-gap) - calc((var(--time-line-border-width) + var(--time-line-bullet-size)) / 2));
-
-      border: calc(var(--time-line-bullet-size) / 2) solid var(--c-accent);
-      border-radius: 50%;
-
-      background-color: var(--c-accent);
-    }
-
-    .time-line__entry::after {
-      content: '';
-
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      right: 100%;
-
-      width: var(--time-line-gap);
-      border-top: var(--time-line-border-width) solid var(--c-accent);
-    }
-
-    .time-line__entry:not(:last-child) {
+    .timeline__entry:not(:last-child) {
       margin-bottom: 3em;
     }
 
-    .time-span {
-      display: inline-block;
-      margin-bottom: 0.5em;
-      padding-bottom: 0.25em;
-      border-bottom: 1px solid grey;
+    @media only screen and (min-width: 600px) {
+      .timeline {
+        --tl-border-width: 2px;
+        --tl-gap: 1em;
+        --tl-orb-size: 10px;
+        --tl-color: var(--c-accent-dark);
 
-      font-size: 0.9em;
-      font-style: italic;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: relative;
+        padding: var(--tl-gap);
+        margin: 3em 1em;
+        border-left: var(--tl-border-width) solid var(--tl-color);
+      }
+
+      .timeline::before {
+        content: 'now';
+
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        transform: translateX(-50%);
+      }
+
+      .timeline::after {
+        content: '';
+
+        position: absolute;
+        top: 100%;
+        left: calc(-1 * var(--tl-border-width) / 2);
+        transform: translateX(-50%);
+
+        margin-top: 2px;
+        height: 10px;
+
+        border-left: 2px dotted var(--tl-color);
+      }
+
+      .timeline__entry {
+        --tl-bullet-size: 6px;
+        position: relative;
+        padding-left: calc(var(--tl-gap) / 2);
+        border-left: var(--tl-border-width) solid var(--tl-color);
+      }
+
+      .timeline__entry::before {
+        content: '';
+
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        transform: translateY(-50%);
+        left: calc(-1 * var(--tl-gap) - var(--tl-border-width) - var(--tl-bullet-size));
+
+        width: var(--tl-orb-size);
+        height: var(--tl-orb-size);
+        border: var(--tl-border-width) solid var(--tl-color);
+        border-radius: 50%;
+
+        background-color: #fff;
+      }
+
+      .timeline__entry::after {
+        content: '';
+
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: calc(100% + var(--tl-border-width));
+
+        width: var(--tl-gap);
+        border-top: var(--tl-border-width) solid var(--tl-color);
+      }
     }
 
     @media only print {
@@ -153,13 +196,18 @@
       }
 
       a[href^="http"] {
-        text-decoration: none;
+        border-bottom: none;
       }
 
       a[href^="http"]::after {
-        content: "\A0" "(" attr(href) ")";
+        content: "\A0""("attr(href) ")";
         font-size: 0.9em;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      :not(h1)+h2,
+      :not(h2)+h3 {
+        margin-top: initial;
       }
 
       main {
@@ -168,12 +216,17 @@
         padding-left: 0;
       }
 
-      .nav {
-        display: none;
+      .timeline__entry {
+        page-break-inside: avoid;
+      }
+
+      .timeline__entry:not(:last-child) {
+        margin-bottom: 1em;
       }
     }
   </style>
 </head>
+
 <body>
 
   <main>
@@ -184,83 +237,148 @@
 
     <p>I’m a frontend developer currently living in Weimar, Germany.</p>
 
-    <ul class="nav">
-      <li>
-        <a href="#time-line">Time line</a>
+    <h2 id="contact">Contact</h2>
+
+    <ul>
+      <li>Address: Hegelstraße 7, 99423 Weimar</li>
+      <li>Email: philipprudloff@fastmail.com</li>
+      <li>GitHub: <a href="http://github.com/kleinfreund">github.com/kleinfreund</a></li>
+      <li>CodePen: <a href="https://codepen.io/kleinfreund">codepen.io/kleinfreund</a></li>
+    </ul>
+
+
+
+    <h2 id="education">Education</h2>
+
+    <h3>Computer Science & Media (Bachelor of Science)</h3>
+
+    <ul class="timeline">
+      <li class="timeline__entry">
+        <span>October 2018 – March 2019 (approximately)</span>
+
+        <h3>Integrating counterarguments into args.me (bachelor thesis)</h3>
+
+        <p>Started writing my bachelor thesis on integrating counterarguments into <a href="https://args.me">args.me</a>.</p>
+
+        <p>As part of the thesis, the args API will be extended so that one can retrieve a list of
+          counterarguments for a specific argument. Additionally, the <a href="https://args.me">args.me</a>
+          website will receive a fully responsive layout. Finally, this new layout will be
+          evaluated in a user study.</p>
       </li>
-      <li>
-        <a href="#published-code">Published code</a>
+
+      <li class="timeline__entry">
+        <span>April 2018 – March 2019</span>
+
+        <h3>Disraptor (developer)</h3>
+
+        <p>Developing <a href="https://www.disraptor.org">Disraptor</a> for the <a href="https://webis.de">Webis</a>
+          network at Bauhaus-Universität Weimar.</p>
+
+        <p>Disraptor tries to decouple the development of an arbitrary web application from the
+          need to implement auxiliary functions like authentication, user management and social
+          networking. The plan is to render the web application inside a <a href="https://discourse.org">Discourse</a>
+          instance and to use the named features that come with it.</p>
+      </li>
+
+      <li class="timeline__entry">
+        <span>August 2017 – March 2018</span>
+
+        <h3>Slidehub (developer)</h3>
+
+        <p>Developed <a href="https://github.com/webis-de/slidehub">Slidehub</a> for the <a href="https://webis.de">Webis</a>
+          network at Bauhaus-Universität Weimar.</p>
+
+        <p>Slidehub is a web-based browser for PDF documents (e.g. presentations, lectures, talks,
+          etc.). A demo is available at <a href="https://webis.de/slidehub">webis.de/slidehub</a>.</p>
+      </li>
+
+      <li class="timeline__entry">
+        <span>October 2016 – July 2017</span>
+
+        <h3>Web Technology (tutor)</h3>
+
+        <p>Prepared the exercises for the upcoming semester’s Web Technology lecture and worked as a tutor during the summer semester 2017.</p>
+      </li>
+
+      <li class="timeline__entry">
+        <span>April 2016 – July 2016</span>
+
+        <h3>Programming Languages (tutor)</h3>
+
+        <p>Worked as a tutor for the exercises as part of the summer semester 2016 lecture
+          Programming Languages.</p>
       </li>
     </ul>
 
-    <h2 id="time-line">Time line</h2>
+    <h3>Prior education</h3>
 
-    <ul class="time-line">
-
-      <li class="time-line__entry">
-        <span class="time-span">October 2014 – March 2019 (approximately)</span>
-
-        <p>
-          Studying Computer Science and Media (Bachelor of Science) at <a href="https://www.uni-weimar.de/">Bauhaus-Universität Weimar</a>.
-        </p>
+    <ul>
+      <li>
+        Educational training:<br>
+        Gestaltungstechnischer Assistent für Medien und Kommunikation<br>
+        BSZ e.o.plauen
       </li>
 
-      <li class="time-line__entry">
-        <span class="time-span">October 2018 – March 2019 (approximately)</span>
-
-        <p>
-          Started writing my bachelor thesis. I will be working with <a href="https://www.args.me">args.me</a>, an argument search engine built by <a href="https://webis.de/">Webis</a>. As part of the thesis, the args API will be extended so that one can retrieve a list of counter-arguments for a specific argument. Additionally, the <a href="https://www.args.me">args.me</a> website will receive a fully responsive layout. Finally, this new layout will be evaluated in a user study.
-          </p>
+      <li>
+        Apprenticeship:<br>
+        Fachinformatiker Anwendungsentwicklung (cancelled)<br>
+        Aperco AG
       </li>
 
-      <li class="time-line__entry">
-        <span class="time-span">April 2018 – March 2019</span>
+      <li>
+        General higher education entrance qualification:<br>
+        Gymnasium Markneukirchen
+      </li>
+    </ul>
 
-        <p>
-          Developing <a href="https://www.disraptor.org/">Disraptor</a> for the <a href="https://webis.de/">Webis</a> network at Bauhaus-Universität Weimar.
-        </p>
 
-        <p>
-          Disraptor tries to decouple the development of an arbitrary web application from the need to implement auxiliary functions like authentication, user management and social networking. The plan is to render the web application inside a <a href="https://www.discourse.org/">Discourse</a> instance and to use the named features that come with it.
-        </p>
+
+    <h2 id="qualifications-experiences">Qualifications & Experiences</h2>
+
+    <p>I mostly work with plain HTML, CSS and JavaScript. Below is a list of technologies I feel
+      comfortable working with. The most comfortable technologies come first.</p>
+
+    <ul>
+      <li>
+        Languages:
+
+        <ul>
+          <li>German (native)</li>
+          <li>English</li>
+        </ul>
+      </li>
+      <li>
+        Development:
+
+        <ul>
+          <li>HTML</li>
+          <li>CSS (Sass)</li>
+          <li>JavaScript</li>
+          <li>Development of accessible components for user interfaces</li>
+          <li>Liquid, Handlebars, Nunjucks</li>
+          <li>Basic experiences with: Node.js, Vue.js, Ember, Rails, Python, C++</li>
+        </ul>
       </li>
 
-      <li class="time-line__entry">
-        <span class="time-span">August 2017 – March 2018</span>
+      <li>
+        Tools:
 
-        <p>
-          Developed <a href="https://github.com/webis-de/slidehub">Slidehub</a> for the <a href="https://webis.de">Webis</a> network at Bauhaus-Universität Weimar.
-        </p>
-
-        <p>
-          Slidehub is a web-based browser for PDF documents (e.g. presentations, lectures, talks, etc.). A demo is available at <a href="https://webis.de/slidehub/">webis.de/slidehub</a>.
-        </p>
+        <ul>
+          <li><a href="https://git-scm.com">git</a></li>
+          <li>Build tools: <a href="https://npmjs.com">npm</a>, <a href="https://gulpjs.com">gulp</a>, <a href="https://webpack.js.org">webpack</a>, <a href="https://parceljs.org">Parcel</a></li>
+          <li>Static Site Generators: <a href="https://jekyllrb.com">Jekyll</a>, <a href="https://11ty.io">Eleventy</a></li>
+        </ul>
       </li>
 
-      <li class="time-line__entry">
-        <span class="time-span">April 2017 – July 2017</span>
+      <li>
+        Methodologies / paradigms:
 
-        <p>
-          Worked as a tutor for the exercises as part of the summer semester lecture Web Technology.
-        </p>
+        <ul>
+          <li><a href="http://getbem.com">BEM</a></li>
+          <li>ITCSS</li>
+          <li>REST</li>
+        </ul>
       </li>
-
-      <li class="time-line__entry">
-        <span class="time-span">October 2016 – March 2017</span>
-
-        <p>
-          Prepared the exercises for the upcoming Web Technology lecture.
-        </p>
-      </li>
-
-      <li class="time-line__entry">
-        <span class="time-span">April 2016 – July 2016</span>
-
-        <p>
-          Worked as a tutor for the exercises as part of the summer semester 2016 lecture Programming Languages.
-        </p>
-      </li>
-
     </ul>
 
     <h2 id="published-code">Published code</h2>
@@ -268,33 +386,24 @@
     <h3>Node packages</h3>
 
     <ul>
-      <li>
-        <a href="https://www.npmjs.com/package/reverse-iterable-map">reverse-iterable-map</a>
-      </li>
-      <li>
-        <a href="https://www.npmjs.com/package/reverse-iterable-array">reverse-iterable-array</a>
-      </li>
-      <li>
-        <a href="https://www.npmjs.com/package/reverse-iterable-set">reverse-iterable-set</a>
-      </li>
+      <li><a href="https://npmjs.com/package/reverse-iterable-map">reverse-iterable-map</a></li>
+      <li><a href="https://npmjs.com/package/reverse-iterable-array">reverse-iterable-array</a></li>
+      <li><a href="https://npmjs.com/package/reverse-iterable-set">reverse-iterable-set</a></li>
     </ul>
 
     <h3>Open source contributions</h3>
 
     <ul>
-      <li>
-        <a href="https://github.com/w3c/aria-practices/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Akleinfreund">WAI-ARIA Authoring Practices</a></li>
-      <li>
-        <a href="https://github.com/discourse/discourse/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Akleinfreund">Discourse</a></li>
-      <li>
-        <a href="https://github.com/sublimehq/Packages/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Akleinfreund">Sublime Text Packages</a></li>
-      <li>
-        <a href="https://github.com/jekyll/jekyll/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Akleinfreund">Jekyll</a></li>
-      <li>
-        <a href="https://github.com/clementine-player/Clementine/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Akleinfreund">Clementine</a></li>
+      <li><a href="https://github.com/w3c/aria-practices/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Akleinfreund">WAI-ARIA
+          Authoring Practices</a></li>
+      <li><a href="https://github.com/discourse/discourse/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Akleinfreund">Discourse</a></li>
+      <li><a href="https://github.com/sublimehq/Packages/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Akleinfreund">Sublime
+          Text Packages</a></li>
+      <li><a href="https://github.com/jekyll/jekyll/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Akleinfreund">Jekyll</a></li>
+      <li><a href="https://github.com/clementine-player/Clementine/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Akleinfreund">Clementine</a></li>
     </ul>
 
   </main>
-
 </body>
+
 </html>
