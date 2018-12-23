@@ -3,7 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+
   <title>Curriculum Vitae – Philipp Rudloff</title>
   <style>
     :root {
@@ -32,11 +34,12 @@
 
     body {
       margin: 0;
-      padding: 5vh 1vw;
+      max-width: 50em;
+      padding: 3vh 3vw;
     }
 
-    :not(h1) + h2,
-    :not(h2) + h3 {
+    :not(h1)+h2,
+    :not(h2)+h3 {
       margin-top: 2em;
     }
 
@@ -54,6 +57,10 @@
     p {
       margin-top: 1em;
       margin-bottom: 0;
+    }
+
+    ul {
+      padding-left: 2em;
     }
 
     li > ul {
@@ -81,25 +88,6 @@
       outline: 2px solid var(--c-accent);
     }
 
-    main {
-      max-width: 800px;
-      padding-right: 3vw;
-      padding-left: 3vw;
-    }
-
-    @media (min-width: 1000px) {
-      main {
-        margin-left: 200px;
-        padding-right: 0;
-        padding-left: 0;
-      }
-    }
-
-    .timeline {
-      padding-left: 0;
-      list-style-type: none;
-    }
-
     .timeline__entry p:first-of-type {
       margin-top: 0.5em;
     }
@@ -119,6 +107,7 @@
         --tl-orb-size: 10px;
         --tl-color: var(--c-accent-dark);
 
+        list-style-type: none;
         position: relative;
         padding: var(--tl-gap);
         margin: 3em 1em;
@@ -207,10 +196,10 @@
 
       :not(h1)+h2,
       :not(h2)+h3 {
-        margin-top: initial;
+        margin-top: 1em;
       }
 
-      main {
+      body {
         max-width: initial;
         padding-right: 0;
         padding-left: 0;
@@ -261,9 +250,8 @@
         <p>Started writing my bachelor thesis on integrating counterarguments into <a href="https://args.me">args.me</a>.</p>
 
         <p>As part of the thesis, the args API will be extended so that one can retrieve a list of
-          counterarguments for a specific argument. Additionally, the <a href="https://args.me">args.me</a>
-          website will receive a fully responsive layout. Finally, this new layout will be
-          evaluated in a user study.</p>
+          counterarguments for a specific argument. Additionally, the args.me website will receive
+          a fully responsive layout. Finally, this new layout will be evaluated in a user study.</p>
       </li>
 
       <li class="timeline__entry">
@@ -297,7 +285,8 @@
 
         <h3>Web Technology (tutor)</h3>
 
-        <p>Prepared the exercises for the upcoming semester’s Web Technology lecture and worked as a tutor during the summer semester 2017.</p>
+        <p>Prepared the exercises for the upcoming semester’s Web Technology lecture and worked as
+          a tutor during the summer semester 2017.</p>
       </li>
 
       <li class="timeline__entry">
@@ -314,19 +303,17 @@
 
     <ul>
       <li>
-        Educational training:<br>
-        Gestaltungstechnischer Assistent für Medien und Kommunikation<br>
-        BSZ e.o.plauen
+        Gestaltungstechnischer Assistent für Medien und Kommunikation (educational training)<br>
+        BSZ e.o.plauen (Plauen)
       </li>
 
       <li>
-        Apprenticeship:<br>
-        Fachinformatiker Anwendungsentwicklung (cancelled)<br>
-        Aperco AG
+        Fachinformatiker für Anwendungsentwicklung (apprenticeship, cancelled)<br>
+        Aperco AG (Bayreuth)
       </li>
 
       <li>
-        General higher education entrance qualification:<br>
+        General higher education entrance qualification<br>
         Gymnasium Markneukirchen
       </li>
     </ul>
@@ -365,7 +352,8 @@
 
         <ul>
           <li><a href="https://git-scm.com">git</a></li>
-          <li>Build tools: <a href="https://npmjs.com">npm</a>, <a href="https://gulpjs.com">gulp</a>, <a href="https://webpack.js.org">webpack</a>, <a href="https://parceljs.org">Parcel</a></li>
+          <li>Build tools: <a href="https://npmjs.com">npm</a>, <a href="https://gulpjs.com">gulp</a>,
+            <a href="https://webpack.js.org">webpack</a>, <a href="https://parceljs.org">Parcel</a></li>
           <li>Static Site Generators: <a href="https://jekyllrb.com">Jekyll</a>, <a href="https://11ty.io">Eleventy</a></li>
         </ul>
       </li>
