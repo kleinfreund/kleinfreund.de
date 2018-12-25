@@ -20,7 +20,7 @@ Hey there everyone, it’s List Week already. So without further ado, here are m
 
 ### 19. [Death And Vanilla – California Owls](https://deathandvanillamusic.bandcamp.com/album/to-where-the-wild-things-are)
 
-![Detail from the artwork of Death And Vanilla’s album “To Where the WThing](/img/posts/tracks-2015/19.jpg)
+![Detail from the artwork of Death And Vanilla’s album “To Where the Wild Things Are”](/img/posts/tracks-2015/19.jpg)
 
 
 
