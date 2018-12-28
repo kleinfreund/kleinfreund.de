@@ -20,7 +20,8 @@ const markdownItOptions = {
 // https://github.com/valeriangalliat/markdown-it-anchor#usage
 const markdownItAnchorOptions = {
   permalink: true,
-  permalinkSymbol: '🔗'
+  permalinkSymbol: '🔗',
+  permalinkBefore: true
 };
 
 module.exports = function (eleventyConfig) {

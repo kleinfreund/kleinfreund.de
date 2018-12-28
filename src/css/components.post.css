@@ -2,8 +2,16 @@
   margin-bottom: calc(4 * var(--spacing));
 }
 
+h1, h2, h3, h4, h5, h6 {
+  position: relative;
+}
+
 .header-anchor {
+  position: absolute;
+  right: 100%;
+  padding-right: calc(var(--spacing) / 4);
   visibility: hidden;
+  border-bottom: none;
   font-weight: normal;
 }
 
