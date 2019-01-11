@@ -20,8 +20,7 @@ npm run build
 
 ## To Do
 
-- Eleventy:
-  - [https://github.com/11ty/eleventy/issues/194](#194): Properly reverse pagination collection
+- *(nothing)*
 
 ## Generate icons
 

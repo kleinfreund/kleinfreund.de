@@ -56,12 +56,6 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addTransform('minify_html', minifyHtml);
   }
 
-  // #194: Pagination can’t be correctly reversed by other means.
-  // https://github.com/11ty/eleventy/issues/194
-  eleventyConfig.addCollection('posts', collection => {
-    return collection.getFilteredByGlob('./src/posts/**/*').reverse();
-  });
-
   return {
     dir: {
       input: 'src',
