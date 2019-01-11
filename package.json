@@ -9,7 +9,7 @@
     "clean": "rm -rf ./_site"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.6.0",
+    "@11ty/eleventy": "^0.7.0",
     "clean-css": "^4.2.1",
     "html-minifier": "^3.5.21",
     "markdown-it": "^8.4.2",
