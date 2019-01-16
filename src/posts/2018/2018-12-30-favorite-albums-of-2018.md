@@ -4,7 +4,7 @@ date: 2018-12-30
 tags:
 - music
 ---
-Without further ado, here our my 20 favorite albums of 2018.
+Without further ado, here are my 20 favorite albums of 2018.
 
 <!--more-->
 
