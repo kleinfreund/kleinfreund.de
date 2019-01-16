@@ -14,15 +14,15 @@
     <style>
       {{ 'css/kleinfreund.css' | resolve_css_imports | minify_css }}
 
-      {% for cssPath in css %}
+      {%- for cssPath in css -%}
         {% assign isolated_css_path = 'css/isolated/' | url | append: cssPath %}
 
-        {% capture isolated_css %}
+        {%- capture isolated_css -%}
           {% include isolated_css_path %}
-        {% endcapture %}
+        {%- endcapture -%}
 
         {{ isolated_css | minify_css }}
-      {% endfor %}
+      {%- endfor -%}
     </style>
   {% else %}
     <link rel="stylesheet" href="{{ '/css/kleinfreund.css' | url }}">
