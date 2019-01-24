@@ -92,7 +92,7 @@ By default, code blocks work well but are rather limited compared to what we see
 <figure>
   <img src="https://c1.staticflickr.com/9/8675/30106830192_086f433ab8_k.jpg" alt="Rain drops on a spiders’ web">
   <figcaption>
-    <a href="https://www.flickr.com/photos/kleinfreund/29739015432">via Flickr</a>, shot with a Helios 44-2 1:2.0/58mm manual lens.
+    <a href="https://www.flickr.com/photos/kleinfreund/30106830192">via Flickr</a>, shot with a Helios 44-2 1:2.0/58mm manual lens.
   </figcaption>
 </figure>
 
