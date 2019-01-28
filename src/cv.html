@@ -137,7 +137,6 @@
         --tl-bullet-size: 6px;
         position: relative;
         padding-left: calc(var(--tl-gap) / 2);
-        border-left: var(--tl-border-width) solid var(--tl-color);
       }
 
       .timeline__entry::before {
@@ -147,26 +146,15 @@
         z-index: 2;
         top: 50%;
         transform: translateY(-50%);
-        left: calc(-1 * var(--tl-gap) - var(--tl-border-width) - var(--tl-bullet-size));
+        left: calc(-1 * var(--tl-gap) - var(--tl-bullet-size));
 
         width: var(--tl-orb-size);
         height: var(--tl-orb-size);
         border: var(--tl-border-width) solid var(--tl-color);
         border-radius: 50%;
+        outline: calc(var(--tl-border-width) * 2) solid #fff;
 
         background-color: #fff;
-      }
-
-      .timeline__entry::after {
-        content: '';
-
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        right: calc(100% + var(--tl-border-width));
-
-        width: var(--tl-gap);
-        border-top: var(--tl-border-width) solid var(--tl-color);
       }
     }
 
@@ -237,15 +225,9 @@
 
     <ul>
       <li>
-        2014 – 2019:<br>
-        <b>Computer Science & Media</b> (B.Sc.)<br>
-        at Bauhaus-Universität Weimar
-      </li>
-
-      <li>
-        2012 – 2014:<br>
-        <b>Gestaltungstechnischer Assistent für Medien und Kommunikation</b><br>
-        at BSZ e.o.plauen (Plauen)
+        2002 – 2011:<br>
+        <b>General higher education entrance qualification</b><br>
+        at Gymnasium Markneukirchen
       </li>
 
       <li>
@@ -255,9 +237,15 @@
       </li>
 
       <li>
-        2002 – 2011:<br>
-        <b>General higher education entrance qualification</b><br>
-        at Gymnasium Markneukirchen
+        2012 – 2014:<br>
+        <b>Gestaltungstechnischer Assistent für Medien und Kommunikation</b><br>
+        at BSZ e.o.plauen (Plauen)
+      </li>
+
+      <li>
+        2014 – 2019:<br>
+        <b>Computer Science & Media</b> (B.Sc.)<br>
+        at Bauhaus-Universität Weimar
       </li>
     </ul>
 
@@ -284,7 +272,7 @@
       <li class="timeline__entry">
         <span>April 2018 – March 2019</span>
 
-        <h3>Web developer</h3>
+        <h3>Developer</h3>
 
         <p>Developing <b>Disraptor</b> (<a href="https://www.disraptor.org">disraptor.org</a>) for <a href="https://webis.de">Webis</a>.</p>
 
@@ -297,7 +285,7 @@
       <li class="timeline__entry">
         <span>August 2017 – March 2018</span>
 
-        <h3>Front-end developer</h3>
+        <h3>Developer</h3>
 
         <p>Developed <b>Slidehub</b> (<a href="https://webis.de/slidehub">demo</a>, <a href="https://github.com/webis-de/slidehub">code</a>) for <a href="https://webis.de">Webis</a>.</p>
 
@@ -397,7 +385,7 @@
 
     <h2 id="published-code">Published code</h2>
 
-    <h3>Node packages</h3>
+    <h3>NPM packages</h3>
 
     <ul>
       <li><a href="https://npmjs.com/package/reverse-iterable-map">reverse-iterable-map</a></li>
