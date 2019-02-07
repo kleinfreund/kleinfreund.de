@@ -6,7 +6,7 @@
   "scripts": {
     "start": "ELEVENTY_ENV=development eleventy --serve",
     "build": "npm run clean && ELEVENTY_ENV=production eleventy",
-    "clean": "rm -rf ./_site"
+    "clean": "rm -rf _site"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.7.1",
