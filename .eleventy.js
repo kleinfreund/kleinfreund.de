@@ -136,8 +136,9 @@ function extractExcerpt(doc) {
     return content.substring(0, content.indexOf(excerptSeparator)).trim();
   }
 
-  if (content.includes('</p>')) {
-    return content.substring(0, content.indexOf('</p>') + 4);
+  const pCloseTag = '</p>';
+  if (content.includes(pCloseTag)) {
+    return content.substring(0, content.indexOf(pCloseTag) + pCloseTag.length);
   }
 
   return content;
