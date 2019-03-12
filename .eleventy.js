@@ -68,6 +68,11 @@ module.exports = function (eleventyConfig) {
   };
 };
 
+
+/**
+ * @param {String} mainCssPath
+ * @returns {String}
+ */
 function resolveCssImports(mainCssPath) {
   const mainCssContent = fs.readFileSync(path.join('src', mainCssPath), 'utf8');
   const importRules = mainCssContent.split('\n').filter(line => line.startsWith('@import'));
