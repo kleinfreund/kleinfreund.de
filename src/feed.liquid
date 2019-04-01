@@ -15,7 +15,7 @@ permalink: feed.xml
     <email>{{ metadata.author.mail }}</email>
   </author>
 
-  {% for post in collections.allposts %}
+  {% for post in collections.posts %}
     <entry>
       <title>{{ post.data.title | escape }}</title>
       <id>{{ metadata.url }}{{ post.url }}</id>
