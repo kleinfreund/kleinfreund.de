@@ -59,7 +59,7 @@ Note that I named some files and directories with part of it being a variable th
 In this article, we will build a notebook plugin that stores notes. Looking at the file structure above, we will end up with a `notebook` directory and; for example, a `note_store.rb` file in the `lib` directory.
 
 <p class="note note--info">
-  The final plugin code is also <a href="https://github.com/kleinfreund/notebook">on GitHub</a>.
+  The <a href="https://github.com/kleinfreund/notebook">final plugin code</a> is available on GitHub.
 </p>
 
 
@@ -777,6 +777,6 @@ export default Ember.Controller.extend({
 
 ---
 
-That’s it. That was quite a lot to unpack. You can find the final plugin [on GitHub](https://github.com/kleinfreund/notebook).
+That’s it. That was quite a lot to unpack. You can find [the final plugin](https://github.com/kleinfreund/notebook) on GitHub.
 
 I’m sure I made some mistakes while copying and updating code blocks, etc. I read this text a dozen times and always found something. So if there is something wrong, please let me know. Also, if something’s not clear, do the same. I’ll be happy to incorporate changes and correct mistakes.
