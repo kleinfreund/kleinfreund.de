@@ -27,36 +27,34 @@ In this article, I will describe in detail how to create a plugin for the Discou
 
 Let’s get this out of the way first. Following below is the file structure of the plugin we’re going to create. It’s complex and we will need everything from it.
 
-Note that I named some files and directories with part of it being a variable thing. For example, there is `$PLUGINNAME`. I will choose a name for our plugin and use it instead of `$PLUGINNAME`. `$THING` refers to the type of data we want to store in Discourse’s database. This could be some additional configuration of our plugin or a list of our favorite pets.
+Note that I named some files and directories with part of it being a variable thing. For example, there is `$PLUGIN_NAME`. I will choose a name for our plugin and use it instead of `$PLUGIN_NAME`. `$THING` refers to the type of data we want to store in Discourse’s database. This could be some additional configuration of our plugin or a list of our favorite pets.
 
-```
-$PLUGINNAME/
-├─ app/
-│  ├─ controllers/
-│  │  ├─ $PLUGINNAME_controller.rb
-│  │  └─ $THING_controller.rb
-│  └─ $THING_store.rb
-├─ assets/
-│  ├─ javascripts/
-│  │  └─ discourse/
-│  │     ├─ controllers/
-│  │     │  └─ $PLUGINNAME.js.es6
-│  │     ├─ models/
-│  │     │  └─ $THING.js.es6
-│  │     ├─ routes/
-│  │     │  └─ $PLUGINNAME.js.es6
-│  │     ├─ templates/
-│  │     │  └─ $PLUGINNAME.hbs
-│  │     └─ $PLUGINNAME-route-map.js.es6
-│  └─ stylesheets/
-│     └─ $PLUGINNAME.css
-├─ config/
-│  ├─ locales/
-│  │  ├─ client.en.yml
-│  │  └─ server.en.yml
-│  └─ settings.yml
-└─ plugin.rb
-```
+- `$PLUGIN_NAME/`
+  - `app/`
+    - `controllers/`
+      - `$PLUGIN_NAME_controller.rb`
+      - `$THING_controller.rb`
+    - `$THING_store.rb`
+  - `assets/`
+    - `javascripts/`
+      - `discourse/`
+        - `controllers/`
+          - `$PLUGIN_NAME.js.es6`
+        - `models/`
+          - `$THING.js.es6`
+        - `routes/`
+          - `$PLUGIN_NAME.js.es6`
+        - `templates/`
+          - `$PLUGIN_NAME.hbs`
+          - `$PLUGIN_NAME-route-map.js.es6`
+    - `stylesheets/`
+      - `$PLUGIN_NAME.css`
+  - `config/`
+    - `locales/`
+      - `client.en.yml`
+      - `server.en.yml`
+    - `settings.yml`
+  - `plugin.rb`
 
 In this article, we will build a notebook plugin that stores notes. Looking at the file structure above, we will end up with a `notebook` directory and; for example, a `note_store.rb` file in the `lib` directory.
 
@@ -70,14 +68,12 @@ In this article, we will build a notebook plugin that stores notes. Looking at t
 
 The main component for every Discourse plugin is the `plugin.rb` file in the root of the plugin’s directory. Assuming a Discourse installation in a `discourse` directory somewhere, each plugin has its own directory inside the `plugins` directory.
 
-```
-discourse/
-├─ …/
-├─ plugins/
-│  └─ notebook/
-│     └─ plugin.rb
-└─ …
-```
+- `discourse/`
+  - `…/`
+  - `plugins/`
+    - `notebook/`
+      - `plugin.rb`
+  - `…`
 
 **Tip**: You can develop your plugin outside of the Discourse installation by creating a symbolic link in the `plugins` directory to the actual location of the plugin’s directory like this:
 
@@ -88,15 +84,14 @@ ln -s ../../notebook notebook
 
 This assumes the `notebook` directory to be located right next to the `discourse` directory in the file system. You can specify a different location than `../../notebook` according to your needs.
 
-```
-discourse/
-├─ …/
-├─ plugins/
-│  └─ notebook → ../../notebook
-└─ …
-notebook/
-└─ plugin.rb
-```
+- `discourse/`
+  - `…/`
+  - `plugins/`
+    - `notebook` → `../../notebook`
+  - `…`
+
+- `notebook/`
+  - `plugin.rb`
 
 
 
@@ -147,14 +142,12 @@ In the settings, you’re now able to find the entry “notebook enabled”. Nex
 
 Currently, the plugin’s file structure should look like this:
 
-```
-notebook/
-├─ config/
-│  ├─ locales/
-│  │  └─ server.en.yml
-│  └─ settings.yml
-└─ plugin.rb
-```
+- `notebook/`
+  - `config/`
+    - `locales/`
+      - `server.en.yml`
+    - `settings.yml`
+  - `plugin.rb`
 
 
 
@@ -162,21 +155,19 @@ notebook/
 
 We need a page to access the plugin. Let’s put it on the path `/notebook` so that our plugin will be available at [localhost:3000/notebook](http://localhost:3000/notebook). This requires a bunch of new files and directories. Below is the file structure showing all files that will be created or modified in the process:
 
-```
-notebook/
-├─ app/
-│  └─ controllers/
-│     └─ notebook_controller.rb
-├─ assets/
-│  └─ javascripts/
-│     └─ discourse/
-│        ├─ routes/
-│        │  └─ notebook.js.es6
-│        ├─ templates/
-│        │  └─ notebook.hbs
-│        └─ notebook-route-map.js.es6
-└─ plugin.rb
-```
+- `notebook/`
+  - `app/`
+    - `controllers/`
+       - `notebook_controller.rb`
+  - `assets/`
+    - `javascripts/`
+       - `discourse/`
+          - `routes/`
+            - `notebook.js.es6`
+          - `templates/`
+            - `notebook.hbs`
+          - `notebook-route-map.js.es6`
+  - `plugin.rb`
 
 First of all, we need to set up a route for the path `/notebook` on both the server and the client side. Expanding the `plugin.rb` file, we define a new server-side route for `/notebook`. It will point to the notebook controller’s `index` method.
 
