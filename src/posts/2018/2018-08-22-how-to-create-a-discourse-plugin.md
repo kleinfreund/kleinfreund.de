@@ -1,5 +1,6 @@
 ---
 title: "How to create a Discourse plugin"
+description: "A thorough guide on developing a plugin for the Discourse forum software"
 date: 2018-08-22
 tags:
 - dev

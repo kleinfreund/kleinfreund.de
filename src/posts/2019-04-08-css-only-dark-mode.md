@@ -1,5 +1,6 @@
 ---
 title: CSS-only dark mode
+description: "An in-depth analysis of a CSS-only dark mode implementation by Mu-An Chiou and its further development using CSS custom properties"
 date: 2019-04-08
 tags:
 - dev
