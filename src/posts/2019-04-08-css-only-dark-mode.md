@@ -107,10 +107,8 @@ We need a checkbox and a *succeeding sibling* element of that checkbox so that w
 <input class="dark-mode-checkbox" id="dark-mode" type="checkbox">
 
 <div class="theme-container grow">
-  <label for="dark-mode">
-    <span class="dark-mode-label">
-      Dark mode
-    </span>
+  <label class="dark-mode-label" for="dark-mode">
+    Dark mode
   </label>
 
   Put all your content in here.
