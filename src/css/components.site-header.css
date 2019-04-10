@@ -3,12 +3,6 @@
   padding: var(--spacing);
 }
 
-.site-header a:hover,
-.site-header a:active {
-  color: var(--c-text);
-  transition-property: all;
-}
-
 @media only screen and (min-width: 1000px) {
   .site-header {
     display: flex;

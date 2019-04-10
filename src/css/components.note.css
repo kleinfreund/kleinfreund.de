@@ -34,29 +34,6 @@
     right: 100%;
     top: 50%;
     transform: translateY(-50%);
-    /* top: 0; */
-    /* transform: translate(50%, -50%); */
-    /* transform: translateX(50%); */
     font-size: 1.5em;
   }
 }
-
-/* .note:not(.marginalia) {
-  padding: calc(var(--spacing) / 4) calc(var(--spacing) / 2);
-  background-color: #d2f7ff;
-}
-
-@media only screen and (max-width: 999px) {
-  .note {
-    padding: calc(var(--spacing) / 4) calc(var(--spacing) / 2);
-    background-color: #d2f7ff;
-  }
-} */
-
-/* .note--info::before {
-  content: '\1f4a1' '\a0';
-}
-
-.note--warning::before {
-  content: '\26a0' '\a0';
-} */

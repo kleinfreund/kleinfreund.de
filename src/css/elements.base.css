@@ -4,7 +4,7 @@ body {
   line-height: var(--f-line-height);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: var(--c-text);
-  background-color: var(--c-theme);
+  background-color: var(--c-background);
 }
 
 /*
@@ -113,7 +113,7 @@ abbr[title] {
 
 mark {
   color: inherit;
-  background-color: hsl(150, 100%, 50%);
+  background-color: var(--c-mark-background);
 }
 
 /*

@@ -1,14 +1,65 @@
 :root {
-  --c-text: hsl(227, 100%, 20%);
+  /*
+  Light mode colors
+  */
+  --cl-text: hsl(227, 100%, 20%);
+  --cl-background: #fff;
 
-  --c-code-text: hsl(327, 100%, 40%);
-  --c-code-block-text: hsl(0, 100%, 100%);
-  --c-code-block-background: hsl(236, 20%, 15%);
+  --cl-focus: hsl(32, 100%, 55%);
+  --cl-interactive: hsl(150, 100%, 38%);
+  --cl-interactive-dark: hsl(150, 100%, 28%);
 
-  --c-interactive: hsl(150, 100%, 38%);
-  --c-interactive-dark: hsl(150, 100%, 28%);
+  --cl-code-text: hsl(327, 100%, 40%);
+  --cl-code-block-text: #fff;
+  --cl-code-block-background: hsl(236, 20%, 15%);
 
-  --c-note-background: hsl(185, 100%, 90%);
+  --cl-note-background: hsl(185, 100%, 90%);
+  --cd-mark-background: hsl(150, 100%, 50%);
 
-  --c-focus: hsl(32, 100%, 55%);
+  /*
+  Dark mode colors
+  */
+  --cd-text: #eee;
+  --cd-background: #121212;
+
+  --cd-focus: hsl(32, 100%, 55%);
+  --cd-interactive: hsl(327, 100%, 70%);
+  --cd-interactive-dark: hsl(327, 100%, 55%);
+
+  --cd-code-text: hsl(150, 100%, 38%);
+  --cd-code-block-text: #fff;
+  --cd-code-block-background: hsl(0, 0%, 15%);
+
+  --cd-note-background: #0a0a0a;
+  --cd-mark-background: hsl(22, 99%, 34%);
+}
+
+/* Set default theme to light theme */
+:root {
+  --c-text: var(--cl-text);
+  --c-background: var(--cl-background);
+  --c-focus: var(--cl-focus);
+  --c-interactive: var(--cl-interactive);
+  --c-interactive-dark: var(--cl-interactive-dark);
+  --c-code-text: var(--cl-code-text);
+  --c-code-block-text: var(--cl-code-block-text);
+  --c-code-block-background: var(--cl-code-block-background);
+  --c-note-background: var(--cl-note-background);
+  --c-mark-background: var(--cl-mark-background);
+}
+
+/* Override default theme with dark theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --c-text: var(--cd-text);
+    --c-background: var(--cd-background);
+    --c-focus: var(--cd-focus);
+    --c-interactive: var(--cd-interactive);
+    --c-interactive-dark: var(--cd-interactive-dark);
+    --c-code-text: var(--cd-code-text);
+    --c-code-block-text: var(--cd-code-block-text);
+    --c-code-block-background: var(--cd-code-block-background);
+    --c-note-background: var(--cd-note-background);
+    --c-mark-background: var(--cd-mark-background);
+  }
 }

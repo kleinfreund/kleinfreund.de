@@ -7,10 +7,7 @@
 }
 
 a {
-  text-decoration: none;
-  color: inherit;
-  border-bottom: 0.1em solid var(--c-interactive);
-  padding-bottom: 0.1em;
+  color: var(--c-interactive);
 }
 
 /*
@@ -19,7 +16,5 @@ a {
 a:hover,
 a:active {
   outline: none; /* 1 */
-  border-bottom-color: var(--c-interactive-dark);
-  /* background-color: var(--c-interactive); */
-  /* transition: background-color 0.2s ease-out; */
+  color: var(--c-interactive-dark);
 }
