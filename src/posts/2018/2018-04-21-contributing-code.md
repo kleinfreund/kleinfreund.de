@@ -10,7 +10,7 @@ One task where it easily gets complicated is contributing code to an open source
 
 *Disclaimer*: This article only covers a cross section of what one can and should do with git. I always struggle with remembering the *correct git strategies* when contributing to open source projects. These are my observations and things I learned along the way. git is complicated. I don’t like it very much, but it’s powerful and useful to me. Maybe the following helps you wrap your head around all this overly complex matter.
 
-### Table of contents
+## Table of contents
 
 - [The scenario](#the-scenario)
 - [Setting up](#setting-up)
@@ -23,7 +23,7 @@ One task where it easily gets complicated is contributing code to an open source
 - [Engage](#engage)
 - [TL;DR](#tl-dr)
 
-### The scenario
+## The scenario
 
 - **Original**: A repository that we don’t own.
 - **Fork**: A (remote) copy of the original. That one we own.
@@ -33,7 +33,7 @@ What *is* the scenario?
 
 We want to contribute code to a repository (the original). For that purpose, we create a copy of that repository (called a fork). In order for the maintainer of the original to see our contribution, that fork needs to be accessible online (atleast for the scope of this article it has to be). That’s why both the original and the fork are also called remote repositories. They are not on our machine but somewhere remote.
 
-### Setting up
+## Setting up
 
 Now, I will just assume that we do not want to work on the fork online. Maybe you have your forks on your own web server with your own git and your own online code editor and you do, but *we* (as in *we*, the people following the scope of this article) don’t. So we need a local copy of the code: A local repository, not remote. These are the steps:
 
@@ -68,7 +68,7 @@ You know what? If I call it “original”, I shouldn’t use the name “origin
 git remote rename origin fork
 ```
 
-### Losing touch
+## Losing touch
 
 While we work on our contribution, the original will change. The repositories we own will diverge from the original over time.
 
@@ -80,7 +80,7 @@ Ideally, the difference between the original and the fork are just our contribut
 
 To avoid trouble and frustation, it’s important to keep the state of a fork as close as possible to the state of the original.
 
-### Synchronizing a fork
+## Synchronizing a fork
 
 Synchronizing a fork means updating the fork’s diverged state so that it matches the state of the original. But wait, we already worked on our contribution in our local clone. We need to take this into account.
 
@@ -92,7 +92,7 @@ Let’s get the changes from the original repository:
 git fetch original
 ```
 
-#### Merging
+### Merging
 
 We could *merge* the two states in order to synchronize our clone with the original.
 
@@ -104,7 +104,7 @@ git merge original/master
 
 After a successful merge, a merge commit will be created, indicating that a merge happened and that it was successful. Some git people don’t like that because it sometimes creates *pointless* commits. In the case of merging two states that are compatible, it seems noisey to have an extra commit saying “Hey, I’m now up-to-date with the original”.
 
-#### Rebasing
+### Rebasing
 
 We could also *rebase* the state of our clone onto the state of the original.
 
@@ -116,11 +116,11 @@ After a successful rebase, our clone looks like we created it from a fork that w
 
 That’s just a minor issue, but rebasing can lead to dangerous results. To avoid most of the dangerous outcomes, only ever rebase your local state onto the state of the original, not the other way round. The section [“The Golden Rule of Rebasing”](https://www.atlassian.com/git/tutorials/merging-vs-rebasing#the-golden-rule-of-rebasing) from the article [“Merging vs. Rebasing”](https://www.atlassian.com/git/tutorials/merging-vs-rebasing) has a good explanation and example for this scenario.
 
-#### To merge or to rebase?
+### To merge or to rebase?
 
 As a loose rule of thumb, I synchronize a fork with the original by merging if there are conflicts and by rebasing if there are no conflicts.
 
-### Let it be known
+## Let it be known
 
 Right now, we just synchronized our clone, the local copy of our fork. To finalize our task and synchronize the fork with the original, we need to push our changes from the clone to the fork.
 
@@ -138,13 +138,13 @@ git push --force-with-lease
 
 If you work alone on the fork and only have one clone, you can use `--force`; otherwise, use `--force-with-lease`.
 
-### Engage
+## Engage
 
 The fork is now up-to-date with the original. We can now submit our contribution in the form of a pull request.
 
 When submitting a pull request, it’s important to describe your contribution. Have you changed critical aspects of the project? Does your pull request depend on another pull request that hasn’t been merged? Be detailed but not verbose. It can be very tedious and hard work to review big contributions.
 
-### TL;DR
+## TL;DR
 
 **Default**:
 

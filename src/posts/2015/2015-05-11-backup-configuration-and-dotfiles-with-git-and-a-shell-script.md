@@ -8,7 +8,7 @@ A few months ago, the harddrive of my previous laptop died on me, but I could wo
 
 Notice, that the script is adjusted to my personal needs and the software I use. It should work on your machine, but I haven’t tested it anywhere apart from my own environments.
 
-### What is the script doing?
+## What is the script doing?
 
 The script is meant to be executed from within the target repository containing the configuration files. Thus, it first checks if the directory is actually a Git repository and whether there is a .git directory indicating that we’re indeed at the root of the repo.
 
@@ -23,7 +23,7 @@ Now I try to detect which operating system is in use. That’s because I keep th
 
 After that, I create directories for every tool within the repo. For example the Bash files for Ubuntu end up in `${REPO_PATH}linux/bash/`. Finally, general copy commands for every file are issued. Since the files where Sublime Text stores its keybindings in are OS-dependant, I use the `OS` variable I previously assigned to execute the right commands. That’s it, `echo "Completed."`.
 
-### Possible problems
+## Possible problems
 
 The script _assumes_ the locations of the configuration and dotfiles based on my experience. These might be different on other or future environments. I don’t know of a more reliable way for determining the correct paths, but that’s not too big of a deal breaker.
 

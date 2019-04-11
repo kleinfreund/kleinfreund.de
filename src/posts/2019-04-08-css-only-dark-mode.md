@@ -17,7 +17,7 @@ The [CSS-only dark mode](https://codepen.io/kleinfreund/pen/bJwqpB) we’re buil
 
 
 
-### Interface design
+## Interface design
 
 Consider the choice of the interactive element from an interface design perspective. The objective is to switch between two states, dark mode disabled and dark mode enabled. Optionally, that state is saved across sessions. The available components that are suitable for such a task are checkboxes, switches, and toggles. All three allow the correct form of interaction where the initial state is “dark mode, not enabled”, and by interacting with the control, the state is changed to “dark mode, enabled”.
 
@@ -31,7 +31,7 @@ A [quick rundown on when the three controls we discussed save their state](https
 
 
 
-### Design objectives & constraints
+## Design objectives & constraints
 
 I assume Mu-An chose a checkbox for one reason: Both switches and toggles require JavaScript to work; thus, it would not be possible to provide a dark mode to users who have JavaScript disabled. For a pure CSS implementation, however, it’s necessary to observe a user interacting with the page from within a stylesheet. Let’s have a look at some options.
 
@@ -41,7 +41,7 @@ The only reasonable choice is the [`:checked` pseudo-class selector](https://dev
 
 
 
-### The cascade and branch hopping
+## The cascade and branch hopping
 
 Before we look into the actual theming of a web page, I will take a step back and elaborate on some technical constraints imposed on web developers by the way CSS and its selectors work.
 
@@ -99,7 +99,7 @@ Now, I don’t know about you, but I think that’s immensely cool. Checking the
 
 
 
-### The basic markup
+## The basic markup
 
 We need a checkbox and a *succeeding sibling* element of that checkbox so that we can alter the sibling element via the `:checked` pseudo-class selector.
 
@@ -121,7 +121,7 @@ As its name suggests, the `div.theme-container` will be used to switch the color
 
 
 
-### Theming with custom properties
+## Theming with custom properties
 
 That’s right, CSS custom properties 🤗. We will make use of the cascade and the fact that all custom properties are inherited. The following CSS shows how, based on the checkbox’s checked state, we override a set of custom properties responsible for the color theme.
 
@@ -177,7 +177,7 @@ The ruleset for links sets the `color` property with a general custom property. 
 
 
 
-### Move the checkbox to the dark side
+## Move the checkbox to the dark side
 
 Currently, the checkbox and its label aren’t visually associated with each other. Also, the checkbox is unaffected by our theme. This is an unfortunate tradeoff with the CSS-only dark mode. We will supply an alternative box next to the label and visually hide the original.
 
@@ -227,7 +227,7 @@ https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
 
 
 
-### Cover the full viewport
+## Cover the full viewport
 
 You might notice how the dark theme doesn’t cover the whole viewport with a dark background color. This problem was surprisingly hard to workaround before we had access to flexbox. Now, searching for “CSS sticky footer” should give you a variety of ways to tackle this. Here is one:
 
@@ -271,7 +271,7 @@ body {
 
 
 
-### Store the user’s preference
+## Store the user’s preference
 
 Just a couple of lines of JavaScript are needed to save the current mode in the user’s browser. When they re-visit the page, the mode that was selected the last time they visited will be used.
 

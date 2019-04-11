@@ -43,13 +43,13 @@
 </head>
 <body>
 
-  <header class="site-header">
-    <h1 class="site-title">
-      <a href="{{ '/' | url }}">kleinfreund.de</a>
-    </h1>
-
+  <header>
     <ul class="site-nav">
-      {% for page in collections.pages reversed %}
+      <li class="site-nav__item">
+        <a href="{{ '/' | url }}">kleinfreund.de</a>
+      </li>
+
+      {% for page in collections.pages %}
         <li class="site-nav__item">
           <a href="{{ page.url }}">{{ page.data.title }}</a>
         </li>

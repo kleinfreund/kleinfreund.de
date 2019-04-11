@@ -7,25 +7,29 @@ pagination:
   size: 5
   reverse: true
 ---
-<div class="post-list">
+<h1 class="visually-hidden">Articles</h1>
+
+<ul class="post-list">
   {%- for post in pagination.items -%}
-  <article class="post">
+  <li>
+    <article class="post">
 
-    {% include '_includes/partials/timestamp.liquid', date: post.date %}
+      {% include '_includes/partials/timestamp.liquid', date: post.date %}
 
-    <h2>
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ post.data.title }}</a>
-      {% else %}
-        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-      {% endif %}
-    </h2>
+      <h2>
+        {% if post.link %}
+          <a href="{{ post.link }}">{{ post.data.title }}</a>
+        {% else %}
+          <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+        {% endif %}
+      </h2>
 
-    {% excerpt post %}
+      {% excerpt post %}
 
-  </article>
+    </article>
+  </li>
   {%- endfor -%}
-</div>
+</ul>
 
 {% if pagination.pageLinks.length > 1 %}
 <nav class="pagination">

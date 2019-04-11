@@ -13,7 +13,7 @@ Setting up Ubuntu is tedious. It doesn’t do a good job of getting out of your 
 
 In order to answer these questions, I took notes and put them in a text document inside my home directory. Here is my `ubuntu-setup.md`.
 
-### Table of Contents
+## Table of Contents
 
 - [Software](#software)
   - [Google Chrome](#google-chrome)
@@ -31,9 +31,9 @@ In order to answer these questions, I took notes and put them in a text document
   - [Disable mouse wheel click minimizing windows](#disable-mouse-wheel-click-minimizing-windows)
   - [Disable global <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Up Arrow</kbd>/<kbd>Down Arrow</kbd> keybindings](#disable-global-kbd-ctrl-kbd-kbd-alt-kbd-kbd-up-arrow-kbd-wbr-kbd-down-arrow-kbd-keybindings)
 
-### Software
+## Software
 
-#### Google Chrome
+### Google Chrome
 
 ```
 wget -qO - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
@@ -44,7 +44,7 @@ sudo apt install google-chrome-stable
 
 (Source: [Ask Ubuntu: How to install Google Chrome](https://askubuntu.com/a/510186))
 
-#### Git
+### Git
 
 ```
 sudo add-apt-repository ppa:git-core/ppa
@@ -54,7 +54,7 @@ sudo apt-get install git
 
 (Source: [Ask Ubuntu: How do I install the latest version of Git with apt?](https://askubuntu.com/a/568596/337853))
 
-#### Visual Studio Code
+### Visual Studio Code
 
 Open [code.visualstudio.com/Download](https://code.visualstudio.com/Download) and download the `.deb` file. Install it with `dpkg` as shown below. You have to adjust the file name.
 
@@ -62,7 +62,7 @@ Open [code.visualstudio.com/Download](https://code.visualstudio.com/Download) an
 sudo dpkg --install code_1.16.1-150540649x_amd64.deb
 ```
 
-#### Sublime Text
+### Sublime Text
 
 Follow [the instructions on the Sublime Text website](https://www.sublimetext.com/docs/3/linux_repositories.html).
 
@@ -76,7 +76,7 @@ sudo apt update
 sudo apt install sublime-text
 ```
 
-#### Gnome Tweak Tool
+### Gnome Tweak Tool
 
 ```
 sudo apt update
@@ -84,9 +84,9 @@ sudo apt install gnome-tweak-tool
 ```
 
 
-### General Settings
+## General Settings
 
-#### Global file associations
+### Global file associations
 
 Ubuntu uses gedit as its default text editor. To associate files that are opened in gedit with another program, one needs to adjust the file `/usr/share/applications/defaults.list`. Replace all occurences of `gedit.desktop` with the file name that is being associated with your preferred application. The new file name needs to refer to a file that exists in the same directory, e.g.:
 
@@ -116,7 +116,7 @@ xdg-mime query default text/plain
 xdg-mime default code.desktop text/plain
 ```
 
-#### Disable touchpad when mouse is connected
+### Disable touchpad when mouse is connected
 
 It puzzles me that this is not a setting available in the settings. The following unfortunately is not very reliable. It also doesn’t communicate the touchpad state to System Settings.
 
@@ -138,7 +138,7 @@ gsettings reset org.gnome.desktop.peripherals.touchpad send-events
 gsettings list-recursively org.gnome.desktop.peripherals.touchpad
 ```
 
-#### Disable account locking when closing the laptops’ lid
+### Disable account locking when closing the laptops’ lid
 
 Again, why is this not easily configurable?
 
@@ -154,13 +154,13 @@ sudo sed -i 's/IgnoreLid=true/IgnoreLid=false/g' /etc/UPower/UPower.conf
 service upower restart
 ```
 
-#### Disable tab/application switching on mouse wheel
+### Disable tab/application switching on mouse wheel
 
 This one isn’t currently possible. This feature is very annoying to me, as I use my mouse wheel to open links in a new tab very often. This behavior makes me switch browser tabs by accident just by turning the mouse wheel a little.
 
 It’s not a good idea to use the mouse wheel turn for any kind of distinct interaction like switching a tab or navigating the browser history because the metaphor is wrong. A wheel affords turning, adjusting values on a scale. Instead, it works well for smooth adjustments to a value (e.g. scrolling, zooming, controlling volume levels).
 
-#### Disable screenshot sound
+### Disable screenshot sound
 
 ```sh
 sudo mv /usr/share/sounds/freedesktop/stereo/screen-capture.oga \
@@ -174,7 +174,7 @@ sudo mv /usr/share/sounds/freedesktop/stereo/screen-capture-backup.oga \
         /usr/share/sounds/freedesktop/stereo/screen-capture.oga
 ```
 
-#### Disable dots covering the wallpaper in the login screen
+### Disable dots covering the wallpaper in the login screen
 
 If you think your wallpaper should have dots on a grid, edit the graphic itself, but don’t put them on top of my [beautiful Firewatch wallpaper](http://blog.camposanto.com/post/138965082204/firewatch-launch-wallpaper-when-we-redid-the). That’s certainly nothing an operating system should do on my behalf.
 
@@ -194,7 +194,7 @@ gsettings reset com.canonical.unity-greeter draw-grid
 exit
 ```
 
-#### Disable mouse wheel click minimizing windows
+### Disable mouse wheel click minimizing windows
 
 ```
 gsettings set org.gnome.desktop.wm.preferences action-middle-click-titlebar 'none'
@@ -206,7 +206,7 @@ gsettings set org.gnome.desktop.wm.preferences action-middle-click-titlebar 'non
 gsettings reset org.gnome.desktop.wm.preferences action-middle-click-titlebar
 ```
 
-#### Disable global <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Up Arrow</kbd>/<wbr><kbd>Down Arrow</kbd> keybindings
+### Disable global <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Up Arrow</kbd>/<wbr><kbd>Down Arrow</kbd> keybindings
 
 Sublime Text trained my muscle memory, so <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Up Arrow</kbd> and<kbd>Down Arrow</kbd> are already reserved. Ubuntu, you shall obey.
 

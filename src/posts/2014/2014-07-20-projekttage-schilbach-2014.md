@@ -10,7 +10,7 @@ Einmal im Jahr lassen Schüler des [BSZ e.o.plauen](http://bsz-eoplauen.de/) in 
 
 Dass nicht nur die kreative Sau ’mal mit dem einen oder anderen durchgeht, brauche ich nicht weiter zu erläutern. Die Woche war aber sonst durch und durch superduper. _The kids were alright last week_. Das waren sie wirklich.
 
-### Druckgrafik
+## Druckgrafik
 
 [Andreas Rudloff](http://andreas.artrudloff.de/) arbeitet mit den Schülern in der traditionellen Technik der Radierung. Zeichnungen mit Salpetersäure und Zinkplatten.
 
@@ -21,7 +21,7 @@ Dass nicht nur die kreative Sau ’mal mit dem einen oder anderen durchgeht, bra
 
 Wahrscheinlich nur weil ich ein unverschämter Glückspilz bin, bekam ich einen der Drucke des Wolpertingers von Julia geschenkt. Finde den richtig stark und werden ihn mir rahmen lassen. Kommt in die Wohnung.
 
-### Lochkamera
+## Lochkamera
 
 Völlig analog entstehen Fotografien mit [selbst gebauten Lochkameras](https://www.flickr.com/photos/kleinfreund/14687429514/in/set-72157645775493805) aus Pappe, die in einer Dunkelkammer entwickelt werden. Das Ganze wird von André Köhler begleitet.
 
@@ -32,7 +32,7 @@ Eine kleine Auswahl meiner Arbeiten aus dieser Woche habe ich in Form eines [Fli
   <figcaption>Brunnen (Negativ und Positiv) von Ruben Odewole</figcaption>
 </figure>
 
-### Experiment: Papier und Farbe
+## Experiment: Papier und Farbe
 
 Die Teilnehmer arbeiten mit farbigen Tuschen und Wachs auf Japan- und Seidenpapieren. Mit der Anleitung von [Anke Rudloff](http://anke.artrudloff.de/) entstehen großzügige Malereien auf großem Format.
 
@@ -41,7 +41,7 @@ Die Teilnehmer arbeiten mit farbigen Tuschen und Wachs auf Japan- und Seidenpapi
   <figcaption>Jamie Lang im schweißtreibenden Einsatz</figcaption>
 </figure>
 
-### Comic
+## Comic
 
 Mit Zeichnungen erzählen die Schüler Bildergeschichten, die schließlich gedruckt als Comics entstehen. Begleitet wird das von der freiberuflichen Illustratorin Christina Röckl aus Leipzig.
 
@@ -50,7 +50,7 @@ Mit Zeichnungen erzählen die Schüler Bildergeschichten, die schließlich gedru
   <figcaption>Comics im Entstehen. Der letzte Keks wurde gemein vor meinen Augen verspissen.</figcaption>
 </figure>
 
-### Malerei
+## Malerei
 
 Die Teilnehmer entwickeln mit Reiner Bittner zufällige Formen und Strukturen, die dann Kraft der Fantasie zu Landschaften und Figuren werden.
 
@@ -59,7 +59,7 @@ Die Teilnehmer entwickeln mit Reiner Bittner zufällige Formen und Strukturen, d
   <figcaption>Bild von Leon Zschächner (Acryl)</figcaption>
 </figure>
 
-### Leder
+## Leder
 
 Aus eigenen Designs entstehen Ledertaschen mit Steffi Ehrhardt. Über echte Handarbeit kommt man am Ende zu einem handfesten Produkt.
 

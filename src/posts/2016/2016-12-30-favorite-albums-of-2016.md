@@ -14,7 +14,7 @@ For me it felt a bit like there was *less* music this year. I just had other thi
 
 
 
-### [Gold Panda – Good Luck And Do Your Best](https://goldpanda.bandcamp.com/album/good-luck-and-do-your-best)
+## [Gold Panda – Good Luck And Do Your Best](https://goldpanda.bandcamp.com/album/good-luck-and-do-your-best)
 
 ![Gold Panda – Good Luck And Do Your Best album artwork](/img/posts/albums-2016/good-luck-and-do-your-best.jpg)
 
@@ -26,7 +26,7 @@ And then there is “Time Eater” and the cover version by [Ssighborggg](https:
 
 
 
-### [Bon Iver – 22, A Million](https://boniver.bandcamp.com/album/22-a-million)
+## [Bon Iver – 22, A Million](https://boniver.bandcamp.com/album/22-a-million)
 
 ![Bon Iver – 22, A Million album artwork](/img/posts/albums-2016/22-a-million.jpg)
 
@@ -36,7 +36,7 @@ Or sitting besides you and start singing “I’d be happy as hell if you’d st
 
 
 
-### [BADBADNOTGOOD – IV](https://badbadnotgoodil.bandcamp.com/album/iv)
+## [BADBADNOTGOOD – IV](https://badbadnotgoodil.bandcamp.com/album/iv)
 
 ![BADBADNOTGOOD – IV album artwork](/img/posts/albums-2016/iv.jpg)
 
@@ -44,7 +44,7 @@ Or sitting besides you and start singing “I’d be happy as hell if you’d st
 
 
 
-### [Various Artists – Furi Original Soundtrack](https://furi.bandcamp.com/album/furi-original-soundtrack)
+## [Various Artists – Furi Original Soundtrack](https://furi.bandcamp.com/album/furi-original-soundtrack)
 
 ![Furi Original Soundtrack album artwork](/img/posts/albums-2016/furi-ost.jpg)
 
@@ -52,7 +52,7 @@ After last year’s ear-opening [Crypt of the Necrodancer soundtrack](https://db
 
 
 
-### [Grand Killa Con – La Barranca](https://drmdlr.bandcamp.com/album/la-barranca)
+## [Grand Killa Con – La Barranca](https://drmdlr.bandcamp.com/album/la-barranca)
 
 ![Grand Killa Con – La Barranca album artwork](/img/posts/albums-2016/la-barranca.jpg)
 
@@ -60,7 +60,7 @@ When it comes to hip hop, I’m often conflicted. Most of the stuff that’s aro
 
 
 
-### [Mammal Hands – Floa](https://mammalhands.bandcamp.com/album/floa)
+## [Mammal Hands – Floa](https://mammalhands.bandcamp.com/album/floa)
 
 ![Mammal Hands – Floa album artwork](/img/posts/albums-2016/floa.jpg)
 
@@ -68,7 +68,7 @@ That’s … simply consistent. Hard to pick favorite tracks here. Or least-favo
 
 
 
-### [Angel Olsen – My Woman](https://angelolsen.bandcamp.com/album/my-woman)
+## [Angel Olsen – My Woman](https://angelolsen.bandcamp.com/album/my-woman)
 
 ![Angel Olsen – My Woman album artwork](/img/posts/albums-2016/my-woman.jpg)
 
@@ -76,7 +76,7 @@ How can a performance like “Shut Up Kiss Me” not leave a strong impression o
 
 
 
-### [Fakear – Vegetal: Offshoots](https://fakear.bandcamp.com/album/vegetal-offshoots)
+## [Fakear – Vegetal: Offshoots](https://fakear.bandcamp.com/album/vegetal-offshoots)
 
 ![Vegetal: Offshoots album artwork](/img/posts/albums-2016/vegetal-offshoots.jpg)
 
@@ -86,7 +86,7 @@ The first late addition to this list. Straight from the Bandcamp Top-100 via wis
 
 
 
-### [Chris Remo – Firewatch Original Score](https://camposantogames.bandcamp.com/album/firewatch-original-score)
+## [Chris Remo – Firewatch Original Score](https://camposantogames.bandcamp.com/album/firewatch-original-score)
 
 ![Firewatch Original Score album artwork](/img/posts/albums-2016/firewatch-ost.jpg)
 
@@ -96,7 +96,7 @@ Anyway, this record is just as beautiful as it gets. Or as beautiful as the expe
 
 
 
-### [A Tribe Called Quest – We got it from Here… Thank You 4 Your service](https://play.spotify.com/album/3WvQpufOsPzkZvcSuynCf3)
+## [A Tribe Called Quest – We got it from Here… Thank You 4 Your service](https://play.spotify.com/album/3WvQpufOsPzkZvcSuynCf3)
 
 ![A Tribe Called Quest – We got it from Here… Thank You 4 Your service album artwork](/img/posts/albums-2016/we-got-it-from-here.jpg)
 
@@ -104,7 +104,7 @@ Before I only was aware of the fact that there is something with the name “A T
 
 
 
-### [Olga Bell – Tempo](https://bell.bandcamp.com/album/tempo)
+## [Olga Bell – Tempo](https://bell.bandcamp.com/album/tempo)
 
 ![Olga Bell – Tempo album artwork](/img/posts/albums-2016/tempo.jpg)
 
@@ -114,7 +114,7 @@ This is what I call refreshing. It’s is very much the eclectic electronic pop 
 
 
 
-### [SubRosa – For This We Fought The Battle Of Ages](https://profoundlorerecords.bandcamp.com/album/for-this-we-fought-the-battle-of-ages)
+## [SubRosa – For This We Fought The Battle Of Ages](https://profoundlorerecords.bandcamp.com/album/for-this-we-fought-the-battle-of-ages)
 
 ![For This We Fought The Battle Of Ages album artwork](/img/posts/albums-2016/for-this-we-fought-the-battle-of-ages.jpg)
 

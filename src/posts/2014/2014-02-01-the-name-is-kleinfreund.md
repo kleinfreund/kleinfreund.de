@@ -10,7 +10,7 @@ It all began with the final project in our web design class during my apprentice
 
 That’s something I kept on cold storage for a long time now. Roughly outlined in my mind, I imagined a purely static and minimalistic site. On my way I took a rather big swing.
 
-### While we’re at it …
+## While we’re at it …
 
 Why not have a look on the things the cool young kids use these days. Instead of using vanilla HTML and CSS, I ended up with a more powerful set of tools on my belt:
 

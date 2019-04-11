@@ -17,7 +17,7 @@ A no-brainer, but the player needs to be able to handle ID3 meta tags properly. 
 
 The reason why the handling of album artists is so important to me is simple: I have a lot of tracks (around 800) that are not part of an album or compilation. For these tracks I set the album artist field to `Various Artists`. Now when I simply sort any view by artist, every artist of my single tracks will show up. This is no good. However sorting by album artist solves this problem, because from previously hundreds of additional artists in my list this is cut down to one: Various Artists. Same rule applies to mixtapes.
 
-### Zukunftsmusik – A Pie in the Sky
+## Zukunftsmusik – A Pie in the Sky
 
 There is something that is not handled properly by any software I know: Multiple artists. It’s common practice to drop the additional artist(s) in parenthesis behind the title (i.e. `Gorillaz – Empire Ants (feat. Little Dragon)`).
 
@@ -25,7 +25,7 @@ This results in a title field that holds the title plus additional artists. My p
 
 Now this is useful not only because it has a clear structure, but also there is no trouble when dealing with remixes or covers by multiple artists. One day, music players are hopefully able to specify and handle multiple artists. Back to topic. Let’s have a look at some actual players.
 
-### Media Monkey
+## Media Monkey
 
 When [downloading Media Monkey](http://www.mediamonkey.com/download/), the website looks like it wants to scam you. I went with the free version anyway.
 
@@ -43,7 +43,7 @@ Media Monkey is a somewhat big name and has many features. It understands album 
 
 I’m not a fan of the appearance of Media Monkey. The skins look stale, they have the typical 2005-ish music player look to them. Why is the text in the album view underlined? What’s up with these control elements in the bottom left corner? Alright, what’s next?
 
-### Tomahawk
+## Tomahawk
 
 Fancy-shmancy [website](https://www.tomahawk-player.org/) with very little information on what the features are. But have you seen the logo? That’s a good-looking and simple logo right there. Nice.
 
@@ -60,7 +60,7 @@ The metadata editing capability is also very lackluster. It allows changing titl
 
 Also, closing Tomahawk is not closing Tomahawk. I hate when applications on Windows do that. I’m looking at you, Skype (Skype, a product owned by the very same company who makes the operating system. Argh!). Up next we’re looking at Helium Music Manager.
 
-### Helium Music Manager
+## Helium Music Manager
 
 Very similar to Media Monkey from the look’n’feel perspective. You can [get it here](http://www.helium-music-manager.com/download/). The website is informative and well structured. Since it is so similar to Media Monkey, I’ll skip the parts that did not change.
 
@@ -73,17 +73,17 @@ It looks like Helium is able to customize the album view further, but only when 
 
 Another downside is that you’re not able to display all all album artists via the music explorer at once. You need to pick a starting letter. Working around this is possible by going to *Entire library* and sorting by artist which actually seems to sort by album artists instead. Maybe these features are only available in the premium version as well. More on the premium topic in a bit. Just let me tell you real quick what else I tried.
 
-### Other players
+## Other players
 
 I tried [Winamp](http://www.winamp.com/) – for the sake of the good ol’ days – but, oh well, this thing is seriously dead. A couple of months ago, I gave [foobar2000](http://www.foobar2000.org/) a try. It was a mess to be honest. It’s highly customizable packed full with features, but I couldn’t figure out how to achieve what I wanted.
 
 If you can suggest other good alternatives, write me on [Twitter](https://twitter.com/kleinfreund). Or write your own article. Did you switch to streaming entirely, yet? What are you doing with your music?
 
-### Premium
+## Premium
 
 Now paying for music software is definitely worth considering when you have the same high demands as I do. I love to pay for an application if it’s worth it. However, if there is no way to test the premium version before paying, how am I supposed to decide whether it fits my needs? As far as I can tell, Helium does not offer such a test version, which is kinda sad. I don’t need any of the Media Monkey features, so I would only buy the gold version, if I was really using it.
 
-### Résumé
+## Résumé
 
 I am not retiring iTunes for now. It served me well, although it has many quirks and – oh boy – is the media information window broken on Windows. Just to give you an idea of what I have to deal with when tagging files in iTunes:
 

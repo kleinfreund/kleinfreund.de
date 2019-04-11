@@ -11,18 +11,10 @@ I’m a web developer from Weimar, Germany. Currently, I’m studying Computer S
   <img src="/img/me.jpg" alt ="Portrait of the author" style="position: absolute;">
 </p>
 
-I write lots of HTML, CSS and JavaScript with a focus on accessibility.
+In summer, I will start a job as a frontend developer at SendCloud and move to Eindhoven in the Netherlands.
 
-- Web applications:
-  - [Slidehub](https://github.com/webis-de/slidehub) (for [Webis group](https://webis.de) at Bauhaus-Universität Weimar)
-  - [Disraptor](https://github.com/disraptor/disraptor) (for [Webis group](https://webis.de) at Bauhaus-Universität Weimar)
-  - [hyperlink.cool](https://hyperlink.cool/) (for my fellow computer science students at BUW 🔗💕)
-- Node packages:
-  - [reverse-iterable-map](https://www.npmjs.com/package/reverse-iterable-map)
-  - [reverse-iterable-array](https://www.npmjs.com/package/reverse-iterable-array)
-  - [reverse-iterable-set](https://www.npmjs.com/package/reverse-iterable-set)
 
-I contributed code to open source projects such as [WAI-ARIA Authoring Practices](https://github.com/w3c/aria-practices), [Discourse](https://github.com/discourse/discourse/), [Sublime Text Packages](https://github.com/sublimehq/Packages/), [Jekyll](https://github.com/jekyll/jekyll) and [Clementine](https://github.com/clementine-player/Clementine).
+I primarily write HTML, CSS, and JavaScript with a focus on accessibility. Find more details in my [CV](/cv).
 
 ---
 

@@ -10,7 +10,7 @@ There are good news. The domain <a href="http://musigh.com">musigh.com</a> got r
 
 I will put the direct link to SoundCloud, YouTube, etc. below and also the links to the artists websites if I find them. Thumbs up to Bandcamp for having responsive players.
 
-### LISS – Try
+## LISS – Try
 
 <figure>
   <div class="embedded-media" style="--width: 960; --height: 166;">
@@ -19,14 +19,14 @@ I will put the direct link to SoundCloud, YouTube, etc. below and also the links
   <figcaption>on <a href="https://soundcloud.com/liss2014/try/">SoundCloud</a> · via <a href="http://fuckyouverymuch.dk/post/106547379190/we-listen-to-liss">fuck you very much</a></figcaption>
 </figure>
 
-### Ghost Feet – Bog
+## Ghost Feet – Bog
 
 <figure>
   <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2367195171/size=small/bgcol=ffffff/track=2183804182/transparent=true/" seamless>Ghost Feet – Bog</iframe>
   <figcaption>on <a href="https://droppinggems.bandcamp.com/track/bog">Bandcamp</a></figcaption>
 </figure>
 
-### Cat Power – (I Can’t Get No) Satisfaction
+## Cat Power – (I Can’t Get No) Satisfaction
 
 <figure>
   <div class="embedded-media">

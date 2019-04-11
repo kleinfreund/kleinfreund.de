@@ -10,7 +10,7 @@ Now the big one. My ten favorite albums of the year 2015. It’s been a great ye
 
 
 
-### 10. [Elite Beat – Casual Rhythms Vol. 1](https://boomarmnation.bandcamp.com/album/casual-rhythms-vol-1)
+## 10. [Elite Beat – Casual Rhythms Vol. 1](https://boomarmnation.bandcamp.com/album/casual-rhythms-vol-1)
 
 ![](/img/posts/albums-2015/10.jpg)
 
@@ -18,7 +18,7 @@ The first time I consciously paid attention that I was listening to beat music (
 
 
 
-### 9. [Adventures – Supersonic Home](https://runforcoverrecords.bandcamp.com/album/supersonic-home)
+## 9. [Adventures – Supersonic Home](https://runforcoverrecords.bandcamp.com/album/supersonic-home)
 
 ![](/img/posts/albums-2015/09.jpg)
 
@@ -26,7 +26,7 @@ The first time I consciously paid attention that I was listening to beat music (
 
 
 
-### 8. [Cloud – Zen Summer](https://papertrailrecords.bandcamp.com/album/zen-summer)
+## 8. [Cloud – Zen Summer](https://papertrailrecords.bandcamp.com/album/zen-summer)
 
 ![](/img/posts/albums-2015/08.jpg)
 
@@ -34,7 +34,7 @@ If I had to pick a soundtrack for the last summer, this is it. Now that I relist
 
 
 
-### 7. [Amin Payne – SAFFRON](https://aminpayne.bandcamp.com/album/saffron)
+## 7. [Amin Payne – SAFFRON](https://aminpayne.bandcamp.com/album/saffron)
 
 ![](/img/posts/albums-2015/07.jpg)
 
@@ -42,7 +42,7 @@ Earlier this year we had a lodger originally coming from Teheran who recognized 
 
 
 
-### 6. [Sufjan Stevens – Carrie &amp; Lowell](http://music.sufjan.com/album/carrie-lowell)
+## 6. [Sufjan Stevens – Carrie &amp; Lowell](http://music.sufjan.com/album/carrie-lowell)
 
 ![](/img/posts/albums-2015/06.jpg)
 
@@ -50,7 +50,7 @@ Although I’m writing this in a small café in the late afternoon, I immediatel
 
 
 
-### 5. [Polynation – Allogamy](https://atomnation.bandcamp.com/album/allogamy)
+## 5. [Polynation – Allogamy](https://atomnation.bandcamp.com/album/allogamy)
 
 ![](/img/posts/albums-2015/05.jpg)
 
@@ -58,7 +58,7 @@ Released on what is easily my favorite label of the year, [Atomnation](https://a
 
 
 
-### 4. [The Raah Project – Take Me Elsewhere](https://theraahproject.bandcamp.com/album/take-me-elsewhere)
+## 4. [The Raah Project – Take Me Elsewhere](https://theraahproject.bandcamp.com/album/take-me-elsewhere)
 
 ![](/img/posts/albums-2015/04.jpg)
 
@@ -66,7 +66,7 @@ Also one of the earlier releases of the year, this kept growing on me. Liked it 
 
 
 
-### 3. [Nubiyan Twist (self-titled)](https://wormfoodrecords.bandcamp.com/album/nubiyan-twist-wf103)
+## 3. [Nubiyan Twist (self-titled)](https://wormfoodrecords.bandcamp.com/album/nubiyan-twist-wf103)
 
 ![](/img/posts/albums-2015/03.jpg)
 
@@ -74,7 +74,7 @@ Self-titled debut album by the Nubiyan Twist. Oh girl, thank the Bandcamp Weekly
 
 
 
-### 2. [Kamasi Washington – The Epic](http://ninjatune.net/release/kamasi-washington/the-epic)
+## 2. [Kamasi Washington – The Epic](http://ninjatune.net/release/kamasi-washington/the-epic)
 
 ![](/img/posts/albums-2015/02.jpg)
 
@@ -82,7 +82,7 @@ My sweet-spot for Jazz, here it gets its love. What a journey this **three hour 
 
 
 
-### 1. [Bachar Mar-Khalifé – Ya Balad](https://infine-rec.bandcamp.com/album/ya-balad)
+## 1. [Bachar Mar-Khalifé – Ya Balad](https://infine-rec.bandcamp.com/album/ya-balad)
 
 ![](/img/posts/albums-2015/01.jpg)
 

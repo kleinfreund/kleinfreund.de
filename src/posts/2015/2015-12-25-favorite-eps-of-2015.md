@@ -12,7 +12,7 @@ Now a short segment where I list my favorite EP’s from the year. I felt like s
 
 
 
-### 5. [Throwing Snow – Wintery Prism](https://throwingsnow.bandcamp.com/)
+## 5. [Throwing Snow – Wintery Prism](https://throwingsnow.bandcamp.com/)
 
 ![Detail from the artwork of the latest Throwing Snow EP, “Xema / Seren”](/img/posts/eps-2015/05.jpg)
 
@@ -22,7 +22,7 @@ The three releases “Lumen / Paint By Numbers”, “Glower / Clasp” and “X
 
 
 
-### 4. [Lily &amp; Madeleine – Audiotree Live Session](https://audiotree.bandcamp.com/album/lily-madeleine-audiotree-live)
+## 4. [Lily &amp; Madeleine – Audiotree Live Session](https://audiotree.bandcamp.com/album/lily-madeleine-audiotree-live)
 
 ![Detail from the artwork of Lily and Madeleine’s live session on Audiotree EP](/img/posts/eps-2015/04.jpg)
 
@@ -30,7 +30,7 @@ Every now and then when I listen to this, I am mentally stuck at this one song, 
 
 
 
-### 3. [no metal in this battle – ours](https://nometal.bandcamp.com/album/ours)
+## 3. [no metal in this battle – ours](https://nometal.bandcamp.com/album/ours)
 
 ![Detail from the artwork of no metal in this battle’s “ours” EP](/img/posts/eps-2015/03.jpg)
 
@@ -38,7 +38,7 @@ This EP by the Luxembourgian instrumental post rock band reminds me of both BADB
 
 
 
-### 2. [Laura Groves – Committed Language](https://lauragroves.bandcamp.com/album/committed-language-ep)
+## 2. [Laura Groves – Committed Language](https://lauragroves.bandcamp.com/album/committed-language-ep)
 
 ![Detail from the artwork of Laura Grove’s “Committed Language” EP](/img/posts/eps-2015/02.jpg)
 
@@ -46,7 +46,7 @@ I just reviewed the EP, so read that instead. It’s a very good one.
 
 
 
-### 1. [FKA twigs – M3LL155X](https://itunes.apple.com/de/album/m3ll155x-ep/id1028920695)
+## 1. [FKA twigs – M3LL155X](https://itunes.apple.com/de/album/m3ll155x-ep/id1028920695)
 
 <figure>
   <div class="embedded-media">

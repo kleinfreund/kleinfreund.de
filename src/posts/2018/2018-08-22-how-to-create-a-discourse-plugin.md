@@ -9,7 +9,7 @@ In this article, I will describe in detail how to create a plugin for the Discou
 
 
 
-### Content
+## Content
 
 - [File structure](#file-structure)
 - [Setting up the plugin workspace](#setting-up-the-plugin-workspace)
@@ -24,7 +24,7 @@ In this article, I will describe in detail how to create a plugin for the Discou
 
 
 
-### File structure
+## File structure
 
 Let’s get this out of the way first. Following below is the file structure of the plugin we’re going to create. It’s complex and we will need everything from it.
 
@@ -65,7 +65,7 @@ In this article, we will build a notebook plugin that stores notes. Looking at t
 
 
 
-### Setting up the plugin workspace
+## Setting up the plugin workspace
 
 The main component for every Discourse plugin is the `plugin.rb` file in the root of the plugin’s directory. Assuming a Discourse installation in a `discourse` directory somewhere, each plugin has its own directory inside the `plugins` directory.
 
@@ -96,7 +96,7 @@ This assumes the `notebook` directory to be located right next to the `discourse
 
 
 
-### plugin.rb
+## plugin.rb
 
 Below is a minimal plugin that doesn’t do anything apart from being noticed by Discourse: Navigate to [localhost:3000/admin/plugins](http://localhost:3000/admin/plugins) after restarting the rails server. The plugin will be listed under “Installed Plugins” with the name “notebook”. You can also see that it’s already enabled.
 
@@ -152,7 +152,7 @@ Currently, the plugin’s file structure should look like this:
 
 
 
-### The plugin page
+## The plugin page
 
 We need a page to access the plugin. Let’s put it on the path `/notebook` so that our plugin will be available at [localhost:3000/notebook](http://localhost:3000/notebook). This requires a bunch of new files and directories. Below is the file structure showing all files that will be created or modified in the process:
 
@@ -268,7 +268,7 @@ For now, we will just ask it to render a template called … well, it’s called
 
 
 
-### Make it a notebook in the front
+## Make it a notebook in the front
 
 So far, we managed to display a heading reading “Notebook” at the URL [localhost:3000/notebook](http://localhost:3000/notebook). Amazing what one can achieve by following a few hundred lines of text.
 
@@ -359,7 +359,7 @@ export default Ember.Controller.extend({
 
 The `actions` object holds all methods that are available as actions in a template. In its current state, the action just evaluates the assumption that the argument indeed holds the new note from the text field by logging it to the console.
 
-### Sending data
+## Sending data
 
 Discourse uses stores to exchange data between client and server. The `createRecord()` method creates a record in a store determined by the first argument: The store type. I used `'note'` below which means that our note records will be stored in the *note store*.
 
@@ -431,7 +431,7 @@ updateProperties() {
 
 Now we’re talking. Trying to save a note should now result in an expected error: 404. Looking at the browser developer tools’ network tab, we can see a request to `localhost:3000/notes` that returns with a status code 404 (“Not Found”). The response body contains a helpful error message: “No route matches [PUT] "/notes/1534697038703"”. Remember that we created a route for the path `/notebook` in the beginnging? Now we need a route for the path `/notes/1534697038703`.
 
-### Receiving data
+## Receiving data
 
 First, we define a route in the `plugin.rb` file again. The error message already tells us everything we need to know: the path (`/notes/1534697038703`) and HTTP method (PUT). This weird number at the end of the path is the value of the ID we provided. It will change with every request so it needs to be dynamic.
 
@@ -482,7 +482,7 @@ The controller’s `update` method receives a `params` object (in Ruby land, the
 
 Discourse expects action methods like `update` to include the created object in the response. This is done by returning a JSON object with a property named after the store type (i.e. `note` in our case) that holds the created object as its value.
 
-### Make it a notebook in the back
+## Make it a notebook in the back
 
 We’re now able to receive notes on the server side, but we’re not storing them just yet. Discourse has a `PluginStore` class which allows each plugin to store its data in Discourse’s database. I wrote a little class to provide a cleaner interface between the `PluginStore` and the `NotesController`.
 
@@ -542,7 +542,7 @@ class NotesController < ApplicationController
 end
 ```
 
-### Round trip
+## Round trip
 
 From a user perspective, in its current state, our little plugin does a very bad job at explaining what happens. We can add a note to the notebook, but we only know that this actually happens when looking at logger output. The plugin page itself tells us nothing. We don’t even know which notes already exist. Let’s get some value out of storing all this data by displaying a list of existing notes.
 
@@ -685,7 +685,7 @@ export default Ember.Controller.extend({
 });
 ```
 
-### Deleting notes
+## Deleting notes
 
 We could call it a day and be done with this exercise now, but I said that this ID we store with every note will become useful. Deleting a specific note requires a reference point, something to identify the note with. We could use the note’s content and delete the record in the back end that has the same content. While that would work, it’s not a good design. What if we want to be able to edit notes? That’s reasonable. With this approach, referencing notes would quickly become messy. That’s why databases usually store records with an explicit ID.
 

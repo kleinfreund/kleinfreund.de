@@ -1,9 +1,11 @@
-.post:not(:last-child) {
-  margin-bottom: calc(4 * var(--spacing));
+.post-list {
+  list-style-type: none;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  position: relative;
+.post-list > li:not(:first-child) {
+  margin-top: calc( var(--spacing) * 4 );
 }
 
 .header-anchor {

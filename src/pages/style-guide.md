@@ -10,7 +10,7 @@ What I mean with “basic forms of content” can be summarized by listing the s
 
 
 
-### Contents
+## Contents
 
 - [Inline Styles](#inline-styles)
 - [Lists](#lists)
@@ -21,23 +21,24 @@ What I mean with “basic forms of content” can be summarized by listing the s
 
 
 
-### Inline Styles
+## Inline Styles
 
-The most common forms of emphasis are *italic* and **bold**. Mostly seen in handwritten notes, another form is a mark. It tends to <mark>stick out of its context</mark> in a rather attention-grabbing fashion.
+The most common forms of emphasis are *italics* and **bold text**. Mostly seen in handwritten notes, another form is a mark. It tends to <mark>stick out of its context</mark> in a rather attention-grabbing fashion so be careful when to use this.
 
-Rarely, you see abbreviations like <abbr title="Mozilla Developer Network">MDN</abbr> marked up with the `<abbr>` element. Edits made to a text can be <del>repersented</del> <ins>represented</ins> by marking up the parts that were deleted (with `<del>`) and inserted (with `<ins>`).
+Rarely, you see abbreviations like <abbr title="Mozilla Developer Network">MDN</abbr> (Mozilla Developer Network) marked up with the `abbr` element. However, note that the `title` attribute is often not conveyed to assistive technology; therefore, it’s best to add the expansion as regular text on first usage of the abbreviation.
 
-One of my favorite shortcuts in [Sublime Text](https://sublimetext.com) is <kbd>Ctrl</kbd>+<kbd>D</kbd>. It adds the next occurence of the current selection to the selection. For [Visual Studio Code](https://code.visualstudio.com) it would be <kbd>F2</kbd> to rename a symbol, simply because it brings functionality often only found in full-blown <abbr title="Integrated Development Environment">IDE</abbr>s to the world of text editors.
+Edits made to a text can be <del>repersented</del> <ins>represented</ins> by marking up the parts that were deleted with `<del>` and inserted with `<ins>`.
+
+One can mark up keyboard shortcuts such as <kbd>Ctrl</kbd>+<kbd>D</kbd> with `<kbd>` tags. Inline code is usually added in `<code>` tags.
 
 
 
-### Lists
+## Lists
 
 - [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
   - [MDN: Array (global object)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
   - [MDN: Event API](https://developer.mozilla.org/en-US/docs/Web/API/Event)
   - [MDN: Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
-- [Sara Soueidan: Migrating from Jekyll+Github Pages to Hugo+Netlify](http://www.sarasoueidan.com/blog/jekyll-ghpages-to-hugo-netlify/)
 - [Manuel Matuzovic: Writing CSS with Accessibility in Mind](https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939)
 - [Una Kravets: Locally Scoped CSS Variables: What, How, and Why](https://una.im/local-css-vars/)
 
@@ -54,7 +55,7 @@ One of my favorite shortcuts in [Sublime Text](https://sublimetext.com) is <kbd>
 
 
 
-### Quotes
+## Quotes
 
 <blockquote>
   <p>Whenever accessibility is really hard, it’s usually just an over-complex component and should be dumped anyway.</p>
@@ -65,13 +66,22 @@ As my grandma used to say <q>Remember, there is a <q>proper HTML</q> element for
 
 
 
-### Code & User Input
+## Code & User Input
 
 By default, code blocks work well but are rather limited compared to what we see in our text editors. It would be nice to have automatic line numbers. Maybe this can be done with [CSS counters](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Lists_and_Counters/Using_CSS_counters) and by wrapping each line of code in its own `code` element.
 
+```css
+pre {
+  padding: 1vw 1.5vw;
+  overflow-x: auto;
+  background-color: var(--c-code-block-background);
+  border-radius: 1vw;
+}
+```
 
 
-### Headings
+
+## Headings
 
 <h1>Heading Level 1</h1>
 
@@ -87,7 +97,7 @@ By default, code blocks work well but are rather limited compared to what we see
 
 
 
-### Images
+## Images
 
 <figure>
   <img src="https://c1.staticflickr.com/9/8675/30106830192_086f433ab8_k.jpg" alt="Rain drops on a spiders’ web">
