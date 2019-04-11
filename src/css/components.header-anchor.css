@@ -1,0 +1,20 @@
+.header-anchor {
+  position: absolute;
+  transform: translateX(-100%);
+  padding-right: calc(var(--spacing) / 4);
+  border-bottom: none;
+  font-weight: normal;
+}
+
+.header-anchor__icon {
+  visibility: hidden;
+}
+
+h1:hover .header-anchor__icon,
+h2:hover .header-anchor__icon,
+h3:hover .header-anchor__icon,
+h4:hover .header-anchor__icon,
+h5:hover .header-anchor__icon,
+h6:hover .header-anchor__icon {
+  visibility: visible;
+}

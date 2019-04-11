@@ -8,23 +8,7 @@
   margin-top: calc( var(--spacing) * 4 );
 }
 
-.header-anchor {
-  position: absolute;
-  right: 100%;
-  padding-right: calc(var(--spacing) / 4);
-  visibility: hidden;
-  border-bottom: none;
-  font-weight: normal;
-}
 
-.post h1:hover > .header-anchor,
-.post h2:hover > .header-anchor,
-.post h3:hover > .header-anchor,
-.post h4:hover > .header-anchor,
-.post h5:hover > .header-anchor,
-.post h6:hover > .header-anchor {
-  visibility: visible;
-}
 
 @media only screen and (min-width: 1000px) {
   .post {
