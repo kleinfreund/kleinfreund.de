@@ -1,10 +1,9 @@
 ---
-title: 'Jekyll: Multilingual'
+title: "Jekyll: Multilingual"
 date: 2014-08-09
 tags:
 - dev
 ---
-
 One of the big ups of Jekyll is the luxutry of being able to work with GitHub Pages. Building a multilingual site is a bit harder, though. Using plugins is except for [a view exceptions](https://help.github.com/articles/using-jekyll-plugins-with-github-pages) not possible.
 
 My site is bilingual—German and English—whereas German is my main language. To do this I need an adjusted directory structure, categories and front matter defaults.

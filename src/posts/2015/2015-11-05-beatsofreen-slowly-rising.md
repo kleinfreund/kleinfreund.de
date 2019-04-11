@@ -1,5 +1,5 @@
 ---
-title: 'BEATSOFREEN: Slowly Rising'
+title: "BEATSOFREEN: Slowly Rising"
 date: 2015-11-05
 link: https://vimeo.com/142716939
 tags:

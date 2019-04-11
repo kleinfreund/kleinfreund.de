@@ -1,5 +1,5 @@
 ---
-title: 'kleinerdrei: Dies ist keine Burka'
+title: "kleinerdrei: Dies ist keine Burka"
 date: 2015-09-22
 link: http://kleinerdrei.org/2015/09/dies-ist-keine-burka/
 tags:

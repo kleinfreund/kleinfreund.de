@@ -1,5 +1,5 @@
 ---
-title: 'Nicolas Ménard: Loop Ring Chop Drink'
+title: "Nicolas Ménard: Loop Ring Chop Drink"
 date: 2015-09-23
 link: https://vimeo.com/95399265
 tags:
