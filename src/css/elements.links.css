@@ -7,7 +7,9 @@
 }
 
 a {
-  color: var(--c-interactive);
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 0.1em solid var(--c-interactive);
 }
 
 /*
@@ -16,5 +18,5 @@ a {
 a:hover,
 a:active {
   outline: none; /* 1 */
-  color: var(--c-interactive-dark);
+  border-bottom-color: var(--c-interactive-dark);
 }

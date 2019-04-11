@@ -23,10 +23,10 @@
   --cd-background: #121212;
 
   --cd-focus: hsl(32, 100%, 55%);
-  --cd-interactive: hsl(327, 100%, 55%);
-  --cd-interactive-dark: hsl(327, 100%, 70%);
+  --cd-interactive: hsl(150, 100%, 38%);
+  --cd-interactive-dark: hsl(150, 100%, 28%);
 
-  --cd-code-text: hsl(150, 100%, 38%);
+  --cd-code-text: cornflowerblue;
   --cd-code-block-text: #fff;
   --cd-code-block-background: hsl(0, 0%, 15%);
 
