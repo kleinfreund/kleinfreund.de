@@ -1,16 +1,27 @@
-.site-header {
-  margin-bottom: calc(3 * var(--spacing));
-  padding: var(--spacing);
+.site-nav {
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+  font-size: 1.25em;
 }
 
 @media only screen and (min-width: 1000px) {
   .site-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    transform: rotateZ(270deg) translateX(-100%);
+    transform-origin: top left;
+    display: inline-block;
+    padding-right: calc( var(--spacing) / 2 );
   }
 
   .site-title {
     margin-bottom: 0;
+  }
+
+  .site-nav {
+    display: flex;
+    flex-direction: column;
+    transform: translateX(100%) rotate(90deg);
+    transform-origin: top left;
+    font-size: 1.25em;
   }
 }
