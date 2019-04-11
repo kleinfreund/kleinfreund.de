@@ -1,6 +1,6 @@
 ---
 title: About
-description: Web developer from Weimar, Germany. Proficient in HTML, CSS and JavaScript.
+description: "Web developer from Weimar, Germany. Proficient in HTML, CSS and JavaScript."
 date: 2018-08-22
 ---
 Hey, I’m Philipp.

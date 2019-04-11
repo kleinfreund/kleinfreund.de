@@ -1,6 +1,6 @@
 ---
-title: Style Guide
-description: Showing off the appearance of paragraphs, links, figures, code blocks, etc. in a small style guide.
+title: Style guide
+description: "Showing off the appearance of paragraphs, links, figures, code blocks, etc. in a small style guide."
 date: 2017-10-14
 ---
 I’ve redesigned my site for the umpteenth time now. One big phase has always been the work on the basic visual appearance.
