@@ -26,11 +26,11 @@
   --cd-interactive: hsl(150, 100%, 38%);
   --cd-interactive-dark: hsl(150, 100%, 28%);
 
-  --cd-code-text: cornflowerblue;
+  --cd-code-text: hsl(219, 79%, 66%);
   --cd-code-block-text: #fff;
   --cd-code-block-background: hsl(0, 0%, 15%);
 
-  --cd-note-background: #0a0a0a;
+  --cd-note-background: hsl(219, 79%, 20%);
   --cd-mark-background: hsl(22, 99%, 34%);
 }
 
