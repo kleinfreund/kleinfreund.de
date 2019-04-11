@@ -1,5 +1,5 @@
 {%- capture ordinalized_day -%}
-  {% assign day = date | date: '%e' %}
+  {% assign day = date | date: '%d' | plus: '0' %}
   {% if day == '1' or day == '21' or day == '31' %}
     {{ day }}st
   {% elsif day == '2' or day == '22' %}
