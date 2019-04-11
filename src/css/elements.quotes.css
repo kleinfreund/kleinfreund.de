@@ -10,6 +10,7 @@
 blockquote {
   position: relative;
   padding: 1.5em;
+  font-family: var(--f-family-quote);
 }
 
 blockquote::before {

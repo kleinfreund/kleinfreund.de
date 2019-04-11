@@ -7,9 +7,7 @@ code,
 kbd,
 samp,
 var {
-  font-size: 0.9em;
-  font-family: 'Fira Code', 'Fira Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo,
-    Courier, monospace;
+  font-family: var(--f-family-code);
 }
 
 code {
@@ -34,5 +32,4 @@ kbd {
   border-radius: 0.2em;
   text-transform: capitalize;
   white-space: nowrap;
-  font-size: 0.8em;
 }

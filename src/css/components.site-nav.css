@@ -1,0 +1,10 @@
+.site-nav {
+  list-style: none;
+  margin-bottom: 0;
+  padding: var(--spacing);
+  font-size: 1.25em;
+}
+
+.site-nav__item:not(:first-child) {
+  margin-top: calc( var(--spacing) / 4 );
+}

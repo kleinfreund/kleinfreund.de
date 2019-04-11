@@ -1,10 +1,9 @@
 .pagination {
-  max-width: 600px;
   display: flex;
-  justify-content: space-around;
-  margin: calc(var(--spacing) * 2) auto;
+  justify-content: center;
+  margin-top: calc( var(--spacing) * 4 );
 }
 
-.pagination__item {
-  padding: calc(var(--spacing) / 4);
+.pagination__item:not(:first-child) {
+  margin-left: calc( var(--spacing) * 2 );
 }

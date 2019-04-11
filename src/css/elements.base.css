@@ -2,7 +2,7 @@ body {
   overflow-y: scroll;
   font-size: var(--f-size);
   line-height: var(--f-line-height);
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: var(--f-family);
   color: var(--c-text);
   background-color: var(--c-background);
 }
@@ -180,7 +180,7 @@ hr {
 ul,
 ol,
 dl {
-  padding-left: 1.5em;
+  padding-left: 3rem;
 }
 
 li p,

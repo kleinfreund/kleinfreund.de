@@ -11,6 +11,9 @@ This is done manually via media queries and fixed values in [1] and [3].
 3: Maximum font size
 */
 :root {
+  --f-family: 'Fira Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  --f-family-code: var(--f-family);
+  --f-family-quote: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   --f-size: 1.125rem; /* 1 */
   --f-line-height: 1.5;
   --f-vertical-spacing: calc(var(--f-size) * var(--f-line-height));
