@@ -17,8 +17,8 @@ pagination:
       {% include '_includes/partials/timestamp.liquid', date: post.date %}
 
       <h2>
-        {% if post.link %}
-          <a href="{{ post.link }}">{{ post.data.title }}</a>
+        {% if post.data.link %}
+          <a href="{{ post.data.link }}">{{ post.data.title }}</a>
         {% else %}
           <a href="{{ post.url | url }}">{{ post.data.title }}</a>
         {% endif %}
