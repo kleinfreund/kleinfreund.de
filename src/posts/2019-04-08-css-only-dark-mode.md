@@ -289,6 +289,57 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
+## A different approach: `prefers-color-scheme`
+
+CSS has a new media query feature called [`prefers-color-scheme`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) which allows you to detect whether the user has a preference for a light or dark theme. This preference is communicated to the browser via the operating system. For example, starting with macOS Mojave, there is a setting to enable the OSes dark mode. I’m using Ubuntu 18.10 where you can configure your preference by creating or editing the file `~/.config/gtk-3.0/settings.ini` and adding the following content:
+
+```ini
+[Settings]
+gtk-application-prefer-dark-theme=1
+```
+
+However, Firefox 67 doesn’t seem to pick this setting up. It reports that the user prefers a light theme. To still be able to try it out, you can override the preference on Firefox’s `about:config` page. There, create a new integer preference (Right-click → New → Integer) with the name `ui.systemUsesDarkTheme` and set its value to `1`. Now, Firefox reports a preference for a dark theme.
+
+If a user has [a browser that supports the `prefers-color-scheme` feature](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme#Browser_compatibility) and picks up the OSes setting, they can get a dark color scheme without the need to first interact with a bright page. I put together [a codepen demo](https://codepen.io/kleinfreund/pen/NmpKZM) that tells you whether your browser supports the feature and whether a preference is exposed to the browser.
+
+Now, instead of doing all of the above, you simply switch around the theme-specific custom properties when a dark theme is requested.
+
+```css
+:root {
+  /* Light mode colors */
+  --c-light-text: hsl(227, 100%, 20%);
+  --c-light-background: #fff;
+  --c-light-focus: hsl(32, 100%, 55%);
+  --c-light-interactive: hsl(327, 100%, 55%);
+
+  /* Dark mode colors */
+  --c-dark-text: #eee;
+  --c-dark-background: #121212;
+  --c-dark-focus: hsl(32, 100%, 55%);
+  --c-dark-interactive: hsl(150, 100%, 38%);
+}
+
+/* Set default theme to light theme */
+:root {
+  --c-text: var(--c-light-text);
+  --c-background: var(--c-light-background);
+  --c-focus: var(--c-light-focus);
+  --c-interactive: var(--c-light-interactive);
+}
+
+/* Override default theme with dark theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --c-text: var(--c-dark-text);
+    --c-background: var(--c-dark-background);
+    --c-focus: var(--c-dark-focus);
+    --c-interactive: var(--c-dark-interactive);
+  }
+}
+```
+
+
+
 ---
 
 That’s it. With that, the next re-design of my website will probably include a dark mode checkbox.
