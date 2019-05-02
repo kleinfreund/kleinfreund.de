@@ -1,32 +1,36 @@
 /*
 Fluid Typography
 
-as seen on CSS Tricks: https://css-tricks.com/snippets/css/fluid-typography
+as seen on CSS-Tricks: https://css-tricks.com/snippets/css/fluid-typography
 
 The formula in [2] does not limit its growth to a minimum or maximum font size.
 This is done manually via media queries and fixed values in [1] and [3].
 
 1: Minimum font size
-2: Increasing font size relative to the current viewport width
-3: Maximum font size
+2: Maximum font size
+3: Lower bound for viewport
+4: Upper bound for viewport
 */
 :root {
-  --f-family: 'Fira Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
-  --f-family-code: var(--f-family);
-  --f-family-quote: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  --f-size: 1.125rem; /* 1 */
+  --f-family: Cambria, Caladea, Cochin, Georgia, Times, 'Times New Roman', serif;
+  --f-family-code: 'Fira Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  --f-family-quote: Cambria, Caladea, Cochin, Georgia, Times, 'Times New Roman', serif;
+  --f-size: 1.25rem; /* [1] */
   --f-line-height: 1.5;
   --f-vertical-spacing: calc(var(--f-size) * var(--f-line-height));
 }
 
 @media screen and (min-width: 300px) {
+  /*                          ↑ [4] */
   :root {
-    --f-size: calc(1.125rem + (1.5 - 1.125) * ((100vw - 300px) / (1000 - 300))); /* 2 */
+    /* Increasing font size relative to the current viewport width */
+    --f-size: calc(1.25rem + (1.5 - 1.25) * ((100vw - 300px) / (1000 - 300)));
+    /*             ↑ [1]      ↑ [2] ↑ [1]             ↑ [3]     ↑ [4]  ↑ [3] */
   }
 }
 
 @media screen and (min-width: 1000px) {
   :root {
-    --f-size: 1.5rem; /* 3 */
+    --f-size: 1.5rem; /* [2] */
   }
 }
