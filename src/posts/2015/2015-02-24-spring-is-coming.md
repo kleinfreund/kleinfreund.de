@@ -10,7 +10,7 @@ It’s time again. Not only is spring at the door but also a new year for the bl
 
 The most important change is the move to a subdomain. Look at it, it reads __hey.kleinfreund.de__ up there now. This has pragmatic reasons. If one points the root domain to the GitHub Pages IP via A Record it gets redirected. This is part of a DDoS mitigation strategy the girls and boys run over there (Anselm Hannemann <a href="https://helloanselm.com/2014/github-pages-redirect-performance/">wrote this down</a> last year).
 
-The redirect took 3–5 seconds for me and that’s way too long. Heavy-heartedly I was about to setup the typical www. subdomain until it crossed my mind that one can choose freely. Anatol Broder chose <a href="http://anatol.penibelst.de/">anatol.penibelst.de</a> for example.
+The redirect took 3–5 seconds for me and that’s way too long. Heavy-heartedly I was about to setup the typical www. subdomain until it crossed my mind that one can choose freely. Anatol Broder chose <a href="https://bro.doktorbro.net/">bro.doktorbro.net</a> for example.
 
 ## Critical CSS
 
