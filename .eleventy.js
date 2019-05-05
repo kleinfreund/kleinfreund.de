@@ -32,7 +32,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.setDataDeepMerge(true);
 
-  // Copies static files as they are to the output directory
+  // Copies static files to the output directory
   eleventyConfig
     .addPassthroughCopy('src/img')
     .addPassthroughCopy('src/css')
@@ -59,9 +59,8 @@ module.exports = function (eleventyConfig) {
   return {
     dir: {
       input: 'src',
-      // Setting `dir.includes` to the empty string effectively makes the project directory the
-      // include directory; thus, allowing to include files from across the project instead of
-      // just a dedicated includes directory.
+      // Make the project directory the includes directory. This allows me to include files from
+      // across the project instead of just a dedicated includes directory.
       includes: ''
     },
     templateFormats: ['md', 'liquid', 'html']
