@@ -35,7 +35,8 @@
 }
 
 /* Set default theme to light theme */
-:root {
+:root:not([data-color-scheme]),
+:root[data-color-scheme="light"] {
   --c-text: var(--cl-text);
   --c-background: var(--cl-background);
   --c-focus: var(--cl-focus);
@@ -50,7 +51,7 @@
 
 /* Override default theme with dark theme */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-color-scheme]) {
     --c-text: var(--cd-text);
     --c-background: var(--cd-background);
     --c-focus: var(--cd-focus);
@@ -62,4 +63,17 @@
     --c-note-background: var(--cd-note-background);
     --c-mark-background: var(--cd-mark-background);
   }
+}
+
+:root[data-color-scheme="dark"] {
+  --c-text: var(--cd-text);
+  --c-background: var(--cd-background);
+  --c-focus: var(--cd-focus);
+  --c-interactive: var(--cd-interactive);
+  --c-interactive-dark: var(--cd-interactive-dark);
+  --c-code-text: var(--cd-code-text);
+  --c-code-block-text: var(--cd-code-block-text);
+  --c-code-block-background: var(--cd-code-block-background);
+  --c-note-background: var(--cd-note-background);
+  --c-mark-background: var(--cd-mark-background);
 }

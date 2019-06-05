@@ -36,6 +36,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig
     .addPassthroughCopy('src/img')
     .addPassthroughCopy('src/css')
+    .addPassthroughCopy('src/js')
     .addPassthroughCopy('src/favicon.ico')
     .addPassthroughCopy('src/.htaccess')
     .addPassthroughCopy('src/manifest.webmanifest');
