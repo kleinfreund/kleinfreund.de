@@ -57,7 +57,13 @@
 
       {% for page in collections.pages %}
         <li class="site-nav__item">
-          <a href="{{ page.url }}">{{ page.data.title }}</a>
+          <a href="{{ page.url }}">
+            {% if page.data.menu_text %}
+              {{ page.data.menu_text }}
+            {% else %}
+              {{ page.data.title }}
+            {% endif %}
+          </a>
         </li>
       {% endfor %}
     </ul>
