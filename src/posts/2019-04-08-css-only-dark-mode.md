@@ -27,7 +27,7 @@ Note how none of the controls deal with a notion of a light mode. It is implied 
 
 In a different context where many controls are part of a more complex widget like a settings page, it must also be considered what users expect when interacting with these controls. In particular, since the choice of enabling the dark mode should be saved, we have to ask *when exactly* such an interaction is saved. Does one have to confirm a changed setting by hitting a “Save” button or are things saved automatically?
 
-A [quick rundown on when the three controls we discussed save their state](https://twitter.com/ZoeBijl/status/1113041012472102912) was provided recently by Zoë Bijl. They were also responsible for [the choice of link text](https://twitter.com/ZoeBijl/status/1114095351626178560) in the previous section 👍.
+A [quick rundown on when the three controls we discussed save their state](https://twitter.com/ZoeBijl/status/1113041012472102912) was provided recently by Zoë Bijl. They were also responsible for [the choice of link text](https://twitter.com/ZoeBijl/status/1114095351626178560) in the previous section <span aria-label="Thumbs Up Sign" role="image">👍</span>.
 
 
 
