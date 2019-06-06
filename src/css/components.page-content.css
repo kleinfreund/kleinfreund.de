@@ -1,3 +1,5 @@
-.page-content {
-  padding: 4rem;
+@media (max-width: 999px) {
+  .page-content {
+    margin-top: 4rem;
+  }
 }

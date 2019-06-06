@@ -50,6 +50,12 @@
 <body class="js-disabled">
 
   <header class="site-head">
+
+    <button class="button inline-button color-scheme-toggle" data-color-scheme-toggle type="button">
+      <span class="color-scheme-toggle--enable-dark">Enable dark mode 🌚</span>
+      <span class="color-scheme-toggle--enable-light">Enable light mode 🌞</span>
+    </button>
+
     <ul class="site-nav">
       <li class="site-nav__item">
         <a href="{{ '/' | url }}">kleinfreund.de</a>
@@ -68,10 +74,6 @@
       {% endfor %}
     </ul>
 
-    <button class="button inline-button color-scheme-toggle" data-color-scheme-toggle type="button">
-      <span class="color-scheme-toggle--enable-dark">Enable dark mode 🌚</span>
-      <span class="color-scheme-toggle--enable-light">Enable light mode 🌞</span>
-    </button>
   </header>
 
   <main class="page-content">

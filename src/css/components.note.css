@@ -19,7 +19,7 @@
   content: var(--note-glyph) '\a0';
 }
 
-@media only screen and (min-width: 1000px) {
+@media (min-width: 1000px) {
   .note:not(.marginalia) {
     padding: 0.5em 1em;
     background-color: var(--c-note-background);

@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   margin-top: 10rem;
+  padding: 3vw;
 }
 
 .pagination__item:not(:first-child) {

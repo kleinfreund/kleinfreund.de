@@ -5,7 +5,7 @@
 }
 
 .post-list > li:not(:first-child) {
-  margin-top: 12rem;
+  margin-top: 4rem;
 }
 
 .post-list h2 {
@@ -14,7 +14,13 @@
 
 
 
-@media only screen and (min-width: 1000px) {
+.post {
+  padding: 3vw;
+}
+
+
+
+@media (min-width: 1000px) {
   .post {
     max-width: 1000px;
     margin-right: auto;
@@ -23,7 +29,7 @@
 }
 
 @supports (display: grid) {
-  @media only screen and (min-width: 1000px) {
+  @media (min-width: 1000px) {
     /*
     [1]: Defines a three-column layout:
          - full: spans all columns
@@ -93,7 +99,7 @@
     }
   }
 
-  @media only screen and (min-width: 1400px) {
+  @media (min-width: 1400px) {
     .post {
       max-width: 1400px;
       grid-template-columns: [full-start] 1fr [main-start] 3fr [main-end side-start] 1fr [side-end
