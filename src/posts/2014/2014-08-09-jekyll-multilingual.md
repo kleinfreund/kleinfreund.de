@@ -8,20 +8,17 @@ One of the big ups of Jekyll is the luxutry of being able to work with GitHub Pa
 
 My site is bilingual—German and English—whereas German is my main language. To do this I need an adjusted directory structure, categories and front matter defaults.
 
-## Directory Structure
+## Directory structure
 
-```
-.
-├── _posts
-│   └── 2014-08-09-jekyll-mehrsprachig.md
-├── en
-│   ├── _posts
-│   │   └── 2014-08-09-jekyll-multilingual.md
-│   ├── profile.md
-│   └── index.html
-├── profil.md
-└── index.html
-```
+- _posts
+  - 2014-08-09-jekyll-mehrsprachig.md
+- en
+  - _posts
+    - 2014-08-09-jekyll-multilingual.md
+  - profile.md
+  - index.html
+- profil.md
+- index.html
 
 For the main language, I use Jekyll as usual. The regular `_posts`-directory for posts and pages in the project directory. Translations are housed in the corresponding subdirectory (e.g. `/en` for English).
 
@@ -41,7 +38,7 @@ permalink: /:categories/:year/:month/:title
 
 <p class="block-note">With the exception of <code>permalink: pretty</code> these settings apply to posts only. Permalinks need to be explicitly set for pages.</p>
 
-## Set the Language
+## Set the language
 
 To distinct between German and English documents, we don’t need to alienate categories again. We only needed that for the permalinks. For posts and pages we set the language with `lang: [de|en]`.
 
@@ -72,7 +69,7 @@ defaults:
       lang: "en"
 ```
 
-## The Blog Thing
+## The blog thing
 
 Creating a paginated blog with Jekyll is super easy. However this has its limitations. For example one isn’t able to filter the posts `paginator.posts` is returning. That means I can’t just take all posts with `lang: en` and make a blog with pagination.
 

@@ -1,5 +1,5 @@
 ---
-title: Favorite Albums of 2016
+title: Favorite albums of 2016
 date: 2016-12-30
 tags:
 - music

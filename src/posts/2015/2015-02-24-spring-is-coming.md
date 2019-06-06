@@ -6,7 +6,7 @@ tags:
 ---
 It’s time again. Not only is spring at the door but also a new year for the blog. The first entry was posted on 1st February 2014. Today is not the 1st February? You are completely right about that. Don’t worry about that. In the last couple of days I’ve been tightening and loosening some screws.
 
-## Subdomain for Better Performance
+## Subdomain for better performance
 
 The most important change is the move to a subdomain. Look at it, it reads __hey.kleinfreund.de__ up there now. This has pragmatic reasons. If one points the root domain to the GitHub Pages IP via A Record it gets redirected. This is part of a DDoS mitigation strategy the girls and boys run over there (Anselm Hannemann <a href="https://helloanselm.com/2014/github-pages-redirect-performance/">wrote this down</a> last year).
 
@@ -34,7 +34,7 @@ With this change, my build time went up by 6–7 seconds. That’s due to the `s
 {%- endraw -%}
 ```
 
-## Under the Hood
+## Under the hood
 
 Until now there were a couple of pages which basically were the same with the only difference being language-specific strings. That was me being lazy, not creating a layout and the needed strings in the locales.yml for that purpose. I cought up on this.
 

@@ -1,5 +1,5 @@
 ---
-title: Uberspace With Multiple Domains
+title: Uberspace with multiple domains
 date: 2016-04-15
 tags:
 - dev
@@ -10,7 +10,7 @@ A couple of months back I got myself a new hoster, [Uberspace](https://uberspace
 
 The following information are partially adapted from [Uberspace’s article about setting up domains on their service](https://wiki.uberspace.de/domain:verwalten) (in German only).
 
-## What You Need
+## What you need
 
 One thing to get out of the way first: You’ll enter commands into a command line a lot. No need to worry though, everything is explained on the very detailed [Uberspace wiki](https://wiki.uberspace.de/). Here are some things you’ll need in the process.
 
@@ -26,7 +26,7 @@ ssh phl@amnesia.uberspace.de
 
 Connect to your Uberspace via your SFTP client as well. The server name would be `amnesia.uberspace.de` at port 22 while the username is again your Uberspace username.
 
-## Choose Directory
+## Choose directory
 
 Back to the SSH client. Go to `/var/www/virtual/phl`. If you want to publish multiple websites on one Uberspace, this is the place where they go. If you wish to publish only one site, the contents could just reside in the `html` directory.
 

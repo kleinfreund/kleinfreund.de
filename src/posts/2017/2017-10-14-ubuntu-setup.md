@@ -13,7 +13,7 @@ Setting up Ubuntu is tedious. It doesn’t do a good job of getting out of your 
 
 In order to answer these questions, I took notes and put them in a text document inside my home directory. Here is my `ubuntu-setup.md`.
 
-## Table of Contents
+## Table of contents
 
 - [Software](#software)
   - [Google Chrome](#google-chrome)

@@ -1,5 +1,5 @@
 ---
-title: Try Satisfaction
+title: Try satisfaction
 date: 2015-01-19
 tags:
 - music

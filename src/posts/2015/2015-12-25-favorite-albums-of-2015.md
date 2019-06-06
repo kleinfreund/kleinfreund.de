@@ -1,5 +1,5 @@
 ---
-title: Favorite Albums of 2015
+title: Favorite albums of 2015
 date: 2015-12-25
 tags:
 - music

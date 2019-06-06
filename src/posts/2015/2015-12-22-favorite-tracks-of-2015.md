@@ -1,5 +1,5 @@
 ---
-title: Favorite Tracks of 2015
+title: Favorite tracks of 2015
 date: 2015-12-22
 tags:
 - music
