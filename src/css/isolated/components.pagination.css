@@ -1,9 +1,9 @@
 .pagination {
   display: flex;
   justify-content: center;
-  margin-top: calc( var(--spacing) * 4 );
+  margin-top: 10rem;
 }
 
 .pagination__item:not(:first-child) {
-  margin-left: calc( var(--spacing) * 2 );
+  margin-left: 5rem;
 }

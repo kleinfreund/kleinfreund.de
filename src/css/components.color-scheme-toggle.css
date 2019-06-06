@@ -3,21 +3,19 @@
 }
 
 .color-scheme-toggle {
-  padding: 0 calc( var(--spacing) / 4 );
+  padding: 0.25em 0.75em;
   color: var(--cd-text);
   background-color: var(--cd-background);
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-color-scheme]) .color-scheme-toggle {
-    padding: 0 calc( var(--spacing) / 4 );
     color: var(--cl-text);
     background-color: var(--cl-background);
   }
 }
 
 :root[data-color-scheme="dark"] .color-scheme-toggle {
-  padding: 0 calc( var(--spacing) / 4 );
   color: var(--cl-text);
   background-color: var(--cl-background);
 }

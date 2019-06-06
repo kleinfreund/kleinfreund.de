@@ -1,7 +1,7 @@
 .header-anchor {
   position: absolute;
   transform: translateX(-100%);
-  padding-right: calc(var(--spacing) / 4);
+  padding-right: 0.25em;
   border-bottom: none;
   font-weight: normal;
 }

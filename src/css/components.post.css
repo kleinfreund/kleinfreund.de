@@ -5,7 +5,11 @@
 }
 
 .post-list > li:not(:first-child) {
-  margin-top: calc( var(--spacing) * 4 );
+  margin-top: 12rem;
+}
+
+.post-list h2 {
+  margin-top: 0;
 }
 
 
@@ -33,7 +37,7 @@
       align-items: start;
       grid-template-columns: [full-start main-start] 3fr [main-end side-start] 1fr [side-end
         full-end]; /* [1] */
-      grid-column-gap: calc(var(--spacing) / 2);
+      grid-column-gap: 2rem;
     }
 
     /*
