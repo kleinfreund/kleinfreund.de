@@ -38,9 +38,13 @@
 
     /*
     By default, content sits in the main column.
+
+    1. Fix this weird CSS grid behavior.
+       https://css-tricks.com/preventing-a-grid-blowout/
     */
     .post > * {
       grid-column: main;
+      min-width: 0; /* 1. */
     }
 
     /*
