@@ -95,7 +95,7 @@ input:checked ~ i {
 }
 ```
 
-Now, I don’t know about you, but I think that’s immensely cool. Checking the checkbox changes properties of a DOM node that is not a descendant but a sibling 🤯! This very fact is the foundation for Mu-An’s CSS-only dark mode.
+Now, I don’t know about you, but I think that’s immensely cool. Checking the checkbox changes properties of a DOM node that is not a descendant but a sibling <span aria-label="Shocked Face With Exploding Head" role="image">🤯</span>! This very fact is the foundation for Mu-An’s CSS-only dark mode.
 
 
 
@@ -123,7 +123,7 @@ As its name suggests, the `div.theme-container` will be used to switch the color
 
 ## Theming with custom properties
 
-That’s right, CSS custom properties 🤗. We will make use of the cascade and the fact that all custom properties are inherited. The following CSS shows how, based on the checkbox’s checked state, we override a set of custom properties responsible for the color theme.
+That’s right, CSS custom properties <span aria-label="Happy Face With Hugging Hands" role="image">🤗</span>. We will make use of the cascade and the fact that all custom properties are inherited. The following CSS shows how, based on the checkbox’s checked state, we override a set of custom properties responsible for the color theme.
 
 ```css
 :root {
