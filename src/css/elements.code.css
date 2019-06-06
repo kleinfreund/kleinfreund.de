@@ -20,10 +20,10 @@ pre code {
 }
 
 pre {
-  padding: 1vw 1.5vw;
+  padding: 0.5em 1em;
   overflow-x: auto;
   background-color: var(--c-code-block-background);
-  border-radius: 1vw;
+  border-radius: 0.5em;
 }
 
 kbd {

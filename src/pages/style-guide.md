@@ -73,10 +73,10 @@ By default, code blocks work well but are rather limited compared to what we see
 
 ```css
 pre {
-  padding: 1vw 1.5vw;
+  padding: 0.5em 1em;
   overflow-x: auto;
   background-color: var(--c-code-block-background);
-  border-radius: 1vw;
+  border-radius: 0.5em;
 }
 ```
 
