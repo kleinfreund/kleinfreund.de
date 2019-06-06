@@ -3,7 +3,7 @@
 */
 
 :focus {
-  outline: 2px solid var(--c-focus);
+  outline: 0.1em solid var(--c-focus);
 }
 
 a {
