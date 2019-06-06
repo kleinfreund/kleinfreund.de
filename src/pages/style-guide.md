@@ -15,7 +15,7 @@ What I mean with “basic forms of content” can be summarized by listing the s
 - [Inline Styles](#inline-styles)
 - [Lists](#lists)
 - [Quotes](#quotes)
-- [Code & User Input](#code-%26-user-input)
+- [Code](#code)
 - [Headings](#headings)
 - [Images](#images)
 
@@ -39,7 +39,6 @@ One can mark up keyboard shortcuts such as <kbd>Ctrl</kbd>+<kbd>D</kbd> with `<k
   - [MDN: Array (global object)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
   - [MDN: Event API](https://developer.mozilla.org/en-US/docs/Web/API/Event)
   - [MDN: Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
-- [Manuel Matuzovic: Writing CSS with Accessibility in Mind](https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939)
 - [Una Kravets: Locally Scoped CSS Variables: What, How, and Why](https://una.im/local-css-vars/)
 
 1. First list item
@@ -50,7 +49,9 @@ One can mark up keyboard shortcuts such as <kbd>Ctrl</kbd>+<kbd>D</kbd> with `<k
     multiple paragraphs.
 
 3. Third list item
+
    1. More creativity
+
    2. Even more creativity
 
 
@@ -66,7 +67,7 @@ As my grandma used to say <q>Remember, there is a <q>proper HTML</q> element for
 
 
 
-## Code & User Input
+## Code
 
 By default, code blocks work well but are rather limited compared to what we see in our text editors. It would be nice to have automatic line numbers. Maybe this can be done with [CSS counters](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Lists_and_Counters/Using_CSS_counters) and by wrapping each line of code in its own `code` element.
 

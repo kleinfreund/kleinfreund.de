@@ -189,6 +189,7 @@ li ol {
   margin-bottom: 0;
 }
 
-ul p {
+ul p,
+ol p {
   margin-top: calc( var(--f-vertical-spacing) / 4 );
 }
