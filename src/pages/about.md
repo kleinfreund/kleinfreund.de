@@ -22,4 +22,4 @@ This site is hosted on [Uberspace](https://uberspace.de/) and built with [Eleven
 
 All content is licensed under [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) unless otherwise stated.
 
-Write love/hate mail to [{{ metadata.author.mail }}](mailto:{{ metadata.author.mail }}).
+Write love/hate mail to <a href="mailto:{{ metadata.author.mail }}" rel="me">{{ metadata.author.mail }}</a>.
