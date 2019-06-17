@@ -5,5 +5,10 @@
   "author": {
     "name": "Philipp Rudloff",
     "mail": "philipprudloff@fastmail.com"
-  }
+  },
+  "profiles": [
+    "mailto:philipprudloff@fastmail.com",
+    "https://twitter.com/kleinfreund",
+    "https://github.com/kleinfreund"
+  ]
 }

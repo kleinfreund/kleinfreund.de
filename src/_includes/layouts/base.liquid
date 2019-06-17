@@ -43,6 +43,10 @@
 
   <link rel="alternate" href="{{ '/feed.xml' | url }}" type="application/atom+xml" title="Feed for kleinfreund.de">
 
+  {% for profile in metadata.profiles %}
+    <link rel="me" href="{{ profile }}">
+  {% endfor %}
+
   <script>
     console.log(`have a ${[...[...(2**2**2**2**2**2) + ''].slice(4, 6), ...[...[]+{}].slice(4, 6).reverse()].join('')} day, beautiful!`);
   </script>
