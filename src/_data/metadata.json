@@ -4,10 +4,11 @@
   "description": "Moonbase of Philipp Rudloff. About (front-end) development and design, music and various other things that cross my mind.",
   "author": {
     "name": "Philipp Rudloff",
-    "mail": "philipprudloff@fastmail.com"
+    "mail": "philipprudloff@fastmail.com",
+    "github": "https://github.com/kleinfreund",
+    "twitter": "https://twitter.com/kleinfreund"
   },
   "profiles": [
-    "mailto:philipprudloff@fastmail.com",
     "https://twitter.com/kleinfreund",
     "https://github.com/kleinfreund"
   ]

@@ -1,20 +1,24 @@
 ---
 title: About
-description: "Web developer from Weimar, Germany. Proficient in HTML, CSS and JavaScript."
+description: "Front-end developer from Weimar, Germany. Proficient in HTML, CSS and JavaScript."
 date: 2018-08-22
 ---
 Hey, I’m Philipp.
 
-I’m a web developer from Weimar, Germany. Currently, I’m studying Computer Science and Media at Bauhaus-Universität Weimar.
+I’m a front-end developer from Weimar, Germany.
 
 <p class="marginalia">
   <img src="/img/me.jpg" alt ="Portrait of the author" style="position: absolute;">
 </p>
 
-In summer, I will start a job as a frontend developer at SendCloud and move to Eindhoven in the Netherlands.
-
+In a few weeks, I will start my first job as a front-end developer at SendCloud and move to Eindhoven in the Netherlands.
 
 I primarily write HTML, CSS, and JavaScript with a focus on accessibility. Find more details in my [CV](/cv).
+
+On the web:
+
+- <a href="{{ metadata.author.twitter }}" rel="me">Twitter</a>
+- <a href="{{ metadata.author.github }}" rel="me">GitHub</a>
 
 ---
 

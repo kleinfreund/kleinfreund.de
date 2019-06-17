@@ -167,8 +167,8 @@ th {
 
 hr {
   width: 100%;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 0;
+  margin-bottom: var(--f-vertical-spacing);
   color: inherit;
   border-bottom: 0.1em solid;
 }
