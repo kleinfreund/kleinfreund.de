@@ -11,7 +11,6 @@ I’m a front-end developer living in Eindhoven, the Netherlands. I currently wo
 
 ## Contact
 
-- Address: *to be determined*, 5642CV Eindhoven, The Netherlands
 - Email: philipprudloff@fastmail.com
 - GitHub: [github.com/kleinfreund](http://github.com/kleinfreund)
 - CodePen: [codepen.io/kleinfreund](https://codepen.io/kleinfreund)
