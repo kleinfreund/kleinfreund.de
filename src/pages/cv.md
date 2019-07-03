@@ -5,15 +5,13 @@ date: 2019-06-06
 ---
 My name is Philipp Rudloff.
 
-I’m a front-end developer living in Weimar (Germany).
-
-In summer, I’ll be moving to Eindhoven (Netherlands) where I will start a position as a front-end developer at [SendCloud](https://sendcloud.com).
+I’m a front-end developer living in Eindhoven, the Netherlands. I currently work at [SendCloud](https://sendcloud.com).
 
 
 
 ## Contact
 
-- Address: Hegelstraße 7, 99423 Weimar, Germany
+- Address: *to be determined*, 5642CV Eindhoven, The Netherlands
 - Email: philipprudloff@fastmail.com
 - GitHub: [github.com/kleinfreund](http://github.com/kleinfreund)
 - CodePen: [codepen.io/kleinfreund](https://codepen.io/kleinfreund)
@@ -58,7 +56,7 @@ In summer, I’ll be moving to Eindhoven (Netherlands) where I will start a posi
 
   Disraptor ([disraptor.org](https://www.disraptor.org)) decouples the development of an arbitrary web application from the need to implement auxiliary functions like authentication, user management and social networking.
 
-- Starting in July 2019:
+- July 2019 – Present:
 
   **Front-end developer** at [SendCloud](https://sendcloud.com).
 

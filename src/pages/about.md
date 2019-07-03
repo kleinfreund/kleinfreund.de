@@ -1,17 +1,17 @@
 ---
 title: About
-description: "Front-end developer from Weimar, Germany. Proficient in HTML, CSS and JavaScript."
+description: "Front-end developer from Eindhoven, the Netherlands. Proficient in HTML, CSS and JavaScript."
 date: 2018-08-22
 ---
 Hey, I’m Philipp.
 
-I’m a front-end developer from Weimar, Germany.
+I’m a front-end developer from Eindhoven, the Netherlands.
 
 <p class="marginalia">
   <img src="/img/me.jpg" alt ="Portrait of the author" style="position: absolute;">
 </p>
 
-In a few weeks, I will start my first job as a front-end developer at SendCloud and move to Eindhoven in the Netherlands.
+I just started my first job as a front-end developer at SendCloud.
 
 I primarily write HTML, CSS, and JavaScript with a focus on accessibility. Find more details in my [CV](/cv).
 
