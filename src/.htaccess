@@ -1,3 +1,10 @@
+# Add Link header for webmentions
+
+<IfModule mod_headers.c>
+  Header add Link <https://webmention.io/kleinfreund.de/webmention>;rel=webmention
+</IfModule>
+
+
 # Keep Alive
 
 <IfModule mod_headers.c>
