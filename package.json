@@ -12,7 +12,7 @@
     "@11ty/eleventy": "^0.8.3",
     "clean-css": "^4.2.1",
     "html-minifier": "^4.0.0",
-    "markdown-it": "^8.4.2",
+    "markdown-it": "^9.0.1",
     "markdown-it-anchor": "^5.2.4"
   }
 }
