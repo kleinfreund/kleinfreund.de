@@ -11,19 +11,17 @@ Visual Studio Code provides powerful tooling around languages such as HTML, CSS,
 
 These are the necessary steps to setup Vue.js linting in Visual Studio Code. If you use the [Vue CLI](https://cli.vuejs.org/) to generate a Vue project, you can skip steps 1 and 2 because the tool will take care of them.
 
-1. Install the NPM packages `eslint` and `eslint-plugin-vue` via one of the following ways:
+1. Install the NPM packages `eslint` and `eslint-plugin-vue`.
 
-    - Global installation:
+    ```sh
+    npm install --global eslint eslint-plugin-vue
+    ```
 
-      ```
-      npm install --global eslint eslint-plugin-vue
-      ```
+    If you prefer a local installation:
 
-    - Local installation (in your project’s workspace):
-
-      ```
-      npm install --save-dev eslint eslint-plugin-vue
-      ```
+    ```sh
+    npm install --save-dev eslint eslint-plugin-vue
+    ```
 
 2. Configure ESLint to use the recommended Vue.js linter rulesets which are provided by `eslint-plugin-vue`.
 
