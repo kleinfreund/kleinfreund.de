@@ -11,7 +11,7 @@ I’m a front-end developer from Eindhoven, the Netherlands.
   <img src="/img/me.jpg" alt ="Portrait of the author" style="position: absolute;">
 </p>
 
-I just started my first job as a front-end developer at SendCloud.
+I just started my first job as a front-end developer at Sendcloud.
 
 I primarily write HTML, CSS, and JavaScript with a focus on accessibility. Find more details in my [CV](/cv).
 

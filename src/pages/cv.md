@@ -5,7 +5,7 @@ date: 2019-06-06
 ---
 My name is Philipp Rudloff.
 
-I’m a front-end developer living in Eindhoven, the Netherlands. I currently work at [SendCloud](https://sendcloud.com).
+I’m a front-end developer living in Eindhoven, the Netherlands. I currently work at [Sendcloud](https://sendcloud.com).
 
 
 
@@ -57,7 +57,7 @@ I’m a front-end developer living in Eindhoven, the Netherlands. I currently wo
 
 - July 2019 – Present:
 
-  **Front-end developer** at [SendCloud](https://sendcloud.com).
+  **Front-end developer** at [Sendcloud](https://sendcloud.com).
 
 
 
