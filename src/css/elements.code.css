@@ -8,6 +8,7 @@ kbd,
 samp,
 var {
   font-family: var(--f-family-code);
+  font-size: 0.85em;
 }
 
 code {

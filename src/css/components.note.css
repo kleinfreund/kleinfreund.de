@@ -19,6 +19,10 @@
   content: var(--note-glyph) '\a0';
 }
 
+.note code {
+  color: currentColor;
+}
+
 @media (min-width: 1000px) {
   .note:not(.marginalia) {
     padding: 0.5em 1em;
