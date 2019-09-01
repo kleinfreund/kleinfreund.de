@@ -175,7 +175,7 @@ Unfortunately, at this point, we still have the same problem. The original repos
 
 In the conflicting files, git will have added markers that look something like this:
 
-```
+```js
 <<<<<<< HEAD
 if (Array.isArray(results)) {
 =======
@@ -187,7 +187,7 @@ if (results !== undefined && results.length > 0) {
 
 After the set of less-than signs (`<`), it will show you the parts that were changed in the original; after the set of equals signs (`=`), it will show you the parts you changed. What git asks you is to decide which changes should remain in the file after solving the conflict. More often than not, it’s only a matter of choosing one or the other; however, sometimes you may want to combine the changes:
 
-```
+```js
 if (Array.isArray(results) && results.length > 0) {
   console.info(`Results: ${results.join(', ')}`)
 }
