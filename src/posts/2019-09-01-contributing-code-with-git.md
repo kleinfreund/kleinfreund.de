@@ -78,7 +78,7 @@ I will use the repository [github.com/kleinfreund/poll](https://github.com/klein
 
 You now have a local copy of the fork. Your local copy knows about the two remote repositories, original and fork, which you can verify by running `git remote -v`:
 
-```sh
+```
 $ git remote --verbose
 fork    https://github.com/<YOUR-USERNAME>/poll.git (fetch)
 fork    https://github.com/<YOUR-USERNAME>/poll.git (push)
