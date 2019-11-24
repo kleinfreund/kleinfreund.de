@@ -39,6 +39,10 @@ li > pre {
 * HEADINGS
 */
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--f-family-headings);
+}
+
 :not(h1) + h2,
 :not(h2) + h3 {
   margin-top: calc(2 * var(--f-vertical-spacing));
