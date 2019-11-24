@@ -3,13 +3,16 @@
 */
 
 :focus {
-  outline: 0.1em solid var(--c-focus);
+  outline: 0.15em dotted var(--c-focus);
+  outline-offset: 0.1em;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
-  border-bottom: 0.1em solid var(--c-interactive);
+  color: var(--c-interactive);
+}
+
+a:hover {
+  color: var(--c-interactive-dark);
 }
 
 /*
@@ -18,5 +21,4 @@ a {
 a:hover,
 a:active {
   outline: none; /* 1 */
-  border-bottom-color: var(--c-interactive-dark);
 }
