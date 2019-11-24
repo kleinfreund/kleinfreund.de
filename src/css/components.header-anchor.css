@@ -1,9 +1,24 @@
 .header-anchor {
+  --offset-from-heading: 0.25em;
   position: absolute;
   transform: translateX(-100%);
-  padding-right: 0.25em;
+  margin-left: calc(-1 * var(--offset-from-heading));
   border-bottom: none;
   font-weight: normal;
+}
+
+/*
+This pseudo element ensures that the gap between the heading and its anchor
+is part of the anchor’s hit area which in turn allows the gap to be hovered
+in order to cause the visibility rule below to apply.
+*/
+.header-anchor::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: calc(-1 * var(--offset-from-heading));
+  bottom: 0;
+  left: 0;
 }
 
 .header-anchor__icon {
@@ -15,6 +30,7 @@ h2:hover .header-anchor__icon,
 h3:hover .header-anchor__icon,
 h4:hover .header-anchor__icon,
 h5:hover .header-anchor__icon,
-h6:hover .header-anchor__icon {
+h6:hover .header-anchor__icon,
+.header-anchor:focus .header-anchor__icon {
   visibility: visible;
 }

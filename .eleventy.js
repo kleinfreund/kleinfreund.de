@@ -20,7 +20,12 @@ const markdownItOptions = {
 // https://github.com/valeriangalliat/markdown-it-anchor#usage
 const markdownItAnchorOptions = {
   permalink: true,
-  permalinkSymbol: '<span class="header-anchor__icon">🔗</span>',
+  permalinkSymbol: `
+    <span class="header-anchor__icon">
+      🔗
+      <span class="sr-only">Jump to heading</span>
+    </span>
+  `.trim(),
   permalinkBefore: true
 };
 

@@ -1,5 +1,5 @@
 /*
-visibility-hidden utility class
+sr-only utility class
 
 Source: https://github.com/h5bp/html5-boilerplate
 
@@ -10,7 +10,7 @@ https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
    and small width causes content to wrap 1 word per line:
    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
 */
-.visually-hidden {
+.sr-only {
   position: absolute;
   overflow: hidden;
   clip: rect(0 0 0 0);

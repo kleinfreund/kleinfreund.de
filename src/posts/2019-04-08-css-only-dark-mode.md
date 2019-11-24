@@ -182,7 +182,7 @@ The ruleset for links sets the `color` property with a general custom property. 
 Currently, the checkbox and its label aren’t visually associated with each other. Also, the checkbox is unaffected by our theme. This is an unfortunate tradeoff with the CSS-only dark mode. We will supply an alternative box next to the label and visually hide the original.
 
 ```html
-<input class="dark-mode-checkbox visually-hidden" id="dark-mode" type="checkbox">
+<input class="dark-mode-checkbox sr-only" id="dark-mode" type="checkbox">
 
 <!-- … -->
 ```
@@ -197,7 +197,7 @@ Currently, the checkbox and its label aren’t visually associated with each oth
 }
 
 /*
-visibility-hidden utility class
+sr-only utility class
 
 Source: https://github.com/h5bp/html5-boilerplate
 
@@ -208,7 +208,7 @@ https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
    and small width causes content to wrap 1 word per line:
    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
 */
-.visually-hidden {
+.sr-only {
   position: absolute;
   overflow: hidden;
   clip: rect(0 0 0 0);
