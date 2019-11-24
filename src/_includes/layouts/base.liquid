@@ -24,18 +24,12 @@
         {{ isolated_css | minify_css }}
       {%- endfor -%}
     </style>
-
-    <script>
-      {% include "js/color-scheme-toggle.js" %}
-    </script>
   {% else %}
     <link rel="stylesheet" href="{{ '/css/kleinfreund.css' | url }}">
 
     {% for cssPath in css %}
       <link rel="stylesheet" href="{{ '/css/isolated/' | url }}{{ cssPath }}">
     {% endfor %}
-
-    <script src="{{ '/js/color-scheme-toggle.js' | url }}"></script>
   {% endif %}
 
   <link rel="alternate" href="{{ '/feed.xml' | url }}" type="application/atom+xml" title="Feed for kleinfreund.de">
@@ -83,6 +77,14 @@
   <main class="page-content">
     {{ layoutContent }}
   </main>
+
+  {% if eleventy.environment == 'production' %}
+    <script defer>
+      {% include "js/color-scheme-toggle.js" %}
+    </script>
+  {% else %}
+    <script src="{{ '/js/color-scheme-toggle.js' | url }}" defer></script>
+  {% endif %}
 
 </body>
 </html>
