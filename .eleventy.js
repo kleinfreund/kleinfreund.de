@@ -75,8 +75,8 @@ module.exports = function (eleventyConfig) {
 
 
 /**
- * @param {String} mainCssPath
- * @returns {String}
+ * @param {string} mainCssPath
+ * @returns {string}
  */
 function resolveCssImports(mainCssPath) {
   const mainCssContent = fs.readFileSync(path.join('src', mainCssPath), 'utf8');
@@ -96,8 +96,8 @@ function resolveCssImports(mainCssPath) {
 /**
  * Minifies CSS content.
  *
- * @param {String} concatenatedCssContent
- * @returns {String} the minified CSS content
+ * @param {string} concatenatedCssContent
+ * @returns {string} the minified CSS content
  */
 function minifyCss(concatenatedCssContent) {
   const minifyResult = new CleanCSS().minify(concatenatedCssContent);
@@ -115,9 +115,9 @@ function minifyCss(concatenatedCssContent) {
 /**
  * Minifies HTML content.
  *
- * @param {String} content
- * @param {String} outputPath
- * @returns {String} the minified HTML content
+ * @param {string} content
+ * @param {string} outputPath
+ * @returns {string} the minified HTML content
  */
 function minifyHtml(content, outputPath) {
   if (outputPath.endsWith('.html')) {
@@ -131,7 +131,7 @@ function minifyHtml(content, outputPath) {
  * Extracts the excerpt from a document.
  *
  * @param {*} doc A real big object full of all sorts of information about a document.
- * @returns {String} the excerpt.
+ * @returns {string} the excerpt.
  */
 function extractExcerpt(doc) {
   if (!doc.hasOwnProperty('templateContent')) {
