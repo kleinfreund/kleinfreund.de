@@ -3,12 +3,11 @@ title: Style guide
 description: "Showing off the appearance of paragraphs, links, figures, code blocks, etc. in a small style guide."
 date: 2017-10-14
 ---
+
 I’ve redesigned my site for the umpteenth time now. One big phase has always been the work on the basic visual appearance.
 Up until now, I scavanged my archive for posts that have the elements that needed to be styled: code blocks, quotes, etc. This was a tedious process. Now, I use this document containing all basic forms of content my site uses. My personal style guide.
 
 What I mean with “basic forms of content” can be summarized by listing the set of elements on a page that can be styled with plain CSS element selectors (i.e. without any classes). If you’re familar with Harry Roberts’ [Inverted Triangle CSS methodology](http://www.creativebloq.com/web-design/manage-large-css-projects-itcss-101517528), the style guide deals only with the elements layer.
-
-
 
 ## Contents
 
@@ -19,19 +18,15 @@ What I mean with “basic forms of content” can be summarized by listing the s
 - [Headings](#headings)
 - [Images](#images)
 
-
-
 ## Inline Styles
 
-The most common forms of emphasis are *italics* and **bold text**. Mostly seen in handwritten notes, another form is a mark. It tends to <mark>stick out of its context</mark> in a rather attention-grabbing fashion so be careful when to use this.
+The most common forms of emphasis are _italics_ and **bold text**. Mostly seen in handwritten notes, another form is a mark. It tends to <mark>stick out of its context</mark> in a rather attention-grabbing fashion so be careful when to use this.
 
 Rarely, you see abbreviations like <abbr title="Mozilla Developer Network">MDN</abbr> (Mozilla Developer Network) marked up with the `abbr` element. However, note that the `title` attribute is often not conveyed to assistive technology; therefore, it’s best to add the expansion as regular text on first usage of the abbreviation.
 
 Edits made to a text can be <del>repersented</del> <ins>represented</ins> by marking up the parts that were deleted with `<del>` and inserted with `<ins>`.
 
 One can mark up keyboard shortcuts such as <kbd>Ctrl</kbd>+<kbd>D</kbd> with `<kbd>` tags. Inline code is usually added in `<code>` tags.
-
-
 
 ## Lists
 
@@ -44,17 +39,15 @@ One can mark up keyboard shortcuts such as <kbd>Ctrl</kbd>+<kbd>D</kbd> with `<k
 1. First list item
 2. Second list item
 
-    with content spanning
+   with content spanning
 
-    multiple paragraphs.
+   multiple paragraphs.
 
 3. Third list item
 
    1. More creativity
 
    2. Even more creativity
-
-
 
 ## Quotes
 
@@ -64,8 +57,6 @@ One can mark up keyboard shortcuts such as <kbd>Ctrl</kbd>+<kbd>D</kbd> with `<k
 </blockquote>
 
 As my grandma used to say <q>Remember, there is a <q>proper HTML</q> element for when one wants to quote inline</q>.
-
-
 
 ## Code
 
@@ -79,8 +70,6 @@ pre {
   border-radius: 0.5em;
 }
 ```
-
-
 
 ## Headings
 
@@ -96,8 +85,6 @@ pre {
 
 <h6>Heading Level 6</h6>
 
-
-
 ## Images
 
 <figure>
@@ -107,4 +94,4 @@ pre {
   </figcaption>
 </figure>
 
-A figures’ caption should have a slightly smaller text size than regular text.
+A figure’s caption should have a slightly smaller text size than regular text.
