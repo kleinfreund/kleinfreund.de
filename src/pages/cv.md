@@ -15,36 +15,36 @@ I’m a front-end developer working at [Sendcloud](https://sendcloud.com).
 
 ## Work
 
-- August 2017 – March 2018:
+- July 2019 – Present:
 
-  **Front-end developer** for Slidehub at Bauhaus-Universität Weimar.
+  **Front-end developer** at [Sendcloud](https://sendcloud.com). Working on the frontend of a medium-sized web application with a special point of focus on platform localization.
 
 - April 2018 – June 2019:
 
   **Web developer** for Disraptor at Bauhaus-Universität Weimar.
 
-- July 2019 – Present:
+- August 2017 – March 2018:
 
-  **Front-end developer** at [Sendcloud](https://sendcloud.com). Working on the frontend of a medium-sized web application with a special point of focus on platform localization.
+  **Front-end developer** for Slidehub at Bauhaus-Universität Weimar.
 
 ## Education
-
-- 2011:
-
-  **General higher education entrance qualification**
-
-- 2011 – 2012:
-
-  <strong lang="de">Fachinformatiker für Anwendungsentwicklung</strong> (cancelled)
-
-- 2012 – 2014:
-
-  <strong lang="de">Gestaltungstechnischer Assistent für Medien und Kommunikation</strong> (completed)
 
 - 2014 – 2019:
 
   **Computer Science & Media (B.Sc.)** (completed)<br>
   at Bauhaus-Universität Weimar
+
+- 2012 – 2014:
+
+  <strong lang="de">Gestaltungstechnischer Assistent für Medien und Kommunikation</strong> (completed)
+
+- 2011 – 2012:
+
+  <strong lang="de">Fachinformatiker für Anwendungsentwicklung</strong> (cancelled)
+
+- 2011:
+
+  **General higher education entrance qualification**
 
 ## Qualifications
 
