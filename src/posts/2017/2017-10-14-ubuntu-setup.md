@@ -8,8 +8,8 @@ I find it enjoyable to setup a new operating system. For the most part. All is s
 
 Setting up Ubuntu is tedious. It doesn’t do a good job of getting out of your way. Rather, it gets in your way. Changing some interface behavior or installing software is rarely obvious. What I found myself doing more than anything was hitting up a search engine with questions like these:
 
-- *“How to install <var>$SOFTWARE</var> on Ubuntu?*
-- *“How to stop Ubuntu from doing <var>$THING</var>?”*
+- *“How to install `$SOFTWARE` on Ubuntu?*
+- *“How to stop Ubuntu from doing `$THING`?”*
 
 In order to answer these questions, I took notes and put them in a text document inside my home directory. Here is my `ubuntu-setup.md`.
 

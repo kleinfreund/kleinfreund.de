@@ -1,6 +1,6 @@
 ---
 title: Style guide
-description: "Showing off the appearance of paragraphs, links, figures, code blocks, etc. in a small style guide."
+description: Showing off the appearance of paragraphs, links, figures, code blocks, etc. in a small style guide.
 date: 2017-10-14
 ---
 
@@ -20,7 +20,7 @@ What I mean with “basic forms of content” can be summarized by listing the s
 
 ## Inline Styles
 
-The most common forms of emphasis are _italics_ and **bold text**. Mostly seen in handwritten notes, another form is a mark. It tends to <mark>stick out of its context</mark> in a rather attention-grabbing fashion so be careful when to use this.
+The most common forms of emphasis are _italics_ and **bold text**. Mostly seen in handwritten notes, another form is a mark.
 
 Rarely, you see abbreviations like <abbr title="Mozilla Developer Network">MDN</abbr> (Mozilla Developer Network) marked up with the `abbr` element. However, note that the `title` attribute is often not conveyed to assistive technology; therefore, it’s best to add the expansion as regular text on first usage of the abbreviation.
 

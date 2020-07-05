@@ -3,6 +3,7 @@ title: About
 description: "Front-end developer living in the Netherlands. Proficient in HTML, CSS, and JavaScript."
 date: 2018-08-22
 ---
+
 Hey, I’m Philipp.
 
 I’m a front-end developer.
@@ -11,7 +12,7 @@ I’m a front-end developer.
   <img src="/img/me.jpg" alt ="Portrait of the author" style="position: absolute;">
 </p>
 
-I primarily write HTML, CSS, and JavaScript with a focus on accessibility and user interactions. Find more details in my [CV](/cv).
+I build websites and web applications with a focus on accessibility and user interactions. Find more details in my [CV](/cv).
 
 On the web:
 
@@ -20,7 +21,7 @@ On the web:
 
 ---
 
-This site is hosted on [Uberspace](https://uberspace.de/) and built with [Eleventy](https://www.11ty.io).
+This site is hosted on [Uberspace](https://uberspace.de/en/) and built with [Eleventy](https://www.11ty.dev/).
 
 All content is licensed under [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) unless otherwise stated.
 

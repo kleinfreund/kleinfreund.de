@@ -1,7 +1,8 @@
 ---
 title: Curriculum vitae
 menu_text: CV
-date: 2020-05-23
+description: CV of Philipp Rudloff, front-end developer currently living in the Netherlands.
+date: 2020-06-04
 ---
 
 My name is Philipp Rudloff. I live in Eindhoven, Netherlands.
@@ -10,22 +11,33 @@ I’m a front-end developer working at [Sendcloud](https://sendcloud.com).
 
 ## Contact
 
-- **Email**:<br>philipprudloff@fastmail.com
-- **GitHub**:<br>[github.com/kleinfreund](http://github.com/kleinfreund)
+- **Email**:
+
+  philipprudloff@fastmail.com
+
+- **GitHub**:
+
+  [github.com/kleinfreund](http://github.com/kleinfreund)
 
 ## Work
 
 - July 2019 – Present:
 
-  **Front-end developer** at [Sendcloud](https://sendcloud.com). Working on the frontend of a medium-sized web application with a special point of focus on platform localization.
+  **Front-end developer** at [Sendcloud](https://sendcloud.com).
+
+  Working on all frontend-related aspects of the Sendcloud platform including localization, API specification, and general maintenance tasks. Heavily involved in finalizing the two-year effort of migrating the main frontend to a Vue.js-powered application.
 
 - April 2018 – June 2019:
 
   **Web developer** for Disraptor at Bauhaus-Universität Weimar.
 
+  Disraptor decouples the development of an arbitrary web application from the need to implement auxiliary functions like authentication, user management and social networking.
+
 - August 2017 – March 2018:
 
   **Front-end developer** for Slidehub at Bauhaus-Universität Weimar.
+
+  Slidehub is a web-based browser for PDF documents.
 
 ## Education
 
@@ -40,7 +52,7 @@ I’m a front-end developer working at [Sendcloud](https://sendcloud.com).
 
 - 2011 – 2012:
 
-  <strong lang="de">Fachinformatiker für Anwendungsentwicklung</strong> (cancelled)
+  <strong lang="de">Fachinformatiker für Anwendungsentwicklung</strong> (canceled)
 
 - 2011:
 
@@ -59,6 +71,7 @@ I mostly work with plain HTML, CSS and JavaScript. Below is a list of technologi
 - Tools:
   - Version control systems: git
   - Static site generators: [Eleventy](https://11ty.io), [Jekyll](https://jekyllrb.com)
+  - Miscellaneous: [OpenAPI](https://swagger.io/docs/specification/about), [Phrase](https://phrase.com/)
 
 ## Published code
 
