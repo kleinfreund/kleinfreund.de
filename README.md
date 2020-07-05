@@ -18,10 +18,6 @@ npm start
 npm run build
 ```
 
-## To Do
-
-- *(nothing)*
-
 ## Generate icons
 
 Create a 152×152 px PNG logo out of the SVG file:
@@ -41,5 +37,5 @@ convert -background none -density 16x16 icon.svg favicon-16.png \
 
 ## Used resources
 
-- [Eleventy documentation](https://www.11ty.io/docs/)
+- [Eleventy documentation](https://www.11ty.dev/docs/)
 - [Harry Roberts: Manage large CSS projects with ITCSS](http://www.creativebloq.com/web-design/manage-large-css-projects-itcss-101517528)

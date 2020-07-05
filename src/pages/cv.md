@@ -5,7 +5,7 @@ description: CV of Philipp Rudloff, front-end developer currently living in the 
 date: 2020-06-04
 ---
 
-My name is Philipp Rudloff. I live in Eindhoven, Netherlands.
+My name is Philipp Rudloff.
 
 I’m a front-end developer working at [Sendcloud](https://sendcloud.com).
 
@@ -87,7 +87,7 @@ I mostly work with plain HTML, CSS and JavaScript. Below is a list of technologi
 
 - [**reverse-iterable-map**](https://npmjs.com/package/reverse-iterable-map) / [**set**](https://npmjs.com/package/reverse-iterable-set) / [**array**](https://npmjs.com/package/reverse-iterable-array):
 
-  Forwards and backwards iterable map/set/array implementation.
+  Forwards _and_ backwards iterable map/set/array implementations.
 
 - [**get-reverse-iterating-array**](https://npmjs.com/package/get-reverse-iterating-array):
 

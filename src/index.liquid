@@ -34,15 +34,15 @@ pagination:
 {% if pagination.pageLinks.length > 1 %}
 <nav class="pagination">
   {% if pagination.previousPageLink %}
-    <a class="pagination__item" href="{{ pagination.previousPageHref | url }}">Newer Articles</a>
+    <a class="pagination__item" href="{{ pagination.previousPageHref | url }}">Newer articles</a>
   {% else %}
-    <span class="pagination__item">Newer Articles</span>
+    <span class="pagination__item">Newer articles</span>
   {% endif %}
 
   {% if pagination.nextPageLink %}
-    <a class="pagination__item" href="{{ pagination.nextPageHref | url }}">Older Articles</a>
+    <a class="pagination__item" href="{{ pagination.nextPageHref | url }}">Older articles</a>
   {% else %}
-    <span class="pagination__item">Older Articles</span>
+    <span class="pagination__item">Older articles</span>
   {% endif %}
 </nav>
 {% endif %}
