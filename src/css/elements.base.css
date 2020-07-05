@@ -191,18 +191,17 @@ dl {
   padding-left: 3rem;
 }
 
-li:not(:first-child) {
-  margin-top: calc(var(--f-vertical-spacing) / 2);
-}
-
-li p,
-li ul,
-li ol {
+li > p,
+li > ul,
+li > ol {
   margin-bottom: 0;
 }
 
-li > ol,
-li > ul,
+li:not(:first-child) > p,
 li > p:not(:first-child) {
   margin-top: calc(var(--f-vertical-spacing) / 4);
+}
+
+li:not(:first-child) > p:first-child {
+  margin-top: calc(var(--f-vertical-spacing) / 2);
 }

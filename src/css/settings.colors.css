@@ -33,8 +33,8 @@
 }
 
 /* Set default theme to light theme */
-:root:not([data-color-scheme]),
-:root[data-color-scheme="light"] {
+body:not([data-color-scheme]),
+body[data-color-scheme="light"] {
   --c-text: var(--cl-text);
   --c-background: var(--cl-background);
   --c-focus: var(--cl-focus);
@@ -48,7 +48,7 @@
 
 /* Override default theme with dark theme */
 @media (prefers-color-scheme: dark) {
-  :root:not([data-color-scheme]) {
+  body:not([data-color-scheme]) {
     --c-text: var(--cd-text);
     --c-background: var(--cd-background);
     --c-focus: var(--cd-focus);
@@ -61,7 +61,7 @@
   }
 }
 
-:root[data-color-scheme="dark"] {
+body[data-color-scheme="dark"] {
   --c-text: var(--cd-text);
   --c-background: var(--cd-background);
   --c-focus: var(--cd-focus);

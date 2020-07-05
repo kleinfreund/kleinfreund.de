@@ -3,7 +3,7 @@
 }
 
 .color-scheme-toggle {
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
   padding: 0.25em 1em;
   font-size: 0.8em;
   color: var(--cd-text);
@@ -11,13 +11,13 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root:not([data-color-scheme]) .color-scheme-toggle {
+  body:not([data-color-scheme]) .color-scheme-toggle {
     color: var(--cl-text);
     background-color: var(--cl-background);
   }
 }
 
-:root[data-color-scheme="dark"] .color-scheme-toggle {
+body[data-color-scheme="dark"] .color-scheme-toggle {
   color: var(--cl-text);
   background-color: var(--cl-background);
 }
@@ -28,29 +28,29 @@
 }
 
 @media (prefers-color-scheme: light) {
-  :root:not([data-color-scheme]) .color-scheme-toggle--enable-light {
+  body:not([data-color-scheme]) .color-scheme-toggle--enable-light {
     display: none;
   }
 
-  :root:not([data-color-scheme]) .color-scheme-toggle--enable-dark {
+  body:not([data-color-scheme]) .color-scheme-toggle--enable-dark {
     display: initial;
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  :root:not([data-color-scheme]) .color-scheme-toggle--enable-dark {
+  body:not([data-color-scheme]) .color-scheme-toggle--enable-dark {
     display: none;
   }
 
-  :root:not([data-color-scheme]) .color-scheme-toggle--enable-light {
+  body:not([data-color-scheme]) .color-scheme-toggle--enable-light {
     display: initial;
   }
 }
 
-:root[data-color-scheme="light"] .color-scheme-toggle--enable-dark {
+body[data-color-scheme="light"] .color-scheme-toggle--enable-dark {
   display: initial;
 }
 
-:root[data-color-scheme="dark"] .color-scheme-toggle--enable-light {
+body[data-color-scheme="dark"] .color-scheme-toggle--enable-light {
   display: initial;
 }
