@@ -4,9 +4,7 @@
 
 pre,
 code,
-kbd,
-samp,
-var {
+kbd {
   font-family: var(--f-family-code);
   font-size: 0.85em;
 }

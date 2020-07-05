@@ -45,36 +45,35 @@
     console.log(`have a ${[...[...(2**2**2**2**2**2) + ''].slice(4, 6), ...[...[]+{}].slice(4, 6).reverse()].join('')} day, beautiful!`);
   </script>
 </head>
-<body class="js-disabled">
 
-  <header class="site-head">
+<body class="page js-disabled">
 
-    <button class="button inline-button color-scheme-toggle" data-color-scheme-toggle type="button">
-      <span class="color-scheme-toggle--enable-dark">Enable dark mode 🌚</span>
-      <span class="color-scheme-toggle--enable-light">Enable light mode 🌞</span>
-    </button>
+  <ul class="site-nav">
+    <li class="site-nav__item">
+      <button class="button color-scheme-toggle" data-color-scheme-toggle type="button">
+        <span class="color-scheme-toggle--enable-dark">Enable dark mode 🌚</span>
+        <span class="color-scheme-toggle--enable-light">Enable light mode 🌞</span>
+      </button>
+    </li>
 
-    <ul class="site-nav">
+    <li class="site-nav__item">
+      <a href="{{ '/' | url }}">kleinfreund.de</a>
+    </li>
+
+    {% for page in collections.pages %}
       <li class="site-nav__item">
-        <a href="{{ '/' | url }}">kleinfreund.de</a>
+        <a href="{{ page.url }}">
+          {% if page.data.menu_text %}
+            {{ page.data.menu_text }}
+          {% else %}
+            {{ page.data.title }}
+          {% endif %}
+        </a>
       </li>
+    {% endfor %}
+  </ul>
 
-      {% for page in collections.pages %}
-        <li class="site-nav__item">
-          <a href="{{ page.url }}">
-            {% if page.data.menu_text %}
-              {{ page.data.menu_text }}
-            {% else %}
-              {{ page.data.title }}
-            {% endif %}
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
-
-  </header>
-
-  <main class="page-content">
+  <main class="page__content">
     {{ layoutContent }}
   </main>
 

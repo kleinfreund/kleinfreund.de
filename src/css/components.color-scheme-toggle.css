@@ -3,7 +3,9 @@
 }
 
 .color-scheme-toggle {
-  padding: 0.25em 0.75em;
+  margin-bottom: 0.25rem;
+  padding: 0.25em 1em;
+  font-size: 0.8em;
   color: var(--cd-text);
   background-color: var(--cd-background);
 }

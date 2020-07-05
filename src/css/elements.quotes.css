@@ -2,11 +2,6 @@
 * QUOTES
 */
 
-:lang(de) blockquote,
-:lang(de) q {
-  quotes: '„' '“' '‚' '‘';
-}
-
 blockquote {
   position: relative;
   padding: 1.5em;
@@ -21,13 +16,8 @@ blockquote::before {
 }
 
 :lang(en) blockquote::before {
-  content: '“';
+  content: "“";
   top: 0.125em;
-}
-
-:lang(de) blockquote::before {
-  content: '„';
-  bottom: 0.75em;
 }
 
 blockquote > p:last-of-type {
@@ -35,7 +25,7 @@ blockquote > p:last-of-type {
 }
 
 blockquote cite::before {
-  content: '\2014';
+  content: "\2014";
 }
 
 @media (min-width: 1000px) {

@@ -14,11 +14,3 @@ a {
 a:hover {
   color: var(--c-interactive-dark);
 }
-
-/*
-1: Improve visibility for focused links
-*/
-a:hover,
-a:active {
-  outline: none; /* 1 */
-}

@@ -5,105 +5,99 @@
 }
 
 .post-list > li:not(:first-child) {
-  margin-top: 4rem;
+  margin-top: 9rem;
 }
 
 .post-list h2 {
   margin-top: 0;
 }
 
-
-
-.post {
-  padding: 3vw;
+.post > :last-child {
+  margin-bottom: 0;
 }
-
-
 
 @media (min-width: 1000px) {
+  /*
+  [1]: Defines a three-column layout:
+       - full: spans all columns
+       - main: center column
+       - side: side column next to the center column for additional content accompanying the main content in the center column
+  */
   .post {
     max-width: 1000px;
-    margin-right: auto;
-    margin-left: auto;
+    display: grid;
+    align-items: start;
+    grid-template-columns:
+      [full-start main-start] 3fr [main-end side-start] 1fr [side-end
+      full-end]; /* [1] */
+    grid-column-gap: 2rem;
+  }
+
+  /*
+  By default, content sits in the main column.
+
+  1. Fix this weird CSS grid behavior.
+      https://css-tricks.com/preventing-a-grid-blowout/
+  */
+  .post > * {
+    grid-column: main;
+    min-width: 0; /* 1. */
+  }
+
+  /*
+  Some content takes up all available space.
+  */
+  .post > figure,
+  .post > blockquote,
+  .post > .embedded-media,
+  .grow-to-full {
+    grid-column: full;
+  }
+
+  .post > h1,
+  .post > h2,
+  .post > h3,
+  .post > h4,
+  .post > h5,
+  .post > h6,
+  .post > pre {
+    grid-column: main-start / full-end;
+  }
+
+  /*
+  Apply the `has-marginalia` class to elements taking the full space (e.g. `figure`).
+  This ensures that the marginalia sits next to that element instead of a new row containing
+  only the marginalia.
+  */
+  .post > .has-marginalia {
+    grid-column-end: main-end;
+  }
+
+  /*
+  Marginalia (https://en.m.wikipedia.org/wiki/Marginalia) is additional, related content (i.e. a
+  side note or boxout)
+
+  [1]: Allows the marginalia content to be positioned absolutely.
+  */
+  .post > .marginalia {
+    grid-column: side;
+    position: relative; /* [1] */
+    font-size: 0.8em;
   }
 }
 
-@supports (display: grid) {
-  @media (min-width: 1000px) {
-    /*
-    [1]: Defines a three-column layout:
-         - full: spans all columns
-         - main: center column
-         - side: side column next to the center column for additional content accompanying the
-           main content in the center column
-    */
-    .post {
-      max-width: 1000px;
-      display: grid;
-      align-items: start;
-      grid-template-columns: [full-start main-start] 3fr [main-end side-start] 1fr [side-end
-        full-end]; /* [1] */
-      grid-column-gap: 2rem;
-    }
-
-    /*
-    By default, content sits in the main column.
-
-    1. Fix this weird CSS grid behavior.
-       https://css-tricks.com/preventing-a-grid-blowout/
-    */
-    .post > * {
-      grid-column: main;
-      min-width: 0; /* 1. */
-    }
-
-    /*
-    Some content takes up all available space.
-    */
-    .post > figure,
-    .post > blockquote,
-    .post > .embedded-media,
-    .grow-to-full {
-      grid-column: full;
-    }
-
-    .post > h1,
-    .post > h2,
-    .post > h3,
-    .post > h4,
-    .post > h5,
-    .post > h6,
-    .post > pre {
-      grid-column: main-start / full-end;
-    }
-
-    /*
-    Apply the `has-marginalia` class to elements taking the full space (e.g. `figure`).
-    This ensures that the marginalia sits next to that element instead of a new row containing
-    only the marginalia.
-    */
-    .post > .has-marginalia {
-      grid-column-end: main-end;
-    }
-
-    /*
-    Marginalia (https://en.m.wikipedia.org/wiki/Marginalia) is additional, related content (i.e. a
-    side note or boxout)
-
-    [1]: Allows the marginalia content to be positioned absolutely.
-    */
-    .post > .marginalia {
-      grid-column: side;
-      position: relative; /* [1] */
-      font-size: 0.8em;
-    }
+@media (min-width: 1400px) {
+  .post {
+    max-width: 1400px;
+    grid-template-columns:
+      [full-start] 1fr [main-start] 3fr [main-end side-start] 1fr [side-end
+      full-end];
   }
+}
 
-  @media (min-width: 1400px) {
-    .post {
-      max-width: 1400px;
-      grid-template-columns: [full-start] 1fr [main-start] 3fr [main-end side-start] 1fr [side-end
-        full-end];
-    }
+@media (min-width: 1800px) {
+  .post {
+    margin-right: auto;
+    margin-left: auto;
   }
 }

@@ -14,7 +14,6 @@
   --cl-code-block-background: hsl(236, 20%, 15%);
 
   --cl-note-background: hsl(300, 100%, 97%);
-  --cl-mark-background: hsl(150, 100%, 50%);
 
   /*
   Dark mode colors
@@ -31,7 +30,6 @@
   --cd-code-block-background: hsl(227, 100%, 10%);
 
   --cd-note-background: hsl(219, 79%, 20%);
-  --cd-mark-background: hsl(22, 99%, 34%);
 }
 
 /* Set default theme to light theme */
@@ -46,7 +44,6 @@
   --c-code-block-text: var(--cl-code-block-text);
   --c-code-block-background: var(--cl-code-block-background);
   --c-note-background: var(--cl-note-background);
-  --c-mark-background: var(--cl-mark-background);
 }
 
 /* Override default theme with dark theme */
@@ -61,7 +58,6 @@
     --c-code-block-text: var(--cd-code-block-text);
     --c-code-block-background: var(--cd-code-block-background);
     --c-note-background: var(--cd-note-background);
-    --c-mark-background: var(--cd-mark-background);
   }
 }
 
@@ -75,5 +71,4 @@
   --c-code-block-text: var(--cd-code-block-text);
   --c-code-block-background: var(--cd-code-block-background);
   --c-note-background: var(--cd-note-background);
-  --c-mark-background: var(--cd-mark-background);
 }
