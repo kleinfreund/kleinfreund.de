@@ -2,12 +2,12 @@
 title: Curriculum vitae
 menu_text: CV
 description: CV of Philipp Rudloff, front-end developer currently living in the Netherlands.
-date: 2020-06-04
+date: 2020-07-18
 ---
 
 My name is Philipp Rudloff.
 
-I’m a front-end developer working at [Sendcloud](https://sendcloud.com).
+I’m a front-end developer building websites and web applications with accessible user interfaces. With the long-term objectives of a system in mind, I’m capable of designing and implementing robust software architectures which work well for a system’s developers and, most importantly, its users.
 
 ## Contact
 
@@ -25,19 +25,25 @@ I’m a front-end developer working at [Sendcloud](https://sendcloud.com).
 
   **Front-end developer** at [Sendcloud](https://sendcloud.com).
 
-  Working on all frontend-related aspects of the Sendcloud platform including localization, API specification, and general maintenance tasks. Heavily involved in finalizing the two-year effort of migrating the main frontend to a Vue.js-powered application.
+  Working on all frontend-related aspects of the Sendcloud platform including localization, API specification, and general maintenance tasks. Heavily involved in finalizing the two-year effort of migrating the main frontend to a Vue.js-powered application. Involved in the hiring process of new front-end developers.
 
-- April 2018 – June 2019:
+  Technologies: HTML, CSS, JavaScript, Vue.js
+
+- April 2018 – June 2019 (1 year, 3 months):
 
   **Web developer** for Disraptor at Bauhaus-Universität Weimar.
 
-  Disraptor decouples the development of an arbitrary web application from the need to implement auxiliary functions like authentication, user management and social networking.
+  Built Disraptor, a tool for decoupling the development of an arbitrary web application from the need to implement auxiliary functions like authentication, user management and social networking based on the Discourse forum software.
 
-- August 2017 – March 2018:
+  Technologies: HTML, CSS, JavaScript (Ember.js), Ruby (Rails)
+
+- August 2017 – March 2018 (8 months):
 
   **Front-end developer** for Slidehub at Bauhaus-Universität Weimar.
 
-  Slidehub is a web-based browser for PDF documents.
+  Built Slidehub, a web-based browser for easily accessing a large number of PDF documents (e.g. for presentations, lectures, talks, etc.).
+
+  Technologies: HTML, CSS, JavaScript
 
 ## Education
 

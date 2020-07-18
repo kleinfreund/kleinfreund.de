@@ -199,9 +199,9 @@ li > ol {
 
 li:not(:first-child) > p,
 li > p:not(:first-child) {
-  margin-top: calc(var(--f-vertical-spacing) / 4);
+  margin-top: calc(var(--f-vertical-spacing) / 2);
 }
 
 li:not(:first-child) > p:first-child {
-  margin-top: calc(var(--f-vertical-spacing) / 2);
+  margin-top: var(--f-vertical-spacing);
 }
