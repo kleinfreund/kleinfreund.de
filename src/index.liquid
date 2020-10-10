@@ -32,7 +32,7 @@ pagination:
 </ul>
 
 {% if pagination.pageLinks.length > 1 %}
-<nav class="pagination">
+<nav class="pagination" role="navigation" aria-label="Pagination navigation">
   {% if pagination.previousPageLink %}
     <a class="pagination__item" href="{{ pagination.previousPageHref | url }}">Newer articles</a>
   {% else %}

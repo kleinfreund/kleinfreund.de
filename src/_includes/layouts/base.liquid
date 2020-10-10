@@ -48,30 +48,32 @@
 
 <body class="page js-disabled">
 
-  <ul class="site-nav">
-    <li class="site-nav__item">
-      <button class="button color-scheme-toggle" data-color-scheme-toggle type="button">
-        <span class="color-scheme-toggle--enable-dark">Enable dark mode 🌚</span>
-        <span class="color-scheme-toggle--enable-light">Enable light mode 🌞</span>
-      </button>
-    </li>
-
-    <li class="site-nav__item">
-      <a href="{{ '/' | url }}">kleinfreund.de</a>
-    </li>
-
-    {% for page in collections.pages %}
+  <nav role="navigation" aria-label="Site navigation">
+    <ul class="site-nav">
       <li class="site-nav__item">
-        <a href="{{ page.url }}">
-          {% if page.data.menu_text %}
-            {{ page.data.menu_text }}
-          {% else %}
-            {{ page.data.title }}
-          {% endif %}
-        </a>
+        <button class="button color-scheme-toggle" data-color-scheme-toggle type="button">
+          <span class="color-scheme-toggle--enable-dark">Enable dark mode 🌚</span>
+          <span class="color-scheme-toggle--enable-light">Enable light mode 🌞</span>
+        </button>
       </li>
-    {% endfor %}
-  </ul>
+
+      <li class="site-nav__item">
+        <a href="{{ '/' | url }}">kleinfreund.de</a>
+      </li>
+
+      {% for page in collections.pages %}
+        <li class="site-nav__item">
+          <a href="{{ page.url }}">
+            {% if page.data.menu_text %}
+              {{ page.data.menu_text }}
+            {% else %}
+              {{ page.data.title }}
+            {% endif %}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
 
   <main class="page__content">
     {{ layoutContent }}
