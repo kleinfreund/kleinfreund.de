@@ -3,6 +3,7 @@ const fs = require("fs");
 
 const CleanCSS = require("clean-css");
 const htmlMinifier = require("html-minifier");
+const makeSynchronous = require("make-synchronous");
 const markdownIt = require("markdown-it");
 
 // https://github.com/kangax/html-minifier#options-quick-reference
@@ -58,6 +59,7 @@ module.exports = function (eleventyConfig) {
   // Filter for compressing CSS
   eleventyConfig.addFilter("resolve_css_imports", resolveCssImports);
   eleventyConfig.addFilter("minify_css", minifyCss);
+  eleventyConfig.addFilter("minify_js", minifyJs);
 
   // Compresses output HTML
   if (process.env.NODE_ENV === "production") {
@@ -110,9 +112,10 @@ function minifyCss(concatenatedCssContent) {
 
   if (minifyResult.errors.length > 0) {
     console.error("❌ Could not minify CSS.");
-    minifyResult.errors.forEach((error) => {
+
+    for (const error of minifyResult.errors) {
       console.error("❌", error);
-    });
+    }
 
     return concatenatedCssContent;
   }
@@ -162,4 +165,19 @@ function extractExcerpt(doc) {
   }
 
   return content;
+}
+
+async function minifyJsAsync(content) {
+  try {
+    const { minify } = require("terser");
+    const result = await minify(content)
+    return result.code
+  } catch (error) {
+    console.error("❌", error)
+  }
+}
+
+function minifyJs(content) {
+  // Eleventy currently doesn’t support asynchronous universal filters.
+  return makeSynchronous(minifyJsAsync)(content)
 }

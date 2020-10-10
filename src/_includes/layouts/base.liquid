@@ -81,7 +81,11 @@
 
   {% if eleventy.environment == 'production' %}
     <script defer>
-      {% include "js/color-scheme-toggle.js" %}
+      {%- capture script_content -%}
+        {% include 'js/color-scheme-toggle.js' %}
+      {%- endcapture -%}
+
+      {{ script_content | minify_js }}
     </script>
   {% else %}
     <script src="{{ '/js/color-scheme-toggle.js' | url }}" defer></script>
