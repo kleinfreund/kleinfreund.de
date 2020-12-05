@@ -1,13 +1,13 @@
 ---
 title: Curriculum vitae
 menu_text: CV
-description: CV of Philipp Rudloff, front-end developer currently living in the Netherlands.
-date: 2020-10-11
+description: The CV of Philipp Rudloff, a front-end developer living in Eindhoven, the Netherlands.
+date: 2020-12-05
 ---
 
 My name is Philipp Rudloff.
 
-I’m a front-end developer building websites and web applications with accessible user interfaces. With the long-term objectives of a system in mind, I’m capable of designing and implementing robust software architectures which work well for a system’s developers and, most importantly, its users.
+I’m a front-end developer building websites and web applications with accessible user interfaces. With the long-term objectives of a system in mind, I’m capable of designing and implementing a robust software architecture which works well for the system’s developers and, most importantly, its users.
 
 ## Contact
 
@@ -21,36 +21,37 @@ I’m a front-end developer building websites and web applications with accessib
 
 ## Work
 
-- July 2019 – Present:
+- **Front-end developer** at Sendcloud B.V.
 
-  **Front-end developer** at [Sendcloud](https://sendcloud.com).
+  Eindhoven, July 2019 – Present
 
-  Working on all frontend-related aspects of the Sendcloud platform including localization, API specification, and general maintenance tasks. Heavily involved in finalizing the two-year effort of migrating the main frontend to a Vue.js-powered application. Involved in the hiring process of new front-end developers.
+  At Sendcloud, I worked in several teams on pretty much all frontend-related aspects of the platform including feature development, internationalization, API design, general maintenance tasks, and the hiring process and mentoring of new front-end developers.
+
+  Besides heavily contributing to finalizing the multi-year effort of migrating the platform’s main frontend to a Vue.js-powered application, I’m also involved in the decision-making processes of one of the biggest projects within the development department.
 
   Technologies: HTML, CSS, JavaScript (Vue.js)
 
-- April 2018 – June 2019 (1 year, 3 months):
+- **Front-end developer** at Bauhaus-Universität Weimar
 
-  **Web developer** for Disraptor at Bauhaus-Universität Weimar.
+  Weimar, 2018 – 2019 (1 year, 3 months)
 
-  Built Disraptor, a tool for decoupling the development of an arbitrary web application from the need to implement auxiliary functions like authentication, user management and social networking based on the Discourse forum software.
+  Here, I was tasked with building upon the prototype of Disraptor, a tool for decoupling the development of an arbitrary web application from the need to implement auxiliary functions like authentication, user management and social networking based on the Discourse forum software.
 
   Technologies: HTML, CSS, JavaScript (Ember.js), Ruby (Rails)
 
-- August 2017 – March 2018 (8 months):
+- **Front-end developer** at Bauhaus-Universität Weimar
 
-  **Front-end developer** for Slidehub at Bauhaus-Universität Weimar.
+  Weimar, 2017 – 2018 (8 months)
 
-  Built Slidehub, a web-based browser for easily accessing a large number of PDF documents (e.g. for presentations, lectures, talks, etc.).
+  For my first software development commission, I built Slidehub, a web-based browser for easily accessing a large number of PDF documents (e.g. for presentations, lectures, talks, etc.).
 
   Technologies: HTML, CSS, JavaScript
 
 ## Education
 
-- 2014 – 2019:
-
-  **Computer Science & Media (B.Sc.)**<br>
-  at Bauhaus-Universität Weimar
+- **Computer Science & Media (B.Sc.)**<br>
+  at Bauhaus-Universität Weimar<br>
+  Weimar, 2014 – 2019
 
 ## Qualifications
 
@@ -67,9 +68,7 @@ I mostly work with plain HTML, CSS, and JavaScript. Below is a list of technolog
   - Static site generators: [Eleventy](https://11ty.io), [Jekyll](https://jekyllrb.com)
   - Miscellaneous: [OpenAPI](https://swagger.io/docs/specification/about), [Phrase](https://phrase.com)
 
-## Published code
-
-### NPM packages
+## Projects
 
 - [**vue-accessible-color-picker**](https://npmjs.com/package/vue-accessible-color-picker):
 
@@ -87,7 +86,7 @@ I mostly work with plain HTML, CSS, and JavaScript. Below is a list of technolog
 
   Proxy for reversing the iteration direction of built-in `Array` objects.
 
-### Open source contributions
+## Open source contributions
 
 - [Vue.js](https://github.com/vuejs/vue-next/pulls?q=is%3Apr+author%3Akleinfreund), [vue-i18n-extract](https://github.com/pixari/vue-i18n-extract/pulls?q=is%3Apr+author%3Akleinfreund)
 - [electric-io](https://github.com/noopkat/electric-io/pulls?q=is:pr+author:kleinfreund)
