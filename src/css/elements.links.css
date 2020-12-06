@@ -3,8 +3,8 @@
 */
 
 :focus {
-  outline: 0.15em dotted var(--c-focus);
-  outline-offset: 0.1em;
+  outline: 4px dotted var(--c-focus);
+  outline-offset: 4px;
 }
 
 a {

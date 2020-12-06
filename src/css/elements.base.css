@@ -197,11 +197,8 @@ li > ol {
   margin-bottom: 0;
 }
 
+li:first-child > p:not(:first-child),
 li:not(:first-child) > p,
-li > p:not(:first-child) {
+li:not(:first-child) li > p {
   margin-top: calc(var(--f-vertical-spacing) / 2);
-}
-
-li:not(:first-child) > p:first-child {
-  margin-top: var(--f-vertical-spacing);
 }

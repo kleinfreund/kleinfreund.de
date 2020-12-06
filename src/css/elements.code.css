@@ -10,7 +10,11 @@ kbd {
 }
 
 code {
+  padding-right: 0.25em;
+  padding-left: 0.25em;
+  border-radius: 0.15em;
   color: var(--c-code-text);
+  background-color: var(--c-code-background);
 }
 
 pre code {
