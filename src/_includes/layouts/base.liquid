@@ -10,7 +10,7 @@
   <meta name="theme-color" content="hsl(150, 100%, 38%)">
   <link rel="manifest" href="/manifest.webmanifest">
 
-  {% if eleventy.environment == 'production' %}
+  {% if eleventy.isProduction %}
     <style>
       {{ 'css/kleinfreund.css' | resolve_css_imports | minify_css }}
 
@@ -79,7 +79,7 @@
     {{ layoutContent }}
   </main>
 
-  {% if eleventy.environment == 'production' %}
+  {% if eleventy.isProduction %}
     <script defer>
       {%- capture script_content -%}
         {% include 'js/color-scheme-toggle.js' %}
