@@ -23,7 +23,7 @@ const markdownItAnchorOptions = {
   permalink: true,
   permalinkSymbol: `
     <span class="header-anchor__icon">
-      🔗
+      <span aria-label="Link Symbol" role="img">🔗</span>
       <span class="sr-only">Jump to heading</span>
     </span>
   `.trim(),

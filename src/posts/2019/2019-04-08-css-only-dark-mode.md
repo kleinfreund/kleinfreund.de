@@ -27,7 +27,7 @@ Note how none of the controls deal with a notion of a light mode. It is implied 
 
 In a different context where many controls are part of a more complex widget like a settings page, it must also be considered what users expect when interacting with these controls. In particular, since the choice of enabling the dark mode should be saved, we have to ask *when exactly* such an interaction is saved. Does one have to confirm a changed setting by hitting a “Save” button or are things saved automatically?
 
-A [quick rundown on when the three controls we discussed save their state](https://twitter.com/ZoeBijl/status/1113041012472102912) was provided recently by Zoë Bijl. They were also responsible for [the choice of link text](https://twitter.com/ZoeBijl/status/1114095351626178560) in the previous section <span aria-label="Thumbs Up Sign" role="image">👍</span>.
+A [quick rundown on when the three controls we discussed save their state](https://twitter.com/ZoeBijl/status/1113041012472102912) was provided recently by Zoë Bijl. They were also responsible for [the choice of link text](https://twitter.com/ZoeBijl/status/1114095351626178560) in the previous section <span aria-label="Thumbs Up Sign" role="img">👍</span>.
 
 
 
@@ -95,7 +95,7 @@ input:checked ~ i {
 }
 ```
 
-Now, I don’t know about you, but I think that’s immensely cool. Checking the checkbox changes properties of a DOM node that is not a descendant but a sibling <span aria-label="Shocked Face With Exploding Head" role="image">🤯</span>! This very fact is the foundation for Mu-An’s CSS-only dark mode.
+Now, I don’t know about you, but I think that’s immensely cool. Checking the checkbox changes properties of a DOM node that is not a descendant but a sibling <span aria-label="Shocked Face With Exploding Head" role="img">🤯</span>! This very fact is the foundation for Mu-An’s CSS-only dark mode.
 
 
 
@@ -123,7 +123,7 @@ As its name suggests, the `div.theme-container` will be used to switch the color
 
 ## Theming with custom properties
 
-That’s right, CSS custom properties <span aria-label="Happy Face With Hugging Hands" role="image">🤗</span>. We will make use of the cascade and the fact that all custom properties are inherited. The following CSS shows how, based on the checkbox’s checked state, we override a set of custom properties responsible for the color theme.
+That’s right, CSS custom properties <span aria-label="Happy Face With Hugging Hands" role="img">🤗</span>. We will make use of the cascade and the fact that all custom properties are inherited. The following CSS shows how, based on the checkbox’s checked state, we override a set of custom properties responsible for the color theme.
 
 ```css
 :root {
