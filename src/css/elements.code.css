@@ -1,7 +1,3 @@
-/*
-* CODE / USER INPUT
-*/
-
 pre,
 code,
 kbd {
@@ -18,8 +14,10 @@ code {
 }
 
 pre code {
+  padding-right: 0;
+  padding-left: 0;
   color: var(--c-code-block-text);
-  background-color: var(--c-code-block-background);
+  background-color: inherit;
 }
 
 pre {

@@ -1,7 +1,3 @@
-/*
-* LINKS
-*/
-
 :focus {
   outline: 4px dotted var(--c-focus);
   outline-offset: 4px;

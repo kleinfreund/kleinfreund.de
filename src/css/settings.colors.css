@@ -11,8 +11,8 @@
 
   --cl-code-text: hsl(0, 100%, 40%);
   --cl-code-background: hsl(0, 100%, 95%);
-  --cl-code-block-text: #fff;
-  --cl-code-block-background: hsl(236, 20%, 15%);
+  --cl-code-block-text: hsl(340, 100%, 5%);
+  --cl-code-block-background: var(--cl-code-background);
 
   --cl-note-background: hsl(300, 100%, 97%);
 
@@ -28,8 +28,8 @@
 
   --cd-code-text: hsl(130, 95%, 70%);
   --cd-code-background: hsl(130, 95%, 7.5%);
-  --cd-code-block-text: #fff;
-  --cd-code-block-background: hsl(227, 100%, 10%);
+  --cd-code-block-text: var(--cd-code-text);
+  --cd-code-block-background: hsl(227, 100%, 15%);
 
   --cd-note-background: hsl(219, 79%, 20%);
 }

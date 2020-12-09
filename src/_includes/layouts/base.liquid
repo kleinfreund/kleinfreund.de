@@ -51,13 +51,6 @@
   <nav role="navigation" aria-label="Site navigation">
     <ul class="site-nav">
       <li class="site-nav__item">
-        <button class="button color-scheme-toggle" type="button" data-color-scheme-toggle type="button">
-          <span class="color-scheme-toggle--enable-dark">Enable dark mode 🌚</span>
-          <span class="color-scheme-toggle--enable-light">Enable light mode 🌞</span>
-        </button>
-      </li>
-
-      <li class="site-nav__item">
         <a href="{{ '/' | url }}">Blog</a>
       </li>
 
@@ -68,6 +61,13 @@
           </a>
         </li>
       {% endfor %}
+
+      <li class="site-nav__item">
+        <button class="button color-scheme-toggle" type="button" data-color-scheme-toggle type="button">
+          <span class="color-scheme-toggle--enable-dark">Enable dark theme 🌚</span>
+          <span class="color-scheme-toggle--enable-light">Enable light theme 🌞</span>
+        </button>
+      </li>
     </ul>
   </nav>
 

@@ -5,6 +5,7 @@ body {
   font-family: var(--f-family);
   color: var(--c-text);
   background-color: var(--c-background);
+  transition: background-color 0.2s ease-in-out;
 }
 
 /*
@@ -12,7 +13,7 @@ body {
 */
 
 /*
-1: Set `margin-bottom` to maintain vertycal rhythm
+1: Set `margin-bottom` to maintain vertical rhythm.
 */
 h1,
 h2,
@@ -129,7 +130,7 @@ abbr[title] {
 */
 
 /*
-1: Style alt text
+1: Style alt text.
 */
 img {
   max-width: 100%;

@@ -1,6 +1,7 @@
 .header-anchor {
   border-bottom: none;
   font-weight: normal;
+  text-decoration: none;
 }
 
 @media (min-width: 1000px) {
