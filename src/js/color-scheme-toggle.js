@@ -7,7 +7,7 @@
 
 function initColorSchemeToggle() {
   const storedColorScheme = window.localStorage.getItem("active-color-scheme");
-  if (storedColorScheme !== null) {
+  if (typeof storedColorScheme === "string") {
     document.body.setAttribute("data-color-scheme", storedColorScheme);
   }
 
@@ -22,16 +22,16 @@ function toggleColorScheme() {
 
 function getActiveColorScheme() {
   const activeColorScheme = document.body.getAttribute("data-color-scheme");
-  if (activeColorScheme !== null) {
+  if (typeof activeColorScheme === "string") {
     return activeColorScheme;
   }
 
   const colorSchemePreference = getColorSchemePreference();
-  if (colorSchemePreference !== null) {
+  if (colorSchemePreference !== "no-preference") {
     return colorSchemePreference;
+  } else {
+    return "light";
   }
-
-  return "light";
 }
 
 function setActiveColorScheme(colorScheme) {
@@ -44,7 +44,7 @@ function getColorSchemePreference() {
     return "dark";
   } else if (window.matchMedia("(prefers-color-scheme: light)").matches) {
     return "light";
+  } else {
+    return "no-preference";
   }
-
-  return null;
 }
