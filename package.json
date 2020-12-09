@@ -4,11 +4,10 @@
   "version": "2.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "NODE_ENV=production run-s clean build:eleventy",
-    "build:eleventy": "eleventy",
-    "clean": "rimraf _site",
-    "start": "NODE_ENV=development run-s clean start:eleventy",
-    "start:eleventy": "eleventy --serve"
+    "prebuild": "rimraf _site",
+    "build": "NODE_ENV=production eleventy",
+    "prestart": "rimraf _site",
+    "start": "NODE_ENV=development eleventy --serve"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
@@ -17,7 +16,6 @@
     "make-synchronous": "^0.1.1",
     "markdown-it": "^12.0.2",
     "markdown-it-anchor": "^6.0.1",
-    "npm-run-all": "^4.1.5",
     "rimraf": "^3.0.2",
     "terser": "^5.5.1"
   }
