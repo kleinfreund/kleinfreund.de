@@ -1,6 +1,5 @@
 ---
-title: Curriculum vitae
-menu_text: CV
+title: Résumé
 description: The CV of Philipp Rudloff, a front-end developer living in Eindhoven, the Netherlands.
 date: 2020-12-05
 ---

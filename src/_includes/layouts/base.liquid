@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>{% if title %}{{ title }}{% else %}{{ metadata.title }}{% endif %}</title>
+  <title>{% if title %}{{ title }} – kleinfreund.de{% else %}{{ metadata.title }}{% endif %}</title>
 
   <meta name="description" content="{% if description %}{{ description }}{% else %}{{ metadata.description }}{% endif %}">
   <meta name="theme-color" content="hsl(150, 100%, 38%)">
@@ -42,7 +42,7 @@
   <link rel="pingback" href="https://webmention.io/kleinfreund.de/xmlrpc">
 
   <script>
-    console.log(`have a ${[...[...(2**2**2**2**2**2) + ''].slice(4, 6), ...[...[]+{}].slice(4, 6).reverse()].join('')} day, beautiful!`);
+    console.log(`You’re beautiful. Have a ${((6**6**6) + '')[1] + Reflect.ownKeys(Array.prototype)[12].slice(2)} day.`);
   </script>
 </head>
 
@@ -51,24 +51,20 @@
   <nav role="navigation" aria-label="Site navigation">
     <ul class="site-nav">
       <li class="site-nav__item">
-        <button class="button color-scheme-toggle" data-color-scheme-toggle type="button">
+        <button class="button color-scheme-toggle" type="button" data-color-scheme-toggle type="button">
           <span class="color-scheme-toggle--enable-dark">Enable dark mode 🌚</span>
           <span class="color-scheme-toggle--enable-light">Enable light mode 🌞</span>
         </button>
       </li>
 
       <li class="site-nav__item">
-        <a href="{{ '/' | url }}">kleinfreund.de</a>
+        <a href="{{ '/' | url }}">Blog</a>
       </li>
 
       {% for page in collections.pages %}
         <li class="site-nav__item">
           <a href="{{ page.url }}">
-            {% if page.data.menu_text %}
-              {{ page.data.menu_text }}
-            {% else %}
-              {{ page.data.title }}
-            {% endif %}
+            {{ page.data.title }}
           </a>
         </li>
       {% endfor %}
