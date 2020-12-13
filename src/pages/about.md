@@ -12,7 +12,7 @@ I’m a front-end developer.
   <img src="/img/me.jpg" alt ="Portrait of the author" style="position: absolute;">
 </p>
 
-I build websites and web applications with a focus on accessibility and user interactions. Find more details in my [CV](/cv).
+I build websites and web applications with a focus on accessibility and user interactions. Find more details in my [résumé](/resume).
 
 On the web:
 
