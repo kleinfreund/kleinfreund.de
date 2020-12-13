@@ -5,6 +5,8 @@
 .color-scheme-toggle {
   margin-top: 0.75rem;
   padding: 0.25em 1em;
+  border: 0.15em solid transparent;
+  border-radius: 2px;
   font-size: 0.8em;
   color: var(--cd-text);
   background-color: var(--cd-background);
