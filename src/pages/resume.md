@@ -1,12 +1,12 @@
 ---
 title: Résumé
 description: The résumé of Philipp Rudloff, a front-end developer living in Eindhoven, the Netherlands.
-date: 2020-12-05
+date: 2020-12-13
 ---
 
 My name is Philipp Rudloff.
 
-I’m a front-end developer building websites and web applications with accessible user interfaces. With the long-term objectives of a system in mind, I’m capable of designing and implementing a robust software architecture which works well for the system’s developers and, most importantly, its users.
+I’m a front-end developer building websites and web applications with accessible user interfaces. I’m capable of designing and implementing a robust software architecture which works well for the system’s developers and, most importantly, its users.
 
 ## Contact
 
@@ -26,7 +26,7 @@ I’m a front-end developer building websites and web applications with accessib
 
   At Sendcloud, I worked in several teams on pretty much all frontend-related aspects of the platform including feature development, internationalization, API design, general maintenance tasks, and the hiring process and mentoring of new front-end developers.
 
-  Besides heavily contributing to finalizing the multi-year effort of migrating the platform’s main frontend to a Vue.js-powered application, I’m also involved in the decision-making processes of one of the biggest projects within the development department.
+  Besides heavily contributing to finalizing the multi-year effort of migrating the platform’s main frontend to a Vue.js-powered application, I’m also involved in the decision-making processes of one of the department’s biggest projects, yet.
 
   Technologies: HTML, CSS, JavaScript (Vue.js)
 
@@ -52,9 +52,9 @@ I’m a front-end developer building websites and web applications with accessib
   at Bauhaus-Universität Weimar<br>
   Weimar, 2014 – 2019
 
-## Qualifications
+## Skills
 
-I mostly work with plain HTML, CSS, and JavaScript. Below is a list of technologies and topics I have experience working with.
+I work with HTML, CSS, and JavaScript and have experience in building applications both with and without the aid of UI frameworks.
 
 - Development:
   - HTML
@@ -86,6 +86,8 @@ I mostly work with plain HTML, CSS, and JavaScript. Below is a list of technolog
   Proxy for reversing the iteration direction of built-in `Array` objects.
 
 ## Open source contributions
+
+A selection of publicly recorded contributions to open source software.
 
 - [Vue.js](https://github.com/vuejs/vue-next/pulls?q=is%3Apr+author%3Akleinfreund), [vue-i18n-extract](https://github.com/pixari/vue-i18n-extract/pulls?q=is%3Apr+author%3Akleinfreund)
 - [electric-io](https://github.com/noopkat/electric-io/pulls?q=is:pr+author:kleinfreund)
