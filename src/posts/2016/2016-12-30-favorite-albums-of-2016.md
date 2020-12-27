@@ -14,7 +14,10 @@ For me it felt a bit like there was *less* music this year. I just had other thi
 
 
 
-## [Gold Panda – Good Luck And Do Your Best](https://goldpanda.bandcamp.com/album/good-luck-and-do-your-best)
+## 12.
+
+**Gold Panda**<br>
+[Good Luck And Do Your Best](https://goldpanda.bandcamp.com/album/good-luck-and-do-your-best)
 
 “In My Car” is great. A wonderful melody. I wish it would never end. But then again there is quite some melodies for which this is true.
 
@@ -24,7 +27,10 @@ And then there is “Time Eater” and the cover version by [Ssighborggg](https:
 
 
 
-## [Bon Iver – 22, A Million](https://boniver.bandcamp.com/album/22-a-million)
+## 11.
+
+**Bon Iver**<br>
+[22, A Million](https://boniver.bandcamp.com/album/22-a-million)
 
 Up until 2016 I never paid attention to Justin Vernon. There is no particular reason for that. It just didn’t happen. Until early June when I met you. We attended the Michelberger Music festival in Berlin where he played a good half of his new record. I’m into this kind of rough and unpolished experimenting, although in it’s completeness the album leaves a bit of an unfinished impression upon me. It has some bright moments. There is nothing like getting clocked on the highway because “10 d E A T h b R E a s T ⚄ ⚄”’s driving beat puts you just in that mood.
 
@@ -32,37 +38,55 @@ Or sitting besides you and start singing “I’d be happy as hell if you’d st
 
 
 
-## [BADBADNOTGOOD – IV](https://badbadnotgoodil.bandcamp.com/album/iv)
+## 10.
+
+**BADBADNOTGOOD**<br>
+[IV](https://badbadnotgoodil.bandcamp.com/album/iv)
 
 [III](https://badbadnotgoodil.bandcamp.com/album/iii) was one of my most favorite albums of 2015. Getting my hands on their follow-up IV was only natural. IV came with quite some changes. It’s different. More … elegant, more complex, has more variety. Not as energetic as the predecessor. In it’s own right a very solid and also surprising album. Also, the features are on point. “Time Moves Slow” with Sam Herring or “In Your Eyes” with Charlotte Day Wilson. Very good.
 
 
 
-## [Various Artists – Furi Original Soundtrack](https://furi.bandcamp.com/album/furi-original-soundtrack)
+## 9.
+
+**Various Artists**<br>
+[Furi Original Soundtrack](https://furi.bandcamp.com/album/furi-original-soundtrack)
 
 After last year’s ear-opening [Crypt of the Necrodancer soundtrack](https://dbsoundworks.bandcamp.com/album/crypt-of-the-necrodancer-ost) by Danny Baranowsky, this feels like 2015 all over. Dare I say this is even more aggressive? Hard to decide. Doesn’t matter. It’s brutal and a lot of fun. This one lines up with a couple other game soundtracks I enjoy a lot where I haven’t played the game. So many good game soundtracks around these days. It’s amazing. Plus if I were collecting vinyl, this would be a new addition. The jacket and the vinyl itself look fantastic.
 
 
 
-## [Grand Killa Con – La Barranca](https://drmdlr.bandcamp.com/album/la-barranca)
+## 8.
+
+**Grand Killa Con**<br>
+[La Barranca](https://drmdlr.bandcamp.com/album/la-barranca)
 
 When it comes to hip hop, I’m often conflicted. Most of the stuff that’s around I don’t like. Not at all. Here it’s different, though. I like myself some Four Owls, some Sound Defects, some [Onra](https://onra.bandcamp.com) who seemed to have left some impressions on GKC. Especially on “Dead Pheasant” that aesthetic comes through. Nice record we got here.
 
 
 
-## [Mammal Hands – Floa](https://mammalhands.bandcamp.com/album/floa)
+## 7.
+
+**Mammal Hands**<br>
+[Floa](https://mammalhands.bandcamp.com/album/floa)
 
 That’s … simply consistent. Hard to pick favorite tracks here. Or least-favorite tracks for that matter. That’s just a very well-rounded album. Would love to hear them live. For the one show they play in Germany I can’t seem to find any information apart from the entry on their website. Oh well. Anyway, I have the album. I can listen to the music. That’ll suffice for now.
 
 
 
-## [Angel Olsen – My Woman](https://angelolsen.bandcamp.com/album/my-woman)
+## 6.
+
+**Angel Olsen**<br>
+[My Woman](https://angelolsen.bandcamp.com/album/my-woman)
 
 How can a performance like “Shut Up Kiss Me” not leave a strong impression on anyone? The album starts louder with a fresh attitude and undergoes a change of pace towards a more quiet side with beautiful songs like “Sister” giving me the chills. A beautiful record. Angel Olsen is a name you should definitely look out for in the next few years. Looking forward to new material.
 
 
 
-## [Fakear – Vegetal: Offshoots](https://fakear.bandcamp.com/album/vegetal-offshoots)
+## 5.
+
+**Fakear**<br>
+[Vegetal: Offshoots](https://fakear.bandcamp.com/album/vegetal-offshoots)
 
 The first late addition to this list. Straight from the Bandcamp Top-100 via wishlist into my music library. One of my favorite electronica releases this year. Not so sure about that “Animal” record, but what is presented here as B-sides is super good. Feels more like an album on its own.
 
@@ -70,7 +94,10 @@ The first late addition to this list. Straight from the Bandcamp Top-100 via wis
 
 
 
-## [Chris Remo – Firewatch Original Score](https://camposantogames.bandcamp.com/album/firewatch-original-score)
+## 4.
+
+**Chris Remo**<br>
+[Firewatch Original Score](https://camposantogames.bandcamp.com/album/firewatch-original-score)
 
 Hands down the best soundtrack I listened to this year. Belongs to one of the view games I played this year. Hasn’t been much. I played Dark Souls for the first time. Firewatch shortly after it came out. I played quite some Dota 2 where I just lost over and over. Losing 11 games in a row only to lose another 11 after winning just one. I had a 54% win/lose ratio. Now I’m down to 48%. This wasn’t a year of gaming for me. Other things on my mind, on my ears. I wouldn’t say I was ever a hardcore gamer.
 
@@ -78,13 +105,19 @@ Anyway, this record is just as beautiful as it gets. Or as beautiful as the expe
 
 
 
-## [A Tribe Called Quest – We got it from Here… Thank You 4 Your service](https://play.spotify.com/album/3WvQpufOsPzkZvcSuynCf3)
+## 3.
+
+**A Tribe Called Quest**<br>
+[We got it from Here… Thank You 4 Your service](https://play.spotify.com/album/3WvQpufOsPzkZvcSuynCf3)
 
 Before I only was aware of the fact that there is something with the name “A Tribe Called Quest”. Maybe I knew it got something to do with music. Anyway, [Anthony Fantano’s review](https://www.youtube.com/watch?v=k0vMdRfwFxY) sparked interest and I gave it a listen. They certainly don’t disappoint. Yet another good hip hop record for my library. “We The People....” really gets me with its instrumentals. Same goes for “Dis Generation”. I’ve come to realize that it’s instrumentals that are doing the most for me on a hip hop record. And in that regard, this record is very good.
 
 
 
-## [Olga Bell – Tempo](https://bell.bandcamp.com/album/tempo)
+## 2.
+
+**Olga Bell**<br>
+[Tempo](https://bell.bandcamp.com/album/tempo)
 
 I have to say, I’m impressed. This record was well into the run for one of my favorite albums of the year and I had it at the top spot when writing the draft for this post for most of the time. This isn’t really a battle for what album is *the best*, so the order of albums presented here is nothing definitive, nothing clear. Simpy put: This is one of the best records of the year. It’s *the* best pop record of the year.
 
@@ -92,7 +125,10 @@ This is what I call refreshing. It’s is very much the eclectic electronic pop 
 
 
 
-## [SubRosa – For This We Fought The Battle Of Ages](https://profoundlorerecords.bandcamp.com/album/for-this-we-fought-the-battle-of-ages)
+## 1.
+
+**SubRosa**<br>
+[For This We Fought The Battle Of Ages](https://profoundlorerecords.bandcamp.com/album/for-this-we-fought-the-battle-of-ages)
 
 Wow, this came out of nowhere. Good thing I browsed the [Bandcamp Top-100](https://daily.bandcamp.com/2016/12/08/the-best-albums-of-2016-40-21/). This is exactly the kind of music I wanted some Godspeed You! Black Emperor songs to evolve into while playing them.
 

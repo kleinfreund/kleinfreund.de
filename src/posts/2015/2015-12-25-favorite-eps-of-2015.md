@@ -12,7 +12,10 @@ Now a short segment where I list my favorite EP’s from the year. I felt like s
 
 
 
-## 5. [Throwing Snow – Wintery Prism](https://throwingsnow.bandcamp.com/)
+## 5.
+
+**Throwing Snow**<br>
+[Wintery Prism](https://throwingsnow.bandcamp.com/)
 
 (“Wintery Prism” is not actually the title of the *three*</em>* EPs. It’s mereley a shortcut to not list the six track names in the title)
 
@@ -20,25 +23,37 @@ The three releases “Lumen / Paint By Numbers”, “Glower / Clasp” and “X
 
 
 
-## 4. [Lily &amp; Madeleine – Audiotree Live Session](https://audiotree.bandcamp.com/album/lily-madeleine-audiotree-live)
+## 4.
+
+**Lily & Madeleine**<br>
+[Audiotree Live Session](https://audiotree.bandcamp.com/album/lily-madeleine-audiotree-live)
 
 Every now and then when I listen to this, I am mentally stuck at this one song, “Nothing”. When they sing <q>You’re nothing</q> I’m about to cry every single time. This song is so very beautiful, however the other five tracks aren’t bad either. Give it a listen. While you’re at it, I also enjoyed the [Audiotree session with Kishi Bashi](https://audiotree.bandcamp.com/album/kishi-bashi-audiotree-live).
 
 
 
-## 3. [no metal in this battle – ours](https://nometal.bandcamp.com/album/ours)
+## 3.
+
+**no metal in this battle**<br>
+[ours](https://nometal.bandcamp.com/album/ours)
 
 This EP by the Luxembourgian instrumental post rock band reminds me of both BADBADNOTGOOD and Godspeed You! Black Emperor. Especially when we dive into that ten minute track “beat massaï” at the end.
 
 
 
-## 2. [Laura Groves – Committed Language](https://lauragroves.bandcamp.com/album/committed-language-ep)
+## 2.
+
+**Laura Groves**<br>
+[Committed Language](https://lauragroves.bandcamp.com/album/committed-language-ep)
 
 I just reviewed the EP, so read that instead. It’s a very good one.
 
 
 
-## 1. [FKA twigs – M3LL155X](https://itunes.apple.com/de/album/m3ll155x-ep/id1028920695)
+## 1.
+
+**FKA twigs**<br>
+[M3LL155X](https://itunes.apple.com/de/album/m3ll155x-ep/id1028920695)
 
 <figure>
   <div class="embedded-media">
@@ -47,7 +62,7 @@ I just reviewed the EP, so read that instead. It’s a very good one.
   <figcaption>Video for FKA twigs’ “M3LL155X” EP on <a href="https://www.youtube.com/watch?v=bYU3j-22360">youtube.com</a>.</figcaption>
 </figure>
 
-(**PSA**: Do not buy this from the Young Turks store. They send me my password in plain text. It’s 2015. This is not how you send confirmation mails *and definitely not how you store passwords*.)
+(**PSA**: Do not buy this from the Young Turks store. They sent me my password in plain text. It’s 2015. This is not how you send confirmation mails *and definitely not how you store passwords*.)
 
 Only while I watched [Prethony EP-tano’s top 15 EP’s](https://www.youtube.com/watch?v=XWY-q1UYCRI) and wondered what his favorite EP might be, I realized that I had forgotten about my first place alltogether. Main reason being that I hadn’t bought it at the moment, so it wasn’t in my “Albums 2015” playlist.
 

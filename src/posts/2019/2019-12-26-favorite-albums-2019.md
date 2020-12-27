@@ -8,50 +8,17 @@ As with the previous years, 2019 was packed full with interesting new music. As 
 
 <!--more-->
 
-## 19.
+## Honorable mentions
 
-**Charly Bliss**<br>
-[Young Enough](https://charlybliss.bandcamp.com/album/young-enough)
-
-## 18.
-
-**地球**<br>
-[ジャングル](https://hiraeth-records.bandcamp.com/album/-)
-
-## 17.
-
-**Brijean**<br>
-[Walkie Talkie](https://brijean.bandcamp.com/album/walkie-talkie)
-
-## 16.
-
-**Shlohmo**<br>
-[The End](https://shlohmo.bandcamp.com/album/the-end)
-
-## 15.
-
-**Yugen Blakrok**<br>
-[ANIMA MYSTERIUM](https://yugenblakrok.bandcamp.com/album/anima-mysterium)
-
-## 14.
-
-**Hatchie**<br>
-[Keepsake](https://hatchie.bandcamp.com/album/keepsake)
-
-## 13.
-
-**King Gizzard & The Lizard Wizard**<br>
-[Fishing for Fishies](https://kinggizzard.bandcamp.com/album/fishing-for-fishies)
-
-## 12.
-
-**Toro y Moi**<br>
-[Outer Peace](https://toroymoi.bandcamp.com/album/outer-peace)
-
-## 11.
-
-**Julia Jacklin**<br>
-[Crushing](https://juliajacklin.bandcamp.com/album/crushing)
+- [**Charly Bliss** – Young Enough](https://charlybliss.bandcamp.com/album/young-enough)
+- [**地球** – ジャングル](https://hiraeth-records.bandcamp.com/album/-)
+- [**Brijean** – Walkie Talkie](https://brijean.bandcamp.com/album/walkie-talkie)
+- [**Shlohmo** – The End](https://shlohmo.bandcamp.com/album/the-end)
+- [**Yugen Blakrok** – ANIMA MYSTERIUM](https://yugenblakrok.bandcamp.com/album/anima-mysterium)
+- [**Hatchie** – Keepsake](https://hatchie.bandcamp.com/album/keepsake)
+- [**King Gizzard & The Lizard Wizard** – Fishing for Fishies](https://kinggizzard.bandcamp.com/album/fishing-for-fishies)
+- [**Toro y Moi** – Outer Peace](https://toroymoi.bandcamp.com/album/outer-peace)
+- [**Julia Jacklin** – Crushing](https://juliajacklin.bandcamp.com/album/crushing)
 
 ## 10.
 
