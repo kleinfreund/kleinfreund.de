@@ -14,7 +14,7 @@
     "clean-css": "^4.2.3",
     "html-minifier": "^4.0.0",
     "make-synchronous": "^0.1.1",
-    "markdown-it": "^12.0.3",
+    "markdown-it": "^12.0.4",
     "markdown-it-anchor": "^6.0.1",
     "rimraf": "^3.0.2",
     "terser": "^5.5.1"
