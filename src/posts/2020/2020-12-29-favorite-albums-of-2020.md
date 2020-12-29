@@ -11,6 +11,7 @@ As is true for every year, this one saw plenty of good music releases. Without c
 ## Honorable mentions
 
 - [**SAULT** – UNTITLED (Rise)](https://saultglobal.bandcamp.com/album/untitled-rise)
+- [**the Microphones** – Microphones in 2020](https://pwelverumandsun.bandcamp.com/album/microphones-in-2020)
 - [**Ariel Kalma** – Corona Insola](https://ariel-kalma.bandcamp.com/album/corona-insola)
 
 ## 10.
