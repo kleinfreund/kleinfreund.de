@@ -1,6 +1,6 @@
 ---
 title: Résumé
-description: The résumé of Philipp Rudloff, a front-end developer living in Eindhoven, the Netherlands.
+description: The résumé of Philipp Rudloff, a front-end developer living in Eindhoven, Netherlands.
 date: 2020-12-13
 ---
 
@@ -20,27 +20,37 @@ I’m a front-end developer building websites and web applications with accessib
 
 ## Work
 
-- **Front-end developer** at Sendcloud B.V.
+### Sendcloud B.V.
 
-  Eindhoven, July 2019 – Present
+2019 – Present<br>
+  Eindhoven, Netherlands
 
-  At Sendcloud, I worked in several teams on pretty much all frontend-related aspects of the platform including feature development, internationalization, API design, general maintenance tasks, and the hiring process and mentoring of new front-end developers.
+- **Front-end developer**<br>
+  Full-time<br>
+  July 2019 – Present
+
+  I worked in several teams on pretty much all frontend-related aspects of the platform including feature development, internationalization, API design, general maintenance tasks, and the hiring process and mentoring of new front-end developers.
 
   Besides heavily contributing to finalizing the multi-year effort of migrating the platform’s main frontend to a Vue.js-powered application, I’m also involved in the decision-making processes of one of the department’s biggest projects, yet.
 
   Technologies: HTML, CSS, JavaScript (Vue.js)
 
-- **Front-end developer** at Bauhaus-Universität Weimar
+### Bauhaus-Universität Weimar
 
-  Weimar, 2018 – 2019 (1 year, 3 months)
+2017 – 2019 (1 year, 11 months)<br>
+  Weimar, Germany
 
-  Here, I was tasked with building upon the prototype of Disraptor, a tool for decoupling the development of an arbitrary web application from the need to implement auxiliary functions like authentication, user management and social networking based on the Discourse forum software.
+- **Front-end developer**<br>
+  Contract<br>
+  2018 – 2019
+
+  I was tasked with building upon the prototype of Disraptor, a tool for decoupling the development of an arbitrary web application from the need to implement auxiliary functions like authentication, user management and social networking based on the Discourse forum software.
 
   Technologies: HTML, CSS, JavaScript (Ember.js), Ruby (Rails)
 
-- **Front-end developer** at Bauhaus-Universität Weimar
-
-  Weimar, 2017 – 2018 (8 months)
+- **Front-end developer**<br>
+  Contract<br>
+  2017 – 2018
 
   For my first software development commission, I built Slidehub, a web-based browser for easily accessing a large number of PDF documents (e.g. for presentations, lectures, talks, etc.).
 
