@@ -25,9 +25,13 @@ I’m a front-end developer building websites and web applications with accessib
 2019 – Present<br>
   Eindhoven, Netherlands
 
+- **Senior front-end developer**<br>
+  Full-time<br>
+  January 2021 – Present
+
 - **Front-end developer**<br>
   Full-time<br>
-  July 2019 – Present
+  July 2019 – January 2021 (1 year, 7 months)
 
   I worked in several teams on pretty much all frontend-related aspects of the platform including feature development, internationalization, API design, general maintenance tasks, and the hiring process and mentoring of new front-end developers.
 
