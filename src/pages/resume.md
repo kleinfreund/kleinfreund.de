@@ -23,7 +23,7 @@ I’m a front-end developer building websites and web applications with accessib
 ### Sendcloud B.V.
 
 2019 – Present<br>
-  Eindhoven, Netherlands
+Eindhoven, Netherlands
 
 - **Senior front-end developer**<br>
   Full-time<br>
@@ -42,13 +42,13 @@ I’m a front-end developer building websites and web applications with accessib
 ### Bauhaus-Universität Weimar
 
 2017 – 2019 (1 year, 11 months)<br>
-  Weimar, Germany
+Weimar, Germany
 
 - **Front-end developer**<br>
   Contract<br>
   2018 – 2019
 
-  I was tasked with building upon the prototype of Disraptor, a tool for decoupling the development of an arbitrary web application from the need to implement auxiliary functions like authentication, user management and social networking based on the Discourse forum software.
+  I was tasked with building upon the prototype of Disraptor, a tool for decoupling the development of an arbitrary web application from the need to implement auxiliary functions like authentication, user management, and social networking based on the Discourse forum software.
 
   Technologies: HTML, CSS, JavaScript (Ember.js), Ruby (Rails)
 
@@ -56,15 +56,18 @@ I’m a front-end developer building websites and web applications with accessib
   Contract<br>
   2017 – 2018
 
-  For my first software development commission, I built Slidehub, a web-based browser for easily accessing a large number of PDF documents (e.g. for presentations, lectures, talks, etc.).
+  I built Slidehub, a web-based browser for easily accessing a large number of PDF documents (e.g. for presentations, lectures, talks, etc.).
 
   Technologies: HTML, CSS, JavaScript
 
 ## Education
 
+2014 – 2019 (5 years)<br>
+Weimar, Germany
+
 - **Computer Science & Media (B.Sc.)**<br>
-  at Bauhaus-Universität Weimar<br>
-  Weimar, 2014 – 2019
+  Bauhaus-Universität Weimar<br>
+  2014 – 2019
 
 ## Skills
 
