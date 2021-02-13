@@ -1,7 +1,7 @@
 ---
 title: Résumé
 description: The résumé of Philipp Rudloff, a front-end developer living in Eindhoven, Netherlands.
-date: 2020-12-13
+date: 2021-02-13
 ---
 
 My name is Philipp Rudloff.
@@ -29,15 +29,15 @@ Eindhoven, Netherlands
   Full-time<br>
   January 2021 – Present
 
-- **Front-end developer**<br>
-  Full-time<br>
-  July 2019 – January 2021 (1 year, 7 months)
-
-  I worked in several teams on pretty much all frontend-related aspects of the platform including feature development, internationalization, API design, general maintenance tasks, and the hiring process and mentoring of new front-end developers.
+  I worked in several teams on pretty much all frontend-related aspects of the platform including feature development, internationalization, API design, technical writing, general maintenance tasks, and the hiring process and mentoring of new front-end developers.
 
   Besides heavily contributing to finalizing the multi-year effort of migrating the platform’s main frontend to a Vue.js-powered application, I’m also involved in the decision-making processes of one of the department’s biggest projects, yet.
 
   Technologies: HTML, CSS, JavaScript (Vue.js)
+
+- **Front-end developer**<br>
+  Full-time<br>
+  July 2019 – December 2020 (1 year, 6 months)
 
 ### Bauhaus-Universität Weimar
 
