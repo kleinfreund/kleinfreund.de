@@ -6,7 +6,7 @@ date: 2021-02-13
 
 My name is Philipp Rudloff.
 
-I’m a front-end developer building websites and web applications with accessible user interfaces. I’m capable of designing and implementing a robust software architecture which works well for the system’s developers and, most importantly, its users.
+I’m a front-end developer building websites and web applications with reliable user and developer interfaces. I’m capable of designing and implementing a robust software architecture which works well for the system’s developers and, most importantly, its users.
 
 ## Contact
 
@@ -29,9 +29,11 @@ Eindhoven, Netherlands
   Full-time<br>
   January 2021 – Present
 
-  I worked in several teams on pretty much all frontend-related aspects of the platform including feature development, internationalization, API design, technical writing, general maintenance tasks, and the hiring process and mentoring of new front-end developers.
+  At Sendcloud, I worked on several teams on pretty much all frontend-related aspects of the platform including feature development, internationalization, API design, technical writing, general maintenance, the hiring process, and mentoring of new front-end developers.
 
-  Besides heavily contributing to finalizing the multi-year effort of migrating the platform’s main frontend to a Vue.js-powered application, I’m also involved in the decision-making processes of one of the department’s biggest projects, yet.
+  I heavily contributed to planning and finalizing the multi-year effort of migrating the platform’s main frontend to a Vue.js-powered application.
+
+  For well over a year, I’m a part of the development department’s checkout team now. There, I was a core contributor to establishing the foundation for a new system of features that deeply integrates with various e-commerce platforms. Besides the general involvement in the front-end development process, I’m responsible for writing the public technical documentation, designing APIs, and maintaining related legacy systems.
 
   Technologies: HTML, CSS, JavaScript (Vue.js)
 
@@ -71,24 +73,19 @@ Weimar, Germany
 
 ## Skills
 
-I work with HTML, CSS, and JavaScript and have experience in building applications both with and without the aid of UI frameworks.
+I work with HTML, CSS, and JavaScript and have experience in most areas of the front-end development landscape. That includes:
 
-- Development:
-  - HTML
-  - CSS
-  - JavaScript (plain and Vue.js)
-  - Accessible user interfaces
-  - Basic experiences with TypeScript and Node.js
-- Tools:
-  - Version control systems: git
-  - Static site generators: [Eleventy](https://11ty.io), [Jekyll](https://jekyllrb.com)
-  - Miscellaneous: [OpenAPI](https://swagger.io/docs/specification/about), [Phrase](https://phrase.com)
+- Planning and implementing robust interfaces for users (simple and complex UI components) and developers (APIs and tools)
+- Writing technical and non-technical documentation for these interfaces and systems
+- Managing and maintaining localization systems
+
+If you’re looking for the list of buzzwords to check off of your list: HTML, CSS, JavaScript, Vue.js, TypeScript, git, package publishing, [OpenAPI](https://swagger.io/docs/specification/about), [Phrase](https://phrase.com), [Eleventy](https://11ty.io), and those I intentionally or unintentionally forgot to remember.
 
 ## Projects
 
 - [**vue-accessible-color-picker**](https://npmjs.com/package/vue-accessible-color-picker):
 
-  Accessible color picker component for Vue.js.
+  A color picker component for Vue.js 2 and 3.
 
 - [**poll**](https://npmjs.com/package/poll):
 
@@ -104,13 +101,4 @@ I work with HTML, CSS, and JavaScript and have experience in building applicatio
 
 ## Open source contributions
 
-A selection of publicly recorded contributions to open source software.
-
-- [Vue.js](https://github.com/vuejs/vue-next/pulls?q=is%3Apr+author%3Akleinfreund), [vue-i18n-extract](https://github.com/pixari/vue-i18n-extract/pulls?q=is%3Apr+author%3Akleinfreund)
-- [electric-io](https://github.com/noopkat/electric-io/pulls?q=is:pr+author:kleinfreund)
-- [Eleventy](https://github.com/11ty/eleventy/pulls?q=is:pr+author:kleinfreund)
-- [WAI-ARIA Authoring Practices](https://github.com/w3c/aria-practices/pulls?q=is%3Apr+author%3Akleinfreund)
-- [Discourse](https://github.com/discourse/discourse/pulls?q=is%3Apr+author%3Akleinfreund)
-- [Sublime Text Packages](https://github.com/sublimehq/Packages/pulls?q=is%3Apr+author%3Akleinfreund)
-- [Jekyll](https://github.com/jekyll/jekyll/pulls?q=is%3Apr+author%3Akleinfreund)
-- [Clementine](https://github.com/clementine-player/Clementine/pulls?q=is%3Apr+author%3Akleinfreund)
+A selection of publicly recorded contributions to open source software: [Vue.js](https://github.com/vuejs/vue-next/pulls?q=is%3Apr+author%3Akleinfreund), [vue-i18n-extract](https://github.com/pixari/vue-i18n-extract/pulls?q=is%3Apr+author%3Akleinfreund), [electric-io](https://github.com/noopkat/electric-io/pulls?q=is:pr+author:kleinfreund), [Eleventy](https://github.com/11ty/eleventy/pulls?q=is:pr+author:kleinfreund), [WAI-ARIA Authoring Practices](https://github.com/w3c/aria-practices/pulls?q=is%3Apr+author%3Akleinfreund), [Discourse](https://github.com/discourse/discourse/pulls?q=is%3Apr+author%3Akleinfreund), [Sublime Text Packages](https://github.com/sublimehq/Packages/pulls?q=is%3Apr+author%3Akleinfreund), [Jekyll](https://github.com/jekyll/jekyll/pulls?q=is%3Apr+author%3Akleinfreund), [Clementine](https://github.com/clementine-player/Clementine/pulls?q=is%3Apr+author%3Akleinfreund), …
