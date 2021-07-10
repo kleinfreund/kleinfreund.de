@@ -13,7 +13,7 @@ This is done manually via media queries and fixed values in [1] and [3].
 */
 :root {
   --f-family: Lato, Numero, sans-serif;
-  --f-family-headings: Cambria, Caladea, Cochin, Georgia, Times, 'Times New Roman', serif;
+  --f-family-headings: Lato, Numero, sans-serif;
   --f-family-code: 'Fira Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
   --f-family-quote: Cambria, Caladea, Cochin, Georgia, Times, 'Times New Roman', serif;
   --f-size: 1.25rem; /* [1] */

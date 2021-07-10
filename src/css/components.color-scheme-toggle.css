@@ -3,13 +3,22 @@
 }
 
 .color-scheme-toggle {
-  margin-top: 0.75rem;
+  display: block;
+  margin-bottom: 1.5rem;
   padding: 0.25em 1em;
   border: 0.15em solid transparent;
   border-radius: 2px;
   font-size: 0.8em;
   color: var(--cd-text);
   background-color: var(--cd-background);
+}
+
+@media screen and (min-width: 1000px) {
+  .color-scheme-toggle {
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+  }
 }
 
 @media (prefers-color-scheme: dark) {

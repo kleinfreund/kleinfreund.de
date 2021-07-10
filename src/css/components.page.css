@@ -1,24 +1,15 @@
 .page {
-  display: grid;
-  grid-template-rows: min-content 1fr;
-  grid-gap: 6rem;
+  max-width: 1500px;
   margin-top: 3vw;
   margin-bottom: 3vw;
   padding-right: 3vw;
   padding-left: 3vw;
 }
 
-@media (min-width: 1800px) {
+@media (min-width: 1500px) {
   .page {
-    grid-template-columns: 22rem 1fr;
-    grid-gap: 1rem;
-    max-width: 3000px;
     margin: 6rem auto;
     padding-right: 3rem;
     padding-left: 3rem;
   }
-}
-
-.page__content {
-  min-width: 0;
 }

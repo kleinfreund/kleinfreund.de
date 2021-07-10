@@ -49,8 +49,7 @@
   */
   .post > figure,
   .post > blockquote,
-  .post > .embedded-media,
-  .grow-to-full {
+  .post > .embedded-media {
     grid-column: full;
   }
 
@@ -62,15 +61,6 @@
   .post > h6,
   .post > pre {
     grid-column: main-start / full-end;
-  }
-
-  /*
-  Apply the `has-marginalia` class to elements taking the full space (e.g. `figure`).
-  This ensures that the marginalia sits next to that element instead of a new row containing
-  only the marginalia.
-  */
-  .post > .has-marginalia {
-    grid-column-end: main-end;
   }
 
   /*
@@ -89,9 +79,6 @@
 @media (min-width: 1400px) {
   .post {
     max-width: 1400px;
-    grid-template-columns:
-      [full-start] 1fr [main-start] 3fr [main-end side-start] 1fr [side-end
-      full-end];
   }
 }
 

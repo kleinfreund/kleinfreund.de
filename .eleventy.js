@@ -5,6 +5,7 @@ const CleanCSS = require("clean-css");
 const htmlMinifier = require("html-minifier");
 const makeSynchronous = require("make-synchronous");
 const markdownIt = require("markdown-it");
+const markdownItAnchor = require("markdown-it-anchor");
 
 // https://github.com/kangax/html-minifier#options-quick-reference
 const htmlMinifierOptions = {
@@ -47,10 +48,7 @@ module.exports = function (eleventyConfig) {
     .addPassthroughCopy("src/.htaccess")
     .addPassthroughCopy("src/manifest.webmanifest");
 
-  const markdownLib = markdownIt(markdownItOptions).use(
-    require("markdown-it-anchor"),
-    markdownItAnchorOptions
-  );
+  const markdownLib = markdownIt(markdownItOptions).use(markdownItAnchor, markdownItAnchorOptions);
   eleventyConfig.setLibrary("md", markdownLib);
 
   // Defines shortcode for generating post excerpts

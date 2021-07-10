@@ -6,8 +6,8 @@
   --cl-background: #fff;
 
   --cl-focus: hsl(340, 100%, 45%);
-  --cl-interactive: hsl(225, 75%, 40%);
-  --cl-interactive-dark: hsl(225, 75%, 25%);
+  --cl-interactive: hsl(225, 100%, 52.5%);
+  --cl-interactive-dark: hsl(225, 100%, 35%);
 
   --cl-code-text: hsl(0, 100%, 40%);
   --cl-code-background: hsl(0, 100%, 95%);
@@ -23,10 +23,10 @@
   --cd-background: hsl(227, 100%, 10%);
 
   --cd-focus: hsl(340, 100%, 45%);
-  --cd-interactive: hsl(45, 100%, 55%);
-  --cd-interactive-dark: hsl(45, 100%, 70%);
+  --cd-interactive: hsl(154.8, 100%, 60.5%);
+  --cd-interactive-dark: hsl(154.8, 100%, 75%);
 
-  --cd-code-text: hsl(130, 95%, 70%);
+  --cd-code-text: hsl(45, 100%, 55%);
   --cd-code-background: hsl(130, 95%, 7.5%);
   --cd-code-block-text: var(--cd-code-text);
   --cd-code-block-background: hsl(227, 100%, 15%);

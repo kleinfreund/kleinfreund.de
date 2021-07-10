@@ -1,6 +1,7 @@
 ---
-title: Blog
-layout: _includes/layouts/base.liquid
+title: Articles
+description: "Articles I’ve written over the span of the last half or so decade."
+layout: _includes/layouts/page.liquid
 css:
 - components.pagination.css
 pagination:
@@ -8,8 +9,6 @@ pagination:
   size: 5
   reverse: true
 ---
-<h1 class="visually-hidden">Articles</h1>
-
 <ul class="post-list">
   {%- for post in pagination.items -%}
   <li>
