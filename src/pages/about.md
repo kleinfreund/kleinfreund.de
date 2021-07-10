@@ -12,17 +12,6 @@ I’m a front-end developer.
   <img src="/img/me.jpg" alt ="Portrait of the author" style="position: absolute;">
 </p>
 
-I build websites and web applications with a focus on accessibility and user interactions. Find more details in my [résumé](/resume).
-
-On the web:
-
-- <a href="{{ metadata.author.twitter }}" rel="me">Twitter</a>
-- <a href="{{ metadata.author.github }}" rel="me">GitHub</a>
-
----
-
-This site is hosted on [Uberspace](https://uberspace.de/en/) and built with [Eleventy](https://www.11ty.dev/).
-
-All content is licensed under [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) unless otherwise stated.
+I build websites and web applications with a focus on robust and usable developer and user interfaces. Find more details in my [résumé](/resume).
 
 Write love/hate mail to <a href="mailto:{{ metadata.author.mail }}" rel="me">{{ metadata.author.mail }}</a>.
