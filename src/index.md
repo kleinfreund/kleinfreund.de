@@ -2,7 +2,7 @@
 title: Home
 layout: _includes/layouts/homepage.liquid
 ---
-Hi, I’m Philipp
+Hi, I’m Philipp.
 
 I’m a German front-end developer living in the Netherlands.
 
