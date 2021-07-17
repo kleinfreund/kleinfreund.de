@@ -1,6 +1,8 @@
 ---
 title: Interesting <code>NumberFormat</code> API behavior
 date: 2021-07-17
+tags:
+- dev
 ---
 The [`Intl.NumberFormat` API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat) behaves in an interesting way when fed with invalid input. Its `format` method takes one number argument, but it still “works” if it’s provided with a string argument.
 
@@ -11,7 +13,7 @@ The [`Intl.NumberFormat` API](https://developer.mozilla.org/en-US/docs/Web/JavaS
 //> "0,1"
 ```
 
-In essence, you can feed it with string values that look like JavaScript numbers (i.e. values for which `Number.parseFloat` would not return `NaN`). If you provide other values like letters, it returns “NaN”.
+In essence, you can feed it with string values that look like JavaScript numbers (i.e. most values for which `Number(value)` would not return `NaN` though that isn’t exactly how this works under the hood). If you provide other values like letters, it returns “NaN”.
 
 ```js
 (new Intl.NumberFormat("en")).format("x")
@@ -27,4 +29,4 @@ Note that the return value isn’t the special value `NaN` but the *string* valu
 
 For some locales (e.g. `"ru"`, `"tk"`), the returned value isn’t “NaN” but rather the translation of the phrase “not a number” (that’s what “<span lang="ru">не число</span>” translates to). I’ve tried this in the latest stable versions of Mozilla Firefox and Google Chrome.
 
-I would’ve preferred for calls to `format` with “it doesn’t look like a number” values to either return `null` or `"NaN"` (consistently) or to throw an error. Then, one would be able to detect whether a string value looks like a JavaScript number.
+I would’ve preferred for calls to `format` with “it doesn’t look like a number” values to either return `null` or `"NaN"` (consistently) or to throw an error. Then, one would be able to detect whether a string value looks like a JavaScript number. Not that this would be very useful. One can already perform this kind of check using `!Number.isNaN(parseFloat(value))`.
