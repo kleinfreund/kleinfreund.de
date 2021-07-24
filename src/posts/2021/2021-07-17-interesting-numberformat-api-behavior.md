@@ -13,7 +13,7 @@ The [`Intl.NumberFormat` API](https://developer.mozilla.org/en-US/docs/Web/JavaS
 //> "0,1"
 ```
 
-In essence, you can feed it with string values that look like JavaScript numbers (i.e. most values for which `Number(value)` would not return `NaN` though that isn’t exactly how this works under the hood). If you provide other values like letters, it returns “NaN”.
+In essence, you can feed it with string values that look like JavaScript numbers (under the hood, it uses the ECMAScript standard’s [`ToNumeric` operation](https://tc39.es/ecma262/#sec-tonumeric)). For other string values like letters, it returns “NaN”.
 
 ```js
 (new Intl.NumberFormat("en")).format("x")
