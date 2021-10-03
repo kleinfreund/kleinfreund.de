@@ -21,14 +21,15 @@ const markdownItOptions = {
 
 // https://github.com/valeriangalliat/markdown-it-anchor#usage
 const markdownItAnchorOptions = {
-  permalink: true,
-  permalinkSymbol: `
-    <span class="header-anchor__icon">
-      <span aria-label="Link Symbol" role="img">🔗</span>
-      <span class="visually-hidden">Jump to heading</span>
-    </span>
-  `.trim(),
-  permalinkBefore: false,
+  permalink: markdownItAnchor.default.permalink.linkInsideHeader({
+    symbol: `
+      <span class="header-anchor__icon">
+        <span aria-label="Link Symbol" role="img">🔗</span>
+        <span class="visually-hidden">Jump to heading</span>
+      </span>
+    `.trim(),
+    placement: 'before',
+  }),
 };
 
 module.exports = function (eleventyConfig) {
@@ -48,7 +49,7 @@ module.exports = function (eleventyConfig) {
     .addPassthroughCopy("src/.htaccess")
     .addPassthroughCopy("src/manifest.webmanifest");
 
-  const markdownLib = markdownIt(markdownItOptions).use(markdownItAnchor, markdownItAnchorOptions);
+  const markdownLib = markdownIt(markdownItOptions).use(markdownItAnchor.default, markdownItAnchorOptions);
   eleventyConfig.setLibrary("md", markdownLib);
 
   // Defines shortcode for generating post excerpts
