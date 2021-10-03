@@ -11,6 +11,8 @@ date: 2021-07-10
     - Altin Gün: [Yol](https://altingun.bandcamp.com/album/yol)
     - Arooj Aftab: [Vulture Prince](https://aroojaftab.bandcamp.com/album/vulture-prince)
     - Arlo Parks: [Collapsed in Sunbeams](https://arloparks.bandcamp.com/album/collapsed-in-sunbeams)
+    - Squid: [Bright Green Field](https://squiduk.bandcamp.com/album/bright-green-field)
+    - Billie Eilish: [Happier Than Ever](https://open.spotify.com/album/0JGOiO34nwfUdDrD612dOp)
     - Godspeed You! Black Emperor: [G_d’s Pee AT STATE’S END!](https://godspeedyoublackemperor.bandcamp.com/album/g-d-s-pee-at-state-s-end)
     - Floating Points/Pharoah Sanders/The London Symphony Orchestra: [Promises](https://floatingpoints.bandcamp.com/album/promises)
     - Black Country, New Road: [For the first time](https://blackcountrynewroad.bandcamp.com/album/for-the-first-time)
