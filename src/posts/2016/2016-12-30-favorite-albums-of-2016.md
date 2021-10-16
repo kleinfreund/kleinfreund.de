@@ -41,9 +41,9 @@ Or sitting besides you and start singing “I’d be happy as hell if you’d st
 ## 10.
 
 **BADBADNOTGOOD**<br>
-[IV](https://badbadnotgoodil.bandcamp.com/album/iv)
+[IV](https://badbadnotgoodofficial.bandcamp.com/album/iv)
 
-[III](https://badbadnotgoodil.bandcamp.com/album/iii) was one of my most favorite albums of 2015. Getting my hands on their follow-up IV was only natural. IV came with quite some changes. It’s different. More … elegant, more complex, has more variety. Not as energetic as the predecessor. In it’s own right a very solid and also surprising album. Also, the features are on point. “Time Moves Slow” with Sam Herring or “In Your Eyes” with Charlotte Day Wilson. Very good.
+[III](https://badbadnotgoodofficial.bandcamp.com/album/iii) was one of my most favorite albums of 2015. Getting my hands on their follow-up IV was only natural. IV came with quite some changes. It’s different. More … elegant, more complex, has more variety. Not as energetic as the predecessor. In it’s own right a very solid and also surprising album. Also, the features are on point. “Time Moves Slow” with Sam Herring or “In Your Eyes” with Charlotte Day Wilson. Very good.
 
 
 

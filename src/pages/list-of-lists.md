@@ -6,6 +6,8 @@ date: 2021-07-10
 
 - **2021**:
   - **Favourite albums** … so far:
+    - BADBADNOTGOOD: [Talk Memory](https://badbadnotgoodofficial.bandcamp.com/album/talk-memory)
+    - Flying Lotus: [Yasuke](https://flyinglotus.bandcamp.com/album/yasuke)
     - Yasmin Williams: [Urban Driftwood](https://yasminwilliams.bandcamp.com/album/urban-driftwood)
     - Spellling: [The Turning Wheel](https://spellling.bandcamp.com/album/the-turning-wheel)
     - Altin Gün: [Yol](https://altingun.bandcamp.com/album/yol)
@@ -155,7 +157,7 @@ date: 2021-07-10
       - Bon Iver: [22, A Million](https://boniver.bandcamp.com/album/22-a-million)
     - Ranked:
       - <!---->10.
-        BADBADNOTGOOD: [IV](https://badbadnotgoodil.bandcamp.com/album/iv)
+        BADBADNOTGOOD: [IV](https://badbadnotgoodofficial.bandcamp.com/album/iv)
       - <!---->9.
         Various Artists: [Furi Original Soundtrack](https://furi.bandcamp.com/album/furi-original-soundtrack)
       - <!---->8.
@@ -246,7 +248,7 @@ date: 2021-07-10
       - <!---->6.
         Jim Guthrie: [One Of These Days I’ll Get It Right](https://jimguthrie.bandcamp.com/album/one-of-these-days-ill-get-it-right)
       - <!---->5.
-        BADBADNOTGOOD: [III](https://badbadnotgoodil.bandcamp.com/releases)
+        BADBADNOTGOOD: [III](https://badbadnotgoodofficial.bandcamp.com/album/iii)
       - <!---->4.
         Hundred Waters: [The Moon Rang Like a Bell](https://www.youtube.com/playlist?list=PLstdr_f1osK4ZeId_A1jYXbKeZcDxnx0X)
       - <!---->3.
