@@ -1,11 +1,12 @@
 ---
 title: List of lists
 description: "A list of lists of things (well, music) I like."
-date: 2021-07-10
+date: 2021-10-23
 ---
 
 - **2021**:
   - **Favourite albums** … so far:
+    - Vijay Iyer/Linda May Han Oh/Tyshawn Sorey: [Uneasy](https://vijayiyer.bandcamp.com/album/uneasy)
     - BADBADNOTGOOD: [Talk Memory](https://badbadnotgoodofficial.bandcamp.com/album/talk-memory)
     - Flying Lotus: [Yasuke](https://flyinglotus.bandcamp.com/album/yasuke)
     - Yasmin Williams: [Urban Driftwood](https://yasminwilliams.bandcamp.com/album/urban-driftwood)
