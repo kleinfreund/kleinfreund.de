@@ -4,6 +4,13 @@
   text-decoration: none;
 }
 
+@media (max-width: 999.98px) {
+  .header-anchor {
+    position: absolute;
+    right: 0;
+  }
+}
+
 @media (min-width: 1000px) {
   .header-anchor {
     --offset-from-heading: 0.25em;

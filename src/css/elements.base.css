@@ -185,10 +185,20 @@ hr {
 * LISTS
 */
 
-ul,
-ol,
-dl {
-  padding-left: 3rem;
+@media screen and (max-width: 499.98px) {
+  ul,
+  ol,
+  dl {
+    padding-left: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  ul,
+  ol,
+  dl {
+    padding-left: 3rem;
+  }
 }
 
 li > p,
