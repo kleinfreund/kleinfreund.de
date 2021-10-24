@@ -248,7 +248,8 @@ date: 2021-10-23
 - [**Favourite albums**](/the-year):
   - Honorable mentions:
     - Stumbleine – [Infinite Overcast](https://stumbleine.bandcamp.com/album/infinite-overcast)
-    - Auditive Escape – [The Conundrum](https://auditiveescape.bandcamp.com/album/the-conundrum)/[Holoscape](https://auditiveescape.bandcamp.com/album/holoscape)
+    - Auditive Escape – [The Conundrum](https://auditiveescape.bandcamp.com/album/the-conundrum)
+    - Auditive Escape – [Holoscape](https://auditiveescape.bandcamp.com/album/holoscape)
     - Oskar Schuster – [Sneeuwland](http://shop.oskarschuster.com/album/sneeuwland)
   - Ranked:
     - <!---->10.
