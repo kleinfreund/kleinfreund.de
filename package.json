@@ -11,12 +11,12 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
-    "clean-css": "^5.2.1",
+    "clean-css": "^5.2.2",
     "html-minifier": "^4.0.0",
     "make-synchronous": "^0.1.1",
-    "markdown-it": "^12.2.0",
+    "markdown-it": "^12.3.0",
     "markdown-it-anchor": "^8.4.1",
     "rimraf": "^3.0.2",
-    "terser": "^5.9.0"
+    "terser": "^5.10.0"
   }
 }
