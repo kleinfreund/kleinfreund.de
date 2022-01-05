@@ -6,7 +6,7 @@ date: 2021-02-13
 
 Hey there, my name is Philipp Rudloff and I’m a front-end developer.
 
-I build websites and web applications with reliable user and developer interfaces. For software systems, I design and implement robust architecture which works well for the its developers and, most importantly, its users.
+I build websites and web applications with reliable user and developer interfaces. For software systems, I design and implement robust architecture which works well for its developers and, most importantly, its users.
 
 ## Contact
 
