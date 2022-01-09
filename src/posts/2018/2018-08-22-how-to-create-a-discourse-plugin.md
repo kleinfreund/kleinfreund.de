@@ -276,8 +276,7 @@ Next, we will add a text field inside a form which we will use to add new notes 
 
 **`./assets/javascripts/discourse/templates/notebook.hbs`**:
 ```html
-{%- raw -%}
-<h1>{{ i18n 'notebook.title' }}</h1>
+{% raw %}<h1>{{ i18n 'notebook.title' }}</h1>
 
 <form {{ action 'createNote' content on='submit' }}>
   <label>
@@ -288,8 +287,7 @@ Next, we will add a text field inside a form which we will use to add new notes 
   <button type='submit' class='btn btn-primary'>
     {{ i18n 'notebook.create_note.submit_label' }}
   </button>
-</form>
-{%- endraw -%}
+</form>{% endraw %}
 ```
 
 We start by using some more localization strings by calling the `{% raw %}{{ i18n … }}{% endraw %}` helper expression. This allows Discourse components to be written language-independent and enables internationalization via localization files like the ones we used before for the settings label of our plugin.
@@ -354,7 +352,6 @@ export default Ember.Controller.extend({
     }
   }
 });
-
 ```
 
 The `actions` object holds all methods that are available as actions in a template. In its current state, the action just evaluates the assumption that the argument indeed holds the new note from the text field by logging it to the console.
@@ -644,17 +641,15 @@ Finally, we display all notes in a basic list below our form:
 
 **`./assets/javascripts/discourse/templates/notebook.hbs`**:
 ```html
-{%- raw -%}
-<!-- … -->
+{% raw %}<!-- … -->
 
 {{#if notes}}
-<ul>
-  {{#each notes as |note|}}
-    <li>{{ note.content }}</li>
-  {{/each}}
-</ul>
-{{/if}}
-{%- endraw -%}
+  <ul>
+    {{#each notes as |note|}}
+      <li>{{ note.content }}</li>
+    {{/each}}
+  </ul>
+{{/if}}{% endraw %}
 ```
 
 With a small tweak, we add new notes the same list right when we create them. This way, we don’t need to reload the page in order to see new notes.
@@ -759,21 +754,19 @@ export default Ember.Controller.extend({
 
 **`./assets/javascripts/discourse/templates/notebook.hbs`**:
 ```html
-{%- raw -%}
-{{#if notes}}
-<ul>
-  {{#each notes as |note|}}
-    <li>
-      {{ note.content }}
+{% raw %}{{#if notes}}
+  <ul>
+    {{#each notes as |note|}}
+      <li>
+        {{ note.content }}
 
-      <button type="button" class="btn btn-danger" {{ action 'deleteNote' note }}>
-        {{ i18n 'notebook.delete_note_label' }}
-      </button>
-    </li>
-  {{/each}}
-</ul>
-{{/if}}
-{%- endraw -%}
+        <button type="button" class="btn btn-danger" {{ action 'deleteNote' note }}>
+          {{ i18n 'notebook.delete_note_label' }}
+        </button>
+      </li>
+    {{/each}}
+  </ul>
+{{/if}}{% endraw %}
 ```
 
 ---

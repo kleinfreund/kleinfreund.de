@@ -19,7 +19,7 @@ Currently, I’m experimenting with inlining my full stylesheet. It’s 7.3 KB b
 With this change, my build time went up by 6–7 seconds. That’s due to the `sassify` and `scssify` filters not utilizing the Sass cache. Locally, I can work around this with <a href="https://talk.jekyllrb.com/t/is-capture-slow-or-are-my-build-times-normal/32/4">a tip</a> from envygeeks posted over at the new Jekyll forums.
 
 ```
-{%- raw -%}
+{% raw %}
 {% if jekyll.environment == 'local' %}
   <link rel="stylesheet" href="/css/kleinfreund.css">
 {% else %}
@@ -31,7 +31,7 @@ With this change, my build time went up by 6–7 seconds. That’s due to the `s
     {{ scss_include | scssify }}
   </style>
 {% endif %}
-{%- endraw -%}
+{% endraw %}
 ```
 
 ## Under the hood
