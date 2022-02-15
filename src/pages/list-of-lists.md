@@ -1,8 +1,13 @@
 ---
 title: List of lists
 description: "A list of lists of things (well, music) I like."
-date: 2021-12-25
+date: 2022-02-15
 ---
+
+## 2022
+
+- **Favourite albums** … so far:
+  - Black Country, New Road: [Ants From Up There](https://blackcountrynewroad.bandcamp.com/album/ants-from-up-there)
 
 ## 2021
 
