@@ -22,18 +22,18 @@ I build websites and web applications with reliable user and developer interface
 
 ### Sendcloud B.V.
 
-2019 – Present<br>
+July 2019 – Present<br>
 Eindhoven, Netherlands
 
 - **Senior front-end developer**<br>
   Full-time<br>
   January 2021 – Present
 
-  At Sendcloud, I worked in several teams on pretty much all frontend-related aspects of the platform including feature development, internationalization, API design, technical writing, general maintenance, the hiring process, and onboarding and mentoring of new front-end developers.
+  At Sendcloud, I worked in several teams on all frontend-related aspects of the platform including feature development, internationalization, API design, technical writing, general maintenance, hiring, and onboarding/mentoring of front-end developers.
 
   I heavily contributed to planning and finalizing the multi-year effort of migrating the platform’s main frontend to a Vue.js-powered application.
 
-  For well over a year, I’m now a part of the development department’s checkout team. There, I was a core contributor to establishing the foundation for a new system of features that deeply integrates with various e-commerce platforms. Besides the general involvement in the front-end development process, I’m responsible for writing the public technical documentation, designing APIs, and maintaining related legacy systems.
+  Now, I’m part of the development department’s checkout team. There, I was a core contributor to establishing the foundation for a new system of features that deeply integrates with various e-commerce platforms. I’m developing the third party script responsible for rendering a custom shipping method UI in a merchant’s shop. I’m also responsible for writing the public technical documentation, designing APIs, and maintaining related legacy systems.
 
   Technologies: HTML, CSS, JavaScript (Vue.js)
 
@@ -50,26 +50,23 @@ Weimar, Germany
   Contract<br>
   2018 – 2019
 
-  I was tasked with building upon the prototype of Disraptor, a tool for decoupling the development of an arbitrary web application from the need to implement auxiliary functions like authentication, user management, and social networking based on the Discourse forum software.
+  I built the Disraptor prototype, a tool for decoupling the development of an arbitrary web application from the need to implement auxiliary functions like authentication, user management, and social networking based on the Discourse forum software.
 
-  Technologies: HTML, CSS, JavaScript (Ember.js), Ruby (Rails)
+  Technologies: HTML, CSS, JavaScript, Ruby (Rails)
 
 - **Front-end developer**<br>
   Contract<br>
   2017 – 2018
 
-  I built Slidehub, a web-based browser for easily accessing a large number of PDF documents (e.g. for presentations, lectures, talks, etc.).
+  I built Slidehub, a PDF document browser for easily accessing a large number of for presentations, lectures, talks, etc.
 
   Technologies: HTML, CSS, JavaScript
 
 ## Education
 
-2014 – 2019 (5 years)<br>
-Weimar, Germany
-
 - **Computer Science & Media (B.Sc.)**<br>
-  Bauhaus-Universität Weimar<br>
-  2014 – 2019
+  Bauhaus-Universität Weimar, Weimar Germany<br>
+  2014 – 2019 (5 years)
 
 ## Skills
 
