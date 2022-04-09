@@ -144,7 +144,7 @@ I can only describe this as a mellow yet powerful synth-pop anthem. One that I l
   <div class="embedded-media">
     <iframe src="https://www.youtube-nocookie.com/embed/I8uj7QUzCSA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
-  <figcaption>The music video for Melody’s Echo Chamber’s “Desert Horse”, directed by <a href="http://foothead.net/">Dr D Foothead</a>.</figcaption>
+  <figcaption>The music video for Melody’s Echo Chamber’s “Desert Horse”, directed by <a href="https://foothead.net/">Dr D Foothead</a>.</figcaption>
 </figure>
 
 ## 1.

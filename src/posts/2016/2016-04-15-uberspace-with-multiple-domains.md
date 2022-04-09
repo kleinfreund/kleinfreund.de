@@ -14,7 +14,7 @@ The following information are partially adapted from [Uberspace’s article abou
 
 One thing to get out of the way first: You’ll enter commands into a command line a lot. No need to worry though, everything is explained on the very detailed [Uberspace wiki](https://wiki.uberspace.de/). Here are some things you’ll need in the process.
 
-- **SSH client:** A simple program that does the job is [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html). I use [cmder](http://cmder.net/) as a replacement for Windows’ PowerShell which also works as an SSH client.
+- **SSH client:** A simple program that does the job is [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). I use [cmder](https://cmder.net/) as a replacement for Windows’ PowerShell which also works as an SSH client.
 - **SFTP client:** To upload your files to the server. I use [WinSCP](https://winscp.net/eng/download.php) instead of FileZilla because it allows synchronizing directories.
 
 Assuming you’ve registered for an Uberspace, log into it via SSH. Using `ssh` from the command line looks like this:

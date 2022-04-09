@@ -49,7 +49,7 @@ Earlier this year we had a lodger originally coming from Teheran who recognized 
 ## 6.
 
 **Sufjan Stevens**<br>
-[Carrie &amp; Lowell](http://music.sufjan.com/album/carrie-lowell)
+[Carrie &amp; Lowell](https://music.sufjan.com/album/carrie-lowell)
 
 Although I’m writing this in a small café in the late afternoon, I immediately want to grab my blanket and a hot tea. It’s neither cold nor boring here, the music is just so calming. On this album, I can forgive the whispering voice which can be annoying at times. Not here. It fits the theme and musical style of Stevens. It’s a very good album, although I wish the songs hat a bit more variety. The album feels a bit too homogenous at points. Considering the nature of concept albums it’s easily forgivable though.
 
@@ -60,7 +60,7 @@ Although I’m writing this in a small café in the late afternoon, I immediatel
 **Polynation**<br>
 [Allogamy](https://atomnation.bandcamp.com/album/allogamy)
 
-Released on what is easily my favorite label of the year, [Atomnation](https://atomnation.bandcamp.com/), this album also features my favorite album artwork of the year (Who did this? It’s fantastic!). That said, Atomnation celebrated their 25th release this year with a beautiful booklet. “Allogamy” is the 32nd release. Polynation’s mixture between electronic styles on the one hand and analog drums on the other hand is really interesting. The third track features a piano which I did not expect at all. Turned out really well. The forth track, “Dew”, has some elements which remind me of [Tycho](http://tychomusic.com/awake/) who are doing music on the more calm and quiet end.
+Released on what is easily my favorite label of the year, [Atomnation](https://atomnation.bandcamp.com/), this album also features my favorite album artwork of the year (Who did this? It’s fantastic!). That said, Atomnation celebrated their 25th release this year with a beautiful booklet. “Allogamy” is the 32nd release. Polynation’s mixture between electronic styles on the one hand and analog drums on the other hand is really interesting. The third track features a piano which I did not expect at all. Turned out really well. The forth track, “Dew”, has some elements which remind me of [Tycho](https://tycho.bandcamp.com/album/awake) who are doing music on the more calm and quiet end.
 
 
 
@@ -82,7 +82,7 @@ Self-titled debut album by the Nubiyan Twist. Oh girl, thank the Bandcamp Weekly
 ## 2.
 
 **Kamasi Washington**<br>
-[The Epic](http://ninjatune.net/release/kamasi-washington/the-epic)
+[The Epic](https://ninjatune.net/release/kamasi-washington/the-epic)
 
 My sweet-spot for Jazz, here it gets its love. What a journey this **three hour long** power house of a record is. I expect it to be on Anthony’s favorite albums of the year list right in the top 3 as well (list is up, ~~haven’t seen it yet~~ knew it.). Up to this point I only managed to listen through it in its entirety twice. There is definitely still many things to discover and learn about this record. Can only imagine it to get better.
 

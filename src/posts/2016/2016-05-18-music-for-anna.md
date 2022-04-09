@@ -31,7 +31,7 @@ I’m still so impressed by their style not only musically but also visually. Th
 I saw this guy walking around the city almost daily last week. He really did put out two great records while especially “Exa” on this one is formidable.
 
 <iframe style="border: 0; width: 100%; height: 439px;" src="https://bandcamp.com/EmbeddedPlayer/album=927255120/size=large/bgcol=ffffff/artwork=small/transparent=true/" seamless>
-  <a href="http://martinkohlstedt.bandcamp.com/album/nacht">Nacht by Martin Kohlstedt</a>
+  <a href="https://martinkohlstedt.bandcamp.com/album/nacht">Nacht by Martin Kohlstedt</a>
 </iframe>
 
 ## [Nubiyan Twist – Self-titled](https://wormfoodrecords.bandcamp.com/album/nubiyan-twist-wf103)
@@ -39,7 +39,7 @@ I saw this guy walking around the city almost daily last week. He really did put
 Putting my speakers in the kitchen and cooking with friends. This is the soundtrack. Apart from no cooking taking place because everyone is just shaking their booties.
 
 <iframe style="border: 0; width: 100%; height: 373px;" src="https://bandcamp.com/EmbeddedPlayer/album=677147577/size=large/bgcol=ffffff/artwork=small/transparent=true/" seamless>
-  <a href="http://wormfoodrecords.bandcamp.com/album/nubiyan-twist-wf103">Nubiyan Twist (WF103) by Nubiyan Twist</a>
+  <a href="https://nubiyantwist.bandcamp.com/album/nubiyan-twist-wf103">Nubiyan Twist (WF103) by Nubiyan Twist</a>
 </iframe>
 
 ## [Vangelis – Blade Runnder Soundtrack](https://www.youtube.com/watch?v=EV95Yu6gZSY&list=PL3ABE2FBA2900C03E)
@@ -63,7 +63,7 @@ Two EP’s from The WAYO while the latter being a remix version of the first one
 Percussion-heavy R&B/Soul/Jazz stuff. Enjoying that quite a bit.
 
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2065623174/size=large/bgcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless>
-  <a href="http://cacartu.bandcamp.com/album/cacartu">Cacartu by Cacartu</a>
+  <a href="https://cacartu.bandcamp.com/album/cacartu">Cacartu by Cacartu</a>
 </iframe>
 
 ## [Kamasi Wahsington – The Epic](https://soundcloud.com/brainfeeder/kamasi-washington-miss-understanding)

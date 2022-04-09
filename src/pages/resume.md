@@ -16,7 +16,7 @@ I build websites and web applications with reliable user and developer interface
 
 - **GitHub**:
 
-  [github.com/kleinfreund](http://github.com/kleinfreund)
+  [github.com/kleinfreund](https://github.com/kleinfreund)
 
 ## Work
 

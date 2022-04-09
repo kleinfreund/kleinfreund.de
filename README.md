@@ -34,8 +34,3 @@ convert -background none -density 16x16 icon.svg favicon-16.png \
   && convert favicon-16.png favicon-32.png favicon.ico \
   && rm favicon-16.png favicon-32.png
 ```
-
-## Used resources
-
-- [Eleventy documentation](https://www.11ty.dev/docs/)
-- [Harry Roberts: Manage large CSS projects with ITCSS](http://www.creativebloq.com/web-design/manage-large-css-projects-itcss-101517528)

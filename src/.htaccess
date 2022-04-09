@@ -231,7 +231,7 @@ AddDefaultCharset utf-8
 # left by some text editors and can pose a security risk when anyone
 # has access to them.
 #
-# http://feross.org/cmsploit/
+# https://feross.org/cmsploit/
 #
 # (!) Update the `<FilesMatch>` regular expression from below to
 # include any files that might end up on your production server and

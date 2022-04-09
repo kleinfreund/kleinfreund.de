@@ -22,7 +22,7 @@ In the game, you can set the mode to _peaceful_ which prevents monsters from spa
 
 <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=565792550/size=small/bgcol=ffffff/transparent=true/" seamless><a href="https://dreamcatalogue.bandcamp.com/album/--18">新しい日の誕生 by ２８１４</a></iframe>
 
-I don’t speak Japanese, but the [translator](https://translate.google.de/?ie=UTF-8&hl=en&client=tw-ob#auto/en/%E6%96%B0%E3%81%97%E3%81%84%E6%97%A5%E3%81%AE%E8%AA%95%E7%94%9F) says the title of this album is “Birth of a New Day”. Very cool that it comes with an [animated cover](https://dreamcatalogue.files.wordpress.com/2015/01/scene1_wall_framed_only-reflection-girl_750px.gif) (1500×1500 pixels, 8.6 MB) from Gustavo Torres a.k.a. [Kidmograph](http://kidmograph.tumblr.com/).
+I don’t speak Japanese, but the [translator](https://translate.google.de/?ie=UTF-8&hl=en&client=tw-ob#auto/en/%E6%96%B0%E3%81%97%E3%81%84%E6%97%A5%E3%81%AE%E8%AA%95%E7%94%9F) says the title of this album is “Birth of a New Day”. Very cool that it comes with an [animated cover](https://dreamcatalogue.files.wordpress.com/2015/01/scene1_wall_framed_only-reflection-girl_750px.gif) (1500×1500 pixels, 8.6 MB) from Gustavo Torres a.k.a. [Kidmograph](https://kidmograph.tumblr.com/).
 
 The music is just as peaceful as prior one. Dreamy ambient electronica with this interesting cyberspace atmosphere. The music is a trip through an imagined world with your shoes off. In this case I would’ve loved to get my hands on the Limited Edition CD, but it was already sold out. Limited to 50 pieces.
 
@@ -40,9 +40,9 @@ This was in last weeks [Bandcamp Weekly](https://bandcamp.com/?show=115) which b
 
 The song is one with many facets that slowly develops its soul layer by layer and gets really special by doing so. With this in our bags we eventually will make our way to warm summer nights.
 
-## [Les Passagers: Mostla Tape](http://souterraine.biz/album/les-passagers-mostla-tape)
+## [Les Passagers: Mostla Tape](https://souterraine.biz/album/les-passagers-mostla-tape)
 
-<iframe style="border: 0; width: 100%; height: 42px;" src="http://bandcamp.com/EmbeddedPlayer/album=1600847448/size=small/bgcol=ffffff/transparent=true/" seamless><a href="http://souterraine.biz/album/les-passagers-mostla-tape">Les Passagers - Mostla Tape by Les Passagers</a></iframe>
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1600847448/size=small/bgcol=ffffff/transparent=true/" seamless><a href="https://souterraine.biz/album/les-passagers-mostla-tape">Les Passagers - Mostla Tape by Les Passagers</a></iframe>
 
 From Montréal in Québec (Canada), Les Passagers brings us a sometimes slow-paced, sometimes dancy mixture of electronic pop, folk and rock with pleasent vocals. Good to get your mood back to a people-friendlier level.
 

@@ -15,12 +15,12 @@ Hey there everyone, it’s List Week already. So without further ado, here are m
 - [**Vallis Alps** – Young](https://vallisalps.bandcamp.com/)
 - [**Death And Vanilla** – California Owls](https://deathandvanillamusic.bandcamp.com/album/to-where-the-wild-things-are)
 - [**Kuzco** – Throwback](https://brainanddevice.bandcamp.com/track/throwback)
-- [**Grossstadtgeflüster** – Fickt-Euch-Allee](http://www.grossstadtgefluester.de/)
+- [**Grossstadtgeflüster** – Fickt-Euch-Allee](https://grossstadtgefluester.de/)
 - [**Reptar** – Ice Black Sand](https://reptarmusic.bandcamp.com/album/lurid-glow)
 - [**Hot Chip** – Need You Now (Percussions Edit)](https://bleep.com/release/60592-hot-chip-need-you-now-percussions-edit)
 - [**Savant** – Stationary Dance](https://kleimer.bandcamp.com/album/artificial-dance)
 - [**World Champion** – Avocado Galaxy (Tornado Wallace’s Paradise Remix)](https://world-champion.bandcamp.com/track/avocado-galaxy-tornado-wallaces-paradise-remix)
-- [**Clarence Clarity** – Those Who Can’t, Cheat](http://store.bellaunion.com/product/clarence-clarity-no-now)
+- **Clarence Clarity** – Those Who Can’t, Cheat
 - [**Fresh Cut Orchestra** – The Mothers’ Suite, Movement III – Ritual of Take](https://freshcutorchestra.bandcamp.com/album/from-the-vine)
 
 
@@ -37,7 +37,7 @@ The track starts a bit *flat* but patience is very rewarding. The piano line kic
 ## 9.
 
 **Vakula**<br>
-[Joywind](http://www.discogs.com/Vakula-A-Voyage-To-Arcturus/release/6572553)
+[Joywind](https://www.discogs.com/release/6572553-Vakula-A-Voyage-To-Arcturus)
 
 This is a vacation track, isn’t it? It sure sounds like one. Good for me. Haven’t left the country this year.
 
@@ -105,7 +105,7 @@ Slow build-ups. You know me. They have a special place in my heart.
 ## 2.
 
 **Beatsofreen**<br>
-[Slowly Rising](http://store.kingdeluxe.ca/album/full-circle)
+Slowly Rising
 
 <figure>
   <div class="embedded-media">

@@ -12,21 +12,19 @@ Phew, I accumulated [quite a lot](https://bandcamp.com/kleinfreund) of music pur
 
 Heard it in a Bandcamp Weekly and knew right away that I liked this track. I’m down to drum infused instrumentals with build-ups that fuel one with energized orange juice. Such a cool build-up, really. Can’t work to that, since every inch of my body wants to move in weird ways.
 
-## [The WAYO: Wanderflips EP](http://thewayo.com/album/wanderflips-ep)
+## [The WAYO: Wanderflips EP](https://soundcloud.com/thewayomusic/sets/wanderflips)
 
-<iframe style="border: 0; width: 100%; height: 42px;" src="http://bandcamp.com/EmbeddedPlayer/album=4026784367/size=small/bgcol=ffffff/transparent=true/" seamless><a href="http://thewayo.com/album/wanderflips-ep">The WAYO: Wanderflips EP</a></iframe>
-
-A slow funk/hip-hop/groove remix EP of The WAYO’s [Wanderings EP](http://thewayo.com/album/wanderings-ep). Good to get yourself out of that rough day where things didn’t work out as well. Nothing too excited, but still really likeable for the warm good mood it gives you.
+A slow funk/hip-hop/groove remix EP of The WAYO’s [Wanderings EP](https://soundcloud.com/thewayomusic/sets/wanderflips). Good to get yourself out of that rough day where things didn’t work out as well. Nothing too excited, but still really likeable for the warm good mood it gives you.
 
 ## [cloack: room](https://cloack.bandcamp.com/album/room)
 
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=4222857852/size=small/bgcol=ffffff/transparent=true/" seamless><a href="http://cloack.bandcamp.com/album/room">cloack: room</a></iframe>
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=4222857852/size=small/bgcol=ffffff/transparent=true/" seamless><a href="https://cloack.bandcamp.com/album/room">cloack: room</a></iframe>
 
 This is a special one. Has dreamy, spacey aesthetic to it which makes you think about things. All kinds of things. Your life, what the little blackbird outside is chatting about again or why your roommates can’t do the freakin’ dishes for once. Good thing that it doesn’t let you get angry about it. Also, dear lovely roommates, I am fine with doing the dishes. Pay me with cookies and hugs.
 
 ## [KOZILEK: SoundCloud Vol. 1](https://kozilek.bandcamp.com/album/from-soundcloud-vol-1)
 
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1150980943/size=small/bgcol=ffffff/transparent=true/" seamless><a href="http://kozilek.bandcamp.com/album/from-soundcloud-vol-1">KOZILEK: SoundCloud Vol. 1</a></iframe>
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1150980943/size=small/bgcol=ffffff/transparent=true/" seamless><a href="https://kozilek.bandcamp.com/album/from-soundcloud-vol-1">KOZILEK: SoundCloud Vol. 1</a></iframe>
 
 Jukio Kallio scraped his [SoundCloud](https://soundcloud.com/kozilek) for individual songs and smashed them together in this 8-piece EP/album thing. I’m not really into all of these tunes, but Helsinki Trails is super. While we’re at it: Check out his [stellar soundtrack](https://kozilek.bandcamp.com/album/luftrausers-ost) for the game Luftrausers—it kicks asses!
 
@@ -44,25 +42,25 @@ Now this is a track you probably want to sing along with. That’s what I want, 
 
 ## [Floating Points: Nuits Sonores / Nectarines](https://eglorecords.bandcamp.com/album/nuits-sonores-nectarines)
 
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=530101042/size=small/bgcol=ffffff/transparent=true/" seamless><a href="http://eglorecords.bandcamp.com/album/nuits-sonores-nectarines">Floating Points: Nuits Sonores / Nectarines</a></iframe>
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=530101042/size=small/bgcol=ffffff/transparent=true/" seamless><a href="https://eglorecords.bandcamp.com/album/nuits-sonores-nectarines">Floating Points: Nuits Sonores / Nectarines</a></iframe>
 
 Oh yeah, keep them long build-ups coming. I’m in for that. Nuits Sonores is a whopping 12 minute track that absorbs everything and accumulates into a gigantic pile of tension. I love when I can pay so much attention to a track and feed it with more and more of my patience only to allow it developing itself into that monster that unleashes it’s energy around the 9 minute mark. Boom! Get on your feet!
 
 ## [Thrupence: Lessons (Originals Mixtape 4)](https://thrupence.bandcamp.com/album/lessons-originals-mixtape-4)
 
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2691335417/size=small/bgcol=ffffff/transparent=true/" seamless><a href="http://thrupence.bandcamp.com/album/lessons-originals-mixtape-4">Thrupence: Lessons (Originals Mixtape 4)</a></iframe>
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2691335417/size=small/bgcol=ffffff/transparent=true/" seamless><a href="https://thrupence.bandcamp.com/album/lessons-originals-mixtape-4">Thrupence: Lessons (Originals Mixtape 4)</a></iframe>
 
 Yes, I bought a mixtape and I don’t think that’s strange. Especially because in this case it’s more like an album. Every track is made by Jack Vanzet. “Don’t You Mind” is probably already a classic, but the other tracks don’t lack in quality. Overall colorful and consistent mixtape. Great job, Jack.
 
 ## [Tonik Ensemble: Snapshots](https://atomnation.bandcamp.com/album/snapshots)
 
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1032985799/size=small/bgcol=ffffff/transparent=true/" seamless><a href="http://atomnation.bandcamp.com/album/snapshots">Tonik Ensemble: Snapshots</a></iframe>
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1032985799/size=small/bgcol=ffffff/transparent=true/" seamless><a href="https://atomnation.bandcamp.com/album/snapshots">Tonik Ensemble: Snapshots</a></iframe>
 
 The Dutch Atomnation label keeps surprising me with pieces like Snapshots or [Half Age EP](https://atomnation.bandcamp.com/album/half-age-ep) by Weval. The [album covers](https://atomnation.bandcamp.com/music) alone look so good. Now to the record. Rich textures, sensible voices, thriving beats and sudden changes in pace and orientation of the theme. And then there are these reoccuring violin parts. Terrific!
 
 ## [Gidge: Autumn Bells](https://atomnation.bandcamp.com/album/autumn-bells)
 
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=415289895/size=small/bgcol=ffffff/transparent=true/" seamless><a href="http://atomnation.bandcamp.com/album/autumn-bells">Gidge: Autumn Bells</a></iframe>
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=415289895/size=small/bgcol=ffffff/transparent=true/" seamless><a href="https://atomnation.bandcamp.com/album/autumn-bells">Gidge: Autumn Bells</a></iframe>
 
 Also from Atomnation comes this album of the Swedish duo Ludvig Stolterman and Jonatan Nilsson. Comparable with Tonik Ensemble, Gidge bring you a haunting ambient release that remind me of misty scenarios in a forest where the occasional sound of a distant animal sends you the chills. I kinda want the weather to be rainy now.
 

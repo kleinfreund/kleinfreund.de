@@ -229,13 +229,13 @@ date: 2022-02-15
     - <!---->7.
       Amin Payne: [SAFFRON](https://aminpayne.bandcamp.com/album/saffron)
     - <!---->6.
-      Sufjan Stevens: [Carrie &amp; Lowell](http://music.sufjan.com/album/carrie-lowell)
+      Sufjan Stevens: [Carrie &amp; Lowell](https://music.sufjan.com/album/carrie-lowell)
     - <!---->5.
       Polynation: [Allogamy](https://atomnation.bandcamp.com/album/allogamy)
     - <!---->4.
       The Raah Project: [Take Me Elsewhere](https://theraahproject.bandcamp.com/album/take-me-elsewhere)
     - <!---->2.
-      Kamasi Washington: [The Epic](http://ninjatune.net/release/kamasi-washington/the-epic)
+      Kamasi Washington: [The Epic](https://ninjatune.net/release/kamasi-washington/the-epic)
     - <!---->1.
       Bachar Mar-Khalifé: [Ya Balad](https://infine-rec.bandcamp.com/album/ya-balad)
 - [**Favourite songs**](/favorite-tracks-of-2015):
@@ -243,18 +243,18 @@ date: 2022-02-15
     - Vallis Alps: [Young](https://vallisalps.bandcamp.com/)
     - Death And Vanilla: [California Owls](https://deathandvanillamusic.bandcamp.com/album/to-where-the-wild-things-are)
     - Kuzco: [Throwback](https://brainanddevice.bandcamp.com/track/throwback)
-    - Grossstadtgeflüster: [Fickt-Euch-Allee](http://www.grossstadtgefluester.de/)
+    - Grossstadtgeflüster: [Fickt-Euch-Allee](https://grossstadtgefluester.de/)
     - Reptar: [Ice Black Sand](https://reptarmusic.bandcamp.com/album/lurid-glow)
     - Hot Chip: [Need You Now (Percussions Edit)](https://bleep.com/release/60592-hot-chip-need-you-now-percussions-edit)
     - Savant: [Stationary Dance](https://kleimer.bandcamp.com/album/artificial-dance)
     - World Champion: [Avocado Galaxy (Tornado Wallace’s Paradise Remix)](https://world-champion.bandcamp.com/track/avocado-galaxy-tornado-wallaces-paradise-remix)
-    - Clarence Clarity: [Those Who Can’t, Cheat](http://store.bellaunion.com/product/clarence-clarity-no-now)
+    - Clarence Clarity: Those Who Can’t, Cheat
     - Fresh Cut Orchestra: [The Mothers’ Suite, Movement III – Ritual of Take](https://freshcutorchestra.bandcamp.com/album/from-the-vine)
   - Ranked:
     - <!---->10.
       37 Adventures: [Clanky Love (Jamie Lidell’s Klankenzeit Dub)](https://37adventures.bandcamp.com/album/royce-wood-junior-clanky-love-jamie-lidell-remix)
     - <!---->9.
-      Vakula: [Joywind](http://www.discogs.com/Vakula-A-Voyage-To-Arcturus/release/6572553)
+      Vakula: [Joywind](https://www.discogs.com/release/6572553-Vakula-A-Voyage-To-Arcturus)
     - <!---->8.
       The Classical: [Our Lady of Revenge](https://theclassical.bandcamp.com/album/diptych)
     - <!---->7.
@@ -268,7 +268,7 @@ date: 2022-02-15
     - <!---->3.
       Shlohmo: [Buried](https://www.youtube.com/watch?v=mVR10CD2Alk)
     - <!---->2.
-      Beatsofreen: [Slowly Rising](http://store.kingdeluxe.ca/album/full-circle)
+      Beatsofreen: Slowly Rising
     - <!---->1.
       Cumeo Project: [On the Surface of the Sea](https://www.youtube.com/watch?v=pBsViwfTeBQ)
 
@@ -279,7 +279,7 @@ date: 2022-02-15
     - Stumbleine – [Infinite Overcast](https://stumbleine.bandcamp.com/album/infinite-overcast)
     - Auditive Escape – [The Conundrum](https://auditiveescape.bandcamp.com/album/the-conundrum)
     - Auditive Escape – [Holoscape](https://auditiveescape.bandcamp.com/album/holoscape)
-    - Oskar Schuster – [Sneeuwland](http://shop.oskarschuster.com/album/sneeuwland)
+    - Oskar Schuster – [Sneeuwland](https://oskarschuster.bandcamp.com/album/sneeuwland)
   - Ranked:
     - <!---->10.
       Liars: [Mess](https://www.youtube.com/playlist?list=PLlOx16OHMHLhAgshmQ08tv0H-5H7clPum)
@@ -296,15 +296,15 @@ date: 2022-02-15
     - <!---->4.
       Hundred Waters: [The Moon Rang Like a Bell](https://www.youtube.com/playlist?list=PLstdr_f1osK4ZeId_A1jYXbKeZcDxnx0X)
     - <!---->3.
-      Interpol: [El Pintor](http://interpolnyc.com/news/elpintoroutnow/)
+      Interpol: [El Pintor](https://www.interpolnyc.com/news/elpintoroutnow/)
     - <!---->2.
       Ghosts of Paraguay: [Ember](https://soundcloud.com/ghostsofparaguay/sets/ember)
     - <!---->1.
-      Danny Baranowsky: [Crypt of the NecroDancer OST](http://necrodancer.com/faq.php#C1)
+      Danny Baranowsky: [Crypt of the NecroDancer OST](https://dbsoundworks.bandcamp.com/album/crypt-of-the-necrodancer-ost)
 - [**Favourite songs**](/the-year):
   - Ranked:
     - <!---->10.
-      Tua: [Der Bettler und das Meer (Lambert Remix)](http://www.kraftfuttermischwerk.de/blogg/tua-der-bettler-und-das-meer-lambert-remix/)
+      Tua: [Der Bettler und das Meer (Lambert Remix)](https://www.kraftfuttermischwerk.de/blogg/tua-der-bettler-und-das-meer-lambert-remix/)
     - <!---->9.
       Tei Shi: [Nevermind The End](https://soundcloud.com/tei-shi/nevermind-the-end)
     - <!---->8.

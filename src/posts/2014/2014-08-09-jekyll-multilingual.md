@@ -99,4 +99,4 @@ max_posts: 10
 {% endraw %}
 ```
 
-Das war’s im Grunde. Zum besseren Verständnis könnt ihr euch das [GitHub Repository](http://github.com/kleinfreund/kleinfreund.de) meiner Seite ansehen und durch die Dateien klicken.
+Das war’s im Grunde. Zum besseren Verständnis könnt ihr euch das [GitHub Repository](https://github.com/kleinfreund/kleinfreund.de) meiner Seite ansehen und durch die Dateien klicken.
