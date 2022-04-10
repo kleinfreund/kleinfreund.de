@@ -65,13 +65,13 @@
   {% if eleventy.isProduction %}
     <script defer>
       {%- capture script_content -%}
-        {% include 'js/color-scheme-toggle.js' %}
+        {% include 'js/script.js' %}
       {%- endcapture -%}
 
       {{ script_content | minify_js }}
     </script>
   {% else %}
-    <script src="{{ '/js/color-scheme-toggle.js' | url }}" defer></script>
+    <script src="{{ '/js/script.js' | url }}" defer></script>
   {% endif %}
 
 </body>

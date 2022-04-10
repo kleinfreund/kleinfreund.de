@@ -1,7 +1,9 @@
 ---
 title: Résumé
 description: The résumé of Philipp Rudloff, a front-end developer living in Eindhoven, Netherlands.
-date: 2021-02-13
+date: 2022-04-10
+css:
+- components.entry.css
 ---
 
 Hey there, my name is Philipp Rudloff and I’m a front-end developer.
@@ -20,53 +22,51 @@ I build websites and web applications with reliable user and developer interface
 
 ## Work
 
-### Sendcloud B.V.
-
-July 2019 – Present<br>
-Eindhoven, Netherlands
+<div class="entry">
+  <h3>Sendcloud B.V.</h3>
+  <div>Full-time<span data-start-date="2019-07-01"></span></div>
+  <div>Eindhoven, Netherlands</div>
+</div>
 
 - **Senior front-end developer**<br>
-  Full-time<br>
-  January 2021 – Present
-
-  At Sendcloud, I worked in several teams on all frontend-related aspects of the platform including feature development, internationalization, API design, technical writing, general maintenance, hiring, and onboarding/mentoring of front-end developers.
-
-  I heavily contributed to planning and finalizing the multi-year effort of migrating the platform’s main frontend to a Vue.js-powered application.
-
-  Now, I’m part of the development department’s checkout team. There, I was a core contributor to establishing the foundation for a new system of features that deeply integrates with various e-commerce platforms. I’m developing the third party script responsible for rendering a custom shipping method UI in a merchant’s shop. I’m also responsible for writing the public technical documentation, designing APIs, and maintaining related legacy systems.
-
-  Technologies: HTML, CSS, JavaScript (Vue.js)
+  Jan 2021 – Present<span data-start-date="2021-01-01"></span>
 
 - **Front-end developer**<br>
-  Full-time<br>
-  July 2019 – December 2020 (1 year, 6 months)
+  Jul 2019 – Dec 2020 · 1 year, 6 months
 
-### Bauhaus-Universität Weimar
+At Sendcloud, I worked in several teams on all frontend-related aspects of the platform including feature development, internationalization, API design, technical writing, general maintenance, hiring, and onboarding/mentoring of front-end developers.
 
-2017 – 2019 (1 year, 11 months)<br>
-Weimar, Germany
+I heavily contributed to planning and finalizing the multi-year effort of migrating the platform’s main frontend to a Vue.js-powered application.
+
+Now, I’m part of the development department’s checkout team. There, I was a core contributor to establishing the foundation for a new system of features that deeply integrates with various e-commerce platforms. I’m developing the third party script responsible for rendering a custom shipping method UI in a merchant’s shop. I’m also responsible for writing the public technical documentation, designing APIs, and maintaining related legacy systems.
+
+Technologies: HTML, CSS, JavaScript (Vue.js)
+
+<div class="entry">
+  <h3>Bauhaus-Universität Weimar</h3>
+  <div>Contract · 1 year, 11 months</div>
+  <div>Weimar, Germany</div>
+</div>
 
 - **Front-end developer**<br>
-  Contract<br>
-  2018 – 2019
+  Aug 2017 – Jun 2019 · 1 year, 11 months
 
-  I built the Disraptor prototype, a tool for decoupling the development of an arbitrary web application from the need to implement auxiliary functions like authentication, user management, and social networking based on the Discourse forum software.
+I built the Disraptor prototype, a tool for decoupling the development of an arbitrary web application from the need to implement auxiliary functions like authentication, user management, and social networking based on the Discourse forum software.
 
-  Technologies: HTML, CSS, JavaScript, Ruby (Rails)
+I also built Slidehub, a PDF document browser for easily accessing a large number of for presentations, lectures, talks, etc.
 
-- **Front-end developer**<br>
-  Contract<br>
-  2017 – 2018
-
-  I built Slidehub, a PDF document browser for easily accessing a large number of for presentations, lectures, talks, etc.
-
-  Technologies: HTML, CSS, JavaScript
+Technologies: HTML, CSS, JavaScript, Ruby (Rails)
 
 ## Education
 
+<div class="entry">
+  <h3>Bauhaus-Universität Weimar</h3>
+  <div class="entry__time">2014 – 2019</div>
+  <div class="entry__location">Weimar, Germany</div>
+</div>
+
 - **Computer Science & Media (B.Sc.)**<br>
-  Bauhaus-Universität Weimar, Weimar Germany<br>
-  2014 – 2019 (5 years)
+  2014 – 2019
 
 ## Skills
 

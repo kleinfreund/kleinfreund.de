@@ -1,0 +1,7 @@
+.entry {
+  margin-bottom: var(--f-vertical-spacing);
+}
+
+.entry h3 {
+  margin-bottom: 0;
+}
