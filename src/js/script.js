@@ -1,13 +1,14 @@
-document.addEventListener('DOMContentLoaded', function () {
+// @ts-check
+
+/** @typedef {'dark' | 'light'} ColorScheme */
+
+document.addEventListener('DOMContentLoaded', init)
+
+function init() {
   document.body.classList.remove('js-disabled')
-
   initColorSchemeToggle()
-
-  const elements = Array.from(document.querySelectorAll('[data-start-date]'))
-  for (const element of elements) {
-    setCurrentEmploymentTime(element)
-  }
-})
+  setCurrentEmploymentTime()
+}
 
 function initColorSchemeToggle() {
   const storedColorScheme = window.localStorage.getItem('active-color-scheme')
@@ -16,16 +17,21 @@ function initColorSchemeToggle() {
   }
 
   const toggle = document.querySelector('[data-color-scheme-toggle]')
-  toggle.addEventListener('click', toggleColorScheme)
+  toggle.addEventListener('click', setActiveColorScheme)
 }
 
-function toggleColorScheme() {
+function setActiveColorScheme() {
   const activeColorScheme = getActiveColorScheme()
-  setActiveColorScheme(activeColorScheme === 'light' ? 'dark' : 'light')
+  document.body.setAttribute('data-color-scheme', activeColorScheme)
+  window.localStorage.setItem('active-color-scheme', activeColorScheme)
 }
 
+/**
+ * @returns {ColorScheme} the active color scheme.
+ */
 function getActiveColorScheme() {
-  const activeColorScheme = document.body.getAttribute('data-color-scheme')
+  const activeColorScheme = /** @type {ColorScheme | null} */ (document.body.getAttribute('data-color-scheme'))
+
   if (typeof activeColorScheme === 'string') {
     return activeColorScheme
   }
@@ -34,11 +40,9 @@ function getActiveColorScheme() {
   return colorSchemePreference !== 'no-preference' ? colorSchemePreference : 'light'
 }
 
-function setActiveColorScheme(colorScheme) {
-  document.body.setAttribute('data-color-scheme', colorScheme)
-  window.localStorage.setItem('active-color-scheme', colorScheme)
-}
-
+/**
+ * @returns {ColorScheme | 'no-preference'} a user’s color scheme preference.
+ */
 function getColorSchemePreference() {
   if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
     return 'dark'
@@ -49,13 +53,25 @@ function getColorSchemePreference() {
   }
 }
 
-function setCurrentEmploymentTime(element) {
-  const startDateString = element.getAttribute('data-start-date')
-  const startDate = new Date(startDateString)
-  const epochDifference = Date.now() - startDate.getTime()
+function setCurrentEmploymentTime() {
+  const elements = Array.from(document.querySelectorAll('[data-start-date]'))
+  for (const element of elements) {
+    const startDateString = element.getAttribute('data-start-date')
+    const startDate = new Date(startDateString)
+    element.textContent = ' · ' + getFormattedTimeDifference(startDate)
+  }
+}
+
+/**
+ * @param {Date} startDate
+ * @param {Date} [endDate]
+ * @returns {string} a formatted time difference (e.g. `"1 year, 3 months"`).
+ */
+function getFormattedTimeDifference(startDate, endDate = new Date()) {
+  const epochDifference = endDate.getTime() - startDate.getTime()
 
   if (epochDifference < 0) {
-    return
+    return ''
   }
 
   const differenceDate = new Date(epochDifference)
@@ -72,5 +88,5 @@ function setCurrentEmploymentTime(element) {
     pieces.push(`${months} month${months > 1 ? 's' : ''}`)
   }
 
-  element.textContent = ` · ${pieces.join(', ')}`
+  return pieces.join(', ')
 }
