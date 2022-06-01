@@ -5,7 +5,6 @@
 document.addEventListener('DOMContentLoaded', init)
 
 function init() {
-  document.body.classList.remove('js-disabled')
   initColorSchemeToggle()
   setCurrentEmploymentTime()
 }
