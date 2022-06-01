@@ -1,4 +1,4 @@
-.js-disabled .color-scheme-toggle {
+:root.js-disabled .color-scheme-toggle {
   display: none;
 }
 
