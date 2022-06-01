@@ -16,13 +16,14 @@ function initColorSchemeToggle() {
   }
 
   const toggle = document.querySelector('[data-color-scheme-toggle]')
-  toggle.addEventListener('click', setActiveColorScheme)
+  toggle.addEventListener('click', toggleColorScheme)
 }
 
-function setActiveColorScheme() {
+function toggleColorScheme() {
   const activeColorScheme = getActiveColorScheme()
-  document.body.setAttribute('data-color-scheme', activeColorScheme)
-  window.localStorage.setItem('active-color-scheme', activeColorScheme)
+  const newActiveColorScheme = activeColorScheme === 'light' ? 'dark' : 'light'
+  document.body.setAttribute('data-color-scheme', newActiveColorScheme)
+  window.localStorage.setItem('active-color-scheme', newActiveColorScheme)
 }
 
 /**
