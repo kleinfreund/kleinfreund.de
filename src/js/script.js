@@ -58,7 +58,11 @@ function setCurrentEmploymentTime() {
   for (const element of elements) {
     const startDateString = /** @type {string} */ (element.getAttribute('data-start-date'))
     const startDate = new Date(startDateString)
-    element.textContent = ' · ' + getFormattedTimeDifference(startDate)
+
+    const formattedTimeDifference = getFormattedTimeDifference(startDate)
+    if (formattedTimeDifference !== '') {
+      element.textContent = ' · ' + formattedTimeDifference
+    }
   }
 }
 
