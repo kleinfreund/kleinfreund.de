@@ -276,14 +276,12 @@ body {
 Just a couple of lines of JavaScript are needed to save the current mode in the user’s browser. When they re-visit the page, the mode that was selected the last time they visited will be used.
 
 ```js
-document.addEventListener('DOMContentLoaded', function () {
-  const checkbox = document.querySelector('.dark-mode-checkbox');
+const checkbox = document.querySelector('.dark-mode-checkbox');
 
-  checkbox.checked = localStorage.getItem('darkMode') === 'true';
+checkbox.checked = localStorage.getItem('darkMode') === 'true';
 
-  checkbox.addEventListener('change', function (event) {
-    localStorage.setItem('darkMode', event.currentTarget.checked);
-  });
+checkbox.addEventListener('change', function (event) {
+  localStorage.setItem('darkMode', event.currentTarget.checked);
 });
 ```
 
