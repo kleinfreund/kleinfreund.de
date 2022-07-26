@@ -2,7 +2,7 @@
 
 /** @typedef {'dark' | 'light'} ColorScheme */
 
-document.addEventListener('DOMContentLoaded', init)
+init()
 
 function init() {
   initColorSchemeToggle()
@@ -15,7 +15,7 @@ function initColorSchemeToggle() {
     document.body.setAttribute('data-color-scheme', storedColorScheme)
   }
 
-  const toggle = document.querySelector('[data-color-scheme-toggle]')
+  const toggle = /** @type {HTMLButtonElement} */(document.querySelector('[data-color-scheme-toggle]'))
   toggle.addEventListener('click', toggleColorScheme)
 }
 
@@ -56,7 +56,7 @@ function getColorSchemePreference() {
 function setCurrentEmploymentTime() {
   const elements = Array.from(document.querySelectorAll('[data-start-date]'))
   for (const element of elements) {
-    const startDateString = element.getAttribute('data-start-date')
+    const startDateString = /** @type {string} */ (element.getAttribute('data-start-date'))
     const startDate = new Date(startDateString)
     element.textContent = ' · ' + getFormattedTimeDifference(startDate)
   }
