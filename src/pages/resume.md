@@ -1,7 +1,7 @@
 ---
 title: Résumé
 description: The résumé of Philipp Rudloff, a front-end developer living in Eindhoven, Netherlands.
-date: 2022-04-10
+date: 2022-08-02
 css:
 - components.entry.css
 ---
@@ -24,12 +24,12 @@ I build websites and web applications with reliable user and developer interface
 
 <div class="entry">
   <h3>Sendcloud B.V.</h3>
-  <div>Full-time<span data-start-date="2019-07-01"></span></div>
+  <div>Full-time · 3 years, 1 month</div>
   <div>Eindhoven, Netherlands</div>
 </div>
 
 - **Senior front-end developer**<br>
-  Jan 2021 – Present<span data-start-date="2021-01-01"></span>
+  Jan 2021 – July 2022 · 1 year, 7 months
 
 - **Front-end developer**<br>
   Jul 2019 – Dec 2020 · 1 year, 6 months
