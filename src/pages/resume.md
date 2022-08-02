@@ -23,6 +23,19 @@ I build websites and web applications with reliable user and developer interface
 ## Work
 
 <div class="entry">
+  <h3>Kong Inc.</h3>
+  <div class="entry__time">Full-time<span data-start-date="2022-08-02"></span></div>
+  <div class="entry__location">Remote</div>
+</div>
+
+- **Senior software engineer (frontend)**<br>
+  Aug 2022 – Present<span data-start-date="2022-08-02"></span>
+
+In August, I’ve joined Kong to work on Kong Mesh.
+
+Technologies: HTML, CSS, JavaScript (Vue.js)
+
+<div class="entry">
   <h3>Sendcloud B.V.</h3>
   <div>Full-time · 3 years, 1 month</div>
   <div>Eindhoven, Netherlands</div>
