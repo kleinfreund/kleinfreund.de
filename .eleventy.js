@@ -1,23 +1,22 @@
-const path = require("path");
-const fs = require("fs");
-
-const CleanCSS = require("clean-css");
-const htmlMinifier = require("html-minifier");
-const makeSynchronous = require("make-synchronous");
-const markdownIt = require("markdown-it");
-const markdownItAnchor = require("markdown-it-anchor");
+const CleanCSS = require('clean-css')
+const fs = require('fs')
+const htmlMinifier = require('html-minifier')
+const makeSynchronous = require('make-synchronous')
+const markdownIt = require('markdown-it')
+const markdownItAnchor = require('markdown-it-anchor')
+const path = require('path')
 
 // https://github.com/kangax/html-minifier#options-quick-reference
 const htmlMinifierOptions = {
   useShortDoctype: true,
   removeComments: true,
   collapseWhitespace: true,
-};
+}
 
 // https://github.com/markdown-it/markdown-it#init-with-presets-and-options
 const markdownItOptions = {
   html: true,
-};
+}
 
 // https://github.com/valeriangalliat/markdown-it-anchor#usage
 const markdownItAnchorOptions = {
@@ -30,74 +29,63 @@ const markdownItAnchorOptions = {
     `.trim(),
     placement: 'before',
   }),
-};
+}
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.setLiquidOptions({
     dynamicPartials: true,
     strict_filters: true,
-  });
+  })
 
-  eleventyConfig.setDataDeepMerge(true);
+  eleventyConfig.setDataDeepMerge(true)
 
   // Copies static files to the output directory
   eleventyConfig
-    .addPassthroughCopy("src/img")
-    .addPassthroughCopy("src/css")
-    .addPassthroughCopy("src/js")
-    .addPassthroughCopy("src/favicon.ico")
-    .addPassthroughCopy("src/.htaccess")
-    .addPassthroughCopy("src/manifest.webmanifest");
+    .addPassthroughCopy('src/img')
+    .addPassthroughCopy('src/css')
+    .addPassthroughCopy('src/js')
+    .addPassthroughCopy('src/favicon.ico')
+    .addPassthroughCopy('src/.htaccess')
+    .addPassthroughCopy('src/manifest.webmanifest')
 
-  const markdownLib = markdownIt(markdownItOptions).use(markdownItAnchor.default, markdownItAnchorOptions);
-  eleventyConfig.setLibrary("md", markdownLib);
+  const markdownLib = markdownIt(markdownItOptions).use(markdownItAnchor.default, markdownItAnchorOptions)
+  eleventyConfig.setLibrary('md', markdownLib)
 
   // Defines shortcode for generating post excerpts
-  eleventyConfig.addShortcode("excerpt", (post) => extractExcerpt(post));
+  eleventyConfig.addShortcode('excerpt', (post) => extractExcerpt(post))
 
-  // Filter for compressing CSS
-  eleventyConfig.addFilter("resolve_css_imports", resolveCssImports);
-  eleventyConfig.addFilter("minify_css", minifyCss);
-  eleventyConfig.addFilter("minify_js", minifyJs);
+  // Filters for compressing CSS
+  eleventyConfig.addFilter('resolve_css_imports', resolveCssImports)
+  eleventyConfig.addFilter('minify_css', minifyCss)
+  eleventyConfig.addFilter('minify_js', minifyJs)
 
   // Compresses output HTML
-  if (process.env.NODE_ENV === "production") {
-    eleventyConfig.addTransform("minify_html", minifyHtml);
+  if (process.env.NODE_ENV === 'production') {
+    eleventyConfig.addTransform('minify_html', minifyHtml)
   }
 
   return {
     dir: {
-      input: "src",
-      // Make the project directory the includes directory. This allows me to include files from
+      input: 'src',
+      // Makes the project directory the includes directory. This allows me to include files from
       // across the project instead of just a dedicated includes directory.
-      includes: "",
+      includes: '',
     },
-    templateFormats: ["md", "liquid", "html"],
-  };
-};
+    templateFormats: ['md', 'liquid', 'html'],
+  }
+}
 
 /**
- * @param {string} mainCssPath
- * @returns {string}
+ * @param {string} cssPath
+ * @returns {string} the concatenated contents of the CSS files found by resolving `@import` rules in the CSS file at `cssPath`.
  */
-function resolveCssImports(mainCssPath) {
-  const mainCssContent = fs.readFileSync(path.join("src", mainCssPath), "utf8");
-  const importRules = mainCssContent
-    .split("\n")
-    .filter((line) => line.startsWith("@import"));
-  const importPaths = importRules.map((importRule) => {
-    return path.join(
-      "src",
-      importRule.replace(/@import ['"]/, "").replace(/['"];/, "")
-    );
-  });
-
-  let concatenatedCssContent = "";
-  for (const importPath of importPaths) {
-    concatenatedCssContent += fs.readFileSync(importPath, "utf8");
-  }
-
-  return concatenatedCssContent;
+function resolveCssImports(cssPath) {
+  return fs.readFileSync(path.join('src', cssPath), 'utf8')
+    .split('\n')
+    .filter((line) => line.startsWith('@import'))
+    .map((rule) => path.join('src', rule.replace(/@import ['"]/, '').replace(/['"];/, '')))
+    .map((path) => fs.readFileSync(path, 'utf8'))
+    .join('')
 }
 
 /**
@@ -107,19 +95,19 @@ function resolveCssImports(mainCssPath) {
  * @returns {string} the minified CSS content
  */
 function minifyCss(concatenatedCssContent) {
-  const minifyResult = new CleanCSS().minify(concatenatedCssContent);
+  const minifyResult = new CleanCSS().minify(concatenatedCssContent)
 
   if (minifyResult.errors.length > 0) {
-    console.error("❌ Could not minify CSS.");
+    console.error('❌ Could not minify CSS.')
 
     for (const error of minifyResult.errors) {
-      console.error("❌", error);
+      console.error('❌', error)
     }
 
-    return concatenatedCssContent;
+    return concatenatedCssContent
   }
 
-  return minifyResult.styles;
+  return minifyResult.styles
 }
 
 /**
@@ -130,52 +118,57 @@ function minifyCss(concatenatedCssContent) {
  * @returns {string} the minified HTML content
  */
 function minifyHtml(content, outputPath) {
-  if (outputPath.endsWith(".html")) {
-    return htmlMinifier.minify(content, htmlMinifierOptions);
-  }
-
-  return content;
+  return outputPath.endsWith('.html')
+    ? htmlMinifier.minify(content, htmlMinifierOptions)
+    : content
 }
 
 /**
  * Extracts the excerpt from a document.
  *
- * @param {*} doc A real big object full of all sorts of information about a document.
+ * @param {any} doc A real big object full of all sorts of information about a document.
  * @returns {string} the excerpt.
  */
 function extractExcerpt(doc) {
-  if (!doc.hasOwnProperty("templateContent")) {
+  if (!doc.hasOwnProperty('templateContent')) {
     console.warn(
-      "❌ Failed to extract excerpt: Document has no property `templateContent`."
-    );
-    return;
+      '❌ Failed to extract excerpt: Document has no property `templateContent`.'
+    )
+    return ''
   }
 
-  const excerptSeparator = "<!--more-->";
-  const content = doc.templateContent;
+  const excerptSeparator = '<!--more-->'
+  const content = doc.templateContent
 
   if (content.includes(excerptSeparator)) {
-    return content.substring(0, content.indexOf(excerptSeparator)).trim();
+    return content.substring(0, content.indexOf(excerptSeparator)).trim()
   }
 
-  const pCloseTag = "</p>";
-  if (content.includes(pCloseTag)) {
-    return content.substring(0, content.indexOf(pCloseTag) + pCloseTag.length);
-  }
-
-  return content;
+  const pCloseTag = '</p>'
+  return content.includes(pCloseTag)
+    ? content.substring(0, content.indexOf(pCloseTag) + pCloseTag.length)
+    : content
 }
 
+/**
+ * @param {string} content
+ * @returns {Promise<string>}
+ */
 async function minifyJsAsync(content) {
   try {
-    const { minify } = require("terser");
+    const { minify } = require('terser')
     const result = await minify(content)
-    return result.code
+    return result.code ?? ''
   } catch (error) {
-    console.error("❌", error)
+    console.error('❌', error)
+    return ''
   }
 }
 
+/**
+ * @param {string} content
+ * @returns {string}
+ */
 function minifyJs(content) {
   // Eleventy currently doesn’t support asynchronous universal filters.
   return makeSynchronous(minifyJsAsync)(content)
