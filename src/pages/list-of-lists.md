@@ -17,8 +17,8 @@ date: 2022-02-15
   - Martha Wells: [Network Effect](https://www.marthawells.com/networkeffect.htm)
   - Martha Wells: [Fugitive Telemetry](https://www.marthawells.com/murderbot6.htm)
   - Johnjoe McFadden: [Life is Simple: How Occam’s Razor Set Science Free and Shapes the Universe](https://johnjoemcfadden.co.uk/books/life-is-simple-how-occams-razor-set-science-free-and-unlocked-the-universe/)
-  - Rebecca Roanhorse: Black Sun
-  - Rebecca Roanhorse: Fevered Star
+  - Rebecca Roanhorse: [Black Sun](https://rebeccaroanhorse.com/2020/04/10/cover-reveal-for-black-sun/)
+  - Rebecca Roanhorse: [Fevered Star](https://rebeccaroanhorse.com/2022/04/19/fevered-star-is-here/)
   - J.S. Dewes: [The Last Watch](https://www.jsdewes.com/books)
   - Adrian Tchaikovsky: [Shards of Earth](https://www.adriantchaikovsky.com/the-final-architects-series.html#anchor1)
   - Adrian Tchaikovsky: [Eyes of the Void](https://www.adriantchaikovsky.com/the-final-architects-series.html#anchor2)
