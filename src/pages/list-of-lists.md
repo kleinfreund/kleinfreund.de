@@ -1,7 +1,7 @@
 ---
 title: List of lists
 description: "A list of lists of things (well, music) I like."
-date: 2022-02-15
+date: 2022-08-15
 ---
 
 ## 2022
