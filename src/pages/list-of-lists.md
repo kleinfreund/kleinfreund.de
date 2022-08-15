@@ -7,7 +7,23 @@ date: 2022-02-15
 ## 2022
 
 - **Favourite albums** … so far:
+  - Angel Olsen: [Big Time](https://angelolsen.bandcamp.com/album/big-time)
   - Black Country, New Road: [Ants From Up There](https://blackcountrynewroad.bandcamp.com/album/ants-from-up-there)
+- **Books**:
+  - Martha Wells: [All Systems Red](https://www.marthawells.com/murderbot1.htm)
+  - Martha Wells: [Artificial Condition](https://www.marthawells.com/murderbot2.htm)
+  - Martha Wells: [Rogue Protocol](https://www.marthawells.com/murderbot3.htm)
+  - Martha Wells: [Exit Strategy](https://www.marthawells.com/murderbot4.htm)
+  - Martha Wells: [Network Effect](https://www.marthawells.com/networkeffect.htm)
+  - Martha Wells: [Fugitive Telemetry](https://www.marthawells.com/murderbot6.htm)
+  - Johnjoe McFadden: [Life is Simple: How Occam’s Razor Set Science Free and Shapes the Universe](https://johnjoemcfadden.co.uk/books/life-is-simple-how-occams-razor-set-science-free-and-unlocked-the-universe/)
+  - Rebecca Roanhorse: Black Sun
+  - Rebecca Roanhorse: Fevered Star
+  - J.S. Dewes: [The Last Watch](https://www.jsdewes.com/books)
+  - Adrian Tchaikovsky: [Shards of Earth](https://www.adriantchaikovsky.com/the-final-architects-series.html#anchor1)
+  - Adrian Tchaikovsky: [Eyes of the Void](https://www.adriantchaikovsky.com/the-final-architects-series.html#anchor2)
+  - Martha Wells: [Cloud Roads](https://www.marthawells.com/compendium/cloudroads.htm)
+  - Becky Chambers: [A Psalm for the Wild-Built](https://www.otherscribbles.com/#/a-psalm-for-the-wild-built/)
 
 ## 2021
 
