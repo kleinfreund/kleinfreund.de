@@ -29,4 +29,4 @@ Note that the return value isn’t the special value `NaN` but the *string* valu
 
 For some locales (e.g. `"ru"`, `"tk"`), the returned value isn’t “NaN” but rather the translation of the phrase “not a number” (that’s what “<span lang="ru">не число</span>” translates to). I’ve tried this in the latest stable versions of Mozilla Firefox and Google Chrome.
 
-I would’ve preferred for calls to `format` with “it doesn’t look like a number” values to either return `null` or `"NaN"` (consistently) or to throw an error. Then, one would be able to detect whether a string value looks like a JavaScript number. Not that this would be very useful. One can already perform this kind of check using `!Number.isNaN(parseFloat(value))`.
+I would’ve preferred for calls to `format` with “it doesn’t look like a number” values to either return `null` or `"NaN"` (consistently) or to throw an error. Then, one would be able to detect whether a string value looks like a JavaScript number. Not that this would be very useful. One can already perform this kind of check using `!Number.isNaN(Number(value))`.
