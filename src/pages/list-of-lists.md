@@ -17,6 +17,7 @@ date: 2022-08-15
   - Martha Wells: [Network Effect](https://www.marthawells.com/networkeffect.htm)
   - Martha Wells: [Fugitive Telemetry](https://www.marthawells.com/murderbot6.htm)
   - Johnjoe McFadden: [Life is Simple: How Occam’s Razor Set Science Free and Shapes the Universe](https://johnjoemcfadden.co.uk/books/life-is-simple-how-occams-razor-set-science-free-and-unlocked-the-universe/)
+  - Vladimir Nabokov: The Luzhin Defense
   - Rebecca Roanhorse: [Black Sun](https://rebeccaroanhorse.com/2020/04/10/cover-reveal-for-black-sun/)
   - Rebecca Roanhorse: [Fevered Star](https://rebeccaroanhorse.com/2022/04/19/fevered-star-is-here/)
   - J.S. Dewes: [The Last Watch](https://www.jsdewes.com/books)
@@ -24,6 +25,8 @@ date: 2022-08-15
   - Adrian Tchaikovsky: [Eyes of the Void](https://www.adriantchaikovsky.com/the-final-architects-series.html#anchor2)
   - Martha Wells: [Cloud Roads](https://www.marthawells.com/compendium/cloudroads.htm)
   - Becky Chambers: [A Psalm for the Wild-Built](https://www.otherscribbles.com/#/a-psalm-for-the-wild-built/)
+  - Roshani Chokshi: [The Gilded Wolves](https://www.roshanichokshi.com/books/the-gilded-wolves/)
+  - Jane Austen: [Pride & Prejudice](https://www.janeausten.org/pride-and-prejudice/pride-and-prejudice-online.php)
 
 ## 2021
 
