@@ -5,13 +5,14 @@
   "license": "MIT",
   "scripts": {
     "prebuild": "rimraf _site",
-    "build": "NODE_ENV=production eleventy",
+    "build": "cross-env NODE_ENV=production eleventy",
     "prestart": "rimraf _site",
-    "start": "NODE_ENV=development eleventy --serve"
+    "start": "cross-env NODE_ENV=development eleventy --serve"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
     "clean-css": "^5.3.1",
+    "cross-env": "^7.0.3",
     "html-minifier": "^4.0.0",
     "make-synchronous": "^0.1.1",
     "markdown-it": "^13.0.1",
