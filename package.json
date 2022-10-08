@@ -16,8 +16,8 @@
     "html-minifier": "^4.0.0",
     "make-synchronous": "^0.1.1",
     "markdown-it": "^13.0.1",
-    "markdown-it-anchor": "^8.6.4",
+    "markdown-it-anchor": "^8.6.5",
     "rimraf": "^3.0.2",
-    "terser": "^5.15.0"
+    "terser": "^5.15.1"
   }
 }
