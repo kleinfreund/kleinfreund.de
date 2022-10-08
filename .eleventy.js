@@ -80,11 +80,11 @@ module.exports = function (eleventyConfig) {
  * @returns {string} the concatenated contents of the CSS files found by resolving `@import` rules in the CSS file at `cssPath`.
  */
 function resolveCssImports(cssPath) {
-  return fs.readFileSync(path.join('src', cssPath), 'utf8')
-    .split('\n')
+  return fs.readFileSync(path.resolve(__dirname, path.join('src', cssPath)), 'utf8')
+    .split(/\r?\n/)
     .filter((line) => line.startsWith('@import'))
-    .map((rule) => path.join('src', rule.replace(/@import ['"]/, '').replace(/['"];/, '')))
-    .map((path) => fs.readFileSync(path, 'utf8'))
+    .map((rule) => rule.replace(/@import ['"]/, '').replace(/['"];/, ''))
+    .map((importPath) => fs.readFileSync(path.resolve(__dirname, path.join('src', importPath)), 'utf8'))
     .join('')
 }
 
@@ -131,9 +131,7 @@ function minifyHtml(content, outputPath) {
  */
 function extractExcerpt(doc) {
   if (!doc.hasOwnProperty('templateContent')) {
-    console.warn(
-      '❌ Failed to extract excerpt: Document has no property `templateContent`.'
-    )
+    console.warn('❌ Failed to extract excerpt: Document has no property `templateContent`.')
     return ''
   }
 
