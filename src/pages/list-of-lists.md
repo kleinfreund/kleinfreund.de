@@ -1,7 +1,7 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2022-08-29
+date: 2022-10-16
 ---
 
 ## 2022
@@ -20,6 +20,8 @@ date: 2022-08-29
   - Becky Chambers: [A Psalm for the Wild-Built](https://www.otherscribbles.com/#/a-psalm-for-the-wild-built/)
   - Roshani Chokshi: [The Gilded Wolves](https://www.roshanichokshi.com/books/the-gilded-wolves/)
   - Jane Austen: [Pride & Prejudice](https://www.janeausten.org/pride-and-prejudice/pride-and-prejudice-online.php)
+- **Games**:
+  - [The Chronicles of Myrtana: Archolos](https://kronikimyrtany.pl/en)
 
 ## 2021
 
