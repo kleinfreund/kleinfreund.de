@@ -26,9 +26,11 @@ Options +MultiViews
 
 <IfModule mod_mime.c>
 
+  AddType application/atom+xml                        atom
   AddType application/json                            json
   AddType application/javascript                      js
   AddType application/manifest+json                   webmanifest
+  AddType application/xml                             rdf xml
   AddType image/svg+xml                               svg
   AddType application/font-woff2                      woff2
 
