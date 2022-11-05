@@ -23,7 +23,7 @@ permalink: feed.xml
       <link href="{{ absolutePostUrl }}"/>
       <updated>{{ post.date | dateToRfc3339 }}</updated>
       <content xml:lang="en" type="html">
-        {{ post.templateContent | convertHtmlToAbsoluteUrls: absolutePostUrl }}
+        {{ post.templateContent | convertHtmlToAbsoluteUrls: absolutePostUrl | escape }}
       </content>
     </entry>
   {%- endfor %}
