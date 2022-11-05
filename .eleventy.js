@@ -5,6 +5,7 @@ const makeSynchronous = require('make-synchronous')
 const markdownIt = require('markdown-it')
 const markdownItAnchor = require('markdown-it-anchor')
 const path = require('path')
+const pluginRss = require('@11ty/eleventy-plugin-rss')
 
 // https://github.com/kangax/html-minifier#options-quick-reference
 const htmlMinifierOptions = {
@@ -63,6 +64,12 @@ module.exports = function (eleventyConfig) {
   if (process.env.NODE_ENV === 'production') {
     eleventyConfig.addTransform('minify_html', minifyHtml)
   }
+
+  eleventyConfig.addPlugin(pluginRss)
+  eleventyConfig.addFilter('absoluteUrl', pluginRss.absoluteUrl)
+  eleventyConfig.addLiquidFilter('convertHtmlToAbsoluteUrls', pluginRss.convertHtmlToAbsoluteUrls)
+  eleventyConfig.addFilter('dateToRfc3339', pluginRss.dateToRfc3339)
+  eleventyConfig.addFilter('getNewestCollectionItemDate', pluginRss.getNewestCollectionItemDate)
 
   return {
     dir: {
