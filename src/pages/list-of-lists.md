@@ -20,6 +20,7 @@ date: 2022-10-16
   - Becky Chambers: [A Psalm for the Wild-Built](https://www.otherscribbles.com/#/a-psalm-for-the-wild-built/)
   - Roshani Chokshi: [The Gilded Wolves](https://www.roshanichokshi.com/books/the-gilded-wolves/)
   - Jane Austen: [Pride & Prejudice](https://www.janeausten.org/pride-and-prejudice/pride-and-prejudice-online.php)
+  - Philip K. Dick: [Ubik](https://philipdick.com/pkd-and-me/Ubik)
 - **Games**:
   - [The Chronicles of Myrtana: Archolos](https://kronikimyrtany.pl/en)
 
