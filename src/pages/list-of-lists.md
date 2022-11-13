@@ -1,13 +1,14 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2022-10-16
+date: 2022-11-13
 ---
 
 ## 2022
 
 - **Favourite albums** … so far:
   - Angel Olsen: [Big Time](https://angelolsen.bandcamp.com/album/big-time)
+  - Natalia Lafourcade: [De Todas las Flores](https://open.spotify.com/album/4BJoDX0fIjR4RsFF4vyd81)
   - Black Country, New Road: [Ants From Up There](https://blackcountrynewroad.bandcamp.com/album/ants-from-up-there)
 - **Books**:
   - Martha Wells: [All Systems Red](https://www.marthawells.com/murderbot1.htm), [Artificial Condition](https://www.marthawells.com/murderbot2.htm), [Rogue Protocol](https://www.marthawells.com/murderbot3.htm), [Exit Strategy](https://www.marthawells.com/murderbot4.htm), [Network Effect](https://www.marthawells.com/networkeffect.htm), and [Fugitive Telemetry](https://www.marthawells.com/murderbot6.htm)
@@ -21,6 +22,7 @@ date: 2022-10-16
   - Roshani Chokshi: [The Gilded Wolves](https://www.roshanichokshi.com/books/the-gilded-wolves/)
   - Jane Austen: [Pride & Prejudice](https://www.janeausten.org/pride-and-prejudice/pride-and-prejudice-online.php)
   - Philip K. Dick: [Ubik](https://philipdick.com/pkd-and-me/Ubik)
+  - Arkady Martine: [A Memory Called Empire](https://www.arkadymartine.net/books/amce)
 - **Games**:
   - [The Chronicles of Myrtana: Archolos](https://kronikimyrtany.pl/en)
 
