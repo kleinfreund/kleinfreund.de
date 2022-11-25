@@ -1,7 +1,7 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2022-11-13
+date: 2022-11-25
 ---
 
 ## 2022
@@ -15,7 +15,7 @@ date: 2022-11-13
   - Johnjoe McFadden: [Life is Simple: How Occam’s Razor Set Science Free and Shapes the Universe](https://johnjoemcfadden.co.uk/books/life-is-simple-how-occams-razor-set-science-free-and-unlocked-the-universe/)
   - Vladimir Nabokov: The Luzhin Defense
   - Rebecca Roanhorse: [Black Sun](https://rebeccaroanhorse.com/2020/04/10/cover-reveal-for-black-sun/) and [Fevered Star](https://rebeccaroanhorse.com/2022/04/19/fevered-star-is-here/)
-  - J.S. Dewes: [The Last Watch](https://www.jsdewes.com/books) and [The Exiled Fleet](https://www.jsdewes.com/books)
+  - J. S. Dewes: [The Last Watch](https://www.jsdewes.com/books) and [The Exiled Fleet](https://www.jsdewes.com/books)
   - Adrian Tchaikovsky: [Shards of Earth](https://www.adriantchaikovsky.com/the-final-architects-series.html#anchor1) and [Eyes of the Void](https://www.adriantchaikovsky.com/the-final-architects-series.html#anchor2)
   - Martha Wells: [Cloud Roads](https://www.marthawells.com/compendium/cloudroads.htm)
   - Becky Chambers: [A Psalm for the Wild-Built](https://www.otherscribbles.com/#/a-psalm-for-the-wild-built/)
@@ -23,6 +23,7 @@ date: 2022-11-13
   - Jane Austen: [Pride & Prejudice](https://www.janeausten.org/pride-and-prejudice/pride-and-prejudice-online.php)
   - Philip K. Dick: [Ubik](https://philipdick.com/pkd-and-me/Ubik)
   - Arkady Martine: [A Memory Called Empire](https://www.arkadymartine.net/books/amce)
+  - Cixin Liu: Three Body Problem
 - **Games**:
   - [The Chronicles of Myrtana: Archolos](https://kronikimyrtany.pl/en)
 
