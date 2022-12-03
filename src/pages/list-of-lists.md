@@ -1,7 +1,7 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2022-11-25
+date: 2022-12-03
 ---
 
 ## 2022
@@ -23,7 +23,7 @@ date: 2022-11-25
   - Jane Austen: [Pride & Prejudice](https://www.janeausten.org/pride-and-prejudice/pride-and-prejudice-online.php)
   - Philip K. Dick: [Ubik](https://philipdick.com/pkd-and-me/Ubik)
   - Arkady Martine: [A Memory Called Empire](https://www.arkadymartine.net/books/amce)
-  - Cixin Liu: Three Body Problem
+  - Cixin Liu: The Three-Body Problem
 - **Games**:
   - [The Chronicles of Myrtana: Archolos](https://kronikimyrtany.pl/en)
 
