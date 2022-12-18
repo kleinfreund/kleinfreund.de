@@ -91,4 +91,4 @@ dig kleinfreund.de A +short
 
 ---
 
-That’s it for now. I think about also explaining how to setup HTTPS and the mail addresses. Would that be of interest for you? Let me know on [Twitter](https://twitter.com/kleinfreund).
+That’s it for now. I think about also explaining how to setup HTTPS and the mail addresses. Would that be of interest for you? Let me know!

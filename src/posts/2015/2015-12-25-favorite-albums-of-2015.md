@@ -99,4 +99,4 @@ Bachar Mar-Khalifé’s “Ya Balad” is the latest entry of albums making it i
 
 ---
 
-I’d like to know what you listened to thoughout the year. Write me [on Twitter](https://twitter.com/kleinfreund).
+I’d like to know what you listened to thoughout the year. Let me know!

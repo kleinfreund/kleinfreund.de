@@ -65,4 +65,4 @@ And _swoosh_, have five incredibly well-conceived mixes from Stumbleine. The tra
 
 ---
 
-That’s it for the time. More to come. Should I do these short reviews for the older things in my collection as well? [Let me know!](https://twitter.com/kleinfreund)
+That’s it for the time. More to come. Should I do these short reviews for the older things in my collection as well? Let me know!
