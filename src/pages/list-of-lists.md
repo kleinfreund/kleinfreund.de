@@ -1,12 +1,13 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2022-12-03
+date: 2022-12-13
 ---
 
 ## 2022
 
 - **Favourite albums** … so far:
+  - Suede: [Autofiction](https://open.spotify.com/album/6wwmFYghPYQzY9BP7uiZFs)
   - Angel Olsen: [Big Time](https://angelolsen.bandcamp.com/album/big-time)
   - Natalia Lafourcade: [De Todas las Flores](https://open.spotify.com/album/4BJoDX0fIjR4RsFF4vyd81)
   - Black Country, New Road: [Ants From Up There](https://blackcountrynewroad.bandcamp.com/album/ants-from-up-there)
