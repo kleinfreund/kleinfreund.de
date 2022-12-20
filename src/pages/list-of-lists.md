@@ -24,7 +24,7 @@ date: 2022-12-13
   - Jane Austen: [Pride & Prejudice](https://www.janeausten.org/pride-and-prejudice/pride-and-prejudice-online.php)
   - Philip K. Dick: [Ubik](https://philipdick.com/pkd-and-me/Ubik)
   - Arkady Martine: [A Memory Called Empire](https://www.arkadymartine.net/books/amce)
-  - Cixin Liu: The Three-Body Problem
+  - Cixin Liu: The Three-Body Problem, The Dark Forest
 - **Games**:
   - [The Chronicles of Myrtana: Archolos](https://kronikimyrtany.pl/en)
 
