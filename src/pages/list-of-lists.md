@@ -1,16 +1,38 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2022-12-13
+date: 2023-01-04
 ---
+
+## 2023
+
+- **Books**:
+  - Cixin Liu: Death's End
 
 ## 2022
 
-- **Favourite albums** … so far:
-  - Suede: [Autofiction](https://open.spotify.com/album/6wwmFYghPYQzY9BP7uiZFs)
-  - Angel Olsen: [Big Time](https://angelolsen.bandcamp.com/album/big-time)
-  - Natalia Lafourcade: [De Todas las Flores](https://open.spotify.com/album/4BJoDX0fIjR4RsFF4vyd81)
-  - Black Country, New Road: [Ants From Up There](https://blackcountrynewroad.bandcamp.com/album/ants-from-up-there)
+- [**Favourite albums**](/favorite-albums-of-2022):
+  - Ranked:
+    - <!---->10.
+      Angel Olsen: [Big Time](https://angelolsen.bandcamp.com/album/big-time)
+    - <!---->9.
+      Everything Everything: [Raw Data Feel](https://open.spotify.com/album/5EVRkU1hii3VvUFblfexze)
+    - <!---->8.
+      Silvana Estrada: [Marchita](https://open.spotify.com/album/0Y1tsEnH5gN8TEJRQ9xOLi)
+    - <!---->7.
+      Robohands: [Violet](https://open.spotify.com/album/1cUaUc1ZjGRAgu1rltpeN8)
+    - <!---->6.
+      Hatchie: [Giving the World Away](https://hatchie.bandcamp.com/album/giving-the-world-away)
+    - <!---->5.
+      The Comet is Coming: [Hyper-Dimensional Expansion Beam](https://open.spotify.com/album/1XPsJnIVMjOt04rczMWVO4)
+    - <!---->4.
+      Charli XCX: [Crash](https://open.spotify.com/album/1QqipMXWzJhr6yfcNKTp8B)
+    - <!---->3.
+      Suede: [Autofiction](https://open.spotify.com/album/6wwmFYghPYQzY9BP7uiZFs)
+    - <!---->2.
+      Natalia Lafourcade: [De Todas las Flores](https://open.spotify.com/album/4BJoDX0fIjR4RsFF4vyd81)
+    - <!---->1.
+      Black Country, New Road: [Ants From Up There](https://blackcountrynewroad.bandcamp.com/album/ants-from-up-there)
 - **Books**:
   - Martha Wells: [All Systems Red](https://www.marthawells.com/murderbot1.htm), [Artificial Condition](https://www.marthawells.com/murderbot2.htm), [Rogue Protocol](https://www.marthawells.com/murderbot3.htm), [Exit Strategy](https://www.marthawells.com/murderbot4.htm), [Network Effect](https://www.marthawells.com/networkeffect.htm), and [Fugitive Telemetry](https://www.marthawells.com/murderbot6.htm)
   - Johnjoe McFadden: [Life is Simple: How Occam’s Razor Set Science Free and Shapes the Universe](https://johnjoemcfadden.co.uk/books/life-is-simple-how-occams-razor-set-science-free-and-unlocked-the-universe/)
