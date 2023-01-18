@@ -1,7 +1,7 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2023-01-04
+date: 2023-01-18
 ---
 
 ## 2023
@@ -12,6 +12,10 @@ date: 2023-01-04
 ## 2022
 
 - [**Favourite albums**](/favorite-albums-of-2022):
+  - Honorable mentions:
+    - Sudan Archives: [Natural Brown Prom Queen](https://sudanarchives.bandcamp.com/album/natural-brown-prom-queen)
+    - Fontaines D.C.: [Skinty Fia](https://fontainesdc.bandcamp.com/album/skinty-fia)
+    - Jasmine Myra: [Horizons](https://jasminemyra.bandcamp.com/album/horizons)
   - Ranked:
     - <!---->10.
       Angel Olsen: [Big Time](https://angelolsen.bandcamp.com/album/big-time)
