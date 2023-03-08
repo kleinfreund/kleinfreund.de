@@ -1,34 +1,39 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2023-01-18
+date: 2023-03-08
 ---
 
 ## 2023
 
+- **Favourite albums** … so far:
+  - Caroline Polacheck: [Desire, I Want to Turn Into You](https://open.spotify.com/album/22PkV1Le9P3X4RY4xtmK0q)
 - **Books**:
   - Cixin Liu: Death's End
+  - Andy Weir: [Project Hail Mary](https://andyweirauthor.com/#project-hail-mary)
+  - Arkady Martine: [A Desolation Called Peace](https://www.arkadymartine.net/books/adcp)
+  - Adrian Tchaikovsky: [Children of Time](https://www.adriantchaikovsky.com/children-of-time-children-of-ruin-children-of-memory.html)
 
 ## 2022
 
 - [**Favourite albums**](/favorite-albums-of-2022):
   - Honorable mentions:
-    - Sudan Archives: [Natural Brown Prom Queen](https://sudanarchives.bandcamp.com/album/natural-brown-prom-queen)
-    - Fontaines D.C.: [Skinty Fia](https://fontainesdc.bandcamp.com/album/skinty-fia)
+    - Angel Olsen: [Big Time](https://angelolsen.bandcamp.com/album/big-time)
+    - Everything Everything: [Raw Data Feel](https://open.spotify.com/album/5EVRkU1hii3VvUFblfexze)
     - Jasmine Myra: [Horizons](https://jasminemyra.bandcamp.com/album/horizons)
   - Ranked:
     - <!---->10.
-      Angel Olsen: [Big Time](https://angelolsen.bandcamp.com/album/big-time)
+      Sudan Archives: [Natural Brown Prom Queen](https://sudanarchives.bandcamp.com/album/natural-brown-prom-queen)
     - <!---->9.
-      Everything Everything: [Raw Data Feel](https://open.spotify.com/album/5EVRkU1hii3VvUFblfexze)
-    - <!---->8.
       Silvana Estrada: [Marchita](https://open.spotify.com/album/0Y1tsEnH5gN8TEJRQ9xOLi)
-    - <!---->7.
+    - <!---->8.
       Robohands: [Violet](https://open.spotify.com/album/1cUaUc1ZjGRAgu1rltpeN8)
-    - <!---->6.
+    - <!---->7.
       Hatchie: [Giving the World Away](https://hatchie.bandcamp.com/album/giving-the-world-away)
-    - <!---->5.
+    - <!---->6.
       The Comet is Coming: [Hyper-Dimensional Expansion Beam](https://open.spotify.com/album/1XPsJnIVMjOt04rczMWVO4)
+    - <!---->5.
+      Fontaines D.C.: [Skinty Fia](https://fontainesdc.bandcamp.com/album/skinty-fia)
     - <!---->4.
       Charli XCX: [Crash](https://open.spotify.com/album/1QqipMXWzJhr6yfcNKTp8B)
     - <!---->3.
