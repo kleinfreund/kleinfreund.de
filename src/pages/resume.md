@@ -1,7 +1,7 @@
 ---
 title: Résumé
 description: The résumé of Philipp Rudloff, a front-end developer living in Eindhoven, Netherlands.
-date: 2022-08-02
+date: 2023-03-09
 css:
 - components.entry.css
 ---
@@ -31,7 +31,7 @@ I build websites and web applications with reliable user and developer interface
 - **Senior software engineer (frontend)**<br>
   Aug 2022 – Present<span data-start-date="2022-08-02"></span>
 
-In August, I’ve joined Kong to work on Kong Mesh.
+At Kong, I’m responsible for the general maintenance and development of the UI application that is part of the Kuma and Kong Mesh products (on-premise software). As part of this, I managed the migration from Vue.js version 2 to 3. I’ve also set-up several pieces of continuous integration-based automation that range from application testing to preparing the UI application for release. Now I’m involved in developing Mesh in Konnect as part of Kong’s Konnect product (SaaS software). In short, I’m involved in all front-end development activities surrounding Kong’s service mesh offering.
 
 Technologies: HTML, CSS, JavaScript (Vue.js)
 
