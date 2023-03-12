@@ -7,19 +7,31 @@ const markdownItAnchor = require('markdown-it-anchor')
 const path = require('path')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 
-// https://github.com/kangax/html-minifier#options-quick-reference
+/**
+ * https://github.com/kangax/html-minifier#options-quick-reference
+ *
+ * @type {import('html-minifier').Options}
+ */
 const htmlMinifierOptions = {
   useShortDoctype: true,
   removeComments: true,
   collapseWhitespace: true,
 }
 
-// https://github.com/markdown-it/markdown-it#init-with-presets-and-options
+/**
+ * https://github.com/markdown-it/markdown-it#init-with-presets-and-options
+ *
+ * @type {import('markdown-it').Options}
+ */
 const markdownItOptions = {
   html: true,
 }
 
-// https://github.com/valeriangalliat/markdown-it-anchor#usage
+/**
+ * https://github.com/valeriangalliat/markdown-it-anchor#usage
+ *
+ * @type {import('markdown-it-anchor').default.AnchorOptions}
+ */
 const markdownItAnchorOptions = {
   permalink: markdownItAnchor.default.permalink.linkInsideHeader({
     symbol: `
