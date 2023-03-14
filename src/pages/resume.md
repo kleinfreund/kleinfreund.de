@@ -112,3 +112,16 @@ If you’re looking for the list of buzzwords to check off of your list: HTML, C
 ## Open source contributions
 
 A selection of publicly recorded contributions to open source software: [Kuma](https://github.com/pulls?q=is%3Aclosed+is%3Apr+archived%3Afalse+user%3Akumahq+author%3Akleinfreund), [Vue.js](https://github.com/vuejs/vue-next/pulls?q=is%3Apr+author%3Akleinfreund), [vue-i18n-extract](https://github.com/Spittal/vue-i18n-extract/pulls?q=is%3Apr+author%3Akleinfreund), [Eleventy](https://github.com/11ty/eleventy/pulls?q=is:pr+author:kleinfreund), [electric-io](https://github.com/noopkat/electric-io/pulls?q=is:pr+author:kleinfreund), [WAI-ARIA Authoring Practices](https://github.com/w3c/aria-practices/pulls?q=is%3Apr+author%3Akleinfreund), [Discourse](https://github.com/discourse/discourse/pulls?q=is%3Apr+author%3Akleinfreund), [Sublime Text Packages](https://github.com/sublimehq/Packages/pulls?q=is%3Apr+author%3Akleinfreund), [Jekyll](https://github.com/jekyll/jekyll/pulls?q=is%3Apr+author%3Akleinfreund), [Clementine](https://github.com/clementine-player/Clementine/pulls?q=is%3Apr+author%3Akleinfreund), …
+
+## Salary history
+
+| From     | Company   | Title                      | Salary (gross, annual) |
+|---------:|-----------|----------------------------|-----------------------:|
+| Jul 2019 | Sendcloud | Front-end Developer        | 44,064 €               |
+| Jan 2020 | Sendcloud | Front-end Developer        | 47,330 €               |
+| Jul 2020 | Sendcloud | Front-end Developer        | 49,689 €               |
+| Jan 2021 | Sendcloud | Senior Front-end Developer | 63,504 €               |
+| Jul 2021 | Sendcloud | Senior Front-end Developer | 67,392 €               |
+| Jan 2022 | Sendcloud | Senior Front-end Developer | 73,872 €               |
+| Apr 2022 | Sendcloud | Senior Front-end Developer | 85,536 €               |
+| Aug 2022 | Kong      | Senior Software Engineer   | 115,000 €              |

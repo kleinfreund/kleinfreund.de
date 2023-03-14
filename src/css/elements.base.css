@@ -159,9 +159,16 @@ figcaption {
 * TABLES
 */
 
+thead tr {
+  border-bottom: 2px solid var(--c-interactive);
+}
+
+tbody tr:not(:last-child) {
+  border-bottom: 2px dotted var(--c-interactive);
+}
+
 th,
 td {
-  border: 1px solid;
   padding: 0.2em 0.4em;
 }
 
