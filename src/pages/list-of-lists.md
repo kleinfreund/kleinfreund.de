@@ -1,19 +1,21 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2023-03-12
+date: 2023-04-16
 ---
 
 ## 2023
 
 - **Favourite albums** … so far:
+  - Altin Gün: [A​ş​k](https://altingun.bandcamp.com/album/a-k)
   - Caroline Polacheck: [Desire, I Want to Turn Into You](https://open.spotify.com/album/22PkV1Le9P3X4RY4xtmK0q)
   - Kali Uchis: [Red Moon in Venus](https://open.spotify.com/album/5OZ44LaqZbpP3m9B3oT8br)
 - **Books**:
-  - Cixin Liu: Death's End
+  - Cixin Liu: Death’s End
   - Andy Weir: [Project Hail Mary](https://andyweirauthor.com/#project-hail-mary)
   - Arkady Martine: [A Desolation Called Peace](https://www.arkadymartine.net/books/adcp)
   - Adrian Tchaikovsky: [Children of Time](https://www.adriantchaikovsky.com/children-of-time-children-of-ruin-children-of-memory.html), [Children of Ruin](https://www.adriantchaikovsky.com/children-of-time-children-of-ruin-children-of-memory.html)
+  - Megan E. O’Keefe: [Velocity Weapon](https://www.meganokeefe.com/books)
 
 ## 2022
 
