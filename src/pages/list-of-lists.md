@@ -1,7 +1,7 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2023-04-25
+date: 2023-05-04
 ---
 
 ## 2023
@@ -15,8 +15,9 @@ date: 2023-04-25
   - Andy Weir: [Project Hail Mary](https://andyweirauthor.com/#project-hail-mary)
   - Arkady Martine: [A Desolation Called Peace](https://www.arkadymartine.net/books/adcp)
   - Adrian Tchaikovsky: [Children of Time](https://www.adriantchaikovsky.com/children-of-time-children-of-ruin-children-of-memory.html), [Children of Ruin](https://www.adriantchaikovsky.com/children-of-time-children-of-ruin-children-of-memory.html)
-  - Megan E. O’Keefe: [Velocity Weapon](https://www.meganokeefe.com/books)
+  - Megan E. O’Keefe: [Velocity Weapon](https://www.meganokeefe.com/books), [Chaos Vector](https://www.meganokeefe.com/books)
   - Kazuo Ishiguro: Klara und die Sonne
+  - Becky Chambers: [A Prayer for the Crown-Shy](https://www.otherscribbles.com/#/a-prayer-for-the-crown-shy/)
 
 ## 2022
 
