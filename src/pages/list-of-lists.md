@@ -1,12 +1,13 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2023-05-04
+date: 2023-05-07
 ---
 
 ## 2023
 
 - **Favourite albums** … so far:
+  - Jessie Ware: [That! Feels Good](https://jessieware.bandcamp.com/album/that-feels-good)
   - Altin Gün: [A​ş​k](https://altingun.bandcamp.com/album/a-k)
   - Caroline Polacheck: [Desire, I Want to Turn Into You](https://carolinepolachek.bandcamp.com/album/desire-i-want-to-turn-into-you)
   - Kali Uchis: [Red Moon in Venus](https://open.spotify.com/album/5OZ44LaqZbpP3m9B3oT8br)
