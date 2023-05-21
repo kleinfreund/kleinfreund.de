@@ -1,7 +1,7 @@
 ---
 title: Résumé
 description: The résumé of Philipp Rudloff, a front-end developer living in Eindhoven, Netherlands.
-date: 2023-03-09
+date: 2023-05-21
 css:
 - components.entry.css
 ---
@@ -89,7 +89,7 @@ I have experience in most areas of the front-end development landscape and am co
 - Writing technical and non-technical documentation for these interfaces and systems
 - Managing and maintaining localization systems
 
-If you’re looking for the list of buzzwords to check off of your list: HTML, CSS, JavaScript, Vue.js, TypeScript, git, package publishing, [OpenAPI](https://swagger.io/docs/specification/about), [Phrase](https://phrase.com), [Eleventy](https://11ty.io), and those I intentionally or unintentionally forgot to remember.
+If you’re looking for the list of buzzwords to check off of your list: HTML, CSS, JavaScript, Vue.js, TypeScript, git, package publishing, [OpenAPI](https://swagger.io/docs/specification/about), [Phrase](https://phrase.com), [Eleventy](https://11ty.io), and those I, intentionally or unintentionally, forgot to remember.
 
 ## Projects
 
@@ -111,7 +111,7 @@ If you’re looking for the list of buzzwords to check off of your list: HTML, C
 
 ## Open source contributions
 
-A selection of publicly recorded contributions to open source software: [Kuma](https://github.com/pulls?q=is%3Aclosed+is%3Apr+archived%3Afalse+user%3Akumahq+author%3Akleinfreund), [Vue.js](https://github.com/vuejs/vue-next/pulls?q=is%3Apr+author%3Akleinfreund), [vue-i18n-extract](https://github.com/Spittal/vue-i18n-extract/pulls?q=is%3Apr+author%3Akleinfreund), [Eleventy](https://github.com/11ty/eleventy/pulls?q=is:pr+author:kleinfreund), [electric-io](https://github.com/noopkat/electric-io/pulls?q=is:pr+author:kleinfreund), [WAI-ARIA Authoring Practices](https://github.com/w3c/aria-practices/pulls?q=is%3Apr+author%3Akleinfreund), [Discourse](https://github.com/discourse/discourse/pulls?q=is%3Apr+author%3Akleinfreund), [Sublime Text Packages](https://github.com/sublimehq/Packages/pulls?q=is%3Apr+author%3Akleinfreund), [Jekyll](https://github.com/jekyll/jekyll/pulls?q=is%3Apr+author%3Akleinfreund), [Clementine](https://github.com/clementine-player/Clementine/pulls?q=is%3Apr+author%3Akleinfreund), …
+A selection of publicly recorded contributions to open source software: [Kuma](https://github.com/pulls?q=is%3Aclosed+is%3Apr+archived%3Afalse+user%3Akumahq+author%3Akleinfreund), [Vue.js](https://github.com/vuejs/vue-next/pulls?q=is%3Apr+author%3Akleinfreund), [vue-i18n-extract](https://github.com/Spittal/vue-i18n-extract/pulls?q=is%3Apr+author%3Akleinfreund), [Eleventy](https://github.com/11ty/eleventy/pulls?q=is:pr+author:kleinfreund), [Discourse](https://github.com/discourse/discourse/pulls?q=is%3Apr+author%3Akleinfreund), [Sublime Text Packages](https://github.com/sublimehq/Packages/pulls?q=is%3Apr+author%3Akleinfreund), [Jekyll](https://github.com/jekyll/jekyll/pulls?q=is%3Apr+author%3Akleinfreund), [Clementine](https://github.com/clementine-player/Clementine/pulls?q=is%3Apr+author%3Akleinfreund), …
 
 ## Salary history
 
