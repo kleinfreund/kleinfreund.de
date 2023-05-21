@@ -31,7 +31,9 @@ I build websites and web applications with reliable user and developer interface
 - **Senior software engineer (frontend)**<br>
   Aug 2022 – Present<span data-start-date="2022-08-02"></span>
 
-At Kong, I’m responsible for the general maintenance and development of the UI application that is part of the Kuma and Kong Mesh products (on-premise software). As part of this, I managed the migration from Vue.js version 2 to 3. I’ve also set-up several pieces of continuous integration-based automation that range from application testing to preparing the UI application for release. Now I’m involved in developing Mesh in Konnect as part of Kong’s Konnect product (SaaS software). In short, I’m involved in all front-end development activities surrounding Kong’s service mesh offering.
+At Kong, I’m responsible for the general maintenance and development of the UI application that is part of the Kuma and Kong Mesh products (on-premise software). As part of this, I managed the migration from Vue.js version 2 to 3. I’ve also set-up several pieces of continuous integration-based automation that range from application testing to preparing the UI application for release.
+
+Currently I’m involved in developing Mesh in Konnect as part of Kong’s Konnect product (SaaS software). In short, I’m involved in all front-end development activities surrounding Kong’s service mesh offering.
 
 Technologies: HTML, CSS, JavaScript (Vue.js)
 
@@ -42,7 +44,7 @@ Technologies: HTML, CSS, JavaScript (Vue.js)
 </div>
 
 - **Senior front-end developer**<br>
-  Jan 2021 – July 2022 · 1 year, 7 months
+  Jan 2021 – Jul 2022 · 1 year, 7 months
 
 - **Front-end developer**<br>
   Jul 2019 – Dec 2020 · 1 year, 6 months
@@ -51,7 +53,7 @@ At Sendcloud, I worked in several teams on all frontend-related aspects of the p
 
 I heavily contributed to planning and finalizing the multi-year effort of migrating the platform’s main frontend to a Vue.js-powered application.
 
-Now, I’m part of the development department’s checkout team. There, I was a core contributor to establishing the foundation for a new system of features that deeply integrates with various e-commerce platforms. I’m developing the third party script responsible for rendering a custom shipping method UI in a merchant’s shop. I’m also responsible for writing the public technical documentation, designing APIs, and maintaining related legacy systems.
+Then, I was part of the checkout team where I was a core contributor to establishing the foundation for a new system of features that deeply integrates with various e-commerce platforms. I’ve developing the third party script responsible for rendering a custom shipping method UI in a merchant’s shop. I was also responsible for writing the public technical documentation, designing APIs, and maintaining related legacy systems.
 
 Technologies: HTML, CSS, JavaScript (Vue.js)
 
