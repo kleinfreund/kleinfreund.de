@@ -1,7 +1,7 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2023-05-18
+date: 2023-06-03
 ---
 
 ## 2023
@@ -19,6 +19,7 @@ date: 2023-05-18
   - Megan E. O’Keefe: [Velocity Weapon](https://www.meganokeefe.com/books), [Chaos Vector](https://www.meganokeefe.com/books), [Catalyst Gate](https://www.meganokeefe.com/books)
   - Kazuo Ishiguro: Klara und die Sonne
   - Becky Chambers: [A Prayer for the Crown-Shy](https://www.otherscribbles.com/#/a-prayer-for-the-crown-shy/)
+  - Sarah J. Maas: [A Court of Thorns and Roses](https://sarahjmaas.com/books/a-court-of-thorns-and-roses-series/)
 
 ## 2022
 
