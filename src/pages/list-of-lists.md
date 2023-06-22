@@ -1,7 +1,7 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2023-06-07
+date: 2023-06-22
 ---
 
 ## 2023
@@ -20,6 +20,7 @@ date: 2023-06-07
   - Kazuo Ishiguro: Klara und die Sonne
   - Becky Chambers: [A Prayer for the Crown-Shy](https://www.otherscribbles.com/#/a-prayer-for-the-crown-shy/)
   - Sarah J. Maas: [A Court of Thorns and Roses](https://sarahjmaas.com/books/a-court-of-thorns-and-roses-series/a-court-of-thorns-and-roses/), [A Court of Mist and Fury](https://sarahjmaas.com/books/a-court-of-thorns-and-roses-series/a-court-of-mist-and-fury/)
+  - Adrian Tchaikovsky: [Dogs of War](https://www.adriantchaikovsky.com/dogs-of-war-series.html) and [Bear Head](https://www.adriantchaikovsky.com/dogs-of-war-series.html)
 
 ## 2022
 
@@ -55,7 +56,7 @@ date: 2023-06-07
   - Vladimir Nabokov: The Luzhin Defense
   - Rebecca Roanhorse: [Black Sun](https://rebeccaroanhorse.com/2020/04/10/cover-reveal-for-black-sun/) and [Fevered Star](https://rebeccaroanhorse.com/2022/04/19/fevered-star-is-here/)
   - J. S. Dewes: [The Last Watch](https://www.jsdewes.com/books) and [The Exiled Fleet](https://www.jsdewes.com/books)
-  - Adrian Tchaikovsky: [Shards of Earth](https://www.adriantchaikovsky.com/the-final-architects-series.html#anchor1) and [Eyes of the Void](https://www.adriantchaikovsky.com/the-final-architects-series.html#anchor2)
+  - Adrian Tchaikovsky: [Shards of Earth](https://www.adriantchaikovsky.com/the-final-architects-shards-of-earth-eyes-of-the-voice-by-adrian-tchaikovsky.html) and [Eyes of the Void](https://www.adriantchaikovsky.com/the-final-architects-shards-of-earth-eyes-of-the-voice-by-adrian-tchaikovsky.html)
   - Martha Wells: [Cloud Roads](https://www.marthawells.com/compendium/cloudroads.htm)
   - Becky Chambers: [A Psalm for the Wild-Built](https://www.otherscribbles.com/#/a-psalm-for-the-wild-built/)
   - Roshani Chokshi: [The Gilded Wolves](https://www.roshanichokshi.com/books/the-gilded-wolves/)
