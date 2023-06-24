@@ -1,7 +1,7 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2023-06-22
+date: 2023-06-24
 ---
 
 ## 2023
@@ -21,6 +21,9 @@ date: 2023-06-22
   - Becky Chambers: [A Prayer for the Crown-Shy](https://www.otherscribbles.com/#/a-prayer-for-the-crown-shy/)
   - Sarah J. Maas: [A Court of Thorns and Roses](https://sarahjmaas.com/books/a-court-of-thorns-and-roses-series/a-court-of-thorns-and-roses/), [A Court of Mist and Fury](https://sarahjmaas.com/books/a-court-of-thorns-and-roses-series/a-court-of-mist-and-fury/)
   - Adrian Tchaikovsky: [Dogs of War](https://www.adriantchaikovsky.com/dogs-of-war-series.html) and [Bear Head](https://www.adriantchaikovsky.com/dogs-of-war-series.html)
+  <!-- - Terry Pratchett: [Guards! Guards!](https://www.terrypratchettbooks.com/books/guards-guards/) -->
+  <!-- - Ursula K. Le Guin: [The Dispossessed](https://www.ursulakleguin.com/dispossessed) -->
+  <!-- - James S. A. Corey: [Leviathan Wakes](https://www.jamessacorey.com/books/leviathan-wakes/) -->
 
 ## 2022
 
