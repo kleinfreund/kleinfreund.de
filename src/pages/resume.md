@@ -1,7 +1,7 @@
 ---
 title: Résumé
 description: The résumé of Philipp Rudloff, a front-end developer living in Eindhoven, Netherlands.
-date: 2023-05-21
+date: 2023-07-25
 css:
 - components.entry.css
 ---
@@ -95,21 +95,21 @@ If you’re looking for the list of buzzwords to check off of your list: HTML, C
 
 ## Projects
 
-- [**vue-accessible-color-picker**](https://npmjs.com/package/vue-accessible-color-picker):
+- [**retrieve**](https://npmjs.com/package/poll):
 
-  A fully-featured color picker component for Vue.js 3.
+  Convenience wrapper around `fetch` for the browser
 
 - [**poll**](https://npmjs.com/package/poll):
 
   Lightweight polling utility.
 
+- [**yet-another-color-picker**](https://npmjs.com/package/yet-another-color-picker):
+
+  Fully-featured color picker web component
+
 - [**reverse-iterable-map**](https://npmjs.com/package/reverse-iterable-map) / [**set**](https://npmjs.com/package/reverse-iterable-set) / [**array**](https://npmjs.com/package/reverse-iterable-array):
 
-  Forwards _and_ backwards iterable map/set/array implementations.
-
-- [**get-reverse-iterating-array**](https://npmjs.com/package/get-reverse-iterating-array):
-
-  Proxy for reversing the iteration direction of built-in `Array` objects.
+  Forwards _and_ backwards iterable map/set/array implementations
 
 ## Open source contributions
 
