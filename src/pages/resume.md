@@ -95,21 +95,13 @@ If you’re looking for the list of buzzwords to check off of your list: HTML, C
 
 ## Projects
 
-- [**retrieve**](https://npmjs.com/package/retrieve):
+- [**retrieve**](https://npmjs.com/package/retrieve): Convenience wrapper around `fetch` for the browser
 
-  Convenience wrapper around `fetch` for the browser
+- [**poll**](https://npmjs.com/package/poll): Lightweight polling utility.
 
-- [**poll**](https://npmjs.com/package/poll):
+- [**yet-another-color-picker**](https://npmjs.com/package/yet-another-color-picker): Fully-featured color picker web component
 
-  Lightweight polling utility.
-
-- [**yet-another-color-picker**](https://npmjs.com/package/yet-another-color-picker):
-
-  Fully-featured color picker web component
-
-- [**reverse-iterable-map**](https://npmjs.com/package/reverse-iterable-map) / [**set**](https://npmjs.com/package/reverse-iterable-set) / [**array**](https://npmjs.com/package/reverse-iterable-array):
-
-  Forwards _and_ backwards iterable map/set/array implementations
+- [**reverse-iterable-map**](https://npmjs.com/package/reverse-iterable-map) / [**set**](https://npmjs.com/package/reverse-iterable-set) / [**array**](https://npmjs.com/package/reverse-iterable-array): Forwards _and_ backwards iterable map/set/array implementations
 
 ## Open source contributions
 
