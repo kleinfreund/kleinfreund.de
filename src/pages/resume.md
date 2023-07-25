@@ -95,7 +95,7 @@ If you’re looking for the list of buzzwords to check off of your list: HTML, C
 
 ## Projects
 
-- [**retrieve**](https://npmjs.com/package/poll):
+- [**retrieve**](https://npmjs.com/package/retrieve):
 
   Convenience wrapper around `fetch` for the browser
 
