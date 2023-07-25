@@ -105,4 +105,9 @@ If you’re looking for the list of buzzwords to check off of your list: HTML, C
 
 ## Open source contributions
 
+<blockquote>
+  <p>why haven’t you put inventor of the <i>[Eleventy]</i> Data Cascade on your resume yet</p>
+  <cite><a href="https://mastodon.social/@zachleat@zachleat.com/110775751322149505">Zach Leatherman</a>, creator of Eleventy</cite>
+</blockquote>
+
 A selection of publicly recorded contributions to open source software: [Kuma](https://github.com/pulls?q=is%3Aclosed+is%3Apr+archived%3Afalse+user%3Akumahq+author%3Akleinfreund), [Vue.js](https://github.com/vuejs/vue-next/pulls?q=is%3Apr+author%3Akleinfreund), [vue-i18n-extract](https://github.com/Spittal/vue-i18n-extract/pulls?q=is%3Apr+author%3Akleinfreund), [Eleventy](https://github.com/11ty/eleventy/pulls?q=is:pr+author:kleinfreund), [Discourse](https://github.com/discourse/discourse/pulls?q=is%3Apr+author%3Akleinfreund), [Sublime Text Packages](https://github.com/sublimehq/Packages/pulls?q=is%3Apr+author%3Akleinfreund), [Jekyll](https://github.com/jekyll/jekyll/pulls?q=is%3Apr+author%3Akleinfreund), [Clementine](https://github.com/clementine-player/Clementine/pulls?q=is%3Apr+author%3Akleinfreund), …
