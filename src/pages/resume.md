@@ -91,7 +91,7 @@ I have experience in most areas of the front-end development landscape and am co
 - Writing technical and non-technical documentation for these interfaces and systems
 - Managing and maintaining localization systems
 
-If you’re looking for the list of buzzwords to check off of your list: HTML, CSS, JavaScript, Vue.js, TypeScript, git, package publishing, [OpenAPI](https://swagger.io/docs/specification/about), [Phrase](https://phrase.com), [Eleventy](https://11ty.io), and those I, intentionally or unintentionally, forgot to remember.
+If you’re looking for the list of buzzwords to check off of your list: HTML, CSS, JavaScript, Vue.js, TypeScript, git, package publishing, [OpenAPI](https://swagger.io/docs/specification/about), [Phrase](https://phrase.com), [Eleventy](https://www.11ty.dev/), and those I, intentionally or unintentionally, forgot to remember.
 
 ## Projects
 
