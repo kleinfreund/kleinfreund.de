@@ -1,7 +1,7 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2023-07-17
+date: 2023-07-30
 ---
 
 ## 2023
@@ -23,7 +23,7 @@ date: 2023-07-17
   - Adrian Tchaikovsky: [Dogs of War](https://www.adriantchaikovsky.com/dogs-of-war-series.html) and [Bear Head](https://www.adriantchaikovsky.com/dogs-of-war-series.html)
   - Ursula K. Le Guin: [The Dispossessed](https://www.ursulakleguin.com/dispossessed)
   - Terry Pratchett: [Guards! Guards!](https://www.terrypratchettbooks.com/books/guards-guards/)
-  <!-- - James S. A. Corey: [Leviathan Wakes](https://www.jamessacorey.com/books/leviathan-wakes/) -->
+  - James S. A. Corey: [Leviathan Wakes](https://www.jamessacorey.com/books/leviathan-wakes/)
 
 ## 2022
 
