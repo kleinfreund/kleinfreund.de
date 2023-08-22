@@ -1,7 +1,7 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2023-08-05
+date: 2023-08-22
 ---
 
 ## 2023
@@ -20,10 +20,10 @@ date: 2023-08-05
   - Kazuo Ishiguro: Klara und die Sonne
   - Becky Chambers: [A Prayer for the Crown-Shy](https://www.otherscribbles.com/#/a-prayer-for-the-crown-shy/)
   - Sarah J. Maas: [A Court of Thorns and Roses](https://sarahjmaas.com/books/a-court-of-thorns-and-roses-series/a-court-of-thorns-and-roses/), [A Court of Mist and Fury](https://sarahjmaas.com/books/a-court-of-thorns-and-roses-series/a-court-of-mist-and-fury/)
-  - Adrian Tchaikovsky: [Dogs of War](https://www.adriantchaikovsky.com/dogs-of-war-series.html) and [Bear Head](https://www.adriantchaikovsky.com/dogs-of-war-series.html)
+  - Adrian Tchaikovsky: [Dogs of War](https://www.adriantchaikovsky.com/dogs-of-war-series.html), [Bear Head](https://www.adriantchaikovsky.com/dogs-of-war-series.html)
   - Ursula K. Le Guin: [The Dispossessed](https://www.ursulakleguin.com/dispossessed)
   - Terry Pratchett: [Guards! Guards!](https://www.terrypratchettbooks.com/books/guards-guards/)
-  - James S. A. Corey: [Leviathan Wakes](https://www.jamessacorey.com/books/leviathan-wakes/), [Caliban’s War](https://www.jamessacorey.com/books/calibans-war/)
+  - James S. A. Corey: [Leviathan Wakes](https://www.jamessacorey.com/books/leviathan-wakes/), [Caliban’s War](https://www.jamessacorey.com/books/calibans-war/), [Abaddon’s Gate](https://www.jamessacorey.com/books/abaddons-gate/)
 
 ## 2022
 
