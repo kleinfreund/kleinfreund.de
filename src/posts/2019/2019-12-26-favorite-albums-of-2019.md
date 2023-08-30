@@ -37,7 +37,7 @@ As with the previous years, 2019 was packed full with interesting new music. As 
 
 ## 7.
 
-**Spellling**<br>
+**SPELLLING**<br>
 [Mazy Fly](https://spellling.bandcamp.com/album/mazy-fly)
 
 ## 6.

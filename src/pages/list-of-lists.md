@@ -1,12 +1,14 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2023-08-22
+date: 2023-08-30
 ---
 
 ## 2023
 
 - **Favourite albums** … so far:
+  - SPELLLING: [SPELLLING & The Myster School](https://spellling.bandcamp.com/album/spellling-the-mystery-school)
+  - Laura Groves: [Radio Red](https://lauragroves.bandcamp.com/album/radio-red)
   - Jessie Ware: [That! Feels Good](https://jessieware.bandcamp.com/album/that-feels-good)
   - Altin Gün: [A​ş​k](https://altingun.bandcamp.com/album/a-k)
   - Caroline Polacheck: [Desire, I Want to Turn Into You](https://carolinepolachek.bandcamp.com/album/desire-i-want-to-turn-into-you)
@@ -105,7 +107,7 @@ date: 2023-08-22
     - <!---->4.
       Black Country, New Road: [For the first time](https://blackcountrynewroad.bandcamp.com/album/for-the-first-time)
     - <!---->3.
-      Spellling: [The Turning Wheel](https://spellling.bandcamp.com/album/the-turning-wheel)
+      SPELLLING: [The Turning Wheel](https://spellling.bandcamp.com/album/the-turning-wheel)
     - <!---->2.
       Squid: [Bright Green Field](https://squiduk.bandcamp.com/album/bright-green-field)
     - <!---->1.
@@ -161,7 +163,7 @@ date: 2023-08-22
     - <!---->8.
       Angel Olsen: [Mirrors](https://angelolsen.bandcamp.com/album/all-mirrors)
     - <!---->7.
-      Spellling: [Mazy Fly](https://spellling.bandcamp.com/album/mazy-fly)
+      SPELLLING: [Mazy Fly](https://spellling.bandcamp.com/album/mazy-fly)
     - <!---->6.
       The Comet is Coming: [Trust in the Lifeforce of the Deep Mystery](https://open.spotify.com/album/2mvz0NPBCPTbSEgRViuDLK)
     - <!---->5.
