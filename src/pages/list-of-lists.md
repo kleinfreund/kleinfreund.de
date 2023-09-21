@@ -1,12 +1,13 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2023-08-30
+date: 2023-09-21
 ---
 
 ## 2023
 
 - **Favourite albums** … so far:
+  - Mitski: [The Land Is Inhospitable and So Are We](https://mitski.bandcamp.com/album/the-land-is-inhospitable-and-so-are-we)
   - SPELLLING: [SPELLLING & The Myster School](https://spellling.bandcamp.com/album/spellling-the-mystery-school)
   - Laura Groves: [Radio Red](https://lauragroves.bandcamp.com/album/radio-red)
   - Jessie Ware: [That! Feels Good](https://jessieware.bandcamp.com/album/that-feels-good)
@@ -25,7 +26,7 @@ date: 2023-08-30
   - Adrian Tchaikovsky: [Dogs of War](https://www.adriantchaikovsky.com/dogs-of-war-series.html), [Bear Head](https://www.adriantchaikovsky.com/dogs-of-war-series.html)
   - Ursula K. Le Guin: [The Dispossessed](https://www.ursulakleguin.com/dispossessed)
   - Terry Pratchett: [Guards! Guards!](https://www.terrypratchettbooks.com/books/guards-guards/)
-  - James S. A. Corey: [Leviathan Wakes](https://www.jamessacorey.com/books/leviathan-wakes/), [Caliban’s War](https://www.jamessacorey.com/books/calibans-war/), [Abaddon’s Gate](https://www.jamessacorey.com/books/abaddons-gate/)
+  - James S. A. Corey: [Leviathan Wakes](https://www.jamessacorey.com/books/leviathan-wakes/), [Caliban’s War](https://www.jamessacorey.com/books/calibans-war/), [Abaddon’s Gate](https://www.jamessacorey.com/books/abaddons-gate/), [Cibola Burn](https://www.jamessacorey.com/books/cibola-burn/)
 
 ## 2022
 
