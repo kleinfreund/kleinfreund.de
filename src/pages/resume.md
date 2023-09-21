@@ -1,7 +1,7 @@
 ---
 title: Résumé
 description: The résumé of Philipp Rudloff, a front-end developer living in Eindhoven, Netherlands.
-date: 2023-07-25
+date: 2023-09-21
 css:
 - components.entry.css
 ---
@@ -35,12 +35,12 @@ At Kong, I’m responsible for the general maintenance and development of the UI
 
 Currently I’m involved in developing Mesh in Konnect as part of Kong’s Konnect product (SaaS software). In short, I’m involved in all front-end development activities surrounding Kong’s service mesh offering.
 
-Technologies: HTML, CSS, JavaScript (Vue.js)
+Technologies: HTML, CSS, JavaScript (TypeScript, Vue.js)
 
 <div class="entry">
   <h3>Sendcloud B.V.</h3>
   <div>Full-time · 3 years, 1 month</div>
-  <div>Eindhoven, Netherlands</div>
+  <div>On-site in Eindhoven (Netherlands)</div>
 </div>
 
 - **Senior front-end developer**<br>
@@ -57,31 +57,17 @@ Then, I was part of the checkout team where I was a core contributor to establis
 
 Technologies: HTML, CSS, JavaScript (Vue.js)
 
-<div class="entry">
-  <h3>Bauhaus-Universität Weimar</h3>
-  <div>Contract · 1 year, 11 months</div>
-  <div>Weimar, Germany</div>
-</div>
+### Bauhaus-Universität Weimar
 
-- **Front-end developer**<br>
-  Aug 2017 – Jun 2019 · 1 year, 11 months
-
-I built the Disraptor prototype, a tool for decoupling the development of an arbitrary web application from the need to implement auxiliary functions like authentication, user management, and social networking based on the Discourse forum software.
-
-I also built Slidehub, a PDF document browser for easily accessing a large number of for presentations, lectures, talks, etc.
-
-Technologies: HTML, CSS, JavaScript, Ruby (Rails)
+**Front-end developer**<br>
+Weimar Germany (Aug 2017 – Jun 2019)
 
 ## Education
 
-<div class="entry">
-  <h3>Bauhaus-Universität Weimar</h3>
-  <div class="entry__time">2014 – 2019</div>
-  <div class="entry__location">Weimar, Germany</div>
-</div>
+### Bauhaus-Universität Weimar
 
-- **Computer Science & Media (B.Sc.)**<br>
-  2014 – 2019
+**Computer Science & Media (B.Sc.)**<br>
+Weimar, Germany (2014 – 2019)
 
 ## Skills
 
@@ -91,7 +77,7 @@ I have experience in most areas of the front-end development landscape and am co
 - Writing technical and non-technical documentation for these interfaces and systems
 - Managing and maintaining localization systems
 
-If you’re looking for the list of buzzwords to check off of your list: HTML, CSS, JavaScript, Vue.js, TypeScript, git, package publishing, [OpenAPI](https://swagger.io/docs/specification/about), [Phrase](https://phrase.com), [Eleventy](https://www.11ty.dev/), and those I, intentionally or unintentionally, forgot to remember.
+If you’re looking for the list of buzzwords to check off of your list: HTML, CSS, JavaScript, Vue.js, TypeScript, git, package publishing, CI workflows, [OpenAPI](https://swagger.io/docs/specification/about), [Phrase](https://phrase.com), [Eleventy](https://www.11ty.dev/), and those I, intentionally or unintentionally, forgot to remember.
 
 ## Projects
 
@@ -110,4 +96,4 @@ If you’re looking for the list of buzzwords to check off of your list: HTML, C
   <cite><a href="https://mastodon.social/@zachleat@zachleat.com/110775751322149505">Zach Leatherman</a>, creator of Eleventy</cite>
 </blockquote>
 
-A selection of publicly recorded contributions to open source software: [Kuma](https://github.com/pulls?q=is%3Aclosed+is%3Apr+archived%3Afalse+user%3Akumahq+author%3Akleinfreund), [Vue.js](https://github.com/vuejs/vue-next/pulls?q=is%3Apr+author%3Akleinfreund), [vue-i18n-extract](https://github.com/Spittal/vue-i18n-extract/pulls?q=is%3Apr+author%3Akleinfreund), [Eleventy](https://github.com/11ty/eleventy/pulls?q=is:pr+author:kleinfreund), [Discourse](https://github.com/discourse/discourse/pulls?q=is%3Apr+author%3Akleinfreund), [Sublime Text Packages](https://github.com/sublimehq/Packages/pulls?q=is%3Apr+author%3Akleinfreund), [Jekyll](https://github.com/jekyll/jekyll/pulls?q=is%3Apr+author%3Akleinfreund), [Clementine](https://github.com/clementine-player/Clementine/pulls?q=is%3Apr+author%3Akleinfreund), …
+A selection of publicly recorded contributions to open source software: [Vue.js](https://github.com/vuejs/vue-next/pulls?q=is%3Apr+author%3Akleinfreund), [vue-i18n-extract](https://github.com/Spittal/vue-i18n-extract/pulls?q=is%3Apr+author%3Akleinfreund), [Eleventy](https://github.com/11ty/eleventy/pulls?q=is:pr+author:kleinfreund), [Discourse](https://github.com/discourse/discourse/pulls?q=is%3Apr+author%3Akleinfreund), [Sublime Text Packages](https://github.com/sublimehq/Packages/pulls?q=is%3Apr+author%3Akleinfreund), [Jekyll](https://github.com/jekyll/jekyll/pulls?q=is%3Apr+author%3Akleinfreund), [Clementine](https://github.com/clementine-player/Clementine/pulls?q=is%3Apr+author%3Akleinfreund), …
