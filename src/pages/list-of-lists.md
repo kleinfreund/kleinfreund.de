@@ -1,12 +1,13 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2023-10-21
+date: 2023-11-05
 ---
 
 ## 2023
 
 - **Favourite albums** … so far:
+  - Sufjan Stevens: [Javelin](https://sufjanstevens.bandcamp.com/album/javelin)
   - Mitski: [The Land Is Inhospitable and So Are We](https://mitski.bandcamp.com/album/the-land-is-inhospitable-and-so-are-we)
   - SPELLLING: [SPELLLING & The Myster School](https://spellling.bandcamp.com/album/spellling-the-mystery-school)
   - Laura Groves: [Radio Red](https://lauragroves.bandcamp.com/album/radio-red)
@@ -18,15 +19,15 @@ date: 2023-10-21
   - Cixin Liu: Death’s End
   - Andy Weir: [Project Hail Mary](https://andyweirauthor.com/#project-hail-mary)
   - Arkady Martine: [A Desolation Called Peace](https://www.arkadymartine.net/books/adcp)
-  - Adrian Tchaikovsky: [Children of Time](https://www.adriantchaikovsky.com/children-of-time-children-of-ruin-children-of-memory.html), [Children of Ruin](https://www.adriantchaikovsky.com/children-of-time-children-of-ruin-children-of-memory.html)
-  - Megan E. O’Keefe: [Velocity Weapon](https://www.meganokeefe.com/books), [Chaos Vector](https://www.meganokeefe.com/books), [Catalyst Gate](https://www.meganokeefe.com/books)
+  - Adrian Tchaikovsky: [Children of Time](https://www.adriantchaikovsky.com/children-of-time-children-of-ruin-children-of-memory.html) and [Children of Ruin](https://www.adriantchaikovsky.com/children-of-time-children-of-ruin-children-of-memory.html)
+  - Megan E. O’Keefe: [Velocity Weapon](https://www.meganokeefe.com/books), [Chaos Vector](https://www.meganokeefe.com/books), and [Catalyst Gate](https://www.meganokeefe.com/books)
   - Kazuo Ishiguro: Klara und die Sonne
   - Becky Chambers: [A Prayer for the Crown-Shy](https://www.otherscribbles.com/#/a-prayer-for-the-crown-shy/)
-  - Sarah J. Maas: [A Court of Thorns and Roses](https://sarahjmaas.com/books/a-court-of-thorns-and-roses-series/a-court-of-thorns-and-roses/), [A Court of Mist and Fury](https://sarahjmaas.com/books/a-court-of-thorns-and-roses-series/a-court-of-mist-and-fury/)
-  - Adrian Tchaikovsky: [Dogs of War](https://www.adriantchaikovsky.com/dogs-of-war-series.html), [Bear Head](https://www.adriantchaikovsky.com/dogs-of-war-series.html)
+  - Sarah J. Maas: [A Court of Thorns and Roses](https://sarahjmaas.com/books/a-court-of-thorns-and-roses-series/a-court-of-thorns-and-roses/) and [A Court of Mist and Fury](https://sarahjmaas.com/books/a-court-of-thorns-and-roses-series/a-court-of-mist-and-fury/)
+  - Adrian Tchaikovsky: [Dogs of War](https://www.adriantchaikovsky.com/dogs-of-war-series.html) and [Bear Head](https://www.adriantchaikovsky.com/dogs-of-war-series.html)
   - Ursula K. Le Guin: [The Dispossessed](https://www.ursulakleguin.com/dispossessed)
   - Terry Pratchett: [Guards! Guards!](https://www.terrypratchettbooks.com/books/guards-guards/)
-  - James S. A. Corey: [Leviathan Wakes](https://www.jamessacorey.com/books/leviathan-wakes/), [Caliban’s War](https://www.jamessacorey.com/books/calibans-war/), [Abaddon’s Gate](https://www.jamessacorey.com/books/abaddons-gate/), [Cibola Burn](https://www.jamessacorey.com/books/cibola-burn/), [Nemesis Games](https://www.jamessacorey.com/books/nemesis-games/), [Babylon’s Ashes](https://www.jamessacorey.com/books/babylons-ashes/), [Persepolis Rising](https://www.jamessacorey.com/books/persepolis-rising/)
+  - James S. A. Corey: [Leviathan Wakes](https://www.jamessacorey.com/books/leviathan-wakes/), [Caliban’s War](https://www.jamessacorey.com/books/calibans-war/), [Abaddon’s Gate](https://www.jamessacorey.com/books/abaddons-gate/), [Cibola Burn](https://www.jamessacorey.com/books/cibola-burn/), [Nemesis Games](https://www.jamessacorey.com/books/nemesis-games/), [Babylon’s Ashes](https://www.jamessacorey.com/books/babylons-ashes/), [Persepolis Rising](https://www.jamessacorey.com/books/persepolis-rising/), [Tiamat’s Wrath](https://www.jamessacorey.com/books/tiamats-wrath/)
 
 ## 2022
 
