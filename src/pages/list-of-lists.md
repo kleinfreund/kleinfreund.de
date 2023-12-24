@@ -6,16 +6,16 @@ date: 2023-12-24
 
 ## 2023
 
-- **Favourite albums** … so far:
+- [**Favourite albums**](/favorite-albums-of-2023):
   - Jonny Nash: [Point of Entry](https://jonnynash.bandcamp.com/album/point-of-entry)
-  - Sufjan Stevens: [Javelin](https://sufjanstevens.bandcamp.com/album/javelin)
-  - Mitski: [The Land Is Inhospitable and So Are We](https://mitski.bandcamp.com/album/the-land-is-inhospitable-and-so-are-we)
-  - SPELLLING: [SPELLLING & The Myster School](https://spellling.bandcamp.com/album/spellling-the-mystery-school)
+  - Kali Uchis: [Red Moon in Venus](https://open.spotify.com/album/5OZ44LaqZbpP3m9B3oT8br)
   - Laura Groves: [Radio Red](https://lauragroves.bandcamp.com/album/radio-red)
   - Jessie Ware: [That! Feels Good](https://jessieware.bandcamp.com/album/that-feels-good)
   - Altin Gün: [A​ş​k](https://altingun.bandcamp.com/album/a-k)
   - Caroline Polacheck: [Desire, I Want to Turn Into You](https://carolinepolachek.bandcamp.com/album/desire-i-want-to-turn-into-you)
-  - Kali Uchis: [Red Moon in Venus](https://open.spotify.com/album/5OZ44LaqZbpP3m9B3oT8br)
+  - Mitski: [The Land Is Inhospitable and So Are We](https://mitski.bandcamp.com/album/the-land-is-inhospitable-and-so-are-we)
+  - Sufjan Stevens: [Javelin](https://sufjanstevens.bandcamp.com/album/javelin)
+  - SPELLLING: [SPELLLING & The Myster School](https://spellling.bandcamp.com/album/spellling-the-mystery-school)
 - **Books**:
   - Cixin Liu: Death’s End
   - Andy Weir: [Project Hail Mary](https://andyweirauthor.com/#project-hail-mary)
