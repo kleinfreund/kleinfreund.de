@@ -1,7 +1,7 @@
 ---
 title: Résumé
 description: The résumé of Philipp Rudloff, a front-end developer living in Eindhoven, Netherlands.
-date: 2023-09-21
+date: 2024-01-21
 css:
 - components.entry.css
 ---
@@ -31,11 +31,11 @@ I build websites and web applications with reliable user and developer interface
 - **Senior software engineer (frontend)**<br>
   Aug 2022 – Present<span data-start-date="2022-08-02"></span>
 
-At Kong, I’m responsible for the general maintenance and development of the UI application that is part of the Kuma and Kong Mesh products (on-premise software). As part of this, I managed the migration from Vue.js version 2 to 3. I’ve also set-up several pieces of continuous integration-based automation that range from application testing to preparing the UI application for release.
+At Kong, I’m responsible for the general maintenance and development of the UI application that is part of the Kuma and Kong Mesh products (on-premise software). As part of this, I managed the migration from Vue version 2 to 3. I’ve also set-up several pieces of continuous integration-based automation that range from application testing to preparing the UI application for release.
 
 Currently I’m involved in developing Mesh in Konnect as part of Kong’s Konnect product (SaaS software). In short, I’m involved in all front-end development activities surrounding Kong’s service mesh offering.
 
-Technologies: HTML, CSS, JavaScript (TypeScript, Vue.js)
+Technologies: HTML, CSS, JavaScript (TypeScript, Vue)
 
 <div class="entry">
   <h3>Sendcloud B.V.</h3>
@@ -51,11 +51,11 @@ Technologies: HTML, CSS, JavaScript (TypeScript, Vue.js)
 
 At Sendcloud, I worked in several teams on all frontend-related aspects of the platform including feature development, internationalization, API design, technical writing, general maintenance, hiring, and onboarding/mentoring of front-end developers.
 
-I heavily contributed to planning and finalizing the multi-year effort of migrating the platform’s main frontend to a Vue.js-powered application.
+I heavily contributed to planning and finalizing the multi-year effort of migrating the platform’s main frontend to a Vue-powered application.
 
 Then, I was part of the checkout team where I was a core contributor to establishing the foundation for a new system of features that deeply integrates with various e-commerce platforms. I’ve developing the third party script responsible for rendering a custom shipping method UI in a merchant’s shop. I was also responsible for writing the public technical documentation, designing APIs, and maintaining related legacy systems.
 
-Technologies: HTML, CSS, JavaScript (Vue.js)
+Technologies: HTML, CSS, JavaScript (Vue)
 
 ### Bauhaus-Universität Weimar
 
@@ -77,17 +77,15 @@ I have experience in most areas of the front-end development landscape and am co
 - Writing technical and non-technical documentation for these interfaces and systems
 - Managing and maintaining localization systems
 
-If you’re looking for the list of buzzwords to check off of your list: HTML, CSS, JavaScript, Vue.js, TypeScript, git, package publishing, CI workflows, [OpenAPI](https://swagger.io/docs/specification/about), [Phrase](https://phrase.com), [Eleventy](https://www.11ty.dev/), and those I, intentionally or unintentionally, forgot to remember.
+If you’re looking for the list of buzzwords to check off of your list: HTML, CSS, JavaScript, Vue, TypeScript, git, package publishing, CI workflows, [OpenAPI](https://swagger.io/docs/specification/about), [Phrase](https://phrase.com), [Eleventy](https://www.11ty.dev/), and those I, intentionally or unintentionally, forgot to remember.
 
 ## Projects
 
 - [**retrieve**](https://npmjs.com/package/retrieve): Convenience wrapper around `fetch` for the browser
 
-- [**poll**](https://npmjs.com/package/poll): Lightweight polling utility.
+- [**poll**](https://npmjs.com/package/poll): Lightweight polling utility
 
-- [**yet-another-color-picker**](https://npmjs.com/package/yet-another-color-picker): Fully-featured color picker web component
-
-- [**reverse-iterable-map**](https://npmjs.com/package/reverse-iterable-map) / [**set**](https://npmjs.com/package/reverse-iterable-set) / [**array**](https://npmjs.com/package/reverse-iterable-array): Forwards _and_ backwards iterable map/set/array implementations
+- [**yet-another-color-picker**](https://npmjs.com/package/yet-another-color-picker): Fully-featured color picker web component (also available [as a Vue component](https://npmjs.com/package/vue-accessible-color-picker))
 
 ## Open source contributions
 
@@ -96,4 +94,4 @@ If you’re looking for the list of buzzwords to check off of your list: HTML, C
   <cite><a href="https://mastodon.social/@zachleat@zachleat.com/110775751322149505">Zach Leatherman</a>, creator of Eleventy</cite>
 </blockquote>
 
-A selection of publicly recorded contributions to open source software: [Vue.js](https://github.com/vuejs/vue-next/pulls?q=is%3Apr+author%3Akleinfreund), [vue-i18n-extract](https://github.com/Spittal/vue-i18n-extract/pulls?q=is%3Apr+author%3Akleinfreund), [Eleventy](https://github.com/11ty/eleventy/pulls?q=is:pr+author:kleinfreund), [Discourse](https://github.com/discourse/discourse/pulls?q=is%3Apr+author%3Akleinfreund), [Sublime Text Packages](https://github.com/sublimehq/Packages/pulls?q=is%3Apr+author%3Akleinfreund), [Jekyll](https://github.com/jekyll/jekyll/pulls?q=is%3Apr+author%3Akleinfreund), [Clementine](https://github.com/clementine-player/Clementine/pulls?q=is%3Apr+author%3Akleinfreund), …
+A selection of publicly recorded contributions to open source software: [vitest](https://github.com/vitest-dev/vitest/pulls?q=is%3Apr+author%3Akleinfreund), [vue](https://github.com/vuejs/vue-next/pulls?q=is%3Apr+author%3Akleinfreund), [vue-i18n-extract](https://github.com/Spittal/vue-i18n-extract/pulls?q=is%3Apr+author%3Akleinfreund), [Eleventy](https://github.com/11ty/eleventy/pulls?q=is:pr+author:kleinfreund), [Discourse](https://github.com/discourse/discourse/pulls?q=is%3Apr+author%3Akleinfreund), [Sublime Text Packages](https://github.com/sublimehq/Packages/pulls?q=is%3Apr+author%3Akleinfreund), [Jekyll](https://github.com/jekyll/jekyll/pulls?q=is%3Apr+author%3Akleinfreund), [Clementine](https://github.com/clementine-player/Clementine/pulls?q=is%3Apr+author%3Akleinfreund), …
