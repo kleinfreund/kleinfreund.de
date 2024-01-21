@@ -1,8 +1,13 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2023-12-24
+date: 2024-01-21
 ---
+
+## 2024
+
+- **Books**:
+  - Adrian Tchaikovsky: [Lords of Uncreation](https://www.adriantchaikovsky.com/the-final-architects-shards-of-earth-eyes-of-the-voice-by-adrian-tchaikovsky.html#anchor3)
 
 ## 2023
 
