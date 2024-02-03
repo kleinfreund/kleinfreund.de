@@ -16,15 +16,25 @@ date: 2024-02-03
 ## 2023
 
 - [**Favourite albums**](/favorite-albums-of-2023):
-  - Jonny Nash: [Point of Entry](https://jonnynash.bandcamp.com/album/point-of-entry)
-  - Kali Uchis: Red Moon in Venus
-  - Laura Groves: [Radio Red](https://lauragroves.bandcamp.com/album/radio-red)
-  - Jessie Ware: [That! Feels Good](https://jessieware.bandcamp.com/album/that-feels-good)
-  - Altin Gün: [A​ş​k](https://altingun.bandcamp.com/album/a-k)
-  - Caroline Polacheck: [Desire, I Want to Turn Into You](https://carolinepolachek.bandcamp.com/album/desire-i-want-to-turn-into-you)
-  - Mitski: [The Land Is Inhospitable and So Are We](https://mitski.bandcamp.com/album/the-land-is-inhospitable-and-so-are-we)
-  - Sufjan Stevens: [Javelin](https://sufjanstevens.bandcamp.com/album/javelin)
-  - SPELLLING: [SPELLLING & The Myster School](https://spellling.bandcamp.com/album/spellling-the-mystery-school)
+  - Ranked:
+    - <!---->9.
+      Jonny Nash: [Point of Entry](https://jonnynash.bandcamp.com/album/point-of-entry)
+    - <!---->8.
+      Kali Uchis: Red Moon in Venus
+    - <!---->7.
+      Laura Groves: [Radio Red](https://lauragroves.bandcamp.com/album/radio-red)
+    - <!---->6.
+      Jessie Ware: [That! Feels Good](https://jessieware.bandcamp.com/album/that-feels-good)
+    - <!---->5.
+      Altin Gün: [A​ş​k](https://altingun.bandcamp.com/album/a-k)
+    - <!---->4.
+      Caroline Polacheck: [Desire, I Want to Turn Into You](https://carolinepolachek.bandcamp.com/album/desire-i-want-to-turn-into-you)
+    - <!---->3.
+      Mitski: [The Land Is Inhospitable and So Are We](https://mitski.bandcamp.com/album/the-land-is-inhospitable-and-so-are-we)
+    - <!---->2.
+      Sufjan Stevens: [Javelin](https://sufjanstevens.bandcamp.com/album/javelin)
+    - <!---->1.
+      SPELLLING: [SPELLLING & The Myster School](https://spellling.bandcamp.com/album/spellling-the-mystery-school)
 - **Books**:
   - Cixin Liu: Death’s End
   - Andy Weir: [Project Hail Mary](https://andyweirauthor.com/#project-hail-mary)
