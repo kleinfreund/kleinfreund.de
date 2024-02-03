@@ -37,7 +37,7 @@ As is true for every year, this one saw plenty of good music releases. Without c
 ## 6.
 
 **Lianne La Havas**<br>
-[Lianne La Havas](https://open.spotify.com/album/6JwtB0zzNYy4qANDrJtrJy)
+Lianne La Havas
 
 ## 5.
 
@@ -47,17 +47,17 @@ As is true for every year, this one saw plenty of good music releases. Without c
 ## 4.
 
 **Gorillaz**<br>
-[Song Machine, Season One: Strange Timez](https://open.spotify.com/album/5I9K0u8r52jp4Y2bF8mOaz)
+Song Machine, Season One: Strange Timez
 
 ## 3.
 
 **Rina Sawayama**<br>
-[SAWAYAMA](https://open.spotify.com/album/3stadz88XVpHcXnVYMHc4J)
+SAWAYAMA
 
 ## 2.
 
 **Jessie Ware**<br>
-[What’s Your Pleasure](https://open.spotify.com/album/1CTm3ARqDETSm7GfvNYNJp)
+What’s Your Pleasure
 
 ## 1.
 

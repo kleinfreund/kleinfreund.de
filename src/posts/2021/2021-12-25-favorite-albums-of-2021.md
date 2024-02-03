@@ -22,7 +22,7 @@ Another year, another year end post; let’s do this.
 - BADBADNOTGOOD: [Talk Memory](https://badbadnotgoodofficial.bandcamp.com/album/talk-memory)
 - Yasmin Williams: [Urban Driftwood](https://yasminwilliams.bandcamp.com/album/urban-driftwood)
 - Altin Gün: [Yol](https://altingun.bandcamp.com/album/yol)
-- Billie Eilish: [Happier Than Ever](https://open.spotify.com/album/0JGOiO34nwfUdDrD612dOp)
+- Billie Eilish: Happier Than Ever
 - Really From: [Really From](https://reallyfrom.bandcamp.com/album/really-from)
 - Godspeed You! Black Emperor: [G_d’s Pee AT STATE’S END!](https://godspeedyoublackemperor.bandcamp.com/album/g-d-s-pee-at-state-s-end)
 - Jaubi: [Nafs at Peace](https://jaubi.bandcamp.com/album/nafs-at-peace)

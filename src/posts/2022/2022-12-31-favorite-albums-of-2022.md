@@ -17,12 +17,12 @@ Another year, another year end post; let’s do this.
 ## 9.
 
 **Silvana Estrada**<br>
-[Marchita](https://open.spotify.com/album/0Y1tsEnH5gN8TEJRQ9xOLi)
+Marchita
 
 ## 8.
 
 **Robohands**<br>
-[Violet](https://open.spotify.com/album/1cUaUc1ZjGRAgu1rltpeN8)
+Violet
 
 ## 7.
 
@@ -32,7 +32,7 @@ Another year, another year end post; let’s do this.
 ## 6.
 
 **The Comet is Coming**<br>
-[Hyper-Dimensional Expansion Beam](https://open.spotify.com/album/1XPsJnIVMjOt04rczMWVO4)
+Hyper-Dimensional Expansion Beam
 
 ## 5.
 
@@ -42,17 +42,17 @@ Another year, another year end post; let’s do this.
 ## 4.
 
 **Charli XCX**<br>
-[Crash](https://open.spotify.com/album/1QqipMXWzJhr6yfcNKTp8B)
+Crash
 
 ## 3.
 
 **Suede**<br>
-[Autofiction](https://open.spotify.com/album/6wwmFYghPYQzY9BP7uiZFs)
+Autofiction
 
 ## 2.
 
 **Natalia Lafourcade**<br>
-[De Todas las Flores](https://open.spotify.com/album/4BJoDX0fIjR4RsFF4vyd81)
+De Todas las Flores
 
 ## 1.
 

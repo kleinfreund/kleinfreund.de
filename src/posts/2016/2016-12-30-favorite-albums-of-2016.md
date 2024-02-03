@@ -108,7 +108,7 @@ Anyway, this record is just as beautiful as it gets. Or as beautiful as the expe
 ## 3.
 
 **A Tribe Called Quest**<br>
-[We got it from Here… Thank You 4 Your service](https://play.spotify.com/album/3WvQpufOsPzkZvcSuynCf3)
+We got it from Here… Thank You 4 Your service
 
 Before I only was aware of the fact that there is something with the name “A Tribe Called Quest”. Maybe I knew it got something to do with music. Anyway, [Anthony Fantano’s review](https://www.youtube.com/watch?v=k0vMdRfwFxY) sparked interest and I gave it a listen. They certainly don’t disappoint. Yet another good hip hop record for my library. “We The People....” really gets me with its instrumentals. Same goes for “Dis Generation”. I’ve come to realize that it’s instrumentals that are doing the most for me on a hip hop record. And in that regard, this record is very good.
 

@@ -10,9 +10,9 @@ Without further ado, here are my 20 favorite albums of 2018.
 
 ## Honorable mentions
 
-- [**Anderson .Paak** – Oxnard](https://open.spotify.com/album/3rqqwtJE89WoWvMyPTvbZc)
-- [**Gorillaz** – The Now Now](https://open.spotify.com/album/1amYhlukNF8WdaQC3gKkgL)
-- [**Kendrick Lamar/SZA/The Weeknd** – Black Panther: The Album](https://open.spotify.com/album/3pLdWdkj83EYfDN6H2N8MR)
+ [**Anderson .Paak** – Oxnard
+ [**Gorillaz** – The Now Now
+ [**Kendrick Lamar/SZA/The Weeknd** – Black Panther: The Album
 - [**Pttrns** – Material Und Geschichte](https://altinvillage.bandcamp.com/album/material-und-geschichte)
 - [**barnes blvd.** – last summer](https://barnesblvd.bandcamp.com/album/last-summer)
 - [**Imarhan** – Temet](https://imarhan.bandcamp.com/album/temet)
@@ -60,9 +60,7 @@ Besides the beautiful album artwork, “Drip Drip” is a wonderfully diverse re
 ## 6.
 
 **Rosalía**<br>
-[El Mal Querer](https://open.spotify.com/album/355bjCHzRJztCzaG5Za4gq)
-
-*(Spotify alternative: [YouTube playlist](https://www.youtube.com/playlist?list=PLxKHVMqMZqUT9r2C1t43NT6SskOLVHl5_))*
+El Mal Querer
 
 
 
@@ -98,9 +96,7 @@ In its short duration, “Bon Voyage” contains the most fun, quirk, and joy of
 ## 2.
 
 **MGMT**<br>
-[Little Dark Age](https://open.spotify.com/album/7GjVWG39IOj4viyWplJV4H)
-
-*(Spotify alternative: [YouTube playlist](https://www.youtube.com/watch?v=Hblrzggqqo4))*
+Little Dark Age
 
 Well, what do you say? Incredibly cool and modern synth-pop record. The first half of it is simply outstanding.
 
@@ -109,9 +105,7 @@ Well, what do you say? Incredibly cool and modern synth-pop record. The first ha
 ## 1.
 
 **Kali Uchis**<br>
-[Isolation](https://open.spotify.com/album/4EPQtdq6vvwxuYeQTrwDVY)
-
-*(Spotify alternative: [YouTube playlist](https://www.youtube.com/playlist?list=PLql5iS_v4445NkUspLYqKHhchz9oFzq7r))*
+Isolation
 
 And there we have it, coming in at my number one spot is Kali Uchis’ “Isolation”. I spent a short week at the baltic sea with some friends and we were zapping through some music TV. At one point, “After The Storm” was playing and I made a note simply rading “Kali Uchis”. Only a month ago did I bother to check her out. As luck has it sometimes. So many infectious and stellar tracks: “Body Language”, “Just A Stranger”, “Your Teeth In My Neck”, “Dead To Me”, “In My Dreams”, “Tomorrow”, “After the Storm”. In short, I like everything on that album.
 

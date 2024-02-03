@@ -43,12 +43,12 @@ As with the previous years, 2019 was packed full with interesting new music. As 
 ## 6.
 
 **The Comet is Coming**<br>
-[Trust in the Lifeforce of the Deep Mystery](https://open.spotify.com/album/2mvz0NPBCPTbSEgRViuDLK)
+Trust in the Lifeforce of the Deep Mystery
 
 ## 5.
 
 **Tyler, the Creator**<br>
-[IGOR](https://open.spotify.com/album/5zi7WsKlIiUXv09tbGLKsE)
+IGOR
 
 ## 4.
 
@@ -63,9 +63,9 @@ As with the previous years, 2019 was packed full with interesting new music. As 
 ## 2.
 
 **Charlie XCX**<br>
-[Charlie](https://open.spotify.com/album/386IqvSuljaZsMjwDGGdLj)
+Charlie
 
 ## 1.
 
 **Billie Eilish**<br>
-[When We All Fall Asleep, Where Do We Go?](https://open.spotify.com/album/0S0KGZnfBGSIssfF54WSJh)
+When We All Fall Asleep, Where Do We Go?

@@ -17,7 +17,7 @@ date: 2024-02-03
 
 - [**Favourite albums**](/favorite-albums-of-2023):
   - Jonny Nash: [Point of Entry](https://jonnynash.bandcamp.com/album/point-of-entry)
-  - Kali Uchis: [Red Moon in Venus](https://open.spotify.com/album/5OZ44LaqZbpP3m9B3oT8br)
+  - Kali Uchis: Red Moon in Venus
   - Laura Groves: [Radio Red](https://lauragroves.bandcamp.com/album/radio-red)
   - Jessie Ware: [That! Feels Good](https://jessieware.bandcamp.com/album/that-feels-good)
   - Altin Gün: [A​ş​k](https://altingun.bandcamp.com/album/a-k)
@@ -47,27 +47,27 @@ date: 2024-02-03
 - [**Favourite albums**](/favorite-albums-of-2022):
   - Honorable mentions:
     - Angel Olsen: [Big Time](https://angelolsen.bandcamp.com/album/big-time)
-    - Everything Everything: [Raw Data Feel](https://open.spotify.com/album/5EVRkU1hii3VvUFblfexze)
+    - Everything Everything: Raw Data Feel
     - Jasmine Myra: [Horizons](https://jasminemyra.bandcamp.com/album/horizons)
   - Ranked:
     - <!---->10.
       Sudan Archives: [Natural Brown Prom Queen](https://sudanarchives.bandcamp.com/album/natural-brown-prom-queen)
     - <!---->9.
-      Silvana Estrada: [Marchita](https://open.spotify.com/album/0Y1tsEnH5gN8TEJRQ9xOLi)
+      Silvana Estrada: Marchita
     - <!---->8.
-      Robohands: [Violet](https://open.spotify.com/album/1cUaUc1ZjGRAgu1rltpeN8)
+      Robohands: Violet
     - <!---->7.
       Hatchie: [Giving the World Away](https://hatchie.bandcamp.com/album/giving-the-world-away)
     - <!---->6.
-      The Comet is Coming: [Hyper-Dimensional Expansion Beam](https://open.spotify.com/album/1XPsJnIVMjOt04rczMWVO4)
+      The Comet is Coming: Hyper-Dimensional Expansion Beam
     - <!---->5.
       Fontaines D.C.: [Skinty Fia](https://fontainesdc.bandcamp.com/album/skinty-fia)
     - <!---->4.
-      Charli XCX: [Crash](https://open.spotify.com/album/1QqipMXWzJhr6yfcNKTp8B)
+      Charli XCX: Crash
     - <!---->3.
-      Suede: [Autofiction](https://open.spotify.com/album/6wwmFYghPYQzY9BP7uiZFs)
+      Suede: Autofiction
     - <!---->2.
-      Natalia Lafourcade: [De Todas las Flores](https://open.spotify.com/album/4BJoDX0fIjR4RsFF4vyd81)
+      Natalia Lafourcade: De Todas las Flores
     - <!---->1.
       Black Country, New Road: [Ants From Up There](https://blackcountrynewroad.bandcamp.com/album/ants-from-up-there)
 - **Books**:
@@ -102,7 +102,7 @@ date: 2024-02-03
     - BADBADNOTGOOD: [Talk Memory](https://badbadnotgoodofficial.bandcamp.com/album/talk-memory)
     - Yasmin Williams: [Urban Driftwood](https://yasminwilliams.bandcamp.com/album/urban-driftwood)
     - Altin Gün: [Yol](https://altingun.bandcamp.com/album/yol)
-    - Billie Eilish: [Happier Than Ever](https://open.spotify.com/album/0JGOiO34nwfUdDrD612dOp)
+    - Billie Eilish: Happier Than Ever
     - Really From: [Really From](https://reallyfrom.bandcamp.com/album/really-from)
     - Godspeed You! Black Emperor: [G_d’s Pee AT STATE’S END!](https://godspeedyoublackemperor.bandcamp.com/album/g-d-s-pee-at-state-s-end)
     - Jaubi: [Nafs at Peace](https://jaubi.bandcamp.com/album/nafs-at-peace)
@@ -145,15 +145,15 @@ date: 2024-02-03
     - <!---->7.
       Dengue Dengue Dengue: [Continentes Perdidos](https://denguedenguedengue.bandcamp.com/album/dngdngdng-continentes-perdidos)
     - <!---->6.
-      Lianne La Havas: [Lianne La Havas](https://open.spotify.com/album/6JwtB0zzNYy4qANDrJtrJy)
+      Lianne La Havas: Lianne La Havas
     - <!---->5.
       Caribou: [Suddenly](https://caribouband.bandcamp.com/album/suddenly)
     - <!---->4.
-      Gorillaz: [Song Machine, Season One: Strange Timez](https://open.spotify.com/album/5I9K0u8r52jp4Y2bF8mOaz)
+      Gorillaz: Song Machine, Season One: Strange Timez
     - <!---->3.
-      Rina Sawayama: [SAWAYAMA](https://open.spotify.com/album/3stadz88XVpHcXnVYMHc4J)
+      Rina Sawayama: SAWAYAMA
     - <!---->2.
-      Jessie Ware: [What’s Your Pleasure](https://open.spotify.com/album/1CTm3ARqDETSm7GfvNYNJp)
+      Jessie Ware: What’s Your Pleasure
     - <!---->1.
       Sevdaliza: [Shabrang](https://sevdaliza.bandcamp.com/album/shabrang)
 
@@ -180,25 +180,25 @@ date: 2024-02-03
     - <!---->7.
       SPELLLING: [Mazy Fly](https://spellling.bandcamp.com/album/mazy-fly)
     - <!---->6.
-      The Comet is Coming: [Trust in the Lifeforce of the Deep Mystery](https://open.spotify.com/album/2mvz0NPBCPTbSEgRViuDLK)
+      The Comet is Coming: Trust in the Lifeforce of the Deep Mystery
     - <!---->5.
-      Tyler, the Creator: [IGOR](https://open.spotify.com/album/5zi7WsKlIiUXv09tbGLKsE)
+      Tyler, the Creator: IGOR
     - <!---->4.
       Sharon Van Etten: [Remind Me Tomorrow](https://sharonvanetten.bandcamp.com/album/remind-me-tomorrow)
     - <!---->3.
       Unto Others: [Mana](https://untootherspdx.bandcamp.com/album/mana)
     - <!---->2.
-      Charlie XCX: [Charlie](https://open.spotify.com/album/386IqvSuljaZsMjwDGGdLj)
+      Charlie XCX: Charlie
     - <!---->1.
-      Billie Eilish: [When We All Fall Asleep, Where Do We Go?](https://open.spotify.com/album/0S0KGZnfBGSIssfF54WSJh)
+      Billie Eilish: When We All Fall Asleep, Where Do We Go?
 
 ## 2018
 
 - [**Favourite albums**](/favorite-albums-of-2018):
   - Honorable mentions:
-    - Anderson .Paak: [Oxnard](https://open.spotify.com/album/3rqqwtJE89WoWvMyPTvbZc)
-    - Gorillaz: [The Now Now](https://open.spotify.com/album/1amYhlukNF8WdaQC3gKkgL)
-    - Kendrick Lamar/SZA/The Weeknd: [Black Panther: The Album](https://open.spotify.com/album/3pLdWdkj83EYfDN6H2N8MR)
+    - Anderson .Paak: Oxnard
+    - Gorillaz: The Now Now
+    - Kendrick Lamar/SZA/The Weeknd: Black Panther: The Album
     - Pttrns: [Material Und Geschichte](https://altinvillage.bandcamp.com/album/material-und-geschichte)
     - barnes blvd.: [last summer](https://barnesblvd.bandcamp.com/album/last-summer)
     - Imarhan: [Temet](https://imarhan.bandcamp.com/album/temet)
@@ -216,7 +216,7 @@ date: 2024-02-03
     - <!---->7.
       Fielded: [Drip Drip](https://deathbombarc.bandcamp.com/album/drip-drip)
     - <!---->6.
-      Rosalía: [El Mal Querer](https://open.spotify.com/album/355bjCHzRJztCzaG5Za4gq)
+      Rosalía: El Mal Querer
     - <!---->5.
       Screaming Females: [All At Once](https://screamingfemales.bandcamp.com/album/all-at-once)
     - <!---->4.
@@ -224,9 +224,9 @@ date: 2024-02-03
     - <!---->3.
       Melody’s Echo Chamber: [Bon Voyage](https://melodysechochamber.bandcamp.com/album/bon-voyage)
     - <!---->2.
-      MGMT: [Little Dark Age](https://open.spotify.com/album/7GjVWG39IOj4viyWplJV4H)
+      MGMT: Little Dark Age
     - <!---->1.
-      Kali Uchis: [Isolation](https://open.spotify.com/album/4EPQtdq6vvwxuYeQTrwDVY)
+      Kali Uchis: Isolation
 - [**Favourite songs**](/favorite-songs-of-2018):
   - Honorable mentions:
     - MUSE: [Pressure](https://www.youtube.com/watch?v=h2eKImKZviw)
@@ -288,7 +288,7 @@ date: 2024-02-03
     - <!---->4.
       Chris Remo: [Firewatch Original Score](https://camposantogames.bandcamp.com/album/firewatch-original-score)
     - <!---->3.
-      A Tribe Called Quest: [We got it from Here… Thank You 4 Your service](https://play.spotify.com/album/3WvQpufOsPzkZvcSuynCf3)
+      A Tribe Called Quest: We got it from Here… Thank You 4 Your service
     - <!---->2.
       Olga Bell: [Tempo](https://bell.bandcamp.com/album/tempo)
     - <!---->1.
@@ -366,7 +366,7 @@ date: 2024-02-03
     - <!---->8.
       Darren Korb: [Transistor OST](https://supergiantgames.bandcamp.com/album/transistor-original-soundtrack)
     - <!---->7.
-      Hans Zimmer: [Interstellar OST](https://play.spotify.com/album/7a78GiEowpaCa7ZJs44xUU)
+      Hans Zimmer: Interstellar OST
     - <!---->6.
       Jim Guthrie: [One Of These Days I’ll Get It Right](https://jimguthrie.bandcamp.com/album/one-of-these-days-ill-get-it-right)
     - <!---->5.
