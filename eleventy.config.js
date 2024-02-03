@@ -34,12 +34,10 @@ const markdownItOptions = {
  */
 const markdownItAnchorOptions = {
   permalink: markdownItAnchor.default.permalink.linkInsideHeader({
-    symbol: `
-      <span class="header-anchor__icon">
-        <span aria-label="Link Symbol" role="img">🔗</span>
-        <span class="visually-hidden">Jump to heading</span>
-      </span>
-    `.trim(),
+    symbol: `<span class="header-anchor__icon">
+      <b>#</b>
+      <span class="visually-hidden">Jump to heading</span>
+    </span>`,
     placement: 'before',
   }),
 }
