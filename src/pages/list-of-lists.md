@@ -1,13 +1,17 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2024-01-21
+date: 2024-02-03
 ---
 
 ## 2024
 
+- **Favorite albums** so far:
+  - Future Islands: [People Who Aren't There Anymore](https://futureislands.bandcamp.com/album/people-who-aren-t-there-anymore)
 - **Books**:
   - Adrian Tchaikovsky: [Lords of Uncreation](https://www.adriantchaikovsky.com/the-final-architects-shards-of-earth-eyes-of-the-voice-by-adrian-tchaikovsky.html#anchor3)
+  - J. S. Dewes: [Rubicon](https://www.jsdewes.com/books)
+  - Gabrielle Zevin: [Tomorrow and Tomorrow and Tomorrow](https://gabriellezevin.com/tomorrowx3/)
 
 ## 2023
 
@@ -397,3 +401,21 @@ date: 2024-01-21
       BADBADNOTGOOD: [Can’t Leave The Night](https://www.youtube.com/watch?v=caY0MEok19I)
     - <!---->1.
       Metronomy: [The Most Immaticulate Haircut](https://www.youtube.com/watch?v=muQA0cp0H8o)
+
+## All time
+
+- **Favourite albums**:
+  - Fontaines D.C.: Skinty Fia
+  - Tom Waits: Glitter and Doom
+  - Suede: Autofiction
+  - Swans: White Light from the Mouth of Infinity
+  - Placebo: Meds
+  - The Cure: Kiss Me Kiss Me Kiss Me
+  - Richard Dawson/Circle: Henki
+  - Peter Gabriel: Up
+  - Nathalia Lafourcade: De Todas las Flores
+  - SPELLLING: The Turning Wheel
+  - Black Country, New Road: Ants from Up There
+  - Gorillaz: Demon Days
+  - Floating Points: Promises
+  - Godspeed You! Black Emperor: Raise Your Skinny Fists Like Antennas to Heaven
