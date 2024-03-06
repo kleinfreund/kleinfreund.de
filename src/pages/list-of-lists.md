@@ -1,7 +1,7 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2024-02-03
+date: 2024-03-06
 ---
 
 ## 2024
@@ -12,6 +12,8 @@ date: 2024-02-03
   - Adrian Tchaikovsky: [Lords of Uncreation](https://www.adriantchaikovsky.com/the-final-architects-shards-of-earth-eyes-of-the-voice-by-adrian-tchaikovsky.html#anchor3)
   - J. S. Dewes: [Rubicon](https://www.jsdewes.com/books)
   - Gabrielle Zevin: [Tomorrow and Tomorrow and Tomorrow](https://gabriellezevin.com/tomorrowx3/)
+  - Cixin Liu: The Wandering Earth
+  - Ursula K. Le Gui: [The Lathe of Heaven](https://www.ursulakleguin.com/the-lathe-of-heaven)
 
 ## 2023
 
