@@ -13,7 +13,7 @@ date: 2024-03-06
   - J. S. Dewes: [Rubicon](https://www.jsdewes.com/books)
   - Gabrielle Zevin: [Tomorrow and Tomorrow and Tomorrow](https://gabriellezevin.com/tomorrowx3/)
   - Cixin Liu: The Wandering Earth
-  - Ursula K. Le Gui: [The Lathe of Heaven](https://www.ursulakleguin.com/the-lathe-of-heaven)
+  - Ursula K. Le Guin: [The Lathe of Heaven](https://www.ursulakleguin.com/the-lathe-of-heaven)
 
 ## 2023
 
