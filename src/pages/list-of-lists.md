@@ -19,18 +19,20 @@ date: 2024-03-06
 
 - [**Favourite albums**](/favorite-albums-of-2023):
   - Ranked:
-    - <!---->9.
+    - <!---->10.
       Jonny Nash: [Point of Entry](https://jonnynash.bandcamp.com/album/point-of-entry)
-    - <!---->8.
+    - <!---->9.
       Kali Uchis: Red Moon in Venus
-    - <!---->7.
+    - <!---->8.
       Laura Groves: [Radio Red](https://lauragroves.bandcamp.com/album/radio-red)
-    - <!---->6.
+    - <!---->7.
       Jessie Ware: [That! Feels Good](https://jessieware.bandcamp.com/album/that-feels-good)
-    - <!---->5.
+    - <!---->6.
       Altin Gün: [A​ş​k](https://altingun.bandcamp.com/album/a-k)
-    - <!---->4.
+    - <!---->5.
       Caroline Polacheck: [Desire, I Want to Turn Into You](https://carolinepolachek.bandcamp.com/album/desire-i-want-to-turn-into-you)
+    - <!---->4.
+      ANOHNI: [My Back Was A Bridge For You To Cross](https://anohni.bandcamp.com/album/my-back-was-a-bridge-for-you-to-cross-2)
     - <!---->3.
       Mitski: [The Land Is Inhospitable and So Are We](https://mitski.bandcamp.com/album/the-land-is-inhospitable-and-so-are-we)
     - <!---->2.
