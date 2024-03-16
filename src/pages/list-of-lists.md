@@ -1,7 +1,7 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2024-03-06
+date: 2024-03-16
 ---
 
 ## 2024
@@ -14,6 +14,7 @@ date: 2024-03-06
   - Gabrielle Zevin: [Tomorrow and Tomorrow and Tomorrow](https://gabriellezevin.com/tomorrowx3/)
   - Cixin Liu: The Wandering Earth
   - Ursula K. Le Guin: [The Lathe of Heaven](https://www.ursulakleguin.com/the-lathe-of-heaven)
+  - Philip K. Dick: [Time Out of Joint](https://philipdick.com/pkd-and-me/Time-Out-Of-Joint)
 
 ## 2023
 
