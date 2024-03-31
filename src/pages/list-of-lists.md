@@ -1,7 +1,7 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2024-03-16
+date: 2024-03-31
 ---
 
 ## 2024
@@ -15,6 +15,8 @@ date: 2024-03-16
   - Cixin Liu: The Wandering Earth
   - Ursula K. Le Guin: [The Lathe of Heaven](https://www.ursulakleguin.com/the-lathe-of-heaven)
   - Philip K. Dick: [Time Out of Joint](https://philipdick.com/pkd-and-me/Time-Out-Of-Joint)
+  - Lavie Tidhar: [The Circumference of the World](https://lavietidhar.wordpress.com/the-circumference-of-the-world/)
+  - Larry Niven: Ringworld
 
 ## 2023
 
