@@ -345,6 +345,8 @@ Finally, the form’s action is defined as something called `createNote`. From t
 
 **`./assets/javascripts/discourse/controllers/notebook.js.es6`**:
 ```js
+import Ember from 'ember';
+
 export default Ember.Controller.extend({
   actions: {
     createNote(content) {
@@ -362,6 +364,8 @@ Discourse uses stores to exchange data between client and server. The `createRec
 
 **`./assets/javascripts/discourse/controllers/notebook.js.es6`**:
 ```js
+import Ember from 'ember';
+
 export default Ember.Controller.extend({
   actions: {
     createNote(content) {
@@ -612,6 +616,8 @@ Next, retrieving all notes upon initializing the front-end controller is done in
 
 **`./assets/javascripts/discourse/controllers/notebook.js.es6`**:
 ```js
+import Ember from 'ember';
+
 export default Ember.Controller.extend({
   init() {
     this._super();
@@ -656,6 +662,8 @@ With a small tweak, we add new notes the same list right when we create them. Th
 
 **`./assets/javascripts/discourse/controllers/notebook.js.es6`**:
 ```js
+import Ember from 'ember';
+
 export default Ember.Controller.extend({
   // …
 
@@ -735,6 +743,8 @@ end
 
 **`./assets/javascripts/discourse/controllers/notebook.js.es6`**:
 ```js
+import Ember from 'ember';
+
 export default Ember.Controller.extend({
   // …
 
