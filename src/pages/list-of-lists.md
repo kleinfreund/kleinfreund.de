@@ -1,7 +1,7 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2024-03-31
+date: 2024-04-16
 ---
 
 ## 2024
@@ -17,6 +17,7 @@ date: 2024-03-31
   - Philip K. Dick: [Time Out of Joint](https://philipdick.com/pkd-and-me/Time-Out-Of-Joint)
   - Lavie Tidhar: [The Circumference of the World](https://lavietidhar.wordpress.com/the-circumference-of-the-world/)
   - Larry Niven: Ringworld
+  - William Gibson: Neuromancer
 
 ## 2023
 
