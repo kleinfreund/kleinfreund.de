@@ -15,9 +15,9 @@
     "clean-css": "^5.3.3",
     "cross-env": "^7.0.3",
     "html-minifier": "^4.0.0",
-    "markdown-it": "^14.0.0",
+    "markdown-it": "^14.1.0",
     "markdown-it-anchor": "^8.6.7",
     "rimraf": "^5.0.5",
-    "terser": "^5.29.2"
+    "terser": "^5.30.3"
   }
 }
