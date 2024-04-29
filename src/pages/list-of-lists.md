@@ -1,7 +1,7 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2024-04-16
+date: 2024-04-29
 ---
 
 ## 2024
@@ -17,7 +17,8 @@ date: 2024-04-16
   - Philip K. Dick: [Time Out of Joint](https://philipdick.com/pkd-and-me/Time-Out-Of-Joint)
   - Lavie Tidhar: [The Circumference of the World](https://lavietidhar.wordpress.com/the-circumference-of-the-world/)
   - Larry Niven: Ringworld
-  - William Gibson: Neuromancer
+  - William Gibson: Neuromancer, Count Zero, and Mona Lisa Overdrive
+  - Gabrielle Zevin: [The Storied Life of A.J. Fikry](https://gabriellezevin.com/books/the-storied-life-of-a-j-fikry/)
 
 ## 2023
 
