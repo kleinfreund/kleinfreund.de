@@ -20,6 +20,8 @@ date: 2024-04-29
   - William Gibson: Neuromancer
   - Ursula K. Le Guin: [The Word for World is Forest](https://www.ursulakleguin.com/the-word-for-world-is-forest)
   - Gabrielle Zevin: [The Storied Life of A.J. Fikry](https://gabriellezevin.com/books/the-storied-life-of-a-j-fikry/)
+- **Games**:
+  - localthunk: [Balatro](https://www.playbalatro.com/)
 
 ## 2023
 
@@ -61,6 +63,10 @@ date: 2024-04-29
   - Tara Westover: [Educated](https://tarawestover.com/book)
   - Martha Wells: [System Collapse](https://www.marthawells.com/murderbot7.htm)
   - Amal El-Mohtar & Max Gladstone: [This Is How You Lose the Time War](https://amalelmohtar.com/bibliography/)
+- **Games**:
+  - Larian Studios: [Baldur's Gate 3](https://baldursgate3.game/)
+  - Mobius Digital: [Outer Wilds](https://www.mobiusdigitalgames.com/outer-wilds.html)
+  - FromSoftware, Inc.: [Elden Ring](https://en.bandainamcoent.eu/elden-ring/elden-ring)
 
 ## 2022
 
