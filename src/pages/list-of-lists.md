@@ -17,7 +17,8 @@ date: 2024-04-29
   - Philip K. Dick: [Time Out of Joint](https://philipdick.com/pkd-and-me/Time-Out-Of-Joint)
   - Lavie Tidhar: [The Circumference of the World](https://lavietidhar.wordpress.com/the-circumference-of-the-world/)
   - Larry Niven: Ringworld
-  - William Gibson: Neuromancer, Count Zero, and Mona Lisa Overdrive
+  - William Gibson: Neuromancer
+  - Ursula K. Le Guin: [The Word for World is Forest](https://www.ursulakleguin.com/the-word-for-world-is-forest)
   - Gabrielle Zevin: [The Storied Life of A.J. Fikry](https://gabriellezevin.com/books/the-storied-life-of-a-j-fikry/)
 
 ## 2023
