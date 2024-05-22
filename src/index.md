@@ -4,7 +4,7 @@ layout: _includes/layouts/homepage.liquid
 ---
 Hi, I’m Philipp.
 
-I’m a front-end developer living in the Netherlands.
+I’m a frontend developer living in Germany.
 
 I’ll go anywhere with a comfortable amount of sun light and where I can make myself understood. In case you want to relocate me, here’s my [résumé](/resume).
 

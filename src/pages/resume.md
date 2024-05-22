@@ -1,12 +1,12 @@
 ---
 title: Résumé
-description: The résumé of Philipp Rudloff, a front-end developer living in Eindhoven, Netherlands.
-date: 2024-04-02
+description: The résumé of Philipp Rudloff, a frontend developer living in Hamburg, Germany.
+date: 2024-05-22
 css:
 - components.entry.css
 ---
 
-Hey there, my name is Philipp Rudloff and I’m a front-end developer.
+Hey there, my name is Philipp Rudloff and I’m a frontend developer.
 
 I build websites and web applications with reliable user and developer interfaces. For software systems, I design and implement robust architecture which works well for its developers and, most importantly, its users.
 
@@ -21,6 +21,17 @@ I build websites and web applications with reliable user and developer interface
   [github.com/kleinfreund](https://github.com/kleinfreund)
 
 ## Work
+
+<div class="entry">
+  <h3>Factorial GmbH</h3>
+  <div class="entry__time">Full-time<span data-start-date="2024-06-01"></span></div>
+  <div class="entry__location">On-site in Hamburg (Germany)</div>
+</div>
+
+- **Senior frontend developer**<br>
+  Jun 2024 – Present<span data-start-date="2024-06-01"></span>
+
+Technologies: HTML, CSS, JavaScript
 
 <div class="entry">
   <h3>Kong Inc.</h3>
@@ -41,13 +52,13 @@ Technologies: HTML, CSS, JavaScript (TypeScript, Vue)
   <div>On-site in Eindhoven (Netherlands)</div>
 </div>
 
-- **Senior front-end developer**<br>
+- **Senior frontend developer**<br>
   Jan 2021 – Jul 2022 · 1 year, 7 months
 
-- **Front-end developer**<br>
+- **Frontend developer**<br>
   Jul 2019 – Dec 2020 · 1 year, 6 months
 
-At Sendcloud, I worked in several teams on all frontend-related aspects of the platform including feature development, internationalization, API design, technical writing, general maintenance, hiring, and onboarding/mentoring of front-end developers.
+At Sendcloud, I worked in several teams on all frontend-related aspects of the platform including feature development, internationalization, API design, technical writing, general maintenance, hiring, and onboarding/mentoring of frontend developers.
 
 I heavily contributed to planning and finalizing the multi-year effort of migrating the platform’s main frontend to a Vue-powered application.
 
@@ -57,7 +68,7 @@ Technologies: HTML, CSS, JavaScript (Vue)
 
 ### Bauhaus-Universität Weimar
 
-**Front-end developer**<br>
+**Frontend developer**<br>
 Weimar Germany (Aug 2017 – Jun 2019)
 
 ## Education
@@ -69,7 +80,7 @@ Weimar, Germany (2014 – 2019)
 
 ## Skills
 
-I have experience in most areas of the front-end development landscape and am comfortable working with HTML, CSS, and JavaScript regardless of framework, utility library, or underlying authoring methodology. That includes:
+I have experience in most areas of the frontend development landscape and am comfortable working with HTML, CSS, and JavaScript regardless of framework, utility library, or underlying authoring methodology. That includes:
 
 - Planning and implementing robust interfaces for users (simple and complex UI components) and developers (APIs and tools)
 - Writing technical and non-technical documentation for these interfaces and systems
