@@ -1,7 +1,7 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2024-04-29
+date: 2024-05-22
 ---
 
 ## 2024
@@ -10,7 +10,7 @@ date: 2024-04-29
   - Future Islands: [People Who Aren't There Anymore](https://futureislands.bandcamp.com/album/people-who-aren-t-there-anymore)
 - **Books**:
   - Adrian Tchaikovsky: [Lords of Uncreation](https://www.adriantchaikovsky.com/the-final-architects-shards-of-earth-eyes-of-the-voice-by-adrian-tchaikovsky.html#anchor3)
-  - J. S. Dewes: [Rubicon](https://www.jsdewes.com/books)
+  - J.S. Dewes: [Rubicon](https://www.jsdewes.com/books)
   - Gabrielle Zevin: [Tomorrow and Tomorrow and Tomorrow](https://gabriellezevin.com/tomorrowx3/)
   - Cixin Liu: The Wandering Earth
   - Ursula K. Le Guin: [The Lathe of Heaven](https://www.ursulakleguin.com/the-lathe-of-heaven)
@@ -20,6 +20,9 @@ date: 2024-04-29
   - William Gibson: Neuromancer
   - Ursula K. Le Guin: [The Word for World is Forest](https://www.ursulakleguin.com/the-word-for-world-is-forest)
   - Gabrielle Zevin: [The Storied Life of A.J. Fikry](https://gabriellezevin.com/books/the-storied-life-of-a-j-fikry/)
+  - William Gibson: Count Zero and Mona Lisa Overdrive
+  - H.G. Wells: The Time Machine
+  - Cixin Liu: Hold Up the Sky
 - **Games**:
   - localthunk: [Balatro](https://www.playbalatro.com/)
 
@@ -101,7 +104,7 @@ date: 2024-04-29
   - Johnjoe McFadden: [Life is Simple: How Occam’s Razor Set Science Free and Shapes the Universe](https://johnjoemcfadden.co.uk/books/life-is-simple-how-occams-razor-set-science-free-and-unlocked-the-universe/)
   - Vladimir Nabokov: The Luzhin Defense
   - Rebecca Roanhorse: [Black Sun](https://rebeccaroanhorse.com/2020/04/10/cover-reveal-for-black-sun/) and [Fevered Star](https://rebeccaroanhorse.com/2022/04/19/fevered-star-is-here/)
-  - J. S. Dewes: [The Last Watch](https://www.jsdewes.com/books) and [The Exiled Fleet](https://www.jsdewes.com/books)
+  - J.S. Dewes: [The Last Watch](https://www.jsdewes.com/books) and [The Exiled Fleet](https://www.jsdewes.com/books)
   - Adrian Tchaikovsky: [Shards of Earth](https://www.adriantchaikovsky.com/the-final-architects-shards-of-earth-eyes-of-the-voice-by-adrian-tchaikovsky.html) and [Eyes of the Void](https://www.adriantchaikovsky.com/the-final-architects-shards-of-earth-eyes-of-the-voice-by-adrian-tchaikovsky.html)
   - Martha Wells: [Cloud Roads](https://www.marthawells.com/compendium/cloudroads.htm)
   - Becky Chambers: [A Psalm for the Wild-Built](https://www.otherscribbles.com/#/a-psalm-for-the-wild-built/)
