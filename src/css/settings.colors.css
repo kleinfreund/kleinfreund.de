@@ -2,36 +2,36 @@
   /*
   Light mode colors
   */
-  --cl-text: hsl(227, 100%, 20%);
+  --cl-text: hsl(227 100% 20%);
   --cl-background: #fff;
 
-  --cl-focus: hsl(340, 100%, 45%);
-  --cl-interactive: hsl(225, 100%, 52.5%);
-  --cl-interactive-dark: hsl(225, 100%, 35%);
+  --cl-focus: hsl(340 100% 45%);
+  --cl-interactive: hsl(225 100% 52.5%);
+  --cl-interactive-dark: hsl(225 100% 35%);
 
-  --cl-code-text: hsl(0, 100%, 40%);
-  --cl-code-background: hsl(0, 100%, 95%);
-  --cl-code-block-text: hsl(340, 100%, 5%);
+  --cl-code-text: hsl(0 100% 40%);
+  --cl-code-background: hsl(0 100% 95%);
+  --cl-code-block-text: hsl(340 100% 5%);
   --cl-code-block-background: var(--cl-code-background);
 
-  --cl-note-background: hsl(300, 100%, 97%);
+  --cl-note-background: hsl(300 100% 97%);
 
   /*
   Dark mode colors
   */
-  --cd-text: hsl(219, 79%, 95%);
-  --cd-background: hsl(227, 100%, 10%);
+  --cd-text: hsl(219 79% 95%);
+  --cd-background: hsl(227 100% 10%);
 
-  --cd-focus: hsl(340, 100%, 45%);
-  --cd-interactive: hsl(154.8, 100%, 60.5%);
-  --cd-interactive-dark: hsl(154.8, 100%, 75%);
+  --cd-focus: hsl(340 100% 45%);
+  --cd-interactive: hsl(154.8 100% 60.5%);
+  --cd-interactive-dark: hsl(154.8 100% 75%);
 
-  --cd-code-text: hsl(45, 100%, 55%);
-  --cd-code-background: hsl(130, 95%, 7.5%);
+  --cd-code-text: hsl(45 100% 55%);
+  --cd-code-background: hsl(130 95% 7.5%);
   --cd-code-block-text: var(--cd-code-text);
-  --cd-code-block-background: hsl(227, 100%, 15%);
+  --cd-code-block-background: hsl(227 100% 15%);
 
-  --cd-note-background: hsl(219, 79%, 20%);
+  --cd-note-background: hsl(219 79% 20%);
 }
 
 /* Set default theme to light theme */
