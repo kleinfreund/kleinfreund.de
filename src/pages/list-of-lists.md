@@ -1,13 +1,16 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2024-05-22
+date: 2024-06-22
 ---
 
 ## 2024
 
 - **Favorite albums** so far:
   - Future Islands: [People Who Aren't There Anymore](https://futureislands.bandcamp.com/album/people-who-aren-t-there-anymore)
+  - Beth Gibbons: Lives Outgrown
+  - The Lemon Twigs: [A Dream Is All We Know](https://thelemontwigs.bandcamp.com/album/a-dream-is-all-we-know)
+  - Charli XCX: BRAT
 - **Books**:
   - Adrian Tchaikovsky: [Lords of Uncreation](https://www.adriantchaikovsky.com/the-final-architects-shards-of-earth-eyes-of-the-voice-by-adrian-tchaikovsky.html#anchor3)
   - J.S. Dewes: [Rubicon](https://www.jsdewes.com/books)
