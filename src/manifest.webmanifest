@@ -1,7 +1,6 @@
 {
-  "short_name": "kleinfreund",
   "name": "kleinfreund.de",
-  "display": "minimal-ui",
+  "short_name": "kleinfreund",
   "icons": [
     {
       "src": "/img/icon.svg",
@@ -9,6 +8,5 @@
       "type": "image/svg+xml"
     }
   ],
-  "start_url": "/",
-  "theme_color": "hsl(225, 100%, 52.5%)"
+  "theme_color": "hsl(225 100% 52.5%)"
 }
