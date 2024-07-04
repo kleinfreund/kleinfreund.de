@@ -18,14 +18,12 @@
     right: calc(100% + var(--offset-from-heading));
     margin-left: calc(-1 * var(--offset-from-heading));
   }
-}
 
-/*
-This pseudo element ensures that the gap between the heading and its anchor
-is part of the anchor’s hit area which in turn allows the gap to be hovered
-in order to cause the visibility rule below to apply.
-*/
-@media (min-width: 1000px) {
+  /*
+  This pseudo element ensures that the gap between the heading and its anchor
+  is part of the anchor’s hit area which in turn allows the gap to be hovered
+  in order to cause the visibility rule below to apply.
+  */
   .header-anchor::before {
     content: "";
     position: absolute;
@@ -40,12 +38,7 @@ in order to cause the visibility rule below to apply.
   visibility: hidden;
 }
 
-h1:hover .header-anchor__icon,
-h2:hover .header-anchor__icon,
-h3:hover .header-anchor__icon,
-h4:hover .header-anchor__icon,
-h5:hover .header-anchor__icon,
-h6:hover .header-anchor__icon,
+:where(h1, h2, h3, h4, h5, h6):hover .header-anchor__icon,
 .header-anchor:focus .header-anchor__icon {
   visibility: visible;
 }
