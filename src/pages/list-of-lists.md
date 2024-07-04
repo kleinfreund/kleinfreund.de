@@ -1,14 +1,17 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2024-06-22
+date: 2024-07-04
 ---
 
 ## 2024
 
 - **Favorite albums** so far:
+  - Erika de Casier: [Still](https://erikadecasier.bandcamp.com/album/still)
   - Future Islands: [People Who Aren't There Anymore](https://futureislands.bandcamp.com/album/people-who-aren-t-there-anymore)
+  - Arooj Aftab: Night Reign
   - Beth Gibbons: Lives Outgrown
+  - Chappell Roan: The Rise and Fall of a Midwest Princess
   - The Lemon Twigs: [A Dream Is All We Know](https://thelemontwigs.bandcamp.com/album/a-dream-is-all-we-know)
   - Charli XCX: BRAT
 - **Books**:
