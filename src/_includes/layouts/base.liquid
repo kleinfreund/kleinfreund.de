@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="js-disabled">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -45,24 +45,13 @@
   <link rel="pingback" href="https://webmention.io/kleinfreund.de/xmlrpc">
 
   <script>
-    document.documentElement.classList.remove('js-disabled')
     console.log(`You’re beautiful. Have a ${((6**6**6) + '')[1] + Reflect.ownKeys(Array.prototype)[12].slice(2)} day.`);
   </script>
 </head>
 
 <body class="page">
 
-  <main class="page__content">
-    <button class="button color-scheme-toggle" type="button" data-color-scheme-toggle>
-      <span class="color-scheme-toggle--enable-dark">
-        Enable dark theme
-      </span>
-
-      <span class="color-scheme-toggle--enable-light">
-        Enable light theme
-      </span>
-    </button>
-
+  <main>
     {{ layoutContent }}
   </main>
 

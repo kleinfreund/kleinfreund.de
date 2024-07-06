@@ -28,10 +28,8 @@ html {
   --cd-code-block-background: hsl(227 100% 15%);
 
   --cd-note-background: hsl(219 79% 20%);
-}
 
-/* Color properties for system setting color scheme */
-html:where(:not([data-color-scheme])) {
+  /* Color properties for system setting color scheme */
   --c-text: light-dark(var(--cl-text), var(--cd-text));
   --c-background: light-dark(var(--cl-background), var(--cd-background));
   --c-focus: light-dark(var(--cl-focus), var(--cd-focus));
@@ -42,32 +40,4 @@ html:where(:not([data-color-scheme])) {
   --c-code-block-text: light-dark(var(--cl-code-block-text), var(--cd-code-block-text));
   --c-code-block-background: light-dark(var(--cl-code-block-background), var(--cd-code-block-background));
   --c-note-background: light-dark(var(--cl-note-background), var(--cd-note-background));
-}
-
-/* Color properties for light theme */
-html:where([data-color-scheme="light"]) {
-  --c-text: var(--cl-text);
-  --c-background: var(--cl-background);
-  --c-focus: var(--cl-focus);
-  --c-interactive: var(--cl-interactive);
-  --c-interactive-dark: var(--cl-interactive-dark);
-  --c-code-background: var(--cl-code-background);
-  --c-code-text: var(--cl-code-text);
-  --c-code-block-text: var(--cl-code-block-text);
-  --c-code-block-background: var(--cl-code-block-background);
-  --c-note-background: var(--cl-note-background);
-}
-
-/* Color properties for dark theme */
-html:where([data-color-scheme="dark"]) {
-  --c-text: var(--cd-text);
-  --c-background: var(--cd-background);
-  --c-focus: var(--cd-focus);
-  --c-interactive: var(--cd-interactive);
-  --c-interactive-dark: var(--cd-interactive-dark);
-  --c-code-background: var(--cd-code-background);
-  --c-code-text: var(--cd-code-text);
-  --c-code-block-text: var(--cd-code-block-text);
-  --c-code-block-background: var(--cd-code-block-background);
-  --c-note-background: var(--cd-note-background);
 }
