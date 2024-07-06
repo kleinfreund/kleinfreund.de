@@ -75,7 +75,7 @@ input ~ i {
 }
 ```
 
-Before, with the CSS from above, the whole label would be colored `tomato`. Now, all `i` elements following any `input` element will be colord `cornflowerblue`. “Following” here means that they’re on the same level in the DOM. The DOM fragment currently looks like this (omitting some whitespace-only nodes):
+Before, with the CSS from above, the whole label would be colored `tomato`. Now, all `i` elements following any `input` element will be colored `cornflowerblue`. “Following” here means that they’re on the same level in the DOM. The DOM fragment currently looks like this (omitting some whitespace-only nodes):
 
 - `label`
   - `input`
