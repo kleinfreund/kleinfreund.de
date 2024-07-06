@@ -1,7 +1,5 @@
-:root {
-  /*
-  Light mode colors
-  */
+html {
+  /* Primitive color properties for light color scheme */
   --cl-text: hsl(227 100% 20%);
   --cl-background: #fff;
 
@@ -16,9 +14,7 @@
 
   --cl-note-background: hsl(300 100% 97%);
 
-  /*
-  Dark mode colors
-  */
+  /* Primitive color properties for dark color scheme */
   --cd-text: hsl(219 79% 95%);
   --cd-background: hsl(227 100% 10%);
 
@@ -34,9 +30,22 @@
   --cd-note-background: hsl(219 79% 20%);
 }
 
-/* Set default theme to light theme */
-body:not([data-color-scheme]),
-body[data-color-scheme="light"] {
+/* Color properties for system setting color scheme */
+html:where(:not([data-color-scheme])) {
+  --c-text: light-dark(var(--cl-text), var(--cd-text));
+  --c-background: light-dark(var(--cl-background), var(--cd-background));
+  --c-focus: light-dark(var(--cl-focus), var(--cd-focus));
+  --c-interactive: light-dark(var(--cl-interactive), var(--cd-interactive));
+  --c-interactive-dark: light-dark(var(--cl-interactive-dark), var(--cd-interactive-dark));
+  --c-code-background: light-dark(var(--cl-code-background), var(--cd-code-background));
+  --c-code-text: light-dark(var(--cl-code-text), var(--cd-code-text));
+  --c-code-block-text: light-dark(var(--cl-code-block-text), var(--cd-code-block-text));
+  --c-code-block-background: light-dark(var(--cl-code-block-background), var(--cd-code-block-background));
+  --c-note-background: light-dark(var(--cl-note-background), var(--cd-note-background));
+}
+
+/* Color properties for light theme */
+html:where([data-color-scheme="light"]) {
   --c-text: var(--cl-text);
   --c-background: var(--cl-background);
   --c-focus: var(--cl-focus);
@@ -49,23 +58,8 @@ body[data-color-scheme="light"] {
   --c-note-background: var(--cl-note-background);
 }
 
-/* Override default theme with dark theme */
-@media (prefers-color-scheme: dark) {
-  body:not([data-color-scheme]) {
-    --c-text: var(--cd-text);
-    --c-background: var(--cd-background);
-    --c-focus: var(--cd-focus);
-    --c-interactive: var(--cd-interactive);
-    --c-interactive-dark: var(--cd-interactive-dark);
-    --c-code-background: var(--cd-code-background);
-    --c-code-text: var(--cd-code-text);
-    --c-code-block-text: var(--cd-code-block-text);
-    --c-code-block-background: var(--cd-code-block-background);
-    --c-note-background: var(--cd-note-background);
-  }
-}
-
-body[data-color-scheme="dark"] {
+/* Color properties for dark theme */
+html:where([data-color-scheme="dark"]) {
   --c-text: var(--cd-text);
   --c-background: var(--cd-background);
   --c-focus: var(--cd-focus);

@@ -1,5 +1,5 @@
-:root.js-disabled .color-scheme-toggle {
-  display: none;
+:where(html.js-disabled) .color-scheme-toggle {
+  display: none !important;
 }
 
 .color-scheme-toggle {
@@ -9,8 +9,22 @@
   border: 0.15em solid transparent;
   border-radius: 2px;
   font-size: 0.8em;
+}
+
+/* Apply the color scheme colors in reverse so that the toggle looks like the color scheme it's *going to* activate. */
+:where(html:not([data-color-scheme])) .color-scheme-toggle {
+  color: light-dark(var(--cd-text), var(--cl-text));
+  background-color: light-dark(var(--cd-background), var(--cl-background));
+}
+
+:where(html[data-color-scheme="light"]) .color-scheme-toggle {
   color: var(--cd-text);
   background-color: var(--cd-background);
+}
+
+:where(html[data-color-scheme="dark"]) .color-scheme-toggle {
+  color: var(--cl-text);
+  background-color: var(--cl-background);
 }
 
 @media screen and (min-width: 1000px) {
@@ -21,47 +35,10 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  body:not([data-color-scheme]) .color-scheme-toggle {
-    color: var(--cl-text);
-    background-color: var(--cl-background);
-  }
-}
-
-body[data-color-scheme="dark"] .color-scheme-toggle {
-  color: var(--cl-text);
-  background-color: var(--cl-background);
-}
-
-.color-scheme-toggle--enable-light,
-.color-scheme-toggle--enable-dark {
+:where(html[data-color-scheme="light"]) .color-scheme-toggle--enable-light {
   display: none;
 }
 
-@media (prefers-color-scheme: light) {
-  body:not([data-color-scheme]) .color-scheme-toggle--enable-light {
-    display: none;
-  }
-
-  body:not([data-color-scheme]) .color-scheme-toggle--enable-dark {
-    display: initial;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  body:not([data-color-scheme]) .color-scheme-toggle--enable-dark {
-    display: none;
-  }
-
-  body:not([data-color-scheme]) .color-scheme-toggle--enable-light {
-    display: initial;
-  }
-}
-
-body[data-color-scheme="light"] .color-scheme-toggle--enable-dark {
-  display: initial;
-}
-
-body[data-color-scheme="dark"] .color-scheme-toggle--enable-light {
-  display: initial;
+:where(html[data-color-scheme="dark"]) .color-scheme-toggle--enable-dark {
+  display: none;
 }

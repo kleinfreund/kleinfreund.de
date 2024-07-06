@@ -1,8 +1,12 @@
-body {
+html {
+  color-scheme: light dark;
   overflow-y: scroll;
   font-size: var(--f-size);
   line-height: var(--f-line-height);
   font-family: var(--f-family);
+}
+
+body {
   color: var(--c-text);
   background-color: var(--c-background);
 }

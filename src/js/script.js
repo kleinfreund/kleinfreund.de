@@ -1,7 +1,5 @@
 // @ts-check
 
-/** @typedef {'dark' | 'light'} ColorScheme */
-
 init()
 
 function init() {
@@ -10,47 +8,26 @@ function init() {
 }
 
 function initColorSchemeToggle() {
-  const storedColorScheme = window.localStorage.getItem('active-color-scheme')
-  if (typeof storedColorScheme === 'string') {
-    document.body.setAttribute('data-color-scheme', storedColorScheme)
-  }
+  document.querySelector('[data-color-scheme-toggle]')
+    ?.addEventListener('click', function () {
+      const newActiveColorScheme = document.documentElement.getAttribute('data-color-scheme') === 'light' ? 'dark' : 'light'
+      document.documentElement.setAttribute('data-color-scheme', newActiveColorScheme)
+      window.localStorage.setItem('active-color-scheme', newActiveColorScheme)
+    })
 
-  const toggle = /** @type {HTMLButtonElement} */(document.querySelector('[data-color-scheme-toggle]'))
-  toggle.addEventListener('click', toggleColorScheme)
+  // Initially set the `data-color-scheme` attribute to either (1) the stored color scheme or (2) the preferred color scheme. From this point on, the `data-color-scheme` is the only thing controlling the active scheme. This together with the `light-dark()` function in CSS removes the need for dealing with the `prefers-color-scheme` media query in CSS.
+  document.documentElement.setAttribute('data-color-scheme', getColorSchemePreference())
 }
 
-function toggleColorScheme() {
-  const activeColorScheme = getActiveColorScheme()
-  const newActiveColorScheme = activeColorScheme === 'light' ? 'dark' : 'light'
-  document.body.setAttribute('data-color-scheme', newActiveColorScheme)
-  window.localStorage.setItem('active-color-scheme', newActiveColorScheme)
-}
-
-/**
- * @returns {ColorScheme} the active color scheme.
- */
-function getActiveColorScheme() {
-  const activeColorScheme = /** @type {ColorScheme | null} */ (document.body.getAttribute('data-color-scheme'))
-
-  if (typeof activeColorScheme === 'string') {
-    return activeColorScheme
-  }
-
-  const colorSchemePreference = getColorSchemePreference()
-  return colorSchemePreference !== 'no-preference' ? colorSchemePreference : 'light'
-}
-
-/**
- * @returns {ColorScheme | 'no-preference'} a user’s color scheme preference.
- */
 function getColorSchemePreference() {
-  if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+  const storedColorScheme = window.localStorage.getItem('active-color-scheme')
+  if (storedColorScheme !== null) {
+    return storedColorScheme
+  } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
     return 'dark'
-  } else if (window.matchMedia('(prefers-color-scheme: light)').matches) {
-    return 'light'
-  } else {
-    return 'no-preference'
   }
+
+  return 'light'
 }
 
 function setCurrentEmploymentTime() {
