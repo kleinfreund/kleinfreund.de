@@ -3,8 +3,6 @@ title: Music for Anna
 date: 2016-05-18
 tags:
 - music
-css:
-- objects.embedded-media.css
 ---
 You asked me to write down some recommendations because you liked the music I was playing while you were around. So here it is. Not on a piece of paper, though.
 

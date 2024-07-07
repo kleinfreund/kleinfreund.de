@@ -3,8 +3,6 @@ title: Favorite EPs of 2015
 date: 2015-12-25
 tags:
 - music
-css:
-- objects.embedded-media.css
 ---
 Now a short segment where I list my favorite EP’s from the year. I felt like splitting my favorite records into albums and EP’s since they’re often very different in length.
 

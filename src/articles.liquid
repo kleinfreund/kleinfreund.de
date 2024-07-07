@@ -2,8 +2,6 @@
 title: Articles
 description: "Articles I’ve written over the span of the last half or so decade."
 layout: _includes/layouts/page.liquid
-css:
-- components.pagination.css
 pagination:
   data: collections.posts
   size: 5
@@ -34,15 +32,15 @@ pagination:
 {% if pagination.pageLinks.length > 1 %}
 <nav class="pagination" role="navigation" aria-label="Pagination navigation">
   {% if pagination.previousPageLink %}
-    <a class="pagination__item" href="{{ pagination.previousPageHref | url }}">Newer articles</a>
+    <a href="{{ pagination.previousPageHref | url }}">Newer articles</a>
   {% else %}
-    <span class="pagination__item">Newer articles</span>
+    <span>Newer articles</span>
   {% endif %}
 
   {% if pagination.nextPageLink %}
-    <a class="pagination__item" href="{{ pagination.nextPageHref | url }}">Older articles</a>
+    <a href="{{ pagination.nextPageHref | url }}">Older articles</a>
   {% else %}
-    <span class="pagination__item">Older articles</span>
+    <span>Older articles</span>
   {% endif %}
 </nav>
 {% endif %}

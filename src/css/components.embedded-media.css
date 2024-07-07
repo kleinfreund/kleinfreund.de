@@ -2,7 +2,7 @@
   --width: 16;
   --height: 9;
   position: relative;
-  margin-bottom: var(--f-vertical-spacing);
+  margin-block-start: var(--f-vertical-spacing);
 }
 
 .embedded-media::before {
@@ -13,18 +13,14 @@
 }
 
 .embedded-media > iframe {
-  width: 100%;
-  height: 100%;
+  inline-size: 100%;
+  block-size: 100%;
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  inset: 0;
 }
 
 iframe[src^='https://bandcamp.com/EmbeddedPlayer'] {
   display: block;
-  max-width: 700px;
-  margin-right: auto;
-  margin-left: auto;
+  max-inline-size: 700px;
+  margin-inline: auto;
 }

@@ -5,6 +5,11 @@
   font-size: 0.9em;
 }
 
+.note:not(.marginalia) {
+  padding: 0.5em 1em;
+  background-color: var(--c-note-background);
+}
+
 .note--info {
   /* 💡 https://www.fileformat.info/info/unicode/char/1f4a1/index.htm */
   --note-glyph: '\1f4a1';
@@ -21,23 +26,4 @@
 
 .note code {
   color: currentColor;
-}
-
-@media (min-width: 1000px) {
-  .note:not(.marginalia) {
-    padding: 0.5em 1em;
-    background-color: var(--c-note-background);
-  }
-
-  .note:not(.marginalia)::before {
-    content: var(--note-glyph);
-  }
-
-  .note:not(.marginalia)::before {
-    position: absolute;
-    right: 100%;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 1.5em;
-  }
 }

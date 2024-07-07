@@ -1,0 +1,18 @@
+@layer settings, reset, elements, layout, components, utilities;
+
+@import "/css/settings.css" layer(settings);
+
+@import "/css/reset.css" layer(reset);
+
+@import "/css/elements.css" layer(elements);
+
+@import "/css/layout.page.css" layer(layout);
+@import "/css/layout.post.css" layer(layout);
+
+@import "/css/components.embedded-media.css" layer(components);
+@import "/css/components.header-anchor.css" layer(components);
+@import "/css/components.note.css" layer(components);
+@import "/css/components.pagination.css" layer(components);
+
+@import "/css/utilities.meta.css" layer(utilities);
+@import "/css/utilities.visually-hidden.css" layer(utilities);

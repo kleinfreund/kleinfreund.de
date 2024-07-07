@@ -1,0 +1,63 @@
+.post-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
+  margin-block-start: 3rem;
+}
+
+.post-list time + h2 {
+  margin-block-start: 0;
+}
+
+/*
+[1]: Defines a three-column layout:
+      - full: spans all columns
+      - main: center column
+      - side: side column next to the center column for additional content accompanying the main content in the center column
+*/
+.post {
+  container-name: post;
+  container-type: inline-size;
+  display: grid;
+  align-items: start;
+  grid-template-columns: [full-start main-start] minmax(0, 3fr) [main-end side-start] minmax(0, 1fr) [full-end side-end]; /* [1] */
+  column-gap: 2rem;
+}
+
+/*
+By default, content sits in the main column.
+*/
+.post > * {
+  grid-column: main;
+}
+
+/*
+Some content takes up all available space.
+*/
+.post > :where(figure, blockquote, .embedded-media) {
+  grid-column: full;
+}
+
+.post > :where(h1, h2, h3, h4, h5, h6, pre) {
+  grid-column: main-start / full-end;
+}
+
+/*
+Marginalia (https://en.m.wikipedia.org/wiki/Marginalia) is additional, related content (i.e. a
+side note or boxout)
+
+[1]: Allows the marginalia content to be positioned absolutely.
+*/
+.post > .marginalia {
+  grid-column: side;
+  position: relative; /* [1] */
+  font-size: 0.8em;
+}
+
+
+@container post (inline-size < 40rem) {
+  .post > * {
+    grid-column: full;
+  }
+}

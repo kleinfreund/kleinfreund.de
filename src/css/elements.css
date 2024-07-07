@@ -1,0 +1,244 @@
+html {
+  color-scheme: light dark;
+  overflow-y: scroll;
+  font-size: var(--f-size);
+  line-height: var(--f-line-height);
+  font-family: var(--f-family);
+  color: var(--c-text);
+  background-color: var(--c-background);
+}
+
+/*
+* VERTICAL RHYTHM
+*/
+
+/*
+1: Set one-directional margin to establish vertical rhythm.
+*/
+:is(p, blockquote, pre, table, figure, ul, ol, dl):where(:not(:first-child)) {
+  margin-block-start: var(--f-vertical-spacing); /* 1 */
+}
+
+/*
+* HEADINGS
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+  font-family: var(--f-family-headings);
+  line-height: 1.25;
+}
+
+:where(:not(h1)) + h2 {
+  margin-block-start: calc(2 * var(--f-vertical-spacing));
+}
+
+:where(:not(h2)) + h3,
+:where(:not(h3)) + h4,
+:where(:not(h4)) + h5,
+:where(:not(h5)) + h6 {
+  margin-block-start: var(--f-vertical-spacing);
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.4em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+h4 {
+  font-size: 1.4em;
+}
+
+h5 {
+  font-size: 1.2em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+/*
+* LINKS
+*/
+
+:focus {
+  outline: 4px dotted var(--c-focus);
+  outline-offset: 4px;
+}
+
+a {
+  color: var(--c-interactive);
+}
+
+a:hover {
+  color: var(--c-interactive-dark);
+}
+
+/*
+* GENERIC INLINE ELEMENTS
+*/
+
+b,
+strong {
+  font-weight: bold;
+}
+
+abbr[title] {
+  text-decoration: none;
+  border-bottom: 0.1em dotted;
+}
+
+/*
+* IMAGES
+*/
+
+/*
+1: Style alt text.
+*/
+img {
+  max-inline-size: 100%;
+  border: 0;
+  font-style: italic; /* 1 */
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+figure > img {
+  display: block;
+}
+
+figcaption {
+  font-size: 0.85em;
+  padding: 0.75rem 1.5rem;
+}
+
+/*
+* TABLES
+*/
+
+:where(thead) tr {
+  border-block-end: 2px solid var(--c-interactive);
+}
+
+:where(tbody tr) + tr {
+  border-block-end: 2px dotted var(--c-interactive);
+}
+
+th,
+td {
+  padding: 0.2em 0.4em;
+}
+
+th {
+  font-weight: bold;
+}
+
+/*
+* RULERS
+*/
+
+hr {
+  inline-size: 100%;
+  margin-block: var(--f-vertical-spacing) 0;
+  color: inherit;
+  border-block-end: 0.1em solid;
+}
+
+/*
+* LISTS
+*/
+
+:is(ul, ol, dl):where(:not([class])) {
+  padding-inline-start: 2rem;
+}
+
+:where(ul, ol, dl):where(:not([class])) li {
+  --f-vertical-spacing: calc(var(--f-base-vertical-spacing) / 2);
+}
+
+/* Add a gap above non-first list items if its list has any list items containing a list themselves (or a `pre` element). A flat list remains compact, but nested lists have more spacing for all but the deepest nesting level */
+:where(ul, ol, dl):where(:not([class])):where(:has(li li), :has(pre)) > li + li {
+	margin-block-start: calc(var(--f-vertical-spacing));
+}
+
+/*
+* CODE
+*/
+
+pre,
+code,
+kbd {
+  font-family: var(--f-family-code);
+  font-size: 0.85em;
+}
+
+code {
+  padding-inline: 0.25em;
+  border-radius: 0.15em;
+  color: var(--c-code-text);
+  background-color: var(--c-code-background);
+}
+
+pre code {
+  padding-inline: 0;
+  color: var(--c-code-block-text);
+  background-color: inherit;
+}
+
+pre {
+  padding: 0.5em 1em;
+  overflow-x: auto;
+  background-color: var(--c-code-block-background);
+  border-radius: 0.5em;
+}
+
+kbd {
+  padding: 0.1em 0.3em;
+  border: 0.1em solid;
+  border-radius: 0.2em;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+
+/*
+* QUOTES
+*/
+
+blockquote {
+  position: relative;
+  padding: 0.75em 1.5em;
+  font-size: 2em;
+  font-family: var(--f-family-quote);
+}
+
+blockquote::before {
+  content: "“";
+  position: absolute;
+  inset-block-start: 0.125em;
+  inset-inline-start: 0;
+  font-size: 3.5em;
+  line-height: 1;
+}
+
+:where(blockquote) cite {
+  font-size: 0.7em;
+}
+
+:where(blockquote) cite::before {
+  content: "\2014";
+}

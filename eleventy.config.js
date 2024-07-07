@@ -1,10 +1,11 @@
+const { readFileSync } = require('node:fs')
+const { join, resolve } = require('node:path')
+
 const { minify } = require('terser')
 const CleanCSS = require('clean-css')
-const fs = require('fs')
 const htmlMinifier = require('html-minifier')
 const markdownIt = require('markdown-it')
 const markdownItAnchor = require('markdown-it-anchor')
-const path = require('path')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 
 /**
@@ -66,7 +67,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode('excerpt', (post) => extractExcerpt(post))
 
   // Filters for compressing CSS
-  eleventyConfig.addFilter('resolve_css_imports', resolveCssImports)
+  eleventyConfig.addFilter('inline_css_imports', inlineCssImports)
   eleventyConfig.addFilter('minify_css', minifyCss)
   eleventyConfig.addFilter('minify_js', minifyJs)
 
@@ -94,15 +95,27 @@ module.exports = function (eleventyConfig) {
 
 /**
  * @param {string} cssPath
- * @returns {string} the concatenated contents of the CSS files found by resolving `@import` rules in the CSS file at `cssPath`.
+ * @returns {string} the concatenated contents of the CSS files found by inlining `@import` rules in the CSS file at `cssPath`.
  */
-function resolveCssImports(cssPath) {
-  return fs.readFileSync(path.resolve(__dirname, path.join('src', cssPath)), 'utf8')
-    .split(/\r?\n/)
-    .filter((line) => line.startsWith('@import'))
-    .map((rule) => rule.replace(/@import ['"]/, '').replace(/['"];/, ''))
-    .map((importPath) => fs.readFileSync(path.resolve(__dirname, path.join('src', importPath)), 'utf8'))
-    .join('')
+function inlineCssImports(cssPath) {
+  return readFileContent(cssPath)
+    .replace(/@import\s+(["'])(.*)\1\s*(?:layer\((.*)\))?;/g, (_match, _p1, path, layer) => {
+      if (layer) {
+        return `@layer ${layer} {
+          ${readFileContent(path)}
+        }`
+      } else {
+        return readFileContent(path)
+      }
+    })
+}
+
+/**
+ * @param {string} path
+ * @returns {string}
+ */
+function readFileContent(path) {
+  return readFileSync(resolve(__dirname, join('src', path)), 'utf8')
 }
 
 /**

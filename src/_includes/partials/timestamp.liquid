@@ -1,22 +1,18 @@
-{%- capture ordinalized_day -%}
+{% capture suffix -%}
   {% assign day = date | date: '%d' | plus: '0' %}
   {% if day == '1' or day == '21' or day == '31' %}
-    {{ day }}st
+    st
   {% elsif day == '2' or day == '22' %}
-    {{ day }}nd
+    nd
   {% elsif day == '3' or day == '23' %}
-    {{ day }}rd
+    rd
   {% else %}
-    {{ day }}th
+    th
   {% endif %}
-{%- endcapture -%}
+{%- endcapture %}
 
-{%- capture formatted_date -%}
-  {{ date | date: '%B' }}
-
-  {{ ordinalized_day | strip }},
-
-  {{ date | date: '%Y' }}
-{%- endcapture -%}
+{% capture formatted_date -%}
+  {{ date | date: '%B' }} {{ day }}<sup>{{ suffix | strip }}</sup>, {{ date | date: '%Y' }}
+{%- endcapture %}
 
 <time datetime="{{ date | date: '%Y-%m-%d' }}">{{ formatted_date }}</time>

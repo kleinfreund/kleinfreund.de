@@ -7,6 +7,8 @@ date: 2017-10-14
 I’ve redesigned my site for the umpteenth time now. One big phase has always been the work on the basic visual appearance.
 Up until now, I scavanged my archive for posts that have the elements that needed to be styled: code blocks, quotes, etc. This was a tedious process. Now, I use this document containing all basic forms of content my site uses. My personal style guide.
 
+---
+
 What I mean with “basic forms of content” can be summarized by listing the set of elements on a page that can be styled with plain CSS element selectors (i.e. without any classes). If you’re familar with Harry Roberts’ Inverted Triangle CSS methodology, the style guide deals only with the elements layer.
 
 ## Contents
@@ -63,13 +65,22 @@ As my grandma used to say <q>Remember, there is a <q>proper HTML</q> element for
 By default, code blocks work well but are rather limited compared to what we see in our text editors. It would be nice to have automatic line numbers. Maybe this can be done with [CSS counters](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Lists_and_Counters/Using_CSS_counters) and by wrapping each line of code in its own `code` element.
 
 ```css
-pre {
-  padding: 0.5em 1em;
-  overflow-x: auto;
-  background-color: var(--c-code-block-background);
-  border-radius: 0.5em;
+/* Add a gap above non-first list items if its list has any list items containing a list themselves (or a `pre` element). A flat list remains compact, but nested lists have more spacing for all but the deepest nesting level */
+:where(ul, ol, dl):where(:not([class])):where(:has(li li), :has(pre)) > li + li {
+	margin-block-start: calc(var(--f-vertical-spacing));
 }
 ```
+
+- Code in lists
+
+  ```css
+  /* Add a gap above non-first list items if its list has any list items containing a list themselves (or a `pre` element). A flat list remains compact, but nested lists have more spacing for all but the deepest nesting level */
+  :where(ul, ol, dl):where(:not([class])):where(:has(li li), :has(pre)) > li + li {
+    margin-block-start: calc(var(--f-vertical-spacing));
+  }
+  ```
+
+- with more content
 
 ## Headings
 

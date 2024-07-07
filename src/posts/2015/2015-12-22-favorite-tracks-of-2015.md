@@ -3,8 +3,6 @@ title: Favorite tracks of 2015
 date: 2015-12-22
 tags:
 - music
-css:
-- objects.embedded-media.css
 ---
 Hey there everyone, it’s List Week already. So without further ado, here are my twenty favorite tracks released in 2015.
 

@@ -1,0 +1,6 @@
+.pagination {
+  display: flex;
+  gap: 5rem;
+  margin-block-start: 3rem;
+  padding: 3vw;
+}

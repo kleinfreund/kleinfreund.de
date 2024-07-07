@@ -3,8 +3,6 @@ title: Favorite songs of 2018
 date: 2018-12-25
 tags:
 - music
-css:
-- objects.embedded-media.css
 ---
 After a two-year break, I bring back my favorite songs of the year list. I tried to bring it into order, but it’s really just a rough one. Further down the list, I get more confident with where I placed the songs. As always, please let me know your favorite songs because I’m sure I’m forgetting a bunch. Here we go.
 

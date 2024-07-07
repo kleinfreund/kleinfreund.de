@@ -15,24 +15,10 @@
 
   {% if eleventy.isProduction %}
     <style>
-      {{ 'css/kleinfreund.css' | resolve_css_imports | minify_css }}
-
-      {%- for cssPath in css -%}
-        {% assign isolated_css_path = 'css/isolated/' | url | append: cssPath %}
-
-        {%- capture isolated_css -%}
-          {% include isolated_css_path %}
-        {%- endcapture -%}
-
-        {{ isolated_css | minify_css }}
-      {%- endfor -%}
+      {{ 'css/main.css' | inline_css_imports | minify_css }}
     </style>
   {% else %}
-    <link rel="stylesheet" href="{{ '/css/kleinfreund.css' | url }}">
-
-    {%- for cssPath in css -%}
-      <link rel="stylesheet" href="{{ '/css/isolated/' | url }}{{ cssPath }}">
-    {%- endfor -%}
+    <link rel="stylesheet" href="{{ '/css/main.css' | url }}">
   {% endif %}
 
   <link rel="alternate" href="{{ '/feed.xml' | url }}" type="application/atom+xml" title="Feed for kleinfreund.de">
@@ -56,15 +42,21 @@
   </main>
 
   {% if eleventy.isProduction %}
-    <script defer>
-      {%- capture script_content -%}
-        {% include 'js/script.js' %}
-      {%- endcapture -%}
+    {% capture isolated_js %}
+      {% for script_path in scripts %}
+        {% include script_path %}
+      {% endfor %}
+    {% endcapture %}
 
-      {{ script_content | minify_js }}
-    </script>
+    {% if isolated_js -%}
+      <script defer>
+        {{ isolated_js | minify_js }}
+      </script>
+    {%- endif %}
   {% else %}
-    <script src="{{ '/js/script.js' | url }}" defer></script>
+    {% for script_path in scripts %}
+      <script src="{{ '/' | url | append: script_path }}" defer></script>
+    {% endfor %}
   {% endif %}
 
 </body>

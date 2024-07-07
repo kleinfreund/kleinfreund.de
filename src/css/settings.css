@@ -1,6 +1,11 @@
 html {
+  /*
+  * COLORS
+  */
+
   /* Primitive color properties for light color scheme */
-  --cl-text: hsl(227 100% 20%);
+  --cl-text: hsl(227 100% 15%);
+  --cl-text-neutral: hsl(227 10% 30%);
   --cl-background: #fff;
 
   --cl-focus: hsl(340 100% 45%);
@@ -10,12 +15,13 @@ html {
   --cl-code-text: hsl(0 100% 40%);
   --cl-code-background: hsl(0 100% 95%);
   --cl-code-block-text: hsl(340 100% 5%);
-  --cl-code-block-background: var(--cl-code-background);
+  --cl-code-block-background: hsl(0 100% 95%);
 
   --cl-note-background: hsl(300 100% 97%);
 
   /* Primitive color properties for dark color scheme */
   --cd-text: hsl(219 79% 95%);
+  --cd-text-neutral: hsl(219 79% 85%);
   --cd-background: hsl(227 100% 10%);
 
   --cd-focus: hsl(340 100% 45%);
@@ -24,13 +30,14 @@ html {
 
   --cd-code-text: hsl(45 100% 55%);
   --cd-code-background: hsl(130 95% 7.5%);
-  --cd-code-block-text: var(--cd-code-text);
+  --cd-code-block-text: hsl(45 100% 55%);
   --cd-code-block-background: hsl(227 100% 15%);
 
   --cd-note-background: hsl(219 79% 20%);
 
   /* Color properties for system setting color scheme */
   --c-text: light-dark(var(--cl-text), var(--cd-text));
+  --c-text-neutral: light-dark(var(--cl-text-neutral), var(--cd-text-neutral));
   --c-background: light-dark(var(--cl-background), var(--cd-background));
   --c-focus: light-dark(var(--cl-focus), var(--cd-focus));
   --c-interactive: light-dark(var(--cl-interactive), var(--cd-interactive));
@@ -40,4 +47,16 @@ html {
   --c-code-block-text: light-dark(var(--cl-code-block-text), var(--cd-code-block-text));
   --c-code-block-background: light-dark(var(--cl-code-block-background), var(--cd-code-block-background));
   --c-note-background: light-dark(var(--cl-note-background), var(--cd-note-background));
+
+  /*
+  * TYPOGRAPHY
+  */
+  --f-family: Lato, Numero, sans-serif;
+  --f-family-headings: Lato, Numero, sans-serif;
+  --f-family-code: 'Fira Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  --f-family-quote: Cambria, Caladea, Cochin, Georgia, Times, 'Times New Roman', serif;
+  --f-size: 1.25em;
+  --f-line-height: 1.5;
+  --f-base-vertical-spacing: calc(var(--f-size) * var(--f-line-height) / 2);
+  --f-vertical-spacing: var(--f-base-vertical-spacing);
 }

@@ -1,0 +1,5 @@
+.page {
+  max-width: 60rem;
+  margin: 6rem auto;
+  padding-inline: clamp(1rem, 3vw, 3rem);
+}

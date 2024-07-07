@@ -2,8 +2,8 @@
 title: Résumé
 description: The résumé of Philipp Rudloff, a frontend developer living in Hamburg, Germany.
 date: 2024-05-22
-css:
-- components.entry.css
+scripts:
+- js/WithDuration.js
 ---
 
 Hey there, my name is Philipp Rudloff and I’m a frontend developer.
@@ -22,21 +22,23 @@ I build websites and web applications with reliable user and developer interface
 
 ## Work
 
-<div class="entry">
-  <h3>Factorial GmbH</h3>
-  <div class="entry__time">Full-time<span data-start-date="2024-06-01"></span></div>
-  <div class="entry__location">On-site in Hamburg (Germany)</div>
+### Factorial GmbH
+
+<div class="meta">
+  <with-duration start-date="2024-06-01">Full-time</with-duration><br>
+  On-site in Hamburg (Germany)
 </div>
 
 - **Senior frontend developer**<br>
-  Jun 2024 – Present<span data-start-date="2024-06-01"></span>
+  <with-duration start-date="2024-06-01">Jun 2024 – Present</with-duration>
 
 Technologies: HTML, CSS, JavaScript
 
-<div class="entry">
-  <h3>Kong Inc.</h3>
-  <div class="entry__time">Full-time · 1 year, 9 months</div>
-  <div class="entry__location">Remote</div>
+### Kong Inc.
+
+<div class="meta">
+  Full-time · 1 year, 9 months<br>
+  Remote
 </div>
 
 - **Senior software engineer (frontend)**<br>
@@ -46,10 +48,11 @@ At Kong, I was responsible for the general maintenance and development of the UI
 
 Technologies: HTML, CSS, JavaScript (TypeScript, Vue)
 
-<div class="entry">
-  <h3>Sendcloud B.V.</h3>
-  <div>Full-time · 3 years, 1 month</div>
-  <div>On-site in Eindhoven (Netherlands)</div>
+### Sendcloud B.V.
+
+<div class="meta">
+  Full-time · 3 years, 1 month<br>
+  On-site in Eindhoven (Netherlands)
 </div>
 
 - **Senior frontend developer**<br>
