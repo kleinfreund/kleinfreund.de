@@ -17,7 +17,7 @@
     "html-minifier": "^4.0.0",
     "markdown-it": "^14.1.0",
     "markdown-it-anchor": "^9.0.1",
-    "rimraf": "^5.0.7",
-    "terser": "^5.31.1"
+    "rimraf": "^5.0.10",
+    "terser": "^5.31.3"
   }
 }
