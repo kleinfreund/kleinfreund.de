@@ -1,3 +1,4 @@
 .meta {
+  margin-block-start: var(--f-vertical-spacing);
   color: var(--c-text-neutral);
 }
