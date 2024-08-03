@@ -1,7 +1,7 @@
 ---
 title: Résumé
-description: The résumé of Philipp Rudloff, a frontend developer living in Hamburg, Germany.
-date: 2024-05-22
+description: The résumé of Philipp Rudloff, a frontend developer living in Liepzig, Germany.
+date: 2024-08-03
 scripts:
 - js/WithDuration.js
 ---
@@ -26,7 +26,7 @@ I build websites and web applications with reliable user and developer interface
 
 <div class="meta">
   <with-duration start-date="2024-06-01">Full-time</with-duration><br>
-  On-site in Hamburg (Germany)
+  Hybrid (Hamburg, Germany)
 </div>
 
 - **Senior frontend developer**<br>
@@ -38,7 +38,7 @@ Technologies: HTML, CSS, JavaScript
 
 <div class="meta">
   Full-time · 1 year, 9 months<br>
-  Remote
+  Remote (Eindhoven, Netherlands)
 </div>
 
 - **Senior software engineer (frontend)**<br>
@@ -52,7 +52,7 @@ Technologies: HTML, CSS, JavaScript (TypeScript, Vue)
 
 <div class="meta">
   Full-time · 3 years, 1 month<br>
-  On-site in Eindhoven (Netherlands)
+  On-site (Eindhoven, Netherlands)
 </div>
 
 - **Senior frontend developer**<br>
@@ -71,8 +71,13 @@ Technologies: HTML, CSS, JavaScript (Vue)
 
 ### Bauhaus-Universität Weimar
 
-**Frontend developer**<br>
-Weimar Germany (Aug 2017 – Jun 2019)
+<div class="meta">
+  Part-time · 1 years, 10 months<br>
+  Hybrid (Weimar, Germany)
+</div>
+
+- **Frontend developer**<br>
+  Aug 2017 – Jun 2019 · 1 years, 10 months
 
 ## Education
 
