@@ -1,7 +1,7 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2024-07-04
+date: 2024-09-01
 ---
 
 ## 2024
@@ -29,6 +29,8 @@ date: 2024-07-04
   - William Gibson: Count Zero and Mona Lisa Overdrive
   - H.G. Wells: The Time Machine
   - Cixin Liu: Hold Up the Sky
+  - Jonny Sun: [Goodbye Again](https://jonnysun.com/books)
+  - J.D. Salinger: [Nine Stories](https://salinger.org/publication/nine-stories/)
 - **Games**:
   - localthunk: [Balatro](https://www.playbalatro.com/)
 
