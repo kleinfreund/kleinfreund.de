@@ -1,7 +1,7 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2024-09-01
+date: 2024-09-08
 ---
 
 ## 2024
@@ -11,7 +11,6 @@ date: 2024-09-01
   - Future Islands: [People Who Aren't There Anymore](https://futureislands.bandcamp.com/album/people-who-aren-t-there-anymore)
   - Arooj Aftab: Night Reign
   - Beth Gibbons: Lives Outgrown
-  - Chappell Roan: The Rise and Fall of a Midwest Princess
   - The Lemon Twigs: [A Dream Is All We Know](https://thelemontwigs.bandcamp.com/album/a-dream-is-all-we-know)
   - Charli XCX: BRAT
 - **Books**:
@@ -31,6 +30,7 @@ date: 2024-09-01
   - Cixin Liu: Hold Up the Sky
   - Jonny Sun: [Goodbye Again](https://jonnysun.com/books)
   - J.D. Salinger: [Nine Stories](https://salinger.org/publication/nine-stories/)
+  - Coco Mellors: [Blue Sisters](https://www.cocomellors.com/#novels)
 - **Games**:
   - localthunk: [Balatro](https://www.playbalatro.com/)
 
