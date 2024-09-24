@@ -1,7 +1,7 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2024-09-08
+date: 2024-09-24
 ---
 
 ## 2024
@@ -11,6 +11,7 @@ date: 2024-09-08
   - Future Islands: [People Who Aren't There Anymore](https://futureislands.bandcamp.com/album/people-who-aren-t-there-anymore)
   - Arooj Aftab: Night Reign
   - Beth Gibbons: Lives Outgrown
+  - Floating Points: [Cascade](https://floatingpoints.bandcamp.com/album/cascade)
   - The Lemon Twigs: [A Dream Is All We Know](https://thelemontwigs.bandcamp.com/album/a-dream-is-all-we-know)
   - Charli XCX: BRAT
 - **Books**:
