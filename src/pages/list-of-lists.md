@@ -1,7 +1,7 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2024-09-24
+date: 2024-09-27
 ---
 
 ## 2024
@@ -32,6 +32,7 @@ date: 2024-09-24
   - Jonny Sun: [Goodbye Again](https://jonnysun.com/books)
   - J.D. Salinger: [Nine Stories](https://salinger.org/publication/nine-stories/)
   - Coco Mellors: [Blue Sisters](https://www.cocomellors.com/#novels)
+  - Raymond Carver: Where I'm Calling From
 - **Games**:
   - localthunk: [Balatro](https://www.playbalatro.com/)
 
