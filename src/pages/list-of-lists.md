@@ -1,12 +1,13 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2024-09-27
+date: 2024-10-02
 ---
 
 ## 2024
 
 - **Favorite albums** so far:
+  - Jamie xx: [In Waves](https://jamiexx.bandcamp.com/album/in-waves)
   - Erika de Casier: [Still](https://erikadecasier.bandcamp.com/album/still)
   - Future Islands: [People Who Aren't There Anymore](https://futureislands.bandcamp.com/album/people-who-aren-t-there-anymore)
   - Arooj Aftab: Night Reign
