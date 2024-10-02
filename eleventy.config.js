@@ -1,12 +1,12 @@
-const { readFileSync } = require('node:fs')
-const { join, resolve } = require('node:path')
+import { readFileSync } from 'node:fs'
+import { join, resolve } from 'node:path'
 
-const { minify } = require('terser')
-const CleanCSS = require('clean-css')
-const htmlMinifier = require('html-minifier')
-const markdownIt = require('markdown-it')
-const markdownItAnchor = require('markdown-it-anchor')
-const pluginRss = require('@11ty/eleventy-plugin-rss')
+import { minify } from 'terser'
+import CleanCSS from 'clean-css'
+import htmlMinifier from 'html-minifier'
+import markdownIt from 'markdown-it'
+import markdownItAnchor from 'markdown-it-anchor'
+import pluginRss from '@11ty/eleventy-plugin-rss'
 
 /**
  * https://github.com/kangax/html-minifier#options-quick-reference
@@ -34,7 +34,7 @@ const markdownItOptions = {
  * @type {import('markdown-it-anchor').default.AnchorOptions}
  */
 const markdownItAnchorOptions = {
-  permalink: markdownItAnchor.default.permalink.linkInsideHeader({
+  permalink: markdownItAnchor.permalink.linkInsideHeader({
     symbol: `<span class="header-anchor__icon">
       <b>#</b>
       <span class="visually-hidden">Jump to heading</span>
@@ -43,7 +43,7 @@ const markdownItAnchorOptions = {
   }),
 }
 
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
   eleventyConfig.setLiquidOptions({
     dynamicPartials: true,
     strict_filters: true,
@@ -60,7 +60,7 @@ module.exports = function (eleventyConfig) {
     .addPassthroughCopy('src/.htaccess')
     .addPassthroughCopy('src/manifest.webmanifest')
 
-  const markdownLib = markdownIt(markdownItOptions).use(markdownItAnchor.default, markdownItAnchorOptions)
+  const markdownLib = markdownIt(markdownItOptions).use(markdownItAnchor, markdownItAnchorOptions)
   eleventyConfig.setLibrary('md', markdownLib)
 
   // Defines shortcode for generating post excerpts
@@ -115,7 +115,7 @@ function inlineCssImports(cssPath) {
  * @returns {string}
  */
 function readFileContent(path) {
-  return readFileSync(resolve(__dirname, join('src', path)), 'utf8')
+  return readFileSync(resolve(join('src', path)), 'utf8')
 }
 
 /**

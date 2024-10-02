@@ -3,6 +3,7 @@
   "repository": "https://github.com/kleinfreund/kleinfreund.de",
   "version": "2.0.0",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "prebuild": "rimraf _site",
     "build": "cross-env NODE_ENV=production eleventy",
@@ -10,8 +11,8 @@
     "start": "cross-env NODE_ENV=development eleventy --serve"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-rss": "^2.0.2",
     "clean-css": "^5.3.3",
     "cross-env": "^7.0.3",
     "html-minifier": "^4.0.0",
