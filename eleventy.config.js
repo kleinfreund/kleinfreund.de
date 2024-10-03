@@ -1,5 +1,5 @@
 import { readFileSync } from 'node:fs'
-import { join, resolve } from 'node:path'
+import { join } from 'node:path'
 import { inspect } from 'node:util'
 
 import { minify } from 'terser'
@@ -127,7 +127,7 @@ function inlineCssImports(cssPath) {
  * @returns {string}
  */
 function readFileContent(path) {
-  return readFileSync(resolve(join('src', path)), 'utf8')
+  return readFileSync(join('src', path), 'utf8')
 }
 
 /**
