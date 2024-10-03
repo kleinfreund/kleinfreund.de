@@ -9,6 +9,8 @@ import markdownIt from 'markdown-it'
 import markdownItAnchor from 'markdown-it-anchor'
 import pluginRss from '@11ty/eleventy-plugin-rss'
 
+const ELEVENTY_INPUT_DIR = 'src'
+
 /**
  * https://github.com/kangax/html-minifier#options-quick-reference
  *
@@ -96,7 +98,7 @@ export default function (eleventyConfig) {
 
   return {
     dir: {
-      input: 'src',
+      input: ELEVENTY_INPUT_DIR,
       // Makes the project directory the includes directory. This allows me to include files from
       // across the project instead of just a dedicated includes directory.
       includes: '',
@@ -127,7 +129,7 @@ function inlineCssImports(cssPath) {
  * @returns {string}
  */
 function readFileContent(path) {
-  return readFileSync(join('src', path), 'utf8')
+  return readFileSync(join(ELEVENTY_INPUT_DIR, path), 'utf8')
 }
 
 /**
