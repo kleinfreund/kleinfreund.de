@@ -1,5 +1,6 @@
 import { readFileSync } from 'node:fs'
 import { join, resolve } from 'node:path'
+import { inspect } from 'node:util'
 
 import { minify } from 'terser'
 import CleanCSS from 'clean-css'
@@ -74,6 +75,17 @@ export default function (eleventyConfig) {
   // Compresses output HTML
   if (process.env.NODE_ENV === 'production') {
     eleventyConfig.addTransform('minify_html', minifyHtml)
+  }
+
+  if (process.env.NODE_ENV !== 'production') {
+    // Log and print template data
+    eleventyConfig.addAsyncFilter('log', async function (value) {
+      try {
+        console.log(JSON.stringify(value, null, 2))
+      } catch { }
+
+      return inspect(value)
+    })
   }
 
   eleventyConfig.addPlugin(pluginRss)
