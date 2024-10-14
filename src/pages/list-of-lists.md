@@ -1,20 +1,24 @@
 ---
 title: List of lists
 description: "A list of lists of things I like."
-date: 2024-10-02
+date: 2024-10-14
 ---
 
 ## 2024
 
 - **Favorite albums** so far:
-  - Jamie xx: [In Waves](https://jamiexx.bandcamp.com/album/in-waves)
+  - Geordie Greep: [The New Sound](https://geordiegreep.bandcamp.com/album/the-new-sound)
+  - Yasmin Williams: [Acadia](https://yasminwilliams.bandcamp.com/album/acadia)
   - Erika de Casier: [Still](https://erikadecasier.bandcamp.com/album/still)
   - Future Islands: [People Who Aren't There Anymore](https://futureislands.bandcamp.com/album/people-who-aren-t-there-anymore)
   - Arooj Aftab: Night Reign
   - Beth Gibbons: Lives Outgrown
   - Floating Points: [Cascade](https://floatingpoints.bandcamp.com/album/cascade)
+  - Jamie xx: [In Waves](https://jamiexx.bandcamp.com/album/in-waves)
   - The Lemon Twigs: [A Dream Is All We Know](https://thelemontwigs.bandcamp.com/album/a-dream-is-all-we-know)
+  - Godspeed You! Black Emperor: ["NO​ ​TITLE AS OF 13 FEBRUARY 2024 28​,​340 DEAD"](https://godspeedyoublackemperor.bandcamp.com/album/no-title-as-of-13-february-2024-28340-dead)
   - Charli XCX: BRAT
+  - Xiu Xiu: [13" Frank Beltrame Italian Stiletto with Bison Horn Grips](https://xiuxiu.bandcamp.com/album/13-frank-beltrame-italian-stiletto-with-bison-horn-grips)
 - **Books**:
   - Adrian Tchaikovsky: [Lords of Uncreation](https://www.adriantchaikovsky.com/the-final-architects-shards-of-earth-eyes-of-the-voice-by-adrian-tchaikovsky.html#anchor3)
   - J.S. Dewes: [Rubicon](https://www.jsdewes.com/books)
@@ -34,6 +38,7 @@ date: 2024-10-02
   - J.D. Salinger: [Nine Stories](https://salinger.org/publication/nine-stories/)
   - Coco Mellors: [Blue Sisters](https://www.cocomellors.com/#novels)
   - Raymond Carver: Where I'm Calling From
+  - Samantha Harvey: [Orbital](https://www.samanthaharvey.co.uk/books/)
 - **Games**:
   - localthunk: [Balatro](https://www.playbalatro.com/)
 
