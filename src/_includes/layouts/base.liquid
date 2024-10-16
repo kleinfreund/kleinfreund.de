@@ -13,7 +13,7 @@
   <link rel="icon" href="img/icon.svg" sizes="any" type="image/svg+xml">
   <link rel="manifest" href="/manifest.webmanifest">
 
-  {% if eleventy.isProduction %}
+  {% if env.mode == 'production' %}
     <style>
       {{ 'css/main.css' | inline_css_imports | minify_css }}
     </style>
@@ -41,7 +41,7 @@
     {{ content }}
   </main>
 
-  {% if eleventy.isProduction %}
+  {% if env.mode == 'production' %}
     {% capture isolated_js %}
       {% for script_path in scripts %}
         {% include script_path %}
