@@ -4,7 +4,7 @@ layout: layouts/base.liquid
 <a href="/articles">← Articles</a>
 
 <article class="post">
-  {% include '_includes/partials/timestamp.liquid', date: page.date %}
+  {% render '_includes/partials/timestamp.liquid', date: page.date %}
 
   <h1>{{ title }}</h1>
 

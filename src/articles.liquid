@@ -11,19 +11,11 @@ pagination:
   {%- for post in pagination.items -%}
   <li>
     <article class="post">
+      {% render '_includes/partials/timestamp.liquid', date: post.data.date %}
 
-      {% include '_includes/partials/timestamp.liquid', date: post.data.date %}
-
-      <h2>
-        {% if post.data.link %}
-          <a href="{{ post.data.link }}">{{ post.data.title }}</a>
-        {% else %}
-          <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-        {% endif %}
-      </h2>
+      <h2><a href="{{ post.url | url }}">{{ post.data.title }}</a></h2>
 
       {% excerpt post %}
-
     </article>
   </li>
   {%- endfor -%}
