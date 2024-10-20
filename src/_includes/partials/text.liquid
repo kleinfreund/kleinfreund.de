@@ -1,0 +1,2 @@
+{% assign tag = text.tag | default: 'span' %}
+{% if text.value %}<{{ tag }}>{% if text.href %}<a href="{{ text.href }}">{% endif %}{{ text.value }}{% if text.href %}</a>{% endif %}{% if has_items %}:{% endif %}</{{ tag }}>{% endif -%}

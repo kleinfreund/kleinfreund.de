@@ -5,6 +5,7 @@ import { inspect } from 'node:util'
 import { minify } from 'terser'
 import CleanCSS from 'clean-css'
 import htmlMinifier from 'html-minifier'
+import yaml from 'js-yaml'
 import markdownIt from 'markdown-it'
 import markdownItAnchor from 'markdown-it-anchor'
 import pluginRss from '@11ty/eleventy-plugin-rss'
@@ -57,6 +58,8 @@ export default function (eleventyConfig) {
   })
 
   eleventyConfig.setDataDeepMerge(true)
+
+  eleventyConfig.addDataExtension('yml,yaml', (contents) => yaml.load(contents))
 
   // Copies static files to the output directory
   eleventyConfig

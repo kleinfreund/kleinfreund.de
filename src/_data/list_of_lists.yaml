@@ -1,0 +1,1524 @@
+- text:
+    value: "2024"
+    tag: h2
+  lists:
+    - text:
+        value: Favorite albums so far
+        tag: strong
+      items:
+        - creators:
+            - value: Geordie Greep
+          titles:
+            - value: The New Sound
+              href: https://geordiegreep.bandcamp.com/album/the-new-sound
+        - creators:
+            - value: Yasmin Williams
+          titles:
+            - value: Acadia
+              href: https://yasminwilliams.bandcamp.com/album/acadia
+        - creators:
+            - value: Erika de Casier
+          titles:
+            - value: Still
+              href: https://erikadecasier.bandcamp.com/album/still
+        - creators:
+            - value: Future Islands
+          titles:
+            - value: People Who Aren't There Anymore
+              href: https://futureislands.bandcamp.com/album/people-who-aren-t-there-anymore
+        - creators:
+            - value: Arooj Aftab
+          titles:
+            - value: Night Reign
+        - creators:
+            - value: Beth Gibbons
+          titles:
+            - value: Lives Outgrown
+        - creators:
+            - value: Floating Points
+          titles:
+            - value: Cascade
+              href: https://floatingpoints.bandcamp.com/album/cascade
+        - creators:
+            - value: Jamie xx
+          titles:
+            - value: In Waves
+              href: https://jamiexx.bandcamp.com/album/in-waves
+        - creators:
+            - value: The Lemon Twigs
+          titles:
+            - value: A Dream Is All We Know
+              href: https://thelemontwigs.bandcamp.com/album/a-dream-is-all-we-know
+        - creators:
+            - value: Godspeed You! Black Emperor
+          titles:
+            - value: |
+                "NO TITLE AS OF 13 FEBRUARY 2024 28,340 DEAD"
+              href: https://godspeedyoublackemperor.bandcamp.com/album/no-title-as-of-13-february-2024-28340-dead
+        - creators:
+            - value: Charli XCX
+          titles:
+            - value: BRAT
+        - creators:
+            - value: Xiu Xiu
+          titles:
+            - value: 13" Frank Beltrame Italian Stiletto with Bison Horn Grips
+              href: https://xiuxiu.bandcamp.com/album/13-frank-beltrame-italian-stiletto-with-bison-horn-grips
+    - text:
+        value: Books
+        tag: strong
+      items:
+        - creators:
+            - value: Adrian Tchaikovsky
+          titles:
+            - value: Lords of Uncreation
+              href: https://www.adriantchaikovsky.com/the-final-architects-shards-of-earth-eyes-of-the-voice-by-adrian-tchaikovsky.html#anchor3
+        - creators:
+            - value: J.S. Dewes
+          titles:
+            - value: Rubicon
+              href: https://www.jsdewes.com/books
+        - creators:
+            - value: Gabrielle Zevin
+          titles:
+            - value: Tomorrow and Tomorrow and Tomorrow
+              href: https://gabriellezevin.com/tomorrowx3/
+        - creators:
+            - value: Cixin Liu
+          titles:
+            - value: The Wandering Earth
+        - creators:
+            - value: Ursula K. Le Guin
+          titles:
+            - value: The Lathe of Heaven
+              href: https://www.ursulakleguin.com/the-lathe-of-heaven
+        - creators:
+            - value: Philip K. Dick
+          titles:
+            - value: Time Out of Joint
+              href: https://philipdick.com/pkd-and-me/Time-Out-Of-Joint
+        - creators:
+            - value: Lavie Tidhar
+          titles:
+            - value: The Circumference of the World
+              href: https://lavietidhar.wordpress.com/the-circumference-of-the-world/
+        - creators:
+            - value: Larry Niven
+          titles:
+            - value: Ringworld
+        - creators:
+            - value: William Gibson
+          titles:
+            - value: Neuromancer
+        - creators:
+            - value: Ursula K. Le Guin
+          titles:
+            - value: The Word for World is Forest
+              href: https://www.ursulakleguin.com/the-word-for-world-is-forest
+        - creators:
+            - value: Gabrielle Zevin
+          titles:
+            - value: The Storied Life of A.J. Fikry
+              href: https://gabriellezevin.com/books/the-storied-life-of-a-j-fikry/
+        - creators:
+            - value: William Gibson
+          titles:
+            - value: Count Zero and Mona Lisa Overdrive
+        - creators:
+            - value: H.G. Wells
+          titles:
+            - value: The Time Machine
+        - creators:
+            - value: Cixin Liu
+          titles:
+            - value: Hold Up the Sky
+        - creators:
+            - value: Jonny Sun
+          titles:
+            - value: Goodbye Again
+              href: https://jonnysun.com/books
+        - creators:
+            - value: J.D. Salinger
+          titles:
+            - value: Nine Stories
+              href: https://salinger.org/publication/nine-stories/
+        - creators:
+            - value: Coco Mellors
+          titles:
+            - value: Blue Sisters
+              href: https://www.cocomellors.com/#novels
+        - creators:
+            - value: Raymond Carver
+          titles:
+            - value: Where I'm Calling From
+        - creators:
+            - value: Samantha Harvey
+          titles:
+            - value: Orbital
+              href: https://www.samanthaharvey.co.uk/books/
+    - text:
+        value: Games
+        tag: strong
+      items:
+        - creators:
+            - value: localthunk
+          titles:
+            - value: Balatro
+              href: https://www.playbalatro.com/
+
+- text:
+    value: "2023"
+    tag: h2
+  lists:
+    - text:
+        value: Favourite albums
+        href: /favorite-albums-of-2023
+        tag: strong
+      lists:
+        - text:
+            value: Ranked
+          itemsStyle: ranked
+          items:
+            - creators:
+                - value: Jonny Nash
+              titles:
+                - value: Point of Entry
+                  href: https://jonnynash.bandcamp.com/album/point-of-entry
+            - creators:
+                - value: Kali Uchis
+              titles:
+                - value: Red Moon in Venus
+            - creators:
+                - value: Laura Groves
+              titles:
+                - value: Radio Red
+                  href: https://lauragroves.bandcamp.com/album/radio-red
+            - creators:
+                - value: Jessie Ware
+              titles:
+                - value: That! Feels Good
+                  href: https://jessieware.bandcamp.com/album/that-feels-good
+            - creators:
+                - value: Altin Gün
+              titles:
+                - value: Aşk
+                  href: https://altingun.bandcamp.com/album/a-k
+            - creators:
+                - value: Caroline Polacheck
+              titles:
+                - value: Desire, I Want to Turn Into You
+                  href: https://carolinepolachek.bandcamp.com/album/desire-i-want-to-turn-into-you
+            - creators:
+                - value: ANOHNI
+              titles:
+                - value: My Back Was A Bridge For You To Cross
+                  href: https://anohni.bandcamp.com/album/my-back-was-a-bridge-for-you-to-cross-2
+            - creators:
+                - value: Mitski
+              titles:
+                - value: The Land Is Inhospitable and So Are We
+                  href: https://mitski.bandcamp.com/album/the-land-is-inhospitable-and-so-are-we
+            - creators:
+                - value: Sufjan Stevens
+              titles:
+                - value: Javelin
+                  href: https://sufjanstevens.bandcamp.com/album/javelin
+            - creators:
+                - value: SPELLLING
+              titles:
+                - value: SPELLLING & The Myster School
+                  href: https://spellling.bandcamp.com/album/spellling-the-mystery-school
+    - text:
+        value: Books
+        tag: strong
+      items:
+        - creators:
+            - value: Cixin Liu
+          titles:
+            - value: Death’s End
+        - creators:
+            - value: Andy Weir
+          titles:
+            - value: Project Hail Mary
+              href: https://andyweirauthor.com/#project-hail-mary
+        - creators:
+            - value: Arkady Martine
+          titles:
+            - value: A Desolation Called Peace
+              href: https://www.arkadymartine.net/books/adcp
+        - creators:
+            - value: Adrian Tchaikovsky
+          titles:
+            - value: Children of Time
+              href: https://www.adriantchaikovsky.com/children-of-time-children-of-ruin-children-of-memory.html
+            - value: Children of Ruin
+              href: https://www.adriantchaikovsky.com/children-of-time-children-of-ruin-children-of-memory.html
+        - creators:
+            - value: Megan E. O’Keefe
+          titles:
+            - value: Velocity Weapon
+              href: https://www.meganokeefe.com/books
+            - value: Chaos Vector
+              href: https://www.meganokeefe.com/books
+            - value: Catalyst Gate
+              href: https://www.meganokeefe.com/books
+        - creators:
+            - value: Kazuo Ishiguro
+          titles:
+            - value: Klara und die Sonne
+        - creators:
+            - value: Becky Chambers
+          titles:
+            - value: A Prayer for the Crown-Shy
+              href: https://www.otherscribbles.com/#/a-prayer-for-the-crown-shy/
+        - creators:
+            - value: Sarah J. Maas
+          titles:
+            - value: A Court of Thorns and Roses
+              href: https://sarahjmaas.com/books/a-court-of-thorns-and-roses-series/a-court-of-thorns-and-roses/
+            - value: A Court of Mist and Fury
+              href: https://sarahjmaas.com/books/a-court-of-thorns-and-roses-series/a-court-of-mist-and-fury/
+        - creators:
+            - value: Adrian Tchaikovsky
+          titles:
+            - value: Dogs of War
+              href: https://www.adriantchaikovsky.com/dogs-of-war-series.html
+            - value: Bear Head
+              href: https://www.adriantchaikovsky.com/dogs-of-war-series.html
+        - creators:
+            - value: Ursula K. Le Guin
+          titles:
+            - value: The Dispossessed
+              href: https://www.ursulakleguin.com/dispossessed
+        - creators:
+            - value: Terry Pratchett
+          titles:
+            - value: Guards! Guards!
+              href: https://www.terrypratchettbooks.com/books/guards-guards/
+        - creators:
+            - value: James S. A. Corey
+          titles:
+            - value: Leviathan Wakes
+              href: https://www.jamessacorey.com/books/leviathan-wakes/
+            - value: Caliban’s War
+              href: https://www.jamessacorey.com/books/calibans-war/
+            - value: Abaddon’s Gate
+              href: https://www.jamessacorey.com/books/abaddons-gate/
+            - value: Cibola Burn
+              href: https://www.jamessacorey.com/books/cibola-burn/
+            - value: Nemesis Games
+              href: https://www.jamessacorey.com/books/nemesis-games/
+            - value: Babylon’s Ashes
+              href: https://www.jamessacorey.com/books/babylons-ashes/
+            - value: Persepolis Rising
+              href: https://www.jamessacorey.com/books/persepolis-rising/
+            - value: Tiamat’s Wrath
+              href: https://www.jamessacorey.com/books/tiamats-wrath/
+            - value: Leviathan Falls
+              href: https://www.jamessacorey.com/books/leviathan-falls/
+        - creators:
+            - value: Tara Westover
+          titles:
+            - value: Educated
+              href: https://tarawestover.com/book
+        - creators:
+            - value: Martha Wells
+          titles:
+            - value: System Collapse
+              href: https://www.marthawells.com/murderbot7.htm
+        - creators:
+            - value: Amal El-Mohtar
+            - value: Max Gladstone
+          titles:
+            - value: This Is How You Lose the Time War
+              href: https://amalelmohtar.com/bibliography/
+    - text:
+        value: Games
+        tag: strong
+      items:
+        - creators:
+            - value: Larian Studios
+          titles:
+            - value: Baldur's Gate 3
+              href: https://baldursgate3.game/
+        - creators:
+            - value: Mobius Digital
+          titles:
+            - value: Outer Wilds
+              href: https://www.mobiusdigitalgames.com/outer-wilds.html
+        - creators:
+            - value: FromSoftware, Inc.
+          titles:
+            - value: Elden Ring
+              href: https://en.bandainamcoent.eu/elden-ring/elden-ring
+
+- text:
+    value: "2022"
+    tag: h2
+  lists:
+    - text:
+        value: Favourite albums
+        href: /favorite-albums-of-2022
+        tag: strong
+      lists:
+        - text:
+            value: Honorable mentions
+          items:
+            - creators:
+                - value: Angel Olsen
+              titles:
+                - value: Big Time
+                  href: https://angelolsen.bandcamp.com/album/big-time
+            - creators:
+                - value: Everything Everything
+              titles:
+                - value: Raw Data Feel
+            - creators:
+                - value: Jasmine Myra
+              titles:
+                - value: Horizons
+                  href: https://jasminemyra.bandcamp.com/album/horizons
+        - text:
+            value: Ranked
+          itemsStyle: ranked
+          items:
+            - creators:
+                - value: Sudan Archives
+              titles:
+                - value: Natural Brown Prom Queen
+                  href: https://sudanarchives.bandcamp.com/album/natural-brown-prom-queen)
+            - creators:
+                - value: Silvana Estrada
+              titles:
+                - value: Marchita
+            - creators:
+                - value: Robohands
+              titles:
+                - value: Violet
+            - creators:
+                - value: Hatchie
+              titles:
+                - value: Giving the World Away
+                  href: https://hatchie.bandcamp.com/album/giving-the-world-away)
+            - creators:
+                - value: The Comet is Coming
+              titles:
+                - value: Hyper-Dimensional Expansion Beam
+            - creators:
+                - value: Fontaines D.C.
+              titles:
+                - value: Skinty Fia
+                  href: https://fontainesdc.bandcamp.com/album/skinty-fia)
+            - creators:
+                - value: Charli XCX
+              titles:
+                - value: Crash
+            - creators:
+                - value: Suede
+              titles:
+                - value: Autofiction
+            - creators:
+                - value: Natalia Lafourcade
+              titles:
+                - value: De Todas las Flores
+            - creators:
+                - value: Black Country, New Road
+              titles:
+                - value: Ants From Up There
+                  href: https://blackcountrynewroad.bandcamp.com/album/ants-from-up-there)
+    - text:
+        value: Books
+        tag: strong
+      items:
+        - creators:
+            - value: Martha Wells
+          titles:
+            - value: All Systems Red
+              href: https://www.marthawells.com/murderbot1.htm
+            - value: Artificial Condition
+              href: https://www.marthawells.com/murderbot2.htm
+            - value: Rogue Protocol
+              href: https://www.marthawells.com/murderbot3.htm
+            - value: Exit Strategy
+              href: https://www.marthawells.com/murderbot4.htm
+            - value: Network Effect
+              href: https://www.marthawells.com/networkeffect.htm
+            - value: Fugitive Telemetry
+              href: https://www.marthawells.com/murderbot6.htm
+        - creators:
+            - value: Johnjoe McFadden
+          titles:
+            - value: "Life is Simple: How Occam’s Razor Set Science Free and Shapes the Universe"
+              href: https://johnjoemcfadden.co.uk/books/life-is-simple-how-occams-razor-set-science-free-and-unlocked-the-universe/
+        - creators:
+            - value: Vladimir Nabokov
+          titles:
+            - value: The Luzhin Defense
+        - creators:
+            - value: Rebecca Roanhorse
+          titles:
+            - value: Black Sun
+              href: https://rebeccaroanhorse.com/2020/04/10/cover-reveal-for-black-sun/
+            - value: Fevered Star
+              href: https://rebeccaroanhorse.com/2022/04/19/fevered-star-is-here/
+        - creators:
+            - value: J.S. Dewes
+          titles:
+            - value: The Last Watch
+              href: https://www.jsdewes.com/books
+            - value: The Exiled Fleet
+              href: https://www.jsdewes.com/books
+        - creators:
+            - value: Adrian Tchaikovsky
+          titles:
+            - value: Shards of Earth
+              href: https://www.adriantchaikovsky.com/the-final-architects-shards-of-earth-eyes-of-the-voice-by-adrian-tchaikovsky.html
+            - value: Eyes of the Void
+              href: https://www.adriantchaikovsky.com/the-final-architects-shards-of-earth-eyes-of-the-voice-by-adrian-tchaikovsky.html
+        - creators:
+            - value: Martha Wells
+          titles:
+            - value: Cloud Roads
+              href: https://www.marthawells.com/compendium/cloudroads.htm
+        - creators:
+            - value: Becky Chambers
+          titles:
+            - value: A Psalm for the Wild-Built
+              href: https://www.otherscribbles.com/#/a-psalm-for-the-wild-built/
+        - creators:
+            - value: Roshani Chokshi
+          titles:
+            - value: The Gilded Wolves
+              href: https://www.roshanichokshi.com/books/the-gilded-wolves/
+        - creators:
+            - value: Jane Austen
+          titles:
+            - value: Pride & Prejudice
+              href: https://www.janeausten.org/pride-and-prejudice/pride-and-prejudice-online.php
+        - creators:
+            - value: Philip K. Dick
+          titles:
+            - value: Ubik
+              href: https://philipdick.com/pkd-and-me/Ubik
+        - creators:
+            - value: Arkady Martine
+          titles:
+            - value: A Memory Called Empire
+              href: https://www.arkadymartine.net/books/amce
+        - creators:
+            - value: Cixin Liu
+          titles:
+            - value: The Three-Body Problem
+            - value: The Dark Forest
+    - text:
+        value: Games
+        tag: strong
+      items:
+        - creators:
+            - value: The Chronicles Of Myrtana Team
+          titles:
+            - value: "The Chronicles of Myrtana: Archolos"
+              href: https://kronikimyrtany.pl/en
+
+- text:
+    value: "2021"
+    tag: h2
+  lists:
+    - text:
+        value: Favourite albums
+        href: /favorite-albums-of-2021
+        tag: strong
+      lists:
+        - text:
+            value: Honorable mentions
+          items:
+            - creators:
+                - value: Koreless
+              titles:
+                - value: Agor
+                  href: https://koreless.bandcamp.com/album/agor
+            - creators:
+                - value: Herbert
+              titles:
+                - value: Musca
+                  href: https://matthewherbert.bandcamp.com/album/musca
+            - creators:
+                - value: Soccer96
+              titles:
+                - value: Dopamine
+                  href: https://soccer96.bandcamp.com/album/dopamine
+            - creators:
+                - value: nat birchall
+              titles:
+                - value: Ancient Africa
+                  href: https://natbirchallmusic.bandcamp.com/album/ancient-africa
+            - creators:
+                - value: Fatima Al Qadiri
+              titles:
+                - value: Medieval Femme
+                  href: https://fatimaalqadiri.bandcamp.com/album/medieval-femme
+            - creators:
+                - value: Błoto
+              titles:
+                - value: Kwasy i zasady
+                  href: https://bloto.bandcamp.com/album/kwasy-i-zasady
+            - creators:
+                - value: Nightmares On Wax
+              titles:
+                - value: Shout Out! To Freedom...
+                  href: https://nightmaresonwax.bandcamp.com/album/shout-out-to-freedom
+            - creators:
+                - value: Vijay Iyer
+                - value: Linda May Han Oh
+                - value: Tyshawn Sorey
+              titles:
+                - value: Uneasy
+                  href: https://vijayiyer.bandcamp.com/album/uneasy
+            - creators:
+                - value: BADBADNOTGOOD
+              titles:
+                - value: Talk Memory
+                  href: https://badbadnotgoodofficial.bandcamp.com/album/talk-memory
+            - creators:
+                - value: Yasmin Williams
+              titles:
+                - value: Urban Driftwood
+                  href: https://yasminwilliams.bandcamp.com/album/urban-driftwood
+            - creators:
+                - value: Altin Gün
+              titles:
+                - value: Yol
+                  href: https://altingun.bandcamp.com/album/yol
+            - creators:
+                - value: Billie Eilish
+              titles:
+                - value: Happier Than Ever
+            - creators:
+                - value: Really From
+              titles:
+                - value: Really From
+                  href: https://reallyfrom.bandcamp.com/album/really-from
+            - creators:
+                - value: Godspeed You! Black Emperor
+              titles:
+                - value: G_d’s Pee AT STATE’S END!
+                  href: https://godspeedyoublackemperor.bandcamp.com/album/g-d-s-pee-at-state-s-end
+            - creators:
+                - value: Jaubi
+              titles:
+                - value: Nafs at Peace
+                  href: https://jaubi.bandcamp.com/album/nafs-at-peace
+        - text:
+            value: Ranked
+          itemsStyle: ranked
+          items:
+            - creators:
+                - value: Arooj Aftab
+              titles:
+                - value: Vulture Prince
+                  href: https://aroojaftab.bandcamp.com/album/vulture-prince
+            - creators:
+                - value: Erika de Casier
+              titles:
+                - value: Sensational
+                  href: https://erikadecasier.bandcamp.com/album/sensational
+            - creators:
+                - value: Richard Dawson
+                - value: Circle
+              titles:
+                - value: Henki
+                  href: https://richardmichaeldawson.bandcamp.com/album/henki
+            - creators:
+                - value: Arlo Parks
+              titles:
+                - value: Collapsed in Sunbeams
+                  href: https://arloparks.bandcamp.com/album/collapsed-in-sunbeams
+            - creators:
+                - value: Japanese Breakfast
+              titles:
+                - value: Jubilee
+                  href: https://michellezauner.bandcamp.com/album/jubilee
+            - creators:
+                - value: Flying Lotus
+              titles:
+                - value: Yasuke
+                  href: https://flyinglotus.bandcamp.com/album/yasuke
+            - creators:
+                - value: Black Country, New Road
+              titles:
+                - value: For the first time
+                  href: https://blackcountrynewroad.bandcamp.com/album/for-the-first-time
+            - creators:
+                - value: SPELLLING
+              titles:
+                - value: The Turning Wheel
+                  href: https://spellling.bandcamp.com/album/the-turning-wheel
+            - creators:
+                - value: Squid
+              titles:
+                - value: Bright Green Field
+                  href: https://squiduk.bandcamp.com/album/bright-green-field
+            - creators:
+                - value: Floating Points
+                - value: Pharoah Sanders
+                - value: The London Symphony Orchestra
+              titles:
+                - value: Promises
+                  href: https://floatingpoints.bandcamp.com/album/promises
+
+- text:
+    value: "2020"
+    tag: h2
+  lists:
+    - text:
+        value: Favourite albums
+        href: /favorite-albums-of-2020
+        tag: strong
+      lists:
+        - text:
+            value: Honorable mentions
+          items:
+            - creators:
+                - value: SAULT
+              titles:
+                - value: UNTITLED (Rise)
+                  href: https://saultglobal.bandcamp.com/album/untitled-rise
+            - creators:
+                - value: the Microphones
+              titles:
+                - value: Microphones in 2020
+                  href: https://pwelverumandsun.bandcamp.com/album/microphones-in-2020
+            - creators:
+                - value: Ariel Kalma
+              titles:
+                - value: Corona Insola
+                  href: https://ariel-kalma.bandcamp.com/album/corona-insola
+        - text:
+            value: Ranked
+          itemsStyle: ranked
+          items:
+            - creators:
+                - value: Kamaal Williams
+              titles:
+                - value: Wu Hen
+                  href: https://kamaalwilliams.bandcamp.com/album/wu-hen
+            - creators:
+                - value: Ichiko Aoba
+              titles:
+                - value: Windswept Adan
+                  href: https://ichikoaoba.bandcamp.com/album/windswept-adan
+            - creators:
+                - value: Initiate
+              titles:
+                - value: Lavender
+                  href: https://initiatehc.bandcamp.com/album/lavender
+            - creators:
+                - value: Dengue Dengue Dengue
+              titles:
+                - value: Continentes Perdidos
+                  href: https://denguedenguedengue.bandcamp.com/album/dngdngdng-continentes-perdidos
+            - creators:
+                - value: Lianne La Havas
+              titles:
+                - value: Lianne La Havas
+            - creators:
+                - value: Caribou
+              titles:
+                - value: Suddenly
+                  href: https://caribouband.bandcamp.com/album/suddenly
+            - creators:
+                - value: Gorillaz
+              titles:
+                - value: "Song Machine, Season One: Strange Timez"
+            - creators:
+                - value: Rina Sawayama
+              titles:
+                - value: SAWAYAMA
+            - creators:
+                - value: Jessie Ware
+              titles:
+                - value: What’s Your Pleasure
+            - creators:
+                - value: Sevdaliza
+              titles:
+                - value: Shabrang
+                  href: https://sevdaliza.bandcamp.com/album/shabrang
+
+- text:
+    value: "2019"
+    tag: h2
+  lists:
+    - text:
+        value: Favourite albums
+        href: /favorite-albums-of-2019
+        tag: strong
+      lists:
+        - text:
+            value: Honorable mentions
+          items:
+            - creators:
+                - value: Charly Bliss
+              titles:
+                - value: Young Enough
+                  href: https://charlybliss.bandcamp.com/album/young-enough
+            - creators:
+                - value: 地球
+              titles:
+                - value: ジャングル
+                  href: https://hiraeth-records.bandcamp.com/album/-
+            - creators:
+                - value: Brijean
+              titles:
+                - value: Walkie Talkie
+                  href: https://brijean.bandcamp.com/album/walkie-talkie
+            - creators:
+                - value: Shlohmo
+              titles:
+                - value: The End
+                  href: https://shlohmo.bandcamp.com/album/the-end
+            - creators:
+                - value: Yugen Blakrok
+              titles:
+                - value: ANIMA MYSTERIUM
+                  href: https://yugenblakrok.bandcamp.com/album/anima-mysterium
+            - creators:
+                - value: Hatchie
+              titles:
+                - value: Keepsake
+                  href: https://hatchie.bandcamp.com/album/keepsake
+            - creators:
+                - value: King Gizzard & The Lizard Wizard
+              titles:
+                - value: Fishing for Fishies
+                  href: https://kinggizzard.bandcamp.com
+            - creators:
+                - value: Toro y Moi
+              titles:
+                - value: Outer Peace
+                  href: https://toroymoi.bandcamp.com/album/outer-peace
+            - creators:
+                - value: Julia Jacklin
+              titles:
+                - value: Crushing
+                  href: https://juliajacklin.bandcamp.com/album/crushing
+        - text:
+            value: Ranked
+          itemsStyle: ranked
+          items:
+            - creators:
+                - value: Wilma Vritra
+              titles:
+                - value: Burd
+                  href: https://wilmavritra.bandcamp.com/album/burd
+            - creators:
+                - value: Marquis Hill
+              titles:
+                - value: Love Tape
+                  href: https://marquishill.bandcamp.com/album/love-tape
+            - creators:
+                - value: Angel Olsen
+              titles:
+                - value: Mirrors
+                  href: https://angelolsen.bandcamp.com/album/all-mirrors
+            - creators:
+                - value: SPELLLING
+              titles:
+                - value: Mazy Fly
+                  href: https://spellling.bandcamp.com/album/mazy-fly
+            - creators:
+                - value: The Comet is Coming
+              titles:
+                - value: Trust in the Lifeforce of the Deep Mystery
+            - creators:
+                - value: Tyler, the Creator
+              titles:
+                - value: IGOR
+            - creators:
+                - value: Sharon Van Etten
+              titles:
+                - value: Remind Me Tomorrow
+                  href: https://sharonvanetten.bandcamp.com/album/remind-me-tomorrow
+            - creators:
+                - value: Unto Others
+              titles:
+                - value: Mana
+                  href: https://untootherspdx.bandcamp.com/album/mana
+            - creators:
+                - value: Charlie XCX
+              titles:
+                - value: Charlie
+            - creators:
+                - value: Billie Eilish
+              titles:
+                - value: When We All Fall Asleep, Where Do We Go?
+
+- text:
+    value: "2018"
+    tag: h2
+  lists:
+    - text:
+        value: Favourite albums
+        href: /favorite-albums-of-2018
+        tag: strong
+      lists:
+        - text:
+            value: Honorable mentions
+          items:
+            - creators:
+                - value: Anderson .Paak
+              titles:
+                - value: Oxnard
+            - creators:
+                - value: Gorillaz
+              titles:
+                - value: The Now Now
+            - creators:
+                - value: Kendrick Lamar/SZA/The Weeknd
+              titles:
+                - value: "Black Panther: The Album"
+            - creators:
+                - value: Pttrns
+              titles:
+                - value: Material Und Geschichte
+                  href: https://altinvillage.bandcamp.com/album/material-und-geschichte
+            - creators:
+                - value: barnes blvd.
+              titles:
+                - value: last summer
+                  href: https://barnesblvd.bandcamp.com/album/last-summer
+            - creators:
+                - value: Imarhan
+              titles:
+                - value: Temet
+                  href: https://imarhan.bandcamp.com/album/temet
+            - creators:
+                - value: Hatchie
+              titles:
+                - value: Sugar Spice
+                  href: https://hatchie.bandcamp.com/album/sugar-spice
+            - creators:
+                - value: Joanna Teters
+              titles:
+                - value: Back To Brooklyn
+                  href: https://joannateters.bandcamp.com/album/back-to-brooklyn
+            - creators:
+                - value: Garden City Movement
+              titles:
+                - value: Apollonia
+                  href: https://gardencitymovement.bandcamp.com/album/apollonia
+            - creators:
+                - value: La Luz
+              titles:
+                - value: Floating Features
+                  href: https://laluz.bandcamp.com/album/floating-features
+        - text:
+            value: Ranked
+          itemsStyle: ranked
+          items:
+            - creators:
+                - value: Jon Hopkins
+              titles:
+                - value: Singularity
+                  href: https://jonhopkins.bandcamp.com/album/singularity
+            - creators:
+                - value: Aïsha Devi
+              titles:
+                - value: DNA Feelings
+                  href: https://aishadevi.bandcamp.com/album/dna-feelings
+            - creators:
+                - value: Hilary Woods
+              titles:
+                - value: Colt
+                  href: https://hilarywoodsmusic.bandcamp.com/album/colt
+            - creators:
+                - value: Fielded
+              titles:
+                - value: Drip Drip
+                  href: https://deathbombarc.bandcamp.com/album/drip-drip
+            - creators:
+                - value: Rosalía
+              titles:
+                - value: El Mal Querer
+            - creators:
+                - value: Screaming Females
+              titles:
+                - value: All At Once
+                  href: https://screamingfemales.bandcamp.com/album/all-at-once
+            - creators:
+                - value: Fatima
+              titles:
+                - value: And Yet It’s All Love
+                  href: https://fatima.bandcamp.com/album/and-yet-its-all-love
+            - creators:
+                - value: Melody’s Echo Chamber
+              titles:
+                - value: Bon Voyage
+                  href: https://melodysechochamber.bandcamp.com/album/bon-voyage
+            - creators:
+                - value: MGMT
+              titles:
+                - value: Little Dark Age
+            - creators:
+                - value: Kali Uchis
+              titles:
+                - value: Isolation
+    - text:
+        value: Favourite songs
+        href: /favorite-songs-of-2018
+        tag: strong
+      lists:
+        - text:
+            value: Honorable mentions
+          items:
+            - creators:
+                - value: MUSE
+              titles:
+                - value: Pressure
+            - creators:
+                - value: Kero Kero Bonito
+              titles:
+                - value: Make Believe
+            - creators:
+                - value: Peggy Gou
+              titles:
+                - value: It Makes You Forget (Itgehane)
+            - creators:
+                - value: Anderson .Paak
+              titles:
+                - value: Bubblin
+            - creators:
+                - value: Childish Gambino
+              titles:
+                - value: Feels Like Summer
+            - creators:
+                - value: Janelle Monáe
+              titles:
+                - value: Make Me Feel
+            - creators:
+                - value: Superorganism
+              titles:
+                - value: Everybody Wants To Be Famous
+            - creators:
+                - value: Rosalía
+              titles:
+                - value: "Malamente (Cap. 1: Augurio)"
+            - creators:
+                - value: Anderson .Paak
+                - value: Kendrick Lamar
+              titles:
+                - value: Tints
+            - creators:
+                - value: Screaming Females
+              titles:
+                - value: I’ll Make You Sorry
+            - creators:
+                - value: Yadava
+              titles:
+                - value: All The Fills
+            - creators:
+                - value: Kali Uchis
+                - value: Tyler, The Creator
+                - value: Bootsy Collins
+              titles:
+                - value: After The Storm
+            - creators:
+                - value: Car Seat Headrest
+              titles:
+                - value: Nervous Young Inhumans
+            - creators:
+                - value: MGMT
+              titles:
+                - value: When You Die
+            - creators:
+                - value: Kendrick Lamar
+                - value: SZA
+              titles:
+                - value: All The Stars
+        - text:
+            value: Ranked
+          itemsStyle: ranked
+          items:
+            - creators:
+                - value: Childish Gambino
+              titles:
+                - value: This Is America
+            - creators:
+                - value: Lizzo
+              titles:
+                - value: Boys
+            - creators:
+                - value: Ariana Grande
+              titles:
+                - value: God Is A Woman
+            - creators:
+                - value: U.S. Girls
+                - value: James Baley
+              titles:
+                - value: Pearly Gates
+            - creators:
+                - value: Charli XCX
+                - value: Troye Sivan
+              titles:
+                - value: "1999"
+            - creators:
+                - value: Mitski
+              titles:
+                - value: Nobody
+            - creators:
+                - value: MGMT
+              titles:
+                - value: Me And Michael
+            - creators:
+                - value: Kokoroko
+              titles:
+                - value: Abusey Junction
+            - creators:
+                - value: Melody’s Echo Chamber
+              titles:
+                - value: Desert Horse
+            - creators:
+                - value: Kali Uchis
+              titles:
+                - value: In My Dreams
+
+- text:
+    value: "2016"
+    tag: h2
+  lists:
+    - text:
+        value: Favourite albums
+        href: /favorite-albums-of-2016
+        tag: strong
+      lists:
+        - text:
+            value: Honorable mentions
+          items:
+            - creators:
+                - value: Gold Panda
+              titles:
+                - value: Good Luck And Do Your Best
+                  href: https://goldpanda.bandcamp.com/album/good-luck-and-do-your-best
+            - creators:
+                - value: Bon Iver
+              titles:
+                - value: 22, A Million
+                  href: https://boniver.bandcamp.com/album/22-a-million
+        - text:
+            value: Ranked
+          itemsStyle: ranked
+          items:
+            - creators:
+                - value: BADBADNOTGOOD
+              titles:
+                - value: IV
+                  href: https://badbadnotgoodofficial.bandcamp.com/album/iv
+            - creators:
+                - value: Various Artists
+              titles:
+                - value: Furi Original Soundtrack
+                  href: https://furi.bandcamp.com/album/furi-original-soundtrack
+            - creators:
+                - value: Grand Killa Con
+              titles:
+                - value: La Barranca
+                  href: https://drmdlr.bandcamp.com/album/la-barranca
+            - creators:
+                - value: Mammal Hands
+              titles:
+                - value: Floa
+                  href: https://mammalhands.bandcamp.com/album/floa
+            - creators:
+                - value: Angel Olsen
+              titles:
+                - value: My Woman
+                  href: https://angelolsen.bandcamp.com/album/my-woman
+            - creators:
+                - value: Fakear
+              titles:
+                - value: "Vegetal: Offshoots"
+                  href: https://fakear.bandcamp.com/album/vegetal-offshoots
+            - creators:
+                - value: Chris Remo
+              titles:
+                - value: Firewatch Original Score
+                  href: https://camposantogames.bandcamp.com/album/firewatch-original-score
+            - creators:
+                - value: A Tribe Called Quest
+              titles:
+                - value: We got it from Here… Thank You 4 Your service
+            - creators:
+                - value: Olga Bell
+              titles:
+                - value: Tempo
+                  href: https://bell.bandcamp.com/album/tempo
+            - creators:
+                - value: SubRosa
+              titles:
+                - value: For This We Fought The Battle Of Ages
+                  href: https://profoundlorerecords.bandcamp.com/album/for-this-we-fought-the-battle-of-ages
+
+- text:
+    value: "2015"
+    tag: h2
+  lists:
+    - text:
+        value: Favourite albums
+        href: /favorite-albums-of-2015
+        tag: strong
+      lists:
+        - text:
+            value: Ranked
+          itemsStyle: ranked
+          items:
+            - creators:
+                - value: Elite Beat
+              titles:
+                - value: Casual Rhythms Vol. 1
+                  href: https://boomarmnation.bandcamp.com/album/casual-rhythms-vol-1
+            - creators:
+                - value: Adventures
+              titles:
+                - value: Supersonic Home
+                  href: https://runforcoverrecords.bandcamp.com/album/supersonic-home
+            - creators:
+                - value: Cloud
+              titles:
+                - value: Zen Summer
+                  href: https://papertrailrecords.bandcamp.com/album/zen-summer
+            - creators:
+                - value: Amin Payne
+              titles:
+                - value: SAFFRON
+                  href: https://aminpayne.bandcamp.com/album/saffron
+            - creators:
+                - value: Sufjan Stevens
+              titles:
+                - value: Carrie &amp; Lowell
+                  href: https://music.sufjan.com/album/carrie-lowell
+            - creators:
+                - value: Polynation
+              titles:
+                - value: Allogamy
+                  href: https://atomnation.bandcamp.com/album/allogamy
+            - creators:
+                - value: The Raah Project
+              titles:
+                - value: Take Me Elsewhere
+                  href: https://theraahproject.bandcamp.com/album/take-me-elsewhere
+            - creators:
+                - value: Kamasi Washington
+              titles:
+                - value: The Epic
+                  href: https://ninjatune.net/release/kamasi-washington/the-epic
+            - creators:
+                - value: Bachar Mar-Khalifé
+              titles:
+                - value: Ya Balad
+                  href: https://infine-rec.bandcamp.com/album/ya-balad
+    - text:
+        value: Favourite songs
+        href: /favorite-songs-of-2015
+        tag: strong
+      lists:
+        - text:
+            value: Honorable mentions
+          items:
+            - creators:
+                - value: Vallis Alps
+              titles:
+                - value: Young
+                  href: https://vallisalps.bandcamp.com/
+            - creators:
+                - value: Death And Vanilla
+              titles:
+                - value: California Owls
+                  href: https://deathandvanillamusic.bandcamp.com/album/to-where-the-wild-things-are
+            - creators:
+                - value: Kuzco
+              titles:
+                - value: Throwback
+                  href: https://brainanddevice.bandcamp.com/track/throwback
+            - creators:
+                - value: Grossstadtgeflüster
+              titles:
+                - value: Fickt-Euch-Allee
+                  href: https://grossstadtgefluester.de/
+            - creators:
+                - value: Reptar
+              titles:
+                - value: Ice Black Sand
+                  href: https://reptarmusic.bandcamp.com/album/lurid-glow
+            - creators:
+                - value: Hot Chip
+              titles:
+                - value: Need You Now (Percussions Edit)
+            - creators:
+                - value: Savant
+              titles:
+                - value: Stationary Dance
+                  href: https://kleimer.bandcamp.com/album/artificial-dance
+            - creators:
+                - value: World Champion
+              titles:
+                - value: Avocado Galaxy (Tornado Wallace’s Paradise Remix)
+                  href: https://world-champion.bandcamp.com/track/avocado-galaxy-tornado-wallaces-paradise-remix
+            - creators:
+                - value: Clarence Clarity
+              titles:
+                - value: Those Who Can’t, Cheat
+            - creators:
+                - value: Fresh Cut Orchestra
+              titles:
+                - value: The Mothers’ Suite, Movement III – Ritual of Take
+                  href: https://freshcutorchestra.bandcamp.com/album/from-the-vine
+        - text:
+            value: Ranked
+          itemsStyle: ranked
+          items:
+            - creators:
+                - value: 37 Adventures
+              titles:
+                - value: Clanky Love (Jamie Lidell’s Klankenzeit Dub)
+                  href: https://37adventures.bandcamp.com/album/royce-wood-junior-clanky-love-jamie-lidell-remix
+            - creators:
+                - value: Vakula
+              titles:
+                - value: Joywind
+            - creators:
+                - value: The Classical
+              titles:
+                - value: Our Lady of Revenge
+                  href: https://theclassical.bandcamp.com/album/diptych
+            - creators:
+                - value: Ishinohana
+              titles:
+                - value: Lucía (John Talabot’s Sunset Edit)
+            - creators:
+                - value: Melanie Biasio
+              titles:
+                - value: I’m Gonna Leave You (The Cinematic Orchestra Remix)
+                  href: https://melaniedebiasio.bandcamp.com/track/im-gonna-leave-you-the-cinematic-orchestra-remix
+            - creators:
+                - value: Anderson Paak
+                - value: ScHoolboy Q
+              titles:
+                - value: Am I Wrong
+            - creators:
+                - value: Royce Wood Junio
+              titles:
+                - value: Midnight (Special Request Remix)
+                  href: https://37adventures.bandcamp.com/album/royce-wood-junior-midnight-special-request-remix
+            - creators:
+                - value: Shlohmo
+              titles:
+                - value: Buried
+            - creators:
+                - value: Beatsofreen
+              titles:
+                - value: Slowly Rising
+            - creators:
+                - value: Cumeo Project
+              titles:
+                - value: On the Surface of the Sea
+
+- text:
+    value: "2014"
+    tag: h2
+  lists:
+    - text:
+        value: Favourite albums
+        href: /the-year/#albums
+        tag: strong
+      lists:
+        - text:
+            value: Honorable mentions
+          items:
+            - creators:
+                - value: Stumbleine
+              titles:
+                - value: Infinite Overcast
+                  href: https://stumbleine.bandcamp.com/album/infinite-overcast
+            - creators:
+                - value: Auditive Escape
+              titles:
+                - value: The Conundrum
+                  href: https://auditiveescape.bandcamp.com/album/the-conundrum
+            - creators:
+                - value: Auditive Escape
+              titles:
+                - value: Holoscape
+                  href: https://auditiveescape.bandcamp.com/album/holoscape
+            - creators:
+                - value: Oskar Schuster
+              titles:
+                - value: Sneeuwland
+                  href: https://oskarschuster.bandcamp.com/album/sneeuwland
+        - text:
+            value: Ranked
+          itemsStyle: ranked
+          items:
+            - creators:
+                - value: Liars
+              titles:
+                - value: Mess
+            - creators:
+                - value: WMD
+              titles:
+                - value: Jenny Llewellyn
+                  href: https://wmdchiptune.bandcamp.com/album/jenny-llewellyn
+            - creators:
+                - value: Darren Korb
+              titles:
+                - value: Transistor OST
+                  href: https://supergiantgames.bandcamp.com/album/transistor-original-soundtrack
+            - creators:
+                - value: Hans Zimmer
+              titles:
+                - value: Interstellar OST
+            - creators:
+                - value: Jim Guthrie
+              titles:
+                - value: One Of These Days I’ll Get It Right
+                  href: https://jimguthrie.bandcamp.com/album/one-of-these-days-ill-get-it-right
+            - creators:
+                - value: BADBADNOTGOOD
+              titles:
+                - value: III
+                  href: https://badbadnotgoodofficial.bandcamp.com/album/iii
+            - creators:
+                - value: Hundred Waters
+              titles:
+                - value: The Moon Rang Like a Bell
+            - creators:
+                - value: Interpol
+              titles:
+                - value: El Pintor
+                  href: https://www.interpolnyc.com/news/elpintoroutnow/
+            - creators:
+                - value: Ghosts of Paraguay
+              titles:
+                - value: Ember
+                  href: https://soundcloud.com/ghostsofparaguay/sets/ember
+            - creators:
+                - value: Danny Baranowsky
+              titles:
+                - value: Crypt of the NecroDancer OST
+                  href: https://dbsoundworks.bandcamp.com/album/crypt-of-the-necrodancer-ost
+    - text:
+        value: Favourite songs
+        href: /the-year/#songs
+        tag: strong
+      lists:
+        - text:
+            value: Ranked
+          itemsStyle: ranked
+          items:
+            - creators:
+                - value: Tua
+              titles:
+                - value: Der Bettler und das Meer (Lambert Remix)
+            - creators:
+                - value: Tei Shi
+              titles:
+                - value: Nevermind The End
+            - creators:
+                - value: Chet Faker
+              titles:
+                - value: "1998"
+            - creators:
+                - value: Beshken
+              titles:
+                - value: Sutro’s Tower
+            - creators:
+                - value: St. Vincent
+              titles:
+                - value: Digital Witness
+            - creators:
+                - value: Alchem
+              titles:
+                - value: Ashore
+            - creators:
+                - value: Hundred Waters
+              titles:
+                - value: Out Alee
+            - creators:
+                - value: Damon Albarn
+              titles:
+                - value: Everyday Robots
+            - creators:
+                - value: BADBADNOTGOOD
+              titles:
+                - value: Can’t Leave The Night
+            - creators:
+                - value: Metronomy
+              titles:
+                - value: The Most Immaticulate Haircut
+
+- text:
+    value: "All time"
+    tag: h2
+  lists:
+    - text:
+        value: Favourite albums
+        tag: strong
+      items:
+        - creators:
+            - value: Fontaines D.C.
+          titles:
+            - value: Skinty Fia
+        - creators:
+            - value: Tom Waits
+          titles:
+            - value: Glitter and Doom
+        - creators:
+            - value: Suede
+          titles:
+            - value: Autofiction
+        - creators:
+            - value: Swans
+          titles:
+            - value: White Light from the Mouth of Infinity
+        - creators:
+            - value: Placebo
+          titles:
+            - value: Meds
+        - creators:
+            - value: The Cure
+          titles:
+            - value: Kiss Me Kiss Me Kiss Me
+        - creators:
+            - value: Richard Dawson
+            - value: Circle
+          titles:
+            - value: Henki
+        - creators:
+            - value: Peter Gabriel
+          titles:
+            - value: Up
+        - creators:
+            - value: Nathalia Lafourcade
+          titles:
+            - value: De Todas las Flores
+        - creators:
+            - value: SPELLLING
+          titles:
+            - value: The Turning Wheel
+        - creators:
+            - value: Black Country, New Road
+          titles:
+            - value: Ants from Up There
+        - creators:
+            - value: Gorillaz
+          titles:
+            - value: Demon Days
+        - creators:
+            - value: Floating Points
+            - value: Pharoah Sanders
+            - value: The London Symphony Orchestra
+          titles:
+            - value: Promises
+              href: https://floatingpoints.bandcamp.com/album/promises
+        - creators:
+            - value: Godspeed You! Black Emperor
+          titles:
+            - value: Raise Your Skinny Fists Like Antennas to Heaven
