@@ -103,11 +103,7 @@ export default function (eleventyConfig) {
   return {
     dir: {
       input: ELEVENTY_INPUT_DIR,
-      // Makes the project directory the includes directory. This allows me to include files from
-      // across the project instead of just a dedicated includes directory.
-      includes: '',
     },
-    templateFormats: ['md', 'liquid', 'html'],
   }
 }
 

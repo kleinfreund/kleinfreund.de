@@ -2,6 +2,6 @@
   "tags": [
     "posts"
   ],
-  "layout": "_includes/layouts/post.liquid",
+  "layout": "layouts/post.liquid",
   "permalink": "{{ page.fileSlug }}/index.html"
 }

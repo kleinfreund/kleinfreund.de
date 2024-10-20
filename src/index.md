@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: _includes/layouts/homepage.liquid
+layout: layouts/homepage.liquid
 ---
 Hi, I’m Philipp.
 
