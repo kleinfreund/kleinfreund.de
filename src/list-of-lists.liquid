@@ -28,3 +28,13 @@ date: 2024-10-20
     </ul>
   {% endif %}
 {% endfor %}
+
+{% if records.length > 0 %}
+  <h2>Record collection</h2>
+
+  <ul>
+    {% for record in records %}
+      <li>{{ record.artists | join: '/' }}: {{ record.title }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
