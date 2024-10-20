@@ -181,7 +181,7 @@ hr {
 
 /* Add a gap above non-first list items if its list has any list items containing a list themselves (or a `pre` element). A flat list remains compact, but nested lists have more spacing for all but the deepest nesting level */
 :where(ul, ol, dl):where(:not([class])):where(:has(li li, pre, p)) > li + li {
-	margin-block-start: calc(var(--f-vertical-spacing));
+  margin-block-start: calc(var(--f-vertical-spacing));
 }
 
 /*

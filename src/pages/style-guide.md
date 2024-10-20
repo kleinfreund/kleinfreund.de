@@ -67,7 +67,7 @@ By default, code blocks work well but are rather limited compared to what we see
 ```css
 /* Add a gap above non-first list items if its list has any list items containing a list themselves (or a `pre` element). A flat list remains compact, but nested lists have more spacing for all but the deepest nesting level */
 :where(ul, ol, dl):where(:not([class])):where(:has(li li), :has(pre)) > li + li {
-	margin-block-start: calc(var(--f-vertical-spacing));
+  margin-block-start: calc(var(--f-vertical-spacing));
 }
 ```
 
@@ -84,17 +84,17 @@ By default, code blocks work well but are rather limited compared to what we see
 
 ## Headings
 
-<h1>Heading Level 1</h1>
+# Heading Level 1
 
-<h2>Heading Level 2</h2>
+## Heading Level 2
 
-<h3>Heading Level 3</h3>
+### Heading Level 3
 
-<h4>Heading Level 4</h4>
+#### Heading Level 4
 
-<h5>Heading Level 5</h5>
+##### Heading Level 5
 
-<h6>Heading Level 6</h6>
+###### Heading Level 6
 
 ## Images
 
