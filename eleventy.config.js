@@ -9,12 +9,16 @@ import markdownIt from 'markdown-it'
 import markdownItAnchor from 'markdown-it-anchor'
 import pluginRss from '@11ty/eleventy-plugin-rss'
 
+/** @import { Options as HtmlMinifierOptions } from 'html-minifier' */
+/** @import { Options as MarkdownItOptions } from 'markdown-it' */
+/** @typedef {import('markdown-it-anchor').default.AnchorOptions} MarkdownItAnchorOptions */
+
 const ELEVENTY_INPUT_DIR = 'src'
 
 /**
  * https://github.com/kangax/html-minifier#options-quick-reference
  *
- * @type {import('html-minifier').Options}
+ * @type {HtmlMinifierOptions}
  */
 const htmlMinifierOptions = {
   useShortDoctype: true,
@@ -25,7 +29,7 @@ const htmlMinifierOptions = {
 /**
  * https://github.com/markdown-it/markdown-it#init-with-presets-and-options
  *
- * @type {import('markdown-it').Options}
+ * @type {MarkdownItOptions}
  */
 const markdownItOptions = {
   html: true,
@@ -34,7 +38,7 @@ const markdownItOptions = {
 /**
  * https://github.com/valeriangalliat/markdown-it-anchor#usage
  *
- * @type {import('markdown-it-anchor').default.AnchorOptions}
+ * @type {MarkdownItAnchorOptions}
  */
 const markdownItAnchorOptions = {
   permalink: markdownItAnchor.permalink.linkInsideHeader({
