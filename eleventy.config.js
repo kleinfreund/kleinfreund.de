@@ -2,17 +2,15 @@ import { readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { inspect } from 'node:util'
 
+import * as cheerio from 'cheerio'
 import { minify } from 'terser'
 import CleanCSS from 'clean-css'
 import htmlMinifier from 'html-minifier'
 import yaml from 'js-yaml'
-import markdownIt from 'markdown-it'
-import markdownItAnchor from 'markdown-it-anchor'
+import { IdAttributePlugin } from '@11ty/eleventy'
 import pluginRss from '@11ty/eleventy-plugin-rss'
 
 /** @import { Options as HtmlMinifierOptions } from 'html-minifier' */
-/** @import { Options as MarkdownItOptions } from 'markdown-it' */
-/** @typedef {import('markdown-it-anchor').default.AnchorOptions} MarkdownItAnchorOptions */
 
 const ELEVENTY_INPUT_DIR = 'src'
 
@@ -25,30 +23,6 @@ const htmlMinifierOptions = {
   useShortDoctype: true,
   removeComments: true,
   collapseWhitespace: true,
-}
-
-/**
- * https://github.com/markdown-it/markdown-it#init-with-presets-and-options
- *
- * @type {MarkdownItOptions}
- */
-const markdownItOptions = {
-  html: true,
-}
-
-/**
- * https://github.com/valeriangalliat/markdown-it-anchor#usage
- *
- * @type {MarkdownItAnchorOptions}
- */
-const markdownItAnchorOptions = {
-  permalink: markdownItAnchor.permalink.linkInsideHeader({
-    symbol: `<span class="header-anchor__icon">
-      <b>#</b>
-      <span class="visually-hidden">Jump to heading</span>
-    </span>`,
-    placement: 'before',
-  }),
 }
 
 export default function (eleventyConfig) {
@@ -70,9 +44,6 @@ export default function (eleventyConfig) {
     .addPassthroughCopy('src/.htaccess')
     .addPassthroughCopy('src/manifest.webmanifest')
 
-  const markdownLib = markdownIt(markdownItOptions).use(markdownItAnchor, markdownItAnchorOptions)
-  eleventyConfig.setLibrary('md', markdownLib)
-
   // Defines shortcode for generating post excerpts
   eleventyConfig.addShortcode('excerpt', (post) => extractExcerpt(post))
 
@@ -86,6 +57,10 @@ export default function (eleventyConfig) {
     eleventyConfig.addTransform('minify_html', minifyHtml)
   }
 
+  eleventyConfig.addTransform('inject_heading_anchors', createInjectHeadingAnchors({
+    selector: '[id]:is(h2,h3,h4,h5,h6):not(:has(> .header-anchor))',
+  }))
+
   if (process.env.NODE_ENV !== 'production') {
     // Log and print template data
     eleventyConfig.addAsyncFilter('log', async function (value) {
@@ -97,6 +72,7 @@ export default function (eleventyConfig) {
     })
   }
 
+  eleventyConfig.addPlugin(IdAttributePlugin)
   eleventyConfig.addPlugin(pluginRss)
   eleventyConfig.addFilter('absoluteUrl', pluginRss.absoluteUrl)
   eleventyConfig.addLiquidFilter('convertHtmlToAbsoluteUrls', pluginRss.convertHtmlToAbsoluteUrls)
@@ -168,6 +144,56 @@ function minifyHtml(content, outputPath) {
   return outputPath.endsWith('.html')
     ? htmlMinifier.minify(content, htmlMinifierOptions)
     : content
+}
+
+/**
+ * @typedef {object} InjectHeadingAnchorsOptions
+ * @property {string} [selector]
+ */
+
+/** @type {Required<InjectHeadingAnchorsOptions>} */
+const injectHeadingAnchorsDefaultOptions = {
+  selector: '[id]:is(h2,h3,h4,h5,h6)',
+}
+
+/**
+ * @param {InjectHeadingAnchorsOptions} [options]
+ * @returns {(content: string) => string}
+ */
+function createInjectHeadingAnchors(options) {
+  return function (content) {
+    return injectHeadingAnchors(content, options)
+  }
+}
+
+/**
+ * @param {string} content
+ * @param {InjectHeadingAnchorsOptions} [options]
+ * @returns {string}
+ */
+function injectHeadingAnchors(content, options) {
+  /** @type {Required<InjectHeadingAnchorsOptions>} */
+  const optionsWithDefaults = {
+    ...injectHeadingAnchorsDefaultOptions,
+    ...options,
+  }
+
+  const $ = cheerio.load(content)
+  $(optionsWithDefaults.selector).map((_i, el) => {
+    const $heading = $(el)
+    $heading.attr('tabindex', '-1')
+
+    $heading.prepend(`<a class="header-anchor" href="#${$heading.attr('id')}">
+      <span class="header-anchor__icon">
+        <b>#</b>
+        <span class="visually-hidden">Jump to heading</span>
+      </span>
+    </a>`)
+
+    return $heading
+  })
+
+  return $.html()
 }
 
 /**
