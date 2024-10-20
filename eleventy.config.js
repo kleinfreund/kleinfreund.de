@@ -2,13 +2,13 @@ import { readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { inspect } from 'node:util'
 
+import { IdAttributePlugin } from '@11ty/eleventy'
+import pluginRss from '@11ty/eleventy-plugin-rss'
 import * as cheerio from 'cheerio'
-import { minify } from 'terser'
 import CleanCSS from 'clean-css'
 import htmlMinifier from 'html-minifier'
 import yaml from 'js-yaml'
-import { IdAttributePlugin } from '@11ty/eleventy'
-import pluginRss from '@11ty/eleventy-plugin-rss'
+import { minify } from 'terser'
 
 /** @import { Options as HtmlMinifierOptions } from 'html-minifier' */
 
@@ -26,13 +26,7 @@ const htmlMinifierOptions = {
 }
 
 export default function (eleventyConfig) {
-  eleventyConfig.setLiquidOptions({
-    dynamicPartials: true,
-    strict_filters: true,
-  })
-
-  eleventyConfig.setDataDeepMerge(true)
-
+  // Allows data file to be stored in YAML
   eleventyConfig.addDataExtension('yml,yaml', (contents) => yaml.load(contents))
 
   // Copies static files to the output directory
@@ -57,12 +51,13 @@ export default function (eleventyConfig) {
     eleventyConfig.addTransform('minify_html', minifyHtml)
   }
 
+  // Injects heading anchors
   eleventyConfig.addTransform('inject_heading_anchors', createInjectHeadingAnchors({
     selector: '[id]:is(h2,h3,h4,h5,h6):not(:has(> .header-anchor))',
   }))
 
+  // Logs and prints data
   if (process.env.NODE_ENV !== 'production') {
-    // Log and print template data
     eleventyConfig.addAsyncFilter('log', async function (value) {
       try {
         console.log(JSON.stringify(value, null, 2))
@@ -72,7 +67,10 @@ export default function (eleventyConfig) {
     })
   }
 
+  // ID attribute plugin
   eleventyConfig.addPlugin(IdAttributePlugin)
+
+  // RSS plugin
   eleventyConfig.addPlugin(pluginRss)
   eleventyConfig.addFilter('absoluteUrl', pluginRss.absoluteUrl)
   eleventyConfig.addLiquidFilter('convertHtmlToAbsoluteUrls', pluginRss.convertHtmlToAbsoluteUrls)
@@ -112,30 +110,26 @@ function readFileContent(path) {
 }
 
 /**
- * Minifies CSS content.
- *
- * @param {string} concatenatedCssContent
+ * @param {string} content
  * @returns {string} the minified CSS content
  */
-function minifyCss(concatenatedCssContent) {
-  const minifyResult = new CleanCSS().minify(concatenatedCssContent)
+function minifyCss(content) {
+  const { styles, errors } = new CleanCSS().minify(content)
 
-  if (minifyResult.errors.length > 0) {
+  if (errors.length > 0) {
     console.error('❌ Could not minify CSS.')
 
-    for (const error of minifyResult.errors) {
+    for (const error of errors) {
       console.error('❌', error)
     }
 
-    return concatenatedCssContent
+    return content
   }
 
-  return minifyResult.styles
+  return styles
 }
 
 /**
- * Minifies HTML content.
- *
  * @param {string} content
  * @param {string} outputPath
  * @returns {string} the minified HTML content
@@ -144,6 +138,20 @@ function minifyHtml(content, outputPath) {
   return outputPath.endsWith('.html')
     ? htmlMinifier.minify(content, htmlMinifierOptions)
     : content
+}
+
+/**
+ * @param {string} content
+ * @returns {Promise<string>}
+ */
+async function minifyJs(content) {
+  try {
+    const { code } = await minify(content, { mangle: { toplevel: true } })
+    return code ?? ''
+  } catch (error) {
+    console.error('❌', error)
+    return ''
+  }
 }
 
 /**
@@ -173,13 +181,13 @@ function createInjectHeadingAnchors(options) {
  */
 function injectHeadingAnchors(content, options) {
   /** @type {Required<InjectHeadingAnchorsOptions>} */
-  const optionsWithDefaults = {
+  const { selector } = {
     ...injectHeadingAnchorsDefaultOptions,
     ...options,
   }
 
   const $ = cheerio.load(content)
-  $(optionsWithDefaults.selector).map((_i, el) => {
+  $(selector).map((_i, el) => {
     const $heading = $(el)
     $heading.attr('tabindex', '-1')
 
@@ -219,18 +227,4 @@ function extractExcerpt(doc) {
   return content.includes(pCloseTag)
     ? content.substring(0, content.indexOf(pCloseTag) + pCloseTag.length)
     : content
-}
-
-/**
- * @param {string} content
- * @returns {Promise<string>}
- */
-async function minifyJs(content) {
-  try {
-    const result = await minify(content, { mangle: { toplevel: true } })
-    return result.code ?? ''
-  } catch (error) {
-    console.error('❌', error)
-    return ''
-  }
 }
