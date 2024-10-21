@@ -73,7 +73,7 @@ export default function (eleventyConfig) {
   // RSS plugin
   eleventyConfig.addPlugin(pluginRss)
   eleventyConfig.addFilter('absoluteUrl', pluginRss.absoluteUrl)
-  eleventyConfig.addLiquidFilter('convertHtmlToAbsoluteUrls', pluginRss.convertHtmlToAbsoluteUrls)
+  eleventyConfig.addFilter('convertHtmlToAbsoluteUrls', pluginRss.convertHtmlToAbsoluteUrls)
   eleventyConfig.addFilter('dateToRfc3339', pluginRss.dateToRfc3339)
   eleventyConfig.addFilter('getNewestCollectionItemDate', pluginRss.getNewestCollectionItemDate)
 
