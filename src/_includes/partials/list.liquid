@@ -6,12 +6,16 @@
       <li>
         {% if list.itemsStyle == 'ranked' %}
           {% assign rank = forloop.length | minus: forloop.i %}
-          {{ rank }}.
+          {{- rank }}.
         {% endif %}
 
         {{ item.creators | map: 'value' | join: '/' }}:
 
-        {% for title in item.titles %}{% if not forloop.first %}, {% endif %}{% if forloop.length > 1 and forloop.last %}and {% endif %}{% render '_includes/partials/text.liquid', text: title %}{% endfor %}
+        {% for title in item.titles %}
+          {%- if not forloop.first %}, {% endif -%}
+          {%- if forloop.length > 1 and forloop.last %}and {% endif -%}
+          {%- render '_includes/partials/text.liquid', text: title -%}
+        {% endfor %}
       </li>
     {% endfor %}
   </ul>
