@@ -5,28 +5,8 @@ layout: layouts/page.liquid
 date: 2024-10-20
 ---
 
-{% for list_1 in list_of_lists %}
-  {% render '_includes/partials/items.liquid', list: list_1 %}
-
-  {% if list_1.lists.length > 0 %}
-    <ul>
-      {% for list_2 in list_1.lists %}
-        <li>
-          {% render '_includes/partials/items.liquid', list: list_2 %}
-
-          {% if list_2.lists.length > 0 %}
-            <ul>
-              {% for list_3 in list_2.lists %}
-                <li>
-                  {% render '_includes/partials/items.liquid', list: list_3 %}
-                </li>
-              {% endfor %}
-            </ul>
-          {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
-  {% endif %}
+{% for list in list_of_lists %}
+  {% render '_includes/partials/list.liquid', list: list %}
 {% endfor %}
 
 {% if records.length > 0 %}

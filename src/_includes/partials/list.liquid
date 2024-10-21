@@ -16,3 +16,13 @@
     {% endfor %}
   </ul>
 {% endif %}
+
+{% if list.lists.length > 0 %}
+  <ul>
+    {% for nested_list in list.lists %}
+      <li>
+        {% render '_includes/partials/list.liquid', list: nested_list %}
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
