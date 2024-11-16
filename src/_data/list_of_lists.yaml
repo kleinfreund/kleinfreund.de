@@ -156,6 +156,10 @@
           titles:
             - value: Orbital
               href: https://www.samanthaharvey.co.uk/books/
+        - creators:
+            - value: Micaiah Johnson
+          titles:
+            - value: The Space Between Worlds
     - text:
         value: Games
         tag: strong
