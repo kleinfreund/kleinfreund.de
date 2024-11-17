@@ -2,10 +2,11 @@
 title: List of lists
 description: "A list of lists of things I like."
 layout: layouts/page.liquid
-date: 2024-11-16
+eleventyComputed:
+  date: "{{ list_of_lists.date }}"
 ---
 
-{% for list in list_of_lists %}
+{% for list in list_of_lists.items %}
   {% render '_includes/partials/list.liquid', list: list %}
 {% endfor %}
 
