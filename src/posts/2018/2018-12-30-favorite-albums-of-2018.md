@@ -89,7 +89,11 @@ Modern soul, jazzy beats, melodic raps. Fatima delivers a much-needed change in 
 
 In its short duration, “Bon Voyage” contains the most fun, quirk, and joy of any album I listened to this year. The track “Desert Horse” alone carries so much energy. Get that bass line onto your eardrums.
 
-<iframe style="border: 0; width: 100%; height: 373px;" src="https://bandcamp.com/EmbeddedPlayer/album=2381170004/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="https://melodysechochamber.bandcamp.com/album/bon-voyage">Bon Voyage by Melody’s Echo Chamber</a></iframe>
+<p>
+  <iframe style="border: 0; width: 100%; height: 370px;" src="https://bandcamp.com/EmbeddedPlayer/album=2381170004/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless>
+    <a href="https://melodysechochamber.bandcamp.com/album/bon-voyage">Bon Voyage by Melody’s Echo Chamber</a>
+  </iframe>
+</p>
 
 
 

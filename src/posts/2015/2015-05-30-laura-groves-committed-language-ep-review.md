@@ -15,7 +15,11 @@ First introduced to me by Andrew Jerwis on the [98th installment](https://bandca
 
 The opener of the EP *Committed Language*  is a slow-starting, quiet song that develops a moody groove halfway through powered by a sharp voice. That melody in the background during the refrain could go on and on. “Into the light, into the light, intooo …”
 
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1858991505/size=small/bgcol=ffffff/track=146270167/transparent=true/" seamless><a href="https://lauragroves.bandcamp.com/album/committed-language">Laura Groves – Committed Language (EP)</a></iframe>
+<p>
+  <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1858991505/size=small/bgcol=ffffff/track=146270167/transparent=true/" seamless>
+    <a href="https://lauragroves.bandcamp.com/album/committed-language">Laura Groves – Committed Language (EP)</a>
+  </iframe>
+</p>
 
 Dream Story features a voice just as sharp and really puts me into a little daydream. The whole structure sways and swings. Timidly quiet starting segments which turn into slightly breezier pieces with subtle crescendos. Everything is covered in a woozy atmosphere. The simple background melodies and beats make things concrete.
 
@@ -24,7 +28,9 @@ The third song *Friday* has more of a ballad-like aesthetic with a piano accentu
 *Mystique* is the last track on this EP and sticks out as a special distinctable piece at first glance. It soon evolves into a theme quite similar to that of *Dream Story*. Again layered sustained voices make the mood. All that is accompanied by romantic percussions of the slow drums. Beautiful. “I think I’m ready now, bring back the mistery.”
 
 <figure>
-  <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=562937539/size=small/bgcol=ffffff/track=1001647541/transparent=true/" seamless><a href="https://nautic.bandcamp.com/album/navy-blue">Nautic – Navy Blue (EP)</a></iframe>
+  <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=562937539/size=small/bgcol=ffffff/track=1001647541/transparent=true/" seamless>
+    <a href="https://nautic.bandcamp.com/album/navy-blue">Nautic – Navy Blue (EP)</a>
+  </iframe>
   <figcaption><q>Follow me, follow me …</q></figcaption>
 </figure>
 

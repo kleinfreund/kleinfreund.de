@@ -12,7 +12,11 @@ Here are my [last purchases](https://bandcamp.com/kleinfreund). Have fun listeni
 
 ## [C418: Minecraft – Volume Alpha](https://c418.bandcamp.com/album/minecraft-volume-alpha)
 
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1349219244/size=small/bgcol=ffffff/transparent=true/" seamless><a href="https://c418.bandcamp.com/album/minecraft-volume-alpha">Minecraft – Volume Alpha by C418</a></iframe>
+<p>
+  <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1349219244/size=small/bgcol=ffffff/transparent=true/" seamless>
+    <a href="https://c418.bandcamp.com/album/minecraft-volume-alpha">Minecraft – Volume Alpha by C418</a>
+  </iframe>
+</p>
 
 I bought Minecraft when it was in its beta but only discovered how amazing the soundtrack by C418 actually was. That’s on the game for only playing it so quiet and distant. I’m really not sure why it is that way, it deserves more attention.
 
@@ -20,7 +24,11 @@ In the game, you can set the mode to _peaceful_ which prevents monsters from spa
 
 ## [２８１４: 新しい日の誕生](https://dreamcatalogue.bandcamp.com/album/--18)
 
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=565792550/size=small/bgcol=ffffff/transparent=true/" seamless><a href="https://dreamcatalogue.bandcamp.com/album/--18">新しい日の誕生 by ２８１４</a></iframe>
+<p>
+  <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=565792550/size=small/bgcol=ffffff/transparent=true/" seamless>
+    <a href="https://dreamcatalogue.bandcamp.com/album/--18">新しい日の誕生 by ２８１４</a>
+  </iframe>
+</p>
 
 I don’t speak Japanese, but the [translator](https://translate.google.de/?ie=UTF-8&hl=en&client=tw-ob#auto/en/%E6%96%B0%E3%81%97%E3%81%84%E6%97%A5%E3%81%AE%E8%AA%95%E7%94%9F) says the title of this album is “Birth of a New Day”. Very cool that it comes with an [animated cover](https://dreamcatalogue.files.wordpress.com/2015/01/scene1_wall_framed_only-reflection-girl_750px.gif) (1500×1500 pixels, 8.6 MB) from Gustavo Torres a.k.a. [Kidmograph](https://kidmograph.tumblr.com/).
 
@@ -28,7 +36,11 @@ The music is just as peaceful as prior one. Dreamy ambient electronica with this
 
 ## [Adventures: Supersonic Home](https://runforcoverrecords.bandcamp.com/album/supersonic-home)
 
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=407514908/size=small/bgcol=ffffff/transparent=true/" seamless><a href="https://runforcoverrecords.bandcamp.com/album/supersonic-home">Supersonic Home by Adventures</a></iframe>
+<p>
+  <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=407514908/size=small/bgcol=ffffff/transparent=true/" seamless>
+    <a href="https://runforcoverrecords.bandcamp.com/album/supersonic-home">Supersonic Home by Adventures</a>
+  </iframe>
+</p>
 
 Contrast! Haven’t listen to much rockier stuff in the past years, really. This record however hit me. It was [reviewed by Anthony Fantano](https://www.youtube.com/watch?v=hehR6VpW-lk) and what he had to say is accurate. You get these really catchy tunes with Reba Meyers’ interesting voice—I really like that in particular—that make you sind along right after after the second listen as pointed out by Anthony. He’s feelin’ a decent strong 7. I agree and review the next thing next.
 
@@ -42,13 +54,21 @@ The song is one with many facets that slowly develops its soul layer by layer an
 
 ## [Les Passagers: Mostla Tape](https://souterraine.biz/album/les-passagers-mostla-tape)
 
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1600847448/size=small/bgcol=ffffff/transparent=true/" seamless><a href="https://souterraine.biz/album/les-passagers-mostla-tape">Les Passagers - Mostla Tape by Les Passagers</a></iframe>
+<p>
+  <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1600847448/size=small/bgcol=ffffff/transparent=true/" seamless>
+    <a href="https://souterraine.biz/album/les-passagers-mostla-tape">Les Passagers - Mostla Tape by Les Passagers</a>
+  </iframe>
+</p>
 
 From Montréal in Québec (Canada), Les Passagers brings us a sometimes slow-paced, sometimes dancy mixture of electronic pop, folk and rock with pleasent vocals. Good to get your mood back to a people-friendlier level.
 
 ## [WMD: Wilt](https://wmdchiptune.bandcamp.com/album/wilt)
 
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=49280693/size=small/bgcol=ffffff/transparent=true/" seamless><a href="https://wmdchiptune.bandcamp.com/album/wilt">Wilt by WMD</a></iframe>
+<p>
+  <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=49280693/size=small/bgcol=ffffff/transparent=true/" seamless>
+    <a href="https://wmdchiptune.bandcamp.com/album/wilt">Wilt by WMD</a>
+  </iframe>
+</p>
 
 This Michael Erickson still kicking out release after release. I especially like his non-chiptune records that have this wide and open ambient character. This is music for when it’s dark. For the night. For when you are or when you feel alone.
 
@@ -59,7 +79,11 @@ This Michael Erickson still kicking out release after release. I especially like
 
 ## [Stumbleine: Mixtapes](https://stumbleine.bandcamp.com/album/mixtapes)
 
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2276465942/size=small/bgcol=ffffff/transparent=true/" seamless><a href="https://stumbleine.bandcamp.com/album/mixtapes">Mixtapes by Stumbleine</a></iframe>
+<p>
+  <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2276465942/size=small/bgcol=ffffff/transparent=true/" seamless>
+    <a href="https://stumbleine.bandcamp.com/album/mixtapes">Mixtapes by Stumbleine</a>
+  </iframe>
+</p>
 
 And _swoosh_, have five incredibly well-conceived mixes from Stumbleine. The tracklists are pure eye and ear candy and have Matthew Dear, Burial, Cat Power, Asa, Mogwai, Radiohead, Boards of Canada, M83, Clams Casino, Atoms for Peace, Gold Panda, Björk, Tycho, Apparat, Flying Lotus, Daughter, Lapalux and of course Stumbleine on it—to only name those who are familiar to me. Super.
 

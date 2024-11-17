@@ -22,5 +22,4 @@
 iframe[src^='https://bandcamp.com/EmbeddedPlayer'] {
   display: block;
   max-inline-size: 700px;
-  margin-inline: auto;
 }
