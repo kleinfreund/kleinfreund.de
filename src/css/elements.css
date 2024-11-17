@@ -115,8 +115,9 @@ abbr[title] {
 /*
 1: Style alt text.
 */
-img {
+:is(img, picture) {
   max-inline-size: 100%;
+  block-size: auto;
   border: 0;
   font-style: italic; /* 1 */
 }
@@ -126,7 +127,11 @@ svg {
   vertical-align: middle;
 }
 
-figure > img {
+picture > img {
+  inline-size: 100%;
+}
+
+figure > :is(img, picture) {
   display: block;
 }
 

@@ -3,6 +3,7 @@ import { join } from 'node:path'
 import { inspect } from 'node:util'
 
 import { IdAttributePlugin } from '@11ty/eleventy'
+import { eleventyImageTransformPlugin } from '@11ty/eleventy-img'
 import pluginRss from '@11ty/eleventy-plugin-rss'
 import * as cheerio from 'cheerio'
 import CleanCSS from 'clean-css'
@@ -76,6 +77,14 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter('convertHtmlToAbsoluteUrls', pluginRss.convertHtmlToAbsoluteUrls)
   eleventyConfig.addFilter('dateToRfc3339', pluginRss.dateToRfc3339)
   eleventyConfig.addFilter('getNewestCollectionItemDate', pluginRss.getNewestCollectionItemDate)
+
+  // Image plugin
+  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+    defaultAttributes: {
+      loading: 'lazy',
+      decoding: 'async',
+    },
+  })
 
   return {
     dir: {
