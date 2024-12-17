@@ -405,7 +405,7 @@ items:
                   - value: Hatchie
                 titles:
                   - value: Giving the World Away
-                    href: https://hatchie.bandcamp.com/album/giving-the-world-away)
+                    href: https://hatchie.bandcamp.com/album/giving-the-world-away
               - creators:
                   - value: The Comet is Coming
                 titles:
@@ -414,7 +414,7 @@ items:
                   - value: Fontaines D.C.
                 titles:
                   - value: Skinty Fia
-                    href: https://fontainesdc.bandcamp.com/album/skinty-fia)
+                    href: https://fontainesdc.bandcamp.com/album/skinty-fia
               - creators:
                   - value: Charli XCX
                 titles:
@@ -431,7 +431,7 @@ items:
                   - value: Black Country, New Road
                 titles:
                   - value: Ants From Up There
-                    href: https://blackcountrynewroad.bandcamp.com/album/ants-from-up-there)
+                    href: https://blackcountrynewroad.bandcamp.com/album/ants-from-up-there
       - text:
           value: Books
           tag: strong
@@ -1199,7 +1199,7 @@ items:
               - creators:
                   - value: Sufjan Stevens
                 titles:
-                  - value: Carrie &amp; Lowell
+                  - value: Carrie & Lowell
                     href: https://music.sufjan.com/album/carrie-lowell
               - creators:
                   - value: Polynation
