@@ -1,71 +1,115 @@
-date: 2024-11-17
+date: 2024-12-21
 items:
   - text:
       value: "2024"
       tag: h2
     lists:
       - text:
-          value: Favorite albums so far
+          value: Favourite albums
+          href: /favorite-albums-of-2024
           tag: strong
-        items:
-          - creators:
-              - value: Geordie Greep
-            titles:
-              - value: The New Sound
-                href: https://geordiegreep.bandcamp.com/album/the-new-sound
-          - creators:
-              - value: Yasmin Williams
-            titles:
-              - value: Acadia
-                href: https://yasminwilliams.bandcamp.com/album/acadia
-          - creators:
-              - value: Erika de Casier
-            titles:
-              - value: Still
-                href: https://erikadecasier.bandcamp.com/album/still
-          - creators:
-              - value: Future Islands
-            titles:
-              - value: People Who Aren't There Anymore
-                href: https://futureislands.bandcamp.com/album/people-who-aren-t-there-anymore
-          - creators:
-              - value: Arooj Aftab
-            titles:
-              - value: Night Reign
-          - creators:
-              - value: Beth Gibbons
-            titles:
-              - value: Lives Outgrown
-          - creators:
-              - value: Floating Points
-            titles:
-              - value: Cascade
-                href: https://floatingpoints.bandcamp.com/album/cascade
-          - creators:
-              - value: Jamie xx
-            titles:
-              - value: In Waves
-                href: https://jamiexx.bandcamp.com/album/in-waves
-          - creators:
-              - value: The Lemon Twigs
-            titles:
-              - value: A Dream Is All We Know
-                href: https://thelemontwigs.bandcamp.com/album/a-dream-is-all-we-know
-          - creators:
-              - value: Godspeed You! Black Emperor
-            titles:
-              - value: |
-                  "NO TITLE AS OF 13 FEBRUARY 2024 28,340 DEAD"
-                href: https://godspeedyoublackemperor.bandcamp.com/album/no-title-as-of-13-february-2024-28340-dead
-          - creators:
-              - value: Charli XCX
-            titles:
-              - value: BRAT
-          - creators:
-              - value: Xiu Xiu
-            titles:
-              - value: 13" Frank Beltrame Italian Stiletto with Bison Horn Grips
-                href: https://xiuxiu.bandcamp.com/album/13-frank-beltrame-italian-stiletto-with-bison-horn-grips
+        lists:
+          - text:
+              value: Honorable mentions
+            items:
+              - creators:
+                  - value: Mount Eerie
+                titles:
+                  - value: Night Palace
+                    href: https://pwelverumandsun.bandcamp.com/album/night-palace
+              - creators:
+                  - value: Lupe Fiasco
+                titles:
+                  - value: Samurai
+              - creators:
+                  - value: Yasmin Williams
+                titles:
+                  - value: Acadia
+                    href: https://yasminwilliams.bandcamp.com/album/acadia
+              - creators:
+                  - value: Erika de Casier
+                titles:
+                  - value: Still
+                    href: https://erikadecasier.bandcamp.com/album/still
+              - creators:
+                  - value: Arooj Aftab
+                titles:
+                  - value: Night Reign
+              - creators:
+                  - value: Bibio
+                titles:
+                  - value: PHANTOM BRICKWORKS (LP II)
+                    href: https://bibio.bandcamp.com/album/phantom-brickworks-lp-ii
+              - creators:
+                  - value: Nilüfer Yanya
+                titles:
+                  - value: My Method Actor
+                    href: https://niluferyanya.bandcamp.com/album/my-method-actor
+              - creators:
+                  - value: Nala Sinephro
+                titles:
+                  - value: Endlessness
+                    href: https://nalasinephro.bandcamp.com/album/endlessness
+              - creators:
+                  - value: Future Islands
+                titles:
+                  - value: People Who Aren't There Anymore
+                    href: https://futureislands.bandcamp.com/album/people-who-aren-t-there-anymore
+              - creators:
+                  - value: Floating Points
+                titles:
+                  - value: Cascade
+                    href: https://floatingpoints.bandcamp.com/album/cascade
+          - text:
+              value: Ranked
+            itemsStyle: ranked
+            items:
+              - creators:
+                  - value: Beth Gibbons
+                titles:
+                  - value: Lives Outgrown
+              - creators:
+                  - value: Fontaines D.C.
+                titles:
+                  - value: Romance
+                    href: https://fontainesdc.bandcamp.com/album/romance
+              - creators:
+                  - value: Nick Cave & The Bad Seeds
+                titles:
+                  - value: Wild God
+              - creators:
+                  - value: The Cure
+                titles:
+                  - value: Songs of a Lost World
+              - creators:
+                  - value: Mount Eerie
+                titles:
+                  - value: Night Palace
+                    href: https://pwelverumandsun.bandcamp.com/album/night-palace
+              - creators:
+                  - value: The Lemon Twigs
+                titles:
+                  - value: A Dream Is All We Know
+                    href: https://thelemontwigs.bandcamp.com/album/a-dream-is-all-we-know
+              - creators:
+                  - value: Godspeed You! Black Emperor
+                titles:
+                  - value: "NO TITLE AS OF 13 FEBRUARY 2024 28,340 DEAD"
+                    href: https://godspeedyoublackemperor.bandcamp.com/album/no-title-as-of-13-february-2024-28340-dead
+              - creators:
+                  - value: Geordie Greep
+                titles:
+                  - value: The New Sound
+                    href: https://geordiegreep.bandcamp.com/album/the-new-sound
+              - creators:
+                  - value: Charli xcx
+                titles:
+                  - value: BRAT
+              - creators:
+                  - value: Xiu Xiu
+                titles:
+                  - value: 13" Frank Beltrame Italian Stiletto with Bison Horn Grips
+                    href: https://xiuxiu.bandcamp.com/album/13-frank-beltrame-italian-stiletto-with-bison-horn-grips
       - text:
           value: Books
           tag: strong
@@ -167,10 +211,18 @@ items:
           tag: strong
         items:
           - creators:
-              - value: localthunk
+              - value: LocalThunk
             titles:
               - value: Balatro
                 href: https://www.playbalatro.com/
+          - creators:
+              - value: FromSoftware, Inc.
+            titles:
+              - value: "Elden Ring: Shadow of the Erdtree"
+          - creators:
+              - value: FromSoftware, Inc.
+            titles:
+              - value: Dark Souls Remastered
 
   - text:
       value: "2023"
