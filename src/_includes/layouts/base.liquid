@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>{% if title %}{{ title }} – kleinfreund.de{% else %}{{ metadata.title }}{% endif %}</title>
+  <title>{% if title %}{{ title | strip_html }} – kleinfreund.de{% else %}{{ metadata.title }}{% endif %}</title>
 
   <meta name="description" content="{% if description %}{{ description }}{% else %}{{ metadata.description }}{% endif %}">
   <meta name="theme-color" content="hsl(150, 100%, 38%)">
