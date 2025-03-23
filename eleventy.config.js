@@ -38,6 +38,7 @@ export default function (eleventyConfig) {
     .addPassthroughCopy('src/favicon.ico')
     .addPassthroughCopy('src/.htaccess')
     .addPassthroughCopy('src/manifest.webmanifest')
+    .addPassthroughCopy('src/robots.txt')
 
   // Defines shortcode for generating post excerpts
   eleventyConfig.addShortcode('excerpt', (post) => extractExcerpt(post))
