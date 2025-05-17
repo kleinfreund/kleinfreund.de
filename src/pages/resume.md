@@ -1,7 +1,7 @@
 ---
 title: Résumé
 description: The résumé of Philipp Rudloff, a frontend developer living in Liepzig, Germany.
-date: 2024-08-03
+date: 2025-05-17
 scripts:
 - js/WithDuration.js
 ---
@@ -32,7 +32,11 @@ I build websites and web applications with reliable user and developer interface
 - **Senior frontend developer**<br>
   <with-duration start-date="2024-06-01">Jun 2024 – Present</with-duration>
 
-Technologies: HTML, CSS, JavaScript
+At Factorial, I worked on several projects ranging from fully server-side rendered, CMS-backed websites to complex, client-side rendered web applications where I was primarily responsible for the frontend architecture and API design.
+
+Starting in 2025, I worked externally on several projects for dpa Deutsche Presse-Agentur GmbH.
+
+Technologies: HTML, CSS, JavaScript (TypeScript, Vue)
 
 ### Kong Inc.
 
@@ -111,4 +115,17 @@ If you’re looking for the list of buzzwords to check off of your list: HTML, C
   <cite><a href="https://mastodon.social/@zachleat@zachleat.com/110775751322149505">Zach Leatherman</a>, creator of Eleventy</cite>
 </blockquote>
 
-A selection of publicly recorded contributions to open source software: [vitest](https://github.com/vitest-dev/vitest/pulls?q=is%3Apr+author%3Akleinfreund), [vue](https://github.com/vuejs/vue-next/pulls?q=is%3Apr+author%3Akleinfreund), [vue-i18n-extract](https://github.com/Spittal/vue-i18n-extract/pulls?q=is%3Apr+author%3Akleinfreund), [Eleventy](https://github.com/11ty/eleventy/pulls?q=is:pr+author:kleinfreund), [Discourse](https://github.com/discourse/discourse/pulls?q=is%3Apr+author%3Akleinfreund), [Sublime Text Packages](https://github.com/sublimehq/Packages/pulls?q=is%3Apr+author%3Akleinfreund), [Jekyll](https://github.com/jekyll/jekyll/pulls?q=is%3Apr+author%3Akleinfreund), [Clementine](https://github.com/clementine-player/Clementine/pulls?q=is%3Apr+author%3Akleinfreund), …
+A selection of publicly recorded contributions to open source software:
+[Clementine](https://github.com/clementine-player/Clementine/pulls?q=is%3Apr+author%3Akleinfreund),
+[colorjs.io](https://github.com/color-js/color.js/pulls?q=is%3Apr+author%3Akleinfreund),
+[Discourse](https://github.com/discourse/discourse/pulls?q=is%3Apr+author%3Akleinfreund),
+[Eleventy](https://github.com/11ty/eleventy/pulls?q=is:pr+author:kleinfreund),
+[Jekyll](https://github.com/jekyll/jekyll/pulls?q=is%3Apr+author%3Akleinfreund),
+[ky](https://github.com/sindresorhus/ky/pulls?q=is%3Apr+author%3Akleinfreund),
+[msw](https://github.com/mswjs/msw/pulls?q=is%3Apr+author%3Akleinfreund),
+[Sublime Text Packages](https://github.com/sublimehq/Packages/pulls?q=is%3Apr+author%3Akleinfreund),
+[vitest](https://github.com/vitest-dev/vitest/pulls?q=is%3Apr+author%3Akleinfreund),
+[vue-i18n-extract](https://github.com/Spittal/vue-i18n-extract/pulls?q=is%3Apr+author%3Akleinfreund),
+[vue](https://github.com/vuejs/vue-next/pulls?q=is%3Apr+author%3Akleinfreund),
+[WebC](https://github.com/11ty/webc/pulls?q=is:pr+author:kleinfreund),
+…
