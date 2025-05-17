@@ -13,10 +13,10 @@
     "start": "run-s clean start:site"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0",
-    "@11ty/eleventy-img": "^6.0.1",
-    "@11ty/eleventy-plugin-rss": "^2.0.3",
-    "@types/node": "^22.13.11",
+    "@11ty/eleventy": "^3.1.0",
+    "@11ty/eleventy-img": "^6.0.4",
+    "@11ty/eleventy-plugin-rss": "^2.0.4",
+    "@types/node": "^22.15.18",
     "cheerio": "^1.0.0",
     "clean-css": "^5.3.3",
     "cross-env": "^7.0.3",
@@ -24,9 +24,9 @@
     "js-yaml": "^4.1.0",
     "markdown-it": "^14.1.0",
     "markdown-it-anchor": "^9.2.0",
-    "npm-run-all2": "^7.0.2",
+    "npm-run-all2": "^8.0.2",
     "retrieve": "^3.0.0",
     "rimraf": "^6.0.1",
-    "terser": "^5.39.0"
+    "terser": "^5.39.2"
   }
 }
