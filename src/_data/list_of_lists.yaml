@@ -1,5 +1,41 @@
-date: 2024-12-21
+date: 2025-05-17
 items:
+  - text:
+      value: "2025"
+      tag: h2
+    lists:
+      - text:
+          value: Favorite albums so far
+          tag: strong
+        items:
+          - creators:
+              - value: Erika de Casier
+            titles:
+              - value: Lifetime
+                href: https://erikadecasier.bandcamp.com/album/lifetime
+          - creators:
+              - value: Kali Uchis
+            titles:
+              - value: Sincerely,
+          - creators:
+              - value: Black Country, New Road
+            titles:
+              - value: Forever Howlong
+                href: https://blackcountrynewroad.bandcamp.com/album/forever-howlong
+      - text:
+          value: Books
+          tag: strong
+        items:
+          - creators:
+              - value: Cixin Liu
+            titles:
+              - value: A View from the Stars
+                href: https://cixinliu.com/
+          - creators:
+              - value: Rebecca F. Kuang
+            titles:
+              - value: Yellowface
+                href: https://www.rfkuang.com/
   - text:
       value: "2024"
       tag: h2
@@ -1579,4 +1615,4 @@ items:
           - creators:
               - value: Godspeed You! Black Emperor
             titles:
-              - value: Raise Your Skinny Fists Like Antennas to Heaven
+              - value: Lift Your Skinny Fists Like Antennas to Heaven
