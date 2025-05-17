@@ -25,7 +25,7 @@
     "markdown-it": "^14.1.0",
     "markdown-it-anchor": "^9.2.0",
     "npm-run-all2": "^7.0.2",
-    "retrieve": "^2.0.0",
+    "retrieve": "^3.0.0",
     "rimraf": "^6.0.1",
     "terser": "^5.39.0"
   }

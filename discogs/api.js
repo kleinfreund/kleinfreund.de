@@ -1,5 +1,5 @@
 import { retrieve } from 'retrieve'
-/** @import { RetrieveResponse } from 'retrieve' */
+/** @import { ResponseError, RetrieveResponse } from 'retrieve' */
 
 /** @import { ApiConfig, CollectionResponse, ReleaseCollectionResponse } from './api-types.d.js' */
 
@@ -8,7 +8,7 @@ import { retrieve } from 'retrieve'
  * @param {ApiConfig} config
  */
 async function request({ token, url }) {
-  return /** @type {Promise<RetrieveResponse & { data: DataType }>} */ (retrieve({
+  return /** @type {Promise<RetrieveResponse<DataType> | ResponseError>} */ (retrieve({
     url,
     init: {
       headers: {
@@ -24,11 +24,11 @@ async function request({ token, url }) {
  * @template {CollectionResponse} DataType
  * @param {typeof request<DataType>} apiFunction
  * @param {ApiConfig} config
- * @returns {Promise<Array<RetrieveResponse & { data: DataType }>>}
+ * @returns {Promise<RetrieveResponse<DataType>[]>}
  */
 export async function getAllResponses(apiFunction, config) {
   /** @type {string | undefined} */ let url = config.url
-  /** @type {Array<RetrieveResponse & { data: DataType }>} */ const responses = []
+  /** @type {RetrieveResponse<DataType>[]} */ const responses = []
 
   while (typeof url === 'string') {
     const response = await apiFunction({ ...config, url })
