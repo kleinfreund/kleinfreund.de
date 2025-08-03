@@ -12,6 +12,9 @@
     "start:site": "cross-env NODE_ENV=development eleventy --serve",
     "start": "run-s clean start:site"
   },
+  "engines": {
+    "node": "^24.5.0"
+  },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2",
     "@11ty/eleventy-img": "^6.0.4",
