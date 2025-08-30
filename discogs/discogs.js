@@ -22,7 +22,7 @@ export default async function () {
   console.log('[Discogs] Done.')
 
   const records = releases.map(({ basic_information, date_added }) => ({
-    title: basic_information.title,
+    title: basic_information.title.trim(),
     // Strip off the sequential number added to artist names if there are multiple in the Discogs database (e.g. “Air (10)” → “Air”).
     artists: basic_information.artists.map(({ name }) => name.replace(/ \(\d+\)$/, '')),
     dateAdded: new Date(date_added),

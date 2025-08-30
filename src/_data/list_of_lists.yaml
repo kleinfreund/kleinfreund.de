@@ -36,6 +36,16 @@ items:
             titles:
               - value: Yellowface
                 href: https://www.rfkuang.com/
+          - creators:
+              - value: Martin MacInnes
+            titles:
+              - value: In Ascension
+                href: https://martinmacinnes.wordpress.com/in-ascension/
+          - creators:
+              - value: Adrian Tchaikovsky
+            titles:
+              - value: Shroud
+                href: https://www.adriantchaikovsky.com/stand-alone-novels.html#shroud
   - text:
       value: "2024"
       tag: h2
