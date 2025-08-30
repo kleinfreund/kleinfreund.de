@@ -46,7 +46,7 @@ Technologies: HTML, CSS, JavaScript (TypeScript, Vue)
 </div>
 
 - **Senior software engineer (frontend)**<br>
-  Aug 2022 – Apr 2024
+  Aug 2022 – Apr 2024 · 1 year, 9 months
 
 At Kong, I was responsible for the general maintenance and development of the UI application that is part of the Kuma and Kong Mesh products (on-premise software). As part of this, I managed the migration from Vue version 2 to 3. I’ve also set up several pieces of continuous integration-based automation that range from application testing to preparing the UI application for release. I was also part of the team developing Mesh Manager for Kong’s Konnect product (SaaS software). In short, I was involved in all front-end development activities surrounding Kong’s service mesh offering.
 
@@ -102,10 +102,9 @@ If you’re looking for the list of buzzwords to check off of your list: HTML, C
 
 ## Projects
 
+- [**balatrolator.com**](https://balatrolator.com): A score calculator for the game Balatro
 - [**retrieve**](https://npmjs.com/package/retrieve): Convenience wrapper around `fetch` for the browser
-
 - [**poll**](https://npmjs.com/package/poll): Lightweight polling utility
-
 - [**yet-another-color-picker**](https://npmjs.com/package/yet-another-color-picker): Fully-featured color picker web component (also available [as a Vue component](https://npmjs.com/package/vue-accessible-color-picker))
 
 ## Open source contributions
