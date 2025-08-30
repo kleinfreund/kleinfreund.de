@@ -1,326 +1,147 @@
 [
   {
-    "title": "LIVE",
+    "title": "Air",
     "artists": [
-      "Martin Kohlstedt"
+      "Air"
     ],
-    "dateAdded": "2025-08-30T07:04:45.000Z"
-  },
-  {
-    "title": "Pink",
-    "artists": [
-      "Four Tet"
-    ],
-    "dateAdded": "2025-08-30T07:04:10.000Z"
-  },
-  {
-    "title": "New Energy",
-    "artists": [
-      "Four Tet"
-    ],
-    "dateAdded": "2025-08-30T07:04:08.000Z"
-  },
-  {
-    "title": "Cascade",
-    "artists": [
-      "Floating Points"
-    ],
-    "dateAdded": "2025-08-15T18:09:21.000Z"
-  },
-  {
-    "title": "IV",
-    "artists": [
-      "BadBadNotGood"
-    ],
-    "dateAdded": "2025-07-23T11:34:06.000Z"
-  },
-  {
-    "title": "Forget",
-    "artists": [
-      "Xiu Xiu"
-    ],
-    "dateAdded": "2025-07-21T12:04:06.000Z"
-  },
-  {
-    "title": "Always Outnumbered, Never Outgunned",
-    "artists": [
-      "The Prodigy"
-    ],
-    "dateAdded": "2025-07-21T12:03:46.000Z"
-  },
-  {
-    "title": "The Fat Of The Land",
-    "artists": [
-      "The Prodigy"
-    ],
-    "dateAdded": "2025-07-21T12:02:28.000Z"
-  },
-  {
-    "title": "Animal Magic",
-    "artists": [
-      "Bonobo"
-    ],
-    "dateAdded": "2025-07-21T11:59:44.000Z"
-  },
-  {
-    "title": "LateNightTales",
-    "artists": [
-      "Bonobo"
-    ],
-    "dateAdded": "2025-07-21T11:59:20.000Z"
-  },
-  {
-    "title": "MTV Unplugged In New York",
-    "artists": [
-      "Nirvana"
-    ],
-    "dateAdded": "2025-07-21T11:58:38.000Z"
-  },
-  {
-    "title": "'Allelujah! Don't Bend Ascend",
-    "artists": [
-      "Godspeed You Black Emperor!"
-    ],
-    "dateAdded": "2025-07-21T11:58:02.000Z"
-  },
-  {
-    "title": "F♯ A♯ ∞",
-    "artists": [
-      "Godspeed You Black Emperor!"
-    ],
-    "dateAdded": "2025-07-21T11:58:01.000Z"
-  },
-  {
-    "title": "III",
-    "artists": [
-      "BadBadNotGood"
-    ],
-    "dateAdded": "2025-07-21T11:57:59.000Z"
-  },
-  {
-    "title": "Schöne Neue Extrawelt",
-    "artists": [
-      "Extrawelt"
-    ],
-    "dateAdded": "2025-07-08T09:19:44.000Z"
-  },
-  {
-    "title": "Music Has The Right To Children",
-    "artists": [
-      "Boards Of Canada"
-    ],
-    "dateAdded": "2025-07-08T09:19:42.000Z"
-  },
-  {
-    "title": "Gece",
-    "artists": [
-      "Altın Gün"
-    ],
-    "dateAdded": "2025-07-08T09:19:36.000Z"
-  },
-  {
-    "title": "Yol",
-    "artists": [
-      "Altın Gün"
-    ],
-    "dateAdded": "2025-07-08T09:19:35.000Z"
+    "year": 2016,
+    "dateAdded": "2024-09-14T13:34:17.000Z"
   },
   {
     "title": "Aşk",
     "artists": [
       "Altın Gün"
     ],
+    "year": 2023,
     "dateAdded": "2025-07-08T09:19:32.000Z"
   },
   {
-    "title": "Samurai Champloo Music Record - Departure",
+    "title": "Yol",
     "artists": [
-      "Nujabes",
-      "Fat Jon"
+      "Altın Gün"
     ],
-    "dateAdded": "2025-07-08T09:18:19.000Z"
+    "year": 2021,
+    "dateAdded": "2025-07-08T09:19:35.000Z"
   },
   {
-    "title": "Isolation",
+    "title": "Gece",
     "artists": [
-      "Kali Uchis"
+      "Altın Gün"
     ],
-    "dateAdded": "2025-07-08T09:17:53.000Z"
+    "year": 2019,
+    "dateAdded": "2025-07-08T09:19:36.000Z"
   },
   {
-    "title": "De Todas Las Flores",
+    "title": "IV",
     "artists": [
-      "Natalia Lafourcade"
+      "BadBadNotGood"
     ],
-    "dateAdded": "2025-05-31T16:36:04.000Z"
+    "year": 2016,
+    "dateAdded": "2025-07-23T11:34:06.000Z"
   },
   {
-    "title": "Everything Is Alive",
+    "title": "III",
     "artists": [
-      "Slowdive"
+      "BadBadNotGood"
     ],
-    "dateAdded": "2025-05-17T14:06:11.000Z"
-  },
-  {
-    "title": "Demon Days",
-    "artists": [
-      "Gorillaz"
-    ],
-    "dateAdded": "2025-05-17T14:05:17.000Z"
-  },
-  {
-    "title": "Bright Green Field",
-    "artists": [
-      "Squid"
-    ],
-    "dateAdded": "2025-05-17T14:03:41.000Z"
-  },
-  {
-    "title": "The New Sound",
-    "artists": [
-      "Geordie Greep"
-    ],
-    "dateAdded": "2025-05-17T08:44:37.000Z"
+    "year": 2014,
+    "dateAdded": "2025-07-21T11:57:59.000Z"
   },
   {
     "title": "Forever Howlong",
     "artists": [
       "Black Country, New Road"
     ],
+    "year": 2025,
     "dateAdded": "2025-05-17T08:43:37.000Z"
-  },
-  {
-    "title": "The Turning Wheel",
-    "artists": [
-      "Spellling"
-    ],
-    "dateAdded": "2025-01-08T16:46:20.000Z"
-  },
-  {
-    "title": "White Light From The Mouth Of Infinity",
-    "artists": [
-      "Swans"
-    ],
-    "dateAdded": "2025-01-08T16:46:19.000Z"
-  },
-  {
-    "title": "For The First Time",
-    "artists": [
-      "Black Country, New Road"
-    ],
-    "dateAdded": "2024-12-21T09:08:04.000Z"
-  },
-  {
-    "title": "13\" Frank Beltrame Italian Stiletto with Bison Horn Grips",
-    "artists": [
-      "Xiu Xiu"
-    ],
-    "dateAdded": "2024-10-14T15:48:37.000Z"
-  },
-  {
-    "title": "Kindred",
-    "artists": [
-      "Burial"
-    ],
-    "dateAdded": "2024-10-05T15:15:43.000Z"
-  },
-  {
-    "title": "Untrue",
-    "artists": [
-      "Burial"
-    ],
-    "dateAdded": "2024-10-05T15:14:34.000Z"
-  },
-  {
-    "title": "The Earth Is Not A Cold Dead Place",
-    "artists": [
-      "Explosions In The Sky"
-    ],
-    "dateAdded": "2024-10-05T15:13:12.000Z"
-  },
-  {
-    "title": "No Title As Of 13 February 2024 28,340 Dead",
-    "artists": [
-      "Godspeed You Black Emperor!"
-    ],
-    "dateAdded": "2024-10-05T15:12:09.000Z"
-  },
-  {
-    "title": "In Waves",
-    "artists": [
-      "Jamie XX"
-    ],
-    "dateAdded": "2024-10-05T15:11:21.000Z"
-  },
-  {
-    "title": "Blade Runner",
-    "artists": [
-      "Vangelis"
-    ],
-    "dateAdded": "2024-09-14T13:58:33.000Z"
-  },
-  {
-    "title": "Crushing",
-    "artists": [
-      "Julia Jacklin"
-    ],
-    "dateAdded": "2024-09-14T13:57:47.000Z"
-  },
-  {
-    "title": "Lift Your Skinny Fists Like Antennas To Heaven",
-    "artists": [
-      "Godspeed You Black Emperor!"
-    ],
-    "dateAdded": "2024-09-14T13:57:09.000Z"
-  },
-  {
-    "title": "G_d's Pee At State's End!",
-    "artists": [
-      "Godspeed You Black Emperor!"
-    ],
-    "dateAdded": "2024-09-14T13:56:39.000Z"
-  },
-  {
-    "title": "The End",
-    "artists": [
-      "Shlohmo"
-    ],
-    "dateAdded": "2024-09-14T13:56:09.000Z"
   },
   {
     "title": "Ants From Up There",
     "artists": [
       "Black Country, New Road"
     ],
+    "year": 2022,
     "dateAdded": "2024-09-14T13:55:10.000Z"
   },
   {
-    "title": "The Epic",
+    "title": "For The First Time",
     "artists": [
-      "Kamasi Washington"
+      "Black Country, New Road"
     ],
-    "dateAdded": "2024-09-14T13:54:06.000Z"
+    "year": 2021,
+    "dateAdded": "2024-12-21T09:08:04.000Z"
   },
   {
-    "title": "Trust In The Lifeforce Of The Deep Mystery",
+    "title": "Music Has The Right To Children",
     "artists": [
-      "The Comet Is Coming"
+      "Boards Of Canada"
     ],
-    "dateAdded": "2024-09-14T13:53:27.000Z"
+    "year": 2013,
+    "dateAdded": "2025-07-08T09:19:42.000Z"
   },
   {
-    "title": "Glitter And Doom Live",
+    "title": "LateNightTales",
     "artists": [
-      "Tom Waits"
+      "Bonobo"
     ],
-    "dateAdded": "2024-09-14T13:48:01.000Z"
+    "year": 2013,
+    "dateAdded": "2025-07-21T11:59:20.000Z"
   },
   {
-    "title": "UP",
+    "title": "Animal Magic",
     "artists": [
-      "Peter Gabriel"
+      "Bonobo"
     ],
-    "dateAdded": "2024-09-14T13:45:23.000Z"
+    "year": 2013,
+    "dateAdded": "2025-07-21T11:59:44.000Z"
+  },
+  {
+    "title": "Untrue",
+    "artists": [
+      "Burial"
+    ],
+    "year": 2024,
+    "dateAdded": "2024-10-05T15:14:34.000Z"
+  },
+  {
+    "title": "Kindred",
+    "artists": [
+      "Burial"
+    ],
+    "year": 2019,
+    "dateAdded": "2024-10-05T15:15:43.000Z"
+  },
+  {
+    "title": "The Earth Is Not A Cold Dead Place",
+    "artists": [
+      "Explosions In The Sky"
+    ],
+    "year": 2023,
+    "dateAdded": "2024-10-05T15:13:12.000Z"
+  },
+  {
+    "title": "Take Care, Take Care, Take Care",
+    "artists": [
+      "Explosions In The Sky"
+    ],
+    "year": 2011,
+    "dateAdded": "2024-09-14T13:37:30.000Z"
+  },
+  {
+    "title": "Schöne Neue Extrawelt",
+    "artists": [
+      "Extrawelt"
+    ],
+    "year": 2022,
+    "dateAdded": "2025-07-08T09:19:44.000Z"
+  },
+  {
+    "title": "Cascade",
+    "artists": [
+      "Floating Points"
+    ],
+    "year": 2024,
+    "dateAdded": "2025-08-15T18:09:21.000Z"
   },
   {
     "title": "Promises",
@@ -329,20 +150,248 @@
       "Pharoah Sanders",
       "London Symphony Orchestra"
     ],
+    "year": 2021,
     "dateAdded": "2024-09-14T13:44:16.000Z"
   },
   {
-    "title": "Take Care, Take Care, Take Care",
+    "title": "Pink",
     "artists": [
-      "Explosions In The Sky"
+      "Four Tet"
     ],
-    "dateAdded": "2024-09-14T13:37:30.000Z"
+    "year": 2023,
+    "dateAdded": "2025-08-30T07:04:10.000Z"
   },
   {
-    "title": "Air",
+    "title": "New Energy",
     "artists": [
-      "Air"
+      "Four Tet"
     ],
-    "dateAdded": "2024-09-14T13:34:17.000Z"
+    "year": 2023,
+    "dateAdded": "2025-08-30T07:04:08.000Z"
+  },
+  {
+    "title": "The New Sound",
+    "artists": [
+      "Geordie Greep"
+    ],
+    "year": 2024,
+    "dateAdded": "2025-05-17T08:44:37.000Z"
+  },
+  {
+    "title": "No Title As Of 13 February 2024 28,340 Dead",
+    "artists": [
+      "Godspeed You Black Emperor!"
+    ],
+    "year": 2024,
+    "dateAdded": "2024-10-05T15:12:09.000Z"
+  },
+  {
+    "title": "G_d's Pee At State's End!",
+    "artists": [
+      "Godspeed You Black Emperor!"
+    ],
+    "year": 2021,
+    "dateAdded": "2024-09-14T13:56:39.000Z"
+  },
+  {
+    "title": "'Allelujah! Don't Bend Ascend",
+    "artists": [
+      "Godspeed You Black Emperor!"
+    ],
+    "year": 2012,
+    "dateAdded": "2025-07-21T11:58:02.000Z"
+  },
+  {
+    "title": "F♯ A♯ ∞",
+    "artists": [
+      "Godspeed You Black Emperor!"
+    ],
+    "year": 2010,
+    "dateAdded": "2025-07-21T11:58:01.000Z"
+  },
+  {
+    "title": "Lift Your Skinny Fists Like Antennas To Heaven",
+    "artists": [
+      "Godspeed You Black Emperor!"
+    ],
+    "year": 2000,
+    "dateAdded": "2024-09-14T13:57:09.000Z"
+  },
+  {
+    "title": "Demon Days",
+    "artists": [
+      "Gorillaz"
+    ],
+    "year": 2017,
+    "dateAdded": "2025-05-17T14:05:17.000Z"
+  },
+  {
+    "title": "In Waves",
+    "artists": [
+      "Jamie XX"
+    ],
+    "year": 2024,
+    "dateAdded": "2024-10-05T15:11:21.000Z"
+  },
+  {
+    "title": "Crushing",
+    "artists": [
+      "Julia Jacklin"
+    ],
+    "year": 2019,
+    "dateAdded": "2024-09-14T13:57:47.000Z"
+  },
+  {
+    "title": "Isolation",
+    "artists": [
+      "Kali Uchis"
+    ],
+    "year": 2018,
+    "dateAdded": "2025-07-08T09:17:53.000Z"
+  },
+  {
+    "title": "The Epic",
+    "artists": [
+      "Kamasi Washington"
+    ],
+    "year": 2015,
+    "dateAdded": "2024-09-14T13:54:06.000Z"
+  },
+  {
+    "title": "LIVE",
+    "artists": [
+      "Martin Kohlstedt"
+    ],
+    "year": 2024,
+    "dateAdded": "2025-08-30T07:04:45.000Z"
+  },
+  {
+    "title": "De Todas Las Flores",
+    "artists": [
+      "Natalia Lafourcade"
+    ],
+    "year": 2025,
+    "dateAdded": "2025-05-31T16:36:04.000Z"
+  },
+  {
+    "title": "MTV Unplugged In New York",
+    "artists": [
+      "Nirvana"
+    ],
+    "year": 2017,
+    "dateAdded": "2025-07-21T11:58:38.000Z"
+  },
+  {
+    "title": "Samurai Champloo Music Record - Departure",
+    "artists": [
+      "Nujabes",
+      "Fat Jon"
+    ],
+    "year": 2022,
+    "dateAdded": "2025-07-08T09:18:19.000Z"
+  },
+  {
+    "title": "UP",
+    "artists": [
+      "Peter Gabriel"
+    ],
+    "year": 2016,
+    "dateAdded": "2024-09-14T13:45:23.000Z"
+  },
+  {
+    "title": "The End",
+    "artists": [
+      "Shlohmo"
+    ],
+    "year": 2019,
+    "dateAdded": "2024-09-14T13:56:09.000Z"
+  },
+  {
+    "title": "Everything Is Alive",
+    "artists": [
+      "Slowdive"
+    ],
+    "year": 2023,
+    "dateAdded": "2025-05-17T14:06:11.000Z"
+  },
+  {
+    "title": "The Turning Wheel",
+    "artists": [
+      "Spellling"
+    ],
+    "year": 2021,
+    "dateAdded": "2025-01-08T16:46:20.000Z"
+  },
+  {
+    "title": "Bright Green Field",
+    "artists": [
+      "Squid"
+    ],
+    "year": 2021,
+    "dateAdded": "2025-05-17T14:03:41.000Z"
+  },
+  {
+    "title": "White Light From The Mouth Of Infinity",
+    "artists": [
+      "Swans"
+    ],
+    "year": 2015,
+    "dateAdded": "2025-01-08T16:46:19.000Z"
+  },
+  {
+    "title": "Trust In The Lifeforce Of The Deep Mystery",
+    "artists": [
+      "The Comet Is Coming"
+    ],
+    "year": 2019,
+    "dateAdded": "2024-09-14T13:53:27.000Z"
+  },
+  {
+    "title": "Always Outnumbered, Never Outgunned",
+    "artists": [
+      "The Prodigy"
+    ],
+    "year": 2024,
+    "dateAdded": "2025-07-21T12:03:46.000Z"
+  },
+  {
+    "title": "The Fat Of The Land",
+    "artists": [
+      "The Prodigy"
+    ],
+    "year": 0,
+    "dateAdded": "2025-07-21T12:02:28.000Z"
+  },
+  {
+    "title": "Glitter And Doom Live",
+    "artists": [
+      "Tom Waits"
+    ],
+    "year": 2017,
+    "dateAdded": "2024-09-14T13:48:01.000Z"
+  },
+  {
+    "title": "Blade Runner",
+    "artists": [
+      "Vangelis"
+    ],
+    "year": 2013,
+    "dateAdded": "2024-09-14T13:58:33.000Z"
+  },
+  {
+    "title": "13\" Frank Beltrame Italian Stiletto with Bison Horn Grips",
+    "artists": [
+      "Xiu Xiu"
+    ],
+    "year": 2024,
+    "dateAdded": "2024-10-14T15:48:37.000Z"
+  },
+  {
+    "title": "Forget",
+    "artists": [
+      "Xiu Xiu"
+    ],
+    "year": 2017,
+    "dateAdded": "2025-07-21T12:04:06.000Z"
   }
 ]
