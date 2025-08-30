@@ -9,6 +9,16 @@ items:
           tag: strong
         items:
           - creators:
+              - value: Natalia Lafourcade
+            titles:
+              - value: Cancionera
+                href: https://www.natalialafourcade.com.mx/es/musica
+          - creators:
+              - value: Japanese Breakfast
+            titles:
+              - value: For Melancholy Brunettes (& sad women)
+                href: https://michellezauner.bandcamp.com/album/for-melancholy-brunettes-sad-women
+          - creators:
               - value: Erika de Casier
             titles:
               - value: Lifetime
@@ -46,6 +56,19 @@ items:
             titles:
               - value: Shroud
                 href: https://www.adriantchaikovsky.com/stand-alone-novels.html#shroud
+      - text:
+          value: Games
+          tag: strong
+        items:
+          - creators:
+              - value: Pugstorm
+            titles:
+              - value: Core Keeper
+                href: https://pugstorm.eu/
+          - creators:
+              - value: RubyDev
+            titles:
+              - value: Tiny Rogues
   - text:
       value: "2024"
       tag: h2
