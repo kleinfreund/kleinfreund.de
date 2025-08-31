@@ -102,7 +102,7 @@ If you’re looking for the list of buzzwords to check off of your list: HTML, C
 
 ## Projects
 
-- [**balatrolator.com**](https://balatrolator.com): A score calculator for the game Balatro
+- [**balatrolator.com**](https://balatrolator.com): Score calculator for the game Balatro
 - [**retrieve**](https://npmjs.com/package/retrieve): Convenience wrapper around `fetch` for the browser
 - [**poll**](https://npmjs.com/package/poll): Lightweight polling utility
 - [**yet-another-color-picker**](https://npmjs.com/package/yet-another-color-picker): Fully-featured color picker web component (also available [as a Vue component](https://npmjs.com/package/vue-accessible-color-picker))
