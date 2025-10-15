@@ -69,6 +69,11 @@ items:
               - value: RubyDev
             titles:
               - value: Tiny Rogues
+          - creators:
+              - value: Supergiant Games
+            titles:
+              - value: Hades II
+                href: https://www.supergiantgames.com/games/hades-ii
   - text:
       value: "2024"
       tag: h2
