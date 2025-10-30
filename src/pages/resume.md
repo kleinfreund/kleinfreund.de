@@ -6,57 +6,46 @@ scripts:
 - js/WithDuration.js
 ---
 
-Hey there, my name is Philipp Rudloff and I’m a frontend developer.
+Hey there, my name is Philipp Rudloff and I’m a frontend developer based in Leipzig, Germany.
 
-I build websites and web applications with reliable user and developer interfaces. For software systems, I design and implement robust architecture which works well for its developers and, most importantly, its users.
+I build websites and web applications with reliable user and developer interfaces supported by a robust software architecture underneath.
 
-## Contact
-
-- **Email**:
-
-  philipprudloff@fastmail.com
-
-- **GitHub**:
-
-  [github.com/kleinfreund](https://github.com/kleinfreund)
+philipprudloff@fastmail.com · [github.com/kleinfreund](https://github.com/kleinfreund)
 
 ## Work
 
 ### Factorial GmbH
 
 <div class="meta">
-  <with-duration start-date="2024-06-01">Full-time</with-duration><br>
-  Hybrid (Hamburg, Germany)
+  <with-duration start-date="2024-06-01">Full-time</with-duration> · Remote (Hamburg, Germany)
 </div>
 
 - **Senior frontend developer**<br>
   <with-duration start-date="2024-06-01">Jun 2024 – Present</with-duration>
 
-At Factorial, I worked on several projects ranging from fully server-side rendered, CMS-backed websites to complex, client-side rendered web applications where I was primarily responsible for the frontend architecture and API design.
+At Factorial, I worked on several projects ranging from fully server-side rendered, CMS-backed websites (e.g. dole.com) to complex, client-side rendered web applications where I was primarily responsible for the frontend architecture and API design (e.g. DAISIE, a full service intranet platform for TelefonSeelsorge).
 
-Starting in 2025, I worked externally on several projects for dpa Deutsche Presse-Agentur GmbH.
+In 2025, I started to work externally for dpa Deutsche Presse-Agentur GmbH on a variety of products (dpa-Agenda, dpa-Select, etc.) with a focus on general project health and automated testing.
 
 Technologies: HTML, CSS, JavaScript (TypeScript, Vue)
 
 ### Kong Inc.
 
 <div class="meta">
-  Full-time · 1 year, 9 months<br>
-  Remote (Eindhoven, Netherlands)
+  Full-time · 1 year, 9 months · Remote (Eindhoven, Netherlands)
 </div>
 
 - **Senior software engineer (frontend)**<br>
   Aug 2022 – Apr 2024 · 1 year, 9 months
 
-At Kong, I was responsible for the general maintenance and development of the UI application that is part of the Kuma and Kong Mesh products (on-premise software). As part of this, I managed the migration from Vue version 2 to 3. I’ve also set up several pieces of continuous integration-based automation that range from application testing to preparing the UI application for release. I was also part of the team developing Mesh Manager for Kong’s Konnect product (SaaS software). In short, I was involved in all front-end development activities surrounding Kong’s service mesh offering.
+At Kong, I was responsible for the general maintenance and development of the UI application that is part of the Kuma and Kong Mesh products for which I managed the migration from Vue 2 to 3. I’ve also set up several pieces of continuous integration-based automation that range from application testing to preparing the UI application for release. I was also part of the team developing Mesh Manager for Kong’s Konnect product. In short, I was involved in all front-end development activities surrounding Kong’s service mesh offering.
 
 Technologies: HTML, CSS, JavaScript (TypeScript, Vue)
 
 ### Sendcloud B.V.
 
 <div class="meta">
-  Full-time · 3 years, 1 month<br>
-  On-site (Eindhoven, Netherlands)
+  Full-time · 3 years, 1 month · On-site (Eindhoven, Netherlands)
 </div>
 
 - **Senior frontend developer**<br>
@@ -69,15 +58,14 @@ At Sendcloud, I worked in several teams on all frontend-related aspects of the p
 
 I heavily contributed to planning and finalizing the multi-year effort of migrating the platform’s main frontend to a Vue-powered application.
 
-Then, I was part of the checkout team where I was a core contributor to establishing the foundation for a new system of features that deeply integrates with various e-commerce platforms. I’ve developing the third party script responsible for rendering a custom shipping method UI in a merchant’s shop. I was also responsible for writing the public technical documentation, designing APIs, and maintaining related legacy systems.
+I was part of the checkout team where I was a core contributor to establishing the foundation for a new system of features that deeply integrates with various e-commerce platforms. I’ve developed the third party script responsible for rendering a custom shipping method UI in our customer’s ecommerce platforms. I was also responsible for writing the public technical documentation, designing APIs, and maintaining related legacy systems.
 
 Technologies: HTML, CSS, JavaScript (Vue)
 
 ### Bauhaus-Universität Weimar
 
 <div class="meta">
-  Part-time · 1 years, 10 months<br>
-  Hybrid (Weimar, Germany)
+  Part-time · 1 years, 10 months · Hybrid (Weimar, Germany)
 </div>
 
 - **Frontend developer**<br>
@@ -98,7 +86,7 @@ I have experience in most areas of the frontend development landscape and am com
 - Writing technical and non-technical documentation for these interfaces and systems
 - Managing and maintaining localization systems
 
-If you’re looking for the list of buzzwords to check off of your list: HTML, CSS, JavaScript, Vue, TypeScript, git, package publishing, CI workflows, [OpenAPI](https://swagger.io/docs/specification/about), [Phrase](https://phrase.com), [Eleventy](https://www.11ty.dev/), and those I, intentionally or unintentionally, forgot to remember.
+If you’re looking for the list of buzzwords to check off of your list: HTML, CSS, JavaScript, TypeScript, Vue, git, package publishing, CI workflows, OpenAPI, Eleventy, and some I intentionally forgot to remember.
 
 ## Projects
 
