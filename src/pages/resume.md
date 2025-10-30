@@ -1,6 +1,6 @@
 ---
 title: Résumé
-description: The résumé of Philipp Rudloff, a frontend developer living in Liepzig, Germany.
+description: The résumé of Philipp Rudloff, a frontend developer living in Leipzig, Germany.
 date: 2025-05-17
 scripts:
 - js/WithDuration.js
