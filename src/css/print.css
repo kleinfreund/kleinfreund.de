@@ -1,0 +1,38 @@
+html {
+  font-size: 0.8em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: revert;
+}
+
+:where(:not(h1)) + h2,
+:where(:not(h2)) + h3,
+:where(:not(h3)) + h4,
+:where(:not(h4)) + h5,
+:where(:not(h5)) + h6 {
+  margin-block-start: var(--f-vertical-spacing);
+}
+
+blockquote {
+  margin-block-start: 0;
+  padding: 0.375em 0.75em;
+  font-size: 1.5em;
+}
+
+blockquote::before {
+  inset-block-start: 0.25em;
+  font-size: 1.5em;
+}
+
+.home-link {
+  display: none !important;
+}
+
+.page {
+  margin-block: 1rem;
+}
+
+.post {
+  display: block;
+}
