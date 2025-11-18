@@ -23,7 +23,6 @@ const ELEVENTY_INPUT_DIR = 'src'
 const htmlMinifierOptions = {
   useShortDoctype: true,
   removeComments: true,
-  collapseWhitespace: true,
 }
 
 export default function (eleventyConfig) {

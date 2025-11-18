@@ -17,8 +17,7 @@ philipprudloff@fastmail.com · [github.com/kleinfreund](https://github.com/klein
 ### Factorial GmbH
 
 <div class="meta">
-  <with-duration start-date="2024-06-01">Full-time</with-duration>
-  · Remote (Hamburg, Germany)
+  <with-duration start-date="2024-06-01">Full-time</with-duration> · Remote (Hamburg, Germany)
 </div>
 
 - **Senior frontend developer**<br>
