@@ -20,8 +20,7 @@ philipprudloff@fastmail.com · [github.com/kleinfreund](https://github.com/klein
   <with-duration start-date="2024-06-01">Full-time</with-duration> · Remote (Hamburg, Germany)
 </div>
 
-- **Senior frontend developer**<br>
-  <with-duration start-date="2024-06-01">Jun 2024 – Present</with-duration>
+- **Senior frontend developer** (Jun 2024 – Present)
 
 At Factorial, I worked on several projects ranging from fully server-side rendered, CMS-backed websites (e.g. dole.com) to complex, client-side rendered web applications where I was primarily responsible for the frontend architecture and API design (e.g. DAISIE, a full service intranet platform for TelefonSeelsorge).
 
@@ -35,8 +34,7 @@ Technologies: HTML, CSS, JavaScript (TypeScript, Vue)
   Full-time · 1 year, 9 months · Remote (Eindhoven, Netherlands)
 </div>
 
-- **Senior software engineer (frontend)**<br>
-  Aug 2022 – Apr 2024 · 1 year, 9 months
+- **Senior software engineer** (Aug 2022 – Apr 2024)
 
 At Kong, I was responsible for the general maintenance and development of the UI application that is part of the Kuma and Kong Mesh products for which I managed the migration from Vue 2 to 3. I’ve also set up several pieces of continuous integration-based automation that range from application testing to preparing the UI application for release. I was also part of the team developing Mesh Manager for Kong’s Konnect product. In short, I was involved in all front-end development activities surrounding Kong’s service mesh offering.
 
@@ -48,11 +46,9 @@ Technologies: HTML, CSS, JavaScript (TypeScript, Vue)
   Full-time · 3 years, 1 month · On-site (Eindhoven, Netherlands)
 </div>
 
-- **Senior frontend developer**<br>
-  Jan 2021 – Jul 2022 · 1 year, 7 months
+- **Senior frontend developer** (Jan 2021 – Jul 2022)
 
-- **Frontend developer**<br>
-  Jul 2019 – Dec 2020 · 1 year, 6 months
+- **Frontend developer** (Jul 2019 – Dec 2020)
 
 At Sendcloud, I worked in several teams on all frontend-related aspects of the platform including feature development, internationalization, API design, technical writing, general maintenance, hiring, and onboarding/mentoring of frontend developers.
 
@@ -68,8 +64,7 @@ Technologies: HTML, CSS, JavaScript (Vue)
   Part-time · 1 years, 10 months · Hybrid (Weimar, Germany)
 </div>
 
-- **Frontend developer**<br>
-  Aug 2017 – Jun 2019 · 1 years, 10 months
+- **Frontend developer** (Aug 2017 – Jun 2019)
 
 ## Education
 
