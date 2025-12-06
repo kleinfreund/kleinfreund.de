@@ -1,4 +1,4 @@
-date: 2025-05-17
+date: 2025-12-06
 items:
   - text:
       value: "2025"
@@ -8,6 +8,20 @@ items:
           value: Favorite albums so far
           tag: strong
         items:
+          - creators:
+              - value: Erika de Casier
+            titles:
+              - value: Lifetime
+                href: https://erikadecasier.bandcamp.com/album/lifetime
+          - creators:
+              - value: Ichiko Aoba
+            titles:
+              - value: Luminescent Creatures
+                href: https://ichikoaoba.bandcamp.com/album/luminescent-creatures-2s
+          - creators:
+              - value: Mon Laferte
+            titles:
+              - value: Femme Fatale
           - creators:
               - value: Natalia Lafourcade
             titles:
@@ -19,14 +33,14 @@ items:
               - value: For Melancholy Brunettes (& sad women)
                 href: https://michellezauner.bandcamp.com/album/for-melancholy-brunettes-sad-women
           - creators:
-              - value: Erika de Casier
-            titles:
-              - value: Lifetime
-                href: https://erikadecasier.bandcamp.com/album/lifetime
-          - creators:
               - value: Kali Uchis
             titles:
               - value: Sincerely,
+          - creators:
+              - value: Anna von Hausswolff
+            titles:
+              - value: ICONOCLASTS
+                href: https://annavonhausswolff.bandcamp.com/album/iconoclasts
           - creators:
               - value: Black Country, New Road
             titles:
