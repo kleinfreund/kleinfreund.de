@@ -1,4 +1,4 @@
-date: 2025-12-06
+date: 2025-12-14
 items:
   - text:
       value: "2025"
@@ -8,6 +8,14 @@ items:
           value: Favorite albums so far
           tag: strong
         items:
+          - creators:
+              - value: JADE
+            titles:
+              - value: THAT'S SHOWBIZ BABY!
+          - creators:
+              - value: Rosalía
+            titles:
+              - value: Lux
           - creators:
               - value: Erika de Casier
             titles:
@@ -23,6 +31,10 @@ items:
             titles:
               - value: Femme Fatale
           - creators:
+              - value: Kali Uchis
+            titles:
+              - value: Sincerely,
+          - creators:
               - value: Natalia Lafourcade
             titles:
               - value: Cancionera
@@ -33,9 +45,10 @@ items:
               - value: For Melancholy Brunettes (& sad women)
                 href: https://michellezauner.bandcamp.com/album/for-melancholy-brunettes-sad-women
           - creators:
-              - value: Kali Uchis
+              - value: Yazz Ahmed
             titles:
-              - value: Sincerely,
+              - value: A Paradise In The Hold
+                href: https://yazzahmed.bandcamp.com/album/a-paradise-in-the-hold
           - creators:
               - value: Anna von Hausswolff
             titles:
@@ -70,6 +83,11 @@ items:
             titles:
               - value: Shroud
                 href: https://www.adriantchaikovsky.com/stand-alone-novels.html#shroud
+          - creators:
+              - value: Iain M. Banks
+            titles:
+              - value: Consider Phlebas
+                href: https://iainbanks.co.uk/the-works/consider-phlebas/
       - text:
           value: Games
           tag: strong
