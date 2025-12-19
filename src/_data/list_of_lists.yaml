@@ -9,41 +9,41 @@ items:
           tag: strong
         items:
           - creators:
-              - value: JADE
+              - value: Ichiko Aoba
             titles:
-              - value: THAT'S SHOWBIZ BABY!
-          - creators:
-              - value: Rosalía
-            titles:
-              - value: Lux
+              - value: Luminescent Creatures
+                href: https://ichikoaoba.bandcamp.com/album/luminescent-creatures-2s
           - creators:
               - value: Erika de Casier
             titles:
               - value: Lifetime
                 href: https://erikadecasier.bandcamp.com/album/lifetime
           - creators:
-              - value: Ichiko Aoba
+              - value: Rosalía
             titles:
-              - value: Luminescent Creatures
-                href: https://ichikoaoba.bandcamp.com/album/luminescent-creatures-2s
+              - value: Lux
+          - creators:
+              - value: Kali Uchis
+            titles:
+              - value: Sincerely,
           - creators:
               - value: Mon Laferte
             titles:
               - value: Femme Fatale
           - creators:
-              - value: Kali Uchis
+              - value: Japanese Breakfast
             titles:
-              - value: Sincerely,
+              - value: For Melancholy Brunettes (& sad women)
+                href: https://michellezauner.bandcamp.com/album/for-melancholy-brunettes-sad-women
           - creators:
               - value: Natalia Lafourcade
             titles:
               - value: Cancionera
                 href: https://www.natalialafourcade.com.mx/es/musica
           - creators:
-              - value: Japanese Breakfast
+              - value: JADE
             titles:
-              - value: For Melancholy Brunettes (& sad women)
-                href: https://michellezauner.bandcamp.com/album/for-melancholy-brunettes-sad-women
+              - value: THAT'S SHOWBIZ BABY!
           - creators:
               - value: Yazz Ahmed
             titles:
