@@ -1,64 +1,71 @@
-date: 2025-12-14
+date: 2025-12-19
 items:
   - text:
       value: "2025"
       tag: h2
     lists:
       - text:
-          value: Favorite albums so far
+          value: Favourite albums
           tag: strong
-        items:
-          - creators:
-              - value: Ichiko Aoba
-            titles:
-              - value: Luminescent Creatures
-                href: https://ichikoaoba.bandcamp.com/album/luminescent-creatures-2s
-          - creators:
-              - value: Erika de Casier
-            titles:
-              - value: Lifetime
-                href: https://erikadecasier.bandcamp.com/album/lifetime
-          - creators:
-              - value: Rosalía
-            titles:
-              - value: Lux
-          - creators:
-              - value: Kali Uchis
-            titles:
-              - value: Sincerely,
-          - creators:
-              - value: Mon Laferte
-            titles:
-              - value: Femme Fatale
-          - creators:
-              - value: Japanese Breakfast
-            titles:
-              - value: For Melancholy Brunettes (& sad women)
-                href: https://michellezauner.bandcamp.com/album/for-melancholy-brunettes-sad-women
-          - creators:
-              - value: Natalia Lafourcade
-            titles:
-              - value: Cancionera
-                href: https://www.natalialafourcade.com.mx/es/musica
-          - creators:
-              - value: JADE
-            titles:
-              - value: THAT'S SHOWBIZ BABY!
-          - creators:
-              - value: Yazz Ahmed
-            titles:
-              - value: A Paradise In The Hold
-                href: https://yazzahmed.bandcamp.com/album/a-paradise-in-the-hold
-          - creators:
-              - value: Anna von Hausswolff
-            titles:
-              - value: ICONOCLASTS
-                href: https://annavonhausswolff.bandcamp.com/album/iconoclasts
-          - creators:
-              - value: Black Country, New Road
-            titles:
-              - value: Forever Howlong
-                href: https://blackcountrynewroad.bandcamp.com/album/forever-howlong
+        lists:
+          - text:
+              value: Honorable mentions
+            items:
+              - creators:
+                - value: Ichiko Aoba
+                titles:
+                  - value: Luminescent Creatures
+                    href: https://ichikoaoba.bandcamp.com/album/luminescent-creatures-2s
+          - text:
+              value: Ranked
+            itemsStyle: ranked
+            items:
+              - creators:
+                  - value: Erika de Casier
+                titles:
+                  - value: Lifetime
+                    href: https://erikadecasier.bandcamp.com/album/lifetime
+              - creators:
+                  - value: Rosalía
+                titles:
+                  - value: Lux
+              - creators:
+                  - value: Kali Uchis
+                titles:
+                  - value: Sincerely,
+              - creators:
+                  - value: Mon Laferte
+                titles:
+                  - value: Femme Fatale
+              - creators:
+                  - value: Japanese Breakfast
+                titles:
+                  - value: For Melancholy Brunettes (& sad women)
+                    href: https://michellezauner.bandcamp.com/album/for-melancholy-brunettes-sad-women
+              - creators:
+                  - value: Natalia Lafourcade
+                titles:
+                  - value: Cancionera
+                    href: https://www.natalialafourcade.com.mx/es/musica
+              - creators:
+                  - value: JADE
+                titles:
+                  - value: THAT'S SHOWBIZ BABY!
+              - creators:
+                  - value: Yazz Ahmed
+                titles:
+                  - value: A Paradise In The Hold
+                    href: https://yazzahmed.bandcamp.com/album/a-paradise-in-the-hold
+              - creators:
+                  - value: Anna von Hausswolff
+                titles:
+                  - value: ICONOCLASTS
+                    href: https://annavonhausswolff.bandcamp.com/album/iconoclasts
+              - creators:
+                  - value: Black Country, New Road
+                titles:
+                  - value: Forever Howlong
+                    href: https://blackcountrynewroad.bandcamp.com/album/forever-howlong
       - text:
           value: Books
           tag: strong
