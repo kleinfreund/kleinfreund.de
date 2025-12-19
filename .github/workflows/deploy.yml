@@ -15,12 +15,12 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
       - uses: kleinfreund/enforce-required-action-version-format@f6b06269aa74763828a2e1c8fc702a9d038c3612 # v1.0.0
-      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+      - uses: actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f # v6.1.0
         with:
           node-version-file: .nvmrc
-      - uses: actions/cache@5a3ec84eff668545956fd18022155c47e93e2684 # v4.2.3
+      - uses: actions/cache@9255dc7a253b0ccc959486e2bca901246202afeb # v5.0.1
         id: node-modules-cache
         with:
           path: |
@@ -29,7 +29,7 @@ jobs:
       - if: steps.node-modules-cache.outputs.cache-hit != 'true'
         run: npm clean-install
       - run: npm run build
-      - uses: burnett01/rsync-deployments@3cccb6851148e6198ed9ed89eb0d1c17b5e58cc7 # v7.0.2
+      - uses: burnett01/rsync-deployments@0c902521b8b9135f0dae7841a01d7d3b19629cb2 # v8.0.2
         with:
           switches: --archive --delete --human-readable --recursive --verbose
           path: _site/
