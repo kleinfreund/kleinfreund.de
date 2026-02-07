@@ -21,14 +21,13 @@ export default async function () {
     .filter((release) => release.basic_information.formats.some((format) => format.name === 'Vinyl'))
   console.log('[Discogs] Done.')
 
-  const records = releases.map(({ basic_information, date_added }) => {
+  const records = releases.map(({ basic_information }) => {
     const title = basic_information.title.trim()
     // Strip off the sequential number added to artist names if there are multiple in the Discogs database (e.g. “Air (10)” → “Air”).
     const artists = basic_information.artists.map(({ name }) => name.replace(/ \(\d+\)$/, ''))
     const year = basic_information.year
-    const dateAdded = new Date(date_added)
 
-    return { title, artists, year, dateAdded }
+    return { title, artists, year }
   })
 
   records.sort((recordA, recordB) => {
