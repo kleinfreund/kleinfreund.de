@@ -1647,17 +1647,9 @@ items:
           tag: strong
         items:
           - creators:
-              - value: Fontaines D.C.
-            titles:
-              - value: Skinty Fia
-          - creators:
               - value: Tom Waits
             titles:
               - value: Glitter and Doom
-          - creators:
-              - value: Suede
-            titles:
-              - value: Autofiction
           - creators:
               - value: Swans
             titles:
@@ -1706,3 +1698,29 @@ items:
               - value: Godspeed You! Black Emperor
             titles:
               - value: Lift Your Skinny Fists Like Antennas to Heaven
+      - text:
+          value: Favourite books
+          tag: strong
+        items:
+          - creators:
+              - value: Tara Westover
+            titles:
+              - value: Educated
+          - creators:
+              - value: Gabrielle Zevin
+            titles:
+              - value: The Storied Life of A.J. Fikry
+                href: https://gabriellezevin.com/books/the-storied-life-of-a-j-fikry/
+          - creators:
+              - value: Andy Weir
+            titles:
+              - value: Project Hail Mary
+                href: https://andyweirauthor.com/#project-hail-mary
+          - creators:
+              - value: Cixin Liu
+            titles:
+              - value: The Dark Forest
+          - creators:
+              - value: William Gibson
+            titles:
+              - value: Neuromancer

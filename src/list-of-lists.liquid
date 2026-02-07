@@ -6,6 +6,20 @@ eleventyComputed:
   date: "{{ list_of_lists.date }}"
 ---
 
+<h2>Content</h2>
+
+<ul>
+  {% for list in list_of_lists.items %}
+    <li>
+      <a href="#{{ list.text.value | slugify }}">{{ list.text.value }}</a>
+    </li>
+  {% endfor %}
+
+  <li>
+    <a href="#record-collection">Record collection</a>
+  </li>
+</ul>
+
 {% for list in list_of_lists.items %}
   {% render '_includes/partials/list.liquid', list: list %}
 {% endfor %}
