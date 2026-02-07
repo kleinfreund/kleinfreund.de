@@ -36,7 +36,7 @@ export default async function () {
       return result
     }
 
-    return recordB.year - recordA.year
+    return recordA.year - recordB.year
   })
 
   return records

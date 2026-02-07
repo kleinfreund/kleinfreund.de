@@ -7,11 +7,11 @@
     "year": 2016
   },
   {
-    "title": "Aşk",
+    "title": "Gece",
     "artists": [
       "Altın Gün"
     ],
-    "year": 2023
+    "year": 2019
   },
   {
     "title": "Yol",
@@ -21,18 +21,11 @@
     "year": 2021
   },
   {
-    "title": "Gece",
+    "title": "Aşk",
     "artists": [
       "Altın Gün"
     ],
-    "year": 2019
-  },
-  {
-    "title": "IV",
-    "artists": [
-      "BadBadNotGood"
-    ],
-    "year": 2016
+    "year": 2023
   },
   {
     "title": "III",
@@ -42,18 +35,18 @@
     "year": 2014
   },
   {
-    "title": "Forever Howlong",
+    "title": "IV",
     "artists": [
-      "Black Country, New Road"
+      "BadBadNotGood"
     ],
-    "year": 2025
+    "year": 2016
   },
   {
-    "title": "Live At Bush Hall",
+    "title": "For The First Time",
     "artists": [
       "Black Country, New Road"
     ],
-    "year": 2023
+    "year": 2021
   },
   {
     "title": "Ants From Up There",
@@ -63,11 +56,18 @@
     "year": 2022
   },
   {
-    "title": "For The First Time",
+    "title": "Live At Bush Hall",
     "artists": [
       "Black Country, New Road"
     ],
-    "year": 2021
+    "year": 2023
+  },
+  {
+    "title": "Forever Howlong",
+    "artists": [
+      "Black Country, New Road"
+    ],
+    "year": 2025
   },
   {
     "title": "Music Has The Right To Children",
@@ -91,13 +91,6 @@
     "year": 2013
   },
   {
-    "title": "Untrue",
-    "artists": [
-      "Burial"
-    ],
-    "year": 2024
-  },
-  {
     "title": "Kindred",
     "artists": [
       "Burial"
@@ -105,11 +98,11 @@
     "year": 2019
   },
   {
-    "title": "The Earth Is Not A Cold Dead Place",
+    "title": "Untrue",
     "artists": [
-      "Explosions In The Sky"
+      "Burial"
     ],
-    "year": 2023
+    "year": 2024
   },
   {
     "title": "Take Care, Take Care, Take Care",
@@ -119,6 +112,13 @@
     "year": 2011
   },
   {
+    "title": "The Earth Is Not A Cold Dead Place",
+    "artists": [
+      "Explosions In The Sky"
+    ],
+    "year": 2023
+  },
+  {
     "title": "Schöne Neue Extrawelt",
     "artists": [
       "Extrawelt"
@@ -126,11 +126,11 @@
     "year": 2022
   },
   {
-    "title": "Cascade",
+    "title": "Nuits Sonores / Nectarines",
     "artists": [
       "Floating Points"
     ],
-    "year": 2024
+    "year": 2014
   },
   {
     "title": "Promises",
@@ -142,11 +142,18 @@
     "year": 2021
   },
   {
-    "title": "Nuits Sonores / Nectarines",
+    "title": "Cascade",
     "artists": [
       "Floating Points"
     ],
-    "year": 2014
+    "year": 2024
+  },
+  {
+    "title": "There Is Love In You (Expanded Edition) & Remixes",
+    "artists": [
+      "Four Tet"
+    ],
+    "year": 2020
   },
   {
     "title": "Pink",
@@ -163,46 +170,11 @@
     "year": 2023
   },
   {
-    "title": "There Is Love In You (Expanded Edition) & Remixes",
-    "artists": [
-      "Four Tet"
-    ],
-    "year": 2020
-  },
-  {
     "title": "The New Sound",
     "artists": [
       "Geordie Greep"
     ],
     "year": 2024
-  },
-  {
-    "title": "No Title As Of 13 February 2024 28,340 Dead",
-    "artists": [
-      "Godspeed You Black Emperor!"
-    ],
-    "year": 2024
-  },
-  {
-    "title": "G_d's Pee At State's End!",
-    "artists": [
-      "Godspeed You Black Emperor!"
-    ],
-    "year": 2021
-  },
-  {
-    "title": "'Allelujah! Don't Bend Ascend",
-    "artists": [
-      "Godspeed You Black Emperor!"
-    ],
-    "year": 2012
-  },
-  {
-    "title": "F♯ A♯ ∞",
-    "artists": [
-      "Godspeed You Black Emperor!"
-    ],
-    "year": 2010
   },
   {
     "title": "Lift Your Skinny Fists Like Antennas To Heaven",
@@ -212,11 +184,39 @@
     "year": 2000
   },
   {
-    "title": "Demon Days",
+    "title": "F♯ A♯ ∞",
+    "artists": [
+      "Godspeed You Black Emperor!"
+    ],
+    "year": 2010
+  },
+  {
+    "title": "'Allelujah! Don't Bend Ascend",
+    "artists": [
+      "Godspeed You Black Emperor!"
+    ],
+    "year": 2012
+  },
+  {
+    "title": "G_d's Pee At State's End!",
+    "artists": [
+      "Godspeed You Black Emperor!"
+    ],
+    "year": 2021
+  },
+  {
+    "title": "No Title As Of 13 February 2024 28,340 Dead",
+    "artists": [
+      "Godspeed You Black Emperor!"
+    ],
+    "year": 2024
+  },
+  {
+    "title": "Gorillaz",
     "artists": [
       "Gorillaz"
     ],
-    "year": 2017
+    "year": 2001
   },
   {
     "title": "Plastic Beach",
@@ -226,11 +226,11 @@
     "year": 2010
   },
   {
-    "title": "Gorillaz",
+    "title": "Demon Days",
     "artists": [
       "Gorillaz"
     ],
-    "year": 2001
+    "year": 2017
   },
   {
     "title": "In Waves",
@@ -346,18 +346,18 @@
     "year": 2019
   },
   {
-    "title": "Always Outnumbered, Never Outgunned",
-    "artists": [
-      "The Prodigy"
-    ],
-    "year": 2024
-  },
-  {
     "title": "The Fat Of The Land",
     "artists": [
       "The Prodigy"
     ],
     "year": 0
+  },
+  {
+    "title": "Always Outnumbered, Never Outgunned",
+    "artists": [
+      "The Prodigy"
+    ],
+    "year": 2024
   },
   {
     "title": "Glitter And Doom Live",
@@ -381,17 +381,17 @@
     "year": 2013
   },
   {
-    "title": "13\" Frank Beltrame Italian Stiletto with Bison Horn Grips",
-    "artists": [
-      "Xiu Xiu"
-    ],
-    "year": 2024
-  },
-  {
     "title": "Forget",
     "artists": [
       "Xiu Xiu"
     ],
     "year": 2017
+  },
+  {
+    "title": "13\" Frank Beltrame Italian Stiletto with Bison Horn Grips",
+    "artists": [
+      "Xiu Xiu"
+    ],
+    "year": 2024
   }
 ]
