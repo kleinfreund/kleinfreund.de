@@ -28,6 +28,13 @@
     "year": 2023
   },
   {
+    "title": "Garip",
+    "artists": [
+      "Altın Gün"
+    ],
+    "year": 2026
+  },
+  {
     "title": "III",
     "artists": [
       "BadBadNotGood"
@@ -346,6 +353,27 @@
     "year": 2019
   },
   {
+    "title": "Disintegration",
+    "artists": [
+      "The Cure"
+    ],
+    "year": 2010
+  },
+  {
+    "title": "Pornography",
+    "artists": [
+      "The Cure"
+    ],
+    "year": 2016
+  },
+  {
+    "title": "Songs Of A Lost World / Songs Of A Live World: Troxy London MMXXIV",
+    "artists": [
+      "The Cure"
+    ],
+    "year": 2025
+  },
+  {
     "title": "The Fat Of The Land",
     "artists": [
       "The Prodigy"
@@ -365,6 +393,13 @@
       "Tom Waits"
     ],
     "year": 2017
+  },
+  {
+    "title": "Igor",
+    "artists": [
+      "Tyler, The Creator"
+    ],
+    "year": 2019
   },
   {
     "title": "Twice Around the Sun",

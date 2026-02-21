@@ -1,9 +1,18 @@
-date: 2026-01-11
+date: 2026-02-21
 items:
   - text:
       value: "2026"
       tag: h2
     lists:
+      - text:
+          value: Favorite albums so far
+          tag: strong
+        items:
+          - creators:
+              - value: Altın Gün
+            titles:
+              - value: Garip
+                href: https://altingun.bandcamp.com/album/garip
       - text:
           value: Books
           tag: strong
@@ -383,7 +392,7 @@ items:
                   - value: That! Feels Good
                     href: https://jessieware.bandcamp.com/album/that-feels-good
               - creators:
-                  - value: Altin Gün
+                  - value: Altın Gün
                 titles:
                   - value: Aşk
                     href: https://altingun.bandcamp.com/album/a-k
@@ -769,7 +778,7 @@ items:
                   - value: Urban Driftwood
                     href: https://yasminwilliams.bandcamp.com/album/urban-driftwood
               - creators:
-                  - value: Altin Gün
+                  - value: Altın Gün
                 titles:
                   - value: Yol
                     href: https://altingun.bandcamp.com/album/yol
