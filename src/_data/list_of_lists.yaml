@@ -1,4 +1,4 @@
-date: 2026-02-21
+date: 2026-03-14
 items:
   - text:
       value: "2026"
@@ -9,10 +9,19 @@ items:
           tag: strong
         items:
           - creators:
+              - value: Gorillaz
+            titles:
+              - value: The Mountain
+          - creators:
               - value: Altın Gün
             titles:
               - value: Garip
                 href: https://altingun.bandcamp.com/album/garip
+          - creators:
+              - value: hemlocke springs
+            titles:
+              - value: the apple tree under the sea
+                href: https://hemlockesprings.bandcamp.com/album/the-apple-tree-under-the-sea
       - text:
           value: Books
           tag: strong
