@@ -12,23 +12,11 @@ import pluginRss, {
 } from '@11ty/eleventy-plugin-rss'
 import { load } from 'cheerio'
 import CleanCSS from 'clean-css'
-import htmlMinifier from 'html-minifier'
+import { minify as htmlMinify } from 'html-minifier-next'
 import yaml from 'js-yaml'
 import { minify } from 'terser'
 
-/** @import { Options as HtmlMinifierOptions } from 'html-minifier' */
-
 const ELEVENTY_INPUT_DIR = 'src'
-
-/**
- * https://github.com/kangax/html-minifier#options-quick-reference
- *
- * @type {HtmlMinifierOptions}
- */
-const htmlMinifierOptions = {
-  useShortDoctype: true,
-  removeComments: true,
-}
 
 export default function (eleventyConfig) {
   // Allows data file to be stored in YAML
@@ -146,11 +134,11 @@ function minifyCss(content) {
 /**
  * @param {string} content
  * @param {string} outputPath
- * @returns {string} the minified HTML content
+ * @returns {string | Promise<string>} the minified HTML content
  */
 function minifyHtml(content, outputPath) {
   return outputPath.endsWith('.html')
-    ? htmlMinifier.minify(content, htmlMinifierOptions)
+    ? htmlMinify(content, { removeComments: true, useShortDoctype: true })
     : content
 }
 

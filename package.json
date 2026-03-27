@@ -23,7 +23,7 @@
     "cheerio": "^1.2.0",
     "clean-css": "^5.3.3",
     "cross-env": "^10.1.0",
-    "html-minifier": "^4.0.0",
+    "html-minifier-next": "^5.2.2",
     "js-yaml": "^4.1.1",
     "markdown-it": "^14.1.1",
     "markdown-it-anchor": "^9.2.0",
