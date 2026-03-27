@@ -4,7 +4,12 @@ import { inspect } from 'node:util'
 
 import { IdAttributePlugin } from '@11ty/eleventy'
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img'
-import pluginRss from '@11ty/eleventy-plugin-rss'
+import pluginRss, {
+  absoluteUrl,
+  convertHtmlToAbsoluteUrls,
+  dateToRfc3339,
+  getNewestCollectionItemDate,
+} from '@11ty/eleventy-plugin-rss'
 import { load } from 'cheerio'
 import CleanCSS from 'clean-css'
 import htmlMinifier from 'html-minifier'
@@ -73,10 +78,10 @@ export default function (eleventyConfig) {
 
   // RSS plugin
   eleventyConfig.addPlugin(pluginRss)
-  eleventyConfig.addFilter('absoluteUrl', pluginRss.absoluteUrl)
-  eleventyConfig.addFilter('convertHtmlToAbsoluteUrls', pluginRss.convertHtmlToAbsoluteUrls)
-  eleventyConfig.addFilter('dateToRfc3339', pluginRss.dateToRfc3339)
-  eleventyConfig.addFilter('getNewestCollectionItemDate', pluginRss.getNewestCollectionItemDate)
+  eleventyConfig.addFilter('absoluteUrl', absoluteUrl)
+  eleventyConfig.addFilter('convertHtmlToAbsoluteUrls', convertHtmlToAbsoluteUrls)
+  eleventyConfig.addFilter('dateToRfc3339', dateToRfc3339)
+  eleventyConfig.addFilter('getNewestCollectionItemDate', getNewestCollectionItemDate)
 
   // Image plugin
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
