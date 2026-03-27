@@ -171,17 +171,23 @@ const injectHeadingAnchorsDefaultOptions = {
  * @returns {(content: string) => string}
  */
 function createInjectHeadingAnchors(options) {
-  return function (content) {
-    return injectHeadingAnchors(content, options)
+  return function (content, outputPath) {
+    return injectHeadingAnchors(content, outputPath, options)
   }
 }
 
 /**
  * @param {string} content
+ * @param {string} outputPath
  * @param {InjectHeadingAnchorsOptions} [options]
  * @returns {string}
  */
-function injectHeadingAnchors(content, options) {
+function injectHeadingAnchors(content, outputPath, options) {
+  // Make sure to not process other content like the feed.xml file.
+  if (!outputPath.endsWith('.html')) {
+    return content
+  }
+
   /** @type {Required<InjectHeadingAnchorsOptions>} */
   const { selector } = {
     ...injectHeadingAnchorsDefaultOptions,
