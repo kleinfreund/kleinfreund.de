@@ -5,7 +5,7 @@ import { inspect } from 'node:util'
 import { IdAttributePlugin } from '@11ty/eleventy'
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img'
 import pluginRss from '@11ty/eleventy-plugin-rss'
-import * as cheerio from 'cheerio'
+import { load } from 'cheerio'
 import CleanCSS from 'clean-css'
 import htmlMinifier from 'html-minifier'
 import yaml from 'js-yaml'
@@ -195,7 +195,7 @@ function injectHeadingAnchors(content, options) {
     ...options,
   }
 
-  const $ = cheerio.load(content)
+  const $ = load(content)
   $(selector).map((_i, el) => {
     const $heading = $(el)
     $heading.attr('tabindex', '-1')
