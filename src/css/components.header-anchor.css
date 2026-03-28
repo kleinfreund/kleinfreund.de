@@ -1,5 +1,5 @@
 .header-anchor {
-  border-bottom: none;
+  border-block-end: none;
   font-weight: normal;
   text-decoration: none;
 }
@@ -7,7 +7,7 @@
 @media (width < 50rem) {
   .header-anchor {
     position: absolute;
-    right: 0;
+    inset-inline-end: 0;
   }
 }
 
@@ -15,8 +15,8 @@
   .header-anchor {
     --offset-from-heading: 0.25em;
     position: absolute;
-    right: calc(100% + var(--offset-from-heading));
-    margin-left: calc(-1 * var(--offset-from-heading));
+    inset-inline-end: calc(100% + var(--offset-from-heading));
+    margin-inline-start: calc(-1 * var(--offset-from-heading));
   }
 
   /*
@@ -27,10 +27,9 @@
   .header-anchor::before {
     content: "";
     position: absolute;
-    top: 0;
-    right: calc(-1 * var(--offset-from-heading));
-    bottom: 0;
-    left: 0;
+    inset-block: 0;
+    inset-inline-start: 0;
+    inset-inline-end: calc(-1 * var(--offset-from-heading));
   }
 }
 

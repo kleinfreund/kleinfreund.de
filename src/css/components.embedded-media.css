@@ -1,6 +1,4 @@
 .embedded-media {
-  --width: 16;
-  --height: 9;
   position: relative;
   margin-block-start: var(--f-vertical-spacing);
 }
@@ -9,7 +7,7 @@
   content: '';
   display: block;
   width: 100%;
-  padding-top: calc(var(--height) / var(--width) * 100%);
+  padding-block-start: calc(9 / 16 * 100%);
 }
 
 .embedded-media > iframe {

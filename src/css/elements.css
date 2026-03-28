@@ -103,11 +103,6 @@ strong {
   font-weight: bold;
 }
 
-abbr[title] {
-  text-decoration: none;
-  border-bottom: 0.1em dotted;
-}
-
 /*
 * IMAGES
 */
