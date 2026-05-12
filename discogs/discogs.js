@@ -1,6 +1,6 @@
 import { getAllResponses, getReleases } from './api.js'
 
-export default async function () {
+export async function getRecords () {
   const token = process.env.DISCOGS_PAT ?? ''
   if (token === '') {
     throw new Error('Environment variable DISCOGS_PAT must be provided.')
